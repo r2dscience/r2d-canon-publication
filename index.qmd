@@ -1,0 +1,7 @@
+# About this edition {.unnumbered}
+
+This volume brings together Parts I–IV of *Recursively Realized Distinguishability (R²D)*, Canon revision 2026-09-25. It is rendered from publication copies of the authoritative Markdown masters; the masters remain the source of truth.
+
+The September 14, 2026 integrated PDF remains an archival publication baseline. Each Part’s distinctions among definitions, derivations, postulates, physical mappings, and open questions remain in force.
+
+This Parts I–IV volume does not include the addenda.

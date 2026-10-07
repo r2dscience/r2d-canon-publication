@@ -1,0 +1,18 @@
+project:
+  type: book
+number-sections: false
+book:
+  title: "R²D Canon: Parts I–IV"
+  output-file: r2d-canon-parts-i-iv
+  chapters:
+    - index.qmd
+    - canon/part-i.md
+    - canon/part-ii.md
+    - canon/part-iii.md
+    - canon/part-iv.md
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
