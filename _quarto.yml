@@ -1,18 +1,98 @@
 project:
   type: book
+
 number-sections: false
+
 book:
-  title: "R²D Canon: Parts I–IV"
-  output-file: r2d-canon-parts-i-iv
+  title: "R²D Canon and Addenda"
+  output-file: r2d-canon-and-addenda
   chapters:
     - index.qmd
     - canon/part-i.md
     - canon/part-ii.md
     - canon/part-iii.md
     - canon/part-iv.md
-
+    - part: "Addenda"
+      chapters:
+        - addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.md
+        - addenda/addendum-002-boundary-mass-occurs-before-relativity.md
+        - addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.md
+        - addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.md
+        - addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.md
+        - addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.md
+        - addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.md
+        - addenda/addendum-008-biological-function-makes-recursive-replacement-observable.md
+        - addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.md
+        - addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.md
+        - addenda/addendum-011-enclosing-relation-occurs-before-biological-function.md
+        - addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.md
+        - addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.md
+        - addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.md
+        - addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.md
+        - addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.md
+        - addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.md
+        - addenda/addendum-041-gravitational-area-occurs-before-areal-radius.md
+        - addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.md
+        - addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.md
+        - addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.md
+        - addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.md
+        - addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.md
+        - addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.md
+        - addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.md
+        - addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.md
+        - addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.md
+        - addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.md
+        - addenda/addendum-052-count-to-space-calibration-occurs-before-g.md
+        - addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.md
+        - addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.md
+        - addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.md
+        - addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.md
+        - addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.md
+        - addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.md
+        - addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.md
+        - addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.md
+        - addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.md
+        - addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.md
+        - addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.md
+        - addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.md
+        - addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.md
+        - addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.md
+        - addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.md
+        - addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.md
+        - addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.md
+        - addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.md
+        - addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.md
+        - addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.md
+        - addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.md
+        - addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.md
+        - addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.md
+        - addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.md
+        - addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.md
+        - addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.md
+        - addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.md
+        - addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.md
+        - addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.md
+        - addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.md
+        - addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.md
+        - addenda/addendum-084-paradox-as-boundary-projection.md
+        - addenda/addendum-085-local-agency-and-enclosing-dependence.md
+        - addenda/addendum-086-the-status-of-a-physical-mapping.md
+        - addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.md
+        - addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.md
+        - addenda/addendum-089-logical-consistency-before-physical-comparison.md
+        - addenda/addendum-090-ecosystems-and-enclosing-sustenance.md
+        - addenda/addendum-091-societies-and-enclosing-organization.md
+        - addenda/addendum-092-markets-compatibility-and-enclosing-dependence.md
+        - addenda/addendum-093-institutions-roles-and-sustained-organization.md
+        - addenda/addendum-094-life-and-sustained-viable-organization.md
+        - addenda/addendum-095-evolution-as-enclosing-possibility.md
+        - addenda/addendum-096-local-laws-and-global-fit.md
+        - addenda/addendum-097-mathematical-structure-before-local-laws.md
 format:
   html:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    include-in-header:
+      text: |
+        \usepackage{mathtools}
