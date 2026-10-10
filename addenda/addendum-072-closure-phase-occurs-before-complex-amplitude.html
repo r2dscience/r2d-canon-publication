@@ -1,0 +1,2096 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 72 — Closure Phase Occurs Before Complex Amplitude – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" rel="next">
+<link href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-72-closure-phase-occurs-before-complex-amplitude" id="toc-addendum-72-closure-phase-occurs-before-complex-amplitude" class="nav-link active" data-scroll-target="#addendum-72-closure-phase-occurs-before-complex-amplitude">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-quantum-boundary-must-be-defined-before-the-quantum-state" id="toc-the-quantum-boundary-must-be-defined-before-the-quantum-state" class="nav-link" data-scroll-target="#the-quantum-boundary-must-be-defined-before-the-quantum-state">1. The Quantum Boundary Must Be Defined Before the Quantum State</a></li>
+  <li><a href="#the-subordinate-boundary-has-its-own-state-domain" id="toc-the-subordinate-boundary-has-its-own-state-domain" class="nav-link" data-scroll-target="#the-subordinate-boundary-has-its-own-state-domain">2. The Subordinate Boundary Has Its Own State Domain</a></li>
+  <li><a href="#a-subordinate-closure-may-be-written-schematically-as" id="toc-a-subordinate-closure-may-be-written-schematically-as" class="nav-link" data-scroll-target="#a-subordinate-closure-may-be-written-schematically-as">3. A Subordinate Closure May Be Written Schematically As</a></li>
+  <li><a href="#recursive-carry-does-not-preserve-that-path-as-hidden-state-identity" id="toc-recursive-carry-does-not-preserve-that-path-as-hidden-state-identity" class="nav-link" data-scroll-target="#recursive-carry-does-not-preserve-that-path-as-hidden-state-identity">4. Recursive Carry Does Not Preserve That Path as Hidden State Identity</a></li>
+  <li><a href="#therefore" id="toc-therefore" class="nav-link" data-scroll-target="#therefore">5. Therefore</a></li>
+  <li><a href="#the-quantum-boundary-does-not-contain-an-unseen-classical-path" id="toc-the-quantum-boundary-does-not-contain-an-unseen-classical-path" class="nav-link" data-scroll-target="#the-quantum-boundary-does-not-contain-an-unseen-classical-path">6. The Quantum Boundary Does Not Contain an Unseen Classical Path</a></li>
+  <li><a href="#the-correct-ordering-is" id="toc-the-correct-ordering-is" class="nav-link" data-scroll-target="#the-correct-ordering-is">7. The Correct Ordering Is</a></li>
+  <li><a href="#recurrence-is-therefore-boundary-native" id="toc-recurrence-is-therefore-boundary-native" class="nav-link" data-scroll-target="#recurrence-is-therefore-boundary-native">8. Recurrence Is Therefore Boundary Native</a></li>
+  <li><a href="#this-is-the-quantum-side-readability-condition" id="toc-this-is-the-quantum-side-readability-condition" class="nav-link" data-scroll-target="#this-is-the-quantum-side-readability-condition">9. This Is the Quantum-Side Readability Condition</a></li>
+  <li><a href="#recurrence-comes-before-phase" id="toc-recurrence-comes-before-phase" class="nav-link" data-scroll-target="#recurrence-comes-before-phase">10. Recurrence Comes Before Phase</a></li>
+  <li><a href="#label-those-positions" id="toc-label-those-positions" class="nav-link" data-scroll-target="#label-those-positions">11. Label Those Positions</a></li>
+  <li><a href="#closure-requires" id="toc-closure-requires" class="nav-link" data-scroll-target="#closure-requires">12. Closure Requires</a></li>
+  <li><a href="#composition-is-modular" id="toc-composition-is-modular" class="nav-link" data-scroll-target="#composition-is-modular">13. Composition Is Modular</a></li>
+  <li><a href="#the-closure-therefore-has-a-cyclic-algebra" id="toc-the-closure-therefore-has-a-cyclic-algebra" class="nav-link" data-scroll-target="#the-closure-therefore-has-a-cyclic-algebra">14. The Closure Therefore Has a Cyclic Algebra</a></li>
+  <li><a href="#no-complex-number-has-yet-been-introduced" id="toc-no-complex-number-has-yet-been-introduced" class="nav-link" data-scroll-target="#no-complex-number-has-yet-been-introduced">15. No Complex Number Has Yet Been Introduced</a></li>
+  <li><a href="#phase-is-a-coordinate-on-that-closure" id="toc-phase-is-a-coordinate-on-that-closure" class="nav-link" data-scroll-target="#phase-is-a-coordinate-on-that-closure">16. Phase Is a Coordinate on That Closure</a></li>
+  <li><a href="#closure-identifies-phase-modulo-2π" id="toc-closure-identifies-phase-modulo-2π" class="nav-link" data-scroll-target="#closure-identifies-phase-modulo-2π">17. Closure Identifies Phase Modulo 2π</a></li>
+  <li><a href="#complex-phase-represents-the-cyclic-composition-law" id="toc-complex-phase-represents-the-cyclic-composition-law" class="nav-link" data-scroll-target="#complex-phase-represents-the-cyclic-composition-law">18. Complex Phase Represents the Cyclic Composition Law</a></li>
+  <li><a href="#closure-is-automatic" id="toc-closure-is-automatic" class="nav-link" data-scroll-target="#closure-is-automatic">19. Closure Is Automatic</a></li>
+  <li><a href="#recurrence-composition-becomes-multiplication" id="toc-recurrence-composition-becomes-multiplication" class="nav-link" data-scroll-target="#recurrence-composition-becomes-multiplication">20. Recurrence Composition Becomes Multiplication</a></li>
+  <li><a href="#more-generally-the-cyclic-characters-are" id="toc-more-generally-the-cyclic-characters-are" class="nav-link" data-scroll-target="#more-generally-the-cyclic-characters-are">21. More Generally, the Cyclic Characters Are</a></li>
+  <li><a href="#they-satisfy" id="toc-they-satisfy" class="nav-link" data-scroll-target="#they-satisfy">22. They Satisfy</a></li>
+  <li><a href="#the-m-1-character-is-faithful" id="toc-the-m-1-character-is-faithful" class="nav-link" data-scroll-target="#the-m-1-character-is-faithful">23. The m = 1 Character Is Faithful</a></li>
+  <li><a href="#therefore-complex-phase-has-a-specific-r2d-role" id="toc-therefore-complex-phase-has-a-specific-r2d-role" class="nav-link" data-scroll-target="#therefore-complex-phase-has-a-specific-r2d-role">24. Therefore Complex Phase Has a Specific R2D Role</a></li>
+  <li><a href="#this-strengthens-the-existing-phase-principle" id="toc-this-strengthens-the-existing-phase-principle" class="nav-link" data-scroll-target="#this-strengthens-the-existing-phase-principle">25. This Strengthens the Existing Phase Principle</a></li>
+  <li><a href="#complex-numbers-are-not-primitive-substance" id="toc-complex-numbers-are-not-primitive-substance" class="nav-link" data-scroll-target="#complex-numbers-are-not-primitive-substance">26. Complex Numbers Are Not Primitive Substance</a></li>
+  <li><a href="#thus-i-need-not-be-given-ontological-meaning" id="toc-thus-i-need-not-be-given-ontological-meaning" class="nav-link" data-scroll-target="#thus-i-need-not-be-given-ontological-meaning">27. Thus i Need Not Be Given Ontological Meaning</a></li>
+  <li><a href="#continuous-phase-comes-later" id="toc-continuous-phase-comes-later" class="nav-link" data-scroll-target="#continuous-phase-comes-later">28. Continuous Phase Comes Later</a></li>
+  <li><a href="#the-continuous-phase-representation-is-u-1" id="toc-the-continuous-phase-representation-is-u-1" class="nav-link" data-scroll-target="#the-continuous-phase-representation-is-u-1">29. The Continuous Phase Representation Is U (1)</a></li>
+  <li><a href="#the-count-domain-still-comes-first" id="toc-the-count-domain-still-comes-first" class="nav-link" data-scroll-target="#the-count-domain-still-comes-first">30. The Count Domain Still Comes First</a></li>
+  <li><a href="#oriented-phase-has-a-natural-generator" id="toc-oriented-phase-has-a-natural-generator" class="nav-link" data-scroll-target="#oriented-phase-has-a-natural-generator">31. Oriented Phase Has a Natural Generator</a></li>
+  <li><a href="#physical-clock-calibration-introduces-ω" id="toc-physical-clock-calibration-introduces-ω" class="nav-link" data-scroll-target="#physical-clock-calibration-introduces-ω">32. Physical Clock Calibration Introduces ω</a></li>
+  <li><a href="#thus-iω-is-a-phase-generator" id="toc-thus-iω-is-a-phase-generator" class="nav-link" data-scroll-target="#thus-iω-is-a-phase-generator">33. Thus iω Is a Phase Generator</a></li>
+  <li><a href="#this-is-not-yet-schrödinger-evolution" id="toc-this-is-not-yet-schrödinger-evolution" class="nav-link" data-scroll-target="#this-is-not-yet-schrödinger-evolution">34. This Is Not Yet Schrödinger Evolution</a></li>
+  <li><a href="#energy-calibration-comes-later" id="toc-energy-calibration-comes-later" class="nav-link" data-scroll-target="#energy-calibration-comes-later">35. Energy Calibration Comes Later</a></li>
+  <li><a href="#phase-exists-before-wave" id="toc-phase-exists-before-wave" class="nav-link" data-scroll-target="#phase-exists-before-wave">36. Phase Exists Before Wave</a></li>
+  <li><a href="#therefore-phase-is-not-initially-a-wave-phase" id="toc-therefore-phase-is-not-initially-a-wave-phase" class="nav-link" data-scroll-target="#therefore-phase-is-not-initially-a-wave-phase">37. Therefore Phase Is Not Initially a Wave Phase</a></li>
+  <li><a href="#a-wave-requires-a-later-distributed-physical-mapping" id="toc-a-wave-requires-a-later-distributed-physical-mapping" class="nav-link" data-scroll-target="#a-wave-requires-a-later-distributed-physical-mapping">38. A Wave Requires a Later Distributed Physical Mapping</a></li>
+  <li><a href="#then-the-corresponding-wave-representation-is" id="toc-then-the-corresponding-wave-representation-is" class="nav-link" data-scroll-target="#then-the-corresponding-wave-representation-is">39. Then the Corresponding Wave Representation Is</a></li>
+  <li><a href="#the-logical-order-is" id="toc-the-logical-order-is" class="nav-link" data-scroll-target="#the-logical-order-is">40. The Logical Order Is</a></li>
+  <li><a href="#not" id="toc-not" class="nav-link" data-scroll-target="#not">41. Not</a></li>
+  <li><a href="#this-matters-for-nonspatial-quantum-degrees-of-freedom" id="toc-this-matters-for-nonspatial-quantum-degrees-of-freedom" class="nav-link" data-scroll-target="#this-matters-for-nonspatial-quantum-degrees-of-freedom">42. This Matters for Nonspatial Quantum Degrees of Freedom</a></li>
+  <li><a href="#the-wave-does-not-contain-the-recurrence" id="toc-the-wave-does-not-contain-the-recurrence" class="nav-link" data-scroll-target="#the-wave-does-not-contain-the-recurrence">43. The Wave Does Not Contain the Recurrence</a></li>
+  <li><a href="#absolute-phase-zero-is-not-defined-by-closure" id="toc-absolute-phase-zero-is-not-defined-by-closure" class="nav-link" data-scroll-target="#absolute-phase-zero-is-not-defined-by-closure">44. Absolute Phase Zero Is Not Defined by Closure</a></li>
+  <li><a href="#therefore-1" id="toc-therefore-1" class="nav-link" data-scroll-target="#therefore-1">45. Therefore</a></li>
+  <li><a href="#relative-phase-is-preserved" id="toc-relative-phase-is-preserved" class="nav-link" data-scroll-target="#relative-phase-is-preserved">46. Relative Phase Is Preserved</a></li>
+  <li><a href="#this-is-the-seed-of-global-gauge-freedom" id="toc-this-is-the-seed-of-global-gauge-freedom" class="nav-link" data-scroll-target="#this-is-the-seed-of-global-gauge-freedom">47. This Is the Seed of Global Gauge Freedom</a></li>
+  <li><a href="#counting-gives-invariance-reference-choice-gives-freedom" id="toc-counting-gives-invariance-reference-choice-gives-freedom" class="nav-link" data-scroll-target="#counting-gives-invariance-reference-choice-gives-freedom">48. Counting Gives Invariance; Reference Choice Gives Freedom</a></li>
+  <li><a href="#cyclic-closure-also-generates-orthogonality" id="toc-cyclic-closure-also-generates-orthogonality" class="nav-link" data-scroll-target="#cyclic-closure-also-generates-orthogonality">49. Cyclic Closure Also Generates Orthogonality</a></li>
+  <li><a href="#substitute-the-character-form" id="toc-substitute-the-character-form" class="nav-link" data-scroll-target="#substitute-the-character-form">50. Substitute the Character Form</a></li>
+  <li><a href="#if-m-m" id="toc-if-m-m" class="nav-link" data-scroll-target="#if-m-m">51. If m = m′</a></li>
+  <li><a href="#if-mne-m" id="toc-if-mne-m" class="nav-link" data-scroll-target="#if-mne-m">52. If <span class="math inline">\(m\ne m'\)</span></a></li>
+  <li><a href="#therefore-2" id="toc-therefore-2" class="nav-link" data-scroll-target="#therefore-2">53. Therefore</a></li>
+  <li><a href="#this-is-potentially-the-first-bridge-toward-quantum-state-space" id="toc-this-is-potentially-the-first-bridge-toward-quantum-state-space" class="nav-link" data-scroll-target="#this-is-potentially-the-first-bridge-toward-quantum-state-space">54. This Is Potentially the First Bridge Toward Quantum State Space</a></li>
+  <li><a href="#but-this-is-not-yet-hilbert-space" id="toc-but-this-is-not-yet-hilbert-space" class="nav-link" data-scroll-target="#but-this-is-not-yet-hilbert-space">55. But This Is Not Yet Hilbert Space</a></li>
+  <li><a href="#any-function-on-the-closure-can-be-expanded-in-characters" id="toc-any-function-on-the-closure-can-be-expanded-in-characters" class="nav-link" data-scroll-target="#any-function-on-the-closure-can-be-expanded-in-characters">56. Any Function on the Closure Can Be Expanded in Characters</a></li>
+  <li><a href="#the-coefficients-are" id="toc-the-coefficients-are" class="nav-link" data-scroll-target="#the-coefficients-are">57. The Coefficients Are</a></li>
+  <li><a href="#complex-vector-coordinates-therefore-arise-naturally-from-closure-decomposition" id="toc-complex-vector-coordinates-therefore-arise-naturally-from-closure-decomposition" class="nav-link" data-scroll-target="#complex-vector-coordinates-therefore-arise-naturally-from-closure-decomposition">58. Complex Vector Coordinates Therefore Arise Naturally From Closure Decomposition</a></li>
+  <li><a href="#this-is-important-but-insufficient" id="toc-this-is-important-but-insufficient" class="nav-link" data-scroll-target="#this-is-important-but-insufficient">59. This Is Important but Insufficient</a></li>
+  <li><a href="#phase-must-therefore-be-separated-from-amplitude" id="toc-phase-must-therefore-be-separated-from-amplitude" class="nav-link" data-scroll-target="#phase-must-therefore-be-separated-from-amplitude">60. Phase Must Therefore Be Separated From Amplitude</a></li>
+  <li><a href="#the-wavefunction-contains-both" id="toc-the-wavefunction-contains-both" class="nav-link" data-scroll-target="#the-wavefunction-contains-both">61. The Wavefunction Contains Both</a></li>
+  <li><a href="#therefore-3" id="toc-therefore-3" class="nav-link" data-scroll-target="#therefore-3">62. Therefore</a></li>
+  <li><a href="#the-candidate-occupancy-mapping-must-be-reclassified" id="toc-the-candidate-occupancy-mapping-must-be-reclassified" class="nav-link" data-scroll-target="#the-candidate-occupancy-mapping-must-be-reclassified">63. The Candidate Occupancy Mapping Must Be Reclassified</a></li>
+  <li><a href="#algebraically-this-is-correct" id="toc-algebraically-this-is-correct" class="nav-link" data-scroll-target="#algebraically-this-is-correct">64. Algebraically This Is Correct</a></li>
+  <li><a href="#but-r2d-has-not-yet-derived-the-choice" id="toc-but-r2d-has-not-yet-derived-the-choice" class="nav-link" data-scroll-target="#but-r2d-has-not-yet-derived-the-choice">65. But R2D Has Not Yet Derived the Choice</a></li>
+  <li><a href="#the-frozen-count-distinction-must-be-preserved" id="toc-the-frozen-count-distinction-must-be-preserved" class="nav-link" data-scroll-target="#the-frozen-count-distinction-must-be-preserved">66. The Frozen Count Distinction Must Be Preserved</a></li>
+  <li><a href="#multiplicity-cannot-be-substituted-silently" id="toc-multiplicity-cannot-be-substituted-silently" class="nav-link" data-scroll-target="#multiplicity-cannot-be-substituted-silently">67. Multiplicity Cannot Be Substituted Silently</a></li>
+  <li><a href="#the-first-burden-is-to-define-the-alternatives" id="toc-the-first-burden-is-to-define-the-alternatives" class="nav-link" data-scroll-target="#the-first-burden-is-to-define-the-alternatives">68. The First Burden Is to Define the Alternatives</a></li>
+  <li><a href="#they-cannot-be-assumed-to-be-primitive-objects" id="toc-they-cannot-be-assumed-to-be-primitive-objects" class="nav-link" data-scroll-target="#they-cannot-be-assumed-to-be-primitive-objects">69. They Cannot Be Assumed to Be Primitive Objects</a></li>
+  <li><a href="#the-second-burden-is-amplitude-magnitude" id="toc-the-second-burden-is-amplitude-magnitude" class="nav-link" data-scroll-target="#the-second-burden-is-amplitude-magnitude">70. The Second Burden Is Amplitude Magnitude</a></li>
+  <li><a href="#the-third-burden-is-linear-superposition" id="toc-the-third-burden-is-linear-superposition" class="nav-link" data-scroll-target="#the-third-burden-is-linear-superposition">71. The Third Burden Is Linear Superposition</a></li>
+  <li><a href="#this-is-a-distinct-mathematical-requirement" id="toc-this-is-a-distinct-mathematical-requirement" class="nav-link" data-scroll-target="#this-is-a-distinct-mathematical-requirement">72. This Is a Distinct Mathematical Requirement</a></li>
+  <li><a href="#the-fourth-burden-is-the-inner-product" id="toc-the-fourth-burden-is-the-inner-product" class="nav-link" data-scroll-target="#the-fourth-burden-is-the-inner-product">73. The Fourth Burden Is the Inner Product</a></li>
+  <li><a href="#the-fifth-burden-is-the-quadratic-norm" id="toc-the-fifth-burden-is-the-quadratic-norm" class="nav-link" data-scroll-target="#the-fifth-burden-is-the-quadratic-norm">74. The Fifth Burden Is the Quadratic Norm</a></li>
+  <li><a href="#the-sixth-burden-is-normalization" id="toc-the-sixth-burden-is-normalization" class="nav-link" data-scroll-target="#the-sixth-burden-is-normalization">75. The Sixth Burden Is Normalization</a></li>
+  <li><a href="#the-seventh-burden-is-basis-independence" id="toc-the-seventh-burden-is-basis-independence" class="nav-link" data-scroll-target="#the-seventh-burden-is-basis-independence">76. The Seventh Burden Is Basis Independence</a></li>
+  <li><a href="#count-preservation-suggests-norm-preservation" id="toc-count-preservation-suggests-norm-preservation" class="nav-link" data-scroll-target="#count-preservation-suggests-norm-preservation">77. Count Preservation Suggests Norm Preservation</a></li>
+  <li><a href="#but-unitarity-must-be-earned" id="toc-but-unitarity-must-be-earned" class="nav-link" data-scroll-target="#but-unitarity-must-be-earned">78. But Unitarity Must Be Earned</a></li>
+  <li><a href="#the-eighth-burden-is-the-general-born-rule" id="toc-the-eighth-burden-is-the-general-born-rule" class="nav-link" data-scroll-target="#the-eighth-burden-is-the-general-born-rule">79. The Eighth Burden Is the General Born Rule</a></li>
+  <li><a href="#a-fixed-basis-occupancy-identity-is-not-enough" id="toc-a-fixed-basis-occupancy-identity-is-not-enough" class="nav-link" data-scroll-target="#a-fixed-basis-occupancy-identity-is-not-enough">80. A Fixed-Basis Occupancy Identity Is Not Enough</a></li>
+  <li><a href="#the-ninth-burden-is-composite-state-structure" id="toc-the-ninth-burden-is-composite-state-structure" class="nav-link" data-scroll-target="#the-ninth-burden-is-composite-state-structure">81. The Ninth Burden Is Composite State Structure</a></li>
+  <li><a href="#this-will-matter-for-entanglement" id="toc-this-will-matter-for-entanglement" class="nav-link" data-scroll-target="#this-will-matter-for-entanglement">82. This Will Matter for Entanglement</a></li>
+  <li><a href="#therefore-three-levels-must-remain-distinct" id="toc-therefore-three-levels-must-remain-distinct" class="nav-link" data-scroll-target="#therefore-three-levels-must-remain-distinct">83. Therefore Three Levels Must Remain Distinct</a></li>
+  <li><a href="#closure-phase-is" id="toc-closure-phase-is" class="nav-link" data-scroll-target="#closure-phase-is">84. Closure Phase Is</a></li>
+  <li><a href="#complex-amplitude-is" id="toc-complex-amplitude-is" class="nav-link" data-scroll-target="#complex-amplitude-is">85. Complex Amplitude Is</a></li>
+  <li><a href="#a-quantum-state-vector-is" id="toc-a-quantum-state-vector-is" class="nav-link" data-scroll-target="#a-quantum-state-vector-is">86. A Quantum State Vector Is</a></li>
+  <li><a href="#the-born-rule-adds-another-layer" id="toc-the-born-rule-adds-another-layer" class="nav-link" data-scroll-target="#the-born-rule-adds-another-layer">87. The Born Rule Adds Another Layer</a></li>
+  <li><a href="#principle-subordinate-path-replacement-precedes-quantum-recurrence" id="toc-principle-subordinate-path-replacement-precedes-quantum-recurrence" class="nav-link" data-scroll-target="#principle-subordinate-path-replacement-precedes-quantum-recurrence">88. Principle — Subordinate Path Replacement Precedes Quantum Recurrence</a></li>
+  <li><a href="#principle-boundary-native-recurrence-precedes-phase" id="toc-principle-boundary-native-recurrence-precedes-phase" class="nav-link" data-scroll-target="#principle-boundary-native-recurrence-precedes-phase">89. Principle — Boundary-Native Recurrence Precedes Phase</a></li>
+  <li><a href="#principle-closure-defines-a-cyclic-composition-law" id="toc-principle-closure-defines-a-cyclic-composition-law" class="nav-link" data-scroll-target="#principle-closure-defines-a-cyclic-composition-law">90. Principle — Closure Defines a Cyclic Composition Law</a></li>
+  <li><a href="#principle-complex-phase-represents-closure" id="toc-principle-complex-phase-represents-closure" class="nav-link" data-scroll-target="#principle-complex-phase-represents-closure">91. Principle — Complex Phase Represents Closure</a></li>
+  <li><a href="#principle-continuous-phase-is-a-later-physical-representation" id="toc-principle-continuous-phase-is-a-later-physical-representation" class="nav-link" data-scroll-target="#principle-continuous-phase-is-a-later-physical-representation">92. Principle — Continuous Phase Is a Later Physical Representation</a></li>
+  <li><a href="#principle-phase-precedes-wave" id="toc-principle-phase-precedes-wave" class="nav-link" data-scroll-target="#principle-phase-precedes-wave">93. Principle — Phase Precedes Wave</a></li>
+  <li><a href="#principle-wave-is-a-distributed-phase-read" id="toc-principle-wave-is-a-distributed-phase-read" class="nav-link" data-scroll-target="#principle-wave-is-a-distributed-phase-read">94. Principle — Wave Is a Distributed Phase Read</a></li>
+  <li><a href="#principle-absolute-phase-zero-is-not-primitive" id="toc-principle-absolute-phase-zero-is-not-primitive" class="nav-link" data-scroll-target="#principle-absolute-phase-zero-is-not-primitive">95. Principle — Absolute Phase Zero Is Not Primitive</a></li>
+  <li><a href="#principle-closure-characters-are-naturally-orthogonal" id="toc-principle-closure-characters-are-naturally-orthogonal" class="nav-link" data-scroll-target="#principle-closure-characters-are-naturally-orthogonal">96. Principle — Closure Characters Are Naturally Orthogonal</a></li>
+  <li><a href="#principle-orthogonality-does-not-yet-derive-quantum-state-space" id="toc-principle-orthogonality-does-not-yet-derive-quantum-state-space" class="nav-link" data-scroll-target="#principle-orthogonality-does-not-yet-derive-quantum-state-space">97. Principle — Orthogonality Does Not Yet Derive Quantum State Space</a></li>
+  <li><a href="#principle-phase-does-not-determine-amplitude-magnitude" id="toc-principle-phase-does-not-determine-amplitude-magnitude" class="nav-link" data-scroll-target="#principle-phase-does-not-determine-amplitude-magnitude">98. Principle — Phase Does Not Determine Amplitude Magnitude</a></li>
+  <li><a href="#principle-c-is-a-candidate-mapping-not-yet-a-primitive-result" id="toc-principle-c-is-a-candidate-mapping-not-yet-a-primitive-result" class="nav-link" data-scroll-target="#principle-c-is-a-candidate-mapping-not-yet-a-primitive-result">99. Principle — c Is a Candidate Mapping, Not Yet a Primitive Result</a></li>
+  <li><a href="#principle-the-state-vector-requires-additional-structure" id="toc-principle-the-state-vector-requires-additional-structure" class="nav-link" data-scroll-target="#principle-the-state-vector-requires-additional-structure">100. Principle — The State Vector Requires Additional Structure</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">101. Logical Status</a></li>
+  <li><a href="#the-complete-phase-architecture" id="toc-the-complete-phase-architecture" class="nav-link" data-scroll-target="#the-complete-phase-architecture">102. The Complete Phase Architecture</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">103. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></h1>
+<p class="subtitle lead">Recursive Replacement, Boundary-Native Recurrence, Cyclic Representation, and the Burden of Constructing the Quantum State Vector</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-72-closure-phase-occurs-before-complex-amplitude" class="level1">
+<h1>Addendum 72 — Closure Phase Occurs Before Complex Amplitude</h1>
+<p><em>Recursive Replacement, Boundary-Native Recurrence, Cyclic Representation, and the Burden of Constructing the Quantum State Vector</em></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<!-- source_pdf_page: 2382 -->
+<p>Quantum mechanics is conventionally formulated through complex amplitudes.</p>
+<p>A physical state is represented by a vector</p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>whose components are complex numbers.</p>
+<p>Those components evolve through complex phase, interfere linearly, and produce observed outcome weights through their squared magnitudes.</p>
+<p>R2D cannot begin there.</p>
+<p>The complex quantum state vector is already a mature physical projection containing several logically distinct structures:</p>
+<ul>
+<li>recurrence;</li>
+<li>phase;</li>
+<li>amplitude;</li>
+<li>linear superposition;</li>
+<li>orthogonality;</li>
+<li>normalization;</li>
+<li>basis transformation;</li>
+<li>and measurement weight.</li>
+</ul>
+<p>These structures must be separated.</p>
+<p>The first quantum-side relation is more primitive.</p>
+<p>At a quantum boundary Bn , the subordinate path at Bn−1 has already been recursively replaced.</p>
+<p>The boundary Bn does not contain that subordinate trajectory as a hidden path waiting to be resolved.</p>
+<p>Instead, Bn possesses its own native recurrence relation.</p>
+<!-- source_pdf_page: 2383 -->
+<p>Thus the R2D ordering is</p>
+<blockquote class="blockquote">
+<p>subordinate closure → recursive replacement → boundary-native recurrence → phase.</p>
+</blockquote>
+<p>Only after a physical spatial and temporal mapping is supplied does that phase acquire a wave representation.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>phase occurs before wave.</p>
+</blockquote>
+<p>The integrated R2D development already identified recurrence as primary to wave and particle description, with particle count reading completed occurrences and wave/phase reading their recurrence relation. It also explicitly stated that the complex phase is a representation of recurrence rather than recurrence itself.</p>
+<p>This addendum strengthens that result.</p>
+<p>Suppose a boundary-native closure contains Kn distinguishable ordered recurrence positions:</p>
+<p><span class="math display">\[ j=0,1,\ldots,K_n-1. \]</span></p>
+<p>Closure requires</p>
+<p><span class="math display">\[ j+K_n\sim j. \]</span></p>
+<p>Composition is therefore addition modulo Kn :</p>
+<p><span class="math display">\[ j\oplus r=(j+r)\bmod K_n. \]</span></p>
+<p>The recurrence positions form the cyclic group</p>
+<p><span class="math display">\[ C_{K_n}\cong\mathbb Z/K_n\mathbb Z. \]</span></p>
+<p>This structure exists before quantum amplitude, before wave mechanics, and before a physical continuum coordinate is assigned.</p>
+<p>Its one-dimensional complex unitary representations are</p>
+<p><span class="math display">\[ \chi_m(j)=\exp\!\left(i\frac{2\pi mj}{K_n}\right), \]</span></p>
+<p>with m defined modulo Kn .</p>
+<p>These satisfy</p>
+<p><span class="math display">\[ \chi_m(j\oplus r)=\chi_m(j)\chi_m(r), \]</span></p>
+<!-- source_pdf_page: 2384 -->
+<p>and automatically preserve closure:</p>
+<p><span class="math display">\[\chi_m(j+K_n)=\chi_m(j)\]</span></p>
+<p>For m = 1,</p>
+<p><span class="math display">\[ z_j=e^{i2\pi j/K_n}\]</span></p>
+<p>is a faithful one-complex-dimensional representation of the ordered cyclic closure.</p>
+<p>Thus complex phase need not be introduced as primitive mathematical substance.</p>
+<p>It follows naturally as a representation of closure composition.</p>
+<p>The ordering becomes</p>
+<blockquote class="blockquote">
+<p>boundary-native closure → CKn → eiϕ .</p>
+</blockquote>
+<p>If the physical recurrence is subsequently represented by a continuously parameterized phase coordinate,</p>
+<p><span class="math display">\[ \phi\in\mathbb R/2\pi\mathbb Z, \]</span></p>
+<p>then</p>
+<p><span class="math display">\[ z(\phi)=e^{i\phi}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ z(\phi+2\pi)=z(\phi)\]</span></p>
+<p>The continuously parameterized physical representation is therefore the circle group</p>
+<p><span class="math display">\[ U(1)\]</span></p>
+<p>The continuous phase representation comes after the closure relation.</p>
+<p>It does not define the primitive count domain.</p>
+<p>The complex unit i then acquires a simple mathematical role.</p>
+<p>Because</p>
+<p><span class="math display">\[ z(\phi)=e^{i\phi},\qquad\frac{dz}{d\phi}=iz. \]</span></p>
+<!-- source_pdf_page: 2385 -->
+<p>After a physical clock calibration gives</p>
+<p><span class="math display">\[ \frac{d\phi}{dt}=\omega, \]</span></p>
+<p>the recurrence representation satisfies</p>
+<p><span class="math display">\[\frac{dz}{dt}=i\omega z\]</span></p>
+<p>up to the chosen orientation convention.</p>
+<p>Thus the appearance of i in quantum evolution need not begin as an unexplained algebraic postulate.</p>
+<p>It is already the generator of oriented cyclic phase in the complex representation of closure.</p>
+<p>But this does not yet derive the Schrödinger equation.</p>
+<p>Nor does it derive a quantum amplitude.</p>
+<p>Nor does it derive a Hilbert space.</p>
+<p>The distinction is essential.</p>
+<p>Closure gives</p>
+<p><span class="math display">\[ e^{i\phi}\]</span></p>
+<p>A complex amplitude requires</p>
+<p><span class="math display">\[ Ae^{i\phi}\]</span></p>
+<p>A quantum state vector requires</p>
+<p><span class="math display">\[|\psi\rangle=\sum_i A_i e^{i\phi_i}|i\rangle\]</span></p>
+<p>And the Born rule requires a further relation between realized physical count and</p>
+<p><span class="math display">\[|\langle i|\psi\rangle|^2\]</span></p>
+<p>These are different mathematical steps.</p>
+<p>The present integrated R2D text currently writes</p>
+<p><span class="math display">\[\psi=Ae^{i\phi}\]</span></p>
+<!-- source_pdf_page: 2386 -->
+<p>and correctly states that the amplitude A has not yet been identified term by term with primitive multiplicity or occupancy.</p>
+<p>It then proposes the stronger mapping</p>
+<p><span class="math display">\[\psi_i=\sqrt{c_i}\,e^{i\phi_i}\]</span></p>
+<p>which implies</p>
+<p><span class="math display">\[|\psi_i|^2=c_i\]</span></p>
+<p>and yields a normalized occupancy weight.</p>
+<p>This addendum sharpens the logical status of that step.</p>
+<p>The phase factor</p>
+<p><span class="math display">\[ e^{i\phi_i}\]</span></p>
+<p>follows naturally from recurrent closure.</p>
+<p>The magnitude</p>
+<p><span class="math display">\[ c_i\]</span></p>
+<p>does not yet.</p>
+<p>The mapping</p>
+<p><span class="math display">\[\psi_i=\sqrt{c_i}\,e^{i\phi_i}\]</span></p>
+<p>must therefore remain a candidate bridge until R2D establishes why quantum amplitude magnitude is the square root of the relevant realized count rather than the count itself, multiplicity, occurrence count, or another boundary quantity.</p>
+<p>The burden of constructing the quantum state vector is therefore now sharply defined.</p>
+<p>R2D must explain:</p>
+<ol type="1">
+<li>what the quantum alternatives i are;</li>
+<li>why each alternative carries a complex closure phase;</li>
+<li>what primitive count variable determines amplitude magnitude;</li>
+<li>why alternative coordinates combine linearly;</li>
+<li>why the invariant physical norm is quadratic;</li>
+<li>why changes among complete classifications are unitary;</li>
+<li>why normalized realized count is read as squared amplitude in every admissible measurement basis;</li>
+</ol>
+<!-- source_pdf_page: 2387 -->
+<ol start="8" type="1">
+<li>and how joint boundaries generate the tensor-product structure required by composite quantum systems.</li>
+</ol>
+<p>One further result follows immediately from the cyclic representation.</p>
+<p>The characters of <span class="math inline">\(C_{K_n}\)</span> are orthogonal:</p>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=\delta_{mm'}\]</span></p>
+<p>Thus ordered closure gives not only complex phase but a natural set of orthogonal phase classes.</p>
+<p>Any function defined on the recurrent closure can therefore be expanded as</p>
+<p><span class="math display">\[ g(j)=\sum_m\widetilde g_m\chi_m(j)\]</span></p>
+<p>with</p>
+<p><span class="math display">\[\widetilde g_m=\frac1{K_n}\sum_jg(j)\chi_m^*(j)\]</span></p>
+<p>The coefficients</p>
+<p><span class="math display">\[\widetilde g_m\]</span></p>
+<p>are complex.</p>
+<p>This provides a possible mathematical bridge from recursive counting to complex vector representation.</p>
+<p>But a Fourier coefficient on a closure domain is not automatically a quantum probability amplitude.</p>
+<p>That identification remains to be derived.</p>
+<p>The central statement is therefore:</p>
+<p>at a quantum boundary, subordinate trajectory identity has already been recursively replaced. What remains is boundary-native recurrence. Ordered closure gives that recurrence a cyclic composition law, whose natural faithful unitary representation is complex phase. Phase therefore follows from closure before any wave, amplitude, or quantum state vector is assigned. A wave appears only after recurrence phase is mapped into physical space and clock time. The amplitude magnitude, linear state space, quadratic norm, and Born rule remain separate mathematical burdens.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>closure phase occurs before complex amplitude.</p>
+</blockquote>
+<!-- source_pdf_page: 2388 -->
+</section>
+<section id="the-quantum-boundary-must-be-defined-before-the-quantum-state" class="level2">
+<h2 class="anchored" data-anchor-id="the-quantum-boundary-must-be-defined-before-the-quantum-state">1. The Quantum Boundary Must Be Defined Before the Quantum State</h2>
+<p>Let</p>
+<p><span class="math display">\[ B_n\]</span></p>
+<p>be a quantum-side R2D boundary.</p>
+<p>Its states and transitions are defined only relative to that boundary.</p>
+<p>The first question is therefore not:</p>
+<blockquote class="blockquote">
+<p>What is the wavefunction?</p>
+</blockquote>
+<p>It is:</p>
+<blockquote class="blockquote">
+<p>What recurrence relation remains native to this boundary after recursive replacement?</p>
+</blockquote>
+</section>
+<section id="the-subordinate-boundary-has-its-own-state-domain" class="level2">
+<h2 class="anchored" data-anchor-id="the-subordinate-boundary-has-its-own-state-domain">2. The Subordinate Boundary Has Its Own State Domain</h2>
+<p>Let</p>
+<p><span class="math display">\[ B_{n-1}\]</span></p>
+<p>be an immediate subordinate boundary.</p>
+<p>Its native states belong to</p>
+<p><span class="math display">\[\mathcal M_{n-1}\]</span></p>
+<p>Its closure occurs within that state domain.</p>
+</section>
+<section id="a-subordinate-closure-may-be-written-schematically-as" class="level2">
+<h2 class="anchored" data-anchor-id="a-subordinate-closure-may-be-written-schematically-as">3. A Subordinate Closure May Be Written Schematically As</h2>
+<p><span class="math display">\[ a\to b\to c\to\cdots\to a\]</span></p>
+<p>This path belongs to Bn−1 .</p>
+<!-- source_pdf_page: 2389 -->
+</section>
+<section id="recursive-carry-does-not-preserve-that-path-as-hidden-state-identity" class="level2">
+<h2 class="anchored" data-anchor-id="recursive-carry-does-not-preserve-that-path-as-hidden-state-identity">4. Recursive Carry Does Not Preserve That Path as Hidden State Identity</h2>
+<p>When closure at Bn−1 participates in realization of Bn , the internal sequence</p>
+<p><span class="math display">\[ a\to b\to c\to a\]</span></p>
+<p>does not remain a state trajectory at Bn .</p>
+<p>The count domain has changed.</p>
+</section>
+<section id="therefore" class="level2">
+<h2 class="anchored" data-anchor-id="therefore">5. Therefore</h2>
+<p>subordinate path identity ∉ native state content of Bn.</p>
+<p>This is recursive replacement.</p>
+<p>It is not coarse-graining.</p>
+</section>
+<section id="the-quantum-boundary-does-not-contain-an-unseen-classical-path" class="level2">
+<h2 class="anchored" data-anchor-id="the-quantum-boundary-does-not-contain-an-unseen-classical-path">6. The Quantum Boundary Does Not Contain an Unseen Classical Path</h2>
+<p>R2D therefore does not begin with</p>
+<blockquote class="blockquote">
+<p>classical trajectory → hidden quantum trajectory.</p>
+</blockquote>
+<p>There is no requirement that the enclosing quantum boundary preserve a continuously existing subordinate path.</p>
+</section>
+<section id="the-correct-ordering-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-correct-ordering-is">7. The Correct Ordering Is</h2>
+<blockquote class="blockquote">
+<p>subordinate closure</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>recursive replacement</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>native recurrence at Bn .</p>
+</blockquote>
+<!-- source_pdf_page: 2390 -->
+</section>
+<section id="recurrence-is-therefore-boundary-native" class="level2">
+<h2 class="anchored" data-anchor-id="recurrence-is-therefore-boundary-native">8. Recurrence Is Therefore Boundary Native</h2>
+<p>The recurrence read at Bn belongs to Bn .</p>
+<p>It is not the subordinate path with its details hidden.</p>
+</section>
+<section id="this-is-the-quantum-side-readability-condition" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-quantum-side-readability-condition">9. This Is the Quantum-Side Readability Condition</h2>
+<p>At the quantum boundary:</p>
+<blockquote class="blockquote">
+<p>recurrence remains readable</p>
+</blockquote>
+<p>while</p>
+<blockquote class="blockquote">
+<p>subordinate path identity has been replaced.</p>
+</blockquote>
+<p>The current integrated R2D architecture already distinguishes the surviving quantum-side recurrence from the subordinate geometry that is no longer jointly readable.</p>
+</section>
+<section id="recurrence-comes-before-phase" class="level2">
+<h2 class="anchored" data-anchor-id="recurrence-comes-before-phase">10. Recurrence Comes Before Phase</h2>
+<p>A recurrent relation must close.</p>
+<p>Let one native closure contain</p>
+<p><span class="math display">\[ K_n\]</span></p>
+<p>distinguishable ordered positions.</p>
+</section>
+<section id="label-those-positions" class="level2">
+<h2 class="anchored" data-anchor-id="label-those-positions">11. Label Those Positions</h2>
+<p><span class="math display">\[ j=0,1,\ldots,K_n-1\]</span></p>
+<p>The labels are recurrence positions.</p>
+<p>They are not yet spatial positions.</p>
+</section>
+<section id="closure-requires" class="level2">
+<h2 class="anchored" data-anchor-id="closure-requires">12. Closure Requires</h2>
+<p><span class="math display">\[ j+K_n\sim j\]</span></p>
+<!-- source_pdf_page: 2391 -->
+<p>Thus the recurrence returns to the same boundary-defined relation after Kn ordered updates.</p>
+</section>
+<section id="composition-is-modular" class="level2">
+<h2 class="anchored" data-anchor-id="composition-is-modular">13. Composition Is Modular</h2>
+<p>For two recurrence increments j and r ,</p>
+<p><span class="math display">\[ j\oplus r=(j+r)\bmod K_n\]</span></p>
+</section>
+<section id="the-closure-therefore-has-a-cyclic-algebra" class="level2">
+<h2 class="anchored" data-anchor-id="the-closure-therefore-has-a-cyclic-algebra">14. The Closure Therefore Has a Cyclic Algebra</h2>
+<p><span class="math display">\[ C_{K_n}\cong\mathbb Z/K_n\mathbb Z\]</span></p>
+<p>This structure follows directly from ordered recurrence and closure.</p>
+</section>
+<section id="no-complex-number-has-yet-been-introduced" class="level2">
+<h2 class="anchored" data-anchor-id="no-complex-number-has-yet-been-introduced">15. No Complex Number Has Yet Been Introduced</h2>
+<p>At this stage there is only:</p>
+<ul>
+<li>a boundary;</li>
+<li>an ordered recurrent relation;</li>
+<li>and closure modulo Kn .</li>
+</ul>
+</section>
+<section id="phase-is-a-coordinate-on-that-closure" class="level2">
+<h2 class="anchored" data-anchor-id="phase-is-a-coordinate-on-that-closure">16. Phase Is a Coordinate on That Closure</h2>
+<p>Define</p>
+<p><span class="math display">\[\phi_j=\frac{2\pi j}{K_n}\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\phi_{j+K_n}=\phi_j+2\pi\]</span></p>
+</section>
+<section id="closure-identifies-phase-modulo-2π" class="level2">
+<h2 class="anchored" data-anchor-id="closure-identifies-phase-modulo-2π">17. Closure Identifies Phase Modulo 2π</h2>
+<p><span class="math display">\[\phi\sim\phi+2\pi\]</span></p>
+<p>Thus phase is not an unrestricted linear coordinate.</p>
+<!-- source_pdf_page: 2392 -->
+<p>It is cyclic.</p>
+</section>
+<section id="complex-phase-represents-the-cyclic-composition-law" class="level2">
+<h2 class="anchored" data-anchor-id="complex-phase-represents-the-cyclic-composition-law">18. Complex Phase Represents the Cyclic Composition Law</h2>
+<p>Define</p>
+<p><span class="math display">\[ z_j=e^{i2\pi j/K_n}\]</span></p>
+</section>
+<section id="closure-is-automatic" class="level2">
+<h2 class="anchored" data-anchor-id="closure-is-automatic">19. Closure Is Automatic</h2>
+<p><span class="math display">\[ z_{j+K_n}=e^{i2\pi(j+K_n)/K_n}=e^{i2\pi j/K_n}e^{i2\pi}\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[ e^{i2\pi}=1\]</span></p>
+<p><span class="math display">\[ z_{j+K_n}=z_j\]</span></p>
+</section>
+<section id="recurrence-composition-becomes-multiplication" class="level2">
+<h2 class="anchored" data-anchor-id="recurrence-composition-becomes-multiplication">20. Recurrence Composition Becomes Multiplication</h2>
+<p><span class="math display">\[ z_{j\oplus r}=z_jz_r\]</span></p>
+<p>Thus the complex representation preserves the closure algebra.</p>
+</section>
+<section id="more-generally-the-cyclic-characters-are" class="level2">
+<h2 class="anchored" data-anchor-id="more-generally-the-cyclic-characters-are">21. More Generally, the Cyclic Characters Are</h2>
+<p><span class="math display">\[\chi_m(j)=e^{i2\pi mj/K_n}\]</span></p>
+<p>Here m labels the different one-dimensional complex representations of the same closure domain.</p>
+</section>
+<section id="they-satisfy" class="level2">
+<h2 class="anchored" data-anchor-id="they-satisfy">22. They Satisfy</h2>
+<p><span class="math display">\[\chi_m(j\oplus r)=\chi_m(j)\chi_m(r)\]</span></p>
+<!-- source_pdf_page: 2393 -->
+</section>
+<section id="the-m-1-character-is-faithful" class="level2">
+<h2 class="anchored" data-anchor-id="the-m-1-character-is-faithful">23. The m = 1 Character Is Faithful</h2>
+<p><span class="math display">\[ z_j=e^{i2\pi j/K_n}\]</span></p>
+<p>Distinct recurrence positions map to distinct points on the unit circle.</p>
+</section>
+<section id="therefore-complex-phase-has-a-specific-r2d-role" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-complex-phase-has-a-specific-r2d-role">24. Therefore Complex Phase Has a Specific R2D Role</h2>
+<blockquote class="blockquote">
+<p>complex phase = representation of ordered cyclic closure.</p>
+</blockquote>
+<p>It is not the primitive recurrence itself.</p>
+</section>
+<section id="this-strengthens-the-existing-phase-principle" class="level2">
+<h2 class="anchored" data-anchor-id="this-strengthens-the-existing-phase-principle">25. This Strengthens the Existing Phase Principle</h2>
+<p>The integrated R2D manuscript already states that cyclic recurrence is naturally represented by phase and that</p>
+<p><span class="math display">\[ e^{i(\phi+2\pi)}=e^{i\phi}\]</span></p>
+<p>automatically expresses closure while maintaining unit magnitude.</p>
+<p>The present addendum identifies the underlying algebra explicitly as a cyclic closure group.</p>
+</section>
+<section id="complex-numbers-are-not-primitive-substance" class="level2">
+<h2 class="anchored" data-anchor-id="complex-numbers-are-not-primitive-substance">26. Complex Numbers Are Not Primitive Substance</h2>
+<p>The same representation can be written</p>
+<p><span class="math display">\[ e^{i\phi}=\cos\phi+i\sin\phi\]</span></p>
+<p>This encodes a two-dimensional real rotation in one algebraic quantity.</p>
+</section>
+<section id="thus-i-need-not-be-given-ontological-meaning" class="level2">
+<h2 class="anchored" data-anchor-id="thus-i-need-not-be-given-ontological-meaning">27. Thus i Need Not Be Given Ontological Meaning</h2>
+<p>The imaginary unit belongs to the representation of oriented cyclic composition.</p>
+<p>It is not a second hidden physical substance.</p>
+<!-- source_pdf_page: 2394 -->
+</section>
+<section id="continuous-phase-comes-later" class="level2">
+<h2 class="anchored" data-anchor-id="continuous-phase-comes-later">28. Continuous Phase Comes Later</h2>
+<p>If the physical recurrence is represented continuously, define</p>
+<p><span class="math display">\[\phi\in\mathbb R/2\pi\mathbb Z\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[ z(\phi)=e^{i\phi}\]</span></p>
+</section>
+<section id="the-continuous-phase-representation-is-u-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-continuous-phase-representation-is-u-1">29. The Continuous Phase Representation Is U (1)</h2>
+<p><span class="math display">\[ U(1)=\{e^{i\phi}:\phi\in\mathbb R\}\]</span></p>
+<p>This is the continuously parameterized representation of cyclic closure.</p>
+</section>
+<section id="the-count-domain-still-comes-first" class="level2">
+<h2 class="anchored" data-anchor-id="the-count-domain-still-comes-first">30. The Count Domain Still Comes First</h2>
+<p>The existence of a smooth U (1) representation does not mean primitive R2D recurrence must itself be a continuum.</p>
+<p>The physical representation can be continuous after the underlying closure relation has been defined.</p>
+</section>
+<section id="oriented-phase-has-a-natural-generator" class="level2">
+<h2 class="anchored" data-anchor-id="oriented-phase-has-a-natural-generator">31. Oriented Phase Has a Natural Generator</h2>
+<p>For</p>
+<p><span class="math display">\[ z=e^{i\phi}\]</span></p>
+<p><span class="math display">\[\frac{dz}{d\phi}=iz\]</span></p>
+</section>
+<section id="physical-clock-calibration-introduces-ω" class="level2">
+<h2 class="anchored" data-anchor-id="physical-clock-calibration-introduces-ω">32. Physical Clock Calibration Introduces ω</h2>
+<p>If</p>
+<p><span class="math display">\[\frac{d\phi}{dt}=-\omega\]</span></p>
+<!-- source_pdf_page: 2395 -->
+<p>then:</p>
+<p><span class="math display">\[\frac{dz}{dt}=-i\omega z\]</span></p>
+<p>The opposite closure orientation gives the opposite sign.</p>
+</section>
+<section id="thus-iω-is-a-phase-generator" class="level2">
+<h2 class="anchored" data-anchor-id="thus-iω-is-a-phase-generator">33. Thus iω Is a Phase Generator</h2>
+<p>The combination</p>
+<p><span class="math display">\[-i\omega\]</span></p>
+<p>generates continuous oriented recurrence in the complex phase representation.</p>
+</section>
+<section id="this-is-not-yet-schrödinger-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-not-yet-schrödinger-evolution">34. This Is Not Yet Schrödinger Evolution</h2>
+<p>The relation</p>
+<p><span class="math display">\[\frac{dz}{dt}=-i\omega z\]</span></p>
+<p>describes one complex phase coordinate.</p>
+<p>It does not yet establish:</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\hat H\psi\]</span></p>
+</section>
+<section id="energy-calibration-comes-later" class="level2">
+<h2 class="anchored" data-anchor-id="energy-calibration-comes-later">35. Energy Calibration Comes Later</h2>
+<p>Only after the physical mapping</p>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p>is supplied can temporal phase recurrence acquire an energetic place value.</p>
+<p>The integrated R2D manuscript already treats E = ℏω and p = ℏk as empirical physical phase calibrations rather than primitive count identities.</p>
+<!-- source_pdf_page: 2396 -->
+</section>
+<section id="phase-exists-before-wave" class="level2">
+<h2 class="anchored" data-anchor-id="phase-exists-before-wave">36. Phase Exists Before Wave</h2>
+<p>Nothing in</p>
+<p><span class="math display">\[ C_{K_n},\quad\phi_j,\quad e^{i\phi_j}\]</span></p>
+<p>requires a spatial coordinate.</p>
+</section>
+<section id="therefore-phase-is-not-initially-a-wave-phase" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-phase-is-not-initially-a-wave-phase">37. Therefore Phase Is Not Initially a Wave Phase</h2>
+<p>It is first the cyclic coordinate of boundary-native recurrence.</p>
+</section>
+<section id="a-wave-requires-a-later-distributed-physical-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="a-wave-requires-a-later-distributed-physical-mapping">38. A Wave Requires a Later Distributed Physical Mapping</h2>
+<p>Once physical space and clock time are supplied, one may represent recurrence as</p>
+<p><span class="math display">\[\phi(x,t)=\mathbf k\cdot\mathbf x-\omega t+\phi_0\]</span></p>
+</section>
+<section id="then-the-corresponding-wave-representation-is" class="level2">
+<h2 class="anchored" data-anchor-id="then-the-corresponding-wave-representation-is">39. Then the Corresponding Wave Representation Is</h2>
+<p><span class="math display">\[ e^{i(\mathbf k\cdot\mathbf x-\omega t+\phi_0)}\]</span></p>
+<p>The wave is therefore a distributed physical representation of already-defined recurrence phase.</p>
+</section>
+<section id="the-logical-order-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-logical-order-is">40. The Logical Order Is</h2>
+<blockquote class="blockquote">
+<p>closure → phase → space-time phase field → wave.</p>
+</blockquote>
+</section>
+<section id="not" class="level2">
+<h2 class="anchored" data-anchor-id="not">41. Not</h2>
+<blockquote class="blockquote">
+<p>wave → phase.</p>
+</blockquote>
+<p>Phase is more primitive in the R2D projection hierarchy.</p>
+</section>
+<section id="this-matters-for-nonspatial-quantum-degrees-of-freedom" class="level2">
+<h2 class="anchored" data-anchor-id="this-matters-for-nonspatial-quantum-degrees-of-freedom">42. This Matters for Nonspatial Quantum Degrees of Freedom</h2>
+<p>A state can carry phase without being represented as a literal spatial wave.</p>
+<!-- source_pdf_page: 2397 -->
+<p>This will become important for:</p>
+<ul>
+<li>stationary states;</li>
+<li>spin;</li>
+<li>internal state recurrence;</li>
+<li>relative phase between alternatives;</li>
+<li>and gauge structure.</li>
+</ul>
+</section>
+<section id="the-wave-does-not-contain-the-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="the-wave-does-not-contain-the-recurrence">43. The Wave Does Not Contain the Recurrence</h2>
+<p>Nor does recurrence require a material wave medium.</p>
+<p>Wave form is one later physical projection of phase.</p>
+</section>
+<section id="absolute-phase-zero-is-not-defined-by-closure" class="level2">
+<h2 class="anchored" data-anchor-id="absolute-phase-zero-is-not-defined-by-closure">44. Absolute Phase Zero Is Not Defined by Closure</h2>
+<p>A cycle has no distinguished primitive point that must be labeled</p>
+<p><span class="math display">\[\phi=0\]</span></p>
+</section>
+<section id="therefore-1" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-1">45. Therefore</h2>
+<p><span class="math display">\[\phi\to\phi+\alpha\]</span></p>
+<p>changes the coordinate origin without changing the cyclic closure itself.</p>
+</section>
+<section id="relative-phase-is-preserved" class="level2">
+<h2 class="anchored" data-anchor-id="relative-phase-is-preserved">46. Relative Phase Is Preserved</h2>
+<p>For two closure phases,</p>
+<p><span class="math display">\[(\phi_i+\alpha)-(\phi_j+\alpha)=\phi_i-\phi_j\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\Delta\phi_{ij}\]</span></p>
+<p>is invariant under a common phase shift.</p>
+<!-- source_pdf_page: 2398 -->
+</section>
+<section id="this-is-the-seed-of-global-gauge-freedom" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-seed-of-global-gauge-freedom">47. This Is the Seed of Global Gauge Freedom</h2>
+<p>The later quantum transformation</p>
+<p><span class="math display">\[\psi\to e^{i\alpha}\psi\]</span></p>
+<p>can preserve physical relational structure because absolute phase zero is not supplied by the primitive closure.</p>
+<p>The integrated manuscript already identifies this distinction between physical recurrence and arbitrary absolute phase reference.</p>
+</section>
+<section id="counting-gives-invariance-reference-choice-gives-freedom" class="level2">
+<h2 class="anchored" data-anchor-id="counting-gives-invariance-reference-choice-gives-freedom">48. Counting Gives Invariance; Reference Choice Gives Freedom</h2>
+<p>The recurrence itself closes.</p>
+<p>Changing the phase-zero convention does not change that closure.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>closure invariance + phase-reference freedom → global phase redundancy.</p>
+</blockquote>
+</section>
+<section id="cyclic-closure-also-generates-orthogonality" class="level2">
+<h2 class="anchored" data-anchor-id="cyclic-closure-also-generates-orthogonality">49. Cyclic Closure Also Generates Orthogonality</h2>
+<p>Consider two cyclic characters</p>
+<p><span class="math display">\[\chi_m(j)=e^{i2\pi mj/K_n}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\chi_{m'}(j)\]</span></p>
+<p>Their normalized overlap over one complete closure is</p>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=\delta_{mm'}\]</span></p>
+<!-- source_pdf_page: 2399 -->
+</section>
+<section id="substitute-the-character-form" class="level2">
+<h2 class="anchored" data-anchor-id="substitute-the-character-form">50. Substitute the Character Form</h2>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}e^{i2\pi(m'-m)j/K_n}\]</span></p>
+</section>
+<section id="if-m-m" class="level2">
+<h2 class="anchored" data-anchor-id="if-m-m">51. If m = m′</h2>
+<p>Every term equals one.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[\frac1{K_n}\sum_j1=1\]</span></p>
+</section>
+<section id="if-mne-m" class="level2">
+<h2 class="anchored" data-anchor-id="if-mne-m">52. If <span class="math inline">\(m\ne m'\)</span></h2>
+<p>The terms form a complete set of equally spaced phases around the unit circle.</p>
+<p>Their sum vanishes.</p>
+<p>Thus:</p>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=0\]</span></p>
+</section>
+<section id="therefore-2" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-2">53. Therefore</h2>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=\delta_{mm'}\]</span></p>
+<p>The closure characters form an orthogonal basis on the cyclic count domain.</p>
+</section>
+<section id="this-is-potentially-the-first-bridge-toward-quantum-state-space" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-potentially-the-first-bridge-toward-quantum-state-space">54. This Is Potentially the First Bridge Toward Quantum State Space</h2>
+<p>Quantum mechanics requires orthogonal complex state coordinates.</p>
+<p>Ordered closure already supplies orthogonal complex phase classes.</p>
+<!-- source_pdf_page: 2400 -->
+</section>
+<section id="but-this-is-not-yet-hilbert-space" class="level2">
+<h2 class="anchored" data-anchor-id="but-this-is-not-yet-hilbert-space">55. But This Is Not Yet Hilbert Space</h2>
+<p>The closure-character space is a finite complex function space over one cyclic domain.</p>
+<p>R2D still must establish why the full physically admissible quantum state space inherits the required linear inner-product structure.</p>
+</section>
+<section id="any-function-on-the-closure-can-be-expanded-in-characters" class="level2">
+<h2 class="anchored" data-anchor-id="any-function-on-the-closure-can-be-expanded-in-characters">56. Any Function on the Closure Can Be Expanded in Characters</h2>
+<p>Let</p>
+<p><span class="math display">\[ g(j)\]</span></p>
+<p>be a quantity defined over the closure positions.</p>
+<p>Then:</p>
+<p><span class="math display">\[ g(j)=\sum_m\widetilde g_m\chi_m(j)\]</span></p>
+</section>
+<section id="the-coefficients-are" class="level2">
+<h2 class="anchored" data-anchor-id="the-coefficients-are">57. The Coefficients Are</h2>
+<p><span class="math display">\[\widetilde g_m=\frac1{K_n}\sum_jg(j)\chi_m^*(j)\]</span></p>
+<p>These coefficients are naturally complex.</p>
+</section>
+<section id="complex-vector-coordinates-therefore-arise-naturally-from-closure-decomposition" class="level2">
+<h2 class="anchored" data-anchor-id="complex-vector-coordinates-therefore-arise-naturally-from-closure-decomposition">58. Complex Vector Coordinates Therefore Arise Naturally From Closure Decomposition</h2>
+<p>The vector</p>
+<p><span class="math display">\[(\widetilde g_0,\widetilde g_1,\ldots)\]</span></p>
+<p>is a complex coordinate representation of a function on the cyclic closure.</p>
+<!-- source_pdf_page: 2401 -->
+</section>
+<section id="this-is-important-but-insufficient" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-important-but-insufficient">59. This Is Important but Insufficient</h2>
+<p>A complex Fourier coefficient is not automatically a quantum probability amplitude.</p>
+<p>R2D must not identify the two merely because both are complex.</p>
+</section>
+<section id="phase-must-therefore-be-separated-from-amplitude" class="level2">
+<h2 class="anchored" data-anchor-id="phase-must-therefore-be-separated-from-amplitude">60. Phase Must Therefore Be Separated From Amplitude</h2>
+<p>Closure directly supplies</p>
+<p><span class="math display">\[ e^{i\phi}\]</span></p>
+<p>It does not directly supply</p>
+<p><span class="math display">\[ A\]</span></p>
+</section>
+<section id="the-wavefunction-contains-both" class="level2">
+<h2 class="anchored" data-anchor-id="the-wavefunction-contains-both">61. The Wavefunction Contains Both</h2>
+<p>Conventionally,</p>
+<p><span class="math display">\[\psi=Ae^{i\phi}\]</span></p>
+<p>The integrated R2D text already recognizes this distinction and states that amplitude weight has not yet been identified term-by-term with primitive multiplicity or occupancy.</p>
+</section>
+<section id="therefore-3" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-3">62. Therefore</h2>
+<blockquote class="blockquote">
+<p>phase derivation ≠ amplitude derivation.</p>
+</blockquote>
+<p>The former can now be traced to closure.</p>
+<p>The latter remains open.</p>
+</section>
+<section id="the-candidate-occupancy-mapping-must-be-reclassified" class="level2">
+<h2 class="anchored" data-anchor-id="the-candidate-occupancy-mapping-must-be-reclassified">63. The Candidate Occupancy Mapping Must Be Reclassified</h2>
+<p>The current candidate is</p>
+<p><span class="math display">\[\psi_i=\sqrt{c_i}\,e^{i\phi_i}\]</span></p>
+<p>This gives</p>
+<!-- source_pdf_page: 2402 -->
+<p>ψi∗ ψi = ci .</p>
+</section>
+<section id="algebraically-this-is-correct" class="level2">
+<h2 class="anchored" data-anchor-id="algebraically-this-is-correct">64. Algebraically This Is Correct</h2>
+<p>If one chooses</p>
+<p><span class="math display">\[ A_i=\sqrt{c_i}\]</span></p>
+<p>then</p>
+<p><span class="math display">\[|\psi_i|^2=c_i\]</span></p>
+</section>
+<section id="but-r2d-has-not-yet-derived-the-choice" class="level2">
+<h2 class="anchored" data-anchor-id="but-r2d-has-not-yet-derived-the-choice">65. But R2D Has Not Yet Derived the Choice</h2>
+<p>The theory must still explain why</p>
+<p><span class="math display">\[ A_i=\sqrt{c_i}\]</span></p>
+<p>rather than</p>
+<p><span class="math display">\[ A_i=c_i\]</span></p>
+<p>or a function of</p>
+<p><span class="math display">\[ W_i,\quad\nu_i,\quad A_{i}^{\mathrm{asymmetry}}\]</span></p>
+<p>or another boundary quantity.</p>
+</section>
+<section id="the-frozen-count-distinction-must-be-preserved" class="level2">
+<h2 class="anchored" data-anchor-id="the-frozen-count-distinction-must-be-preserved">66. The Frozen Count Distinction Must Be Preserved</h2>
+<p><span class="math display">\[ W_i\ne\nu_i\ne c_i\]</span></p>
+<p>A quantum amplitude mapping must specify which count it reads and why.</p>
+</section>
+<section id="multiplicity-cannot-be-substituted-silently" class="level2">
+<h2 class="anchored" data-anchor-id="multiplicity-cannot-be-substituted-silently">67. Multiplicity Cannot Be Substituted Silently</h2>
+<p>Possible multiplicity is</p>
+<p><span class="math display">\[ W_i\]</span></p>
+<p>Dynamic occupancy is</p>
+<!-- source_pdf_page: 2403 -->
+<p>ci .</p>
+<p>Realized occurrence count is</p>
+<p><span class="math display">\[\nu_i\]</span></p>
+<p>The amplitude cannot be called “the square root of count” until count ownership is fixed.</p>
+</section>
+<section id="the-first-burden-is-to-define-the-alternatives" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-burden-is-to-define-the-alternatives">68. The First Burden Is to Define the Alternatives</h2>
+<p>A quantum state is written</p>
+<p><span class="math display">\[|\psi\rangle=\sum_i\psi_i|i\rangle\]</span></p>
+<p>What are the ∣i⟩?</p>
+<p>R2D must assign their boundary ownership.</p>
+</section>
+<section id="they-cannot-be-assumed-to-be-primitive-objects" class="level2">
+<h2 class="anchored" data-anchor-id="they-cannot-be-assumed-to-be-primitive-objects">69. They Cannot Be Assumed to Be Primitive Objects</h2>
+<p>The alternatives may correspond to:</p>
+<ul>
+<li>boundary macrostates;</li>
+<li>recurrence classes;</li>
+<li>orientation classes;</li>
+<li>detector distinctions;</li>
+<li>or another complete boundary classification.</li>
+</ul>
+<p>The mapping must be derived for each physical representation.</p>
+</section>
+<section id="the-second-burden-is-amplitude-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="the-second-burden-is-amplitude-magnitude">70. The Second Burden Is Amplitude Magnitude</h2>
+<p>For each alternative i, R2D must derive</p>
+<p><span class="math display">\[ A_i=F(\text{R2D count structure})\]</span></p>
+<p>The function F is presently unknown.</p>
+<!-- source_pdf_page: 2404 -->
+</section>
+<section id="the-third-burden-is-linear-superposition" class="level2">
+<h2 class="anchored" data-anchor-id="the-third-burden-is-linear-superposition">71. The Third Burden Is Linear Superposition</h2>
+<p>Quantum mechanics requires</p>
+<p><span class="math display">\[|\psi\rangle=\sum_i\psi_i|i\rangle\]</span></p>
+<p>Closure phase alone gives multiplication under recurrent composition.</p>
+<p>It does not by itself derive linear addition among alternatives.</p>
+</section>
+<section id="this-is-a-distinct-mathematical-requirement" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-a-distinct-mathematical-requirement">72. This Is a Distinct Mathematical Requirement</h2>
+<p>R2D must explain why compatible alternative recurrence coordinates satisfy a linear composition law.</p>
+<p>That is the doorway from cyclic representation to vector space.</p>
+</section>
+<section id="the-fourth-burden-is-the-inner-product" class="level2">
+<h2 class="anchored" data-anchor-id="the-fourth-burden-is-the-inner-product">73. The Fourth Burden Is the Inner Product</h2>
+<p>Quantum mechanics requires a Hermitian inner product</p>
+<p><span class="math display">\[\langle\phi|\psi\rangle\]</span></p>
+<p>The cyclic character orthogonality derived above is suggestive.</p>
+<p>It does not yet establish the complete physical inner product.</p>
+</section>
+<section id="the-fifth-burden-is-the-quadratic-norm" class="level2">
+<h2 class="anchored" data-anchor-id="the-fifth-burden-is-the-quadratic-norm">74. The Fifth Burden Is the Quadratic Norm</h2>
+<p>Quantum states use</p>
+<p><span class="math display">\[\|\psi\|^2=\langle\psi|\psi\rangle=\sum_i|\psi_i|^2\]</span></p>
+<p>Why this quadratic form is the preserved physical count measure must be derived.</p>
+</section>
+<section id="the-sixth-burden-is-normalization" class="level2">
+<h2 class="anchored" data-anchor-id="the-sixth-burden-is-normalization">75. The Sixth Burden Is Normalization</h2>
+<p>Conventionally,</p>
+<!-- source_pdf_page: 2405 -->
+<p>∑ ∣ψi ∣2 = 1.</p>
+<p><span class="math display">\[ i\]</span></p>
+<p>R2D must determine what conserved or normalized count this represents.</p>
+</section>
+<section id="the-seventh-burden-is-basis-independence" class="level2">
+<h2 class="anchored" data-anchor-id="the-seventh-burden-is-basis-independence">76. The Seventh Burden Is Basis Independence</h2>
+<p>Suppose one complete classification uses states</p>
+<p><span class="math display">\[|i\rangle\]</span></p>
+<p>Another uses</p>
+<p><span class="math display">\[|\alpha\rangle\]</span></p>
+<p>Quantum mechanics demands a consistent transformation between them.</p>
+</section>
+<section id="count-preservation-suggests-norm-preservation" class="level2">
+<h2 class="anchored" data-anchor-id="count-preservation-suggests-norm-preservation">77. Count Preservation Suggests Norm Preservation</h2>
+<p>If complete physical classification changes without changing total realized support, then the state-space transformation should preserve the relevant norm.</p>
+<p>This is the likely route toward unitarity.</p>
+</section>
+<section id="but-unitarity-must-be-earned" class="level2">
+<h2 class="anchored" data-anchor-id="but-unitarity-must-be-earned">78. But Unitarity Must Be Earned</h2>
+<p>One cannot simply assume</p>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<p>R2D must establish why admissible changes of complete quantum classification are linear and norm preserving.</p>
+</section>
+<section id="the-eighth-burden-is-the-general-born-rule" class="level2">
+<h2 class="anchored" data-anchor-id="the-eighth-burden-is-the-general-born-rule">79. The Eighth Burden Is the General Born Rule</h2>
+<p>Even if one fixed basis satisfies</p>
+<p><span class="math display">\[ c_i\propto|\psi_i|^2\]</span></p>
+<p>the full Born rule requires</p>
+<!-- source_pdf_page: 2406 -->
+<p>p(i∣ψ) = ∣⟨i∣ψ⟩∣2</p>
+<p>for every admissible complete measurement basis.</p>
+</section>
+<section id="a-fixed-basis-occupancy-identity-is-not-enough" class="level2">
+<h2 class="anchored" data-anchor-id="a-fixed-basis-occupancy-identity-is-not-enough">80. A Fixed-Basis Occupancy Identity Is Not Enough</h2>
+<p>This distinction is already recognized elsewhere in the R2D development: a detector occupancy law does not by itself establish the general projective Born rule.</p>
+</section>
+<section id="the-ninth-burden-is-composite-state-structure" class="level2">
+<h2 class="anchored" data-anchor-id="the-ninth-burden-is-composite-state-structure">81. The Ninth Burden Is Composite State Structure</h2>
+<p>For two peer boundaries A and B , conventional quantum theory uses</p>
+<p><span class="math display">\[\mathcal H_{AB}=\mathcal H_A\otimes\mathcal H_B\]</span></p>
+<p>R2D must derive why joint boundary realization acquires tensor-product representation.</p>
+</section>
+<section id="this-will-matter-for-entanglement" class="level2">
+<h2 class="anchored" data-anchor-id="this-will-matter-for-entanglement">82. This Will Matter for Entanglement</h2>
+<p>An enclosing joint boundary may possess a state that does not factor:</p>
+<p><span class="math display">\[|\Psi_{AB}\rangle\ne|\psi_A\rangle\otimes|\psi_B\rangle\]</span></p>
+<p>But tensor structure must be established before this becomes a derived quantum result.</p>
+</section>
+<section id="therefore-three-levels-must-remain-distinct" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-three-levels-must-remain-distinct">83. Therefore Three Levels Must Remain Distinct</h2>
+<p><span class="math display">\[\text{closure phase}\ne\text{complex amplitude}\ne\text{quantum state vector}\]</span></p>
+</section>
+<section id="closure-phase-is" class="level2">
+<h2 class="anchored" data-anchor-id="closure-phase-is">84. Closure Phase Is</h2>
+<p><span class="math display">\[ e^{i\phi}\]</span></p>
+<!-- source_pdf_page: 2407 -->
+<p>It represents cyclic recurrence.</p>
+</section>
+<section id="complex-amplitude-is" class="level2">
+<h2 class="anchored" data-anchor-id="complex-amplitude-is">85. Complex Amplitude Is</h2>
+<p><span class="math display">\[ Ae^{i\phi}\]</span></p>
+<p>It adds a magnitude weight not yet derived from closure alone.</p>
+</section>
+<section id="a-quantum-state-vector-is" class="level2">
+<h2 class="anchored" data-anchor-id="a-quantum-state-vector-is">86. A Quantum State Vector Is</h2>
+<p><span class="math display">\[|\psi\rangle=\sum_i A_i e^{i\phi_i}|i\rangle\]</span></p>
+<p>It adds an alternative basis and a linear vector-space structure.</p>
+</section>
+<section id="the-born-rule-adds-another-layer" class="level2">
+<h2 class="anchored" data-anchor-id="the-born-rule-adds-another-layer">87. The Born Rule Adds Another Layer</h2>
+<p><span class="math display">\[|\langle i|\psi\rangle|^2\]</span></p>
+<p>That relation is not contained in cyclic phase alone.</p>
+</section>
+<section id="principle-subordinate-path-replacement-precedes-quantum-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="principle-subordinate-path-replacement-precedes-quantum-recurrence">88. Principle — Subordinate Path Replacement Precedes Quantum Recurrence</h2>
+<p>At a quantum boundary, subordinate trajectory identity has already been recursively replaced.</p>
+<p>The recurrence read at the quantum boundary is native to that boundary.</p>
+</section>
+<section id="principle-boundary-native-recurrence-precedes-phase" class="level2">
+<h2 class="anchored" data-anchor-id="principle-boundary-native-recurrence-precedes-phase">89. Principle — Boundary-Native Recurrence Precedes Phase</h2>
+<p>A closure must recur before a cyclic coordinate can represent it.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>recurrence → phase.</p>
+</blockquote>
+<!-- source_pdf_page: 2408 -->
+</section>
+<section id="principle-closure-defines-a-cyclic-composition-law" class="level2">
+<h2 class="anchored" data-anchor-id="principle-closure-defines-a-cyclic-composition-law">90. Principle — Closure Defines a Cyclic Composition Law</h2>
+<p>For Kn ordered recurrence positions,</p>
+<p><span class="math display">\[ j+K_n\sim j\]</span></p>
+<p>defines</p>
+<p><span class="math display">\[ C_{K_n}\]</span></p>
+</section>
+<section id="principle-complex-phase-represents-closure" class="level2">
+<h2 class="anchored" data-anchor-id="principle-complex-phase-represents-closure">91. Principle — Complex Phase Represents Closure</h2>
+<p><span class="math display">\[ C_{K_n}\to e^{i2\pi j/K_n}\]</span></p>
+<p>Complex phase is a faithful representation of cyclic closure, not a primitive substance.</p>
+</section>
+<section id="principle-continuous-phase-is-a-later-physical-representation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-continuous-phase-is-a-later-physical-representation">92. Principle — Continuous Phase Is a Later Physical Representation</h2>
+<p><span class="math display">\[ C_{K_n}\to U(1)\]</span></p>
+<p>only after recurrence receives a continuously parameterized physical phase read.</p>
+</section>
+<section id="principle-phase-precedes-wave" class="level2">
+<h2 class="anchored" data-anchor-id="principle-phase-precedes-wave">93. Principle — Phase Precedes Wave</h2>
+<p>A recurrence can possess phase before any spatial coordinate is assigned.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>phase → wave projection.</p>
+</blockquote>
+</section>
+<section id="principle-wave-is-a-distributed-phase-read" class="level2">
+<h2 class="anchored" data-anchor-id="principle-wave-is-a-distributed-phase-read">94. Principle — Wave Is a Distributed Phase Read</h2>
+<p>Once physical space and time are defined,</p>
+<p><span class="math display">\[\phi(x,t)=\mathbf k\cdot\mathbf x-\omega t+\phi_0\]</span></p>
+<p>and the wave representation follows.</p>
+<!-- source_pdf_page: 2409 -->
+</section>
+<section id="principle-absolute-phase-zero-is-not-primitive" class="level2">
+<h2 class="anchored" data-anchor-id="principle-absolute-phase-zero-is-not-primitive">95. Principle — Absolute Phase Zero Is Not Primitive</h2>
+<p>Closure does not select a unique origin.</p>
+<p>Thus:</p>
+<p><span class="math display">\[\phi\to\phi+\alpha\]</span></p>
+<p>can preserve the same physical closure relations.</p>
+</section>
+<section id="principle-closure-characters-are-naturally-orthogonal" class="level2">
+<h2 class="anchored" data-anchor-id="principle-closure-characters-are-naturally-orthogonal">96. Principle — Closure Characters Are Naturally Orthogonal</h2>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=\delta_{mm'}\]</span></p>
+<p>Orthogonal complex phase classes therefore arise before a general Hilbert-space postulate.</p>
+</section>
+<section id="principle-orthogonality-does-not-yet-derive-quantum-state-space" class="level2">
+<h2 class="anchored" data-anchor-id="principle-orthogonality-does-not-yet-derive-quantum-state-space">97. Principle — Orthogonality Does Not Yet Derive Quantum State Space</h2>
+<p>The cyclic character basis is a mathematical consequence of closure.</p>
+<p>The physical identification of general quantum states with a complex inner-product space remains a separate bridge.</p>
+</section>
+<section id="principle-phase-does-not-determine-amplitude-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="principle-phase-does-not-determine-amplitude-magnitude">98. Principle — Phase Does Not Determine Amplitude Magnitude</h2>
+<p>Closure provides</p>
+<p><span class="math display">\[ e^{i\phi}\]</span></p>
+<p>It does not yet provide</p>
+<p><span class="math display">\[ A\]</span></p>
+</section>
+<section id="principle-c-is-a-candidate-mapping-not-yet-a-primitive-result" class="level2">
+<h2 class="anchored" data-anchor-id="principle-c-is-a-candidate-mapping-not-yet-a-primitive-result">99. Principle — c Is a Candidate Mapping, Not Yet a Primitive Result</h2>
+<p><span class="math display">\[\psi_i=\sqrt{c_i}\,e^{i\phi_i}\]</span></p>
+<!-- source_pdf_page: 2410 -->
+<p>is compatible with</p>
+<p><span class="math display">\[|\psi_i|^2=c_i\]</span></p>
+<p>but the square-root mapping must still be derived from R2D count architecture.</p>
+</section>
+<section id="principle-the-state-vector-requires-additional-structure" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-state-vector-requires-additional-structure">100. Principle — The State Vector Requires Additional Structure</h2>
+<p>A quantum state vector requires:</p>
+<p>alternatives + amplitude magnitudes + closure phases + linear composition + inner product.</p>
+<p>Closure phase supplies only one part.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">101. Logical Status</h2>
+<p>Canonical R2D</p>
+<p>States are boundary indexed.</p>
+<p>Recursive replacement changes the count domain.</p>
+<p>Subordinate state identity does not persist as hidden state identity at the enclosing boundary.</p>
+<p>Quantum Readability Architecture</p>
+<p>At the quantum-side boundary:</p>
+<blockquote class="blockquote">
+<p>boundary-native recurrence remains readable</p>
+</blockquote>
+<p>after subordinate path identity has been replaced.</p>
+<p>New Closure Result</p>
+<p>For a Kn -position recurrent closure:</p>
+<p><span class="math display">\[ C_{K_n}\cong\mathbb Z/K_n\mathbb Z\]</span></p>
+<p>New Complex-Phase Representation</p>
+<p><span class="math display">\[\chi_m(j)=e^{i2\pi mj/K_n}\]</span></p>
+<!-- source_pdf_page: 2411 -->
+<p>New Orthogonality Result</p>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=\delta_{mm'}\]</span></p>
+<p>Continuous Physical Phase Representation</p>
+<p><span class="math display">\[ z(\phi)=e^{i\phi},\qquad z(\phi+2\pi)=z(\phi)\]</span></p>
+<p>Physical Clock Mapping</p>
+<p><span class="math display">\[\dot\phi=-\omega\]</span></p>
+<p>Imported Quantum Energetic Calibration</p>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p>Later Wave Projection</p>
+<p><span class="math display">\[\phi(x,t)=\mathbf k\cdot\mathbf x-\omega t+\phi_0\]</span></p>
+<p>Candidate Amplitude Mapping</p>
+<p><span class="math display">\[\psi_i=\sqrt{c_i}\,e^{i\phi_i}\]</span></p>
+<p>Not Yet Established</p>
+<p>This addendum does not yet derive:</p>
+<ul>
+<li>amplitude magnitude from primitive R2D count structure;</li>
+<li>why Ai = ci ;</li>
+<li>linear superposition of alternatives;</li>
+<li>the full complex vector space of quantum states;</li>
+<li>the Hermitian inner product;</li>
+<li>quadratic norm preservation;</li>
+<li>unitarity;</li>
+<li>the basis-independent Born rule;</li>
+<li>tensor-product composition;</li>
+<li>or Schrödinger dynamics.</li>
+</ul>
+<p>Those are now separate, explicit mathematical burdens.</p>
+</section>
+<section id="the-complete-phase-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-phase-architecture">102. The Complete Phase Architecture</h2>
+<p>A subordinate boundary closes:</p>
+<!-- source_pdf_page: 2412 -->
+<p>Bn−1 : a → b → c → a.</p>
+<p>Its path identity is recursively replaced:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ B_n\]</span></p>
+<p>The enclosing boundary possesses native recurrence:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ j+K_n\sim j\]</span></p>
+<p>The recurrence has cyclic algebra:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ C_{K_n}\]</span></p>
+<p>The cyclic algebra admits complex phase representation:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ e^{i2\pi j/K_n}\]</span></p>
+<p>Continuous physical phase can then be assigned:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ e^{i\phi}\]</span></p>
+<p>Physical clock and space mapping can then produce:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ e^{i(\mathbf k\cdot\mathbf x-\omega t)}\]</span></p>
+<p>Only afterward does the wavefunction problem begin:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ Ae^{i\phi}\]</span></p>
+<p>And only after amplitude magnitudes and alternative composition are derived does one obtain:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[|\psi\rangle=\sum_i A_i e^{i\phi_i}|i\rangle\]</span></p>
+<!-- source_pdf_page: 2413 -->
+<p>Thus:</p>
+<p>subordinate closure→replacement→native recurrence→cyclic phase→complex representation→wave→amplitude→state vector.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">103. Conclusion</h2>
+<p>Quantum mechanics is written in complex numbers.</p>
+<p>That fact is often accepted at the beginning of the theory.</p>
+<p>R2D asks what physical relation exists before the complex quantum amplitude.</p>
+<p>The answer begins with recursive replacement.</p>
+<p>At a quantum boundary, the subordinate trajectory is not hidden beneath the quantum state.</p>
+<p>It has already ceased to be a state trajectory at that boundary.</p>
+<p>Its closure participates in realization of a new count domain.</p>
+<p>The enclosing boundary then possesses its own native recurrence.</p>
+<p>That recurrence is what remains physically readable.</p>
+<p>A recurrent relation must close.</p>
+<p>If one closure contains Kn ordered recurrence positions,</p>
+<p><span class="math display">\[ j+K_n\sim j\]</span></p>
+<p>The positions form the cyclic group</p>
+<p><span class="math display">\[ C_{K_n}\]</span></p>
+<p>That cyclic composition has the natural complex representation</p>
+<p><span class="math display">\[ z_j=e^{i2\pi j/K_n}\]</span></p>
+<p>Complex phase is therefore not inserted arbitrarily.</p>
+<p>It is the compact unitary representation of oriented recurrent closure.</p>
+<p>When physical phase is continuously parameterized,</p>
+<!-- source_pdf_page: 2414 -->
+<p>eiϕ</p>
+<p>provides the corresponding U (1) representation.</p>
+<p>The imaginary unit then appears naturally as the generator of oriented phase evolution:</p>
+<p><span class="math display">\[\frac{dz}{d\phi}=iz\]</span></p>
+<p>None of this requires a spatial wave.</p>
+<p>Phase comes first.</p>
+<p>Only after phase is mapped into physical space and clock time does one obtain</p>
+<p><span class="math display">\[ e^{i(\mathbf k\cdot\mathbf x-\omega t+\phi_0)}\]</span></p>
+<p>Thus the wave is not the primitive carrier of phase.</p>
+<p>It is a later physical representation of recurrence phase.</p>
+<p>Closure also explains why absolute phase zero is not primitive.</p>
+<p>A cycle does not possess a unique physically preferred starting label.</p>
+<p>Therefore a common shift</p>
+<p><span class="math display">\[\phi\to\phi+\alpha\]</span></p>
+<p>can preserve all relative recurrence relations.</p>
+<p>This is the count-theoretic seed of global phase freedom.</p>
+<p>Ordered cyclic closure supplies another important structure.</p>
+<p>Its complex characters are orthogonal:</p>
+<p><span class="math display">\[\frac1{K_n}\sum_{j=0}^{K_n-1}\chi_m^*(j)\chi_{m'}(j)=\delta_{mm'}\]</span></p>
+<p>Thus complex orthogonal phase coordinates arise directly from recurrent closure.</p>
+<p>This gives R2D a plausible mathematical path toward quantum state space.</p>
+<p>But it does not complete that path.</p>
+<!-- source_pdf_page: 2415 -->
+<p>A complex phase is not yet a complex amplitude.</p>
+<p>A complex amplitude is not yet a quantum state vector.</p>
+<p>And a quantum state vector is not yet a Born rule.</p>
+<p>The phase factor</p>
+<p><span class="math display">\[ e^{i\phi}\]</span></p>
+<p>has now acquired a clear R2D origin.</p>
+<p>The amplitude magnitude</p>
+<p><span class="math display">\[ A\]</span></p>
+<p>has not.</p>
+<p>The current candidate</p>
+<p><span class="math display">\[ A_i=\sqrt{c_i}\]</span></p>
+<p>is mathematically attractive because it gives</p>
+<p><span class="math display">\[|\psi_i|^2=c_i\]</span></p>
+<p>But R2D must still establish why occupancy enters through a square root, why the relevant count is occupancy rather than multiplicity or occurrence, why alternative amplitudes add linearly, why the quadratic norm is invariant, and why the same count rule survives every complete change of measurement basis.</p>
+<p>Those are the next problems.</p>
+<p>The central statement is therefore:</p>
+<p>at the quantum boundary, subordinate trajectory identity has already been recursively replaced. What survives is boundary-native recurrence. Ordered recurrence closes cyclically; cyclic closure possesses a natural complex unitary phase representation; and that phase exists before any spatial wave, amplitude magnitude, or quantum state vector is assigned. Complex phase therefore has a direct R2D origin in closure, while complex amplitude remains a separate structure to be derived.</p>
+<p>And hence:</p>
+<p>closure phase occurs before complex amplitude.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="pagination-link" aria-label="Addendum 71 — Relative Recurrence Occurs Before the Compton Shift">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="pagination-link" aria-label="Addendum 73 — Normalized Realization Occurs Before the Born Rule">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

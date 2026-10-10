@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" rel="next">
+<link href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-74-boundary-preserving-recurrence-occurs-before-unitary-evolution" id="toc-addendum-74-boundary-preserving-recurrence-occurs-before-unitary-evolution" class="nav-link active" data-scroll-target="#addendum-74-boundary-preserving-recurrence-occurs-before-unitary-evolution">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#begin-with-the-boundary-not-the-evolution-operator" id="toc-begin-with-the-boundary-not-the-evolution-operator" class="nav-link" data-scroll-target="#begin-with-the-boundary-not-the-evolution-operator">1. Begin With the Boundary, Not the Evolution Operator</a></li>
+  <li><a href="#the-state-representation-may-change-without-the-boundary-being-replaced" id="toc-the-state-representation-may-change-without-the-boundary-being-replaced" class="nav-link" data-scroll-target="#the-state-representation-may-change-without-the-boundary-being-replaced">2. The State Representation May Change Without the Boundary Being Replaced</a></li>
+  <li><a href="#this-must-be-distinguished-from-measurement" id="toc-this-must-be-distinguished-from-measurement" class="nav-link" data-scroll-target="#this-must-be-distinguished-from-measurement">3. This Must Be Distinguished From Measurement</a></li>
+  <li><a href="#closed-quantum-evolution-instead-has-the-form" id="toc-closed-quantum-evolution-instead-has-the-form" class="nav-link" data-scroll-target="#closed-quantum-evolution-instead-has-the-form">4. Closed Quantum Evolution Instead Has the Form</a></li>
+  <li><a href="#therefore-the-first-question-is-an-invariance-question" id="toc-therefore-the-first-question-is-an-invariance-question" class="nav-link" data-scroll-target="#therefore-the-first-question-is-an-invariance-question">5. Therefore the First Question Is an Invariance Question</a></li>
+  <li><a href="#norm-preservation-alone-is-too-weak" id="toc-norm-preservation-alone-is-too-weak" class="nav-link" data-scroll-target="#norm-preservation-alone-is-too-weak">6. Norm Preservation Alone Is Too Weak</a></li>
+  <li><a href="#addendum-73-supplies-a-stronger-physical-invariant" id="toc-addendum-73-supplies-a-stronger-physical-invariant" class="nav-link" data-scroll-target="#addendum-73-supplies-a-stronger-physical-invariant">7. Addendum 73 Supplies a Stronger Physical Invariant</a></li>
+  <li><a href="#this-quantity-has-a-direct-measurement-meaning" id="toc-this-quantity-has-a-direct-measurement-meaning" class="nav-link" data-scroll-target="#this-quantity-has-a-direct-measurement-meaning">8. This Quantity Has a Direct Measurement Meaning</a></li>
+  <li><a href="#thus-the-transition-measure-is-more-fundamental-than-a-coordinate-component" id="toc-thus-the-transition-measure-is-more-fundamental-than-a-coordinate-component" class="nav-link" data-scroll-target="#thus-the-transition-measure-is-more-fundamental-than-a-coordinate-component">9. Thus the Transition Measure Is More Fundamental Than a Coordinate Component</a></li>
+  <li><a href="#apply-the-same-boundary-preserving-evolution-to-two-states" id="toc-apply-the-same-boundary-preserving-evolution-to-two-states" class="nav-link" data-scroll-target="#apply-the-same-boundary-preserving-evolution-to-two-states">10. Apply the Same Boundary-Preserving Evolution to Two States</a></li>
+  <li><a href="#therefore-require" id="toc-therefore-require" class="nav-link" data-scroll-target="#therefore-require">11. Therefore Require</a></li>
+  <li><a href="#the-preservation-condition-is-boundary-relative" id="toc-the-preservation-condition-is-boundary-relative" class="nav-link" data-scroll-target="#the-preservation-condition-is-boundary-relative">12. The Preservation Condition Is Boundary Relative</a></li>
+  <li><a href="#quantum-states-are-rays-rather-than-absolute-vectors" id="toc-quantum-states-are-rays-rather-than-absolute-vectors" class="nav-link" data-scroll-target="#quantum-states-are-rays-rather-than-absolute-vectors">13. Quantum States Are Rays Rather Than Absolute Vectors</a></li>
+  <li><a href="#the-transition-measure-is-ray-invariant" id="toc-the-transition-measure-is-ray-invariant" class="nav-link" data-scroll-target="#the-transition-measure-is-ray-invariant">14. The Transition Measure Is Ray Invariant</a></li>
+  <li><a href="#wigners-theorem-applies-to-exactly-this-structure" id="toc-wigners-theorem-applies-to-exactly-this-structure" class="nav-link" data-scroll-target="#wigners-theorem-applies-to-exactly-this-structure">15. Wigner’s Theorem Applies to Exactly This Structure</a></li>
+  <li><a href="#this-is-stronger-than-assuming-linear-evolution" id="toc-this-is-stronger-than-assuming-linear-evolution" class="nav-link" data-scroll-target="#this-is-stronger-than-assuming-linear-evolution">16. This Is Stronger Than Assuming Linear Evolution</a></li>
+  <li><a href="#the-first-quantum-dynamical-result-is" id="toc-the-first-quantum-dynamical-result-is" class="nav-link" data-scroll-target="#the-first-quantum-dynamical-result-is">17. The First Quantum-Dynamical Result Is</a></li>
+  <li><a href="#antiunitarity-is-still-mathematically-possible-at-this-stage" id="toc-antiunitarity-is-still-mathematically-possible-at-this-stage" class="nav-link" data-scroll-target="#antiunitarity-is-still-mathematically-possible-at-this-stage">18. Antiunitarity Is Still Mathematically Possible at This Stage</a></li>
+  <li><a href="#boundary-native-recurrence-supplies-continuity" id="toc-boundary-native-recurrence-supplies-continuity" class="nav-link" data-scroll-target="#boundary-native-recurrence-supplies-continuity">19. Boundary-Native Recurrence Supplies Continuity</a></li>
+  <li><a href="#introduce-a-recurrence-parameter" id="toc-introduce-a-recurrence-parameter" class="nav-link" data-scroll-target="#introduce-a-recurrence-parameter">20. Introduce a Recurrence Parameter</a></li>
+  <li><a href="#identity-corresponds-to-zero-recurrence-advance" id="toc-identity-corresponds-to-zero-recurrence-advance" class="nav-link" data-scroll-target="#identity-corresponds-to-zero-recurrence-advance">21. Identity Corresponds to Zero Recurrence Advance</a></li>
+  <li><a href="#continuous-recurrence-requires" id="toc-continuous-recurrence-requires" class="nav-link" data-scroll-target="#continuous-recurrence-requires">22. Continuous Recurrence Requires</a></li>
+  <li><a href="#the-evolution-must-therefore-be-connected-continuously-to-the-identity" id="toc-the-evolution-must-therefore-be-connected-continuously-to-the-identity" class="nav-link" data-scroll-target="#the-evolution-must-therefore-be-connected-continuously-to-the-identity">23. The Evolution Must Therefore Be Connected Continuously to the Identity</a></li>
+  <li><a href="#the-antiunitary-branch-is-disconnected-from-the-identity" id="toc-the-antiunitary-branch-is-disconnected-from-the-identity" class="nav-link" data-scroll-target="#the-antiunitary-branch-is-disconnected-from-the-identity">24. The Antiunitary Branch Is Disconnected From the Identity</a></li>
+  <li><a href="#therefore-continuous-boundary-native-recurrence-selects-the-unitary-branch" id="toc-therefore-continuous-boundary-native-recurrence-selects-the-unitary-branch" class="nav-link" data-scroll-target="#therefore-continuous-boundary-native-recurrence-selects-the-unitary-branch">25. Therefore Continuous Boundary-Native Recurrence Selects the Unitary Branch</a></li>
+  <li><a href="#this-is-the-central-unitarity-result" id="toc-this-is-the-central-unitarity-result" class="nav-link" data-scroll-target="#this-is-the-central-unitarity-result">26. This Is the Central Unitarity Result</a></li>
+  <li><a href="#unitarity-is-therefore-not-a-primitive-law" id="toc-unitarity-is-therefore-not-a-primitive-law" class="nav-link" data-scroll-target="#unitarity-is-therefore-not-a-primitive-law">27. Unitarity Is Therefore Not a Primitive Law</a></li>
+  <li><a href="#unitarity-preserves-the-norm" id="toc-unitarity-preserves-the-norm" class="nav-link" data-scroll-target="#unitarity-preserves-the-norm">28. Unitarity Preserves the Norm</a></li>
+  <li><a href="#it-also-preserves-every-inner-product" id="toc-it-also-preserves-every-inner-product" class="nav-link" data-scroll-target="#it-also-preserves-every-inner-product">29. It Also Preserves Every Inner Product</a></li>
+  <li><a href="#hence-it-preserves-the-born-transition-measure-automatically" id="toc-hence-it-preserves-the-born-transition-measure-automatically" class="nav-link" data-scroll-target="#hence-it-preserves-the-born-transition-measure-automatically">30. Hence It Preserves the Born Transition Measure Automatically</a></li>
+  <li><a href="#now-require-composition-of-recurrence" id="toc-now-require-composition-of-recurrence" class="nav-link" data-scroll-target="#now-require-composition-of-recurrence">31. Now Require Composition of Recurrence</a></li>
+  <li><a href="#this-is-the-one-parameter-group-law" id="toc-this-is-the-one-parameter-group-law" class="nav-link" data-scroll-target="#this-is-the-one-parameter-group-law">32. This Is the One-Parameter Group Law</a></li>
+  <li><a href="#because-u-is-unitary" id="toc-because-u-is-unitary" class="nav-link" data-scroll-target="#because-u-is-unitary">33. Because U Is Unitary</a></li>
+  <li><a href="#this-reversibility-belongs-to-the-boundary-preserving-representation" id="toc-this-reversibility-belongs-to-the-boundary-preserving-representation" class="nav-link" data-scroll-target="#this-reversibility-belongs-to-the-boundary-preserving-representation">34. This Reversibility Belongs to the Boundary-Preserving Representation</a></li>
+  <li><a href="#strong-continuity-gives-a-self-adjoint-generator" id="toc-strong-continuity-gives-a-self-adjoint-generator" class="nav-link" data-scroll-target="#strong-continuity-gives-a-self-adjoint-generator">35. Strong Continuity Gives a Self-Adjoint Generator</a></li>
+  <li><a href="#kτ-is-a-recurrence-generator" id="toc-kτ-is-a-recurrence-generator" class="nav-link" data-scroll-target="#kτ-is-a-recurrence-generator">36. Kτ Is a Recurrence Generator</a></li>
+  <li><a href="#differentiate-the-unitary-evolution" id="toc-differentiate-the-unitary-evolution" class="nav-link" data-scroll-target="#differentiate-the-unitary-evolution">37. Differentiate the Unitary Evolution</a></li>
+  <li><a href="#therefore" id="toc-therefore" class="nav-link" data-scroll-target="#therefore">38. Therefore</a></li>
+  <li><a href="#the-equation-is-already-schrödinger-like" id="toc-the-equation-is-already-schrödinger-like" class="nav-link" data-scroll-target="#the-equation-is-already-schrödinger-like">39. The Equation Is Already Schrödinger-Like</a></li>
+  <li><a href="#the-recurrence-parameter-must-not-be-confused-with-primitive-time" id="toc-the-recurrence-parameter-must-not-be-confused-with-primitive-time" class="nav-link" data-scroll-target="#the-recurrence-parameter-must-not-be-confused-with-primitive-time">40. The Recurrence Parameter Must Not Be Confused With Primitive Time</a></li>
+  <li><a href="#physical-clock-calibration-produces-t" id="toc-physical-clock-calibration-produces-t" class="nav-link" data-scroll-target="#physical-clock-calibration-produces-t">41. Physical Clock Calibration Produces t</a></li>
+  <li><a href="#then" id="toc-then" class="nav-link" data-scroll-target="#then">42. Then</a></li>
+  <li><a href="#eigenstates-of-the-generator-have-definite-physical-recurrence-rate" id="toc-eigenstates-of-the-generator-have-definite-physical-recurrence-rate" class="nav-link" data-scroll-target="#eigenstates-of-the-generator-have-definite-physical-recurrence-rate">43. Eigenstates of the Generator Have Definite Physical Recurrence Rate</a></li>
+  <li><a href="#the-states-realization-magnitude-does-not-change" id="toc-the-states-realization-magnitude-does-not-change" class="nav-link" data-scroll-target="#the-states-realization-magnitude-does-not-change">44. The State’s Realization Magnitude Does Not Change</a></li>
+  <li><a href="#yet-its-phase-continues-to-recur" id="toc-yet-its-phase-continues-to-recur" class="nav-link" data-scroll-target="#yet-its-phase-continues-to-recur">45. Yet Its Phase Continues to Recur</a></li>
+  <li><a href="#stationary-does-not-mean-recurrence-has-stopped" id="toc-stationary-does-not-mean-recurrence-has-stopped" class="nav-link" data-scroll-target="#stationary-does-not-mean-recurrence-has-stopped">46. Stationary Does Not Mean Recurrence Has Stopped</a></li>
+  <li><a href="#this-mirrors-the-mass-turbine-result" id="toc-this-mirrors-the-mass-turbine-result" class="nav-link" data-scroll-target="#this-mirrors-the-mass-turbine-result">47. This Mirrors the Mass-Turbine Result</a></li>
+  <li><a href="#energy-is-a-later-calibration-of-the-recurrence-generator" id="toc-energy-is-a-later-calibration-of-the-recurrence-generator" class="nav-link" data-scroll-target="#energy-is-a-later-calibration-of-the-recurrence-generator">48. Energy Is a Later Calibration of the Recurrence Generator</a></li>
+  <li><a href="#the-generator-becomes-the-hamiltonian" id="toc-the-generator-becomes-the-hamiltonian" class="nav-link" data-scroll-target="#the-generator-becomes-the-hamiltonian">49. The Generator Becomes the Hamiltonian</a></li>
+  <li><a href="#energy-eigenvalue-is-therefore-a-physical-read-of-recurrence--generator-eigenvalue" id="toc-energy-eigenvalue-is-therefore-a-physical-read-of-recurrence--generator-eigenvalue" class="nav-link" data-scroll-target="#energy-eigenvalue-is-therefore-a-physical-read-of-recurrence--generator-eigenvalue">50. Energy Eigenvalue Is Therefore a Physical Read of Recurrence- Generator Eigenvalue</a></li>
+  <li><a href="#the-unitary-operator-becomes" id="toc-the-unitary-operator-becomes" class="nav-link" data-scroll-target="#the-unitary-operator-becomes">51. The Unitary Operator Becomes</a></li>
+  <li><a href="#and-the-evolution-equation-becomes" id="toc-and-the-evolution-equation-becomes" class="nav-link" data-scroll-target="#and-the-evolution-equation-becomes">52. And the Evolution Equation Becomes</a></li>
+  <li><a href="#the-abstract-schrödinger-equation-is-therefore-a-generator-equation" id="toc-the-abstract-schrödinger-equation-is-therefore-a-generator-equation" class="nav-link" data-scroll-target="#the-abstract-schrödinger-equation-is-therefore-a-generator-equation">53. The Abstract Schrödinger Equation Is Therefore a Generator Equation</a></li>
+  <li><a href="#in-particular-this-addendum-does-not-yet-derive" id="toc-in-particular-this-addendum-does-not-yet-derive" class="nav-link" data-scroll-target="#in-particular-this-addendum-does-not-yet-derive">54. In Particular, This Addendum Does Not Yet Derive</a></li>
+  <li><a href="#the-spatial-schrödinger-equation-comes-later" id="toc-the-spatial-schrödinger-equation-comes-later" class="nav-link" data-scroll-target="#the-spatial-schrödinger-equation-comes-later">55. The Spatial Schrödinger Equation Comes Later</a></li>
+  <li><a href="#this-resolves-the-apparent-dual-dynamics-of-quantum-theory" id="toc-this-resolves-the-apparent-dual-dynamics-of-quantum-theory" class="nav-link" data-scroll-target="#this-resolves-the-apparent-dual-dynamics-of-quantum-theory">56. This Resolves the Apparent Dual Dynamics of Quantum Theory</a></li>
+  <li><a href="#unitary-evolution-belongs-to-one-boundary" id="toc-unitary-evolution-belongs-to-one-boundary" class="nav-link" data-scroll-target="#unitary-evolution-belongs-to-one-boundary">57. Unitary Evolution Belongs to One Boundary</a></li>
+  <li><a href="#measurement-creates-a-new-enclosing-boundary" id="toc-measurement-creates-a-new-enclosing-boundary" class="nav-link" data-scroll-target="#measurement-creates-a-new-enclosing-boundary">58. Measurement Creates a New Enclosing Boundary</a></li>
+  <li><a href="#thus-measurement-is-not-merely-nonunitary-evolution-within-the-same-primitive-state-space" id="toc-thus-measurement-is-not-merely-nonunitary-evolution-within-the-same-primitive-state-space" class="nav-link" data-scroll-target="#thus-measurement-is-not-merely-nonunitary-evolution-within-the-same-primitive-state-space">59. Thus Measurement Is Not Merely Nonunitary Evolution Within the Same Primitive State Space</a></li>
+  <li><a href="#the-apparent-conflict-is-therefore-a-category-error" id="toc-the-apparent-conflict-is-therefore-a-category-error" class="nav-link" data-scroll-target="#the-apparent-conflict-is-therefore-a-category-error">60. The Apparent Conflict Is Therefore a Category Error</a></li>
+  <li><a href="#the-more-primitive-distinction-is" id="toc-the-more-primitive-distinction-is" class="nav-link" data-scroll-target="#the-more-primitive-distinction-is">61. The More Primitive Distinction Is</a></li>
+  <li><a href="#this-does-not-yet-solve-every-measurement-problem" id="toc-this-does-not-yet-solve-every-measurement-problem" class="nav-link" data-scroll-target="#this-does-not-yet-solve-every-measurement-problem">62. This Does Not Yet Solve Every Measurement Problem</a></li>
+  <li><a href="#continuous-evolution-also-explains-why-antiunitary-symmetries-can-still-exist" id="toc-continuous-evolution-also-explains-why-antiunitary-symmetries-can-still-exist" class="nav-link" data-scroll-target="#continuous-evolution-also-explains-why-antiunitary-symmetries-can-still-exist">63. Continuous Evolution Also Explains Why Antiunitary Symmetries Can Still Exist</a></li>
+  <li><a href="#thus" id="toc-thus" class="nav-link" data-scroll-target="#thus">64. Thus</a></li>
+  <li><a href="#autonomous-evolution-is-the-clean-group-case" id="toc-autonomous-evolution-is-the-clean-group-case" class="nav-link" data-scroll-target="#autonomous-evolution-is-the-clean-group-case">65. Autonomous Evolution Is the Clean Group Case</a></li>
+  <li><a href="#more-general-physical-environments-need-not-have-a-time--independent-generator" id="toc-more-general-physical-environments-need-not-have-a-time--independent-generator" class="nav-link" data-scroll-target="#more-general-physical-environments-need-not-have-a-time--independent-generator">66. More General Physical Environments Need Not Have a Time- Independent Generator</a></li>
+  <li><a href="#the-boundary-preserving-principle-still-holds" id="toc-the-boundary-preserving-principle-still-holds" class="nav-link" data-scroll-target="#the-boundary-preserving-principle-still-holds">67. The Boundary-Preserving Principle Still Holds</a></li>
+  <li><a href="#the-group-law-should-therefore-not-be-overgeneralized" id="toc-the-group-law-should-therefore-not-be-overgeneralized" class="nav-link" data-scroll-target="#the-group-law-should-therefore-not-be-overgeneralized">68. The Group Law Should Therefore Not Be Overgeneralized</a></li>
+  <li><a href="#principle-boundary-preservation-precedes-unitarity" id="toc-principle-boundary-preservation-precedes-unitarity" class="nav-link" data-scroll-target="#principle-boundary-preservation-precedes-unitarity">69. Principle — Boundary Preservation Precedes Unitarity</a></li>
+  <li><a href="#principle-transition-measure-is-the-physical-invariant" id="toc-principle-transition-measure-is-the-physical-invariant" class="nav-link" data-scroll-target="#principle-transition-measure-is-the-physical-invariant">70. Principle — Transition Measure Is the Physical Invariant</a></li>
+  <li><a href="#principle-transition-measure-preservation-restricts-state-transformations" id="toc-principle-transition-measure-preservation-restricts-state-transformations" class="nav-link" data-scroll-target="#principle-transition-measure-preservation-restricts-state-transformations">71. Principle — Transition-Measure Preservation Restricts State Transformations</a></li>
+  <li><a href="#principle-continuous-recurrence-selects-unitary-evolution" id="toc-principle-continuous-recurrence-selects-unitary-evolution" class="nav-link" data-scroll-target="#principle-continuous-recurrence-selects-unitary-evolution">72. Principle — Continuous Recurrence Selects Unitary Evolution</a></li>
+  <li><a href="#principle-unitarity-preserves-normalized-realization-geometry" id="toc-principle-unitarity-preserves-normalized-realization-geometry" class="nav-link" data-scroll-target="#principle-unitarity-preserves-normalized-realization-geometry">73. Principle — Unitarity Preserves Normalized Realization Geometry</a></li>
+  <li><a href="#principle-continuous-autonomous-recurrence-forms-a-one--parameter-group" id="toc-principle-continuous-autonomous-recurrence-forms-a-one--parameter-group" class="nav-link" data-scroll-target="#principle-continuous-autonomous-recurrence-forms-a-one--parameter-group">74. Principle — Continuous Autonomous Recurrence Forms a One- Parameter Group</a></li>
+  <li><a href="#principle-a-self-adjoint-generator-follows" id="toc-principle-a-self-adjoint-generator-follows" class="nav-link" data-scroll-target="#principle-a-self-adjoint-generator-follows">75. Principle — A Self-Adjoint Generator Follows</a></li>
+  <li><a href="#principle-the-generator-is-recurrence-before-it-is-energy" id="toc-principle-the-generator-is-recurrence-before-it-is-energy" class="nav-link" data-scroll-target="#principle-the-generator-is-recurrence-before-it-is-energy">76. Principle — The Generator Is Recurrence Before It Is Energy</a></li>
+  <li><a href="#principle-physical-clock-calibration-precedes-the-hamiltonian-read" id="toc-principle-physical-clock-calibration-precedes-the-hamiltonian-read" class="nav-link" data-scroll-target="#principle-physical-clock-calibration-precedes-the-hamiltonian-read">77. Principle — Physical Clock Calibration Precedes the Hamiltonian Read</a></li>
+  <li><a href="#principle-the-abstract-schrödinger-equation-is-a-physical-recurrence-projection" id="toc-principle-the-abstract-schrödinger-equation-is-a-physical-recurrence-projection" class="nav-link" data-scroll-target="#principle-the-abstract-schrödinger-equation-is-a-physical-recurrence-projection">78. Principle — The Abstract Schrödinger Equation Is a Physical Recurrence Projection</a></li>
+  <li><a href="#principle-stationary-state-does-not-mean-static-ontology" id="toc-principle-stationary-state-does-not-mean-static-ontology" class="nav-link" data-scroll-target="#principle-stationary-state-does-not-mean-static-ontology">79. Principle — Stationary State Does Not Mean Static Ontology</a></li>
+  <li><a href="#principle-measurement-and-unitary-evolution-have-different-boundary-ownership" id="toc-principle-measurement-and-unitary-evolution-have-different-boundary-ownership" class="nav-link" data-scroll-target="#principle-measurement-and-unitary-evolution-have-different-boundary-ownership">80. Principle — Measurement and Unitary Evolution Have Different Boundary Ownership</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">81. Logical Status</a></li>
+  <li><a href="#the-complete-unitary-architecture" id="toc-the-complete-unitary-architecture" class="nav-link" data-scroll-target="#the-complete-unitary-architecture">82. The Complete Unitary Architecture</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">83. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></h1>
+<p class="subtitle lead">Transition-Measure Preservation, Continuous Closure, and the Origin of the Abstract Schrödinger Equation</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-74-boundary-preserving-recurrence-occurs-before-unitary-evolution" class="level1">
+<h1>Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</h1>
+<p><em>Transition-Measure Preservation, Continuous Closure, and the Origin of the Abstract Schrödinger Equation</em></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<!-- source_pdf_page: 2449 -->
+<p>Addendum 72 derived complex phase from boundary-native recurrent closure.</p>
+<p>Addendum 73 then connected normalized detector realization to the Born measure:</p>
+<p><span class="math display">\[ \mu_\psi(P)=\operatorname{Tr}(\rho_\psi P), \]</span></p>
+<p>and, for a pure state and rank-one detector alternative,</p>
+<p><span class="math display">\[ \mu_\psi(P_\phi)=|\langle\phi|\psi\rangle|^2. \]</span></p>
+<p>The next question is dynamical.</p>
+<p>If a quantum boundary evolves without being replaced by a new enclosing measurement boundary, what mathematical structure must preserve its physical realization relations?</p>
+<p>R2D distinguishes two fundamentally different situations.</p>
+<p>The first is boundary-preserving recurrence:</p>
+<p><span class="math display">\[ B_n\to B_n\]</span></p>
+<p>The count domain remains the same while the boundary-native recurrence changes phase.</p>
+<p>The second is boundary replacement:</p>
+<p><span class="math display">\[ B_n\to B_{n+1}^{M}\]</span></p>
+<p>where a new enclosing measurement boundary creates a new readable macrostate distinction.</p>
+<p>These two physical situations should not be assigned the same mathematical operation.</p>
+<p>For boundary-preserving quantum evolution, no new detector macrostate has yet been realized. The physically meaningful relational structure among admissible quantum states must therefore remain invariant.</p>
+<!-- source_pdf_page: 2450 -->
+<p>For two state rays represented by</p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>and</p>
+<p><span class="math display">\[|\phi\rangle\]</span></p>
+<p>Addendum 73 identifies their transition measure as</p>
+<p><span class="math display">\[ T(\phi,\psi)=|\langle\phi|\psi\rangle|^2. \]</span></p>
+<p>Boundary-preserving evolution must therefore satisfy</p>
+<p><span class="math display">\[ |\langle\phi|\psi\rangle|^2=|\langle\phi\prime|\psi\prime\rangle|^2. \]</span></p>
+<p>A transformation of quantum rays preserving all such transition measures is represented, by Wigner’s theorem, by either a unitary or an antiunitary operator.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>transition-measure preservation → unitary or antiunitary representation.</p>
+</blockquote>
+<p>R2D supplies an additional physical condition.</p>
+<p>Boundary-native recurrence is continuous in its physical phase representation and must connect continuously to the identity transformation.</p>
+<p>Let</p>
+<p><span class="math display">\[\tau\]</span></p>
+<p>denote a recurrence parameter before assignment of physical clock units.</p>
+<p>Then:</p>
+<p><span class="math display">\[ U(0)=I\]</span></p>
+<p>For continuous recurrence,</p>
+<p><span class="math display">\[ U(\tau+\delta\tau)\to U(\tau)\]</span></p>
+<p>as</p>
+<p><span class="math display">\[\delta\tau\to0\]</span></p>
+<!-- source_pdf_page: 2451 -->
+<p>An antiunitary transformation is not continuously connected to the identity within such a one-parameter evolution.</p>
+<p>The continuous boundary-preserving branch is therefore unitary:</p>
+<p><span class="math display">\[ U^\dagger(\tau)U(\tau)=I. \]</span></p>
+<p>For an autonomous boundary-preserving recurrence, composition satisfies</p>
+<p><span class="math display">\[ U(\tau_2)U(\tau_1)=U(\tau_1+\tau_2). \]</span></p>
+<p>A strongly continuous one-parameter unitary group has a self-adjoint generator Kτ :</p>
+<p><span class="math display">\[ U(\tau)=e^{-iK_\tau\tau}. \]</span></p>
+<p>Hence:</p>
+<p><span class="math display">\[ i\frac{d}{d\tau}|\psi(\tau)\rangle=K_\tau|\psi(\tau)\rangle\]</span></p>
+<p>This equation is prior to physical energy.</p>
+<p>It describes continuous boundary-preserving phase recurrence in the quantum state representation.</p>
+<p>Only after physical clock calibration maps</p>
+<p><span class="math display">\[\tau\to t\]</span></p>
+<p>does the generator acquire inverse-time dimensions:</p>
+<p><span class="math display">\[ K_t\]</span></p>
+<p>The empirical quantum energy-frequency calibration then assigns</p>
+<p><span class="math display">\[ H=\hbar K_t. \]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ U(t)=e^{-iHt/\hbar}, \]</span></p>
+<p>and</p>
+<p><span class="math display">\[ i\hbar\frac{d}{dt}|\psi(t)\rangle=H|\psi(t)\rangle\]</span></p>
+<p>This is the abstract Schrödinger equation.</p>
+<!-- source_pdf_page: 2452 -->
+<p>Its R2D interpretation is not that a primitive wavefunction physically flows through an underlying Hilbert space.</p>
+<p>The quantum state vector is the mathematical projection of boundary-native recurrence and normalized realization structure.</p>
+<p>Unitary evolution is the transformation law required to preserve that relational realization structure while the count boundary itself remains unchanged.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>unitarity is the quantum projection of boundary-preserving recurrence.</p>
+</blockquote>
+<p>The central statement is therefore:</p>
+<p>a quantum boundary that evolves without recursive replacement must preserve the normalized realization relations among its admissible state representations. The Born transition measure provides the relevant invariant. Wigner’s theorem restricts transformations preserving that invariant to unitary or antiunitary form; continuous recurrence connected to the identity selects the unitary branch. Strong continuity then supplies a self-adjoint recurrence generator, and physical energy-frequency calibration converts that generator into the Hamiltonian. The abstract Schrodinger equation is therefore a later physical representation of boundary-preserving recurrence.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>boundary-preserving recurrence occurs before unitary evolution.</p>
+</blockquote>
+</section>
+<section id="begin-with-the-boundary-not-the-evolution-operator" class="level2">
+<h2 class="anchored" data-anchor-id="begin-with-the-boundary-not-the-evolution-operator">1. Begin With the Boundary, Not the Evolution Operator</h2>
+<p>Let</p>
+<p><span class="math display">\[ B_n\]</span></p>
+<p>be a realized quantum boundary.</p>
+<p>Its count domain is already defined.</p>
+<p>Its boundary-native recurrence is represented through complex phase.</p>
+</section>
+<section id="the-state-representation-may-change-without-the-boundary-being-replaced" class="level2">
+<h2 class="anchored" data-anchor-id="the-state-representation-may-change-without-the-boundary-being-replaced">2. The State Representation May Change Without the Boundary Being Replaced</h2>
+<p>Write the initial quantum state representation as</p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>After an interval of boundary-preserving recurrence, write</p>
+<!-- source_pdf_page: 2453 -->
+<p>∣ψ ′ ⟩.</p>
+<p>The state coordinate has changed.</p>
+<p>The count boundary has not.</p>
+</section>
+<section id="this-must-be-distinguished-from-measurement" class="level2">
+<h2 class="anchored" data-anchor-id="this-must-be-distinguished-from-measurement">3. This Must Be Distinguished From Measurement</h2>
+<p>Measurement creates a new enclosing readable distinction.</p>
+<p>Schematically:</p>
+<p><span class="math display">\[ B_n\to B_{n+1}^{M}\]</span></p>
+<p>That is a change of count domain.</p>
+</section>
+<section id="closed-quantum-evolution-instead-has-the-form" class="level2">
+<h2 class="anchored" data-anchor-id="closed-quantum-evolution-instead-has-the-form">4. Closed Quantum Evolution Instead Has the Form</h2>
+<p><span class="math display">\[ B_n\to B_n\]</span></p>
+<p>The same boundary remains the owner of state meaning.</p>
+</section>
+<section id="therefore-the-first-question-is-an-invariance-question" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-the-first-question-is-an-invariance-question">5. Therefore the First Question Is an Invariance Question</h2>
+<p>What physical relation must remain unchanged while the state coordinate evolves inside the same boundary?</p>
+</section>
+<section id="norm-preservation-alone-is-too-weak" class="level2">
+<h2 class="anchored" data-anchor-id="norm-preservation-alone-is-too-weak">6. Norm Preservation Alone Is Too Weak</h2>
+<p>One might propose</p>
+<p><span class="math display">\[\langle\psi|\psi\rangle=\langle\psi'|\psi'\rangle\]</span></p>
+<p>This is necessary for normalized quantum states.</p>
+<p>But it is not sufficient to derive unitary dynamics.</p>
+<p>Nonlinear transformations can preserve norms.</p>
+<!-- source_pdf_page: 2454 -->
+</section>
+<section id="addendum-73-supplies-a-stronger-physical-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-73-supplies-a-stronger-physical-invariant">7. Addendum 73 Supplies a Stronger Physical Invariant</h2>
+<p>For two admissible quantum states,</p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>and</p>
+<p><span class="math display">\[|\phi\rangle\]</span></p>
+<p>the transition measure is</p>
+<p><span class="math display">\[ T(\phi,\psi)=|\langle\phi|\psi\rangle|^2\]</span></p>
+</section>
+<section id="this-quantity-has-a-direct-measurement-meaning" class="level2">
+<h2 class="anchored" data-anchor-id="this-quantity-has-a-direct-measurement-meaning">8. This Quantity Has a Direct Measurement Meaning</h2>
+<p>If</p>
+<p><span class="math display">\[|\phi\rangle\]</span></p>
+<p>defines a rank-one detector alternative, then</p>
+<p><span class="math display">\[|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>is the normalized realization measure associated with that alternative.</p>
+</section>
+<section id="thus-the-transition-measure-is-more-fundamental-than-a-coordinate-component" class="level2">
+<h2 class="anchored" data-anchor-id="thus-the-transition-measure-is-more-fundamental-than-a-coordinate-component">9. Thus the Transition Measure Is More Fundamental Than a Coordinate Component</h2>
+<p>It expresses a physically realizable relation between quantum state and detector classification.</p>
+</section>
+<section id="apply-the-same-boundary-preserving-evolution-to-two-states" class="level2">
+<h2 class="anchored" data-anchor-id="apply-the-same-boundary-preserving-evolution-to-two-states">10. Apply the Same Boundary-Preserving Evolution to Two States</h2>
+<p>Let</p>
+<p><span class="math display">\[|\psi\rangle\to|\psi'\rangle\]</span></p>
+<p>and</p>
+<p><span class="math display">\[|\phi\rangle\to|\phi'\rangle\]</span></p>
+<!-- source_pdf_page: 2455 -->
+<p>If the evolution itself creates no new count boundary, the relational realization structure should remain unchanged.</p>
+</section>
+<section id="therefore-require" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-require">11. Therefore Require</h2>
+<p><span class="math display">\[|\langle\phi'|\psi'\rangle|^2=|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>This is transition-measure preservation.</p>
+</section>
+<section id="the-preservation-condition-is-boundary-relative" class="level2">
+<h2 class="anchored" data-anchor-id="the-preservation-condition-is-boundary-relative">12. The Preservation Condition Is Boundary Relative</h2>
+<p>It does not assert that every physical quantity remains constant.</p>
+<p>Phase, energy coordinates, spatial coordinates, and expectation values may change.</p>
+<p>What remains invariant is the relational measure defining how state rays compare.</p>
+</section>
+<section id="quantum-states-are-rays-rather-than-absolute-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="quantum-states-are-rays-rather-than-absolute-vectors">13. Quantum States Are Rays Rather Than Absolute Vectors</h2>
+<p>From Addendum 72,</p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ e^{i\alpha}|\psi\rangle\]</span></p>
+<p>represent the same physical state relation.</p>
+<p>Therefore the physical object relevant to the transition measure is a ray.</p>
+</section>
+<section id="the-transition-measure-is-ray-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="the-transition-measure-is-ray-invariant">14. The Transition Measure Is Ray Invariant</h2>
+<p><span class="math display">\[|\langle e^{i\beta}\phi|e^{i\alpha}\psi\rangle|^2=|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>Thus it depends only on relational state geometry.</p>
+</section>
+<section id="wigners-theorem-applies-to-exactly-this-structure" class="level2">
+<h2 class="anchored" data-anchor-id="wigners-theorem-applies-to-exactly-this-structure">15. Wigner’s Theorem Applies to Exactly This Structure</h2>
+<p>A bijective transformation of quantum rays preserving</p>
+<!-- source_pdf_page: 2456 -->
+<p>∣⟨ϕ∣ψ⟩∣2</p>
+<p>is represented by either:</p>
+<blockquote class="blockquote">
+<p>unitary</p>
+</blockquote>
+<p>or</p>
+<blockquote class="blockquote">
+<p>antiunitary</p>
+</blockquote>
+<p>transformation of the state vectors.</p>
+</section>
+<section id="this-is-stronger-than-assuming-linear-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-stronger-than-assuming-linear-evolution">16. This Is Stronger Than Assuming Linear Evolution</h2>
+<p>Linearity or antilinearity arises from preservation of the physically meaningful transition measure.</p>
+<p>R2D therefore need not begin by postulating linear state dynamics.</p>
+</section>
+<section id="the-first-quantum-dynamical-result-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-quantum-dynamical-result-is">17. The First Quantum-Dynamical Result Is</h2>
+<blockquote class="blockquote">
+<p>boundary relational invariance → unitary or antiunitary representation.</p>
+</blockquote>
+</section>
+<section id="antiunitarity-is-still-mathematically-possible-at-this-stage" class="level2">
+<h2 class="anchored" data-anchor-id="antiunitarity-is-still-mathematically-possible-at-this-stage">18. Antiunitarity Is Still Mathematically Possible at This Stage</h2>
+<p>Transition-measure preservation alone does not choose between the two branches.</p>
+<p>R2D must supply another physical condition.</p>
+</section>
+<section id="boundary-native-recurrence-supplies-continuity" class="level2">
+<h2 class="anchored" data-anchor-id="boundary-native-recurrence-supplies-continuity">19. Boundary-Native Recurrence Supplies Continuity</h2>
+<p>Addendum 72 derived phase as the continuous physical representation of recurrent closure.</p>
+<p>Thus physical evolution associated with that recurrence should admit continuously neighboring transformations.</p>
+</section>
+<section id="introduce-a-recurrence-parameter" class="level2">
+<h2 class="anchored" data-anchor-id="introduce-a-recurrence-parameter">20. Introduce a Recurrence Parameter</h2>
+<p>Let</p>
+<!-- source_pdf_page: 2457 -->
+<p>τ</p>
+<p>parameterize progress through the boundary-native recurrence.</p>
+<p>At this stage, τ need not be measured in seconds.</p>
+</section>
+<section id="identity-corresponds-to-zero-recurrence-advance" class="level2">
+<h2 class="anchored" data-anchor-id="identity-corresponds-to-zero-recurrence-advance">21. Identity Corresponds to Zero Recurrence Advance</h2>
+<p><span class="math display">\[ U(0)=I\]</span></p>
+<p>No recurrence advance means no change of state representation.</p>
+</section>
+<section id="continuous-recurrence-requires" class="level2">
+<h2 class="anchored" data-anchor-id="continuous-recurrence-requires">22. Continuous Recurrence Requires</h2>
+<p><span class="math display">\[\lim_{\delta\tau\to0}U(\tau+\delta\tau)=U(\tau)\]</span></p>
+<p>The mathematical representation changes continuously with recurrence advance.</p>
+</section>
+<section id="the-evolution-must-therefore-be-connected-continuously-to-the-identity" class="level2">
+<h2 class="anchored" data-anchor-id="the-evolution-must-therefore-be-connected-continuously-to-the-identity">23. The Evolution Must Therefore Be Connected Continuously to the Identity</h2>
+<p>There must be a continuous path from</p>
+<p><span class="math display">\[ I\]</span></p>
+<p>to the transformation representing any sufficiently small recurrence advance.</p>
+</section>
+<section id="the-antiunitary-branch-is-disconnected-from-the-identity" class="level2">
+<h2 class="anchored" data-anchor-id="the-antiunitary-branch-is-disconnected-from-the-identity">24. The Antiunitary Branch Is Disconnected From the Identity</h2>
+<p>Antiunitary transformations involve complex conjugation structure.</p>
+<p>They cannot arise as infinitesimal continuous deformations of the identity within a one-parameter evolution generated from U (0) = I .</p>
+</section>
+<section id="therefore-continuous-boundary-native-recurrence-selects-the-unitary-branch" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-continuous-boundary-native-recurrence-selects-the-unitary-branch">25. Therefore Continuous Boundary-Native Recurrence Selects the Unitary Branch</h2>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<!-- source_pdf_page: 2458 -->
+</section>
+<section id="this-is-the-central-unitarity-result" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-central-unitarity-result">26. This Is the Central Unitarity Result</h2>
+<blockquote class="blockquote">
+<p>Born-measure preservation + continuous recurrence → unitarity.</p>
+</blockquote>
+</section>
+<section id="unitarity-is-therefore-not-a-primitive-law" class="level2">
+<h2 class="anchored" data-anchor-id="unitarity-is-therefore-not-a-primitive-law">27. Unitarity Is Therefore Not a Primitive Law</h2>
+<p>It is the mathematical representation of a deeper physical condition:</p>
+<blockquote class="blockquote">
+<p>same quantum boundary + preserved relational realization structure.</p>
+</blockquote>
+</section>
+<section id="unitarity-preserves-the-norm" class="level2">
+<h2 class="anchored" data-anchor-id="unitarity-preserves-the-norm">28. Unitarity Preserves the Norm</h2>
+<p>Immediately,</p>
+<p><span class="math display">\[\langle\psi'|\psi'\rangle=\langle\psi|U^\dagger U|\psi\rangle\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\langle\psi'|\psi'\rangle=\langle\psi|\psi\rangle\]</span></p>
+</section>
+<section id="it-also-preserves-every-inner-product" class="level2">
+<h2 class="anchored" data-anchor-id="it-also-preserves-every-inner-product">29. It Also Preserves Every Inner Product</h2>
+<p>For</p>
+<p><span class="math display">\[|\psi'\rangle=U|\psi\rangle,\qquad|\phi'\rangle=U|\phi\rangle\]</span></p>
+<p><span class="math display">\[\langle\phi'|\psi'\rangle=\langle\phi|\psi\rangle\]</span></p>
+</section>
+<section id="hence-it-preserves-the-born-transition-measure-automatically" class="level2">
+<h2 class="anchored" data-anchor-id="hence-it-preserves-the-born-transition-measure-automatically">30. Hence It Preserves the Born Transition Measure Automatically</h2>
+<p><span class="math display">\[|\langle\phi'|\psi'\rangle|^2=|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>The relational count structure is preserved.</p>
+</section>
+<section id="now-require-composition-of-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="now-require-composition-of-recurrence">31. Now Require Composition of Recurrence</h2>
+<p>For an autonomous closed boundary, recurrence advance by</p>
+<!-- source_pdf_page: 2459 -->
+<p>τ1</p>
+<p>followed by</p>
+<p><span class="math display">\[\tau_2\]</span></p>
+<p>is equivalent to total recurrence advance</p>
+<p><span class="math display">\[\tau_1+\tau_2\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ U(\tau_2)U(\tau_1)=U(\tau_1+\tau_2)\]</span></p>
+</section>
+<section id="this-is-the-one-parameter-group-law" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-one-parameter-group-law">32. This Is the One-Parameter Group Law</h2>
+<p>Together with</p>
+<p><span class="math display">\[ U(0)=I\]</span></p>
+<p>it implies</p>
+<p><span class="math display">\[ U(-\tau)=U^\dagger(\tau)\]</span></p>
+</section>
+<section id="because-u-is-unitary" class="level2">
+<h2 class="anchored" data-anchor-id="because-u-is-unitary">33. Because U Is Unitary</h2>
+<p><span class="math display">\[ U^{-1}(\tau)=U^\dagger(\tau)\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[ U(-\tau)=U^\dagger(\tau)\]</span></p>
+</section>
+<section id="this-reversibility-belongs-to-the-boundary-preserving-representation" class="level2">
+<h2 class="anchored" data-anchor-id="this-reversibility-belongs-to-the-boundary-preserving-representation">34. This Reversibility Belongs to the Boundary-Preserving Representation</h2>
+<p>It does not imply that all physical thermodynamic processes are globally reversible.</p>
+<p>The present result applies to the projected closed quantum recurrence before a new irreversible measurement record is realized.</p>
+<!-- source_pdf_page: 2460 -->
+</section>
+<section id="strong-continuity-gives-a-self-adjoint-generator" class="level2">
+<h2 class="anchored" data-anchor-id="strong-continuity-gives-a-self-adjoint-generator">35. Strong Continuity Gives a Self-Adjoint Generator</h2>
+<p>A strongly continuous one-parameter unitary group possesses a self-adjoint generator.</p>
+<p>Write it as</p>
+<p><span class="math display">\[ K_\tau\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[ U(\tau)=e^{-iK_\tau\tau}\]</span></p>
+</section>
+<section id="kτ-is-a-recurrence-generator" class="level2">
+<h2 class="anchored" data-anchor-id="kτ-is-a-recurrence-generator">36. Kτ Is a Recurrence Generator</h2>
+<p>At this stage it should not yet be called energy.</p>
+<p>It generates change of the quantum phase-state representation per unit recurrence parameter.</p>
+</section>
+<section id="differentiate-the-unitary-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-the-unitary-evolution">37. Differentiate the Unitary Evolution</h2>
+<p><span class="math display">\[|\psi(\tau)\rangle=U(\tau)|\psi(0)\rangle\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\frac{d}{d\tau}|\psi(\tau)\rangle=-iK_\tau|\psi(\tau)\rangle\]</span></p>
+</section>
+<section id="therefore" class="level2">
+<h2 class="anchored" data-anchor-id="therefore">38. Therefore</h2>
+<p><span class="math display">\[ i\frac{d}{d\tau}|\psi(\tau)\rangle=K_\tau|\psi(\tau)\rangle\]</span></p>
+<p>This is the primitive projected recurrence-evolution equation.</p>
+</section>
+<section id="the-equation-is-already-schrödinger-like" class="level2">
+<h2 class="anchored" data-anchor-id="the-equation-is-already-schrödinger-like">39. The Equation Is Already Schrödinger-Like</h2>
+<p>But it contains:</p>
+<ul>
+<li>no ℏ;</li>
+<li>no joules;</li>
+</ul>
+<!-- source_pdf_page: 2461 -->
+<p>• no physical time unit; - no spatial kinetic operator.</p>
+<p>Those come later.</p>
+</section>
+<section id="the-recurrence-parameter-must-not-be-confused-with-primitive-time" class="level2">
+<h2 class="anchored" data-anchor-id="the-recurrence-parameter-must-not-be-confused-with-primitive-time">40. The Recurrence Parameter Must Not Be Confused With Primitive Time</h2>
+<p>R2D already places recursive recurrence before physical clock calibration.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[\tau\ne t\]</span></p>
+<p>primitively.</p>
+</section>
+<section id="physical-clock-calibration-produces-t" class="level2">
+<h2 class="anchored" data-anchor-id="physical-clock-calibration-produces-t">41. Physical Clock Calibration Produces t</h2>
+<p>Once the boundary recurrence is compared with an appropriate physical clock,</p>
+<p><span class="math display">\[\tau\to t\]</span></p>
+<p>The generator becomes an inverse-time operator:</p>
+<p><span class="math display">\[ K_t\]</span></p>
+</section>
+<section id="then" class="level2">
+<h2 class="anchored" data-anchor-id="then">42. Then</h2>
+<p><span class="math display">\[ i\frac{d}{dt}|\psi(t)\rangle=K_t|\psi(t)\rangle\]</span></p>
+</section>
+<section id="eigenstates-of-the-generator-have-definite-physical-recurrence-rate" class="level2">
+<h2 class="anchored" data-anchor-id="eigenstates-of-the-generator-have-definite-physical-recurrence-rate">43. Eigenstates of the Generator Have Definite Physical Recurrence Rate</h2>
+<p>Let</p>
+<p><span class="math display">\[ K_t|k\rangle=\omega_k|k\rangle\]</span></p>
+<p>Then:</p>
+<!-- source_pdf_page: 2462 -->
+<p>U (t)∣k⟩ = e−iωk t ∣k⟩.</p>
+</section>
+<section id="the-states-realization-magnitude-does-not-change" class="level2">
+<h2 class="anchored" data-anchor-id="the-states-realization-magnitude-does-not-change">44. The State’s Realization Magnitude Does Not Change</h2>
+<p>For this eigenstate,</p>
+<p><span class="math display">\[|e^{-i\omega_kt}|^2=1\]</span></p>
+<p>Thus its Born weight remains constant.</p>
+</section>
+<section id="yet-its-phase-continues-to-recur" class="level2">
+<h2 class="anchored" data-anchor-id="yet-its-phase-continues-to-recur">45. Yet Its Phase Continues to Recur</h2>
+<p><span class="math display">\[\phi_k(t)=\phi_k(0)-\omega_k t\]</span></p>
+<p>This is a stationary quantum state in the R2D sense.</p>
+</section>
+<section id="stationary-does-not-mean-recurrence-has-stopped" class="level2">
+<h2 class="anchored" data-anchor-id="stationary-does-not-mean-recurrence-has-stopped">46. Stationary Does Not Mean Recurrence Has Stopped</h2>
+<blockquote class="blockquote">
+<p>stationary occupancy ≠ zero recurrence.</p>
+</blockquote>
+<p>A state can retain constant realized support while continuously changing phase.</p>
+</section>
+<section id="this-mirrors-the-mass-turbine-result" class="level2">
+<h2 class="anchored" data-anchor-id="this-mirrors-the-mass-turbine-result">47. This Mirrors the Mass-Turbine Result</h2>
+<p>Mechanical rest did not require mass recurrence to vanish.</p>
+<p>Likewise quantum stationarity does not require closure phase recurrence to vanish.</p>
+</section>
+<section id="energy-is-a-later-calibration-of-the-recurrence-generator" class="level2">
+<h2 class="anchored" data-anchor-id="energy-is-a-later-calibration-of-the-recurrence-generator">48. Energy Is a Later Calibration of the Recurrence Generator</h2>
+<p>The physical quantum calibration is</p>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p>Therefore define</p>
+<p><span class="math display">\[ H=\hbar K_t\]</span></p>
+<!-- source_pdf_page: 2463 -->
+</section>
+<section id="the-generator-becomes-the-hamiltonian" class="level2">
+<h2 class="anchored" data-anchor-id="the-generator-becomes-the-hamiltonian">49. The Generator Becomes the Hamiltonian</h2>
+<p>If</p>
+<p><span class="math display">\[ K_t|E\rangle=\omega|E\rangle\]</span></p>
+<p>then:</p>
+<p><span class="math display">\[ H|E\rangle=\hbar\omega|E\rangle\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[ H|E\rangle=E|E\rangle\]</span></p>
+</section>
+<section id="energy-eigenvalue-is-therefore-a-physical-read-of-recurrence--generator-eigenvalue" class="level2">
+<h2 class="anchored" data-anchor-id="energy-eigenvalue-is-therefore-a-physical-read-of-recurrence--generator-eigenvalue">50. Energy Eigenvalue Is Therefore a Physical Read of Recurrence- Generator Eigenvalue</h2>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p>The recurrence relation comes first.</p>
+</section>
+<section id="the-unitary-operator-becomes" class="level2">
+<h2 class="anchored" data-anchor-id="the-unitary-operator-becomes">51. The Unitary Operator Becomes</h2>
+<p><span class="math display">\[ U(t)=e^{-iHt/\hbar}\]</span></p>
+</section>
+<section id="and-the-evolution-equation-becomes" class="level2">
+<h2 class="anchored" data-anchor-id="and-the-evolution-equation-becomes">52. And the Evolution Equation Becomes</h2>
+<p><span class="math display">\[ i\hbar\frac{d}{dt}|\psi(t)\rangle=H|\psi(t)\rangle\]</span></p>
+<p>This is the abstract Schrödinger equation.</p>
+</section>
+<section id="the-abstract-schrödinger-equation-is-therefore-a-generator-equation" class="level2">
+<h2 class="anchored" data-anchor-id="the-abstract-schrödinger-equation-is-therefore-a-generator-equation">53. The Abstract Schrödinger Equation Is Therefore a Generator Equation</h2>
+<p>It does not yet specify what</p>
+<p><span class="math display">\[ H\]</span></p>
+<p>looks like in a spatial representation.</p>
+<!-- source_pdf_page: 2464 -->
+</section>
+<section id="in-particular-this-addendum-does-not-yet-derive" class="level2">
+<h2 class="anchored" data-anchor-id="in-particular-this-addendum-does-not-yet-derive">54. In Particular, This Addendum Does Not Yet Derive</h2>
+<p><span class="math display">\[ H=-\frac{\hbar^2}{2m}\nabla^2+V\]</span></p>
+<p>That requires the physical momentum, mass, space, and constraint mappings.</p>
+</section>
+<section id="the-spatial-schrödinger-equation-comes-later" class="level2">
+<h2 class="anchored" data-anchor-id="the-spatial-schrödinger-equation-comes-later">55. The Spatial Schrödinger Equation Comes Later</h2>
+<p>The present result establishes only:</p>
+<blockquote class="blockquote">
+<p>continuous boundary-preserving quantum recurrence → self-adjoint generator.</p>
+</blockquote>
+</section>
+<section id="this-resolves-the-apparent-dual-dynamics-of-quantum-theory" class="level2">
+<h2 class="anchored" data-anchor-id="this-resolves-the-apparent-dual-dynamics-of-quantum-theory">56. This Resolves the Apparent Dual Dynamics of Quantum Theory</h2>
+<p>Conventional quantum mechanics appears to contain two very different operations:</p>
+<blockquote class="blockquote">
+<p>unitary evolution</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>measurement collapse.</p>
+</blockquote>
+<p>R2D assigns them to different recursive situations.</p>
+</section>
+<section id="unitary-evolution-belongs-to-one-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="unitary-evolution-belongs-to-one-boundary">57. Unitary Evolution Belongs to One Boundary</h2>
+<p><span class="math display">\[ B_n\to B_n\]</span></p>
+<p>The count domain remains unchanged.</p>
+</section>
+<section id="measurement-creates-a-new-enclosing-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="measurement-creates-a-new-enclosing-boundary">58. Measurement Creates a New Enclosing Boundary</h2>
+<p><span class="math display">\[ B_n\to B_{n+1}^{M}\]</span></p>
+<p>A new readable macrostate becomes realized.</p>
+<!-- source_pdf_page: 2465 -->
+</section>
+<section id="thus-measurement-is-not-merely-nonunitary-evolution-within-the-same-primitive-state-space" class="level2">
+<h2 class="anchored" data-anchor-id="thus-measurement-is-not-merely-nonunitary-evolution-within-the-same-primitive-state-space">59. Thus Measurement Is Not Merely Nonunitary Evolution Within the Same Primitive State Space</h2>
+<p>It changes the boundary at which state identity is defined.</p>
+<p>That is a different physical operation.</p>
+</section>
+<section id="the-apparent-conflict-is-therefore-a-category-error" class="level2">
+<h2 class="anchored" data-anchor-id="the-apparent-conflict-is-therefore-a-category-error">60. The Apparent Conflict Is Therefore a Category Error</h2>
+<p>Trying to force measurement and closed recurrence into one primitive dynamical rule assumes that both occur within the same count domain.</p>
+<p>R2D denies that assumption.</p>
+</section>
+<section id="the-more-primitive-distinction-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-more-primitive-distinction-is">61. The More Primitive Distinction Is</h2>
+<p>Boundary preserved <span class="math inline">\(\to\)</span> unitary projection; boundary replaced <span class="math inline">\(\to\)</span> new realization.</p>
+</section>
+<section id="this-does-not-yet-solve-every-measurement-problem" class="level2">
+<h2 class="anchored" data-anchor-id="this-does-not-yet-solve-every-measurement-problem">62. This Does Not Yet Solve Every Measurement Problem</h2>
+<p>R2D must still derive the quantitative coupling between quantum recurrence and measurement-boundary asymmetry.</p>
+<p>But the two mathematical operations now have different boundary ownership.</p>
+</section>
+<section id="continuous-evolution-also-explains-why-antiunitary-symmetries-can-still-exist" class="level2">
+<h2 class="anchored" data-anchor-id="continuous-evolution-also-explains-why-antiunitary-symmetries-can-still-exist">63. Continuous Evolution Also Explains Why Antiunitary Symmetries Can Still Exist</h2>
+<p>The exclusion above applies to continuous dynamical evolution connected to the identity.</p>
+<p>It does not forbid discrete antiunitary symmetries such as time-reversal representation.</p>
+</section>
+<section id="thus" class="level2">
+<h2 class="anchored" data-anchor-id="thus">64. Thus</h2>
+<p>antiunitary symmetry≠continuous time-evolution branch.</p>
+<!-- source_pdf_page: 2466 -->
+<p>The distinction should be preserved.</p>
+</section>
+<section id="autonomous-evolution-is-the-clean-group-case" class="level2">
+<h2 class="anchored" data-anchor-id="autonomous-evolution-is-the-clean-group-case">65. Autonomous Evolution Is the Clean Group Case</h2>
+<p>For a time-independent generator,</p>
+<p><span class="math display">\[ U(t_2)U(t_1)=U(t_1+t_2)\]</span></p>
+<p>This is the case treated directly by the one-parameter group theorem.</p>
+</section>
+<section id="more-general-physical-environments-need-not-have-a-time--independent-generator" class="level2">
+<h2 class="anchored" data-anchor-id="more-general-physical-environments-need-not-have-a-time--independent-generator">66. More General Physical Environments Need Not Have a Time- Independent Generator</h2>
+<p>If the enclosing physical conditions change,</p>
+<p><span class="math display">\[ H=H(t)\]</span></p>
+<p>the propagator is more generally</p>
+<p><span class="math display">\[ U(t_2,t_0)=U(t_2,t_1)U(t_1,t_0)\]</span></p>
+</section>
+<section id="the-boundary-preserving-principle-still-holds" class="level2">
+<h2 class="anchored" data-anchor-id="the-boundary-preserving-principle-still-holds">67. The Boundary-Preserving Principle Still Holds</h2>
+<p>Even when the generator depends on physical clock time,</p>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<p>remains the defining closed-evolution property as long as the quantum boundary is not replaced.</p>
+</section>
+<section id="the-group-law-should-therefore-not-be-overgeneralized" class="level2">
+<h2 class="anchored" data-anchor-id="the-group-law-should-therefore-not-be-overgeneralized">68. The Group Law Should Therefore Not Be Overgeneralized</h2>
+<p>The simple exponential</p>
+<p><span class="math display">\[ e^{-iHt/\hbar}\]</span></p>
+<p>belongs directly to an autonomous generator.</p>
+<p>The deeper result is unitarity from preserved relational measure.</p>
+<!-- source_pdf_page: 2467 -->
+</section>
+<section id="principle-boundary-preservation-precedes-unitarity" class="level2">
+<h2 class="anchored" data-anchor-id="principle-boundary-preservation-precedes-unitarity">69. Principle — Boundary Preservation Precedes Unitarity</h2>
+<p>A quantum state may change while its count boundary remains the same.</p>
+<p>The mathematical representation of that situation must preserve the relational realization structure of that boundary.</p>
+</section>
+<section id="principle-transition-measure-is-the-physical-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="principle-transition-measure-is-the-physical-invariant">70. Principle — Transition Measure Is the Physical Invariant</h2>
+<p><span class="math display">\[ T(\phi,\psi)=|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>Closed evolution preserves this relation.</p>
+</section>
+<section id="principle-transition-measure-preservation-restricts-state-transformations" class="level2">
+<h2 class="anchored" data-anchor-id="principle-transition-measure-preservation-restricts-state-transformations">71. Principle — Transition-Measure Preservation Restricts State Transformations</h2>
+<p><span class="math display">\[ T'=T\]</span></p>
+<p>implies unitary or antiunitary ray transformation.</p>
+</section>
+<section id="principle-continuous-recurrence-selects-unitary-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="principle-continuous-recurrence-selects-unitary-evolution">72. Principle — Continuous Recurrence Selects Unitary Evolution</h2>
+<p>Because boundary recurrence is continuously connected to the identity,</p>
+<p><span class="math display">\[ U(0)=I\]</span></p>
+<p>the continuous dynamical branch is unitary.</p>
+</section>
+<section id="principle-unitarity-preserves-normalized-realization-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="principle-unitarity-preserves-normalized-realization-geometry">73. Principle — Unitarity Preserves Normalized Realization Geometry</h2>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<p>Therefore norms, inner products, and Born transition measures are preserved.</p>
+<!-- source_pdf_page: 2468 -->
+</section>
+<section id="principle-continuous-autonomous-recurrence-forms-a-one--parameter-group" class="level2">
+<h2 class="anchored" data-anchor-id="principle-continuous-autonomous-recurrence-forms-a-one--parameter-group">74. Principle — Continuous Autonomous Recurrence Forms a One- Parameter Group</h2>
+<p><span class="math display">\[ U(\tau_2)U(\tau_1)=U(\tau_1+\tau_2)\]</span></p>
+</section>
+<section id="principle-a-self-adjoint-generator-follows" class="level2">
+<h2 class="anchored" data-anchor-id="principle-a-self-adjoint-generator-follows">75. Principle — A Self-Adjoint Generator Follows</h2>
+<p><span class="math display">\[ U(\tau)=e^{-iK_\tau\tau}\]</span></p>
+</section>
+<section id="principle-the-generator-is-recurrence-before-it-is-energy" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-generator-is-recurrence-before-it-is-energy">76. Principle — The Generator Is Recurrence Before It Is Energy</h2>
+<p><span class="math display">\[ i\frac{d}{d\tau}|\psi(\tau)\rangle=K_\tau|\psi(\tau)\rangle\]</span></p>
+<p>Energy has not yet been assigned.</p>
+</section>
+<section id="principle-physical-clock-calibration-precedes-the-hamiltonian-read" class="level2">
+<h2 class="anchored" data-anchor-id="principle-physical-clock-calibration-precedes-the-hamiltonian-read">77. Principle — Physical Clock Calibration Precedes the Hamiltonian Read</h2>
+<p>After</p>
+<p><span class="math display">\[\tau\to t\]</span></p>
+<p>the generator acquires inverse-time dimensions.</p>
+<p>Then:</p>
+<p><span class="math display">\[ H=\hbar K_t\]</span></p>
+</section>
+<section id="principle-the-abstract-schrödinger-equation-is-a-physical-recurrence-projection" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-abstract-schrödinger-equation-is-a-physical-recurrence-projection">78. Principle — The Abstract Schrödinger Equation Is a Physical Recurrence Projection</h2>
+<p><span class="math display">\[ i\hbar\frac{d}{dt}|\psi\rangle=H|\psi\rangle\]</span></p>
+<p>It is not the primitive R2D law.</p>
+<p>It is the physical generator equation for the quantum recurrence projection.</p>
+<!-- source_pdf_page: 2469 -->
+</section>
+<section id="principle-stationary-state-does-not-mean-static-ontology" class="level2">
+<h2 class="anchored" data-anchor-id="principle-stationary-state-does-not-mean-static-ontology">79. Principle — Stationary State Does Not Mean Static Ontology</h2>
+<p>For</p>
+<p><span class="math display">\[ H|E\rangle=E|E\rangle\]</span></p>
+<p><span class="math display">\[|\psi(t)\rangle=e^{-iEt/\hbar}|E\rangle\]</span></p>
+<p>The Born distribution can remain stationary while phase recurrence continues.</p>
+</section>
+<section id="principle-measurement-and-unitary-evolution-have-different-boundary-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="principle-measurement-and-unitary-evolution-have-different-boundary-ownership">80. Principle — Measurement and Unitary Evolution Have Different Boundary Ownership</h2>
+<blockquote class="blockquote">
+<p>same boundary → unitary recurrence,</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>new enclosing boundary → measurement realization.</p>
+</blockquote>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">81. Logical Status</h2>
+<p>Canonical R2D</p>
+<p>Statehood is boundary indexed.</p>
+<p>Recurrence is defined before physical clock time.</p>
+<p>Boundary replacement changes the count domain.</p>
+<p>Addendum 72</p>
+<p>Recurrent closure supplies complex cyclic phase.</p>
+<p>Addendum 73</p>
+<p>Normalized detector realization acquires the Born measure:</p>
+<p><span class="math display">\[\mu_\psi(P)=\operatorname{Tr}(\rho P)\]</span></p>
+<p>For pure rank-one alternatives:</p>
+<p><span class="math display">\[\mu=|\langle\phi|\psi\rangle|^2\]</span></p>
+<!-- source_pdf_page: 2470 -->
+<p>New Physical Preservation Requirement</p>
+<p>Boundary-preserving quantum recurrence preserves the transition measure:</p>
+<p><span class="math display">\[|\langle\phi'|\psi'\rangle|^2=|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>Mathematical Representation Theorem</p>
+<p>Such ray transformations are represented by unitary or antiunitary operators.</p>
+<p>Continuous-Recurrence Selection</p>
+<p>Continuous evolution connected to</p>
+<p><span class="math display">\[ I\]</span></p>
+<p>selects the unitary branch.</p>
+<p>Autonomous Recurrence Representation</p>
+<p><span class="math display">\[ U(\tau)=e^{-iK_\tau\tau}\]</span></p>
+<p>Physical Clock Calibration</p>
+<p><span class="math display">\[\tau\to t\]</span></p>
+<p>Energy Calibration</p>
+<p><span class="math display">\[ H=\hbar K_t\]</span></p>
+<p>Derived Abstract Quantum Evolution Law</p>
+<p><span class="math display">\[ i\hbar\frac{d}{dt}|\psi\rangle=H|\psi\rangle\]</span></p>
+<p>Not Yet Established</p>
+<p>This addendum does not yet derive:</p>
+<ul>
+<li>the spatial form of the Hamiltonian;</li>
+<li>the momentum operator;</li>
+<li>the kinetic operator</li>
+</ul>
+<p><span class="math display">\[-\frac{\hbar^2}{2m}\nabla^2\]</span></p>
+<ul>
+<li>the physical potential V ;</li>
+<li>time-dependent environmental coupling from primitive R2D;</li>
+</ul>
+<!-- source_pdf_page: 2471 -->
+<p>• open-system nonunitary evolution; - or the complete microscopic measurement interaction.</p>
+<p>Those are downstream problems.</p>
+</section>
+<section id="the-complete-unitary-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-unitary-architecture">82. The Complete Unitary Architecture</h2>
+<p>A quantum boundary possesses native recurrence:</p>
+<p><span class="math display">\[ B_n\]</span></p>
+<p>Its closure receives complex phase representation:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>Normalized realization gives the transition measure:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>Boundary-preserving recurrence requires that measure to remain invariant:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ T'=T\]</span></p>
+<p>The state transformation is therefore:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<blockquote class="blockquote">
+<p>unitary or antiunitary.</p>
+</blockquote>
+<p>Continuous recurrence connected to identity selects:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<p>Autonomous recurrence composes:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ U(\tau_1+\tau_2)=U(\tau_2)U(\tau_1)\]</span></p>
+<p>Strong continuity gives:</p>
+<!-- source_pdf_page: 2472 -->
+<p>⇓</p>
+<p><span class="math display">\[ U(\tau)=e^{-iK_\tau\tau}\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ i\frac{d}{d\tau}|\psi(\tau)\rangle=K_\tau|\psi(\tau)\rangle\]</span></p>
+<p>Physical clock calibration gives:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ t\]</span></p>
+<p>Energy-frequency calibration gives:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ H=\hbar K_t\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ i\hbar\frac{d}{dt}|\psi\rangle=H|\psi\rangle\]</span></p>
+<p>The abstract Schrödinger equation is therefore the end of this chain, not its beginning.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">83. Conclusion</h2>
+<p>Quantum theory is usually introduced with unitary evolution already in place.</p>
+<p>A state vector</p>
+<p><span class="math display">\[|\psi\rangle\]</span></p>
+<p>is assumed to evolve according to</p>
+<p><span class="math display">\[ U(t)\]</span></p>
+<p>where</p>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<!-- source_pdf_page: 2473 -->
+<p>The Hamiltonian is then introduced as the generator of that evolution.</p>
+<p>R2D reverses the explanatory order.</p>
+<p>The first question is whether the count boundary has changed.</p>
+<p>If it has not, then the quantum state remains a representation of the same boundary-native recurrence domain.</p>
+<p>No new detector macrostate has been realized.</p>
+<p>No new enclosing classification has replaced the old one.</p>
+<p>The relational realization structure must therefore remain invariant.</p>
+<p>Addendum 73 identified the physically relevant relation between quantum rays:</p>
+<p><span class="math display">\[ T(\phi,\psi)=|\langle\phi|\psi\rangle|^2\]</span></p>
+<p>Boundary-preserving evolution requires</p>
+<p><span class="math display">\[ T(\phi',\psi')=T(\phi,\psi)\]</span></p>
+<p>Once quantum states are represented in the complex state geometry established by the preceding addenda, transformations preserving this relation are unitary or antiunitary.</p>
+<p>The recursive clock supplies the next condition.</p>
+<p>Quantum recurrence evolves continuously in its physical phase representation.</p>
+<p>At zero recurrence advance,</p>
+<p><span class="math display">\[ U(0)=I\]</span></p>
+<p>A continuously connected dynamical path cannot leave the identity through the antiunitary branch.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[ U^\dagger U=I\]</span></p>
+<p>Unitarity is not primitive.</p>
+<p>It is the mathematical signature of recurrence that evolves while preserving its boundary.</p>
+<p>For an autonomous recurrence, successive recurrence advances compose:</p>
+<!-- source_pdf_page: 2474 -->
+<p>U (τ2 )U (τ1 ) = U (τ1 + τ2 ).</p>
+<p>Strong continuity then forces a self-adjoint generator:</p>
+<p><span class="math display">\[ U(\tau)=e^{-iK_\tau\tau}\]</span></p>
+<p>Hence:</p>
+<p><span class="math display">\[ i\frac{d}{d\tau}|\psi(\tau)\rangle=K_\tau|\psi(\tau)\rangle\]</span></p>
+<p>This relation is already the abstract mathematical form of quantum recurrence evolution.</p>
+<p>But it is not yet an energy equation.</p>
+<p>Only after a physical clock supplies</p>
+<p><span class="math display">\[ t\]</span></p>
+<p>and the empirical quantum calibration assigns</p>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p>does the generator acquire the energetic read</p>
+<p><span class="math display">\[ H=\hbar K_t\]</span></p>
+<p>The resulting equation is</p>
+<p><span class="math display">\[ i\hbar\frac{d}{dt}|\psi(t)\rangle=H|\psi(t)\rangle\]</span></p>
+<p>The abstract Schrödinger equation therefore appears as a projected physical law downstream of:</p>
+<blockquote class="blockquote">
+<p>boundary-native recurrence,</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>complex phase,</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>normalized realization,</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>preservation of relational count structure.</p>
+</blockquote>
+<p>This also clarifies the longstanding distinction between unitary evolution and quantum measurement.</p>
+<p>They are not competing primitive dynamics acting inexplicably on the same ontological wavefunction.</p>
+<!-- source_pdf_page: 2475 -->
+<p>They describe different recursive situations.</p>
+<p>When the boundary remains the same,</p>
+<p><span class="math display">\[ B_n\to B_n\]</span></p>
+<p>the state coordinate evolves unitarily.</p>
+<p>When a new enclosing measurement boundary becomes realized,</p>
+<p><span class="math display">\[ B_n\to B_{n+1}^{M}\]</span></p>
+<p>the count domain changes.</p>
+<p>A new distinction has been created.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>unitary evolution = boundary-preserving recurrence,</p>
+</blockquote>
+<p>while</p>
+<blockquote class="blockquote">
+<p>measurement = boundary replacement.</p>
+</blockquote>
+<p>The central statement is therefore:</p>
+<p>a quantum boundary that evolves without recursive replacement preserves the normalized realization relations among its admissible states. Preservation of the Born transition measure restricts the state representation to unitary or antiunitary transformation; continuous recurrence connected to the identity selects the unitary branch. Continuous autonomous unitary recurrence then possesses a self-adjoint generator, and physical clock and energy calibration convert that generator into the Hamiltonian. The abstract Schrodinger equation is therefore the physical projection of boundary-preserving recurrence rather than a primitive law of an ontological wavefunction.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>boundary-preserving recurrence occurs before unitary evolution.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="pagination-link" aria-label="Addendum 73 — Normalized Realization Occurs Before the Born Rule">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="pagination-link" aria-label="Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

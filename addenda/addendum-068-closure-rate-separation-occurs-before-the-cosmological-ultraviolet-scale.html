@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" rel="next">
+<link href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-68-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale" id="toc-addendum-68-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale" class="nav-link active" data-scroll-target="#addendum-68-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#addendum-67-identified-a-count-resolution-condition" id="toc-addendum-67-identified-a-count-resolution-condition" class="nav-link" data-scroll-target="#addendum-67-identified-a-count-resolution-condition">1. Addendum 67 Identified a Count-Resolution Condition</a></li>
+  <li><a href="#but-the-meaning-of-fc-must-be-fixed" id="toc-but-the-meaning-of-fc-must-be-fixed" class="nav-link" data-scroll-target="#but-the-meaning-of-fc-must-be-fixed">2. But the Meaning of fc Must Be Fixed</a></li>
+  <li><a href="#closure-ownership-is-essential" id="toc-closure-ownership-is-essential" class="nav-link" data-scroll-target="#closure-ownership-is-essential">3. Closure Ownership Is Essential</a></li>
+  <li><a href="#an-unrelated-oscillator-cannot-resolve-the-continuum" id="toc-an-unrelated-oscillator-cannot-resolve-the-continuum" class="nav-link" data-scroll-target="#an-unrelated-oscillator-cannot-resolve-the-continuum">4. An Unrelated Oscillator Cannot Resolve the Continuum</a></li>
+  <li><a href="#this-is-the-same-ownership-rule-used-throughout-r2d" id="toc-this-is-the-same-ownership-rule-used-throughout-r2d" class="nav-link" data-scroll-target="#this-is-the-same-ownership-rule-used-throughout-r2d">5. This Is the Same Ownership Rule Used Throughout R2D</a></li>
+  <li><a href="#define-the-subordinate-closure-time" id="toc-define-the-subordinate-closure-time" class="nav-link" data-scroll-target="#define-the-subordinate-closure-time">6. Define the Subordinate Closure Time</a></li>
+  <li><a href="#define-the-enclosing-evolution-time" id="toc-define-the-enclosing-evolution-time" class="nav-link" data-scroll-target="#define-the-enclosing-evolution-time">7. Define the Enclosing Evolution Time</a></li>
+  <li><a href="#their-ratio-is-the-continuum-control-parameter" id="toc-their-ratio-is-the-continuum-control-parameter" class="nav-link" data-scroll-target="#their-ratio-is-the-continuum-control-parameter">8. Their Ratio Is the Continuum-Control Parameter</a></li>
+  <li><a href="#the-name-is-structural" id="toc-the-name-is-structural" class="nav-link" data-scroll-target="#the-name-is-structural">9. The Name Is Structural</a></li>
+  <li><a href="#it-is-not-fundamentally-a-spatial-ratio" id="toc-it-is-not-fundamentally-a-spatial-ratio" class="nav-link" data-scroll-target="#it-is-not-fundamentally-a-spatial-ratio">10. It Is Not Fundamentally a Spatial Ratio</a></li>
+  <li><a href="#the-continuum-regime-is" id="toc-the-continuum-regime-is" class="nav-link" data-scroll-target="#the-continuum-regime-is">11. The Continuum Regime Is</a></li>
+  <li><a href="#equivalently" id="toc-equivalently" class="nav-link" data-scroll-target="#equivalently">12. Equivalently</a></li>
+  <li><a href="#the-sparse-realization-threshold-is" id="toc-the-sparse-realization-threshold-is" class="nav-link" data-scroll-target="#the-sparse-realization-threshold-is">13. The Sparse-Realization Threshold Is</a></li>
+  <li><a href="#at-this-threshold-the-scale-hierarchy-collapses" id="toc-at-this-threshold-the-scale-hierarchy-collapses" class="nav-link" data-scroll-target="#at-this-threshold-the-scale-hierarchy-collapses">14. At This Threshold the Scale Hierarchy Collapses</a></li>
+  <li><a href="#the-reciprocal-count-is" id="toc-the-reciprocal-count-is" class="nav-link" data-scroll-target="#the-reciprocal-count-is">15. The Reciprocal Count Is</a></li>
+  <li><a href="#conventional-freeze-out-has-the-same-mathematical-form" id="toc-conventional-freeze-out-has-the-same-mathematical-form" class="nav-link" data-scroll-target="#conventional-freeze-out-has-the-same-mathematical-form">16. Conventional Freeze-Out Has the Same Mathematical Form</a></li>
+  <li><a href="#freeze-out-occurs-near" id="toc-freeze-out-occurs-near" class="nav-link" data-scroll-target="#freeze-out-occurs-near">17. Freeze-Out Occurs Near</a></li>
+  <li><a href="#but-freeze-out-is-not-automatically-global-continuum-breakdown" id="toc-but-freeze-out-is-not-automatically-global-continuum-breakdown" class="nav-link" data-scroll-target="#but-freeze-out-is-not-automatically-global-continuum-breakdown">18. But Freeze-Out Is Not Automatically Global Continuum Breakdown</a></li>
+  <li><a href="#the-r2d-criterion-is-stronger" id="toc-the-r2d-criterion-is-stronger" class="nav-link" data-scroll-target="#the-r2d-criterion-is-stronger">19. The R2D Criterion Is Stronger</a></li>
+  <li><a href="#this-converts-a-familiar-rate-condition-into-a-boundary--ownership-problem" id="toc-this-converts-a-familiar-rate-condition-into-a-boundary--ownership-problem" class="nav-link" data-scroll-target="#this-converts-a-familiar-rate-condition-into-a-boundary--ownership-problem">20. This Converts a Familiar Rate Condition Into a Boundary- Ownership Problem</a></li>
+  <li><a href="#thermal-recurrence-supplies-a-natural-physical-ruler" id="toc-thermal-recurrence-supplies-a-natural-physical-ruler" class="nav-link" data-scroll-target="#thermal-recurrence-supplies-a-natural-physical-ruler">21. Thermal Recurrence Supplies a Natural Physical Ruler</a></li>
+  <li><a href="#thermal-recurrence-is-not-automatically-the-required-closure-rate" id="toc-thermal-recurrence-is-not-automatically-the-required-closure-rate" class="nav-link" data-scroll-target="#thermal-recurrence-is-not-automatically-the-required-closure-rate">22. Thermal Recurrence Is Not Automatically the Required Closure Rate</a></li>
+  <li><a href="#define-their-mapping" id="toc-define-their-mapping" class="nav-link" data-scroll-target="#define-their-mapping">23. Define Their Mapping</a></li>
+  <li><a href="#ηc-is-a-boundary-mapping-coordinate" id="toc-ηc-is-a-boundary-mapping-coordinate" class="nav-link" data-scroll-target="#ηc-is-a-boundary-mapping-coordinate">24. ηc Is a Boundary-Mapping Coordinate</a></li>
+  <li><a href="#if-thermal-recurrence-itself-is-the-closure" id="toc-if-thermal-recurrence-itself-is-the-closure" class="nav-link" data-scroll-target="#if-thermal-recurrence-itself-is-the-closure">25. If Thermal Recurrence Itself Is the Closure</a></li>
+  <li><a href="#if-the-closure-is-slower-than-the-thermal-recurrence" id="toc-if-the-closure-is-slower-than-the-thermal-recurrence" class="nav-link" data-scroll-target="#if-the-closure-is-slower-than-the-thermal-recurrence">26. If the Closure Is Slower Than the Thermal Recurrence</a></li>
+  <li><a href="#if-the-closure-is-faster" id="toc-if-the-closure-is-faster" class="nav-link" data-scroll-target="#if-the-closure-is-faster">27. If the Closure Is Faster</a></li>
+  <li><a href="#radiation-domination-gives-a-quantitative-test" id="toc-radiation-domination-gives-a-quantitative-test" class="nav-link" data-scroll-target="#radiation-domination-gives-a-quantitative-test">28. Radiation Domination Gives a Quantitative Test</a></li>
+  <li><a href="#insert-this-into-friedmann" id="toc-insert-this-into-friedmann" class="nav-link" data-scroll-target="#insert-this-into-friedmann">29. Insert This Into Friedmann</a></li>
+  <li><a href="#define-the-conventional-planck-temperature" id="toc-define-the-conventional-planck-temperature" class="nav-link" data-scroll-target="#define-the-conventional-planck-temperature">30. Define the Conventional Planck Temperature</a></li>
+  <li><a href="#divide-h-by-the-thermal-cycle-frequency" id="toc-divide-h-by-the-thermal-cycle-frequency" class="nav-link" data-scroll-target="#divide-h-by-the-thermal-cycle-frequency">31. Divide H by the Thermal Cycle Frequency</a></li>
+  <li><a href="#this-is-the-thermal-r2d-knudsen-ratio" id="toc-this-is-the-thermal-r2d-knudsen-ratio" class="nav-link" data-scroll-target="#this-is-the-thermal-r2d-knudsen-ratio">32. This Is the Thermal R2D Knudsen Ratio</a></li>
+  <li><a href="#the-thermal-continuum-support-count-is" id="toc-the-thermal-continuum-support-count-is" class="nav-link" data-scroll-target="#the-thermal-continuum-support-count-is">33. The Thermal Continuum-Support Count Is</a></li>
+  <li><a href="#backward-radiation-evolution-reduces-thermal-scale-separation" id="toc-backward-radiation-evolution-reduces-thermal-scale-separation" class="nav-link" data-scroll-target="#backward-radiation-evolution-reduces-thermal-scale-separation">34. Backward Radiation Evolution Reduces Thermal Scale Separation</a></li>
+  <li><a href="#the-reason-is-simple" id="toc-the-reason-is-simple" class="nav-link" data-scroll-target="#the-reason-is-simple">35. The Reason Is Simple</a></li>
+  <li><a href="#the-enclosing-evolution-outruns-the-thermal-ruler" id="toc-the-enclosing-evolution-outruns-the-thermal-ruler" class="nav-link" data-scroll-target="#the-enclosing-evolution-outruns-the-thermal-ruler">36. The Enclosing Evolution Outruns the Thermal Ruler</a></li>
+  <li><a href="#now-restore-the-actual-closure-rate" id="toc-now-restore-the-actual-closure-rate" class="nav-link" data-scroll-target="#now-restore-the-actual-closure-rate">37. Now Restore the Actual Closure Rate</a></li>
+  <li><a href="#equivalently-1" id="toc-equivalently-1" class="nav-link" data-scroll-target="#equivalently-1">38. Equivalently</a></li>
+  <li><a href="#define-the-closure-rate-breakdown-condition" id="toc-define-the-closure-rate-breakdown-condition" class="nav-link" data-scroll-target="#define-the-closure-rate-breakdown-condition">39. Define the Closure-Rate Breakdown Condition</a></li>
+  <li><a href="#this-is-an-implicit-boundary-equation" id="toc-this-is-an-implicit-boundary-equation" class="nav-link" data-scroll-target="#this-is-an-implicit-boundary-equation">40. This Is an Implicit Boundary Equation</a></li>
+  <li><a href="#the-ultraviolet-boundary-is-therefore-not-defined-by-tp" id="toc-the-ultraviolet-boundary-is-therefore-not-defined-by-tp" class="nav-link" data-scroll-target="#the-ultraviolet-boundary-is-therefore-not-defined-by-tp">41. The Ultraviolet Boundary Is Therefore Not Defined by TP</a></li>
+  <li><a href="#the-planck-condition-is-gravitational-coupling" id="toc-the-planck-condition-is-gravitational-coupling" class="nav-link" data-scroll-target="#the-planck-condition-is-gravitational-coupling">42. The Planck Condition Is Gravitational Coupling</a></li>
+  <li><a href="#the-continuum-condition-can-be-written-in-terms-of-αgζ" id="toc-the-continuum-condition-can-be-written-in-terms-of-αgζ" class="nav-link" data-scroll-target="#the-continuum-condition-can-be-written-in-terms-of-αgζ">43. The Continuum Condition Can Be Written in Terms of αG∣ζ</a></li>
+  <li><a href="#therefore" id="toc-therefore" class="nav-link" data-scroll-target="#therefore">44. Therefore</a></li>
+  <li><a href="#at-continuum-breakdown" id="toc-at-continuum-breakdown" class="nav-link" data-scroll-target="#at-continuum-breakdown">45. At Continuum Breakdown</a></li>
+  <li><a href="#nothing-requires-this-to-equal-one" id="toc-nothing-requires-this-to-equal-one" class="nav-link" data-scroll-target="#nothing-requires-this-to-equal-one">46. Nothing Requires This to Equal One</a></li>
+  <li><a href="#continuum-breakdown-and-planck-strong-coupling-are-different-conditions" id="toc-continuum-breakdown-and-planck-strong-coupling-are-different-conditions" class="nav-link" data-scroll-target="#continuum-breakdown-and-planck-strong-coupling-are-different-conditions">47. Continuum Breakdown and Planck Strong Coupling Are Different Conditions</a></li>
+  <li><a href="#they-coincide-only-under-a-specific-closure-calibration" id="toc-they-coincide-only-under-a-specific-closure-calibration" class="nav-link" data-scroll-target="#they-coincide-only-under-a-specific-closure-calibration">48. They Coincide Only Under a Specific Closure Calibration</a></li>
+  <li><a href="#coincidence-is-therefore-a-physical-result-to-be-derived" id="toc-coincidence-is-therefore-a-physical-result-to-be-derived" class="nav-link" data-scroll-target="#coincidence-is-therefore-a-physical-result-to-be-derived">49. Coincidence Is Therefore a Physical Result to Be Derived</a></li>
+  <li><a href="#three-physical-possibilities-remain" id="toc-three-physical-possibilities-remain" class="nav-link" data-scroll-target="#three-physical-possibilities-remain">50. Three Physical Possibilities Remain</a></li>
+  <li><a href="#case-ii-planck-strong-coupling-first" id="toc-case-ii-planck-strong-coupling-first" class="nav-link" data-scroll-target="#case-ii-planck-strong-coupling-first">51. Case II — Planck strong coupling first</a></li>
+  <li><a href="#case-iii-coincident-transition" id="toc-case-iii-coincident-transition" class="nav-link" data-scroll-target="#case-iii-coincident-transition">52. Case III — Coincident transition</a></li>
+  <li><a href="#this-gives-the-earlier-planck-alternatives-a-count-criterion" id="toc-this-gives-the-earlier-planck-alternatives-a-count-criterion" class="nav-link" data-scroll-target="#this-gives-the-earlier-planck-alternatives-a-count-criterion">53. This Gives the Earlier Planck Alternatives a Count Criterion</a></li>
+  <li><a href="#return-to-the-gravitational-background-recurrence" id="toc-return-to-the-gravitational-background-recurrence" class="nav-link" data-scroll-target="#return-to-the-gravitational-background-recurrence">54. Return to the Gravitational Background Recurrence</a></li>
+  <li><a href="#in-the-thermal-cosmological-regime" id="toc-in-the-thermal-cosmological-regime" class="nav-link" data-scroll-target="#in-the-thermal-cosmological-regime">55. In the Thermal Cosmological Regime</a></li>
+  <li><a href="#if-gravitational-recurrence-is-the-relevant-closure-clock" id="toc-if-gravitational-recurrence-is-the-relevant-closure-clock" class="nav-link" data-scroll-target="#if-gravitational-recurrence-is-the-relevant-closure-clock">56. If Gravitational Recurrence Is the Relevant Closure Clock</a></li>
+  <li><a href="#the-continuum-support-count-becomes" id="toc-the-continuum-support-count-becomes" class="nav-link" data-scroll-target="#the-continuum-support-count-becomes">57. The Continuum-Support Count Becomes</a></li>
+  <li><a href="#and-the-r2d-knudsen-ratio-is" id="toc-and-the-r2d-knudsen-ratio-is" class="nav-link" data-scroll-target="#and-the-r2d-knudsen-ratio-is">58. And the R2D Knudsen Ratio Is</a></li>
+  <li><a href="#this-gives-ζgζ-a-new-physical-role" id="toc-this-gives-ζgζ-a-new-physical-role" class="nav-link" data-scroll-target="#this-gives-ζgζ-a-new-physical-role">59. This Gives ζG∣ζ a New Physical Role</a></li>
+  <li><a href="#planck-coupling-and-continuum-resolution-depend-differently-on-ζgζ" id="toc-planck-coupling-and-continuum-resolution-depend-differently-on-ζgζ" class="nav-link" data-scroll-target="#planck-coupling-and-continuum-resolution-depend-differently-on-ζgζ">60. Planck Coupling and Continuum Resolution Depend Differently on ζG∣ζ</a></li>
+  <li><a href="#the-radiation-era-area-scaling-makes-the-requirement-transparent" id="toc-the-radiation-era-area-scaling-makes-the-requirement-transparent" class="nav-link" data-scroll-target="#the-radiation-era-area-scaling-makes-the-requirement-transparent">61. The Radiation-Era Area Scaling Makes the Requirement Transparent</a></li>
+  <li><a href="#thermal-recurrence-therefore-scales-as" id="toc-thermal-recurrence-therefore-scales-as" class="nav-link" data-scroll-target="#thermal-recurrence-therefore-scales-as">62. Thermal Recurrence Therefore Scales As</a></li>
+  <li><a href="#but-the-radiation-friedmann-rate-scales-as" id="toc-but-the-radiation-friedmann-rate-scales-as" class="nav-link" data-scroll-target="#but-the-radiation-friedmann-rate-scales-as">63. But the Radiation Friedmann Rate Scales As</a></li>
+  <li><a href="#a-fixed-recurrence-ratio-cannot-preserve-resolution" id="toc-a-fixed-recurrence-ratio-cannot-preserve-resolution" class="nav-link" data-scroll-target="#a-fixed-recurrence-ratio-cannot-preserve-resolution">64. A Fixed Recurrence Ratio Cannot Preserve Resolution</a></li>
+  <li><a href="#thus-co-scaling-background-frequencies-do-not-automatically-preserve-the-continuum" id="toc-thus-co-scaling-background-frequencies-do-not-automatically-preserve-the-continuum" class="nav-link" data-scroll-target="#thus-co-scaling-background-frequencies-do-not-automatically-preserve-the-continuum">65. Thus Co-Scaling Background Frequencies Do Not Automatically Preserve the Continuum</a></li>
+  <li><a href="#generalize-the-result" id="toc-generalize-the-result" class="nav-link" data-scroll-target="#generalize-the-result">66. Generalize the Result</a></li>
+  <li><a href="#the-continuum-support-count-scales-as" id="toc-the-continuum-support-count-scales-as" class="nav-link" data-scroll-target="#the-continuum-support-count-scales-as">67. The Continuum-Support Count Scales As</a></li>
+  <li><a href="#case-a-closure-grows-too-slowly" id="toc-case-a-closure-grows-too-slowly" class="nav-link" data-scroll-target="#case-a-closure-grows-too-slowly">68. Case A — Closure Grows Too Slowly</a></li>
+  <li><a href="#case-b-exact-co-scaling" id="toc-case-b-exact-co-scaling" class="nav-link" data-scroll-target="#case-b-exact-co-scaling">69. Case B — Exact Co-Scaling</a></li>
+  <li><a href="#case-c-closure-outruns-enclosing-evolution" id="toc-case-c-closure-outruns-enclosing-evolution" class="nav-link" data-scroll-target="#case-c-closure-outruns-enclosing-evolution">70. Case C — Closure Outruns Enclosing Evolution</a></li>
+  <li><a href="#radiation-requires-uc-1-to-avoid-loss-of-resolution" id="toc-radiation-requires-uc-1-to-avoid-loss-of-resolution" class="nav-link" data-scroll-target="#radiation-requires-uc-1-to-avoid-loss-of-resolution">71. Radiation Requires uc ≥ 1 to Avoid Loss of Resolution</a></li>
+  <li><a href="#but-thermal-recurrence-has-only" id="toc-but-thermal-recurrence-has-only" class="nav-link" data-scroll-target="#but-thermal-recurrence-has-only">72. But Thermal Recurrence Has Only</a></li>
+  <li><a href="#in-temperature-language" id="toc-in-temperature-language" class="nav-link" data-scroll-target="#in-temperature-language">73. In Temperature Language</a></li>
+  <li><a href="#a-closure-rate-proportional-only-to-t-is-insufficient" id="toc-a-closure-rate-proportional-only-to-t-is-insufficient" class="nav-link" data-scroll-target="#a-closure-rate-proportional-only-to-t-is-insufficient">74. A Closure Rate Proportional Only to T Is Insufficient</a></li>
+  <li><a href="#this-turns-the-ultraviolet-problem-into-a-rate-scaling-problem" id="toc-this-turns-the-ultraviolet-problem-into-a-rate-scaling-problem" class="nav-link" data-scroll-target="#this-turns-the-ultraviolet-problem-into-a-rate-scaling-problem">75. This Turns the Ultraviolet Problem Into a Rate-Scaling Problem</a></li>
+  <li><a href="#space-need-not-become-pixelated" id="toc-space-need-not-become-pixelated" class="nav-link" data-scroll-target="#space-need-not-become-pixelated">76. Space Need Not Become Pixelated</a></li>
+  <li><a href="#the-replacement-description-is-count-based" id="toc-the-replacement-description-is-count-based" class="nav-link" data-scroll-target="#the-replacement-description-is-count-based">77. The Replacement Description Is Count Based</a></li>
+  <li><a href="#principle-closure-ownership-precedes-rate-comparison" id="toc-principle-closure-ownership-precedes-rate-comparison" class="nav-link" data-scroll-target="#principle-closure-ownership-precedes-rate-comparison">78. Principle — Closure Ownership Precedes Rate Comparison</a></li>
+  <li><a href="#principle-closure-rate-separation-defines-continuum-readability" id="toc-principle-closure-rate-separation-defines-continuum-readability" class="nav-link" data-scroll-target="#principle-closure-rate-separation-defines-continuum-readability">79. Principle — Closure-Rate Separation Defines Continuum Readability</a></li>
+  <li><a href="#principle-order-one-rate-matching-defines-loss-of-recursive-scale-separation" id="toc-principle-order-one-rate-matching-defines-loss-of-recursive-scale-separation" class="nav-link" data-scroll-target="#principle-order-one-rate-matching-defines-loss-of-recursive-scale-separation">80. Principle — Order-One Rate Matching Defines Loss of Recursive Scale Separation</a></li>
+  <li><a href="#principle-freeze-out-and-continuum-breakdown-share-form-but-not-necessarily-boundary-ownership" id="toc-principle-freeze-out-and-continuum-breakdown-share-form-but-not-necessarily-boundary-ownership" class="nav-link" data-scroll-target="#principle-freeze-out-and-continuum-breakdown-share-form-but-not-necessarily-boundary-ownership">81. Principle — Freeze-Out and Continuum Breakdown Share Form but Not Necessarily Boundary Ownership</a></li>
+  <li><a href="#principle-thermal-recurrence-is-a-ruler-not-automatically-the-closure" id="toc-principle-thermal-recurrence-is-a-ruler-not-automatically-the-closure" class="nav-link" data-scroll-target="#principle-thermal-recurrence-is-a-ruler-not-automatically-the-closure">82. Principle — Thermal Recurrence Is a Ruler, Not Automatically the Closure</a></li>
+  <li><a href="#principle-continuum-breakdown-and-planck-strong-coupling-are-distinct" id="toc-principle-continuum-breakdown-and-planck-strong-coupling-are-distinct" class="nav-link" data-scroll-target="#principle-continuum-breakdown-and-planck-strong-coupling-are-distinct">83. Principle — Continuum Breakdown and Planck Strong Coupling Are Distinct</a></li>
+  <li><a href="#principle-the-planck-scale-can-be-a-projection-of-boundary-replacement-without-defining-it" id="toc-principle-the-planck-scale-can-be-a-projection-of-boundary-replacement-without-defining-it" class="nav-link" data-scroll-target="#principle-the-planck-scale-can-be-a-projection-of-boundary-replacement-without-defining-it">84. Principle — The Planck Scale Can Be a Projection of Boundary Replacement Without Defining It</a></li>
+  <li><a href="#principle-ultraviolet-fate-is-controlled-by-relative-scaling" id="toc-principle-ultraviolet-fate-is-controlled-by-relative-scaling" class="nav-link" data-scroll-target="#principle-ultraviolet-fate-is-controlled-by-relative-scaling">85. Principle — Ultraviolet Fate Is Controlled by Relative Scaling</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">86. Logical Status</a></li>
+  <li><a href="#the-complete-ultraviolet-architecture" id="toc-the-complete-ultraviolet-architecture" class="nav-link" data-scroll-target="#the-complete-ultraviolet-architecture">87. The Complete Ultraviolet Architecture</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">88. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></h1>
+<p class="subtitle lead">The R2D Knudsen Criterion, Thermal Recurrence, and the Distinction Between Continuum Breakdown and Planck Strong Coupling</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-68-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale" class="level1">
+<h1>Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</h1>
+<p><em>The R2D Knudsen Criterion, Thermal Recurrence, and the Distinction Between Continuum Breakdown and Planck Strong Coupling</em></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<!-- source_pdf_page: 2267 -->
+<p>Addendum 67 identified the mathematical condition required for a smooth cosmological continuum to remain readable as a physical projection of recursive count structure.</p>
+<p>Let</p>
+<p><span class="math display">\[ N_C^{(c)}\]</span></p>
+<p>count completed closures of the subordinate class c through which the cosmological state is locally realized.</p>
+<p>Then clock-relative cosmological progress is</p>
+<p><span class="math display">\[\mathcal H_{\zeta\mid c}=\frac{d\ln a}{dN_C^{(c)}}\]</span></p>
+<p>After physical clock calibration,</p>
+<p><span class="math display">\[ f_c=\frac{dN_C^{(c)}}{dt}\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[ H=f_c\mathcal H_{\zeta\mid c}\]</span></p>
+<p>The resulting count-resolution ratio is</p>
+<p><span class="math display">\[\frac{|H|}{f_c}\]</span></p>
+<p>Its reciprocal,</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\frac{f_c}{|H|}\]</span></p>
+<!-- source_pdf_page: 2268 -->
+<p>counts subordinate closures per order-one logarithmic change of cosmological scale.</p>
+<p>The continuum regime requires</p>
+<p><span class="math display">\[\frac{|H|}{f_c}\ll1\]</span></p>
+<p>or equivalently</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\gg1\]</span></p>
+<p>This addendum asks which physical recurrence can legitimately occupy the role of fc .</p>
+<p>The answer is not an arbitrary high frequency.</p>
+<p>The recurrence must belong to the subordinate closure class that actually realizes and maintains the cosmological physical state being represented continuously.</p>
+<p>This makes the R2D condition structurally analogous to a Knudsen criterion.</p>
+<p>Define the subordinate relaxation time</p>
+<p><span class="math display">\[ \tau_c=\frac1{f_c} \]</span></p>
+<p>and the enclosing cosmological evolution time</p>
+<p><span class="math display">\[ \tau_H=\frac1{|H|}. \]</span></p>
+<p>Then define</p>
+<p><span class="math display">\[ \mathrm{Kn}_{\mathrm{R2D}}^{(c)}\equiv\frac{\tau_c}{\tau_H}=\frac{|H|}{f_c}. \]</span></p>
+<p>This is not primitively a spatial mean-free-path ratio.</p>
+<p>It is the more general count relation:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{\text{enclosing physical evolution per time}}{\text{subordinate closure realization per time}}\]</span></p>
+<p>The continuum regime is</p>
+<p><span class="math display">\[ \mathrm{Kn}_{\mathrm{R2D}}^{(c)}\ll1. \]</span></p>
+<!-- source_pdf_page: 2269 -->
+<p>The loss of scale separation occurs when</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=O(1)\]</span></p>
+<p>At that point the enclosing state changes on the same physical recurrence scale required to realize it locally.</p>
+<p>The old continuum is no longer a high-count average over subordinate closure.</p>
+<p>This criterion resembles the conventional condition</p>
+<p><span class="math display">\[\Gamma\sim H\]</span></p>
+<p>that appears in cosmological freeze-out and decoupling.</p>
+<p>But the boundary ownership is essential.</p>
+<p>For an arbitrary species or interaction X ,</p>
+<p><span class="math display">\[\Gamma_X\sim H\]</span></p>
+<p>means only that X no longer equilibrates rapidly relative to cosmological evolution.</p>
+<p>It does not by itself imply global continuum breakdown.</p>
+<p>The R2D ultraviolet criterion requires</p>
+<p>fc = the closure rate of the subordinate class that actually sustains the projected boundary-level continuum.</p>
+<p>Only then does</p>
+<p><span class="math display">\[|H|\sim f_c\]</span></p>
+<p>mark loss of the continuum projection itself.</p>
+<p>The existing cosmological addenda provide two recurrence scales that can now be compared with this criterion.</p>
+<p>First, a realized thermal boundary admits the physical background calibration</p>
+<p><span class="math display">\[ f_T=\frac{k_BT}{h}\]</span></p>
+<p>This is a thermal recurrence ruler.</p>
+<p>It is not automatically the closure rate fc .</p>
+<!-- source_pdf_page: 2270 -->
+<p>Write instead</p>
+<p><span class="math display">\[ f_c=\eta_c(T)f_T=\eta_c(T)\frac{k_BT}{h}\]</span></p>
+<p>where</p>
+<p><span class="math display">\[\eta_c(T)\equiv\frac{f_c}{f_T}\]</span></p>
+<p>is the dimensionless mapping between the thermal background recurrence and the actual subordinate closure rate relevant to continuum realization.</p>
+<p>Second, the gravitational construction introduced a gravitational background recurrence</p>
+<p><span class="math display">\[ f_G\]</span></p>
+<p>and the relative recurrence ratio</p>
+<p><span class="math display">\[\zeta_{G\mid\zeta}=\frac{f_G}{f_\zeta}\]</span></p>
+<p>When the cosmological background recurrence is thermally calibrated,</p>
+<p><span class="math display">\[ f_\zeta=f_T\]</span></p>
+<p>then if the relevant subordinate closure is gravitational,</p>
+<p><span class="math display">\[ f_c=f_G\]</span></p>
+<p>one has</p>
+<p><span class="math display">\[\eta_c=\zeta_{G\mid\zeta}\]</span></p>
+<p>The previously unresolved gravitational-to-cosmological recurrence ratio therefore becomes a direct control parameter for continuum readability.</p>
+<p>The radiation-dominated physical limit makes the relation quantitative.</p>
+<p>For relativistic energy density</p>
+<p><span class="math display">\[\epsilon_r=\frac{\pi^2}{30}g_\ast\frac{(k_BT)^4}{\hbar^3c^3}\]</span></p>
+<p>the Friedmann projection gives</p>
+<!-- source_pdf_page: 2271 -->
+<p><span class="math display">\[ H^2=\frac{4\pi^3g_\ast G(k_BT)^4}{45\hbar^3c^5}\]</span></p>
+<p>Define the Planck temperature by</p>
+<p><span class="math display">\[ k_BT_P=\sqrt{\frac{\hbar c^5}{G}}\]</span></p>
+<p>Because</p>
+<p><span class="math display">\[ f_T=\frac{k_BT}{h}=\frac{k_BT}{2\pi\hbar}\]</span></p>
+<p>the ratio of the cosmological rate to the thermal recurrence is</p>
+<p><span class="math display">\[\frac{|H|}{f_T}=\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+<p>Therefore the actual closure-rate criterion is</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}=\frac1{\eta_c(T)}\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\eta_c(T)\sqrt{\frac{45}{16\pi^5g_\ast}}\frac{T_P}{T}\]</span></p>
+<p>The continuum-resolution boundary is therefore not defined primitively by</p>
+<p><span class="math display">\[ T=T_P\]</span></p>
+<p>It is defined by closure-rate matching:</p>
+<p><span class="math display">\[|H|\sim f_c\]</span></p>
+<p>If the order-one threshold is represented by</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=1\]</span></p>
+<p>then</p>
+<p><span class="math display">\[\frac{T_{\mathrm{br}}}{T_P}=\eta_c(T_{\mathrm{br}})\sqrt{\frac{45}{16\pi^5g_\ast(T_{\mathrm{br}})}}\]</span></p>
+<p>This relation is implicit because the physical closure map</p>
+<!-- source_pdf_page: 2272 -->
+<p>ηc (T )</p>
+<p>may itself change with cosmological state.</p>
+<p>It is nevertheless sufficient to establish an important distinction.</p>
+<p>The gravitational Planck condition and the count-resolution condition are not the same equation.</p>
+<p>Under the thermal gravitational calibration,</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}=\frac{G(k_BT)^2}{\hbar c^5}=\left(\frac{T}{T_P}\right)^2\]</span></p>
+<p>At continuum breakdown,</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}^{\mathrm{br}}=\frac{45}{16\pi^5g_\ast}\eta_c^2\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\sim1\not\equiv\alpha_{G\mid\zeta}\sim1\]</span></p>
+<p>They coincide only for the particular closure calibration</p>
+<p><span class="math display">\[\eta_c=\sqrt{\frac{16\pi^5g_\ast}{45}}\]</span></p>
+<p>The Planck regime is therefore one possible physical read of a recursive transition.</p>
+<p>It does not define the transition primitively.</p>
+<p>The more primitive continuum condition is loss of closure-rate separation.</p>
+<p>The same conclusion can be expressed without thermal or Planck calibration.</p>
+<p>Suppose a dominant Friedmann sector obeys</p>
+<p><span class="math display">\[ H^2\propto A_\zeta^{-s}\]</span></p>
+<p>so</p>
+<p><span class="math display">\[|H|\propto A_\zeta^{-s/2}\]</span></p>
+<p>Let the relevant subordinate closure rate scale as</p>
+<!-- source_pdf_page: 2273 -->
+<p><span class="math display">\[ f_c\propto A_\zeta^{-u_c}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\frac{f_c}{|H|}\propto A_\zeta^{s/2-u_c}\]</span></p>
+<p>Three ultraviolet regimes follow.</p>
+<p>If</p>
+<p><span class="math display">\[ u_c&lt;\frac{s}{2}\]</span></p>
+<p>then</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\to0\]</span></p>
+<p>toward decreasing area.</p>
+<p>The enclosing physical evolution outruns subordinate closure.</p>
+<p>The continuum loses recursive resolution.</p>
+<p>If</p>
+<p><span class="math display">\[ u_c=\frac{s}{2}\]</span></p>
+<p>then</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\mathrm{constant}\]</span></p>
+<p>The subordinate recurrence exactly co-scales with the enclosing evolution.</p>
+<p>If</p>
+<p><span class="math display">\[ u_c&gt;\frac{s}{2}\]</span></p>
+<p>then</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\to\infty\]</span></p>
+<p>Subordinate closure increasingly outruns the enclosing state change.</p>
+<!-- source_pdf_page: 2274 -->
+<p>The continuum becomes better resolved.</p>
+<p>Thus the cosmological ultraviolet problem is not fundamentally:</p>
+<blockquote class="blockquote">
+<p>How small does the universe become?</p>
+</blockquote>
+<p>It is:</p>
+<blockquote class="blockquote">
+<p>How does the closure rate that realizes the state scale relative to the rate at which the / enclosing state changes?</p>
+</blockquote>
+<p>The central statement is therefore:</p>
+<p>the physical ultraviolet boundary of a continuum cosmological projection is not primitively defined by a length, temperature, density, or Planck unit. It is reached when the subordinate closure rate that realizes the local physical state can no longer outrun the enclosing rate at which that state changes. The dimensionless control parameter is <span class="math inline">\(\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\)</span>, the R2D analogue of a Knudsen number. Planck strong coupling is a separate dimensionless condition, and the two coincide only when the relevant subordinate &gt; recurrence calibration makes them coincide.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>closure-rate separation occurs before the cosmological ultraviolet scale.</p>
+</blockquote>
+</section>
+<section id="addendum-67-identified-a-count-resolution-condition" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-67-identified-a-count-resolution-condition">1. Addendum 67 Identified a Count-Resolution Condition</h2>
+<p>The continuum support count is</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\frac{f_c}{|H|}\]</span></p>
+<p>A smooth cosmological trajectory requires</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\gg1\]</span></p>
+</section>
+<section id="but-the-meaning-of-fc-must-be-fixed" class="level2">
+<h2 class="anchored" data-anchor-id="but-the-meaning-of-fc-must-be-fixed">2. But the Meaning of fc Must Be Fixed</h2>
+<p>The symbol</p>
+<p><span class="math display">\[ f_c\]</span></p>
+<p>cannot denote any arbitrarily chosen high physical frequency.</p>
+<!-- source_pdf_page: 2275 -->
+<p>It must be owned by the subordinate closure class through which the enclosing cosmological occurrence is actually realized.</p>
+</section>
+<section id="closure-ownership-is-essential" class="level2">
+<h2 class="anchored" data-anchor-id="closure-ownership-is-essential">3. Closure Ownership Is Essential</h2>
+<p>Let</p>
+<p><span class="math display">\[ C_c\]</span></p>
+<p>denote that subordinate closure class.</p>
+<p>Then</p>
+<p><span class="math display">\[ f_c=\frac{dN_C^{(c)}}{dt}\]</span></p>
+<p>The count</p>
+<p><span class="math display">\[ N_C^{(c)}\]</span></p>
+<p>must be the count appearing in the recursive bridge to the enclosing occurrence.</p>
+</section>
+<section id="an-unrelated-oscillator-cannot-resolve-the-continuum" class="level2">
+<h2 class="anchored" data-anchor-id="an-unrelated-oscillator-cannot-resolve-the-continuum">4. An Unrelated Oscillator Cannot Resolve the Continuum</h2>
+<p>A physical system may contain frequencies much larger than H .</p>
+<p>That alone says nothing about whether those frequencies realize the cosmological state transition.</p>
+<p>Thus:</p>
+<p><span class="math display">\[ f_{\mathrm{fast}}\gg H\]</span></p>
+<p>does not imply continuum validity unless</p>
+<p><span class="math display">\[ f_{\mathrm{fast}}=f_c\]</span></p>
+<p>for the relevant recursive bridge.</p>
+</section>
+<section id="this-is-the-same-ownership-rule-used-throughout-r2d" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-same-ownership-rule-used-throughout-r2d">5. This Is the Same Ownership Rule Used Throughout R2D</h2>
+<p>A count belongs to the boundary that defines it.</p>
+<!-- source_pdf_page: 2276 -->
+<p>A physical rate belongs to the recurrence class being counted.</p>
+<p>A scale comparison is meaningful only when both terms belong to the bridge being tested.</p>
+</section>
+<section id="define-the-subordinate-closure-time" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-subordinate-closure-time">6. Define the Subordinate Closure Time</h2>
+<p>Let</p>
+<p><span class="math display">\[\tau_c=\frac1{f_c}\]</span></p>
+<p>This is the physical time required for one representative subordinate closure.</p>
+</section>
+<section id="define-the-enclosing-evolution-time" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-enclosing-evolution-time">7. Define the Enclosing Evolution Time</h2>
+<p>Let</p>
+<p><span class="math display">\[\tau_H=\frac1{|H|}\]</span></p>
+<p>This is the physical time over which the logarithmic cosmological scale changes by order unity.</p>
+</section>
+<section id="their-ratio-is-the-continuum-control-parameter" class="level2">
+<h2 class="anchored" data-anchor-id="their-ratio-is-the-continuum-control-parameter">8. Their Ratio Is the Continuum-Control Parameter</h2>
+<p>Define</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\equiv\frac{\tau_c}{\tau_H}\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}\]</span></p>
+</section>
+<section id="the-name-is-structural" class="level2">
+<h2 class="anchored" data-anchor-id="the-name-is-structural">9. The Name Is Structural</h2>
+<p>The conventional Knudsen number compares microscopic and macroscopic scales in continuum transport.</p>
+<p>The R2D quantity compares subordinate closure and enclosing evolution.</p>
+<!-- source_pdf_page: 2277 -->
+<p>The shared structure is scale separation.</p>
+</section>
+<section id="it-is-not-fundamentally-a-spatial-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="it-is-not-fundamentally-a-spatial-ratio">10. It Is Not Fundamentally a Spatial Ratio</h2>
+<p>R2D does not define</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\]</span></p>
+<p>through a primitive mean free path divided by a primitive geometric length.</p>
+<p>Both spatial quantities would already be projected.</p>
+<p>The primitive distinction is recurrence count separation.</p>
+</section>
+<section id="the-continuum-regime-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-continuum-regime-is">11. The Continuum Regime Is</h2>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\ll1\]</span></p>
+<p>Subordinate closure is rapid compared with enclosing physical evolution.</p>
+</section>
+<section id="equivalently" class="level2">
+<h2 class="anchored" data-anchor-id="equivalently">12. Equivalently</h2>
+<p><span class="math display">\[ f_c\gg|H|\]</span></p>
+<p>Many subordinate closures occur before the enclosing cosmological scale changes appreciably.</p>
+</section>
+<section id="the-sparse-realization-threshold-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-sparse-realization-threshold-is">13. The Sparse-Realization Threshold Is</h2>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=O(1)\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[|H|\sim f_c\]</span></p>
+</section>
+<section id="at-this-threshold-the-scale-hierarchy-collapses" class="level2">
+<h2 class="anchored" data-anchor-id="at-this-threshold-the-scale-hierarchy-collapses">14. At This Threshold the Scale Hierarchy Collapses</h2>
+<p>The enclosing state changes on the same physical recurrence scale required to realize it locally.</p>
+<!-- source_pdf_page: 2278 -->
+<p>The enclosing continuum is no longer averaging over a large number of subordinate closures.</p>
+</section>
+<section id="the-reciprocal-count-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-reciprocal-count-is">15. The Reciprocal Count Is</h2>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\frac1{\mathrm{Kn}_{\mathrm{R2D}}^{(c)}}=\frac{f_c}{|H|}\]</span></p>
+<p>Thus continuum validity and sparse realization are reciprocal descriptions of one boundary relation.</p>
+</section>
+<section id="conventional-freeze-out-has-the-same-mathematical-form" class="level2">
+<h2 class="anchored" data-anchor-id="conventional-freeze-out-has-the-same-mathematical-form">16. Conventional Freeze-Out Has the Same Mathematical Form</h2>
+<p>Cosmological kinetic theory often compares a physical interaction or relaxation rate</p>
+<p><span class="math display">\[\Gamma_X\]</span></p>
+<p>with</p>
+<p><span class="math display">\[ H\]</span></p>
+<p>The condition</p>
+<p><span class="math display">\[\Gamma_X\gg H\]</span></p>
+<p>means the process X equilibrates rapidly relative to expansion.</p>
+</section>
+<section id="freeze-out-occurs-near" class="level2">
+<h2 class="anchored" data-anchor-id="freeze-out-occurs-near">17. Freeze-Out Occurs Near</h2>
+<p><span class="math display">\[\Gamma_X\sim H\]</span></p>
+<p>This has exactly the same rate-ratio architecture.</p>
+</section>
+<section id="but-freeze-out-is-not-automatically-global-continuum-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="but-freeze-out-is-not-automatically-global-continuum-breakdown">18. But Freeze-Out Is Not Automatically Global Continuum Breakdown</h2>
+<p>For an arbitrary process X ,</p>
+<p><span class="math display">\[\Gamma_X\sim H\]</span></p>
+<p>means only that the process ceases to track the expanding background adiabatically or equilibrially.</p>
+<p>Other subordinate closure classes may continue to realize the cosmological continuum.</p>
+<!-- source_pdf_page: 2279 -->
+</section>
+<section id="the-r2d-criterion-is-stronger" class="level2">
+<h2 class="anchored" data-anchor-id="the-r2d-criterion-is-stronger">19. The R2D Criterion Is Stronger</h2>
+<p>Global continuum breakdown requires the rate</p>
+<p><span class="math display">\[ f_c\]</span></p>
+<p>of the closure class that actually supports the projected boundary-level state.</p>
+<p>Thus:</p>
+<p><span class="math display">\[\Gamma_X\sim H\]</span></p>
+<p>becomes an R2D projection-replacement condition only if</p>
+<p><span class="math display">\[\Gamma_X=f_c\]</span></p>
+</section>
+<section id="this-converts-a-familiar-rate-condition-into-a-boundary--ownership-problem" class="level2">
+<h2 class="anchored" data-anchor-id="this-converts-a-familiar-rate-condition-into-a-boundary--ownership-problem">20. This Converts a Familiar Rate Condition Into a Boundary- Ownership Problem</h2>
+<p>The question is no longer only:</p>
+<blockquote class="blockquote">
+<p>What interaction freezes out?</p>
+</blockquote>
+<p>It becomes:</p>
+<blockquote class="blockquote">
+<p>Which closure class must remain rapidly recurrent for this physical continuum to exist as the / same boundary-defined state?</p>
+</blockquote>
+</section>
+<section id="thermal-recurrence-supplies-a-natural-physical-ruler" class="level2">
+<h2 class="anchored" data-anchor-id="thermal-recurrence-supplies-a-natural-physical-ruler">21. Thermal Recurrence Supplies a Natural Physical Ruler</h2>
+<p>A realized thermal boundary admits</p>
+<p><span class="math display">\[ f_T=\frac{k_BT}{h}\]</span></p>
+<p>This is the cycle-frequency calibration associated with the thermal recurrence scale.</p>
+<!-- source_pdf_page: 2280 -->
+</section>
+<section id="thermal-recurrence-is-not-automatically-the-required-closure-rate" class="level2">
+<h2 class="anchored" data-anchor-id="thermal-recurrence-is-not-automatically-the-required-closure-rate">22. Thermal Recurrence Is Not Automatically the Required Closure Rate</h2>
+<p>The thermal background frequency provides a ruler.</p>
+<p>It does not by definition count the particular closures that maintain the full cosmological state.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[ f_c\ne f_T\]</span></p>
+<p>in general.</p>
+</section>
+<section id="define-their-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="define-their-mapping">23. Define Their Mapping</h2>
+<p>Let</p>
+<p><span class="math display">\[\eta_c(T)\equiv\frac{f_c}{f_T}\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[ f_c=\eta_c(T)f_T=\eta_c(T)\frac{k_BT}{h}\]</span></p>
+</section>
+<section id="ηc-is-a-boundary-mapping-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="ηc-is-a-boundary-mapping-coordinate">24. ηc Is a Boundary-Mapping Coordinate</h2>
+<p>It is not inserted merely to adjust a numerical coefficient.</p>
+<p>It asks how the actual subordinate closure rate compares with the thermal recurrence ruler.</p>
+<p>Its physical content must be derived from the closure class being modeled.</p>
+</section>
+<section id="if-thermal-recurrence-itself-is-the-closure" class="level2">
+<h2 class="anchored" data-anchor-id="if-thermal-recurrence-itself-is-the-closure">25. If Thermal Recurrence Itself Is the Closure</h2>
+<p>Then:</p>
+<p><span class="math display">\[\eta_c=1\]</span></p>
+<p>This is a special physical limit, not the general definition.</p>
+<!-- source_pdf_page: 2281 -->
+</section>
+<section id="if-the-closure-is-slower-than-the-thermal-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="if-the-closure-is-slower-than-the-thermal-recurrence">26. If the Closure Is Slower Than the Thermal Recurrence</h2>
+<p>Then:</p>
+<p><span class="math display">\[\eta_c&lt;1\]</span></p>
+<p>The continuum loses closure-rate separation sooner.</p>
+</section>
+<section id="if-the-closure-is-faster" class="level2">
+<h2 class="anchored" data-anchor-id="if-the-closure-is-faster">27. If the Closure Is Faster</h2>
+<p>Then:</p>
+<p><span class="math display">\[\eta_c&gt;1\]</span></p>
+<p>The state can remain count resolved to a larger enclosing rate.</p>
+</section>
+<section id="radiation-domination-gives-a-quantitative-test" class="level2">
+<h2 class="anchored" data-anchor-id="radiation-domination-gives-a-quantitative-test">28. Radiation Domination Gives a Quantitative Test</h2>
+<p>The relativistic energy density is</p>
+<p><span class="math display">\[\epsilon_r=\frac{\pi^2}{30}g_\ast\frac{(k_BT)^4}{\hbar^3c^3}\]</span></p>
+<p>Here g∗ is the effective relativistic energy degree-of-freedom count entering the physical thermal source read.</p>
+</section>
+<section id="insert-this-into-friedmann" class="level2">
+<h2 class="anchored" data-anchor-id="insert-this-into-friedmann">29. Insert This Into Friedmann</h2>
+<p>For a flat radiation-dominated physical projection,</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}\epsilon_r\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ H^2=\frac{4\pi^3g_\ast G(k_BT)^4}{45\hbar^3c^5}\]</span></p>
+</section>
+<section id="define-the-conventional-planck-temperature" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-conventional-planck-temperature">30. Define the Conventional Planck Temperature</h2>
+<p>Let</p>
+<!-- source_pdf_page: 2282 -->
+<p>ℏc5</p>
+<p><span class="math display">\[ k_BT_P=\sqrt{\frac{\hbar c^5}{G}}\]</span></p>
+<p>This is a physical calibration downstream of the gravitational count relation.</p>
+</section>
+<section id="divide-h-by-the-thermal-cycle-frequency" class="level2">
+<h2 class="anchored" data-anchor-id="divide-h-by-the-thermal-cycle-frequency">31. Divide H by the Thermal Cycle Frequency</h2>
+<p>Since</p>
+<p><span class="math display">\[ f_T=\frac{k_BT}{2\pi\hbar}\]</span></p>
+<p>one obtains</p>
+<p><span class="math display">\[\frac{|H|}{f_T}=\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+</section>
+<section id="this-is-the-thermal-r2d-knudsen-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-thermal-r2d-knudsen-ratio">32. This Is the Thermal R2D Knudsen Ratio</h2>
+<p>Define</p>
+<p><span class="math display">\[\mathrm{Kn}_T\equiv\frac{|H|}{f_T}\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\mathrm{Kn}_T=\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+</section>
+<section id="the-thermal-continuum-support-count-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-thermal-continuum-support-count-is">33. The Thermal Continuum-Support Count Is</h2>
+<p><span class="math display">\[\mathcal N_T=\frac{f_T}{|H|}=\sqrt{\frac{45}{16\pi^5g_\ast}}\frac{T_P}{T}\]</span></p>
+</section>
+<section id="backward-radiation-evolution-reduces-thermal-scale-separation" class="level2">
+<h2 class="anchored" data-anchor-id="backward-radiation-evolution-reduces-thermal-scale-separation">34. Backward Radiation Evolution Reduces Thermal Scale Separation</h2>
+<p>As</p>
+<!-- source_pdf_page: 2283 -->
+<p>T ↑,</p>
+<p><span class="math display">\[\mathcal N_T\downarrow\]</span></p>
+<p>The thermal recurrence becomes faster, but not as quickly as the Friedmann rate.</p>
+</section>
+<section id="the-reason-is-simple" class="level2">
+<h2 class="anchored" data-anchor-id="the-reason-is-simple">35. The Reason Is Simple</h2>
+<p>During radiation domination,</p>
+<p><span class="math display">\[ f_T\propto T\]</span></p>
+<p>whereas</p>
+<p><span class="math display">\[|H|\propto T^2\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\frac{|H|}{f_T}\propto T\]</span></p>
+</section>
+<section id="the-enclosing-evolution-outruns-the-thermal-ruler" class="level2">
+<h2 class="anchored" data-anchor-id="the-enclosing-evolution-outruns-the-thermal-ruler">36. The Enclosing Evolution Outruns the Thermal Ruler</h2>
+<p>Toward higher projected temperature,</p>
+<p><span class="math display">\[ H\]</span></p>
+<p>grows one power of T faster than the thermal recurrence.</p>
+<p>Therefore a fixed thermal calibration cannot maintain unlimited continuum resolution.</p>
+</section>
+<section id="now-restore-the-actual-closure-rate" class="level2">
+<h2 class="anchored" data-anchor-id="now-restore-the-actual-closure-rate">37. Now Restore the Actual Closure Rate</h2>
+<p>Since</p>
+<p><span class="math display">\[ f_c=\eta_cf_T\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}=\frac1{\eta_c(T)}\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+<!-- source_pdf_page: 2284 -->
+</section>
+<section id="equivalently-1" class="level2">
+<h2 class="anchored" data-anchor-id="equivalently-1">38. Equivalently</h2>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\eta_c(T)\sqrt{\frac{45}{16\pi^5g_\ast}}\frac{T_P}{T}\]</span></p>
+<p>This is the radiation-era continuum-support count in terms of the actual subordinate closure mapping.</p>
+</section>
+<section id="define-the-closure-rate-breakdown-condition" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-closure-rate-breakdown-condition">39. Define the Closure-Rate Breakdown Condition</h2>
+<p>At the nominal order-one threshold,</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=1\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\frac{T_{\mathrm{br}}}{T_P}=\eta_c(T_{\mathrm{br}})\sqrt{\frac{45}{16\pi^5g_\ast(T_{\mathrm{br}})}}\]</span></p>
+</section>
+<section id="this-is-an-implicit-boundary-equation" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-an-implicit-boundary-equation">40. This Is an Implicit Boundary Equation</h2>
+<p>Both</p>
+<p><span class="math display">\[ g_\ast\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\eta_c\]</span></p>
+<p>may change as the physical state changes.</p>
+<p>The equation therefore identifies the relation that a physical transition must satisfy rather than imposing a universal numerical temperature.</p>
+</section>
+<section id="the-ultraviolet-boundary-is-therefore-not-defined-by-tp" class="level2">
+<h2 class="anchored" data-anchor-id="the-ultraviolet-boundary-is-therefore-not-defined-by-tp">41. The Ultraviolet Boundary Is Therefore Not Defined by TP</h2>
+<p>The condition</p>
+<p><span class="math display">\[ T=T_P\]</span></p>
+<p>belongs to the Planck calibration.</p>
+<!-- source_pdf_page: 2285 -->
+<p>The count-resolution condition is</p>
+<p><span class="math display">\[ H=f_c\]</span></p>
+<p>They answer different questions.</p>
+</section>
+<section id="the-planck-condition-is-gravitational-coupling" class="level2">
+<h2 class="anchored" data-anchor-id="the-planck-condition-is-gravitational-coupling">42. The Planck Condition Is Gravitational Coupling</h2>
+<p>Under the same thermal calibration,</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}=\frac{G(k_BT)^2}{\hbar c^5}=\left(\frac{T}{T_P}\right)^2\]</span></p>
+<p>The Planck regime is</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}\sim1\]</span></p>
+</section>
+<section id="the-continuum-condition-can-be-written-in-terms-of-αgζ" class="level2">
+<h2 class="anchored" data-anchor-id="the-continuum-condition-can-be-written-in-terms-of-αgζ">43. The Continuum Condition Can Be Written in Terms of αG∣ζ</h2>
+<p>Because</p>
+<p><span class="math display">\[\frac{T}{T_P}=\sqrt{\alpha_{G\mid\zeta}}\]</span></p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac1{\eta_c}\sqrt{\frac{16\pi^5g_\ast}{45}\alpha_{G\mid\zeta}}\]</span></p>
+</section>
+<section id="therefore" class="level2">
+<h2 class="anchored" data-anchor-id="therefore">44. Therefore</h2>
+<p><span class="math display">\[\left(\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\right)^2=\frac{16\pi^5g_\ast}{45}\frac{\alpha_{G\mid\zeta}}{\eta_c^2}\]</span></p>
+<p>This is the direct relation between count-resolution breakdown and gravitational strong coupling.</p>
+</section>
+<section id="at-continuum-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="at-continuum-breakdown">45. At Continuum Breakdown</h2>
+<p>Setting</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=1\]</span></p>
+<!-- source_pdf_page: 2286 -->
+<p>gives</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}^{\mathrm{br}}=\frac{45}{16\pi^5g_\ast}\eta_c^2\]</span></p>
+</section>
+<section id="nothing-requires-this-to-equal-one" class="level2">
+<h2 class="anchored" data-anchor-id="nothing-requires-this-to-equal-one">46. Nothing Requires This to Equal One</h2>
+<p>Thus:</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}^{\mathrm{br}}\ne1\]</span></p>
+<p>in general.</p>
+</section>
+<section id="continuum-breakdown-and-planck-strong-coupling-are-different-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="continuum-breakdown-and-planck-strong-coupling-are-different-conditions">47. Continuum Breakdown and Planck Strong Coupling Are Different Conditions</h2>
+<p>The first is:</p>
+<p><span class="math display">\[|H|\sim f_c\]</span></p>
+<p>The second is:</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}\sim1\]</span></p>
+<p>One compares enclosing evolution with subordinate closure.</p>
+<p>The other compares gravitational coupling with the cosmological recurrence calibration.</p>
+</section>
+<section id="they-coincide-only-under-a-specific-closure-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="they-coincide-only-under-a-specific-closure-calibration">48. They Coincide Only Under a Specific Closure Calibration</h2>
+<p>Require simultaneously</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=1\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}=1\]</span></p>
+<p>Then:</p>
+<!-- source_pdf_page: 2287 -->
+<p><span class="math display">\[\eta_c=\sqrt{\frac{16\pi^5g_\ast}{45}}\]</span></p>
+</section>
+<section id="coincidence-is-therefore-a-physical-result-to-be-derived" class="level2">
+<h2 class="anchored" data-anchor-id="coincidence-is-therefore-a-physical-result-to-be-derived">49. Coincidence Is Therefore a Physical Result to Be Derived</h2>
+<p>It cannot be assumed merely because both conditions are called “ultraviolet.”</p>
+<p>A theory of the replacement boundary must determine whether its subordinate closure rate satisfies this relation.</p>
+</section>
+<section id="three-physical-possibilities-remain" class="level2">
+<h2 class="anchored" data-anchor-id="three-physical-possibilities-remain">50. Three Physical Possibilities Remain</h2>
+<p>Case I — Continuum breakdown first</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\sim1\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}\ll1\]</span></p>
+<p>The old continuum count domain fails before gravitational Planck strong coupling.</p>
+</section>
+<section id="case-ii-planck-strong-coupling-first" class="level2">
+<h2 class="anchored" data-anchor-id="case-ii-planck-strong-coupling-first">51. Case II — Planck strong coupling first</h2>
+<p><span class="math display">\[\alpha_{G\mid\zeta}\sim1\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\ll1\]</span></p>
+<p>The physical projection enters a gravitational strong-coupling regime while subordinate closure still resolves the continuum.</p>
+</section>
+<section id="case-iii-coincident-transition" class="level2">
+<h2 class="anchored" data-anchor-id="case-iii-coincident-transition">52. Case III — Coincident transition</h2>
+<p><span class="math display">\[\alpha_{G\mid\zeta}\sim1\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\sim1\]</span></p>
+<!-- source_pdf_page: 2288 -->
+<p>at the same boundary.</p>
+<p>Then the Planck scale may be the dimensional physical read of the recursive replacement that simultaneously destroys the old continuum scale separation.</p>
+</section>
+<section id="this-gives-the-earlier-planck-alternatives-a-count-criterion" class="level2">
+<h2 class="anchored" data-anchor-id="this-gives-the-earlier-planck-alternatives-a-count-criterion">53. This Gives the Earlier Planck Alternatives a Count Criterion</h2>
+<p>The missing question is no longer merely whether the Planck scale is reached.</p>
+<p>It is whether</p>
+<blockquote class="blockquote">
+<p>gravitational strong coupling</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>loss of recursive continuum resolution</p>
+</blockquote>
+<p>refer to the same boundary event.</p>
+</section>
+<section id="return-to-the-gravitational-background-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="return-to-the-gravitational-background-recurrence">54. Return to the Gravitational Background Recurrence</h2>
+<p>Let</p>
+<p><span class="math display">\[ f_G\]</span></p>
+<p>be the physical recurrence calibration associated with the gravitational background.</p>
+<p>Let</p>
+<p><span class="math display">\[ f_\zeta\]</span></p>
+<p>be the cosmological background recurrence calibration.</p>
+<p>Define</p>
+<p><span class="math display">\[\zeta_{G\mid\zeta}=\frac{f_G}{f_\zeta}\]</span></p>
+</section>
+<section id="in-the-thermal-cosmological-regime" class="level2">
+<h2 class="anchored" data-anchor-id="in-the-thermal-cosmological-regime">55. In the Thermal Cosmological Regime</h2>
+<p>If</p>
+<!-- source_pdf_page: 2289 -->
+<p><span class="math display">\[ f_\zeta=f_T\]</span></p>
+<p>then:</p>
+<p><span class="math display">\[\zeta_{G\mid\zeta}=\frac{f_G}{f_T}\]</span></p>
+</section>
+<section id="if-gravitational-recurrence-is-the-relevant-closure-clock" class="level2">
+<h2 class="anchored" data-anchor-id="if-gravitational-recurrence-is-the-relevant-closure-clock">56. If Gravitational Recurrence Is the Relevant Closure Clock</h2>
+<p>Set</p>
+<p><span class="math display">\[ f_c=f_G\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\eta_c=\zeta_{G\mid\zeta}\]</span></p>
+</section>
+<section id="the-continuum-support-count-becomes" class="level2">
+<h2 class="anchored" data-anchor-id="the-continuum-support-count-becomes">57. The Continuum-Support Count Becomes</h2>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(G)}=\zeta_{G\mid\zeta}\sqrt{\frac{45}{16\pi^5g_\ast}}\frac{T_P}{T}\]</span></p>
+</section>
+<section id="and-the-r2d-knudsen-ratio-is" class="level2">
+<h2 class="anchored" data-anchor-id="and-the-r2d-knudsen-ratio-is">58. And the R2D Knudsen Ratio Is</h2>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(G)}=\frac1{\zeta_{G\mid\zeta}}\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+<p>The previously introduced gravitational/cosmological recurrence ratio now directly determines continuum count resolution.</p>
+</section>
+<section id="this-gives-ζgζ-a-new-physical-role" class="level2">
+<h2 class="anchored" data-anchor-id="this-gives-ζgζ-a-new-physical-role">59. This Gives ζG∣ζ a New Physical Role</h2>
+<p>It no longer appears only in Planck calibration.</p>
+<p>It also tells us how rapidly the subordinate gravitational recurrence resolves the enclosing cosmological evolution.</p>
+<!-- source_pdf_page: 2290 -->
+</section>
+<section id="planck-coupling-and-continuum-resolution-depend-differently-on-ζgζ" class="level2">
+<h2 class="anchored" data-anchor-id="planck-coupling-and-continuum-resolution-depend-differently-on-ζgζ">60. Planck Coupling and Continuum Resolution Depend Differently on ζG∣ζ</h2>
+<p>The gravitational coupling comparison and the continuum-support count are separate functions of the recurrence hierarchy.</p>
+<p>Therefore knowledge of one does not determine the other without the physical closure mapping.</p>
+</section>
+<section id="the-radiation-era-area-scaling-makes-the-requirement-transparent" class="level2">
+<h2 class="anchored" data-anchor-id="the-radiation-era-area-scaling-makes-the-requirement-transparent">61. The Radiation-Era Area Scaling Makes the Requirement Transparent</h2>
+<p>In the radiation regime,</p>
+<p><span class="math display">\[ T\propto a^{-1}\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[ A\propto a^2\]</span></p>
+<p><span class="math display">\[ T\propto A^{-1/2}\]</span></p>
+</section>
+<section id="thermal-recurrence-therefore-scales-as" class="level2">
+<h2 class="anchored" data-anchor-id="thermal-recurrence-therefore-scales-as">62. Thermal Recurrence Therefore Scales As</h2>
+<p><span class="math display">\[ f_T\propto A^{-1/2}\]</span></p>
+</section>
+<section id="but-the-radiation-friedmann-rate-scales-as" class="level2">
+<h2 class="anchored" data-anchor-id="but-the-radiation-friedmann-rate-scales-as">63. But the Radiation Friedmann Rate Scales As</h2>
+<p><span class="math display">\[|H|\propto A^{-1}\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\mathcal N_T\propto A^{1/2}\]</span></p>
+</section>
+<section id="a-fixed-recurrence-ratio-cannot-preserve-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="a-fixed-recurrence-ratio-cannot-preserve-resolution">64. A Fixed Recurrence Ratio Cannot Preserve Resolution</h2>
+<p>If</p>
+<p><span class="math display">\[\zeta_{G\mid\zeta}=\mathrm{constant}\]</span></p>
+<!-- source_pdf_page: 2291 -->
+<p>then</p>
+<p><span class="math display">\[ f_G\propto f_T\propto A^{-1/2}\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(G)}\propto A^{1/2}\to0\]</span></p>
+<p>toward decreasing area.</p>
+</section>
+<section id="thus-co-scaling-background-frequencies-do-not-automatically-preserve-the-continuum" class="level2">
+<h2 class="anchored" data-anchor-id="thus-co-scaling-background-frequencies-do-not-automatically-preserve-the-continuum">65. Thus Co-Scaling Background Frequencies Do Not Automatically Preserve the Continuum</h2>
+<p>Even if</p>
+<p><span class="math display">\[ f_G/f_T\]</span></p>
+<p>remains constant, the enclosing Friedmann rate grows faster than either recurrence.</p>
+<p>This is distinct from the question of whether the gravitational coupling reaches its Planck value.</p>
+</section>
+<section id="generalize-the-result" class="level2">
+<h2 class="anchored" data-anchor-id="generalize-the-result">66. Generalize the Result</h2>
+<p>Let</p>
+<p><span class="math display">\[|H|\propto A^{-s/2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ f_c\propto A^{-u_c}\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\propto A^{-(s/2-u_c)}\]</span></p>
+</section>
+<section id="the-continuum-support-count-scales-as" class="level2">
+<h2 class="anchored" data-anchor-id="the-continuum-support-count-scales-as">67. The Continuum-Support Count Scales As</h2>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\propto A^{s/2-u_c}\]</span></p>
+<p>This is the general ultraviolet scaling law.</p>
+<!-- source_pdf_page: 2292 -->
+</section>
+<section id="case-a-closure-grows-too-slowly" class="level2">
+<h2 class="anchored" data-anchor-id="case-a-closure-grows-too-slowly">68. Case A — Closure Grows Too Slowly</h2>
+<p>If</p>
+<p><span class="math display">\[ u_c&lt;\frac{s}{2}\]</span></p>
+<p>then toward decreasing area:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\to\infty\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\to0\]</span></p>
+<p>The continuum necessarily loses closure-rate separation.</p>
+</section>
+<section id="case-b-exact-co-scaling" class="level2">
+<h2 class="anchored" data-anchor-id="case-b-exact-co-scaling">69. Case B — Exact Co-Scaling</h2>
+<p>If</p>
+<p><span class="math display">\[ u_c=\frac{s}{2}\]</span></p>
+<p>then:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}=\mathrm{constant}\]</span></p>
+<p>The recursive resolution hierarchy is preserved but does not improve.</p>
+</section>
+<section id="case-c-closure-outruns-enclosing-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="case-c-closure-outruns-enclosing-evolution">70. Case C — Closure Outruns Enclosing Evolution</h2>
+<p>If</p>
+<p><span class="math display">\[ u_c&gt;\frac{s}{2}\]</span></p>
+<p>then toward decreasing area:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\to0\]</span></p>
+<p>The subordinate closure remains increasingly rapid relative to the enclosing physical evolution.</p>
+<!-- source_pdf_page: 2293 -->
+</section>
+<section id="radiation-requires-uc-1-to-avoid-loss-of-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="radiation-requires-uc-1-to-avoid-loss-of-resolution">71. Radiation Requires uc ≥ 1 to Avoid Loss of Resolution</h2>
+<p>For radiation,</p>
+<p><span class="math display">\[ s=2\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\frac{s}{2}=1\]</span></p>
+<p>Continuum resolution can remain nondecreasing toward smaller area only if</p>
+<p><span class="math display">\[ u_c\ge1\]</span></p>
+</section>
+<section id="but-thermal-recurrence-has-only" class="level2">
+<h2 class="anchored" data-anchor-id="but-thermal-recurrence-has-only">72. But Thermal Recurrence Has Only</h2>
+<p><span class="math display">\[ u_T=\frac12\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ u_T&lt;1\]</span></p>
+<p>The thermal recurrence by itself cannot maintain ultraviolet scale separation.</p>
+</section>
+<section id="in-temperature-language" class="level2">
+<h2 class="anchored" data-anchor-id="in-temperature-language">73. In Temperature Language</h2>
+<p>Radiation gives</p>
+<p><span class="math display">\[ H\propto T^2\]</span></p>
+<p>Thus the relevant closure rate must scale at least as</p>
+<p><span class="math display">\[ f_c\propto T^2\]</span></p>
+<p>to avoid losing relative resolution.</p>
+</section>
+<section id="a-closure-rate-proportional-only-to-t-is-insufficient" class="level2">
+<h2 class="anchored" data-anchor-id="a-closure-rate-proportional-only-to-t-is-insufficient">74. A Closure Rate Proportional Only to T Is Insufficient</h2>
+<p>If</p>
+<!-- source_pdf_page: 2294 -->
+<p><span class="math display">\[ f_c\propto T\]</span></p>
+<p>then:</p>
+<p><span class="math display">\[\frac{H}{f_c}\propto T\]</span></p>
+<p>The continuum eventually fails under backward extrapolation.</p>
+</section>
+<section id="this-turns-the-ultraviolet-problem-into-a-rate-scaling-problem" class="level2">
+<h2 class="anchored" data-anchor-id="this-turns-the-ultraviolet-problem-into-a-rate-scaling-problem">75. This Turns the Ultraviolet Problem Into a Rate-Scaling Problem</h2>
+<p>The question is no longer fundamentally:</p>
+<blockquote class="blockquote">
+<p>At what length does spacetime become discrete?</p>
+</blockquote>
+<p>R2D asks:</p>
+<blockquote class="blockquote">
+<p>Does the subordinate closure rate continue to outrun the enclosing rate across the boundary / being projected?</p>
+</blockquote>
+</section>
+<section id="space-need-not-become-pixelated" class="level2">
+<h2 class="anchored" data-anchor-id="space-need-not-become-pixelated">76. Space Need Not Become Pixelated</h2>
+<p>Failure of</p>
+<p><span class="math display">\[ f_c\gg H\]</span></p>
+<p>does not imply a smallest spatial cell.</p>
+<p>It implies that the projected spatial continuum has lost the recurrence separation needed to remain a smooth read.</p>
+</section>
+<section id="the-replacement-description-is-count-based" class="level2">
+<h2 class="anchored" data-anchor-id="the-replacement-description-is-count-based">77. The Replacement Description Is Count Based</h2>
+<p>At</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\sim1\]</span></p>
+<p>the appropriate description returns to the boundary architecture:</p>
+<p><span class="math display">\[\Omega_n\overset{\pi_n}{\longrightarrow}\mathcal M_n\]</span></p>
+<p>The sparse multiplicity path becomes readable before another continuum projection is assigned.</p>
+<!-- source_pdf_page: 2295 -->
+</section>
+<section id="principle-closure-ownership-precedes-rate-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="principle-closure-ownership-precedes-rate-comparison">78. Principle — Closure Ownership Precedes Rate Comparison</h2>
+<p>Only the subordinate recurrence class that actually realizes the enclosing state can supply the continuum clock fc .</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>identify closure owner → compare rates.</p>
+</blockquote>
+</section>
+<section id="principle-closure-rate-separation-defines-continuum-readability" class="level2">
+<h2 class="anchored" data-anchor-id="principle-closure-rate-separation-defines-continuum-readability">79. Principle — Closure-Rate Separation Defines Continuum Readability</h2>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}\]</span></p>
+<p>The continuum regime is</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\ll1\]</span></p>
+</section>
+<section id="principle-order-one-rate-matching-defines-loss-of-recursive-scale-separation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-order-one-rate-matching-defines-loss-of-recursive-scale-separation">80. Principle — Order-One Rate Matching Defines Loss of Recursive Scale Separation</h2>
+<p><span class="math display">\[|H|\sim f_c\]</span></p>
+<p>marks the transition from many subordinate closures per enclosing change to order-one closure support.</p>
+</section>
+<section id="principle-freeze-out-and-continuum-breakdown-share-form-but-not-necessarily-boundary-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="principle-freeze-out-and-continuum-breakdown-share-form-but-not-necessarily-boundary-ownership">81. Principle — Freeze-Out and Continuum Breakdown Share Form but Not Necessarily Boundary Ownership</h2>
+<p><span class="math display">\[\Gamma_X\sim H\]</span></p>
+<p>is a species/process freeze-out condition.</p>
+<p>It becomes a global continuum-breakdown criterion only if</p>
+<p><span class="math display">\[\Gamma_X\]</span></p>
+<p>is the closure rate that sustains the projected cosmological boundary.</p>
+<!-- source_pdf_page: 2296 -->
+</section>
+<section id="principle-thermal-recurrence-is-a-ruler-not-automatically-the-closure" class="level2">
+<h2 class="anchored" data-anchor-id="principle-thermal-recurrence-is-a-ruler-not-automatically-the-closure">82. Principle — Thermal Recurrence Is a Ruler, Not Automatically the Closure</h2>
+<p><span class="math display">\[ f_T=\frac{k_BT}{h}\]</span></p>
+<p>supplies a physical thermal recurrence calibration.</p>
+<p>The actual continuum closure satisfies</p>
+<p><span class="math display">\[ f_c=\eta_cf_T\]</span></p>
+</section>
+<section id="principle-continuum-breakdown-and-planck-strong-coupling-are-distinct" class="level2">
+<h2 class="anchored" data-anchor-id="principle-continuum-breakdown-and-planck-strong-coupling-are-distinct">83. Principle — Continuum Breakdown and Planck Strong Coupling Are Distinct</h2>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\sim1\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}\sim1\]</span></p>
+<p>are separate dimensionless conditions.</p>
+<p>Their coincidence requires a derived closure calibration.</p>
+</section>
+<section id="principle-the-planck-scale-can-be-a-projection-of-boundary-replacement-without-defining-it" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-planck-scale-can-be-a-projection-of-boundary-replacement-without-defining-it">84. Principle — The Planck Scale Can Be a Projection of Boundary Replacement Without Defining It</h2>
+<p>If the count-resolution and gravitational-coupling thresholds coincide physically, then Planck units may provide the dimensional read of that recursive replacement.</p>
+<p>The count relation still comes first.</p>
+</section>
+<section id="principle-ultraviolet-fate-is-controlled-by-relative-scaling" class="level2">
+<h2 class="anchored" data-anchor-id="principle-ultraviolet-fate-is-controlled-by-relative-scaling">85. Principle — Ultraviolet Fate Is Controlled by Relative Scaling</h2>
+<p>For</p>
+<p><span class="math display">\[ H^2\propto A_\zeta^{-s}\]</span></p>
+<p>and</p>
+<!-- source_pdf_page: 2297 -->
+<p><span class="math display">\[ f_c\propto A^{-u_c}\]</span></p>
+<p>the continuum fate is controlled by</p>
+<p><span class="math display">\[\frac{s}{2}-u_c\]</span></p>
+<p>This exponent comparison precedes any dimensional cutoff.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">86. Logical Status</h2>
+<p>Canonical R2D</p>
+<p>Recursive closure counts are primary.</p>
+<p>Physical frequency is a later read of recurrence.</p>
+<p>Addendum 58</p>
+<p><span class="math display">\[ H=f_c\mathcal H_{\zeta\mid c}\]</span></p>
+<p>Addendum 67</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\frac{f_c}{|H|}\]</span></p>
+<p>New R2D Knudsen Coordinate</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}\]</span></p>
+<p>Thermal Calibration</p>
+<p><span class="math display">\[ f_T=\frac{k_BT}{h}\]</span></p>
+<p>Closure Mapping</p>
+<p><span class="math display">\[ f_c=\eta_cf_T\]</span></p>
+<p>Radiation-Era Result</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}=\frac1{\eta_c(T)}\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+<!-- source_pdf_page: 2298 -->
+<p>Gravitational Strong-Coupling Coordinate</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}=\frac{G(k_BT)^2}{\hbar c^5}=\left(\frac{T}{T_P}\right)^2\]</span></p>
+<p>Direct Relation</p>
+<p><span class="math display">\[\left(\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\right)^2=\frac{16\pi^5g_\ast}{45}\frac{\alpha_{G\mid\zeta}}{\eta_c^2}\]</span></p>
+<p>General Scaling Criterion</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\propto A^{s/2-u_c}\]</span></p>
+<p>Not Yet Established</p>
+<p>This addendum does not yet identify:</p>
+<ul>
+<li>the unique subordinate closure class that realizes the ultraviolet cosmological continuum;</li>
+<li>the function ηc (T );</li>
+<li>whether gravitational recurrence is that closure;</li>
+<li>whether continuum breakdown coincides with Planck strong coupling;</li>
+<li>the physical replacement boundary;</li>
+<li>or the next physical projection after closure-rate separation is lost.</li>
+</ul>
+<p>Those are now sharply defined problems rather than unspecified cutoffs.</p>
+</section>
+<section id="the-complete-ultraviolet-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-ultraviolet-architecture">87. The Complete Ultraviolet Architecture</h2>
+<p>A cosmological continuum is realized by subordinate closures:</p>
+<p><span class="math display">\[ C_c\]</span></p>
+<p>Their physical recurrence rate is</p>
+<p><span class="math display">\[ f_c\]</span></p>
+<p>The enclosing cosmological boundary changes at physical rate</p>
+<p><span class="math display">\[|H|\]</span></p>
+<p>Their ratio defines scale separation:</p>
+<!-- source_pdf_page: 2299 -->
+<p>fc (c)</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}=\frac{f_c}{|H|}\]</span></p>
+<p>When</p>
+<p><span class="math display">\[ f_c\gg|H|\]</span></p>
+<p>the enclosing trajectory is a high-count continuum read.</p>
+<p>As the ultraviolet regime is approached, one compares the scalings:</p>
+<p><span class="math display">\[ f_c\propto A^{-u_c}\]</span></p>
+<p><span class="math display">\[|H|\propto A^{-s/2}\]</span></p>
+<p>If the enclosing rate grows faster,</p>
+<p><span class="math display">\[\frac{s}{2}&gt;u_c\]</span></p>
+<p>then:</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}\downarrow\]</span></p>
+<p>Eventually:</p>
+<p><span class="math display">\[|H|\sim f_c\]</span></p>
+<p>Recursive scale separation is lost.</p>
+<p>The old continuum projection ends.</p>
+<p>Only afterward may that boundary acquire a dimensional physical characterization such as a temperature, energy, length, or Planck scale.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>subordinate closure</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>closure-rate separation</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>continuum physical projection</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<!-- source_pdf_page: 2300 -->
+<p>loss of rate separation</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>recursive boundary replacement</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>new physical ultraviolet read.</p>
+</blockquote>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">88. Conclusion</h2>
+<p>The cosmological ultraviolet problem is usually expressed in dimensional coordinates.</p>
+<p>One asks when the universe reaches a sufficiently high temperature.</p>
+<p>One asks when density becomes sufficiently large.</p>
+<p>One asks when the scale factor becomes sufficiently small.</p>
+<p>One asks when a physical length reaches the Planck length.</p>
+<p>R2D places all of these questions later.</p>
+<p>A continuum physical state exists only because subordinate recurrent closures realize that state many times before the enclosing boundary changes appreciably.</p>
+<p>The primary ultraviolet comparison is therefore not a length ratio.</p>
+<p>It is a recurrence-rate ratio:</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}=\frac{|H|}{f_c}\]</span></p>
+<p>When</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\ll1\]</span></p>
+<p>the cosmological continuum is strongly count resolved.</p>
+<p>When</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\sim1\]</span></p>
+<p>the enclosing physical evolution occurs on the same recurrence scale as the subordinate closure that realizes it.</p>
+<!-- source_pdf_page: 2301 -->
+<p>The continuum has lost the count separation from which its smoothness arose.</p>
+<p>Which recurrence occupies fc is therefore the central physical question.</p>
+<p>The thermal recurrence</p>
+<p><span class="math display">\[ f_T=\frac{k_BT}{h}\]</span></p>
+<p>provides one physical ruler.</p>
+<p>But a ruler is not automatically the closure that sustains the continuum.</p>
+<p>The relation must instead be written</p>
+<p><span class="math display">\[ f_c=\eta_cf_T\]</span></p>
+<p>In a radiation-dominated physical projection,</p>
+<p><span class="math display">\[\frac{|H|}{f_c}=\frac1{\eta_c}\sqrt{\frac{16\pi^5g_\ast}{45}}\frac{T}{T_P}\]</span></p>
+<p>The continuum threshold is therefore determined by closure-rate matching rather than by the statement</p>
+<p><span class="math display">\[ T=T_P\]</span></p>
+<p>The conventional gravitational strong-coupling condition is</p>
+<p><span class="math display">\[\alpha_{G\mid\zeta}=\frac{G(k_BT)^2}{\hbar c^5}=\left(\frac{T}{T_P}\right)^2\]</span></p>
+<p>The count-resolution condition is</p>
+<p><span class="math display">\[\mathrm{Kn}_{\mathrm{R2D}}\sim1\]</span></p>
+<p>Their relationship is</p>
+<p><span class="math display">\[\left(\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\right)^2=\frac{16\pi^5g_\ast}{45}\frac{\alpha_{G\mid\zeta}}{\eta_c^2}\]</span></p>
+<p>They are therefore not the same condition.</p>
+<p>They coincide only when the physical closure architecture makes them coincide.</p>
+<p>This resolves an ambiguity left by the earlier cosmological ultraviolet analysis.</p>
+<!-- source_pdf_page: 2302 -->
+<p>The Planck scale cannot define the primitive boundary because it is already a dimensional physical read.</p>
+<p>But neither must it be irrelevant.</p>
+<p>If gravitational strong coupling and loss of closure-rate separation occur at the same recursive replacement, then Planck units may be the physical calibration of that transition.</p>
+<p>If count resolution fails first, the continuum ends before the Planck regime.</p>
+<p>If gravitational strong coupling occurs first, a strong-coupling physical regime remains possible while the continuum is still recursively resolved.</p>
+<p>The deciding quantity is not the dimensional scale itself.</p>
+<p>It is the rate hierarchy.</p>
+<p>More generally, if</p>
+<p><span class="math display">\[ H^2\propto A_\zeta^{-s}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ f_c\propto A^{-u_c}\]</span></p>
+<p>then</p>
+<p><span class="math display">\[\mathcal N_{\mathrm{cont}}^{(c)}\propto A^{s/2-u_c}\]</span></p>
+<p>The sign of</p>
+<p><span class="math display">\[\frac{s}{2}-u_c\]</span></p>
+<p>therefore determines whether recursive continuum resolution is lost, preserved, or strengthened toward the ultraviolet.</p>
+<p>The physical ultraviolet boundary is consequently not primitively “where space becomes small.”</p>
+<p>It is where the recurrence hierarchy required to make space appear continuous can no longer sustain that projection.</p>
+<p>The central statement is therefore:</p>
+<p>the physical ultraviolet boundary of a continuum cosmological projection is not primitively defined by a length, temperature, density, or Planck unit. It is reached when the subordinate closure rate that realizes the local physical state can no longer outrun the enclosing rate at which that state changes. The dimensionless control parameter is <span class="math inline">\(\mathrm{Kn}_{\mathrm{R2D}}^{(c)}\)</span>, the R2D analogue of a Knudsen number. Planck strong</p>
+<!-- source_pdf_page: 2303 -->
+<p>coupling is a separate dimensionless condition, and the two coincide only when the relevant subordinate &gt; recurrence calibration makes them coincide.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>closure-rate separation occurs before the cosmological ultraviolet scale.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="pagination-link" aria-label="Addendum 67 — Sparse Realization Occurs Before Continuum Singularity">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="pagination-link" aria-label="Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

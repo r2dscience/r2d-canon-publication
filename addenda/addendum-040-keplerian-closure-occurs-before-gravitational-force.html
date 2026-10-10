@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 40 — Keplerian Closure Occurs Before Gravitational Force – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" rel="next">
+<link href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-40-keplerian-closure-occurs-before-gravitational-force" id="toc-addendum-40-keplerian-closure-occurs-before-gravitational-force" class="nav-link active" data-scroll-target="#addendum-40-keplerian-closure-occurs-before-gravitational-force">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#return-from-the-general-gravitational-projection-to-the-readable-planetary-regime" id="toc-return-from-the-general-gravitational-projection-to-the-readable-planetary-regime" class="nav-link" data-scroll-target="#return-from-the-general-gravitational-projection-to-the-readable-planetary-regime">1. Return From the General Gravitational Projection to the Readable Planetary Regime</a></li>
+  <li><a href="#gravity-is-a-shared-relation-among-peers" id="toc-gravity-is-a-shared-relation-among-peers" class="nav-link" data-scroll-target="#gravity-is-a-shared-relation-among-peers">2. Gravity Is a Shared Relation Among Peers</a></li>
+  <li><a href="#the-relative-coordinate-belongs-to-the-peer-relation" id="toc-the-relative-coordinate-belongs-to-the-peer-relation" class="nav-link" data-scroll-target="#the-relative-coordinate-belongs-to-the-peer-relation">3. The Relative Coordinate Belongs to the Peer Relation</a></li>
+  <li><a href="#orbit-means-closure-before-it-means-force" id="toc-orbit-means-closure-before-it-means-force" class="nav-link" data-scroll-target="#orbit-means-closure-before-it-means-force">4. Orbit Means Closure Before It Means Force</a></li>
+  <li><a href="#kepler-supplies-three-independent-empirical-reads" id="toc-kepler-supplies-three-independent-empirical-reads" class="nav-link" data-scroll-target="#kepler-supplies-three-independent-empirical-reads">5. Kepler Supplies Three Independent Empirical Reads</a></li>
+  <li><a href="#kepler-i-defines-the-closure-geometry" id="toc-kepler-i-defines-the-closure-geometry" class="nav-link" data-scroll-target="#kepler-i-defines-the-closure-geometry">6. Kepler I Defines the Closure Geometry</a></li>
+  <li><a href="#kepler-ii-defines-areal-recurrence" id="toc-kepler-ii-defines-areal-recurrence" class="nav-link" data-scroll-target="#kepler-ii-defines-areal-recurrence">7. Kepler II Defines Areal Recurrence</a></li>
+  <li><a href="#jk-is-introduced-before-angular-momentum" id="toc-jk-is-introduced-before-angular-momentum" class="nav-link" data-scroll-target="#jk-is-introduced-before-angular-momentum">8. JK Is Introduced Before Angular Momentum</a></li>
+  <li><a href="#kepler-ii-fixes-the-direction-of-relative-motion-change" id="toc-kepler-ii-fixes-the-direction-of-relative-motion-change" class="nav-link" data-scroll-target="#kepler-ii-fixes-the-direction-of-relative-motion-change">9. Kepler II Fixes the Direction of Relative Motion Change</a></li>
+  <li><a href="#this-result-precedes-torque-language" id="toc-this-result-precedes-torque-language" class="nav-link" data-scroll-target="#this-result-precedes-torque-language">10. This Result Precedes Torque Language</a></li>
+  <li><a href="#kepler-i-fixes-the-radial-dependence" id="toc-kepler-i-fixes-the-radial-dependence" class="nav-link" data-scroll-target="#kepler-i-fixes-the-radial-dependence">11. Kepler I Fixes the Radial Dependence</a></li>
+  <li><a href="#express-the-recurrence-through-u" id="toc-express-the-recurrence-through-u" class="nav-link" data-scroll-target="#express-the-recurrence-through-u">12. Express the Recurrence Through u</a></li>
+  <li><a href="#differentiate-the-radial-motion" id="toc-differentiate-the-radial-motion" class="nav-link" data-scroll-target="#differentiate-the-radial-motion">13. Differentiate the Radial Motion</a></li>
+  <li><a href="#insert-the-closure-geometry" id="toc-insert-the-closure-geometry" class="nav-link" data-scroll-target="#insert-the-closure-geometry">14. Insert the Closure Geometry</a></li>
+  <li><a href="#the-inverse-square-relation-has-appeared-before-force" id="toc-the-inverse-square-relation-has-appeared-before-force" class="nav-link" data-scroll-target="#the-inverse-square-relation-has-appeared-before-force">15. The Inverse-Square Relation Has Appeared Before Force</a></li>
+  <li><a href="#the-meaning-of-acceleration-must-now-be-updated" id="toc-the-meaning-of-acceleration-must-now-be-updated" class="nav-link" data-scroll-target="#the-meaning-of-acceleration-must-now-be-updated">16. The Meaning of “Acceleration” Must Now Be Updated</a></li>
+  <li><a href="#keplerian-motion-is-a-common-mode-gravitational-realization" id="toc-keplerian-motion-is-a-common-mode-gravitational-realization" class="nav-link" data-scroll-target="#keplerian-motion-is-a-common-mode-gravitational-realization">17. Keplerian Motion Is a Common-Mode Gravitational Realization</a></li>
+  <li><a href="#the-test-body-mass-is-absent" id="toc-the-test-body-mass-is-absent" class="nav-link" data-scroll-target="#the-test-body-mass-is-absent">18. The Test-Body Mass Is Absent</a></li>
+  <li><a href="#this-is-the-weak-field-form-of-universality-of-free-fall" id="toc-this-is-the-weak-field-form-of-universality-of-free-fall" class="nav-link" data-scroll-target="#this-is-the-weak-field-form-of-universality-of-free-fall">19. This Is the Weak-Field Form of Universality of Free Fall</a></li>
+  <li><a href="#one-orbit-alone-does-not-yet-make-μg-a-boundary-calibration" id="toc-one-orbit-alone-does-not-yet-make-μg-a-boundary-calibration" class="nav-link" data-scroll-target="#one-orbit-alone-does-not-yet-make-μg-a-boundary-calibration">20. One Orbit Alone Does Not Yet Make μG a Boundary Calibration</a></li>
+  <li><a href="#evaluate-the-complete-areal-closure" id="toc-evaluate-the-complete-areal-closure" class="nav-link" data-scroll-target="#evaluate-the-complete-areal-closure">21. Evaluate the Complete Areal Closure</a></li>
+  <li><a href="#calculate-μg" id="toc-calculate-μg" class="nav-link" data-scroll-target="#calculate-μg">22. Calculate μG</a></li>
+  <li><a href="#kepler-iii-makes-μg-a-shared-gravitational-calibration" id="toc-kepler-iii-makes-μg-a-shared-gravitational-calibration" class="nav-link" data-scroll-target="#kepler-iii-makes-μg-a-shared-gravitational-calibration">23. Kepler III Makes μG a Shared Gravitational Calibration</a></li>
+  <li><a href="#keplers-three-laws-now-form-one-structure" id="toc-keplers-three-laws-now-form-one-structure" class="nav-link" data-scroll-target="#keplers-three-laws-now-form-one-structure">24. Kepler’s Three Laws Now Form One Structure</a></li>
+  <li><a href="#kepler-iii-identifies-the-shared-boundary-not-a-primitive-constant-of-nature" id="toc-kepler-iii-identifies-the-shared-boundary-not-a-primitive-constant-of-nature" class="nav-link" data-scroll-target="#kepler-iii-identifies-the-shared-boundary-not-a-primitive-constant-of-nature">25. Kepler III Identifies the Shared Boundary, Not a Primitive Constant of Nature</a></li>
+  <li><a href="#the-exact-two-body-problem-strengthens-the-boundary-interpretation" id="toc-the-exact-two-body-problem-strengthens-the-boundary-interpretation" class="nav-link" data-scroll-target="#the-exact-two-body-problem-strengthens-the-boundary-interpretation">26. The Exact Two-Body Problem Strengthens the Boundary Interpretation</a></li>
+  <li><a href="#source-mass-and-gravitational-calibration-are-later-decompositions" id="toc-source-mass-and-gravitational-calibration-are-later-decompositions" class="nav-link" data-scroll-target="#source-mass-and-gravitational-calibration-are-later-decompositions">27. Source Mass and Gravitational Calibration Are Later Decompositions</a></li>
+  <li><a href="#g-does-not-need-to-be-derived-here" id="toc-g-does-not-need-to-be-derived-here" class="nav-link" data-scroll-target="#g-does-not-need-to-be-derived-here">28. G Does Not Need to Be Derived Here</a></li>
+  <li><a href="#newtonian-gravitational-force-comes-later" id="toc-newtonian-gravitational-force-comes-later" class="nav-link" data-scroll-target="#newtonian-gravitational-force-comes-later">29. Newtonian Gravitational Force Comes Later</a></li>
+  <li><a href="#the-newtonian-force-is-a-mechanical-projection-not-local-proper-acceleration" id="toc-the-newtonian-force-is-a-mechanical-projection-not-local-proper-acceleration" class="nav-link" data-scroll-target="#the-newtonian-force-is-a-mechanical-projection-not-local-proper-acceleration">30. The Newtonian Force Is a Mechanical Projection, Not Local Proper Acceleration</a></li>
+  <li><a href="#the-exact-two-body-force-uses-the-reduced-mass-projection" id="toc-the-exact-two-body-force-uses-the-reduced-mass-projection" class="nav-link" data-scroll-target="#the-exact-two-body-force-uses-the-reduced-mass-projection">31. The Exact Two-Body Force Uses the Reduced-Mass Projection</a></li>
+  <li><a href="#the-dynamic-swept-area-is-not-the-enclosing-gravitational-area" id="toc-the-dynamic-swept-area-is-not-the-enclosing-gravitational-area" class="nav-link" data-scroll-target="#the-dynamic-swept-area-is-not-the-enclosing-gravitational-area">32. The Dynamic Swept Area Is Not the Enclosing Gravitational Area</a></li>
+  <li><a href="#kepler-nevertheless-supplies-the-bridge-to-area-before-radius" id="toc-kepler-nevertheless-supplies-the-bridge-to-area-before-radius" class="nav-link" data-scroll-target="#kepler-nevertheless-supplies-the-bridge-to-area-before-radius">33. Kepler Nevertheless Supplies the Bridge to Area Before Radius</a></li>
+  <li><a href="#spherical-isotropy-is-an-additional-physical-mapping" id="toc-spherical-isotropy-is-an-additional-physical-mapping" class="nav-link" data-scroll-target="#spherical-isotropy-is-an-additional-physical-mapping">34. Spherical Isotropy Is an Additional Physical Mapping</a></li>
+  <li><a href="#keplerian-closure-is-the-readable-weak-field-side-of-the-gravitational-boundary" id="toc-keplerian-closure-is-the-readable-weak-field-side-of-the-gravitational-boundary" class="nav-link" data-scroll-target="#keplerian-closure-is-the-readable-weak-field-side-of-the-gravitational-boundary">35. Keplerian Closure Is the Readable Weak-Field Side of the Gravitational Boundary</a></li>
+  <li><a href="#gravitational-closure-is-not-second-law-closure" id="toc-gravitational-closure-is-not-second-law-closure" class="nav-link" data-scroll-target="#gravitational-closure-is-not-second-law-closure">36. Gravitational Closure Is Not Second-Law Closure</a></li>
+  <li><a href="#kepler-provides-an-independent-weak-field-check-on-the-foundation" id="toc-kepler-provides-an-independent-weak-field-check-on-the-foundation" class="nav-link" data-scroll-target="#kepler-provides-an-independent-weak-field-check-on-the-foundation">37. Kepler Provides an Independent Weak-Field Check on the Foundation</a></li>
+  <li><a href="#principle-shared-gravitational-boundary" id="toc-principle-shared-gravitational-boundary" class="nav-link" data-scroll-target="#principle-shared-gravitational-boundary">38. Principle — Shared Gravitational Boundary</a></li>
+  <li><a href="#theorem-keplerian-closure-implies-inverse-square-relative-acceleration" id="toc-theorem-keplerian-closure-implies-inverse-square-relative-acceleration" class="nav-link" data-scroll-target="#theorem-keplerian-closure-implies-inverse-square-relative-acceleration">39. Theorem — Keplerian Closure Implies Inverse-Square Relative Acceleration</a></li>
+  <li><a href="#corollary-kepler-iii-defines-the-shared-closure-calibration" id="toc-corollary-kepler-iii-defines-the-shared-closure-calibration" class="nav-link" data-scroll-target="#corollary-kepler-iii-defines-the-shared-closure-calibration">40. Corollary — Kepler III Defines the Shared Closure Calibration</a></li>
+  <li><a href="#corollary-test-mass-is-downstream-of-free-fall" id="toc-corollary-test-mass-is-downstream-of-free-fall" class="nav-link" data-scroll-target="#corollary-test-mass-is-downstream-of-free-fall">41. Corollary — Test Mass Is Downstream of Free Fall</a></li>
+  <li><a href="#corollary-newtonian-gm-is-a-projection-of-the-shared-calibration" id="toc-corollary-newtonian-gm-is-a-projection-of-the-shared-calibration" class="nav-link" data-scroll-target="#corollary-newtonian-gm-is-a-projection-of-the-shared-calibration">42. Corollary — Newtonian GM Is a Projection of the Shared Calibration</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">43. Logical Status</a></li>
+  <li><a href="#the-central-r²d-inversion" id="toc-the-central-r²d-inversion" class="nav-link" data-scroll-target="#the-central-r²d-inversion">44. The Central R²D Inversion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">45. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></h1>
+<p class="subtitle lead">Areal Recurrence, Free-Fall Acceleration, and the Shared Gravitational Boundary</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-40-keplerian-closure-occurs-before-gravitational-force" class="level1">
+<h1>Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Newtonian gravity is conventionally introduced through the force law</p>
+<p><span class="math display">\[\mathbf F=-\frac{GMm}{r^3}\mathbf r.\]</span></p>
+<p>The resulting equations of motion then produce the orbital relations discovered empirically by Kepler.</p>
+<p>Recursively Realized Distinguishability (R²D) permits the opposite explanatory order.</p>
+<p>Addenda 35–39 established the relativistic and gravitational reference architecture before returning to the planetary limit.</p>
+<p>Addendum 35 showed that motion is defined relative to an enclosing rapidity reference rather than owned intrinsically by the moving boundary.</p>
+<p>Addendum 37 showed that free fall is zero differential proper acceleration relative to the immediate gravitational background even while motion relative to a larger reference changes.</p>
+<p>Addendum 38 identified differential free-fall motion across neighboring peers as the observable precursor to curvature.</p>
+<p>Addendum 39 then obtained the Einstein equation as the minimal covariant compatibility relation within the specified metric projection class.</p>
+<p>The planetary problem occupies a simpler readability regime. Orbital geometry, recurrence, and scale are simultaneously observable. Kepler’s laws therefore provide a direct empirical window into the weak-field gravitational closure before force, field, potential, or curved spacetime need be introduced.</p>
+<p>For a bound planar orbit, Kepler I supplies the closure geometry</p>
+<p><span class="math display">\[r(\theta)=\frac{p}{1+e\cos\theta},\]</span></p>
+<p>while Kepler II supplies constant areal recurrence,</p>
+<p><span class="math display">\[\frac{dA_K}{dt}=\text{constant}.\]</span></p>
+<!-- source_pdf_page: 1387 -->
+<p>Define</p>
+<p><span class="math display">\[J_K\equiv r^2\dot\theta=2\frac{dA_K}{dt}.\]</span></p>
+<p>Kepler II gives</p>
+<p><span class="math display">\[J_K=\text{constant}.\]</span></p>
+<p>This removes the transverse component of the relative coordinate acceleration.</p>
+<p>Writing</p>
+<p><span class="math display">\[u(\theta)=\frac1r,\]</span></p>
+<p>the Kepler ellipse satisfies</p>
+<p><span class="math display">\[u''+u=\frac1p.\]</span></p>
+<p>Combining this closure geometry with constant areal recurrence gives</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3},\]</span></p>
+<p>where</p>
+<p><span class="math display">\[\mu_G=\frac{J_K^2}{p}.\]</span></p>
+<p>Thus the inverse-square relative acceleration law is already contained in elliptical closure plus areal recurrence.</p>
+<p>No gravitational force law has been assumed.</p>
+<p>Kepler III then gives</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2},\]</span></p>
+<p>showing that μG is shared by a family of orbital closures belonging to the same gravitational relation.</p>
+<p>The orbiting body’s mass does not appear.</p>
+<p>The gravitational relation therefore organizes the free-fall motion before local mass is used to construct a Newtonian force coordinate.</p>
+<!-- source_pdf_page: 1388 -->
+<p>Within the new R²D architecture, the quantity</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}\]</span></p>
+<p>must be interpreted carefully. It is not the locally measured proper acceleration of a freely falling planet. The planet can satisfy</p>
+<p><span class="math display">\[a^{\mathrm{prop}}=0\]</span></p>
+<p>while its relative position changes according to the Keplerian coordinate law above.</p>
+<p>The Newtonian force equation is therefore a later mechanical representation of that already-existing shared free-fall relation.</p>
+<p>In the dominant-source limit,</p>
+<p><span class="math display">\[\mu_G=GM,\]</span></p>
+<p>and the Newtonian test-body force becomes</p>
+<p><span class="math display">\[\mathbf F_N=-\frac{GMm}{r^3}\mathbf r.\]</span></p>
+<p>For the exact two-body problem,</p>
+<p><span class="math display">\[\mu_G=G(m_1+m_2),\]</span></p>
+<p>which makes the shared-boundary character still clearer.</p>
+<p>The central result is therefore:</p>
+<blockquote class="blockquote">
+<p>Keplerian closure occurs before gravitational force.</p>
+</blockquote>
+</section>
+<section id="return-from-the-general-gravitational-projection-to-the-readable-planetary-regime" class="level2">
+<h2 class="anchored" data-anchor-id="return-from-the-general-gravitational-projection-to-the-readable-planetary-regime">1. Return From the General Gravitational Projection to the Readable Planetary Regime</h2>
+<p>Addenda 35–39 moved from reference ownership to Lorentz geometry, free fall, tidal distinguishability, curvature, and finally Einstein compatibility.</p>
+<p>Those results establish the general architecture.</p>
+<p>The present addendum now asks a simpler empirical question:</p>
+<p>What gravitational relation is already readable in a weak-field bound orbit before the full geometric projection is required?</p>
+<!-- source_pdf_page: 1389 -->
+<p>A planetary system provides an unusually transparent regime because three things are simultaneously measurable:</p>
+<blockquote class="blockquote">
+<p>• closure geometry; • recurrence; • scale.</p>
+</blockquote>
+<p>This makes Keplerian motion an ideal R²D readability window.</p>
+</section>
+<section id="gravity-is-a-shared-relation-among-peers" class="level2">
+<h2 class="anchored" data-anchor-id="gravity-is-a-shared-relation-among-peers">2. Gravity Is a Shared Relation Among Peers</h2>
+<p>Gravity differs from a local applied constraint.</p>
+<p>An applied constraint can act specifically on one selected boundary.</p>
+<p>A gravitationally bound system instead contains multiple peer boundaries participating in one larger relation.</p>
+<p>Let</p>
+<p><span class="math display">\[B_1,\qquad B_2\]</span></p>
+<p>be two gravitationally related local boundaries.</p>
+<p>Let</p>
+<p><span class="math display">\[B_G\]</span></p>
+<p>denote their shared gravitational boundary.</p>
+<p>Then schematically,</p>
+<p><span class="math display">\[B_1,B_2\subset B_G.\]</span></p>
+<p>The gravitational relation belongs first to</p>
+<p><span class="math display">\[B_G,\]</span></p>
+<p>not independently to either peer considered in isolation.</p>
+</section>
+<section id="the-relative-coordinate-belongs-to-the-peer-relation" class="level2">
+<h2 class="anchored" data-anchor-id="the-relative-coordinate-belongs-to-the-peer-relation">3. The Relative Coordinate Belongs to the Peer Relation</h2>
+<p>Define the relative separation</p>
+<p><span class="math display">\[\mathbf r=\mathbf x_2-\mathbf x_1.\]</span></p>
+<!-- source_pdf_page: 1390 -->
+<p>Its magnitude is</p>
+<p><span class="math display">\[r=|\mathbf r|.\]</span></p>
+<p>This coordinate does not belong primitively to either peer.</p>
+<p>It belongs to their relation.</p>
+<p>Thus:</p>
+<p><span class="math display">\[\mathbf r=\mathbf r[B_1,B_2\mid B_G].\]</span></p>
+<p>The gravitational orbit is therefore already a cross-boundary physical read.</p>
+</section>
+<section id="orbit-means-closure-before-it-means-force" class="level2">
+<h2 class="anchored" data-anchor-id="orbit-means-closure-before-it-means-force">4. Orbit Means Closure Before It Means Force</h2>
+<p>A planetary orbit is conventionally represented as a trajectory</p>
+<p><span class="math display">\[\mathbf r(t).\]</span></p>
+<p>That representation is physically successful.</p>
+<p>But the prior empirical distinction is simpler:</p>
+<blockquote class="blockquote">
+<p>the relation closes.</p>
+</blockquote>
+<p>The relative configuration returns.</p>
+<p>Its geometry recurs.</p>
+<p>Its recurrence interval is measurable.</p>
+<p>Thus an orbit is first a macroscopically readable gravitational closure.</p>
+</section>
+<section id="kepler-supplies-three-independent-empirical-reads" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-supplies-three-independent-empirical-reads">5. Kepler Supplies Three Independent Empirical Reads</h2>
+<p>Kepler’s three laws describe three aspects of this closure.</p>
+<p>Kepler I — Geometry</p>
+<p>The bound relative orbit is elliptical.</p>
+<!-- source_pdf_page: 1391 -->
+<p>Kepler II — Areal recurrence</p>
+<p>Equal areas are swept in equal times.</p>
+<p>Kepler III — Scale-recurrence relation</p>
+<p>For closures governed by the same gravitational relation,</p>
+<p><span class="math display">\[T^2\propto a^3.\]</span></p>
+<p>These are empirical physical inputs.</p>
+<p>The present addendum asks what follows mathematically from them before gravitational force is introduced.</p>
+</section>
+<section id="kepler-i-defines-the-closure-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-i-defines-the-closure-geometry">6. Kepler I Defines the Closure Geometry</h2>
+<p>Let the semimajor axis be</p>
+<p><span class="math display">\[a,\]</span></p>
+<p>the semiminor axis</p>
+<p><span class="math display">\[b,\]</span></p>
+<p>and eccentricity</p>
+<p><span class="math display">\[e.\]</span></p>
+<p>Define the semilatus rectum</p>
+<p><span class="math display">\[p=a(1-e^2).\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[p=\frac{b^2}{a}.\]</span></p>
+<p>Using polar coordinates centered on one focus,</p>
+<p><span class="math display">\[r(\theta)=\frac{p}{1+e\cos\theta}.\]</span></p>
+<p>This is a geometric read of bound closure.</p>
+<p>It is not yet a force law.</p>
+<!-- source_pdf_page: 1392 -->
+</section>
+<section id="kepler-ii-defines-areal-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-ii-defines-areal-recurrence">7. Kepler II Defines Areal Recurrence</h2>
+<p>For angular increment</p>
+<p><span class="math display">\[d\theta,\]</span></p>
+<p>the relative radius vector sweeps area</p>
+<p><span class="math display">\[dA_K=\frac12r^2\,d\theta.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{dA_K}{dt}=\frac12r^2\dot\theta.\]</span></p>
+<p>Kepler II requires this quantity to remain constant.</p>
+<p>Define</p>
+<p><span class="math display">\[J_K\equiv r^2\dot\theta=2\frac{dA_K}{dt}.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[J_K=\text{constant}.\]</span></p>
+</section>
+<section id="jk-is-introduced-before-angular-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="jk-is-introduced-before-angular-momentum">8. JK Is Introduced Before Angular Momentum</h2>
+<p>Conventional mechanics calls</p>
+<p><span class="math display">\[r^2\dot\theta\]</span></p>
+<p>specific angular momentum.</p>
+<p>That interpretation is valid after the mechanical coordinates have been assigned.</p>
+<p>R²D begins earlier.</p>
+<p>Here,</p>
+<p><span class="math display">\[J_K\]</span></p>
+<p>is first the recurrence-weighted areal coordinate of the gravitational closure.</p>
+<p>Only later may a mass calibration produce an angular momentum coordinate.</p>
+<!-- source_pdf_page: 1393 -->
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>areal recurrence → angular-momentum read.</p>
+</blockquote>
+</section>
+<section id="kepler-ii-fixes-the-direction-of-relative-motion-change" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-ii-fixes-the-direction-of-relative-motion-change">9. Kepler II Fixes the Direction of Relative Motion Change</h2>
+<p>In plane polar coordinates,</p>
+<p><span class="math display">\[\mathbf a_{\mathrm{rel}}=a_r\hat{\mathbf r}+a_\theta\hat{\boldsymbol\theta}.\]</span></p>
+<p>where</p>
+<p><span class="math display">\[a_\theta=r\ddot\theta+2\dot r\dot\theta.\]</span></p>
+<p>Differentiate</p>
+<p><span class="math display">\[J_K=r^2\dot\theta.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{dJ_K}{dt}=2r\dot r\dot\theta+r^2\ddot\theta.\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[J_K=\text{constant},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[2\dot r\dot\theta+r\ddot\theta=0.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[a_\theta=0.\]</span></p>
+<p>The relative coordinate acceleration is radial.</p>
+</section>
+<section id="this-result-precedes-torque-language" class="level2">
+<h2 class="anchored" data-anchor-id="this-result-precedes-torque-language">10. This Result Precedes Torque Language</h2>
+<p>Within Newtonian mechanics,</p>
+<p><span class="math display">\[a_\theta=0\]</span></p>
+<p>is usually expressed as zero torque.</p>
+<p>That is a correct later description.</p>
+<!-- source_pdf_page: 1394 -->
+<p>But the empirical ordering is:</p>
+<p><span class="math display">\[\dot A_K=\text{constant}\longrightarrow a_\theta=0.\]</span></p>
+<p>Only after force and momentum coordinates are assigned does one write</p>
+<p><span class="math display">\[\mathbf r\times\mathbf F=0.\]</span></p>
+<p>Thus the central character of the weak-field gravitational relation is already encoded in orbital closure before gravitational force is invoked.</p>
+</section>
+<section id="kepler-i-fixes-the-radial-dependence" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-i-fixes-the-radial-dependence">11. Kepler I Fixes the Radial Dependence</h2>
+<p>Define</p>
+<p><span class="math display">\[u(\theta)=\frac1r.\]</span></p>
+<p>From the elliptical relation,</p>
+<p><span class="math display">\[u=\frac{1+e\cos\theta}{p}.\]</span></p>
+<p>Differentiate with respect to θ :</p>
+<p><span class="math display">\[u'=-\frac{e\sin\theta}{p}.\]</span></p>
+<p>Differentiate again:</p>
+<p><span class="math display">\[u''=-\frac{e\cos\theta}{p}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[u''+u=\frac1p.\]</span></p>
+<p>This is the differential form of the elliptical closure geometry.</p>
+</section>
+<section id="express-the-recurrence-through-u" class="level2">
+<h2 class="anchored" data-anchor-id="express-the-recurrence-through-u">12. Express the Recurrence Through u</h2>
+<p>Because</p>
+<p><span class="math display">\[J_K=r^2\dot\theta\]</span></p>
+<!-- source_pdf_page: 1395 -->
+<p>and</p>
+<p><span class="math display">\[r=\frac1u,\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\dot\theta=J_Ku^2.\]</span></p>
+<p>Also,</p>
+<p><span class="math display">\[\dot r=\frac{dr}{d\theta}\dot\theta.\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[r=\frac1u,\]</span></p>
+<p><span class="math display">\[\frac{dr}{d\theta}=-\frac{u'}{u^2}.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[\dot r=-J_Ku'.\]</span></p>
+</section>
+<section id="differentiate-the-radial-motion" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-the-radial-motion">13. Differentiate the Radial Motion</h2>
+<p>Since JK is constant,</p>
+<p><span class="math display">\[\ddot r=-J_Ku''\dot\theta.\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[\dot\theta=J_Ku^2,\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\ddot r=-J_K^2u^2u''.\]</span></p>
+<p>The radial coordinate acceleration is</p>
+<p><span class="math display">\[a_r=\ddot r-r\dot\theta^2.\]</span></p>
+<p>But</p>
+<p><span class="math display">\[r\dot\theta^2=\frac1u(J_K^2u^4)=J_K^2u^3.\]</span></p>
+<p>Thus,</p>
+<!-- source_pdf_page: 1396 -->
+<p><span class="math display">\[a_r=-J_K^2u^2(u''+u).\]</span></p>
+</section>
+<section id="insert-the-closure-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="insert-the-closure-geometry">14. Insert the Closure Geometry</h2>
+<p>Kepler I gave</p>
+<p><span class="math display">\[u''+u=\frac1p.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[a_r=-\frac{J_K^2}{p}u^2.\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[u=\frac1r,\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[a_r=-\frac{J_K^2}{p\,r^2}.\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[\mu_G\equiv\frac{J_K^2}{p}.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[a_r=-\frac{\mu_G}{r^2}.\]</span></p>
+<p>In vector form,</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+</section>
+<section id="the-inverse-square-relation-has-appeared-before-force" class="level2">
+<h2 class="anchored" data-anchor-id="the-inverse-square-relation-has-appeared-before-force">15. The Inverse-Square Relation Has Appeared Before Force</h2>
+<p>The result follows from only:</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li>elliptical closure;</li>
+<li>constant areal recurrence.</li>
+</ol>
+</blockquote>
+<!-- source_pdf_page: 1397 -->
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Kepler I + Kepler II ⇒ inverse-square relative acceleration.</p>
+</blockquote>
+<p>No assumption has been made that</p>
+<p><span class="math display">\[F\propto\frac1{r^2}.\]</span></p>
+<p>No gravitational potential has been introduced.</p>
+<p>No gravitational field ontology has been assumed.</p>
+<p>No curved metric has been required.</p>
+</section>
+<section id="the-meaning-of-acceleration-must-now-be-updated" class="level2">
+<h2 class="anchored" data-anchor-id="the-meaning-of-acceleration-must-now-be-updated">16. The Meaning of “Acceleration” Must Now Be Updated</h2>
+<p>The quantity</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}\]</span></p>
+<p>is a coordinate acceleration of the relative peer relation.</p>
+<p>It is not the locally measured proper acceleration of either freely falling body.</p>
+<p>Addendum 37 established that a freely falling local boundary can satisfy</p>
+<p><span class="math display">\[a^{\mathrm{prop}}=0\]</span></p>
+<p>while its motion relative to a larger enclosing reference changes.</p>
+<p>Therefore the Keplerian relation should be read as</p>
+<blockquote class="blockquote">
+<p>free-fall relative coordinate acceleration,</p>
+</blockquote>
+<p>not as evidence for a primitive local force pushing or pulling the orbiting body.</p>
+</section>
+<section id="keplerian-motion-is-a-common-mode-gravitational-realization" class="level2">
+<h2 class="anchored" data-anchor-id="keplerian-motion-is-a-common-mode-gravitational-realization">17. Keplerian Motion Is a Common-Mode Gravitational Realization</h2>
+<p>In the weak-field planetary regime, the freely falling peers participate in the shared gravitational reference relation.</p>
+<p>Their local support acceleration vanishes.</p>
+<!-- source_pdf_page: 1398 -->
+<p>Yet their relative separation evolves.</p>
+<p>Thus the Keplerian law</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}\]</span></p>
+<p>is the weak-field coordinate read of an enclosing gravitational relation of the type developed in Addendum 37.</p>
+<p>The law describes how the peer relation evolves.</p>
+<p>It does not require local nonzero proper acceleration.</p>
+</section>
+<section id="the-test-body-mass-is-absent" class="level2">
+<h2 class="anchored" data-anchor-id="the-test-body-mass-is-absent">18. The Test-Body Mass Is Absent</h2>
+<p>The derived relation is</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+<p>No test-body mass appears.</p>
+<p>This is not an accidental cancellation after writing a force law.</p>
+<p>The mass was never needed to derive the free-fall relation.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>shared gravitational closure → common free-fall relation</p>
+</blockquote>
+<p>occurs before the local mass coupling is used in a mechanical force coordinate.</p>
+</section>
+<section id="this-is-the-weak-field-form-of-universality-of-free-fall" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-weak-field-form-of-universality-of-free-fall">19. This Is the Weak-Field Form of Universality of Free Fall</h2>
+<p>Different sufficiently small test boundaries placed into the same weak gravitational relation satisfy the same coordinate free-fall law.</p>
+<p>Their different local masses do not determine</p>
+<p><span class="math display">\[\mu_G.\]</span></p>
+<p>Mass enters when one asks for a mechanically calibrated force or momentum read.</p>
+<!-- source_pdf_page: 1399 -->
+<p>The free-fall reference relation itself comes first.</p>
+<p>This is precisely the boundary architecture established in Addendum 37.</p>
+</section>
+<section id="one-orbit-alone-does-not-yet-make-μg-a-boundary-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="one-orbit-alone-does-not-yet-make-μg-a-boundary-calibration">20. One Orbit Alone Does Not Yet Make μG a Boundary Calibration</h2>
+<p>From one ellipse,</p>
+<p><span class="math display">\[\mu_G=\frac{J_K^2}{p}.\]</span></p>
+<p>This could initially appear to be a parameter specific to that single closure.</p>
+<p>Kepler III resolves the ambiguity.</p>
+</section>
+<section id="evaluate-the-complete-areal-closure" class="level2">
+<h2 class="anchored" data-anchor-id="evaluate-the-complete-areal-closure">21. Evaluate the Complete Areal Closure</h2>
+<p>The area of an ellipse is</p>
+<p><span class="math display">\[A_{\mathrm{ellipse}}=\pi ab.\]</span></p>
+<p>One complete orbital recurrence sweeps this full area during period T .</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{dA_K}{dt}=\frac{\pi ab}{T}.\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[J_K=2\frac{dA_K}{dt},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[J_K=\frac{2\pi ab}{T}.\]</span></p>
+</section>
+<section id="calculate-μg" class="level2">
+<h2 class="anchored" data-anchor-id="calculate-μg">22. Calculate μG</h2>
+<p>Recall</p>
+<p><span class="math display">\[p=\frac{b^2}{a}.\]</span></p>
+<!-- source_pdf_page: 1400 -->
+<p>Then</p>
+<p><span class="math display">\[\mu_G=\frac{J_K^2}{p}.\]</span></p>
+<p>Substitute</p>
+<p><span class="math display">\[J_K=\frac{2\pi ab}{T}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^2b^2}{T^2}\frac a{b^2}.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2}.\]</span></p>
+</section>
+<section id="kepler-iii-makes-μg-a-shared-gravitational-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-iii-makes-μg-a-shared-gravitational-calibration">23. Kepler III Makes μG a Shared Gravitational Calibration</h2>
+<p>Kepler III states</p>
+<p><span class="math display">\[\frac{T^2}{a^3}=\text{constant}\]</span></p>
+<p>for orbital closures belonging to the same dominant gravitational system.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2}=\text{constant}.\]</span></p>
+<p>across those closures.</p>
+<p>The coefficient is not determined by:</p>
+<blockquote class="blockquote">
+<p>• eccentricity; • instantaneous position; • test-body mass.</p>
+</blockquote>
+<p>It characterizes the shared gravitational relation.</p>
+<!-- source_pdf_page: 1401 -->
+</section>
+<section id="keplers-three-laws-now-form-one-structure" class="level2">
+<h2 class="anchored" data-anchor-id="keplers-three-laws-now-form-one-structure">24. Kepler’s Three Laws Now Form One Structure</h2>
+<p>The three laws can therefore be reorganized:</p>
+<p>Kepler I</p>
+<p><span class="math display">\[u''+u=\frac1p.\]</span></p>
+<p>Closure geometry.</p>
+<p>Kepler II</p>
+<p><span class="math display">\[J_K=r^2\dot\theta=\text{constant}.\]</span></p>
+<p>Areal recurrence.</p>
+<p>Kepler I + II</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+<p>Relative free-fall law.</p>
+<p>Kepler III</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2}.\]</span></p>
+<p>Shared gravitational calibration.</p>
+<p>Thus the three empirical laws reduce to one coherent gravitational closure relation.</p>
+</section>
+<section id="kepler-iii-identifies-the-shared-boundary-not-a-primitive-constant-of-nature" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-iii-identifies-the-shared-boundary-not-a-primitive-constant-of-nature">25. Kepler III Identifies the Shared Boundary, Not a Primitive Constant of Nature</h2>
+<p>The quantity</p>
+<p><span class="math display">\[\mu_G\]</span></p>
+<p>has dimensions</p>
+<p><span class="math display">\[[\mu_G]=\frac{L^3}{T^2}.\]</span></p>
+<p>Kepler’s observations determine this product-level physical calibration directly.</p>
+<!-- source_pdf_page: 1402 -->
+<p>They do not separately determine:</p>
+<p><span class="math display">\[G\]</span></p>
+<p>and</p>
+<p><span class="math display">\[M.\]</span></p>
+<p>Therefore R²D should not split</p>
+<p><span class="math display">\[\mu_G\]</span></p>
+<p>prematurely.</p>
+<p>The directly observed relation is the shared boundary calibration.</p>
+</section>
+<section id="the-exact-two-body-problem-strengthens-the-boundary-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="the-exact-two-body-problem-strengthens-the-boundary-interpretation">26. The Exact Two-Body Problem Strengthens the Boundary Interpretation</h2>
+<p>In the exact Newtonian two-body problem,</p>
+<p><span class="math display">\[\mu_G=G(m_1+m_2).\]</span></p>
+<p>The relative separation satisfies</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-G(m_1+m_2)\frac{\mathbf r}{r^3}.\]</span></p>
+<p>Thus the coefficient belongs naturally to the pair relation.</p>
+<p>Only in the limit</p>
+<p><span class="math display">\[m_2\ll m_1\]</span></p>
+<p>does it reduce to</p>
+<p><span class="math display">\[\mu_G\simeq Gm_1.\]</span></p>
+<p>The familiar central-source interpretation is therefore a limiting read of a more symmetric shared-boundary relation.</p>
+<!-- source_pdf_page: 1403 -->
+</section>
+<section id="source-mass-and-gravitational-calibration-are-later-decompositions" class="level2">
+<h2 class="anchored" data-anchor-id="source-mass-and-gravitational-calibration-are-later-decompositions">27. Source Mass and Gravitational Calibration Are Later Decompositions</h2>
+<p>Once physical source mass is assigned, one may write in the dominant-source regime</p>
+<p><span class="math display">\[\mu_G=GM.\]</span></p>
+<p>Here:</p>
+<p><span class="math display">\[M\]</span></p>
+<p>is the orientation-even source mass read established by the local boundary architecture, while</p>
+<p><span class="math display">\[G\]</span></p>
+<p>is the dimensional gravitational calibration of the mature physical projection.</p>
+<p>Keplerian orbital data determine their product.</p>
+<p>The decomposition itself requires additional physical information.</p>
+</section>
+<section id="g-does-not-need-to-be-derived-here" class="level2">
+<h2 class="anchored" data-anchor-id="g-does-not-need-to-be-derived-here">28. G Does Not Need to Be Derived Here</h2>
+<p>The present addendum does not attempt to derive the numerical value or primitive count origin of</p>
+<p><span class="math display">\[G.\]</span></p>
+<p>That problem belongs to the later gravitational-calibration program.</p>
+<p>The only relation needed here is:</p>
+<p><span class="math display">\[\mu_G\overset{\mathrm{calibration}}{=}GM.\]</span></p>
+<p>within the Newtonian dominant-source projection.</p>
+<p>This keeps Keplerian closure independent of speculative cross-boundary recurrence scaling.</p>
+</section>
+<section id="newtonian-gravitational-force-comes-later" class="level2">
+<h2 class="anchored" data-anchor-id="newtonian-gravitational-force-comes-later">29. Newtonian Gravitational Force Comes Later</h2>
+<p>In the test-body Newtonian limit,</p>
+<p><span class="math display">\[p=mv,\]</span></p>
+<!-- source_pdf_page: 1404 -->
+<p>so the mechanical relation</p>
+<p><span class="math display">\[F=\frac{dp}{dt}\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[\mathbf F_N=m\frac{d^2\mathbf r}{dt^2}.\]</span></p>
+<p>Substitute the Kepler-derived free-fall relation:</p>
+<p><span class="math display">\[\mathbf F_N=-m\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+<p>After</p>
+<p><span class="math display">\[\mu_G=GM,\]</span></p>
+<p>this becomes</p>
+<p><span class="math display">\[\mathbf F_N=-\frac{GMm}{r^3}\mathbf r.\]</span></p>
+<p>Newton’s gravitational force law has therefore been recovered after the orbital relation.</p>
+</section>
+<section id="the-newtonian-force-is-a-mechanical-projection-not-local-proper-acceleration" class="level2">
+<h2 class="anchored" data-anchor-id="the-newtonian-force-is-a-mechanical-projection-not-local-proper-acceleration">30. The Newtonian Force Is a Mechanical Projection, Not Local Proper Acceleration</h2>
+<p>The equation</p>
+<p><span class="math display">\[F_N=ma\]</span></p>
+<p>is valid within the Newtonian coordinate representation.</p>
+<p>But it must not be confused with the accelerometer read of Addendum 37.</p>
+<p>For gravitational free fall,</p>
+<p><span class="math display">\[a^{\mathrm{prop}}=0.\]</span></p>
+<p>The quantity</p>
+<p><span class="math display">\[\mathbf a=\frac{d^2\mathbf r}{dt^2}\]</span></p>
+<p>is the changing coordinate relation among freely falling peers.</p>
+<!-- source_pdf_page: 1405 -->
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Newtonian gravitational force = mechanical representation of a shared free-fall relation.</p>
+</blockquote>
+<p>It is not evidence that a freely falling body experiences a local support-like force.</p>
+</section>
+<section id="the-exact-two-body-force-uses-the-reduced-mass-projection" class="level2">
+<h2 class="anchored" data-anchor-id="the-exact-two-body-force-uses-the-reduced-mass-projection">31. The Exact Two-Body Force Uses the Reduced-Mass Projection</h2>
+<p>For two comparable masses, define the reduced mass</p>
+<p><span class="math display">\[m_r=\frac{m_1m_2}{m_1+m_2}.\]</span></p>
+<p>The relative coordinate then admits the Newtonian mechanical representation</p>
+<p><span class="math display">\[\mathbf F_{\mathrm{rel}}=m_r\frac{d^2\mathbf r}{dt^2}.\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[\mu_G=G(m_1+m_2),\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[\mathbf F_{\mathrm{rel}}=-\frac{Gm_1m_2}{r^3}\mathbf r.\]</span></p>
+<p>This again shows that the force representation is constructed from the already-existing shared relative dynamics.</p>
+</section>
+<section id="the-dynamic-swept-area-is-not-the-enclosing-gravitational-area" class="level2">
+<h2 class="anchored" data-anchor-id="the-dynamic-swept-area-is-not-the-enclosing-gravitational-area">32. The Dynamic Swept Area Is Not the Enclosing Gravitational Area</h2>
+<p>Two different areas now appear.</p>
+<p>The first is the orbital swept area</p>
+<p><span class="math display">\[A_K.\]</span></p>
+<p>Its recurrence satisfies</p>
+<p><span class="math display">\[\frac{dA_K}{dt}=\text{constant}.\]</span></p>
+<p>This is a dynamic coordinate of orbital closure.</p>
+<p>A different quantity is the enclosing gravitational area</p>
+<!-- source_pdf_page: 1406 -->
+<p><span class="math display">\[\mathcal A_G\]</span></p>
+<p>that will be used to represent an isotropic spherical gravitational boundary.</p>
+<p>These must not be identified:</p>
+<p><span class="math display">\[A_K\ne\mathcal A_G.\]</span></p>
+</section>
+<section id="kepler-nevertheless-supplies-the-bridge-to-area-before-radius" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-nevertheless-supplies-the-bridge-to-area-before-radius">33. Kepler Nevertheless Supplies the Bridge to Area Before Radius</h2>
+<p>The Keplerian relation gives</p>
+<p><span class="math display">\[g_G=\frac{\mu_G}{r^2}.\]</span></p>
+<p>If the enclosing gravitational projection is additionally assumed spherical and isotropic, define</p>
+<p><span class="math display">\[\mathcal A_G=4\pi r^2.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[g_G=\frac{4\pi\mu_G}{\mathcal A_G}.\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[g_G\mathcal A_G=4\pi\mu_G.\]</span></p>
+<p>Thus the familiar inverse-square radial law can be rewritten as an inverse-area relation.</p>
+<p>The full logical significance of this inversion belongs to Addendum 41.</p>
+</section>
+<section id="spherical-isotropy-is-an-additional-physical-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="spherical-isotropy-is-an-additional-physical-mapping">34. Spherical Isotropy Is an Additional Physical Mapping</h2>
+<p>Kepler I and II imply the radial dependence</p>
+<p><span class="math display">\[r^2\]</span></p>
+<p>along the orbital relation.</p>
+<p>They do not by themselves prove that the entire gravitational boundary is globally spherical.</p>
+<p>Therefore</p>
+<!-- source_pdf_page: 1407 -->
+<p><span class="math display">\[r^2\longrightarrow\frac{\mathcal A_G}{4\pi}\]</span></p>
+<p>requires an additional spherical-isotropy mapping.</p>
+<p>The logical status is:</p>
+<blockquote class="blockquote">
+<p>Kepler I + II ⇒ <span class="math inline">\(1/r^2\)</span>.</p>
+</blockquote>
+<p>mathematically,</p>
+<p>while</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(1/r^2\)</span> → <span class="math inline">\(4\pi/\mathcal A_G\)</span>.</p>
+</blockquote>
+<p>is the enclosing spherical-area projection.</p>
+</section>
+<section id="keplerian-closure-is-the-readable-weak-field-side-of-the-gravitational-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="keplerian-closure-is-the-readable-weak-field-side-of-the-gravitational-boundary">35. Keplerian Closure Is the Readable Weak-Field Side of the Gravitational Boundary</h2>
+<p>At planetary scale, both geometry and recurrence remain readable.</p>
+<p>We can measure:</p>
+<p><span class="math display">\[a,\quad b,\quad e,\quad T,\quad A_K.\]</span></p>
+<p>These jointly determine</p>
+<p><span class="math display">\[\mu_G.\]</span></p>
+<p>Thus the weak-field orbit exposes the locally readable side of the gravitational relation directly.</p>
+<p>No horizon is required.</p>
+<p>No curvature singularity is involved.</p>
+<p>No irreversible closure is required.</p>
+</section>
+<section id="gravitational-closure-is-not-second-law-closure" class="level2">
+<h2 class="anchored" data-anchor-id="gravitational-closure-is-not-second-law-closure">36. Gravitational Closure Is Not Second-Law Closure</h2>
+<p>An ideal Keplerian orbit may close reciprocally.</p>
+<p>Nothing in the inverse-square derivation requires entropy production or occurrence nonreciprocity.</p>
+<!-- source_pdf_page: 1408 -->
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>gravitational closure ≠ irreversible closure.</p>
+</blockquote>
+<p>Real systems may contain tides, radiation, collisions, drag, or other irreversible processes.</p>
+<p>Those are additional relations superposed on the gravitational closure.</p>
+</section>
+<section id="kepler-provides-an-independent-weak-field-check-on-the-foundation" class="level2">
+<h2 class="anchored" data-anchor-id="kepler-provides-an-independent-weak-field-check-on-the-foundation">37. Kepler Provides an Independent Weak-Field Check on the Foundation</h2>
+<p>Addenda 38–39 used the conventional weak-field gravitational regime to calibrate tidal curvature and source compatibility.</p>
+<p>The present derivation approaches the same regime from independent orbital observations.</p>
+<p>Kepler I and II yield</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+<p>Kepler III identifies the shared coefficient.</p>
+<p>Thus the weak-field gravitational motion relation needed by the curvature projection is already encoded in observable closure geometry and recurrence.</p>
+<p>This closes an important empirical loop.</p>
+</section>
+<section id="principle-shared-gravitational-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="principle-shared-gravitational-boundary">38. Principle — Shared Gravitational Boundary</h2>
+<p>A gravitationally bound peer system is described first by its recurrent joint relation.</p>
+<p>In the Keplerian readability regime, that relation is physically accessible through:</p>
+<blockquote class="blockquote">
+<p>• orbital closure geometry; • swept area; • recurrence; • scale; • the shared coefficient μG .</p>
+</blockquote>
+<p>The local force coordinate appears later.</p>
+<p>Thus:</p>
+<!-- source_pdf_page: 1409 -->
+<blockquote class="blockquote">
+<p>shared gravitational boundary → free-fall relation → Newtonian force projection.</p>
+</blockquote>
+</section>
+<section id="theorem-keplerian-closure-implies-inverse-square-relative-acceleration" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-keplerian-closure-implies-inverse-square-relative-acceleration">39. Theorem — Keplerian Closure Implies Inverse-Square Relative Acceleration</h2>
+<p>Suppose a bound planar relative orbit satisfies:</p>
+<ol type="1">
+<li>elliptical closure, <span class="math inline">\(r(\theta)=p/(1+e\cos\theta)\)</span>;</li>
+<li>constant areal recurrence,</li>
+</ol>
+<p><span class="math display">\[J_K=r^2\dot\theta=\text{constant}.\]</span></p>
+<p>Then the transverse relative acceleration vanishes and the radial relative acceleration satisfies</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\frac{J_K^2}{p}\frac{\mathbf r}{r^3},\]</span></p>
+<p>Defining</p>
+<p><span class="math display">\[\mu_G=\frac{J_K^2}{p},\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+<p>Thus inverse-square gravitational free-fall motion follows from Keplerian closure before a gravitational force law is introduced.</p>
+</section>
+<section id="corollary-kepler-iii-defines-the-shared-closure-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-kepler-iii-defines-the-shared-closure-calibration">40. Corollary — Kepler III Defines the Shared Closure Calibration</h2>
+<p>For an ellipse,</p>
+<p><span class="math display">\[J_K=\frac{2\pi ab}{T},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[p=\frac{b^2}{a}.\]</span></p>
+<!-- source_pdf_page: 1410 -->
+<p>Therefore,</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2}.\]</span></p>
+<p>If a family of orbital closures satisfies one common Kepler III ratio,</p>
+<p><span class="math display">\[\frac{T^2}{a^3}=\text{constant},\]</span></p>
+<p>then the family shares one value of</p>
+<p><span class="math display">\[\mu_G.\]</span></p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>common Kepler III calibration → common gravitational relation.</p>
+</blockquote>
+</section>
+<section id="corollary-test-mass-is-downstream-of-free-fall" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-test-mass-is-downstream-of-free-fall">41. Corollary — Test Mass Is Downstream of Free Fall</h2>
+<p>The inverse-square relative acceleration contains no test mass.</p>
+<p>Only after mechanical calibration does a test mass m yield</p>
+<p><span class="math display">\[\mathbf F_N=m\mathbf a_{\mathrm{rel}}.\]</span></p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>free-fall law → mass-calibrated force read.</p>
+</blockquote>
+<p>The gravitational relation does not originate in the test mass.</p>
+</section>
+<section id="corollary-newtonian-gm-is-a-projection-of-the-shared-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-newtonian-gm-is-a-projection-of-the-shared-calibration">42. Corollary — Newtonian GM Is a Projection of the Shared Calibration</h2>
+<p>In the dominant-source limit,</p>
+<p><span class="math display">\[\mu_G=GM.\]</span></p>
+<p>In the exact two-body Newtonian problem,</p>
+<p><span class="math display">\[\mu_G=G(m_1+m_2).\]</span></p>
+<!-- source_pdf_page: 1411 -->
+<p>Thus μG is more naturally associated with the shared gravitational relation than with one isolated material object.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">43. Logical Status</h2>
+<p>Established by Addenda 35–39</p>
+<p>The new foundation supplies:</p>
+<blockquote class="blockquote">
+<p>• boundary-relative motion; • distinction between proper and coordinate acceleration; • free fall as local common-mode gravitational participation; • tidal gravity as peer-differential free fall; • curvature and Einstein geometry as later continuous projections.</p>
+</blockquote>
+<p>Empirical Inputs Used Here</p>
+<p>Kepler I:</p>
+<p><span class="math display">\[r(\theta)=\frac{p}{1+e\cos\theta}.\]</span></p>
+<p>Kepler II:</p>
+<p><span class="math display">\[\frac{dA_K}{dt}=\text{constant}.\]</span></p>
+<p>Kepler III:</p>
+<p><span class="math display">\[T^2\propto a^3.\]</span></p>
+<p>These remain empirical physical inputs.</p>
+<p>Mathematical Consequence</p>
+<p>Kepler I and II imply</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3}.\]</span></p>
+<p>Shared Calibration</p>
+<p>Kepler III gives</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2}.\]</span></p>
+<!-- source_pdf_page: 1412 -->
+<p>Later Physical Calibration</p>
+<p>Newtonian gravitational physics identifies</p>
+<p><span class="math display">\[\mu_G=G(m_1+m_2)\]</span></p>
+<p>for the two-body relative problem and</p>
+<p><span class="math display">\[\mu_G\simeq GM\]</span></p>
+<p>in the test-body limit.</p>
+<p>Later Mechanical Projection</p>
+<p>The Newtonian force coordinate follows only after mass calibration.</p>
+<p>Not Derived Here</p>
+<p>This addendum does not derive from primitive R²D counting:</p>
+<blockquote class="blockquote">
+<p>• why bound weak-field gravitational closure is exactly elliptical; • why Kepler II holds quantitatively; • why the Kepler III exponent is exactly 3/2; • the microscopic or recursive origin of G; • spherical gravitational area as a primitive geometric read; • Schwarzschild geometry; • relativistic perihelion precession; • gravitational radiation; • cosmological gravity.</p>
+</blockquote>
+<p>Those remain downstream or separate mapping problems.</p>
+</section>
+<section id="the-central-r²d-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-r²d-inversion">44. The Central R²D Inversion</h2>
+<p>The conventional order is</p>
+<blockquote class="blockquote">
+<p>gravitational force law</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>equations of motion</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>ellipse + equal areas + period law.</p>
+</blockquote>
+<p>The R²D reconstruction begins with what is directly readable:</p>
+<!-- source_pdf_page: 1413 -->
+<blockquote class="blockquote">
+<p>elliptical closure</p>
+</blockquote>
+<blockquote class="blockquote">
+<ul>
+<li></li>
+</ul>
+</blockquote>
+<blockquote class="blockquote">
+<p>areal recurrence</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>inverse-square free-fall relation</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>shared Kepler III calibration</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<p><span class="math display">\[\mu_G\]</span></p>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(GM\)</span> calibration</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>⇓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Newtonian force coordinate.</p>
+</blockquote>
+<p>The same physical law is recovered.</p>
+<p>The explanatory direction is reversed.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">45. Conclusion</h2>
+<p>Gravity does not need to begin with a force between already-complete masses.</p>
+<p>A weak-field planetary system first presents a recurrent shared relation.</p>
+<p>Kepler I gives its closure geometry:</p>
+<p><span class="math display">\[r(\theta)=\frac{p}{1+e\cos\theta}.\]</span></p>
+<p>Kepler II gives its areal recurrence:</p>
+<p><span class="math display">\[J_K=r^2\dot\theta=\text{constant}.\]</span></p>
+<p>Together they require purely radial relative coordinate acceleration:</p>
+<p><span class="math display">\[\frac{d^2\mathbf r}{dt^2}=-\mu_G\frac{\mathbf r}{r^3},\]</span></p>
+<p>with</p>
+<!-- source_pdf_page: 1414 -->
+<p><span class="math display">\[\mu_G=\frac{J_K^2}{p}.\]</span></p>
+<p>No gravitational force has been assumed.</p>
+<p>Kepler III then gives</p>
+<p><span class="math display">\[\mu_G=\frac{4\pi^2a^3}{T^2}.\]</span></p>
+<p>and shows that one coefficient organizes an entire family of bound closures.</p>
+<p>The test-body mass remains absent.</p>
+<p>This is exactly what should be expected after Addendum 37.</p>
+<p>A freely falling boundary need not possess local proper acceleration:</p>
+<p><span class="math display">\[a^{\mathrm{prop}}=0.\]</span></p>
+<p>Its relative position can nevertheless change relative to a larger gravitational reference.</p>
+<p>The Keplerian inverse-square law is the weak-field coordinate read of that shared free-fall organization.</p>
+<p>Only afterward does Newtonian mechanical calibration introduce force.</p>
+<p>In the test-body limit,</p>
+<p><span class="math display">\[\mu_G=GM\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\mathbf F_N=-\frac{GMm}{r^3}\mathbf r.\]</span></p>
+<p>For two comparable bodies,</p>
+<p><span class="math display">\[\mu_G=G(m_1+m_2),\]</span></p>
+<p>making the shared-boundary ownership explicit.</p>
+<p>The gravitational parameter measured by closure therefore comes before its decomposition into gravitational coupling and source mass.</p>
+<p>The orbital free-fall relation comes before the force used to represent it.</p>
+<p>And the dynamic swept area of Keplerian recurrence points toward the next geometric inversion: under spherical projection, the inverse-square law becomes an inverse-area relation.</p>
+<!-- source_pdf_page: 1415 -->
+<p>That problem belongs to Addendum 41.</p>
+<p>The resulting hierarchy is</p>
+<p>peer boundaries → shared gravitational closure → elliptical geometry → areal recurrence → inverse-square free fa</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Keplerian closure occurs before gravitational force.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="pagination-link" aria-label="Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="pagination-link" aria-label="Addendum 41 — Gravitational Area Occurs Before Areal Radius">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 60 — Friedmann Partition Occurs After Recursive Throughput – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" rel="next">
+<link href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-60-friedmann-partition-occurs-after-recursive-throughput" id="toc-addendum-60-friedmann-partition-occurs-after-recursive-throughput" class="nav-link active" data-scroll-target="#addendum-60-friedmann-partition-occurs-after-recursive-throughput">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#addendum-59-produced-one-physical-rate-magnitude" id="toc-addendum-59-produced-one-physical-rate-magnitude" class="nav-link" data-scroll-target="#addendum-59-produced-one-physical-rate-magnitude">1. Addendum 59 Produced One Physical Rate Magnitude</a></li>
+  <li><a href="#define-a-shorthand-for-projected-recursive-throughput" id="toc-define-a-shorthand-for-projected-recursive-throughput" class="nav-link" data-scroll-target="#define-a-shorthand-for-projected-recursive-throughput">2. Define a Shorthand for Projected Recursive Throughput</a></li>
+  <li><a href="#the-r²d-law-gives-its-recursive-component" id="toc-the-r²d-law-gives-its-recursive-component" class="nav-link" data-scroll-target="#the-r²d-law-gives-its-recursive-component">3. The R²D Law Gives Its Recursive Component</a></li>
+  <li><a href="#this-expression-is-already-physically-calibrated" id="toc-this-expression-is-already-physically-calibrated" class="nav-link" data-scroll-target="#this-expression-is-already-physically-calibrated">4. This Expression Is Already Physically Calibrated</a></li>
+  <li><a href="#g-has-not-yet-been-required-to-define-the-throughput-decomposition" id="toc-g-has-not-yet-been-required-to-define-the-throughput-decomposition" class="nav-link" data-scroll-target="#g-has-not-yet-been-required-to-define-the-throughput-decomposition">5. G Has Not Yet Been Required to Define the Throughput Decomposition</a></li>
+  <li><a href="#now-introduce-the-friedmann-representation" id="toc-now-introduce-the-friedmann-representation" class="nav-link" data-scroll-target="#now-introduce-the-friedmann-representation">6. Now Introduce the Friedmann Representation</a></li>
+  <li><a href="#friedmann-is-a-partition-of-tζ" id="toc-friedmann-is-a-partition-of-tζ" class="nav-link" data-scroll-target="#friedmann-is-a-partition-of-tζ">7. Friedmann Is a Partition of Tζ</a></li>
+  <li><a href="#the-three-terms-are-not-ontologically-homogeneous" id="toc-the-three-terms-are-not-ontologically-homogeneous" class="nav-link" data-scroll-target="#the-three-terms-are-not-ontologically-homogeneous">8. The Three Terms Are Not Ontologically Homogeneous</a></li>
+  <li><a href="#fε-is-a-source-property-read" id="toc-fε-is-a-source-property-read" class="nav-link" data-scroll-target="#fε-is-a-source-property-read">9. Fε Is a Source-Property Read</a></li>
+  <li><a href="#energy-density-is-not-primitive-multiplicity" id="toc-energy-density-is-not-primitive-multiplicity" class="nav-link" data-scroll-target="#energy-density-is-not-primitive-multiplicity">10. Energy Density Is Not Primitive Multiplicity</a></li>
+  <li><a href="#fk-is-a-geometric-read" id="toc-fk-is-a-geometric-read" class="nav-link" data-scroll-target="#fk-is-a-geometric-read">11. Fk Is a Geometric Read</a></li>
+  <li><a href="#distinguish-k-from-ka2" id="toc-distinguish-k-from-ka2" class="nav-link" data-scroll-target="#distinguish-k-from-ka2">12. Distinguish k From k/a2</a></li>
+  <li><a href="#k-is-primarily-a-projection-class-label" id="toc-k-is-primarily-a-projection-class-label" class="nav-link" data-scroll-target="#k-is-primarily-a-projection-class-label">13. k Is Primarily a Projection-Class Label</a></li>
+  <li><a href="#the-curvature-scale-is-state-dependent" id="toc-the-curvature-scale-is-state-dependent" class="nav-link" data-scroll-target="#the-curvature-scale-is-state-dependent">14. The Curvature Scale Is State Dependent</a></li>
+  <li><a href="#fλ-has-different-ownership-again" id="toc-fλ-has-different-ownership-again" class="nav-link" data-scroll-target="#fλ-has-different-ownership-again">15. FΛ Has Different Ownership Again</a></li>
+  <li><a href="#a-constant-λ-does-not-distinguish-macrostates" id="toc-a-constant-λ-does-not-distinguish-macrostates" class="nav-link" data-scroll-target="#a-constant-λ-does-not-distinguish-macrostates">16. A Constant Λ Does Not Distinguish Macrostates</a></li>
+  <li><a href="#this-suggests-projection-level-ownership" id="toc-this-suggests-projection-level-ownership" class="nav-link" data-scroll-target="#this-suggests-projection-level-ownership">17. This Suggests Projection-Level Ownership</a></li>
+  <li><a href="#the-friedmann-sum-therefore-mixes-logical-types" id="toc-the-friedmann-sum-therefore-mixes-logical-types" class="nav-link" data-scroll-target="#the-friedmann-sum-therefore-mixes-logical-types">18. The Friedmann Sum Therefore Mixes Logical Types</a></li>
+  <li><a href="#the-cosmological-constant-can-be-reassigned-algebraically" id="toc-the-cosmological-constant-can-be-reassigned-algebraically" class="nav-link" data-scroll-target="#the-cosmological-constant-can-be-reassigned-algebraically">19. The Cosmological Constant Can Be Reassigned Algebraically</a></li>
+  <li><a href="#friedmann-can-then-be-written-with-λ-as-source-density" id="toc-friedmann-can-then-be-written-with-λ-as-source-density" class="nav-link" data-scroll-target="#friedmann-can-then-be-written-with-λ-as-source-density">20. Friedmann Can Then Be Written With Λ as Source Density</a></li>
+  <li><a href="#geometry-has-been-rewritten-as-source-bookkeeping" id="toc-geometry-has-been-rewritten-as-source-bookkeeping" class="nav-link" data-scroll-target="#geometry-has-been-rewritten-as-source-bookkeeping">21. Geometry Has Been Rewritten as Source Bookkeeping</a></li>
+  <li><a href="#curvature-can-be-rewritten-the-same-way" id="toc-curvature-can-be-rewritten-the-same-way" class="nav-link" data-scroll-target="#curvature-can-be-rewritten-the-same-way">22. Curvature Can Be Rewritten the Same Way</a></li>
+  <li><a href="#the-entire-friedmann-equation-can-be-written-as-effective-density" id="toc-the-entire-friedmann-equation-can-be-written-as-effective-density" class="nav-link" data-scroll-target="#the-entire-friedmann-equation-can-be-written-as-effective-density">23. The Entire Friedmann Equation Can Be Written as Effective Density</a></li>
+  <li><a href="#this-does-not-turn-curvature-into-matter" id="toc-this-does-not-turn-curvature-into-matter" class="nav-link" data-scroll-target="#this-does-not-turn-curvature-into-matter">24. This Does Not Turn Curvature Into Matter</a></li>
+  <li><a href="#the-same-is-true-of-vacuum-energy-representation" id="toc-the-same-is-true-of-vacuum-energy-representation" class="nav-link" data-scroll-target="#the-same-is-true-of-vacuum-energy-representation">25. The Same Is True of Vacuum-Energy Representation</a></li>
+  <li><a href="#principle-friedmann-partition-nonuniqueness" id="toc-principle-friedmann-partition-nonuniqueness" class="nav-link" data-scroll-target="#principle-friedmann-partition-nonuniqueness">26. Principle — Friedmann Partition Nonuniqueness</a></li>
+  <li><a href="#r²d-requires-independent-projection-bridges" id="toc-r²d-requires-independent-projection-bridges" class="nav-link" data-scroll-target="#r²d-requires-independent-projection-bridges">27. R²D Requires Independent Projection Bridges</a></li>
+  <li><a href="#do-not-identify-λ-with-possibility" id="toc-do-not-identify-λ-with-possibility" class="nav-link" data-scroll-target="#do-not-identify-λ-with-possibility">28. Do Not Identify Λ With Possibility</a></li>
+  <li><a href="#do-not-identify-matter-density-with-retention" id="toc-do-not-identify-matter-density-with-retention" class="nav-link" data-scroll-target="#do-not-identify-matter-density-with-retention">29. Do Not Identify Matter Density With Retention</a></li>
+  <li><a href="#do-not-build-aζ-from-friedmann-signs" id="toc-do-not-build-aζ-from-friedmann-signs" class="nav-link" data-scroll-target="#do-not-build-aζ-from-friedmann-signs">30. Do Not Build Aζ From Friedmann Signs</a></li>
+  <li><a href="#the-primitive-asymmetry-already-exists-earlier" id="toc-the-primitive-asymmetry-already-exists-earlier" class="nav-link" data-scroll-target="#the-primitive-asymmetry-already-exists-earlier">31. The Primitive Asymmetry Already Exists Earlier</a></li>
+  <li><a href="#the-throughput-magnitude-is-prior-to-the-partition" id="toc-the-throughput-magnitude-is-prior-to-the-partition" class="nav-link" data-scroll-target="#the-throughput-magnitude-is-prior-to-the-partition">32. The Throughput Magnitude Is Prior to the Partition</a></li>
+  <li><a href="#the-friedmann-terms-are-coordinates-of-the-physical-projection" id="toc-the-friedmann-terms-are-coordinates-of-the-physical-projection" class="nav-link" data-scroll-target="#the-friedmann-terms-are-coordinates-of-the-physical-projection">33. The Friedmann Terms Are Coordinates of the Physical Projection</a></li>
+  <li><a href="#apply-the-physical-read-factorization-criterion" id="toc-apply-the-physical-read-factorization-criterion" class="nav-link" data-scroll-target="#apply-the-physical-read-factorization-criterion">34. Apply the Physical-Read Factorization Criterion</a></li>
+  <li><a href="#energy-density-requires-macrostate-factorization" id="toc-energy-density-requires-macrostate-factorization" class="nav-link" data-scroll-target="#energy-density-requires-macrostate-factorization">35. Energy Density Requires Macrostate Factorization</a></li>
+  <li><a href="#curvature-requires-macrostate-factorization" id="toc-curvature-requires-macrostate-factorization" class="nav-link" data-scroll-target="#curvature-requires-macrostate-factorization">36. Curvature Requires Macrostate Factorization</a></li>
+  <li><a href="#k-itself-need-not-be-a-state-coordinate" id="toc-k-itself-need-not-be-a-state-coordinate" class="nav-link" data-scroll-target="#k-itself-need-not-be-a-state-coordinate">37. k Itself Need Not Be a State Coordinate</a></li>
+  <li><a href="#constant-λ-factorizes-trivially" id="toc-constant-λ-factorizes-trivially" class="nav-link" data-scroll-target="#constant-λ-factorizes-trivially">38. Constant Λ Factorizes Trivially</a></li>
+  <li><a href="#g-has-different-status-again" id="toc-g-has-different-status-again" class="nav-link" data-scroll-target="#g-has-different-status-again">39. G Has Different Status Again</a></li>
+  <li><a href="#the-friedmann-equation-mixes-state-reads-and-projection-constants" id="toc-the-friedmann-equation-mixes-state-reads-and-projection-constants" class="nav-link" data-scroll-target="#the-friedmann-equation-mixes-state-reads-and-projection-constants">40. The Friedmann Equation Mixes State Reads and Projection Constants</a></li>
+  <li><a href="#normalize-the-partition" id="toc-normalize-the-partition" class="nav-link" data-scroll-target="#normalize-the-partition">41. Normalize the Partition</a></li>
+  <li><a href="#the-normalized-friedmann-budget-sums-to-one" id="toc-the-normalized-friedmann-budget-sums-to-one" class="nav-link" data-scroll-target="#the-normalized-friedmann-budget-sums-to-one">42. The Normalized Friedmann Budget Sums to One</a></li>
+  <li><a href="#these-ω-values-are-not-r²d-multiplicity-fractions" id="toc-these-ω-values-are-not-r²d-multiplicity-fractions" class="nav-link" data-scroll-target="#these-ω-values-are-not-r²d-multiplicity-fractions">43. These Ω Values Are Not R²D Multiplicity Fractions</a></li>
+  <li><a href="#the-cosmological-budget-is-therefore-a-projected-budget" id="toc-the-cosmological-budget-is-therefore-a-projected-budget" class="nav-link" data-scroll-target="#the-cosmological-budget-is-therefore-a-projected-budget">44. The Cosmological Budget Is Therefore a Projected Budget</a></li>
+  <li><a href="#a-different-algebraic-partition-gives-a-different-budget" id="toc-a-different-algebraic-partition-gives-a-different-budget" class="nav-link" data-scroll-target="#a-different-algebraic-partition-gives-a-different-budget">45. A Different Algebraic Partition Gives a Different Budget</a></li>
+  <li><a href="#the-whole-physical-rate-is-more-invariant-than-its-partition" id="toc-the-whole-physical-rate-is-more-invariant-than-its-partition" class="nav-link" data-scroll-target="#the-whole-physical-rate-is-more-invariant-than-its-partition">46. The Whole Physical Rate Is More Invariant Than Its Partition</a></li>
+  <li><a href="#this-mirrors-the-general-r²d-causal-inversion" id="toc-this-mirrors-the-general-r²d-causal-inversion" class="nav-link" data-scroll-target="#this-mirrors-the-general-r²d-causal-inversion">47. This Mirrors the General R²D Causal Inversion</a></li>
+  <li><a href="#matter-energy-requires-its-own-derivation" id="toc-matter-energy-requires-its-own-derivation" class="nav-link" data-scroll-target="#matter-energy-requires-its-own-derivation">48. Matter-Energy Requires Its Own Derivation</a></li>
+  <li><a href="#the-source-read-must-begin-with-peer-coupling" id="toc-the-source-read-must-begin-with-peer-coupling" class="nav-link" data-scroll-target="#the-source-read-must-begin-with-peer-coupling">49. The Source Read Must Begin With Peer Coupling</a></li>
+  <li><a href="#curvature-requires-a-different-derivation" id="toc-curvature-requires-a-different-derivation" class="nav-link" data-scroll-target="#curvature-requires-a-different-derivation">50. Curvature Requires a Different Derivation</a></li>
+  <li><a href="#λ-requires-a-third-derivation" id="toc-λ-requires-a-third-derivation" class="nav-link" data-scroll-target="#λ-requires-a-third-derivation">51. Λ Requires a Third Derivation</a></li>
+  <li><a href="#these-problems-should-not-be-solved-by-one-renaming" id="toc-these-problems-should-not-be-solved-by-one-renaming" class="nav-link" data-scroll-target="#these-problems-should-not-be-solved-by-one-renaming">52. These Problems Should Not Be Solved by One Renaming</a></li>
+  <li><a href="#principle-recursive-throughput-precedes-friedmann-partition" id="toc-principle-recursive-throughput-precedes-friedmann-partition" class="nav-link" data-scroll-target="#principle-recursive-throughput-precedes-friedmann-partition">53. Principle — Recursive Throughput Precedes Friedmann Partition</a></li>
+  <li><a href="#principle-friedmann-partition" id="toc-principle-friedmann-partition" class="nav-link" data-scroll-target="#principle-friedmann-partition">54. Principle — Friedmann Partition</a></li>
+  <li><a href="#principle-partition-categories-are-not-primitive-count-types" id="toc-principle-partition-categories-are-not-primitive-count-types" class="nav-link" data-scroll-target="#principle-partition-categories-are-not-primitive-count-types">55. Principle — Partition Categories Are Not Primitive Count Types</a></li>
+  <li><a href="#principle-algebraic-relocation-does-not-change-the-physical-rate" id="toc-principle-algebraic-relocation-does-not-change-the-physical-rate" class="nav-link" data-scroll-target="#principle-algebraic-relocation-does-not-change-the-physical-rate">56. Principle — Algebraic Relocation Does Not Change the Physical Rate</a></li>
+  <li><a href="#principle-projection-class-parameters-and-state-variables-must-be-distinguished" id="toc-principle-projection-class-parameters-and-state-variables-must-be-distinguished" class="nav-link" data-scroll-target="#principle-projection-class-parameters-and-state-variables-must-be-distinguished">57. Principle — Projection-Class Parameters and State Variables Must Be Distinguished</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">58. Logical Status</a></li>
+  <li><a href="#the-complete-ordering" id="toc-the-complete-ordering" class="nav-link" data-scroll-target="#the-complete-ordering">59. The Complete Ordering</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">60. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></h1>
+<p class="subtitle lead">Matter-Energy, Curvature, the Cosmological Constant, and the Nonprimitive Decomposition of H 2</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-60-friedmann-partition-occurs-after-recursive-throughput" class="level1">
+<h1>Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 59 established a conditional bridge from primitive recursive counting to the physical cosmological rate.</p>
+<p>For a dominant cosmological transition class χ, realized through a representative subordinate peer closure a,</p>
+<p><span class="math display">\[ H=f_a\delta_{A,\chi}\rho_{\zeta\mid\zeta-1,a}.\]</span></p>
+<p>where</p>
+<p><span class="math display">\[ f_a\]</span></p>
+<p>is the physical clock calibration,</p>
+<p><span class="math display">\[\delta_{A,\chi}=\frac12\ln\frac{A_{\zeta,k}}{A_{\zeta,i}}\]</span></p>
+<p>is the logarithmic geometric step associated with one cosmological occurrence, and</p>
+<p><span class="math display">\[\rho_{\zeta\mid\zeta-1,a}=\frac{N_\chi^\zeta}{N_C^{(a)}}\]</span></p>
+<p>is the recursive throughput of enclosing cosmological occurrences per representative subordinate closure.</p>
+<p>The R²D law gives</p>
+<p><span class="math display">\[\rho_{\zeta\mid\zeta-1,a}=\frac{\Delta A_{\zeta-1,a,C}}{C_\zeta\lambda_\zeta}\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[ H^2=f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>This physical rate magnitude exists conceptually before the conventional Friedmann decomposition is assigned.</p>
+<!-- source_pdf_page: 2038 -->
+<p>Define</p>
+<p><span class="math display">\[ T_\zeta\equiv f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>The symbol</p>
+<p><span class="math display">\[ T_\zeta\]</span></p>
+<p>is introduced only as shorthand for the physically calibrated recursive throughput magnitude.</p>
+<p>It is not a new primitive R²D quantity.</p>
+<p>Under the conditional bridge of Addendum 59,</p>
+<p><span class="math display">\[ T_\zeta=H^2\]</span></p>
+<p>Conventional FLRW cosmology then represents this one rate magnitude as</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}\epsilon-\frac{kc^2}{a^2}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[ F_\epsilon=\frac{8\pi G}{3c^2}\epsilon\]</span></p>
+<p><span class="math display">\[ F_k=-\frac{kc^2}{a^2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ F_\Lambda=\frac{\Lambda c^2}{3}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[ T_\zeta=H^2=F_\epsilon+F_k+F_\Lambda\]</span></p>
+<p>The three terms do not have equivalent physical or logical ownership.</p>
+<p>The matter-energy contribution</p>
+<p><span class="math display">\[ F\epsilon\]</span></p>
+<p>is a source-property read.</p>
+<!-- source_pdf_page: 2039 -->
+<p>The curvature contribution</p>
+<p><span class="math display">\[ Fk\]</span></p>
+<p>is a geometric read.</p>
+<p>The cosmological-constant contribution</p>
+<p><span class="math display">\[ F\Lambda\]</span></p>
+<p>may be retained as a geometric constant or algebraically reassigned to an effective source density.</p>
+<p>Indeed, define</p>
+<p><span class="math display">\[\epsilon_\Lambda=\frac{\Lambda c^4}{8\pi G}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_\Lambda=\frac{\Lambda c^2}{3}\]</span></p>
+<p>and the Friedmann equation becomes</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}(\epsilon+\epsilon_\Lambda)-\frac{kc^2}{a^2}\]</span></p>
+<p>Likewise define an effective curvature density</p>
+<p><span class="math display">\[\epsilon_k=-\frac{3kc^4}{8\pi G a^2}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_k=-\frac{kc^2}{a^2}\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}(\epsilon+\epsilon_\Lambda+\epsilon_k)\]</span></p>
+<p>Nothing about the physical value of H 2 has changed.</p>
+<p>Only the bookkeeping partition has changed.</p>
+<p>The same cosmological rate magnitude can therefore be represented as</p>
+<!-- source_pdf_page: 2040 -->
+<blockquote class="blockquote">
+<p>source + geometry + constant geometry,</p>
+</blockquote>
+<p>or as</p>
+<blockquote class="blockquote">
+<p>sum of effective source densities.</p>
+</blockquote>
+<p>The decomposition itself consequently cannot determine primitive ontology.</p>
+<p>This has an immediate R²D implication.</p>
+<p>One must not infer identities such as</p>
+<p><span class="math display">\[ P_\zeta=\epsilon_\Lambda\]</span></p>
+<p><span class="math display">\[ R_\zeta=\epsilon_m\]</span></p>
+<p>or</p>
+<p><span class="math display">\[ A_\zeta=\epsilon_\Lambda-\epsilon_m\]</span></p>
+<p>merely because conventional cosmological terms have suggestive signs.</p>
+<p>The R²D quantities</p>
+<p><span class="math display">\[ P_\zeta,\quad R_\zeta,\quad A_\zeta\]</span></p>
+<p>belong to the pre-gravitational causal architecture.</p>
+<p>The Friedmann terms belong to a later gravitational physical projection.</p>
+<p>Their decomposition is representation dependent.</p>
+<p>Thus the correct ordering is</p>
+<blockquote class="blockquote">
+
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>gravitational physical projection</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>conventional Friedmann partition</p>
+<p><span class="math display">\[ F_\epsilon+F_k+F_\Lambda\]</span></p>
+<p>The central statement is therefore:</p>
+<!-- source_pdf_page: 2041 -->
+<blockquote class="blockquote">
+<p><strong>Central statement.</strong> The Friedmann equation does not expose three primitive causes of cosmological evolution. It partitions one already-defined physical rate magnitude into matter-energy, curvature, and cosmological-constant coordinates within the gravitational projection. Because that partition can be rearranged without changing <span class="math inline">\(H^2\)</span>, its individual terms cannot be identified with primitive R²D quantities without independent projection bridges.</p>
+</blockquote>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>Friedmann partition occurs after recursive throughput.</p>
+</blockquote>
+</section>
+<section id="addendum-59-produced-one-physical-rate-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-59-produced-one-physical-rate-magnitude">1. Addendum 59 Produced One Physical Rate Magnitude</h2>
+<p>The R²D throughput bridge gives</p>
+<p><span class="math display">\[ H=f_a\delta_{A,\chi}\rho_{\zeta\mid\zeta-1,a}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[ H^2=f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>This is one physical quantity.</p>
+<p>No Friedmann partition has yet been assigned.</p>
+</section>
+<section id="define-a-shorthand-for-projected-recursive-throughput" class="level2">
+<h2 class="anchored" data-anchor-id="define-a-shorthand-for-projected-recursive-throughput">2. Define a Shorthand for Projected Recursive Throughput</h2>
+<p>Define</p>
+<p><span class="math display">\[ T_\zeta\equiv f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[ T_\zeta=H^2\]</span></p>
+<p>The symbol is only shorthand.</p>
+<p>It does not add a new primitive to R²D.</p>
+</section>
+<section id="the-r²d-law-gives-its-recursive-component" class="level2">
+<h2 class="anchored" data-anchor-id="the-r²d-law-gives-its-recursive-component">3. The R²D Law Gives Its Recursive Component</h2>
+<p>The throughput factor is</p>
+<!-- source_pdf_page: 2042 -->
+<p><span class="math display">\[\rho_{\zeta\mid\zeta-1,a}=\frac{\Delta A_{\zeta-1,a,C}}{C_\zeta\lambda_\zeta}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[ T_\zeta=f_a^2\delta_{A,\chi}^2\left(\frac{\Delta A_{\zeta-1,a,C}}{C_\zeta\lambda_\zeta}\right)^2\]</span></p>
+</section>
+<section id="this-expression-is-already-physically-calibrated" class="level2">
+<h2 class="anchored" data-anchor-id="this-expression-is-already-physically-calibrated">4. This Expression Is Already Physically Calibrated</h2>
+<p>The dimensionless recursive relation has acquired:</p>
+<p><span class="math display">\[ f_a\]</span></p>
+<p>a temporal calibration,</p>
+<p>and</p>
+<p><span class="math display">\[\delta_{A,\chi}\]</span></p>
+<p>a geometric calibration.</p>
+<p>Thus</p>
+<p><span class="math display">\[ T_\zeta\]</span></p>
+<p>belongs to the physical projection layer.</p>
+</section>
+<section id="g-has-not-yet-been-required-to-define-the-throughput-decomposition" class="level2">
+<h2 class="anchored" data-anchor-id="g-has-not-yet-been-required-to-define-the-throughput-decomposition">5. G Has Not Yet Been Required to Define the Throughput Decomposition</h2>
+<p>The recursive throughput itself is defined without G.</p>
+<p>The geometric area step is defined without G.</p>
+<p>The clock frequency is separately calibrated.</p>
+<p>Only when the same physical rate is expressed through gravitational source variables does G enter explicitly.</p>
+<!-- source_pdf_page: 2043 -->
+</section>
+<section id="now-introduce-the-friedmann-representation" class="level2">
+<h2 class="anchored" data-anchor-id="now-introduce-the-friedmann-representation">6. Now Introduce the Friedmann Representation</h2>
+<p>For an FLRW projection,</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}\epsilon-\frac{kc^2}{a^2}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[ T_\zeta=\frac{8\pi G}{3c^2}\epsilon-\frac{kc^2}{a^2}+\frac{\Lambda c^2}{3}\]</span></p>
+</section>
+<section id="friedmann-is-a-partition-of-tζ" class="level2">
+<h2 class="anchored" data-anchor-id="friedmann-is-a-partition-of-tζ">7. Friedmann Is a Partition of Tζ</h2>
+<p>Define</p>
+<p><span class="math display">\[\begin{aligned}F_\epsilon&amp;=\frac{8\pi G}{3c^2}\epsilon,\\ F_k&amp;=-\frac{kc^2}{a^2},\end{aligned}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ F_\Lambda=\frac{\Lambda c^2}{3}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[ T_\zeta=H^2=F_\epsilon+F_k+F_\Lambda\]</span></p>
+<p>The Friedmann equation partitions the rate magnitude among physical coordinates.</p>
+</section>
+<section id="the-three-terms-are-not-ontologically-homogeneous" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-terms-are-not-ontologically-homogeneous">8. The Three Terms Are Not Ontologically Homogeneous</h2>
+<p>The notation makes them look like three additive terms of one type.</p>
+<p>They are not.</p>
+<p>They enter the physical theory from different descriptive categories.</p>
+<!-- source_pdf_page: 2044 -->
+</section>
+<section id="fε-is-a-source-property-read" class="level2">
+<h2 class="anchored" data-anchor-id="fε-is-a-source-property-read">9. Fε Is a Source-Property Read</h2>
+<p>The term</p>
+<p><span class="math display">\[ F_\epsilon=\frac{8\pi G}{3c^2}\epsilon\]</span></p>
+<p>contains the physical energy-density read of cosmological peer organization.</p>
+<p>It also contains the gravitational conversion G.</p>
+<p>Thus it is already downstream of both count realization and physical dimensionalization.</p>
+</section>
+<section id="energy-density-is-not-primitive-multiplicity" class="level2">
+<h2 class="anchored" data-anchor-id="energy-density-is-not-primitive-multiplicity">10. Energy Density Is Not Primitive Multiplicity</h2>
+<p>The physical quantity</p>
+<p><span class="math display">\[\epsilon\]</span></p>
+<p>must not be identified with</p>
+<p><span class="math display">\[ W_\zeta\]</span></p>
+<p><span class="math display">\[ S_\zeta\]</span></p>
+<p><span class="math display">\[ P_\zeta\]</span></p>
+<p>or</p>
+<p><span class="math display">\[ R_\zeta\]</span></p>
+<p>without an explicit physical bridge.</p>
+<p>It is a mature physical source coordinate.</p>
+</section>
+<section id="fk-is-a-geometric-read" class="level2">
+<h2 class="anchored" data-anchor-id="fk-is-a-geometric-read">11. Fk Is a Geometric Read</h2>
+<p>The curvature term is</p>
+<p><span class="math display">\[ F_k=-\frac{kc^2}{a^2}\]</span></p>
+<p>It belongs to the spatial geometry of the FLRW projection.</p>
+<p>It is not conventionally a material source term.</p>
+<!-- source_pdf_page: 2045 -->
+</section>
+<section id="distinguish-k-from-ka2" class="level2">
+<h2 class="anchored" data-anchor-id="distinguish-k-from-ka2">12. Distinguish k From k/a2</h2>
+<p>The quantity</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>labels the spatial-curvature class of the FLRW projection.</p>
+<p>The quantity</p>
+<p><span class="math display">\[\frac{k}{a^2}\]</span></p>
+<p>is the corresponding physical curvature scale.</p>
+<p>Thus:</p>
+<p><span class="math display">\[ k\ne\frac{k}{a^2}\]</span></p>
+<p>Their boundary ownership differs.</p>
+</section>
+<section id="k-is-primarily-a-projection-class-label" class="level2">
+<h2 class="anchored" data-anchor-id="k-is-primarily-a-projection-class-label">13. k Is Primarily a Projection-Class Label</h2>
+<p>Within a fixed FLRW model,</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>does not evolve as the cosmological state evolves.</p>
+<p>It specifies which geometric projection class has been selected.</p>
+<p>Thus it behaves more like a classification parameter than a dynamical macrostate coordinate.</p>
+</section>
+<section id="the-curvature-scale-is-state-dependent" class="level2">
+<h2 class="anchored" data-anchor-id="the-curvature-scale-is-state-dependent">14. The Curvature Scale Is State Dependent</h2>
+<p>By contrast,</p>
+<p><span class="math display">\[\frac{k}{a^2}\]</span></p>
+<p>changes when</p>
+<p><span class="math display">\[ a\]</span></p>
+<!-- source_pdf_page: 2046 -->
+<p>changes.</p>
+<p>Therefore the physical curvature read is state dependent even when the curvature label k is fixed.</p>
+</section>
+<section id="fλ-has-different-ownership-again" class="level2">
+<h2 class="anchored" data-anchor-id="fλ-has-different-ownership-again">15. FΛ Has Different Ownership Again</h2>
+<p>The cosmological-constant term is</p>
+<p><span class="math display">\[ F_\Lambda=\frac{\Lambda c^2}{3}\]</span></p>
+<p>For constant Λ,</p>
+<p><span class="math display">\[\Lambda\]</span></p>
+<p>does not change with the cosmological state.</p>
+<p>It acts as a fixed rate-squared contribution within the chosen gravitational projection.</p>
+</section>
+<section id="a-constant-λ-does-not-distinguish-macrostates" class="level2">
+<h2 class="anchored" data-anchor-id="a-constant-λ-does-not-distinguish-macrostates">16. A Constant Λ Does Not Distinguish Macrostates</h2>
+<p>If</p>
+<p><span class="math display">\[\Lambda_i=\Lambda_k\]</span></p>
+<p>then Λ itself cannot distinguish the transition</p>
+<p><span class="math display">\[ i\to k\]</span></p>
+<p>Its macrostate factorization is therefore trivial.</p>
+</section>
+<section id="this-suggests-projection-level-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="this-suggests-projection-level-ownership">17. This Suggests Projection-Level Ownership</h2>
+<p>A truly constant</p>
+<p><span class="math display">\[\Lambda\]</span></p>
+<p>may be more naturally associated with the gravitational projection class than with the changing cosmological macrostate itself.</p>
+<p>This does not establish its R²D origin.</p>
+<p>It identifies only its logical status within the physical projection.</p>
+<!-- source_pdf_page: 2047 -->
+</section>
+<section id="the-friedmann-sum-therefore-mixes-logical-types" class="level2">
+<h2 class="anchored" data-anchor-id="the-friedmann-sum-therefore-mixes-logical-types">18. The Friedmann Sum Therefore Mixes Logical Types</h2>
+<p>The right-hand side combines:</p>
+<blockquote class="blockquote">
+<p>state-dependent source or geometry versus state-independent parameter</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>state-dependent source or geometry versus state-independent parameter</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>state-dependent source or geometry versus state-independent parameter</p>
+</blockquote>
+<p>This should immediately caution against primitive term-by-term R²D identification.</p>
+</section>
+<section id="the-cosmological-constant-can-be-reassigned-algebraically" class="level2">
+<h2 class="anchored" data-anchor-id="the-cosmological-constant-can-be-reassigned-algebraically">19. The Cosmological Constant Can Be Reassigned Algebraically</h2>
+<p>Define the effective vacuum energy density</p>
+<p><span class="math display">\[\epsilon_\Lambda=\frac{\Lambda c^4}{8\pi G}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_\Lambda=\frac{\Lambda c^2}{3}\]</span></p>
+</section>
+<section id="friedmann-can-then-be-written-with-λ-as-source-density" class="level2">
+<h2 class="anchored" data-anchor-id="friedmann-can-then-be-written-with-λ-as-source-density">20. Friedmann Can Then Be Written With Λ as Source Density</h2>
+<p>The same equation becomes</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}(\epsilon+\epsilon_\Lambda)-\frac{kc^2}{a^2}\]</span></p>
+<p>The physical rate has not changed.</p>
+<p>Only the placement of Λ has.</p>
+</section>
+<section id="geometry-has-been-rewritten-as-source-bookkeeping" class="level2">
+<h2 class="anchored" data-anchor-id="geometry-has-been-rewritten-as-source-bookkeeping">21. Geometry Has Been Rewritten as Source Bookkeeping</h2>
+<p>In this representation,</p>
+<!-- source_pdf_page: 2048 -->
+<p><span class="math display">\[\Lambda\]</span></p>
+<p>has moved from an explicit geometric term into an effective energy-density term.</p>
+<p>Therefore its algebraic location cannot determine its primitive causal status.</p>
+</section>
+<section id="curvature-can-be-rewritten-the-same-way" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-can-be-rewritten-the-same-way">22. Curvature Can Be Rewritten the Same Way</h2>
+<p>Define</p>
+<p><span class="math display">\[\epsilon_k=-\frac{3kc^4}{8\pi G a^2}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_k=-\frac{kc^2}{a^2}\]</span></p>
+</section>
+<section id="the-entire-friedmann-equation-can-be-written-as-effective-density" class="level2">
+<h2 class="anchored" data-anchor-id="the-entire-friedmann-equation-can-be-written-as-effective-density">23. The Entire Friedmann Equation Can Be Written as Effective Density</h2>
+<p>Therefore:</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}(\epsilon+\epsilon_\Lambda+\epsilon_k)\]</span></p>
+<p>All three contributions now appear algebraically as source densities.</p>
+</section>
+<section id="this-does-not-turn-curvature-into-matter" class="level2">
+<h2 class="anchored" data-anchor-id="this-does-not-turn-curvature-into-matter">24. This Does Not Turn Curvature Into Matter</h2>
+<p>The effective quantity</p>
+<p><span class="math display">\[\epsilon_k\]</span></p>
+<p>is a bookkeeping coordinate.</p>
+<p>It does not mean that spatial curvature has become a material substance.</p>
+<p>The transformation only demonstrates nonuniqueness of the partition.</p>
+<!-- source_pdf_page: 2049 -->
+</section>
+<section id="the-same-is-true-of-vacuum-energy-representation" class="level2">
+<h2 class="anchored" data-anchor-id="the-same-is-true-of-vacuum-energy-representation">25. The Same Is True of Vacuum-Energy Representation</h2>
+<p>Writing</p>
+<p><span class="math display">\[\epsilon_\Lambda\]</span></p>
+<p>does not by itself establish that a primitive material vacuum fluid is the ontological source of Λ.</p>
+<p>It is a physically useful representation.</p>
+<p>Primitive causality remains a separate question.</p>
+</section>
+<section id="principle-friedmann-partition-nonuniqueness" class="level2">
+<h2 class="anchored" data-anchor-id="principle-friedmann-partition-nonuniqueness">26. Principle — Friedmann Partition Nonuniqueness</h2>
+<p>The same physical quantity</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<p>can be represented through multiple algebraically equivalent partitions.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[\text{Friedmann placement}\ne\text{primitive origin}\]</span></p>
+</section>
+<section id="r²d-requires-independent-projection-bridges" class="level2">
+<h2 class="anchored" data-anchor-id="r²d-requires-independent-projection-bridges">27. R²D Requires Independent Projection Bridges</h2>
+<p>To identify any Friedmann contribution with a primitive R²D relation, one must separately derive the mapping.</p>
+<p>No such identity follows merely from the form of the Friedmann equation.</p>
+</section>
+<section id="do-not-identify-λ-with-possibility" class="level2">
+<h2 class="anchored" data-anchor-id="do-not-identify-λ-with-possibility">28. Do Not Identify Λ With Possibility</h2>
+<p>The sign of</p>
+<p><span class="math display">\[ F_\Lambda\]</span></p>
+<p>may make</p>
+<p><span class="math display">\[ F_\Lambda\]</span></p>
+<p>look attractive.</p>
+<!-- source_pdf_page: 2050 -->
+<p>But no count bridge has established that identity.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[ P_\zeta\ne\Lambda\]</span></p>
+<p>at the present stage.</p>
+</section>
+<section id="do-not-identify-matter-density-with-retention" class="level2">
+<h2 class="anchored" data-anchor-id="do-not-identify-matter-density-with-retention">29. Do Not Identify Matter Density With Retention</h2>
+<p>Likewise,</p>
+<p><span class="math display">\[\epsilon_m\]</span></p>
+<p>does not become</p>
+<p><span class="math display">\[ R_\zeta\]</span></p>
+<p>merely because matter often opposes accelerated expansion in a conventional dynamical interpretation.</p>
+<p>Thus:</p>
+<p><span class="math display">\[ R_\zeta\ne\epsilon_m\]</span></p>
+<p>without derivation.</p>
+</section>
+<section id="do-not-build-aζ-from-friedmann-signs" class="level2">
+<h2 class="anchored" data-anchor-id="do-not-build-aζ-from-friedmann-signs">30. Do Not Build Aζ From Friedmann Signs</h2>
+<p>A decomposition such as</p>
+<p><span class="math display">\[ A_\zeta\overset{?}{=}\epsilon_\Lambda-\epsilon_m\]</span></p>
+<p>would import the gravitational projection back into the primitive thermodynamic layer.</p>
+<p>That reverses the correct explanatory order.</p>
+</section>
+<section id="the-primitive-asymmetry-already-exists-earlier" class="level2">
+<h2 class="anchored" data-anchor-id="the-primitive-asymmetry-already-exists-earlier">31. The Primitive Asymmetry Already Exists Earlier</h2>
+<p>For a nonterminal cosmological boundary,</p>
+<!-- source_pdf_page: 2051 -->
+<p><span class="math inline">\(A_\zeta=P_\zeta-R_\zeta\)</span></p>
+<p>is defined before energy density, curvature, Λ, or G have been introduced.</p>
+<p>The Friedmann partition therefore cannot define it retroactively.</p>
+</section>
+<section id="the-throughput-magnitude-is-prior-to-the-partition" class="level2">
+<h2 class="anchored" data-anchor-id="the-throughput-magnitude-is-prior-to-the-partition">32. The Throughput Magnitude Is Prior to the Partition</h2>
+<p>The appropriate ordering is:</p>
+<p><span class="math display">\[ A_\zeta\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>structural branch</p>
+<p><span class="math display">\[\chi\zeta\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>recursive throughput</p>
+<p><span class="math display">\[\rho_{\zeta\mid\zeta-1,a}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>geometric and clock calibration</p>
+<p><span class="math display">\[ H^2=T_\zeta\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>Friedmann partition</p>
+<p><span class="math display">\[ F_\epsilon+F_k+F_\Lambda\]</span></p>
+</section>
+<section id="the-friedmann-terms-are-coordinates-of-the-physical-projection" class="level2">
+<h2 class="anchored" data-anchor-id="the-friedmann-terms-are-coordinates-of-the-physical-projection">33. The Friedmann Terms Are Coordinates of the Physical Projection</h2>
+<p>They describe the rate magnitude in the mature gravitational language.</p>
+<p>They are not the primitive count architecture from which the rate originated.</p>
+<!-- source_pdf_page: 2052 -->
+</section>
+<section id="apply-the-physical-read-factorization-criterion" class="level2">
+<h2 class="anchored" data-anchor-id="apply-the-physical-read-factorization-criterion">34. Apply the Physical-Read Factorization Criterion</h2>
+<p>Addendum 56 established that a physical observable belongs to the cosmological macrostate only when it factors through</p>
+<p><span class="math display">\[\pi_\zeta\]</span></p>
+<p>The same requirement applies term by term.</p>
+</section>
+<section id="energy-density-requires-macrostate-factorization" class="level2">
+<h2 class="anchored" data-anchor-id="energy-density-requires-macrostate-factorization">35. Energy Density Requires Macrostate Factorization</h2>
+<p>For energy density to be a cosmological macrostate coordinate, require</p>
+<p><span class="math display">\[\epsilon\circ\Pi_G=\bar\epsilon_\zeta\circ\pi_\zeta\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\epsilon_{\zeta,i}\]</span></p>
+<p>is well defined.</p>
+</section>
+<section id="curvature-requires-macrostate-factorization" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-requires-macrostate-factorization">36. Curvature Requires Macrostate Factorization</h2>
+<p>Define the physical curvature read</p>
+<p><span class="math display">\[\frac{k}{a^2}\]</span></p>
+<p>For it to represent the R²D cosmological macrostate,</p>
+<p><span class="math display">\[ K\circ\Pi_G=\bar K_\zeta\circ\pi_\zeta\]</span></p>
+</section>
+<section id="k-itself-need-not-be-a-state-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="k-itself-need-not-be-a-state-coordinate">37. k Itself Need Not Be a State Coordinate</h2>
+<p>Because k remains fixed within one projection class, it can label the physical geometry without distinguishing states within that class.</p>
+<p>This is another reason to separate projection parameters from macrostate variables.</p>
+<!-- source_pdf_page: 2053 -->
+</section>
+<section id="constant-λ-factorizes-trivially" class="level2">
+<h2 class="anchored" data-anchor-id="constant-λ-factorizes-trivially">38. Constant Λ Factorizes Trivially</h2>
+<p>If</p>
+<p><span class="math display">\[\Lambda\]</span></p>
+<p>is fixed throughout the projection,</p>
+<p><span class="math display">\[\Lambda[\Pi_G(\mu)]=\Lambda\]</span></p>
+<p>for all</p>
+<p><span class="math display">\[\mu\in\Omega_\zeta\]</span></p>
+<p>Its factorization through πζ therefore carries no state information.</p>
+</section>
+<section id="g-has-different-status-again" class="level2">
+<h2 class="anchored" data-anchor-id="g-has-different-status-again">39. G Has Different Status Again</h2>
+<p>The gravitational constant</p>
+<p><span class="math display">\[ G\]</span></p>
+<p>does not label one cosmological macrostate rather than another.</p>
+<p>It converts between physical source and gravitational geometric place-value dictionaries.</p>
+<p>Thus:</p>
+<p><span class="math display">\[ G\]</span></p>
+<p>not</p>
+<blockquote class="blockquote">
+<p>G = cosmological state variable.</p>
+</blockquote>
+</section>
+<section id="the-friedmann-equation-mixes-state-reads-and-projection-constants" class="level2">
+<h2 class="anchored" data-anchor-id="the-friedmann-equation-mixes-state-reads-and-projection-constants">40. The Friedmann Equation Mixes State Reads and Projection Constants</h2>
+<p>Its right-hand side therefore contains both:</p>
+<blockquote class="blockquote">
+<p>state-dependent coordinates</p>
+</blockquote>
+<p>and</p>
+<!-- source_pdf_page: 2054 -->
+<p><span class="math display">\[\text{projection-defining constants}\]</span></p>
+<p>This mixed ownership is another indication that the sum is downstream of primitive R²D structure.</p>
+</section>
+<section id="normalize-the-partition" class="level2">
+<h2 class="anchored" data-anchor-id="normalize-the-partition">41. Normalize the Partition</h2>
+<p>For</p>
+<p><span class="math display">\[ H^2&gt;0\]</span></p>
+<p>define</p>
+<p><span class="math display">\[\Omega_\epsilon=\frac{F_\epsilon}{H^2}\]</span></p>
+<p><span class="math display">\[\Omega_k=\frac{F_k}{H^2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Omega_\Lambda=\frac{F_\Lambda}{H^2}\]</span></p>
+</section>
+<section id="the-normalized-friedmann-budget-sums-to-one" class="level2">
+<h2 class="anchored" data-anchor-id="the-normalized-friedmann-budget-sums-to-one">42. The Normalized Friedmann Budget Sums to One</h2>
+<p>Then</p>
+<p><span class="math display">\[1=\Omega_\epsilon+\Omega_k+\Omega_\Lambda\]</span></p>
+<p>This is the conventional normalized partition of the physical rate constraint.</p>
+</section>
+<section id="these-ω-values-are-not-r²d-multiplicity-fractions" class="level2">
+<h2 class="anchored" data-anchor-id="these-ω-values-are-not-r²d-multiplicity-fractions">43. These Ω Values Are Not R²D Multiplicity Fractions</h2>
+<p>The notation must not invite confusion.</p>
+<p>They do not represent:</p>
+<p><span class="math display">\[\frac{W_i}{W_{\mathrm{tot}}}\]</span></p>
+<p>nor fractions of primitive possibility.</p>
+<p>They are normalized contributions to the projected Friedmann rate equation.</p>
+<!-- source_pdf_page: 2055 -->
+</section>
+<section id="the-cosmological-budget-is-therefore-a-projected-budget" class="level2">
+<h2 class="anchored" data-anchor-id="the-cosmological-budget-is-therefore-a-projected-budget">44. The Cosmological Budget Is Therefore a Projected Budget</h2>
+<p>The conventional cosmic budget describes how</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<p>is partitioned in one gravitational coordinate system.</p>
+<p>R²D accepts its observational usefulness while assigning it downstream status.</p>
+</section>
+<section id="a-different-algebraic-partition-gives-a-different-budget" class="level2">
+<h2 class="anchored" data-anchor-id="a-different-algebraic-partition-gives-a-different-budget">45. A Different Algebraic Partition Gives a Different Budget</h2>
+<p>If Λ and curvature are rewritten as effective densities, the apparent category structure changes.</p>
+<p>The same H 2 remains.</p>
+<p>This reinforces that normalized budget categories are representation dependent.</p>
+</section>
+<section id="the-whole-physical-rate-is-more-invariant-than-its-partition" class="level2">
+<h2 class="anchored" data-anchor-id="the-whole-physical-rate-is-more-invariant-than-its-partition">46. The Whole Physical Rate Is More Invariant Than Its Partition</h2>
+<p>The quantity</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<p>is common to the equivalent representations.</p>
+<p>The decomposition</p>
+<p><span class="math display">\[ F_\epsilon+F_k+F_\Lambda\]</span></p>
+<p>is less primitive.</p>
+<p>Thus the whole precedes its physical bookkeeping pieces in the R²D interpretation.</p>
+</section>
+<section id="this-mirrors-the-general-r²d-causal-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="this-mirrors-the-general-r²d-causal-inversion">47. This Mirrors the General R²D Causal Inversion</h2>
+<p>R²D repeatedly finds that a stable whole-system relation is identified before mechanistic attribution among subordinate terms.</p>
+<p>Friedmann cosmology displays the same architecture.</p>
+<!-- source_pdf_page: 2056 -->
+<p>The physically constrained whole is</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<p>The source partition is a later representation.</p>
+</section>
+<section id="matter-energy-requires-its-own-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="matter-energy-requires-its-own-derivation">48. Matter-Energy Requires Its Own Derivation</h2>
+<p>The first downstream problem is therefore:</p>
+<blockquote class="blockquote">
+<p>How do recursively organized peer boundaries acquire the physical source-density coordinate / εζ ?</p>
+</blockquote>
+<p>This question cannot be answered by simply inserting mass density into P or R.</p>
+</section>
+<section id="the-source-read-must-begin-with-peer-coupling" class="level2">
+<h2 class="anchored" data-anchor-id="the-source-read-must-begin-with-peer-coupling">49. The Source Read Must Begin With Peer Coupling</h2>
+<p>Addendum 55 already supplied the bridge</p>
+<p><span class="math display">\[\mu_\alpha\to m_\alpha\]</span></p>
+<p>for a peer boundary.</p>
+<p>A cosmological energy density must therefore emerge from the aggregate physical coupling read of the peer organization together with its projected support.</p>
+</section>
+<section id="curvature-requires-a-different-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-requires-a-different-derivation">50. Curvature Requires a Different Derivation</h2>
+<p>The curvature term asks:</p>
+<blockquote class="blockquote">
+<p>How does the enclosing geometric organization of the peer boundary acquire the physical / read k/a2 ?</p>
+</blockquote>
+<p>This is a boundary-geometry problem, not a source-density problem.</p>
+</section>
+<section id="λ-requires-a-third-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="λ-requires-a-third-derivation">51. Λ Requires a Third Derivation</h2>
+<p>The cosmological constant asks:</p>
+<blockquote class="blockquote">
+<p>Why does the gravitational projection admit a state-independent inverse-length-squared / offset?</p>
+</blockquote>
+<!-- source_pdf_page: 2057 -->
+<p>That question is logically separate from both matter-energy density and evolving spatial curvature.</p>
+</section>
+<section id="these-problems-should-not-be-solved-by-one-renaming" class="level2">
+<h2 class="anchored" data-anchor-id="these-problems-should-not-be-solved-by-one-renaming">52. These Problems Should Not Be Solved by One Renaming</h2>
+<p>The three physical terms have different boundary ownership.</p>
+<p>Therefore one should not expect one primitive identity such as</p>
+<p><span class="math display">\[ P-R\]</span></p>
+<p>to decompose automatically into</p>
+<p><span class="math display">\[\epsilon,\quad k,\quad\Lambda\]</span></p>
+<p>Separate physical bridges are required.</p>
+</section>
+<section id="principle-recursive-throughput-precedes-friedmann-partition" class="level2">
+<h2 class="anchored" data-anchor-id="principle-recursive-throughput-precedes-friedmann-partition">53. Principle — Recursive Throughput Precedes Friedmann Partition</h2>
+<p>Define</p>
+<p><span class="math display">\[ T_\zeta\equiv f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>When the R²D and FLRW projections describe the same physical rate,</p>
+<p><span class="math display">\[ T_\zeta=H^2\]</span></p>
+<p>The Friedmann equation then partitions this rate magnitude.</p>
+</section>
+<section id="principle-friedmann-partition" class="level2">
+<h2 class="anchored" data-anchor-id="principle-friedmann-partition">54. Principle — Friedmann Partition</h2>
+<p>The conventional physical decomposition is</p>
+<p><span class="math display">\[ T_\zeta=H^2=F_\epsilon+F_k+F_\Lambda\]</span></p>
+<p>This decomposition belongs to the gravitational projection.</p>
+</section>
+<section id="principle-partition-categories-are-not-primitive-count-types" class="level2">
+<h2 class="anchored" data-anchor-id="principle-partition-categories-are-not-primitive-count-types">55. Principle — Partition Categories Are Not Primitive Count Types</h2>
+<p>The terms</p>
+<!-- source_pdf_page: 2058 -->
+<p><span class="math display">\[ F_\epsilon,\quad F_k,\quad F_\Lambda\]</span></p>
+<p>do not correspond by definition to</p>
+<p><span class="math display">\[ P,\quad R,\quad A\]</span></p>
+<p>or any other primitive R²D count type.</p>
+<p>Their identities must be independently mapped.</p>
+</section>
+<section id="principle-algebraic-relocation-does-not-change-the-physical-rate" class="level2">
+<h2 class="anchored" data-anchor-id="principle-algebraic-relocation-does-not-change-the-physical-rate">56. Principle — Algebraic Relocation Does Not Change the Physical Rate</h2>
+<p>The transformations</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_\Lambda=\frac{\Lambda c^2}{3}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_k=-\frac{kc^2}{a^2}\]</span></p>
+<p>leave</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<p>unchanged.</p>
+<p>Therefore the algebraic side on which a term is written does not establish primitive causal ownership.</p>
+</section>
+<section id="principle-projection-class-parameters-and-state-variables-must-be-distinguished" class="level2">
+<h2 class="anchored" data-anchor-id="principle-projection-class-parameters-and-state-variables-must-be-distinguished">57. Principle — Projection-Class Parameters and State Variables Must Be Distinguished</h2>
+<p>Quantities such as</p>
+<p><span class="math display">\[ k,\quad\Lambda,\quad G\]</span></p>
+<p>may remain fixed while the cosmological macrostate changes.</p>
+<p>Quantities such as</p>
+<p><span class="math display">\[\frac{k}{a^2}\]</span></p>
+<p>may vary with the state.</p>
+<!-- source_pdf_page: 2059 -->
+<p>These different ownership classes should not be collapsed.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">58. Logical Status</h2>
+<p><span class="math display">\[\epsilon,\quad a,\quad k/a^2\]</span></p>
+<p>Recursive throughput, geometric step, and physical clock calibration produce</p>
+<p><span class="math display">\[ H^2=f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>New Shorthand</p>
+<p><span class="math display">\[ T_\zeta\equiv H^2\]</span></p>
+<p>within the conditional throughput projection.</p>
+<p>This is not a new primitive quantity.</p>
+<p>Imported Friedmann Relation</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}\epsilon-\frac{kc^2}{a^2}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>New Interpretation</p>
+<p>The Friedmann equation partitions the already-defined physical rate magnitude into conventional gravitational coordinates.</p>
+<p>Algebraic Nonuniqueness</p>
+<p><span class="math display">\[\epsilon_\Lambda=\frac{\Lambda c^4}{8\pi G}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\epsilon_k=-\frac{3kc^4}{8\pi G a^2}\]</span></p>
+<p>allow the same physical rate to be written</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}(\epsilon+\epsilon_\Lambda+\epsilon_k)\]</span></p>
+<!-- source_pdf_page: 2060 -->
+<p>Consequence</p>
+<p>The individual Friedmann terms cannot be identified with primitive R²D variables solely from their algebraic placement.</p>
+<p>Not Established Here</p>
+<p>This addendum does not establish:</p>
+<ul>
+<li>the R²D derivation of <span class="math inline">\(\epsilon\)</span>;</li>
+<li>the R²D derivation of <span class="math inline">\(k/a^2\)</span>;</li>
+<li>the R²D derivation of <span class="math inline">\(\Lambda\)</span>;</li>
+<li><span class="math inline">\(P_\zeta=\epsilon_\Lambda\)</span>;</li>
+<li><span class="math inline">\(R_\zeta=\epsilon_m\)</span>;</li>
+<li><span class="math inline">\(A_\zeta=\epsilon_\Lambda-\epsilon_m\)</span>;</li>
+<li><span class="math inline">\(C_\zeta=k\)</span>;</li>
+<li>curvature literally being an energy density;</li>
+<li>vacuum energy as the primitive ontology of <span class="math inline">\(\Lambda\)</span>;</li>
+<li>a complete derivation of Friedmann dynamics from primitive R²D counting.</li>
+</ul>
+</section>
+<section id="the-complete-ordering" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-ordering">59. The Complete Ordering</h2>
+<p>Primitive cosmological direction is defined first:</p>
+<p><span class="math display">\[ A_\zeta=P_\zeta-R_\zeta.\]</span></p>
+<p>A structural branch is selected:</p>
+<p><span class="math display">\[ i_\zeta^\ast\to k_\zeta^\ast\]</span></p>
+<p>The selected enclosing occurrence is realized through subordinate closure recurrence:</p>
+<p><span class="math display">\[\rho_{\zeta\mid\zeta-1,a}\]</span></p>
+<p>A geometric step is assigned:</p>
+<p><span class="math display">\[\delta_{A,\chi}\]</span></p>
+<p>A physical clock is calibrated:</p>
+<p><span class="math display">\[ f_a\]</span></p>
+<p>These produce one physical rate magnitude:</p>
+<!-- source_pdf_page: 2061 -->
+<p><span class="math display">\[ T_\zeta=f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2=H^2\]</span></p>
+<p>Only afterward does the gravitational projection write</p>
+<p><span class="math display">\[ T_\zeta=\frac{8\pi G}{3c^2}\epsilon-\frac{kc^2}{a^2}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>recursive throughput</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>physical rate magnitude</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Friedmann partition.</p>
+</blockquote>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">60. Conclusion</h2>
+<p>The Friedmann equation is commonly read as a competition among physical causes.</p>
+<p>Matter-energy contributes one term.</p>
+<p>Spatial curvature contributes another.</p>
+<p>The cosmological constant contributes a third.</p>
+<p>Their sum determines the squared Hubble rate:</p>
+<p><span class="math display">\[ T_\zeta=H^2=F_\epsilon+F_k+F_\Lambda\]</span></p>
+<p>R²D begins earlier.</p>
+<p>Addendum 59 identifies a single physically calibrated recursive throughput magnitude:</p>
+<p><span class="math display">\[ H^2=f_a^2\delta_{A,\chi}^2\rho_{\zeta\mid\zeta-1,a}^2\]</span></p>
+<p>When both descriptions refer to the same cosmological realization,</p>
+<p><span class="math display">\[ T_\zeta=H^2\]</span></p>
+<p>The Friedmann equation therefore partitions a rate magnitude that has already acquired physical meaning through recursive throughput, geometric projection, and clock calibration.</p>
+<!-- source_pdf_page: 2062 -->
+<p>The partition does not possess one unique ontological form.</p>
+<p>A cosmological constant term can be rewritten as an effective vacuum energy density:</p>
+<p><span class="math display">\[\epsilon_\Lambda=\frac{\Lambda c^4}{8\pi G}\]</span></p>
+<p>A curvature term can likewise be rewritten as an effective density:</p>
+<p><span class="math display">\[\epsilon_k=-\frac{3kc^4}{8\pi G a^2}\]</span></p>
+<p>Thus the same physical equation may be written as</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}\epsilon-\frac{kc^2}{a^2}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>or</p>
+<p><span class="math display">\[ H^2=\frac{8\pi G}{3c^2}(\epsilon+\epsilon_\Lambda+\epsilon_k)\]</span></p>
+<p>The physical rate has not changed.</p>
+<p>Only its coordinate decomposition has.</p>
+<p>Therefore the location of a term on the “source” or “geometry” side cannot by itself establish primitive causal status.</p>
+<p>This is decisive for R²D cosmology.</p>
+<p>It prevents the primitive turbine</p>
+<p><span class="math inline">\(A_\zeta=P_\zeta-R_\zeta\)</span> from being reconstructed after the fact by renaming conventional Friedmann terms.</p>
+<p>Possibility is not dark energy by definition.</p>
+<p>Retention is not matter density by definition.</p>
+<p>Asymmetry is not their conventional difference.</p>
+<p>Curvature is not primitive constraint merely because it enters with the opposite sign.</p>
+<p>These mappings, if physically real, must be derived independently.</p>
+<!-- source_pdf_page: 2063 -->
+<p>The correct explanatory order is therefore:</p>
+<blockquote class="blockquote">
+<p>primitive count asymmetry</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>structural realization</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>recursive throughput</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>physical rate magnitude</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Friedmann partition.</p>
+</blockquote>
+<p>The whole physical rate relation occurs before its conventional partition into source and geometry.</p>
+<p>The central statement is therefore:</p>
+<blockquote class="blockquote">
+<p><strong>Central statement.</strong> The Friedmann equation does not expose three primitive causes of cosmological evolution. It partitions one already-defined physical rate magnitude into matter-energy, curvature, and cosmological-constant coordinates within the gravitational projection. Because that partition can be rearranged without changing <span class="math inline">\(H^2\)</span>, its individual terms cannot be identified with primitive R²D quantities without independent projection bridges.</p>
+</blockquote>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>Friedmann partition occurs after recursive throughput.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="pagination-link" aria-label="Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="pagination-link" aria-label="Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

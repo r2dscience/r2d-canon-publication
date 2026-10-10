@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" rel="next">
+<link href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-76-residual-mass-recurrence-occurs-before-the-spatial-schrödinger-equation" id="toc-addendum-76-residual-mass-recurrence-occurs-before-the-spatial-schrödinger-equation" class="nav-link active" data-scroll-target="#addendum-76-residual-mass-recurrence-occurs-before-the-spatial-schrödinger-equation">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#begin-with-the-persistent-mass-boundary" id="toc-begin-with-the-persistent-mass-boundary" class="nav-link" data-scroll-target="#begin-with-the-persistent-mass-boundary">1. Begin With the Persistent Mass Boundary</a></li>
+  <li><a href="#rest-energy-is-a-later-calibration" id="toc-rest-energy-is-a-later-calibration" class="nav-link" data-scroll-target="#rest-energy-is-a-later-calibration">2. Rest Energy Is a Later Calibration</a></li>
+  <li><a href="#the-mass-recurrence-exists-at-translational-rest" id="toc-the-mass-recurrence-exists-at-translational-rest" class="nav-link" data-scroll-target="#the-mass-recurrence-exists-at-translational-rest">3. The Mass Recurrence Exists at Translational Rest</a></li>
+  <li><a href="#translational-rest-and-recurrence-are-different-relations" id="toc-translational-rest-and-recurrence-are-different-relations" class="nav-link" data-scroll-target="#translational-rest-and-recurrence-are-different-relations">4. Translational Rest and Recurrence Are Different Relations</a></li>
+  <li><a href="#the-reduced-compton-length-is-the-spatial-read-of-mass-recurrence" id="toc-the-reduced-compton-length-is-the-spatial-read-of-mass-recurrence" class="nav-link" data-scroll-target="#the-reduced-compton-length-is-the-spatial-read-of-mass-recurrence">5. The Reduced Compton Length Is the Spatial Read of Mass Recurrence</a></li>
+  <li><a href="#this-is-not-a-material-radius" id="toc-this-is-not-a-material-radius" class="nav-link" data-scroll-target="#this-is-not-a-material-radius">6. This Is Not a Material Radius</a></li>
+  <li><a href="#addendum-74-supplies-temporal-quantum-evolution" id="toc-addendum-74-supplies-temporal-quantum-evolution" class="nav-link" data-scroll-target="#addendum-74-supplies-temporal-quantum-evolution">7. Addendum 74 Supplies Temporal Quantum Evolution</a></li>
+  <li><a href="#addendum-75-supplies-spatial-translation" id="toc-addendum-75-supplies-spatial-translation" class="nav-link" data-scroll-target="#addendum-75-supplies-spatial-translation">8. Addendum 75 Supplies Spatial Translation</a></li>
+  <li><a href="#temporal-and-spatial-recurrence-can-therefore-be-compared" id="toc-temporal-and-spatial-recurrence-can-therefore-be-compared" class="nav-link" data-scroll-target="#temporal-and-spatial-recurrence-can-therefore-be-compared">9. Temporal and Spatial Recurrence Can Therefore Be Compared</a></li>
+  <li><a href="#relativistic-compatibility-supplies-their-physical-relation" id="toc-relativistic-compatibility-supplies-their-physical-relation" class="nav-link" data-scroll-target="#relativistic-compatibility-supplies-their-physical-relation">10. Relativistic Compatibility Supplies Their Physical Relation</a></li>
+  <li><a href="#replace-energy-and-momentum-with-their-phase-reads" id="toc-replace-energy-and-momentum-with-their-phase-reads" class="nav-link" data-scroll-target="#replace-energy-and-momentum-with-their-phase-reads">11. Replace Energy and Momentum With Their Phase Reads</a></li>
+  <li><a href="#therefore" id="toc-therefore" class="nav-link" data-scroll-target="#therefore">12. Therefore</a></li>
+  <li><a href="#normalize-by-the-persistent-mass-recurrence" id="toc-normalize-by-the-persistent-mass-recurrence" class="nav-link" data-scroll-target="#normalize-by-the-persistent-mass-recurrence">13. Normalize by the Persistent Mass Recurrence</a></li>
+  <li><a href="#use-the-reduced-compton-recurrence-length" id="toc-use-the-reduced-compton-recurrence-length" class="nav-link" data-scroll-target="#use-the-reduced-compton-recurrence-length">14. Use the Reduced Compton Recurrence Length</a></li>
+  <li><a href="#define-the-translation-to-mass-recurrence-ratio" id="toc-define-the-translation-to-mass-recurrence-ratio" class="nav-link" data-scroll-target="#define-the-translation-to-mass-recurrence-ratio">15. Define the Translation-to-Mass Recurrence Ratio</a></li>
+  <li><a href="#this-is-also" id="toc-this-is-also" class="nav-link" data-scroll-target="#this-is-also">16. This Is Also</a></li>
+  <li><a href="#the-exact-recurrence-relation-is" id="toc-the-exact-recurrence-relation-is" class="nav-link" data-scroll-target="#the-exact-recurrence-relation-is">17. The Exact Recurrence Relation Is</a></li>
+  <li><a href="#the-mass-recurrence-is-already-present-in-the-total-frequency" id="toc-the-mass-recurrence-is-already-present-in-the-total-frequency" class="nav-link" data-scroll-target="#the-mass-recurrence-is-already-present-in-the-total-frequency">18. The Mass Recurrence Is Already Present in the Total Frequency</a></li>
+  <li><a href="#define-the-residual-recurrence" id="toc-define-the-residual-recurrence" class="nav-link" data-scroll-target="#define-the-residual-recurrence">19. Define the Residual Recurrence</a></li>
+  <li><a href="#then" id="toc-then" class="nav-link" data-scroll-target="#then">20. Then</a></li>
+  <li><a href="#residual-recurrence-is-not-a-new-primitive-closure" id="toc-residual-recurrence-is-not-a-new-primitive-closure" class="nav-link" data-scroll-target="#residual-recurrence-is-not-a-new-primitive-closure">21. Residual Recurrence Is Not a New Primitive Closure</a></li>
+  <li><a href="#its-energetic-read-is" id="toc-its-energetic-read-is" class="nav-link" data-scroll-target="#its-energetic-read-is">22. Its Energetic Read Is</a></li>
+  <li><a href="#for-a-free-massive-boundary-this-is-kinetic-energy" id="toc-for-a-free-massive-boundary-this-is-kinetic-energy" class="nav-link" data-scroll-target="#for-a-free-massive-boundary-this-is-kinetic-energy">23. For a Free Massive Boundary, This Is Kinetic Energy</a></li>
+  <li><a href="#the-nonrelativistic-regime-is-small-relative-recurrence" id="toc-the-nonrelativistic-regime-is-small-relative-recurrence" class="nav-link" data-scroll-target="#the-nonrelativistic-regime-is-small-relative-recurrence">24. The Nonrelativistic Regime Is Small Relative Recurrence</a></li>
+  <li><a href="#expand-the-exact-recurrence-relation" id="toc-expand-the-exact-recurrence-relation" class="nav-link" data-scroll-target="#expand-the-exact-recurrence-relation">25. Expand the Exact Recurrence Relation</a></li>
+  <li><a href="#therefore-1" id="toc-therefore-1" class="nav-link" data-scroll-target="#therefore-1">26. Therefore</a></li>
+  <li><a href="#the-leading-residual-recurrence-is" id="toc-the-leading-residual-recurrence-is" class="nav-link" data-scroll-target="#the-leading-residual-recurrence-is">27. The Leading Residual Recurrence Is</a></li>
+  <li><a href="#substitute-the-mass-recurrence" id="toc-substitute-the-mass-recurrence" class="nav-link" data-scroll-target="#substitute-the-mass-recurrence">28. Substitute the Mass Recurrence</a></li>
+  <li><a href="#then-1" id="toc-then-1" class="nav-link" data-scroll-target="#then-1">29. Then</a></li>
+  <li><a href="#multiply-by-ℏ" id="toc-multiply-by-ℏ" class="nav-link" data-scroll-target="#multiply-by-ℏ">30. Multiply by ℏ</a></li>
+  <li><a href="#since-p-ℏk" id="toc-since-p-ℏk" class="nav-link" data-scroll-target="#since-p-ℏk">31. Since p = ℏk</a></li>
+  <li><a href="#this-reverses-the-usual-explanatory-order" id="toc-this-reverses-the-usual-explanatory-order" class="nav-link" data-scroll-target="#this-reverses-the-usual-explanatory-order">32. This Reverses the Usual Explanatory Order</a></li>
+  <li><a href="#now-separate-the-persistent-mass-phase" id="toc-now-separate-the-persistent-mass-phase" class="nav-link" data-scroll-target="#now-separate-the-persistent-mass-phase">33. Now Separate the Persistent Mass Phase</a></li>
+  <li><a href="#in-energy-units" id="toc-in-energy-units" class="nav-link" data-scroll-target="#in-energy-units">34. In Energy Units</a></li>
+  <li><a href="#this-factorization-has-physical-meaning" id="toc-this-factorization-has-physical-meaning" class="nav-link" data-scroll-target="#this-factorization-has-physical-meaning">35. This Factorization Has Physical Meaning</a></li>
+  <li><a href="#the-residual-coordinate-ψ-has-different-ownership" id="toc-the-residual-coordinate-ψ-has-different-ownership" class="nav-link" data-scroll-target="#the-residual-coordinate-ψ-has-different-ownership">36. The Residual Coordinate ψ Has Different Ownership</a></li>
+  <li><a href="#the-persistent-mass-recurrence-has-not-disappeared" id="toc-the-persistent-mass-recurrence-has-not-disappeared" class="nav-link" data-scroll-target="#the-persistent-mass-recurrence-has-not-disappeared">37. The Persistent Mass Recurrence Has Not Disappeared</a></li>
+  <li><a href="#apply-the-abstract-quantum-evolution-equation" id="toc-apply-the-abstract-quantum-evolution-equation" class="nav-link" data-scroll-target="#apply-the-abstract-quantum-evolution-equation">38. Apply the Abstract Quantum Evolution Equation</a></li>
+  <li><a href="#differentiate-the-factored-state" id="toc-differentiate-the-factored-state" class="nav-link" data-scroll-target="#differentiate-the-factored-state">39. Differentiate the Factored State</a></li>
+  <li><a href="#multiply-by-iℏ" id="toc-multiply-by-iℏ" class="nav-link" data-scroll-target="#multiply-by-iℏ">40. Multiply by iℏ</a></li>
+  <li><a href="#equate-with-hψ" id="toc-equate-with-hψ" class="nav-link" data-scroll-target="#equate-with-hψ">41. Equate With HΨ</a></li>
+  <li><a href="#cancel-the-common-mass-phase-factor" id="toc-cancel-the-common-mass-phase-factor" class="nav-link" data-scroll-target="#cancel-the-common-mass-phase-factor">42. Cancel the Common Mass Phase Factor</a></li>
+  <li><a href="#define-the-exact-residual-generator" id="toc-define-the-exact-residual-generator" class="nav-link" data-scroll-target="#define-the-exact-residual-generator">43. Define the Exact Residual Generator</a></li>
+  <li><a href="#for-a-free-positive-energy-massive-state" id="toc-for-a-free-positive-energy-massive-state" class="nav-link" data-scroll-target="#for-a-free-positive-energy-massive-state">44. For a Free Positive-Energy Massive State</a></li>
+  <li><a href="#therefore-2" id="toc-therefore-2" class="nav-link" data-scroll-target="#therefore-2">45. Therefore</a></li>
+  <li><a href="#factor-out-mc2" id="toc-factor-out-mc2" class="nav-link" data-scroll-target="#factor-out-mc2">46. Factor Out mc2</a></li>
+  <li><a href="#expand-in-the-strong-separation-regime" id="toc-expand-in-the-strong-separation-regime" class="nav-link" data-scroll-target="#expand-in-the-strong-separation-regime">47. Expand in the Strong-Separation Regime</a></li>
+  <li><a href="#the-leading-residual-generator-is" id="toc-the-leading-residual-generator-is" class="nav-link" data-scroll-target="#the-leading-residual-generator-is">48. The Leading Residual Generator Is</a></li>
+  <li><a href="#addendum-75-supplies-momentum-as-translation-generator" id="toc-addendum-75-supplies-momentum-as-translation-generator" class="nav-link" data-scroll-target="#addendum-75-supplies-momentum-as-translation-generator">49. Addendum 75 Supplies Momentum as Translation Generator</a></li>
+  <li><a href="#therefore-3" id="toc-therefore-3" class="nav-link" data-scroll-target="#therefore-3">50. Therefore</a></li>
+  <li><a href="#substitute-into-the-residual-evolution-equation" id="toc-substitute-into-the-residual-evolution-equation" class="nav-link" data-scroll-target="#substitute-into-the-residual-evolution-equation">51. Substitute Into the Residual Evolution Equation</a></li>
+  <li><a href="#the-free-spatial-schrödinger-equation-has-been-recovered" id="toc-the-free-spatial-schrödinger-equation-has-been-recovered" class="nav-link" data-scroll-target="#the-free-spatial-schrödinger-equation-has-been-recovered">52. The Free Spatial Schrödinger Equation Has Been Recovered</a></li>
+  <li><a href="#the-equation-is-therefore-not-primitive" id="toc-the-equation-is-therefore-not-primitive" class="nav-link" data-scroll-target="#the-equation-is-therefore-not-primitive">53. The Equation Is Therefore Not Primitive</a></li>
+  <li><a href="#decompose-the-left-hand-side" id="toc-decompose-the-left-hand-side" class="nav-link" data-scroll-target="#decompose-the-left-hand-side">54. Decompose the Left-Hand Side</a></li>
+  <li><a href="#decompose-the-gradient" id="toc-decompose-the-gradient" class="nav-link" data-scroll-target="#decompose-the-gradient">55. Decompose the Gradient</a></li>
+  <li><a href="#decompose-the-laplacian" id="toc-decompose-the-laplacian" class="nav-link" data-scroll-target="#decompose-the-laplacian">56. Decompose the Laplacian</a></li>
+  <li><a href="#decompose-the-factor-12m" id="toc-decompose-the-factor-12m" class="nav-link" data-scroll-target="#decompose-the-factor-12m">57. Decompose the Factor 1/(2m)</a></li>
+  <li><a href="#the-free-schrödinger-equation-is-therefore-the-intersection-of-four-prior-structures" id="toc-the-free-schrödinger-equation-is-therefore-the-intersection-of-four-prior-structures" class="nav-link" data-scroll-target="#the-free-schrödinger-equation-is-therefore-the-intersection-of-four-prior-structures">58. The Free Schrödinger Equation Is Therefore the Intersection of Four Prior Structures</a></li>
+  <li><a href="#the-nonrelativistic-limit-has-a-recurrence-meaning" id="toc-the-nonrelativistic-limit-has-a-recurrence-meaning" class="nav-link" data-scroll-target="#the-nonrelativistic-limit-has-a-recurrence-meaning">59. The Nonrelativistic Limit Has a Recurrence Meaning</a></li>
+  <li><a href="#in-full-compton-wavelength-form" id="toc-in-full-compton-wavelength-form" class="nav-link" data-scroll-target="#in-full-compton-wavelength-form">60. In Full Compton-Wavelength Form</a></li>
+  <li><a href="#schrödinger-dynamics-is-therefore-a-large-separation-regime" id="toc-schrödinger-dynamics-is-therefore-a-large-separation-regime" class="nav-link" data-scroll-target="#schrödinger-dynamics-is-therefore-a-large-separation-regime">61. Schrödinger Dynamics Is Therefore a Large-Separation Regime</a></li>
+  <li><a href="#this-is-directly-connected-to-addendum-71" id="toc-this-is-directly-connected-to-addendum-71" class="nav-link" data-scroll-target="#this-is-directly-connected-to-addendum-71">62. This Is Directly Connected to Addendum 71</a></li>
+  <li><a href="#strong-separation-gives" id="toc-strong-separation-gives" class="nav-link" data-scroll-target="#strong-separation-gives">63. Strong Separation Gives</a></li>
+  <li><a href="#loss-of-separation-gives" id="toc-loss-of-separation-gives" class="nav-link" data-scroll-target="#loss-of-separation-gives">64. Loss of Separation Gives</a></li>
+  <li><a href="#the-first-correction-is" id="toc-the-first-correction-is" class="nav-link" data-scroll-target="#the-first-correction-is">65. The First Correction Is</a></li>
+  <li><a href="#schrödinger-breakdown-is-therefore-continuous" id="toc-schrödinger-breakdown-is-therefore-continuous" class="nav-link" data-scroll-target="#schrödinger-breakdown-is-therefore-continuous">66. Schrödinger Breakdown Is Therefore Continuous</a></li>
+  <li><a href="#this-is-the-same-general-architecture-seen-elsewhere" id="toc-this-is-the-same-general-architecture-seen-elsewhere" class="nav-link" data-scroll-target="#this-is-the-same-general-architecture-seen-elsewhere">67. This Is the Same General Architecture Seen Elsewhere</a></li>
+  <li><a href="#the-residual-wavefunction-must-not-be-mistaken-for-the-full-massive-recurrence" id="toc-the-residual-wavefunction-must-not-be-mistaken-for-the-full-massive-recurrence" class="nav-link" data-scroll-target="#the-residual-wavefunction-must-not-be-mistaken-for-the-full-massive-recurrence">68. The Residual Wavefunction Must Not Be Mistaken for the Full Massive Recurrence</a></li>
+  <li><a href="#the-complete-state-is" id="toc-the-complete-state-is" class="nav-link" data-scroll-target="#the-complete-state-is">69. The Complete State Is</a></li>
+  <li><a href="#therefore-a-slowly-varying-ψ-can-coexist-with-extremely-fast-native-mass-recurrence" id="toc-therefore-a-slowly-varying-ψ-can-coexist-with-extremely-fast-native-mass-recurrence" class="nav-link" data-scroll-target="#therefore-a-slowly-varying-ψ-can-coexist-with-extremely-fast-native-mass-recurrence">70. Therefore a Slowly Varying ψ Can Coexist With Extremely Fast Native Mass Recurrence</a></li>
+  <li><a href="#this-clarifies-the-meaning-of-a-stationary-state" id="toc-this-clarifies-the-meaning-of-a-stationary-state" class="nav-link" data-scroll-target="#this-clarifies-the-meaning-of-a-stationary-state">71. This Clarifies the Meaning of a Stationary State</a></li>
+  <li><a href="#the-total-recurrence-frequency-is" id="toc-the-total-recurrence-frequency-is" class="nav-link" data-scroll-target="#the-total-recurrence-frequency-is">72. The Total Recurrence Frequency Is</a></li>
+  <li><a href="#yet-the-born-density-can-be-time-independent" id="toc-yet-the-born-density-can-be-time-independent" class="nav-link" data-scroll-target="#yet-the-born-density-can-be-time-independent">73. Yet the Born Density Can Be Time Independent</a></li>
+  <li><a href="#the-same-principle-appeared-in-the-mass-turbine" id="toc-the-same-principle-appeared-in-the-mass-turbine" class="nav-link" data-scroll-target="#the-same-principle-appeared-in-the-mass-turbine">74. The Same Principle Appeared in the Mass Turbine</a></li>
+  <li><a href="#additive-potential-energy-can-be-located-but-is-not-yet-derived" id="toc-additive-potential-energy-can-be-located-but-is-not-yet-derived" class="nav-link" data-scroll-target="#additive-potential-energy-can-be-located-but-is-not-yet-derived">75. Additive Potential Energy Can Be Located but Is Not Yet Derived</a></li>
+  <li><a href="#then-the-familiar-equation-is" id="toc-then-the-familiar-equation-is" class="nav-link" data-scroll-target="#then-the-familiar-equation-is">76. Then the Familiar Equation Is</a></li>
+  <li><a href="#but-v-has-different-boundary-ownership" id="toc-but-v-has-different-boundary-ownership" class="nav-link" data-scroll-target="#but-v-has-different-boundary-ownership">77. But V Has Different Boundary Ownership</a></li>
+  <li><a href="#therefore-the-potential-should-not-be-smuggled-into-the-present-derivation" id="toc-therefore-the-potential-should-not-be-smuggled-into-the-present-derivation" class="nav-link" data-scroll-target="#therefore-the-potential-should-not-be-smuggled-into-the-present-derivation">78. Therefore the Potential Should Not Be Smuggled Into the Present Derivation</a></li>
+  <li><a href="#this-suggests-the-next-problem" id="toc-this-suggests-the-next-problem" class="nav-link" data-scroll-target="#this-suggests-the-next-problem">79. This Suggests the Next Problem</a></li>
+  <li><a href="#principle-persistent-mass-recurrence-precedes-nonrelativistic-motion" id="toc-principle-persistent-mass-recurrence-precedes-nonrelativistic-motion" class="nav-link" data-scroll-target="#principle-persistent-mass-recurrence-precedes-nonrelativistic-motion">80. Principle — Persistent Mass Recurrence Precedes Nonrelativistic Motion</a></li>
+  <li><a href="#principle-relativistic-compatibility-is-a-recurrence-relation-after-calibration" id="toc-principle-relativistic-compatibility-is-a-recurrence-relation-after-calibration" class="nav-link" data-scroll-target="#principle-relativistic-compatibility-is-a-recurrence-relation-after-calibration">81. Principle — Relativistic Compatibility Is a Recurrence Relation After Calibration</a></li>
+  <li><a href="#principle-relative-translation-recurrence-controls-the-regime" id="toc-principle-relative-translation-recurrence-controls-the-regime" class="nav-link" data-scroll-target="#principle-relative-translation-recurrence-controls-the-regime">82. Principle — Relative Translation Recurrence Controls the Regime</a></li>
+  <li><a href="#principle-residual-recurrence-is" id="toc-principle-residual-recurrence-is" class="nav-link" data-scroll-target="#principle-residual-recurrence-is">83. Principle — Residual Recurrence Is</a></li>
+  <li><a href="#principle-kinetic-energy-is-its-energetic-read" id="toc-principle-kinetic-energy-is-its-energetic-read" class="nav-link" data-scroll-target="#principle-kinetic-energy-is-its-energetic-read">84. Principle — Kinetic Energy Is Its Energetic Read</a></li>
+  <li><a href="#principle-the-nonrelativistic-limit-is-strong-recurrence-separation" id="toc-principle-the-nonrelativistic-limit-is-strong-recurrence-separation" class="nav-link" data-scroll-target="#principle-the-nonrelativistic-limit-is-strong-recurrence-separation">85. Principle — The Nonrelativistic Limit Is Strong Recurrence Separation</a></li>
+  <li><a href="#principle-nonrelativistic-kinetic-energy-is-the-leading-residual-term" id="toc-principle-nonrelativistic-kinetic-energy-is-the-leading-residual-term" class="nav-link" data-scroll-target="#principle-nonrelativistic-kinetic-energy-is-the-leading-residual-term">86. Principle — Nonrelativistic Kinetic Energy Is the Leading Residual Term</a></li>
+  <li><a href="#principle-the-persistent-mass-phase-can-be-factored-from-the-physical-representation" id="toc-principle-the-persistent-mass-phase-can-be-factored-from-the-physical-representation" class="nav-link" data-scroll-target="#principle-the-persistent-mass-phase-can-be-factored-from-the-physical-representation">87. Principle — The Persistent Mass Phase Can Be Factored From the Physical Representation</a></li>
+  <li><a href="#principle-the-residual-state-obeys" id="toc-principle-the-residual-state-obeys" class="nav-link" data-scroll-target="#principle-the-residual-state-obeys">88. Principle — The Residual State Obeys</a></li>
+  <li><a href="#principle-the-free-schrödinger-equation-is-the-leading-scale--separated-residual-law" id="toc-principle-the-free-schrödinger-equation-is-the-leading-scale--separated-residual-law" class="nav-link" data-scroll-target="#principle-the-free-schrödinger-equation-is-the-leading-scale--separated-residual-law">89. Principle — The Free Schrödinger Equation Is the Leading Scale- Separated Residual Law</a></li>
+  <li><a href="#principle-schrödinger-dynamics-does-not-describe-the-full-mass-recurrence" id="toc-principle-schrödinger-dynamics-does-not-describe-the-full-mass-recurrence" class="nav-link" data-scroll-target="#principle-schrödinger-dynamics-does-not-describe-the-full-mass-recurrence">90. Principle — Schrödinger Dynamics Does Not Describe the Full Mass Recurrence</a></li>
+  <li><a href="#principle-relativistic-corrections-measure-loss-of-recurrence-separation" id="toc-principle-relativistic-corrections-measure-loss-of-recurrence-separation" class="nav-link" data-scroll-target="#principle-relativistic-corrections-measure-loss-of-recurrence-separation">91. Principle — Relativistic Corrections Measure Loss of Recurrence Separation</a></li>
+  <li><a href="#principle-potential-energy-requires-separate-boundary-ownership" id="toc-principle-potential-energy-requires-separate-boundary-ownership" class="nav-link" data-scroll-target="#principle-potential-energy-requires-separate-boundary-ownership">92. Principle — Potential Energy Requires Separate Boundary Ownership</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">93. Logical Status</a></li>
+  <li><a href="#the-complete-schrödinger-architecture" id="toc-the-complete-schrödinger-architecture" class="nav-link" data-scroll-target="#the-complete-schrödinger-architecture">94. The Complete Schrödinger Architecture</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">95. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></h1>
+<p class="subtitle lead">Persistent Compton Recurrence, Translation Phase, and the Nonrelativistic Residual Generator</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-76-residual-mass-recurrence-occurs-before-the-spatial-schrödinger-equation" class="level1">
+<h1>Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</h1>
+<p><em>Persistent Compton Recurrence, Translation Phase, and the Nonrelativistic Residual Generator</em></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<!-- source_pdf_page: 2505 -->
+<p>The nonrelativistic Schrödinger equation is ordinarily written</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi\]</span></p>
+<p>for a free massive quantum state.</p>
+<p>The equation appears to combine several independent quantum postulates:</p>
+<ul>
+<li>complex temporal evolution;</li>
+<li>Planck’s constant;</li>
+<li>particle mass;</li>
+<li>spatial differentiation;</li>
+<li>and the quadratic kinetic-energy relation.</li>
+</ul>
+<p>The preceding R2D addenda have separated these structures.</p>
+<p>Addendum 71 identified a persistent local mass recurrence with physical calibration</p>
+<p><span class="math display">\[ mc^2=\hbar\omega_M, \]</span></p>
+<p>and corresponding reduced Compton recurrence length</p>
+<p><span class="math display">\[\bar\lambda_M=\frac{c}{\omega_M}=\frac{\hbar}{mc}\]</span></p>
+<p>Addendum 74 showed that boundary-preserving quantum recurrence is represented by a self-adjoint temporal generator and, after physical clock and energetic calibration,</p>
+<p><span class="math display">\[ i\hbar\frac{\partial}{\partial t}|\Psi\rangle=H|\Psi\rangle\]</span></p>
+<p>Addendum 75 showed that boundary-preserving spatial translation has inverse-length generator</p>
+<p><span class="math display">\[ \mathbf K=-i\nabla, \]</span></p>
+<!-- source_pdf_page: 2506 -->
+<p>and, after momentum calibration,</p>
+<p><span class="math display">\[\mathbf P=-i\hbar\nabla\]</span></p>
+<p>The remaining problem is to identify the relation between persistent mass recurrence and spatial translation recurrence.</p>
+<p>For a free massive physical state, the mature relativistic energy-momentum relation is</p>
+<p><span class="math display">\[ E^2=m^2c^4+p^2c^2. \]</span></p>
+<p>Using</p>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p><span class="math display">\[ mc^2=\hbar\omega_M\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ p=\hbar k\]</span></p>
+<p>this becomes</p>
+<p><span class="math display">\[ \omega^2=\omega_M^2+c^2k^2. \]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\frac\omega{\omega_M}=\sqrt{1+(\bar\lambda_M k)^2}\]</span></p>
+<p>Define the dimensionless translation-to-mass recurrence coordinate</p>
+<p><span class="math display">\[ \eta\equiv\bar\lambda_M k=\frac{p}{mc}. \]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\frac\omega{\omega_M}=\sqrt{1+\eta^2}\]</span></p>
+<p>The full physical recurrence of the massive boundary therefore contains the persistent mass recurrence</p>
+<p><span class="math display">\[\omega_M\]</span></p>
+<p>plus a residual recurrence associated with its translational state.</p>
+<p>Define</p>
+<!-- source_pdf_page: 2507 -->
+<p>ωres ≡ ω − ωM .</p>
+<p>Then exactly,</p>
+<p><span class="math display">\[\frac{\omega_{\mathrm{res}}}{\omega_M}=\sqrt{1+\eta^2}-1\]</span></p>
+<p>The corresponding physical energetic read is</p>
+<p><span class="math display">\[ E_{\mathrm{res}}=\hbar\omega_{\mathrm{res}}=E-mc^2. \]</span></p>
+<p>In the nonrelativistic recurrence-separation regime</p>
+<p><span class="math display">\[\eta=\frac{p}{mc}=\bar\lambda_M k\ll1\]</span></p>
+<p>one has</p>
+<p><span class="math display">\[\sqrt{1+\eta^2}=1+\frac{\eta^2}{2}-\frac{\eta^4}{8}+\cdots\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\omega_{\mathrm{res}}=\frac12\omega_M\eta^2-\frac18\omega_M\eta^4+\cdots\]</span></p>
+<p>To leading order,</p>
+<p><span class="math display">\[ \omega_{\mathrm{res}}\approx\frac{\hbar k^2}{2m}. \]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[ E_{\mathrm{res}}\approx\frac{p^2}{2m}\]</span></p>
+<p>The familiar nonrelativistic kinetic energy is therefore the leading physical energy read of recurrence remaining after the persistent mass recurrence is separated from the total phase evolution.</p>
+<p>This distinction becomes explicit at the state level.</p>
+<p>Write the complete massive quantum state as</p>
+<p><span class="math display">\[ \Psi(x,t)=e^{-i\omega_Mt}\psi(x,t). \]</span></p>
+<p>Using</p>
+<!-- source_pdf_page: 2508 -->
+<p><span class="math display">\[\omega_M=\frac{mc^2}{\hbar},\qquad\Psi(\mathbf x,t)=e^{-imc^2t/\hbar}\psi(\mathbf x,t)\]</span></p>
+<p>The factor</p>
+<p><span class="math display">\[ e^{-imc^2t/\hbar}\]</span></p>
+<p>is not discarded ontology.</p>
+<p>It is the physical phase representation of the persistent mass recurrence.</p>
+<p>The residual function</p>
+<p><span class="math display">\[\psi(\mathbf x,t)\]</span></p>
+<p>carries the slower recurrence relative to that persistent closure.</p>
+<p>Substitution into the abstract quantum evolution equation gives</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=(H-mc^2)\psi\]</span></p>
+<p>For a free positive-energy massive state,</p>
+<p><span class="math display">\[ H=\sqrt{m^2c^4+c^2\mathbf P^2}. \]</span></p>
+<p>Therefore the exact residual generator is</p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\sqrt{m^2c^4+c^2\mathbf P^2}-mc^2. \]</span></p>
+<p>Expanding for</p>
+<p><span class="math display">\[\mathbf P^2\ll m^2c^2\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\frac{\mathbf P^2}{2m}-\frac{\mathbf P^4}{8m^3c^2}+\cdots\]</span></p>
+<p>To leading order,</p>
+<p><span class="math display">\[ H_{\mathrm{res}}\approx\frac{\mathbf P^2}{2m}. \]</span></p>
+<p>Addendum 75 supplies</p>
+<!-- source_pdf_page: 2509 -->
+<p><span class="math display">\[ \mathbf P=-i\hbar\nabla. \]</span></p>
+<p>Hence:</p>
+<p><span class="math display">\[ \mathbf P^2=-\hbar^2\nabla^2. \]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi. \]</span></p>
+<p>The free spatial Schrödinger equation follows.</p>
+<p>The R2D interpretation is therefore different from the usual starting point.</p>
+<p>The Schrödinger equation does not govern the complete recurrence of the massive boundary.</p>
+<p>The complete physical phase includes the much faster persistent mass recurrence</p>
+<p><span class="math display">\[ \omega_M=\frac{mc^2}{\hbar}. \]</span></p>
+<p>Schrödinger dynamics describes the slow residual phase evolution after that boundary-native mass recurrence has been factored from the physical representation.</p>
+<p>The nonrelativistic limit is consequently a recurrence-separation condition:</p>
+<p><span class="math display">\[\bar\lambda_M k\ll1\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[ p\ll mc\]</span></p>
+<p>or, using the full Compton wavelength</p>
+<p><span class="math display">\[\lambda_M=\frac{h}{mc}\]</span></p>
+<p>and the translation wavelength</p>
+<p><span class="math display">\[ k=\frac{2\pi}{\lambda},\qquad\lambda\gg\lambda_M\]</span></p>
+<p>The Schrödinger regime is therefore the physical regime in which spatial translation recurrence is weak relative to persistent mass recurrence.</p>
+<p>This directly connects the spatial Schrödinger equation to the Compton analysis of Addendum 71.</p>
+<!-- source_pdf_page: 2510 -->
+<p>When</p>
+<p><span class="math display">\[\lambda\gg\lambda_M\]</span></p>
+<p>the two recurrence scales are strongly separated and the nonrelativistic residual equation is valid.</p>
+<p>As</p>
+<p><span class="math display">\[\lambda\to\lambda_M\]</span></p>
+<p>or</p>
+<p><span class="math display">\[ p\to mc\]</span></p>
+<p>the separation fails.</p>
+<p>Higher-order relativistic terms become readable, and the Schrödinger approximation ceases to be sufficient.</p>
+<p>The same recurrence ratio therefore controls both the appearance of the Compton regime and the breakdown of the nonrelativistic Schrödinger projection.</p>
+<p>The central statement is:</p>
+<p>the nonrelativistic Schrödinger equation does not describe the total recurrence of a massive quantum boundary. The boundary already possesses a persistent mass recurrence <span class="math inline">\(\omega_M=mc^2/\hbar\)</span>. Relativistic compatibility joins that recurrence to spatial translation recurrence through <span class="math inline">\(\omega^2=\omega_M^2+c^2k^2\)</span>. Factoring the persistent mass phase from the full state leaves the residual generator <span class="math inline">\(H_{\mathrm{res}}=\sqrt{m^2c^4+c^2\mathbf P^2}-mc^2\)</span>. In the strongly separated regime <span class="math inline">\(\eta=p/(mc)=\bar\lambda_M k\ll1\)</span>, that residual generator reduces to <span class="math inline">\(H_{\mathrm{res}}\approx\mathbf P^2/(2m)\)</span>. With <span class="math inline">\(\mathbf P=-i\hbar\nabla\)</span>, the free spatial Schrödinger equation follows. Schrödinger dynamics is therefore the slow residual phase dynamics of a massive &gt; boundary relative to its much faster persistent mass recurrence.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>residual mass recurrence occurs before the spatial Schrödinger equation.</p>
+</blockquote>
+</section>
+<section id="begin-with-the-persistent-mass-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="begin-with-the-persistent-mass-boundary">1. Begin With the Persistent Mass Boundary</h2>
+<p>A massive quantum boundary possesses a persistent local recurrent closure.</p>
+<p>Its physical phase-frequency read is</p>
+<p><span class="math display">\[\omega_M\]</span></p>
+<!-- source_pdf_page: 2511 -->
+</section>
+<section id="rest-energy-is-a-later-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="rest-energy-is-a-later-calibration">2. Rest Energy Is a Later Calibration</h2>
+<p>The physical calibration is</p>
+<p><span class="math display">\[ mc^2=\hbar\omega_M\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\omega_M=\frac{mc^2}{\hbar}\]</span></p>
+</section>
+<section id="the-mass-recurrence-exists-at-translational-rest" class="level2">
+<h2 class="anchored" data-anchor-id="the-mass-recurrence-exists-at-translational-rest">3. The Mass Recurrence Exists at Translational Rest</h2>
+<p>If the massive boundary has</p>
+<p><span class="math display">\[\mathbf p=0\]</span></p>
+<p>relative to an enclosing physical frame, its persistent recurrence does not vanish.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[\mathbf p=0\not\Rightarrow\omega_M=0\]</span></p>
+</section>
+<section id="translational-rest-and-recurrence-are-different-relations" class="level2">
+<h2 class="anchored" data-anchor-id="translational-rest-and-recurrence-are-different-relations">4. Translational Rest and Recurrence Are Different Relations</h2>
+<p>Mechanical rest describes relation to an enclosing spatial frame.</p>
+<p>Persistent mass recurrence belongs to the local retained boundary.</p>
+<p>They must not be conflated.</p>
+</section>
+<section id="the-reduced-compton-length-is-the-spatial-read-of-mass-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="the-reduced-compton-length-is-the-spatial-read-of-mass-recurrence">5. The Reduced Compton Length Is the Spatial Read of Mass Recurrence</h2>
+<p>Define:</p>
+<p><span class="math display">\[\bar\lambda_M=\frac{c}{\omega_M}\]</span></p>
+<p>Therefore:</p>
+<!-- source_pdf_page: 2512 -->
+<p>ˉM = ℏ .</p>
+<p><span class="math display">\[\bar\lambda_M=\frac{\hbar}{mc}\]</span></p>
+</section>
+<section id="this-is-not-a-material-radius" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-not-a-material-radius">6. This Is Not a Material Radius</h2>
+<p>The reduced Compton length is a spatial place value assigned to persistent recurrence.</p>
+<p>It does not define the geometric size of the massive object.</p>
+</section>
+<section id="addendum-74-supplies-temporal-quantum-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-74-supplies-temporal-quantum-evolution">7. Addendum 74 Supplies Temporal Quantum Evolution</h2>
+<p>For the complete state,</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\Psi}{\partial t}=H\Psi\]</span></p>
+<p>Here H is the physical temporal recurrence generator after energetic calibration.</p>
+</section>
+<section id="addendum-75-supplies-spatial-translation" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-75-supplies-spatial-translation">8. Addendum 75 Supplies Spatial Translation</h2>
+<p><span class="math display">\[\mathbf P=-i\hbar\nabla\]</span></p>
+<p>Spatial phase eigenstates satisfy</p>
+<p><span class="math display">\[ p=\hbar k\]</span></p>
+</section>
+<section id="temporal-and-spatial-recurrence-can-therefore-be-compared" class="level2">
+<h2 class="anchored" data-anchor-id="temporal-and-spatial-recurrence-can-therefore-be-compared">9. Temporal and Spatial Recurrence Can Therefore Be Compared</h2>
+<p>The massive boundary carries:</p>
+<p><span class="math display">\[\omega\]</span></p>
+<p>as total temporal phase recurrence and</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>as spatial translation phase recurrence.</p>
+<!-- source_pdf_page: 2513 -->
+</section>
+<section id="relativistic-compatibility-supplies-their-physical-relation" class="level2">
+<h2 class="anchored" data-anchor-id="relativistic-compatibility-supplies-their-physical-relation">10. Relativistic Compatibility Supplies Their Physical Relation</h2>
+<p>For a free massive state,</p>
+<p><span class="math display">\[ E^2=m^2c^4+p^2c^2\]</span></p>
+<p>This is an imported mature relativistic physical relation.</p>
+<p>It is not introduced as a primitive R2D identity.</p>
+</section>
+<section id="replace-energy-and-momentum-with-their-phase-reads" class="level2">
+<h2 class="anchored" data-anchor-id="replace-energy-and-momentum-with-their-phase-reads">11. Replace Energy and Momentum With Their Phase Reads</h2>
+<p>Using</p>
+<p><span class="math display">\[ E=\hbar\omega\]</span></p>
+<p><span class="math display">\[ mc^2=\hbar\omega_M\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ p=\hbar k\]</span></p>
+<p>one obtains</p>
+<p><span class="math display">\[\hbar^2\omega^2=\hbar^2\omega_M^2+\hbar^2c^2k^2\]</span></p>
+</section>
+<section id="therefore" class="level2">
+<h2 class="anchored" data-anchor-id="therefore">12. Therefore</h2>
+<p><span class="math display">\[\omega^2=\omega_M^2+c^2k^2\]</span></p>
+<p>This is the relativistic compatibility law written entirely in recurrence coordinates.</p>
+</section>
+<section id="normalize-by-the-persistent-mass-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="normalize-by-the-persistent-mass-recurrence">13. Normalize by the Persistent Mass Recurrence</h2>
+<p>Divide by</p>
+<p><span class="math display">\[\omega_M^2\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\left(\frac\omega{\omega_M}\right)^2=1+\frac{c^2k^2}{\omega_M^2}\]</span></p>
+<!-- source_pdf_page: 2514 -->
+</section>
+<section id="use-the-reduced-compton-recurrence-length" class="level2">
+<h2 class="anchored" data-anchor-id="use-the-reduced-compton-recurrence-length">14. Use the Reduced Compton Recurrence Length</h2>
+<p>Because</p>
+<p><span class="math display">\[\bar\lambda_M=\frac c{\omega_M},\qquad\frac\omega{\omega_M}=\sqrt{1+(\bar\lambda_Mk)^2}\]</span></p>
+</section>
+<section id="define-the-translation-to-mass-recurrence-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-translation-to-mass-recurrence-ratio">15. Define the Translation-to-Mass Recurrence Ratio</h2>
+<p>Let</p>
+<p><span class="math display">\[\eta\equiv\bar\lambda_Mk\]</span></p>
+</section>
+<section id="this-is-also" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-also">16. This Is Also</h2>
+<p><span class="math display">\[\eta=\bar\lambda_Mk=\frac p{mc}\]</span></p>
+<p>Thus η is dimensionless.</p>
+</section>
+<section id="the-exact-recurrence-relation-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-exact-recurrence-relation-is">17. The Exact Recurrence Relation Is</h2>
+<p><span class="math display">\[\frac\omega{\omega_M}=\sqrt{1+\eta^2}\]</span></p>
+<p>This is a particularly useful R2D form of the relativistic dispersion relation.</p>
+</section>
+<section id="the-mass-recurrence-is-already-present-in-the-total-frequency" class="level2">
+<h2 class="anchored" data-anchor-id="the-mass-recurrence-is-already-present-in-the-total-frequency">18. The Mass Recurrence Is Already Present in the Total Frequency</h2>
+<p>For</p>
+<p><span class="math display">\[\eta=0\]</span></p>
+<p><span class="math display">\[\omega=\omega_M\]</span></p>
+<p>Thus translational rest still contains persistent phase recurrence.</p>
+<!-- source_pdf_page: 2515 -->
+</section>
+<section id="define-the-residual-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-residual-recurrence">19. Define the Residual Recurrence</h2>
+<p><span class="math display">\[\omega_{\mathrm{res}}=\omega-\omega_M\]</span></p>
+</section>
+<section id="then" class="level2">
+<h2 class="anchored" data-anchor-id="then">20. Then</h2>
+<p><span class="math display">\[\frac{\omega_{\mathrm{res}}}{\omega_M}=\sqrt{1+\eta^2}-1\]</span></p>
+<p>This relation is exact for the positive-energy free physical branch.</p>
+</section>
+<section id="residual-recurrence-is-not-a-new-primitive-closure" class="level2">
+<h2 class="anchored" data-anchor-id="residual-recurrence-is-not-a-new-primitive-closure">21. Residual Recurrence Is Not a New Primitive Closure</h2>
+<p>It is the difference between:</p>
+<ul>
+<li>total physical phase recurrence;</li>
+<li>persistent mass recurrence.</li>
+</ul>
+<p>It is a derived physical coordinate.</p>
+</section>
+<section id="its-energetic-read-is" class="level2">
+<h2 class="anchored" data-anchor-id="its-energetic-read-is">22. Its Energetic Read Is</h2>
+<p><span class="math display">\[ E_{\mathrm{res}}=\hbar\omega_{\mathrm{res}}\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ E_{\mathrm{res}}=E-mc^2\]</span></p>
+</section>
+<section id="for-a-free-massive-boundary-this-is-kinetic-energy" class="level2">
+<h2 class="anchored" data-anchor-id="for-a-free-massive-boundary-this-is-kinetic-energy">23. For a Free Massive Boundary, This Is Kinetic Energy</h2>
+<p><span class="math display">\[ K=E-mc^2\]</span></p>
+<p>Thus kinetic energy is the physical energetic read of residual recurrence relative to persistent mass closure.</p>
+</section>
+<section id="the-nonrelativistic-regime-is-small-relative-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="the-nonrelativistic-regime-is-small-relative-recurrence">24. The Nonrelativistic Regime Is Small Relative Recurrence</h2>
+<p>Require:</p>
+<p><span class="math display">\[\eta \ll 1\]</span></p>
+<!-- source_pdf_page: 2516 -->
+<p>Equivalently:</p>
+<p><span class="math display">\[ p\ll mc\]</span></p>
+</section>
+<section id="expand-the-exact-recurrence-relation" class="level2">
+<h2 class="anchored" data-anchor-id="expand-the-exact-recurrence-relation">25. Expand the Exact Recurrence Relation</h2>
+<p><span class="math display">\[\sqrt{1+\eta^2}=1+\frac{\eta^2}{2}-\frac{\eta^4}{8}+O(\eta^6)\]</span></p>
+</section>
+<section id="therefore-1" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-1">26. Therefore</h2>
+<p><span class="math display">\[\frac{\omega_{\mathrm{res}}}{\omega_M}=\frac{\eta^2}{2}-\frac{\eta^4}{8}+O(\eta^6)\]</span></p>
+</section>
+<section id="the-leading-residual-recurrence-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-leading-residual-recurrence-is">27. The Leading Residual Recurrence Is</h2>
+<p><span class="math display">\[\omega_{\mathrm{res}}\approx\frac12\omega_M\eta^2\]</span></p>
+</section>
+<section id="substitute-the-mass-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="substitute-the-mass-recurrence">28. Substitute the Mass Recurrence</h2>
+<p><span class="math display">\[\omega_M=\frac{mc^2}{\hbar}\]</span></p>
+<p>And</p>
+<p><span class="math display">\[\eta=\frac{\hbar k}{mc}\]</span></p>
+</section>
+<section id="then-1" class="level2">
+<h2 class="anchored" data-anchor-id="then-1">29. Then</h2>
+<p><span class="math display">\[\omega_{\mathrm{res}}\approx\frac12\frac{mc^2}{\hbar}\frac{\hbar^2k^2}{m^2c^2}\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\omega_{\mathrm{res}}\approx\frac{\hbar k^2}{2m}\]</span></p>
+<!-- source_pdf_page: 2517 -->
+</section>
+<section id="multiply-by-ℏ" class="level2">
+<h2 class="anchored" data-anchor-id="multiply-by-ℏ">30. Multiply by ℏ</h2>
+<p><span class="math display">\[ E_{\mathrm{res}}\approx\frac{\hbar^2k^2}{2m}\]</span></p>
+</section>
+<section id="since-p-ℏk" class="level2">
+<h2 class="anchored" data-anchor-id="since-p-ℏk">31. Since p = ℏk</h2>
+<p><span class="math display">\[ E_{\mathrm{res}}\approx\frac{p^2}{2m}\]</span></p>
+<p>The nonrelativistic kinetic-energy law emerges as the leading residual recurrence read.</p>
+</section>
+<section id="this-reverses-the-usual-explanatory-order" class="level2">
+<h2 class="anchored" data-anchor-id="this-reverses-the-usual-explanatory-order">32. This Reverses the Usual Explanatory Order</h2>
+<p>R2D does not begin with</p>
+<p><span class="math display">\[ K=\frac{p^2}{2m}\]</span></p>
+<p>as a primitive mechanical law inserted into quantum theory.</p>
+<p>It identifies it as the leading residual term of the full mass-plus-translation recurrence relation.</p>
+</section>
+<section id="now-separate-the-persistent-mass-phase" class="level2">
+<h2 class="anchored" data-anchor-id="now-separate-the-persistent-mass-phase">33. Now Separate the Persistent Mass Phase</h2>
+<p>Write</p>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-i\omega_Mt}\psi(\mathbf x,t)\]</span></p>
+</section>
+<section id="in-energy-units" class="level2">
+<h2 class="anchored" data-anchor-id="in-energy-units">34. In Energy Units</h2>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-imc^2t/\hbar}\psi(\mathbf x,t)\]</span></p>
+</section>
+<section id="this-factorization-has-physical-meaning" class="level2">
+<h2 class="anchored" data-anchor-id="this-factorization-has-physical-meaning">35. This Factorization Has Physical Meaning</h2>
+<p>The factor</p>
+<!-- source_pdf_page: 2518 -->
+<p><span class="math display">\[ e^{-imc^2t/\hbar}\]</span></p>
+<p>represents persistent mass recurrence.</p>
+<p>It is not merely an arbitrary removable phase inserted for mathematical convenience.</p>
+</section>
+<section id="the-residual-coordinate-ψ-has-different-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="the-residual-coordinate-ψ-has-different-ownership">36. The Residual Coordinate ψ Has Different Ownership</h2>
+<p><span class="math display">\[\psi\]</span></p>
+<p>represents the slower phase relation relative to the persistent mass recurrence.</p>
+</section>
+<section id="the-persistent-mass-recurrence-has-not-disappeared" class="level2">
+<h2 class="anchored" data-anchor-id="the-persistent-mass-recurrence-has-not-disappeared">37. The Persistent Mass Recurrence Has Not Disappeared</h2>
+<p>Factoring it from the representation does not destroy or stop the local closure.</p>
+<p>The complete physical state remains</p>
+<p><span class="math display">\[\Psi\]</span></p>
+</section>
+<section id="apply-the-abstract-quantum-evolution-equation" class="level2">
+<h2 class="anchored" data-anchor-id="apply-the-abstract-quantum-evolution-equation">38. Apply the Abstract Quantum Evolution Equation</h2>
+<p>Start from</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\Psi}{\partial t}=H\Psi\]</span></p>
+</section>
+<section id="differentiate-the-factored-state" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-the-factored-state">39. Differentiate the Factored State</h2>
+<p><span class="math display">\[\frac{\partial\Psi}{\partial t}=e^{-imc^2t/\hbar}\left[-\frac{imc^2}{\hbar}\psi+\frac{\partial\psi}{\partial t}\right]\]</span></p>
+</section>
+<section id="multiply-by-iℏ" class="level2">
+<h2 class="anchored" data-anchor-id="multiply-by-iℏ">40. Multiply by iℏ</h2>
+<p><span class="math display">\[ i\hbar\frac{\partial\Psi}{\partial t}=e^{-imc^2t/\hbar}\left[mc^2\psi+i\hbar\frac{\partial\psi}{\partial t}\right]\]</span></p>
+<!-- source_pdf_page: 2519 -->
+</section>
+<section id="equate-with-hψ" class="level2">
+<h2 class="anchored" data-anchor-id="equate-with-hψ">41. Equate With HΨ</h2>
+<p><span class="math display">\[ e^{-imc^2t/\hbar}\left[mc^2\psi+i\hbar\frac{\partial\psi}{\partial t}\right]=He^{-imc^2t/\hbar}\psi\]</span></p>
+</section>
+<section id="cancel-the-common-mass-phase-factor" class="level2">
+<h2 class="anchored" data-anchor-id="cancel-the-common-mass-phase-factor">42. Cancel the Common Mass Phase Factor</h2>
+<p>Therefore:</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=(H-mc^2)\psi\]</span></p>
+</section>
+<section id="define-the-exact-residual-generator" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-exact-residual-generator">43. Define the Exact Residual Generator</h2>
+<p><span class="math display">\[ H_{\mathrm{res}}\equiv H-mc^2\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=H_{\mathrm{res}}\psi\]</span></p>
+</section>
+<section id="for-a-free-positive-energy-massive-state" class="level2">
+<h2 class="anchored" data-anchor-id="for-a-free-positive-energy-massive-state">44. For a Free Positive-Energy Massive State</h2>
+<p><span class="math display">\[ H=\sqrt{m^2c^4+c^2\mathbf P^2}\]</span></p>
+</section>
+<section id="therefore-2" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-2">45. Therefore</h2>
+<p><span class="math display">\[ H_{\mathrm{res}}=\sqrt{m^2c^4+c^2\mathbf P^2}-mc^2\]</span></p>
+<p>This is the exact free residual Hamiltonian in this physical projection.</p>
+</section>
+<section id="factor-out-mc2" class="level2">
+<h2 class="anchored" data-anchor-id="factor-out-mc2">46. Factor Out mc2</h2>
+<p><span class="math display">\[ H_{\mathrm{res}}=mc^2\left[\sqrt{1+\frac{\mathbf P^2}{m^2c^2}}-1\right]\]</span></p>
+<!-- source_pdf_page: 2520 -->
+</section>
+<section id="expand-in-the-strong-separation-regime" class="level2">
+<h2 class="anchored" data-anchor-id="expand-in-the-strong-separation-regime">47. Expand in the Strong-Separation Regime</h2>
+<p>For</p>
+<p><span class="math display">\[\frac{\mathbf P^2}{m^2c^2}\ll1\]</span></p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\frac{\mathbf P^2}{2m}-\frac{\mathbf P^4}{8m^3c^2}+O(\mathbf P^6)\]</span></p>
+</section>
+<section id="the-leading-residual-generator-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-leading-residual-generator-is">48. The Leading Residual Generator Is</h2>
+<p><span class="math display">\[ H_{\mathrm{res}}\approx\frac{\mathbf P^2}{2m}\]</span></p>
+</section>
+<section id="addendum-75-supplies-momentum-as-translation-generator" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-75-supplies-momentum-as-translation-generator">49. Addendum 75 Supplies Momentum as Translation Generator</h2>
+<p><span class="math display">\[\mathbf P=-i\hbar\nabla\]</span></p>
+</section>
+<section id="therefore-3" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-3">50. Therefore</h2>
+<p><span class="math display">\[\mathbf P^2=(-i\hbar)^2\nabla^2\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\mathbf P^2=-\hbar^2\nabla^2\]</span></p>
+</section>
+<section id="substitute-into-the-residual-evolution-equation" class="level2">
+<h2 class="anchored" data-anchor-id="substitute-into-the-residual-evolution-equation">51. Substitute Into the Residual Evolution Equation</h2>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\frac{\mathbf P^2}{2m}\psi\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi\]</span></p>
+<!-- source_pdf_page: 2521 -->
+</section>
+<section id="the-free-spatial-schrödinger-equation-has-been-recovered" class="level2">
+<h2 class="anchored" data-anchor-id="the-free-spatial-schrödinger-equation-has-been-recovered">52. The Free Spatial Schrödinger Equation Has Been Recovered</h2>
+<p>Its temporal generator came from boundary-preserving recurrence.</p>
+<p>Its spatial generator came from boundary-preserving translation.</p>
+<p>Its kinetic coefficient came from the leading residual of persistent mass recurrence.</p>
+</section>
+<section id="the-equation-is-therefore-not-primitive" class="level2">
+<h2 class="anchored" data-anchor-id="the-equation-is-therefore-not-primitive">53. The Equation Is Therefore Not Primitive</h2>
+<p>It is a scale-separated physical projection built from earlier recurrence relations.</p>
+</section>
+<section id="decompose-the-left-hand-side" class="level2">
+<h2 class="anchored" data-anchor-id="decompose-the-left-hand-side">54. Decompose the Left-Hand Side</h2>
+<p><span class="math display">\[ i\hbar\partial_t\]</span></p>
+<p>comes from:</p>
+<blockquote class="blockquote">
+<p>closure phase → unitary recurrence generator → energy calibration.</p>
+</blockquote>
+</section>
+<section id="decompose-the-gradient" class="level2">
+<h2 class="anchored" data-anchor-id="decompose-the-gradient">55. Decompose the Gradient</h2>
+<p><span class="math display">\[-i\hbar\nabla\]</span></p>
+<p>comes from:</p>
+<blockquote class="blockquote">
+<p>spatial phase → translation generator → momentum calibration.</p>
+</blockquote>
+</section>
+<section id="decompose-the-laplacian" class="level2">
+<h2 class="anchored" data-anchor-id="decompose-the-laplacian">56. Decompose the Laplacian</h2>
+<p><span class="math display">\[\mathbf P^2=-\hbar^2\nabla^2\]</span></p>
+<p>The second spatial derivative arises because the leading residual energy depends quadratically on translation-generator magnitude.</p>
+</section>
+<section id="decompose-the-factor-12m" class="level2">
+<h2 class="anchored" data-anchor-id="decompose-the-factor-12m">57. Decompose the Factor 1/(2m)</h2>
+<p>The coefficient</p>
+<!-- source_pdf_page: 2522 -->
+<p><span class="math display">\[\frac1{2m}\]</span></p>
+<p>comes from the leading expansion of the relativistic compatibility relation around the persistent mass recurrence.</p>
+</section>
+<section id="the-free-schrödinger-equation-is-therefore-the-intersection-of-four-prior-structures" class="level2">
+<h2 class="anchored" data-anchor-id="the-free-schrödinger-equation-is-therefore-the-intersection-of-four-prior-structures">58. The Free Schrödinger Equation Is Therefore the Intersection of Four Prior Structures</h2>
+<blockquote class="blockquote">
+<p>boundary-preserving temporal recurrence</p>
+</blockquote>
+<p><span class="math display">\[+\]</span></p>
+<blockquote class="blockquote">
+<p>boundary-preserving spatial translation</p>
+</blockquote>
+<p><span class="math display">\[+\]</span></p>
+<blockquote class="blockquote">
+<p>persistent mass recurrence</p>
+</blockquote>
+<p><span class="math display">\[+\]</span></p>
+<blockquote class="blockquote">
+<p>strong recurrence separation.</p>
+</blockquote>
+</section>
+<section id="the-nonrelativistic-limit-has-a-recurrence-meaning" class="level2">
+<h2 class="anchored" data-anchor-id="the-nonrelativistic-limit-has-a-recurrence-meaning">59. The Nonrelativistic Limit Has a Recurrence Meaning</h2>
+<p>Conventionally one writes</p>
+<p><span class="math display">\[ v\ll c\]</span></p>
+<p>or</p>
+<p><span class="math display">\[ p\ll mc\]</span></p>
+<p>R2D can express the same physical regime as</p>
+<p><span class="math display">\[\bar\lambda_M k\ll1\]</span></p>
+</section>
+<section id="in-full-compton-wavelength-form" class="level2">
+<h2 class="anchored" data-anchor-id="in-full-compton-wavelength-form">60. In Full Compton-Wavelength Form</h2>
+<p>Because</p>
+<p><span class="math display">\[\lambda_M=2\pi\bar\lambda_M\]</span></p>
+<p>and</p>
+<!-- source_pdf_page: 2523 -->
+<p>2π</p>
+<p><span class="math display">\[ k=\frac{2\pi}{\lambda}\]</span></p>
+<p><span class="math display">\[\bar\lambda_Mk=\frac{\lambda_M}{\lambda}\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\lambda\gg\lambda_M\]</span></p>
+</section>
+<section id="schrödinger-dynamics-is-therefore-a-large-separation-regime" class="level2">
+<h2 class="anchored" data-anchor-id="schrödinger-dynamics-is-therefore-a-large-separation-regime">61. Schrödinger Dynamics Is Therefore a Large-Separation Regime</h2>
+<p>The spatial recurrence ruler is much larger than the mass recurrence ruler.</p>
+<p>Equivalently, the translation phase gradient is weak relative to the persistent Compton recurrence.</p>
+</section>
+<section id="this-is-directly-connected-to-addendum-71" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-directly-connected-to-addendum-71">62. This Is Directly Connected to Addendum 71</h2>
+<p>Addendum 71 identified the Compton regime through relative recurrence approaching unity.</p>
+<p>Here the same ratio controls the validity of the Schrödinger approximation.</p>
+</section>
+<section id="strong-separation-gives" class="level2">
+<h2 class="anchored" data-anchor-id="strong-separation-gives">63. Strong Separation Gives</h2>
+<p><span class="math display">\[\frac{p}{mc}\ll1\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[ H_{\mathrm{res}}\approx\frac{\mathbf P^2}{2m}\]</span></p>
+</section>
+<section id="loss-of-separation-gives" class="level2">
+<h2 class="anchored" data-anchor-id="loss-of-separation-gives">64. Loss of Separation Gives</h2>
+<p><span class="math display">\[\frac{p}{mc}=O(1)\]</span></p>
+<p>Then higher terms become important.</p>
+<!-- source_pdf_page: 2524 -->
+</section>
+<section id="the-first-correction-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-correction-is">65. The First Correction Is</h2>
+<p><span class="math display">\[-\frac{\mathbf P^4}{8m^3c^2}\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\frac{\mathbf P^2}{2m}-\frac{\mathbf P^4}{8m^3c^2}+\cdots\]</span></p>
+</section>
+<section id="schrödinger-breakdown-is-therefore-continuous" class="level2">
+<h2 class="anchored" data-anchor-id="schrödinger-breakdown-is-therefore-continuous">66. Schrödinger Breakdown Is Therefore Continuous</h2>
+<p>There is no need for a sharp mystical point at which quantum mechanics suddenly becomes relativistic.</p>
+<p>The approximation degrades as recurrence separation is lost.</p>
+</section>
+<section id="this-is-the-same-general-architecture-seen-elsewhere" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-same-general-architecture-seen-elsewhere">67. This Is the Same General Architecture Seen Elsewhere</h2>
+<p>Across the recent addenda, physical regime changes occur when recurrence scales become comparable.</p>
+<p>The Schrödinger-to-relativistic crossover fits the same architecture.</p>
+</section>
+<section id="the-residual-wavefunction-must-not-be-mistaken-for-the-full-massive-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="the-residual-wavefunction-must-not-be-mistaken-for-the-full-massive-recurrence">68. The Residual Wavefunction Must Not Be Mistaken for the Full Massive Recurrence</h2>
+<p>The nonrelativistic state</p>
+<p><span class="math display">\[\psi\]</span></p>
+<p>does not contain the complete phase recurrence of the massive boundary.</p>
+</section>
+<section id="the-complete-state-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-state-is">69. The Complete State Is</h2>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-i\omega_Mt}\psi(\mathbf x,t)\]</span></p>
+<!-- source_pdf_page: 2525 -->
+</section>
+<section id="therefore-a-slowly-varying-ψ-can-coexist-with-extremely-fast-native-mass-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-a-slowly-varying-ψ-can-coexist-with-extremely-fast-native-mass-recurrence">70. Therefore a Slowly Varying ψ Can Coexist With Extremely Fast Native Mass Recurrence</h2>
+<p>The slow envelope does not imply that the massive boundary itself is only slowly recurrent.</p>
+</section>
+<section id="this-clarifies-the-meaning-of-a-stationary-state" class="level2">
+<h2 class="anchored" data-anchor-id="this-clarifies-the-meaning-of-a-stationary-state">71. This Clarifies the Meaning of a Stationary State</h2>
+<p>Let</p>
+<p><span class="math display">\[\psi(\mathbf x,t)=e^{-iE_{\mathrm{NR}}t/\hbar}\phi(\mathbf x)\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-imc^2t/\hbar}\psi(\mathbf x,t)\]</span></p>
+</section>
+<section id="the-total-recurrence-frequency-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-total-recurrence-frequency-is">72. The Total Recurrence Frequency Is</h2>
+<p><span class="math display">\[\omega=\omega_M+\frac{E_{\mathrm{NR}}}{\hbar}\]</span></p>
+</section>
+<section id="yet-the-born-density-can-be-time-independent" class="level2">
+<h2 class="anchored" data-anchor-id="yet-the-born-density-can-be-time-independent">73. Yet the Born Density Can Be Time Independent</h2>
+<p><span class="math display">\[|\psi(\mathbf x,t)|^2=|\phi(\mathbf x)|^2\]</span></p>
+<p>Thus:</p>
+<p>stationary realized distribution≠absence of recurrence.</p>
+</section>
+<section id="the-same-principle-appeared-in-the-mass-turbine" class="level2">
+<h2 class="anchored" data-anchor-id="the-same-principle-appeared-in-the-mass-turbine">74. The Same Principle Appeared in the Mass Turbine</h2>
+<p>Mechanical rest did not imply the local mass recurrence stopped.</p>
+<p>Quantum stationarity likewise does not imply phase recurrence has stopped.</p>
+</section>
+<section id="additive-potential-energy-can-be-located-but-is-not-yet-derived" class="level2">
+<h2 class="anchored" data-anchor-id="additive-potential-energy-can-be-located-but-is-not-yet-derived">75. Additive Potential Energy Can Be Located but Is Not Yet Derived</h2>
+<p>If an enclosing physical interaction supplies a scalar energy read</p>
+<!-- source_pdf_page: 2526 -->
+<p>V (x, t),</p>
+<p>one may write conditionally</p>
+<p><span class="math display">\[ H_{\mathrm{res}}\approx\frac{\mathbf P^2}{2m}+V\]</span></p>
+</section>
+<section id="then-the-familiar-equation-is" class="level2">
+<h2 class="anchored" data-anchor-id="then-the-familiar-equation-is">76. Then the Familiar Equation Is</h2>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[-\frac{\hbar^2}{2m}\nabla^2+V\right]\psi\]</span></p>
+</section>
+<section id="but-v-has-different-boundary-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="but-v-has-different-boundary-ownership">77. But V Has Different Boundary Ownership</h2>
+<p>The free kinetic term follows from residual mass-plus-translation recurrence.</p>
+<p>The potential term belongs to the relation between the local quantum boundary and an enclosing physical constraint.</p>
+</section>
+<section id="therefore-the-potential-should-not-be-smuggled-into-the-present-derivation" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-the-potential-should-not-be-smuggled-into-the-present-derivation">78. Therefore the Potential Should Not Be Smuggled Into the Present Derivation</h2>
+<p>A separate R2D bridge is required to identify how the primitive constraint architecture maps onto</p>
+<p><span class="math display">\[ V\]</span></p>
+</section>
+<section id="this-suggests-the-next-problem" class="level2">
+<h2 class="anchored" data-anchor-id="this-suggests-the-next-problem">79. This Suggests the Next Problem</h2>
+<p>The next addendum should ask:</p>
+<blockquote class="blockquote">
+<p>what R2D relation becomes quantum potential energy?</p>
+</blockquote>
+<p>The natural candidate is the enclosing constraint architecture associated with retention.</p>
+<!-- source_pdf_page: 2527 -->
+</section>
+<section id="principle-persistent-mass-recurrence-precedes-nonrelativistic-motion" class="level2">
+<h2 class="anchored" data-anchor-id="principle-persistent-mass-recurrence-precedes-nonrelativistic-motion">80. Principle — Persistent Mass Recurrence Precedes Nonrelativistic Motion</h2>
+<p><span class="math display">\[ mc^2=\hbar\omega_M\]</span></p>
+<p>A massive boundary already recurs before translational kinetic energy is assigned.</p>
+</section>
+<section id="principle-relativistic-compatibility-is-a-recurrence-relation-after-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="principle-relativistic-compatibility-is-a-recurrence-relation-after-calibration">81. Principle — Relativistic Compatibility Is a Recurrence Relation After Calibration</h2>
+<p><span class="math display">\[\omega^2=\omega_M^2+c^2k^2\]</span></p>
+</section>
+<section id="principle-relative-translation-recurrence-controls-the-regime" class="level2">
+<h2 class="anchored" data-anchor-id="principle-relative-translation-recurrence-controls-the-regime">82. Principle — Relative Translation Recurrence Controls the Regime</h2>
+<p><span class="math display">\[\eta=\bar\lambda_Mk=\frac p{mc}\]</span></p>
+</section>
+<section id="principle-residual-recurrence-is" class="level2">
+<h2 class="anchored" data-anchor-id="principle-residual-recurrence-is">83. Principle — Residual Recurrence Is</h2>
+<p><span class="math display">\[\omega_{\mathrm{res}}=\omega-\omega_M\]</span></p>
+</section>
+<section id="principle-kinetic-energy-is-its-energetic-read" class="level2">
+<h2 class="anchored" data-anchor-id="principle-kinetic-energy-is-its-energetic-read">84. Principle — Kinetic Energy Is Its Energetic Read</h2>
+<p><span class="math display">\[ K=\hbar\omega_{\mathrm{res}}=E-mc^2\]</span></p>
+</section>
+<section id="principle-the-nonrelativistic-limit-is-strong-recurrence-separation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-nonrelativistic-limit-is-strong-recurrence-separation">85. Principle — The Nonrelativistic Limit Is Strong Recurrence Separation</h2>
+<p><span class="math display">\[\bar\lambda_M k\ll1\]</span></p>
+<p>Equivalently:</p>
+<p><span class="math display">\[\lambda\gg\lambda_M\]</span></p>
+<!-- source_pdf_page: 2528 -->
+</section>
+<section id="principle-nonrelativistic-kinetic-energy-is-the-leading-residual-term" class="level2">
+<h2 class="anchored" data-anchor-id="principle-nonrelativistic-kinetic-energy-is-the-leading-residual-term">86. Principle — Nonrelativistic Kinetic Energy Is the Leading Residual Term</h2>
+<p><span class="math display">\[ H_{\mathrm{res}}\approx\frac{\mathbf P^2}{2m}\]</span></p>
+</section>
+<section id="principle-the-persistent-mass-phase-can-be-factored-from-the-physical-representation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-persistent-mass-phase-can-be-factored-from-the-physical-representation">87. Principle — The Persistent Mass Phase Can Be Factored From the Physical Representation</h2>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-imc^2t/\hbar}\psi(\mathbf x,t)\]</span></p>
+<p>The local recurrence remains physically present.</p>
+</section>
+<section id="principle-the-residual-state-obeys" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-residual-state-obeys">88. Principle — The Residual State Obeys</h2>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=(H-mc^2)\psi\]</span></p>
+</section>
+<section id="principle-the-free-schrödinger-equation-is-the-leading-scale--separated-residual-law" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-free-schrödinger-equation-is-the-leading-scale--separated-residual-law">89. Principle — The Free Schrödinger Equation Is the Leading Scale- Separated Residual Law</h2>
+<p>Using</p>
+<p><span class="math display">\[\mathbf P=-i\hbar\nabla\]</span></p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi\]</span></p>
+</section>
+<section id="principle-schrödinger-dynamics-does-not-describe-the-full-mass-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="principle-schrödinger-dynamics-does-not-describe-the-full-mass-recurrence">90. Principle — Schrödinger Dynamics Does Not Describe the Full Mass Recurrence</h2>
+<p>It describes the slower residual phase evolution relative to the persistent Compton-scale recurrence.</p>
+<!-- source_pdf_page: 2529 -->
+</section>
+<section id="principle-relativistic-corrections-measure-loss-of-recurrence-separation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-relativistic-corrections-measure-loss-of-recurrence-separation">91. Principle — Relativistic Corrections Measure Loss of Recurrence Separation</h2>
+<p><span class="math display">\[ H_{\mathrm{res}}=\frac{\mathbf P^2}{2m}-\frac{\mathbf P^4}{8m^3c^2}+\cdots\]</span></p>
+</section>
+<section id="principle-potential-energy-requires-separate-boundary-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="principle-potential-energy-requires-separate-boundary-ownership">92. Principle — Potential Energy Requires Separate Boundary Ownership</h2>
+<p>The term</p>
+<p><span class="math display">\[ V\]</span></p>
+<p>belongs to an enclosing constraint relation and is not derived by free residual recurrence alone.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">93. Logical Status</h2>
+<p>Canonical R2D</p>
+<p>Recurrence is boundary native.</p>
+<p>Physical clock time, energy, momentum, and spatial coordinates are later projection variables.</p>
+<p>Prior Mass-Turbine Result</p>
+<p><span class="math display">\[ mc^2=\hbar\omega_M\]</span></p>
+<p>Addendum 71</p>
+<p>The corresponding Compton recurrence ruler is</p>
+<p><span class="math display">\[\bar\lambda_M=\frac{\hbar}{mc}\]</span></p>
+<p>Addendum 74</p>
+<p>Boundary-preserving temporal recurrence gives</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\Psi}{\partial t}=H\Psi\]</span></p>
+<!-- source_pdf_page: 2530 -->
+<p>Addendum 75</p>
+<p>Boundary-preserving spatial translation gives</p>
+<p><span class="math display">\[\mathbf P=-i\hbar\nabla\]</span></p>
+<p>Imported Mature Relativistic Compatibility</p>
+<p><span class="math display">\[ E^2=m^2c^4+p^2c^2\]</span></p>
+<p>Derived Recurrence Form</p>
+<p><span class="math display">\[\omega^2=\omega_M^2+c^2k^2\]</span></p>
+<p>New Relative Recurrence Coordinate</p>
+<p><span class="math display">\[\eta=\bar\lambda_Mk=\frac p{mc}\]</span></p>
+<p>Exact Residual Generator</p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\sqrt{m^2c^4+c^2\mathbf P^2}-mc^2\]</span></p>
+<p>Nonrelativistic Expansion</p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\frac{\mathbf P^2}{2m}-\frac{\mathbf P^4}{8m^3c^2}+\cdots\]</span></p>
+<p>Derived Free Spatial Schrödinger Equation</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi\]</span></p>
+<p>Not Yet Established</p>
+<p>This addendum does not yet derive:</p>
+<ul>
+<li>the relativistic energy-momentum relation from primitive R2D;</li>
+<li>the universal numerical value of ℏ;</li>
+<li>the origin of the scalar quantum potential V ;</li>
+<li>electromagnetic minimal coupling;</li>
+<li>spin-dependent dynamics;</li>
+<li>the Dirac equation;</li>
+<li>negative-energy branches;</li>
+<li>or quantum-field particle creation.</li>
+</ul>
+<p>These are downstream problems.</p>
+<!-- source_pdf_page: 2531 -->
+</section>
+<section id="the-complete-schrödinger-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-schrödinger-architecture">94. The Complete Schrödinger Architecture</h2>
+<p>A massive boundary possesses persistent recurrence:</p>
+<p><span class="math display">\[\omega_M\]</span></p>
+<p>Its physical mass read is:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ mc^2=\hbar\omega_M\]</span></p>
+<p>The same boundary acquires spatial translation recurrence:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ k\]</span></p>
+<p>Momentum calibration gives:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ p=\hbar k\]</span></p>
+<p>Relativistic compatibility joins them:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[\omega^2=\omega_M^2+c^2k^2\]</span></p>
+<p>Separate the persistent recurrence:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[\omega_{\mathrm{res}}=\omega-\omega_M\]</span></p>
+<p>Strong recurrence separation gives:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[\bar\lambda_M k\ll1\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[\omega_{\mathrm{res}}\approx\frac{\hbar k^2}{2m}\]</span></p>
+<!-- source_pdf_page: 2532 -->
+<p>At the state level:</p>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-imc^2t/\hbar}\psi(\mathbf x,t)\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ i\hbar\partial_t\psi=(H-mc^2)\psi\]</span></p>
+<p>The residual generator becomes:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ H_{\mathrm{res}}\approx\frac{\mathbf P^2}{2m}\]</span></p>
+<p>Translation gives:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[\mathbf P^2=-\hbar^2\nabla^2\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\downarrow\]</span></p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi\]</span></p>
+<p>The spatial Schrödinger equation is therefore the end of the recurrence-separation chain rather than its beginning.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">95. Conclusion</h2>
+<p>The spatial Schrödinger equation is among the foundational equations of quantum mechanics.</p>
+<p>It is often introduced as a basic dynamical law for a massive quantum particle.</p>
+<p>R2D places it much later.</p>
+<p>A massive boundary already possesses persistent local recurrence.</p>
+<p>Its physical phase-frequency read is</p>
+<!-- source_pdf_page: 2533 -->
+<p><span class="math display">\[\omega_M=\frac{mc^2}{\hbar}\]</span></p>
+<p>This recurrence remains even when the boundary is translationally at rest.</p>
+<p>The same quantum boundary may also acquire spatial translation recurrence</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>Addendum 75 showed that this spatial phase relation receives the physical momentum read</p>
+<p><span class="math display">\[ p=\hbar k\]</span></p>
+<p>The mature relativistic relation</p>
+<p><span class="math display">\[ E^2=m^2c^4+p^2c^2\]</span></p>
+<p>can therefore be rewritten entirely as a relation among physical recurrence coordinates:</p>
+<p><span class="math display">\[\omega^2=\omega_M^2+c^2k^2\]</span></p>
+<p>Normalize by the persistent mass recurrence:</p>
+<p><span class="math display">\[\frac\omega{\omega_M}=\sqrt{1+(\bar\lambda_M k)^2}\]</span></p>
+<p>The dimensionless quantity</p>
+<p><span class="math display">\[\eta=\bar\lambda_Mk=\frac p{mc}\]</span></p>
+<p>then measures spatial translation recurrence relative to persistent mass recurrence.</p>
+<p>The nonrelativistic regime is</p>
+<p><span class="math display">\[\bar\lambda_M k\ll1\]</span></p>
+<p>In that regime, total recurrence differs only slightly from the persistent mass recurrence.</p>
+<p>Define that difference:</p>
+<p><span class="math display">\[\omega_{\mathrm{res}}=\omega-\omega_M\]</span></p>
+<p>Then:</p>
+<p><span class="math display">\[\omega_{\mathrm{res}}=\omega_M\left[\sqrt{1+(\bar\lambda_M k)^2}-1\right]\]</span></p>
+<!-- source_pdf_page: 2534 -->
+<p>For strong scale separation,</p>
+<p><span class="math display">\[\omega_{\mathrm{res}}\approx\frac{\hbar k^2}{2m}\]</span></p>
+<p>Its energetic read is</p>
+<p><span class="math display">\[ E_{\mathrm{res}}\approx\frac{p^2}{2m}\]</span></p>
+<p>Thus nonrelativistic kinetic energy is not inserted independently.</p>
+<p>It is the leading energy read of recurrence remaining after the persistent mass recurrence is separated from the full phase evolution.</p>
+<p>At the state level this separation is represented by</p>
+<p><span class="math display">\[\Psi(\mathbf x,t)=e^{-imc^2t/\hbar}\psi(\mathbf x,t)\]</span></p>
+<p>The fast phase factor carries persistent mass recurrence.</p>
+<p>The residual coordinate ψ carries the slower quantum recurrence relative to that mass closure.</p>
+<p>Substitution into the abstract evolution equation gives exactly</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=(H-mc^2)\psi\]</span></p>
+<p>For a free positive-energy boundary,</p>
+<p><span class="math display">\[ H-mc^2=\sqrt{m^2c^4+c^2\mathbf P^2}-mc^2\]</span></p>
+<p>The strong-separation expansion is</p>
+<p><span class="math display">\[ H_{\mathrm{res}}=\frac{\mathbf P^2}{2m}-\frac{\mathbf P^4}{8m^3c^2}+O(\mathbf P^6)\]</span></p>
+<p>Keeping only the leading residual recurrence and using</p>
+<p><span class="math display">\[\mathbf P=-i\hbar\nabla\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\nabla^2\psi\]</span></p>
+<!-- source_pdf_page: 2535 -->
+<p>The free spatial Schrödinger equation therefore does not govern the complete native recurrence of the massive boundary.</p>
+<p>It governs the residual phase dynamics remaining after the persistent Compton-scale mass recurrence has been factored from the physical representation.</p>
+<p>This also explains the boundary of validity of the equation.</p>
+<p>When</p>
+<p><span class="math display">\[\lambda\gg\lambda_M\]</span></p>
+<p>the mass and translation recurrence scales are strongly separated.</p>
+<p>The Schrödinger approximation is valid.</p>
+<p>As</p>
+<p><span class="math display">\[\lambda\to\lambda_M\]</span></p>
+<p>the recurrence scales become comparable.</p>
+<p>The higher-order terms become readable.</p>
+<p>The same crossover identified experimentally through the Compton relation is therefore also the crossover at which nonrelativistic Schrödinger dynamics loses its scale separation.</p>
+<p>The central statement is:</p>
+<p>the nonrelativistic Schrödinger equation does not describe the total recurrence of a massive quantum boundary. Persistent mass closure already supplies the fast recurrence <span class="math inline">\(\omega_M=mc^2/\hbar\)</span>. Relativistic compatibility combines this with spatial translation recurrence, while the nonrelativistic regime is the scale- separated limit in which translation recurrence is small relative to the mass recurrence. Factoring the persistent mass phase leaves the residual generator <span class="math inline">\(H_{\mathrm{res}}=\sqrt{m^2c^4+c^2\mathbf P^2}-mc^2\)</span>, whose leading term is <span class="math inline">\(H_{\mathrm{res}}\approx\mathbf P^2/(2m)\)</span>. With the previously derived translation generator <span class="math inline">\(\mathbf P=-i\hbar\nabla\)</span>, the free spatial Schrödinger equation follows as the slow &gt; residual dynamics of persistent mass recurrence.</p>
+<p>And hence:</p>
+<p>residual mass recurrence occurs before the spatial Schrödinger equation.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="pagination-link" aria-label="Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="pagination-link" aria-label="Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,1945 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" rel="next">
+<link href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-39-source-compatibility-occurs-before-the-einstein-tensor" id="toc-addendum-39-source-compatibility-occurs-before-the-einstein-tensor" class="nav-link active" data-scroll-target="#addendum-39-source-compatibility-occurs-before-the-einstein-tensor">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#addendum-38-reached-ricci-curvature-without-einsteins-equation" id="toc-addendum-38-reached-ricci-curvature-without-einsteins-equation" class="nav-link" data-scroll-target="#addendum-38-reached-ricci-curvature-without-einsteins-equation">1. Addendum 38 Reached Ricci Curvature Without Einstein’s Equation</a></li>
+  <li><a href="#matter-appeared-first-through-the-tidal-trace" id="toc-matter-appeared-first-through-the-tidal-trace" class="nav-link" data-scroll-target="#matter-appeared-first-through-the-tidal-trace">2. Matter Appeared First Through the Tidal Trace</a></li>
+  <li><a href="#scalar-mass-density-is-not-a-relativistic-source-coordinate" id="toc-scalar-mass-density-is-not-a-relativistic-source-coordinate" class="nav-link" data-scroll-target="#scalar-mass-density-is-not-a-relativistic-source-coordinate">3. Scalar Mass Density Is Not a Relativistic Source Coordinate</a></li>
+  <li><a href="#stress-energy-is-the-mature-local-source-read" id="toc-stress-energy-is-the-mature-local-source-read" class="nav-link" data-scroll-target="#stress-energy-is-the-mature-local-source-read">4. Stress-Energy Is the Mature Local Source Read</a></li>
+  <li><a href="#the-source-tensor-does-not-create-the-enclosing-gravitational-relation" id="toc-the-source-tensor-does-not-create-the-enclosing-gravitational-relation" class="nav-link" data-scroll-target="#the-source-tensor-does-not-create-the-enclosing-gravitational-relation">5. The Source Tensor Does Not Create the Enclosing Gravitational Relation</a></li>
+  <li><a href="#curvature-has-also-become-a-mature-projection" id="toc-curvature-has-also-become-a-mature-projection" class="nav-link" data-scroll-target="#curvature-has-also-become-a-mature-projection">6. Curvature Has Also Become a Mature Projection</a></li>
+  <li><a href="#state-the-projection-class-explicitly" id="toc-state-the-projection-class-explicitly" class="nav-link" data-scroll-target="#state-the-projection-class-explicitly">7. State the Projection Class Explicitly</a></li>
+  <li><a href="#why-the-assumptions-matter" id="toc-why-the-assumptions-matter" class="nav-link" data-scroll-target="#why-the-assumptions-matter">8. Why the Assumptions Matter</a></li>
+  <li><a href="#write-the-most-general-minimal-ricci-source-relation" id="toc-write-the-most-general-minimal-ricci-source-relation" class="nav-link" data-scroll-target="#write-the-most-general-minimal-ricci-source-relation">9. Write the Most General Minimal Ricci-Source Relation</a></li>
+  <li><a href="#no-trace-reversal-has-yet-been-assumed" id="toc-no-trace-reversal-has-yet-been-assumed" class="nav-link" data-scroll-target="#no-trace-reversal-has-yet-been-assumed">10. No Trace Reversal Has Yet Been Assumed</a></li>
+  <li><a href="#take-the-trace" id="toc-take-the-trace" class="nav-link" data-scroll-target="#take-the-trace">11. Take the Trace</a></li>
+  <li><a href="#apply-the-contracted-bianchi-identity" id="toc-apply-the-contracted-bianchi-identity" class="nav-link" data-scroll-target="#apply-the-contracted-bianchi-identity">12. Apply the Contracted Bianchi Identity</a></li>
+  <li><a href="#apply-source-conservation" id="toc-apply-source-conservation" class="nav-link" data-scroll-target="#apply-source-conservation">13. Apply Source Conservation</a></li>
+  <li><a href="#differentiate-the-trace-relation" id="toc-differentiate-the-trace-relation" class="nav-link" data-scroll-target="#differentiate-the-trace-relation">14. Differentiate the Trace Relation</a></li>
+  <li><a href="#covariant-compatibility-fixes-the-trace-coefficient" id="toc-covariant-compatibility-fixes-the-trace-coefficient" class="nav-link" data-scroll-target="#covariant-compatibility-fixes-the-trace-coefficient">15. Covariant Compatibility Fixes the Trace Coefficient</a></li>
+  <li><a href="#the-trace-reversed-source-combination-is-not-arbitrary" id="toc-the-trace-reversed-source-combination-is-not-arbitrary" class="nav-link" data-scroll-target="#the-trace-reversed-source-combination-is-not-arbitrary">16. The Trace-Reversed Source Combination Is Not Arbitrary</a></li>
+  <li><a href="#the-coupling-coefficient-remains-undetermined" id="toc-the-coupling-coefficient-remains-undetermined" class="nav-link" data-scroll-target="#the-coupling-coefficient-remains-undetermined">17. The Coupling Coefficient Remains Undetermined</a></li>
+  <li><a href="#return-to-pressureless-matter" id="toc-return-to-pressureless-matter" class="nav-link" data-scroll-target="#return-to-pressureless-matter">18. Return to Pressureless Matter</a></li>
+  <li><a href="#evaluate-the-trace-reversed-00-source" id="toc-evaluate-the-trace-reversed-00-source" class="nav-link" data-scroll-target="#evaluate-the-trace-reversed-00-source">19. Evaluate the Trace-Reversed 00 Source</a></li>
+  <li><a href="#match-the-tidal-calibration" id="toc-match-the-tidal-calibration" class="nav-link" data-scroll-target="#match-the-tidal-calibration">20. Match the Tidal Calibration</a></li>
+  <li><a href="#the-factor-8π-comes-after-the-tidal-source-read" id="toc-the-factor-8π-comes-after-the-tidal-source-read" class="nav-link" data-scroll-target="#the-factor-8π-comes-after-the-tidal-source-read">21. The Factor 8π Comes After the Tidal Source Read</a></li>
+  <li><a href="#write-the-complete-ricci-source-relation" id="toc-write-the-complete-ricci-source-relation" class="nav-link" data-scroll-target="#write-the-complete-ricci-source-relation">22. Write the Complete Ricci-Source Relation</a></li>
+  <li><a href="#take-the-trace-again" id="toc-take-the-trace-again" class="nav-link" data-scroll-target="#take-the-trace-again">23. Take the Trace Again</a></li>
+  <li><a href="#define-the-einstein-tensor" id="toc-define-the-einstein-tensor" class="nav-link" data-scroll-target="#define-the-einstein-tensor">24. Define the Einstein Tensor</a></li>
+  <li><a href="#identify-the-cosmological-constant" id="toc-identify-the-cosmological-constant" class="nav-link" data-scroll-target="#identify-the-cosmological-constant">25. Identify the Cosmological Constant</a></li>
+  <li><a href="#the-einstein-tensor-appears-because-it-is-divergence-free" id="toc-the-einstein-tensor-appears-because-it-is-divergence-free" class="nav-link" data-scroll-target="#the-einstein-tensor-appears-because-it-is-divergence-free">26. The Einstein Tensor Appears Because It Is Divergence Free</a></li>
+  <li><a href="#principle-the-einstein-equation-is-a-compatibility-relation" id="toc-principle-the-einstein-equation-is-a-compatibility-relation" class="nav-link" data-scroll-target="#principle-the-einstein-equation-is-a-compatibility-relation">27. Principle — The Einstein Equation Is a Compatibility Relation</a></li>
+  <li><a href="#this-does-not-make-the-field-equation-merely-descriptive" id="toc-this-does-not-make-the-field-equation-merely-descriptive" class="nav-link" data-scroll-target="#this-does-not-make-the-field-equation-merely-descriptive">28. This Does Not Make the Field Equation Merely Descriptive</a></li>
+  <li><a href="#pressure-must-gravitate" id="toc-pressure-must-gravitate" class="nav-link" data-scroll-target="#pressure-must-gravitate">29. Pressure Must Gravitate</a></li>
+  <li><a href="#pressure-contributes-to-ricci-focusing" id="toc-pressure-contributes-to-ricci-focusing" class="nav-link" data-scroll-target="#pressure-contributes-to-ricci-focusing">30. Pressure Contributes to Ricci Focusing</a></li>
+  <li><a href="#stress-and-flux-also-belong-to-the-source-read" id="toc-stress-and-flux-also-belong-to-the-source-read" class="nav-link" data-scroll-target="#stress-and-flux-also-belong-to-the-source-read">31. Stress and Flux Also Belong to the Source Read</a></li>
+  <li><a href="#local-source-content-does-not-determine-the-entire-riemann-tensor" id="toc-local-source-content-does-not-determine-the-entire-riemann-tensor" class="nav-link" data-scroll-target="#local-source-content-does-not-determine-the-entire-riemann-tensor">32. Local Source Content Does Not Determine the Entire Riemann Tensor</a></li>
+  <li><a href="#ricci-and-weyl-occupy-different-roles" id="toc-ricci-and-weyl-occupy-different-roles" class="nav-link" data-scroll-target="#ricci-and-weyl-occupy-different-roles">33. Ricci and Weyl Occupy Different Roles</a></li>
+  <li><a href="#this-is-exactly-what-an-enclosing-theory-should-predict" id="toc-this-is-exactly-what-an-enclosing-theory-should-predict" class="nav-link" data-scroll-target="#this-is-exactly-what-an-enclosing-theory-should-predict">34. This Is Exactly What an Enclosing Theory Should Predict</a></li>
+  <li><a href="#the-cosmological-term-has-a-different-logical-status" id="toc-the-cosmological-term-has-a-different-logical-status" class="nav-link" data-scroll-target="#the-cosmological-term-has-a-different-logical-status">35. The Cosmological Term Has a Different Logical Status</a></li>
+  <li><a href="#do-not-identify-λ-with-r²d-background" id="toc-do-not-identify-λ-with-r²d-background" class="nav-link" data-scroll-target="#do-not-identify-λ-with-r²d-background">36. Do Not Identify Λ With R²D Background</a></li>
+  <li><a href="#g-is-a-physical-calibration-not-the-primitive-gravitational-relation" id="toc-g-is-a-physical-calibration-not-the-primitive-gravitational-relation" class="nav-link" data-scroll-target="#g-is-a-physical-calibration-not-the-primitive-gravitational-relation">37. G Is a Physical Calibration, Not the Primitive Gravitational Relation</a></li>
+  <li><a href="#nor-should-g-be-made-position-dependent-without-changing-the-theory" id="toc-nor-should-g-be-made-position-dependent-without-changing-the-theory" class="nav-link" data-scroll-target="#nor-should-g-be-made-position-dependent-without-changing-the-theory">38. Nor Should G Be Made Position Dependent Without Changing the Theory</a></li>
+  <li><a href="#the-einstein-tensor-is-late-in-the-logical-sequence" id="toc-the-einstein-tensor-is-late-in-the-logical-sequence" class="nav-link" data-scroll-target="#the-einstein-tensor-is-late-in-the-logical-sequence">39. The Einstein Tensor Is Late in the Logical Sequence</a></li>
+  <li><a href="#area-before-radius-reappears-at-the-field-equation-level" id="toc-area-before-radius-reappears-at-the-field-equation-level" class="nav-link" data-scroll-target="#area-before-radius-reappears-at-the-field-equation-level">40. Area Before Radius Reappears at the Field-Equation Level</a></li>
+  <li><a href="#the-field-equation-does-not-reverse-r²d-causality" id="toc-the-field-equation-does-not-reverse-r²d-causality" class="nav-link" data-scroll-target="#the-field-equation-does-not-reverse-r²d-causality">41. The Field Equation Does Not Reverse R²D Causality</a></li>
+  <li><a href="#the-equation-can-still-predict-geometry-from-sources" id="toc-the-equation-can-still-predict-geometry-from-sources" class="nav-link" data-scroll-target="#the-equation-can-still-predict-geometry-from-sources">42. The Equation Can Still Predict Geometry From Sources</a></li>
+  <li><a href="#boundary-conditions-remain-essential" id="toc-boundary-conditions-remain-essential" class="nav-link" data-scroll-target="#boundary-conditions-remain-essential">43. Boundary Conditions Remain Essential</a></li>
+  <li><a href="#conditional-theorem-trace-reversed-covariant-source-relation-assume" id="toc-conditional-theorem-trace-reversed-covariant-source-relation-assume" class="nav-link" data-scroll-target="#conditional-theorem-trace-reversed-covariant-source-relation-assume">44. Conditional Theorem — Trace-Reversed Covariant Source Relation Assume:</a></li>
+  <li><a href="#conditional-theorem-einstein-coupling-from-tidal-calibration" id="toc-conditional-theorem-einstein-coupling-from-tidal-calibration" class="nav-link" data-scroll-target="#conditional-theorem-einstein-coupling-from-tidal-calibration">45. Conditional Theorem — Einstein Coupling From Tidal Calibration</a></li>
+  <li><a href="#principle-source-compatibility-occurs-before-the-einstein-tensor" id="toc-principle-source-compatibility-occurs-before-the-einstein-tensor" class="nav-link" data-scroll-target="#principle-source-compatibility-occurs-before-the-einstein-tensor">46. Principle — Source Compatibility Occurs Before the Einstein Tensor</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">47. Logical Status</a></li>
+  <li><a href="#what-has-been-established" id="toc-what-has-been-established" class="nav-link" data-scroll-target="#what-has-been-established">48. What Has Been Established</a></li>
+  <li><a href="#the-new-relativistic-gravitational-sequence" id="toc-the-new-relativistic-gravitational-sequence" class="nav-link" data-scroll-target="#the-new-relativistic-gravitational-sequence">49. The New Relativistic-Gravitational Sequence</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">50. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></h1>
+<p class="subtitle lead">Tidal Trace, Stress-Energy, and the Covariant Completion of Gravitational Projection</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-39-source-compatibility-occurs-before-the-einstein-tensor" class="level1">
+<h1>Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Einstein’s field equation is conventionally written</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>It is often summarized by saying that matter tells spacetime how to curve.</p>
+<p>Recursively Realized Distinguishability (R²D) permits a different logical order.</p>
+<p>Addendum 35 established that physical motion is defined relative to an enclosing rapidity landscape before Lorentz geometry is assigned.</p>
+<p>Addendum 36 established that mass is a local orientation-even boundary coupling represented mechanically within that already-existing reference geometry.</p>
+<p>Addendum 37 showed that gravity first appears as a changing enclosing rapidity relation. Uniform gravitational change becomes locally common mode in free fall, while failure of that change to remain common across neighboring freely falling peers produces tidal distinguishability.</p>
+<p>Addendum 38 then mapped that finite differential relation into continuous geometry. The local tidal operator</p>
+<p><span class="math display">\[\mathcal E^{\hat i}{}_{\hat j}\]</span></p>
+<p>is represented in a freely falling orthonormal frame by</p>
+<p><span class="math display">\[\mathcal E^{\hat i}{}_{\hat j}=-c^2R^{\hat i}{}_{\hat0\hat j\hat0}.\]</span></p>
+<p>Its weak-field trace in the presence of matter satisfies</p>
+<p><span class="math display">\[\operatorname{Tr}\mathcal E=-4\pi G\rho,\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<!-- source_pdf_page: 1357 -->
+<p>The gravitational problem has therefore already reached Ricci curvature before Einstein’s field equation is introduced.</p>
+<p>What remains unresolved is the mature source coordinate.</p>
+<p>The scalar density</p>
+<p><span class="math display">\[\rho\]</span></p>
+<p>is sufficient only in the Newtonian low-speed limit. A relativistic source possesses energy density, momentum density, pressure, stress, and energy flux. The complete local physical source read is therefore represented by the symmetric stress-energy tensor</p>
+<p><span class="math display">\[T_{\mu\nu}.\]</span></p>
+<p>The present addendum asks:</p>
+<p>Within a four-dimensional metric projection, what local covariant relation must connect this complete source read to the curvature projection already calibrated by tidal gravity?</p>
+<p>Assume that the mature gravitational projection is:</p>
+<ol type="1">
+<li>four-dimensional and metric;</li>
+<li>torsion free;</li>
+<li>represented geometrically by the Levi-Civita connection;</li>
+<li>sourced locally by a symmetric total stress-energy tensor <span class="math inline">\(T_{\mu
+u}\)</span>;</li>
+<li>locally covariantly conserved;</li>
+<li>algebraic and linear in <span class="math inline">\(T_{\mu
+u}\)</span> within the selected projection class;</li>
+<li>free of additional independent source tensors;</li>
+<li>governed by a constant source-curvature coupling within the selected gravitational boundary;</li>
+<li>allowed to contain a constant source-independent metric term.</li>
+</ol>
+<p>The most general minimal Ricci-source relation in this class is</p>
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G(T_{\mu\nu}+\sigma T g_{\mu\nu})+\lambda g_{\mu\nu}.\]</span></p>
+<p>Covariant conservation,</p>
+<p><span class="math display">\[\nabla_\mu T^{\mu\nu}=0,\]</span></p>
+<p>together with the contracted Bianchi identity forces</p>
+<p><span class="math display">\[\sigma=-\frac12.\]</span></p>
+<p>Thus,</p>
+<!-- source_pdf_page: 1358 -->
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G\left(T_{\mu\nu}-\frac12Tg_{\mu\nu}\right)+\lambda g_{\mu\nu}.\]</span></p>
+<p>The weak-field tidal calibration</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<p>then fixes</p>
+<p><span class="math display">\[\kappa_G=\frac{8\pi G}{c^4}.\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>Einstein’s field equation therefore appears as the minimal covariant compatibility relation between two downstream physical reads of one gravitational organization:</p>
+<blockquote class="blockquote">
+<p>relativistic source content <span class="math inline">\(\longleftrightarrow\)</span> Ricci geometry.</p>
+</blockquote>
+<p>The Einstein tensor does not create gravitational compatibility.</p>
+<p>It is the divergence-free geometric coordinate through which that compatibility is represented.</p>
+<p>The central claim is therefore:</p>
+<blockquote class="blockquote">
+<p>source compatibility occurs before the Einstein tensor.</p>
+</blockquote>
+</section>
+<section id="addendum-38-reached-ricci-curvature-without-einsteins-equation" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-38-reached-ricci-curvature-without-einsteins-equation">1. Addendum 38 Reached Ricci Curvature Without Einstein’s Equation</h2>
+<p>The preceding addendum began with differential free-fall rapidity.</p>
+<p>It did not begin with</p>
+<p><span class="math display">\[G_{\mu\nu}.\]</span></p>
+<p>Neighboring freely falling boundaries acquired a locally irreducible tidal relation.</p>
+<p>After continuous geometric projection,</p>
+<p><span class="math display">\[\frac{D^2\zeta^{\hat i}}{D\tau^2}=\mathcal E^{\hat i}{}_{\hat j}\zeta^{\hat j},\]</span></p>
+<!-- source_pdf_page: 1359 -->
+<p>with</p>
+<p><span class="math display">\[\mathcal E^{\hat i}{}_{\hat j}=-c^2R^{\hat i}{}_{\hat0\hat j\hat0}.\]</span></p>
+<p>Thus curvature entered only after the differential gravitational relation already existed.</p>
+</section>
+<section id="matter-appeared-first-through-the-tidal-trace" class="level2">
+<h2 class="anchored" data-anchor-id="matter-appeared-first-through-the-tidal-trace">2. Matter Appeared First Through the Tidal Trace</h2>
+<p>In the weak-field limit,</p>
+<p><span class="math display">\[\operatorname{Tr}\mathcal E=\nabla\cdot\mathbf g.\]</span></p>
+<p>For matter density ρ,</p>
+<p><span class="math display">\[\nabla\cdot\mathbf g=-4\pi G\rho.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\operatorname{Tr}\mathcal E=-4\pi G\rho.\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[\operatorname{Tr}\mathcal E=-c^2R_{\hat0\hat0},\]</span></p>
+<p>we obtained</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<p>This is the source calibration inherited from tidal distinguishability.</p>
+</section>
+<section id="scalar-mass-density-is-not-a-relativistic-source-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="scalar-mass-density-is-not-a-relativistic-source-coordinate">3. Scalar Mass Density Is Not a Relativistic Source Coordinate</h2>
+<p>The quantity</p>
+<p><span class="math display">\[\rho\]</span></p>
+<p>is adequate when matter is:</p>
+<blockquote class="blockquote">
+<p>• slowly moving; • pressureless; • approximately static; • and examined in the Newtonian regime.</p>
+</blockquote>
+<!-- source_pdf_page: 1360 -->
+<p>But Addendum 36 has already shown that physical source organization cannot generally be compressed into rest mass alone.</p>
+<p>A moving or internally organized source possesses:</p>
+<blockquote class="blockquote">
+<p>• energy; • momentum; • pressure; • stress; • flux.</p>
+</blockquote>
+<p>Thus the Newtonian scalar source must be replaced.</p>
+</section>
+<section id="stress-energy-is-the-mature-local-source-read" class="level2">
+<h2 class="anchored" data-anchor-id="stress-energy-is-the-mature-local-source-read">4. Stress-Energy Is the Mature Local Source Read</h2>
+<p>The relativistic physical coordinate that combines these source properties is</p>
+<p><span class="math display">\[T_{\mu\nu}.\]</span></p>
+<p>Its components encode, depending on frame:</p>
+<p><span class="math display">\[T_{00}\longrightarrow\text{energy density},\]</span></p>
+<p><span class="math display">\[T_{0i}\longrightarrow\text{momentum density / energy flux},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[T_{ij}\longrightarrow\text{stress and pressure}.\]</span></p>
+<p>R²D does not require</p>
+<p><span class="math display">\[T_{\mu\nu}\]</span></p>
+<p>to be primitive.</p>
+<p>It is the mature local source projection.</p>
+</section>
+<section id="the-source-tensor-does-not-create-the-enclosing-gravitational-relation" class="level2">
+<h2 class="anchored" data-anchor-id="the-source-tensor-does-not-create-the-enclosing-gravitational-relation">5. The Source Tensor Does Not Create the Enclosing Gravitational Relation</h2>
+<p>The causal ordering established in the preceding addenda is</p>
+<blockquote class="blockquote">
+<p>enclosing gravitational relation</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<!-- source_pdf_page: 1361 -->
+<blockquote class="blockquote">
+<p>local realizations</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>tidal peer differences and local source reads.</p>
+</blockquote>
+<p>Thus the mature equation should not automatically be interpreted as</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(T_{\mu\nu}\longrightarrow\)</span> primitive creation of geometry.</p>
+</blockquote>
+<p>The source tensor and curvature tensor are both downstream physical representations.</p>
+</section>
+<section id="curvature-has-also-become-a-mature-projection" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-has-also-become-a-mature-projection">6. Curvature Has Also Become a Mature Projection</h2>
+<p>Addendum 38 established</p>
+<p><span class="math display">\[R^\rho{}_{\sigma\mu\nu}\]</span></p>
+<p>as the continuous geometric measure of nonclosure among local reference relations.</p>
+<p>The source-sensitive contraction is</p>
+<p><span class="math display">\[R_{\mu\nu}.\]</span></p>
+<p>Therefore the present problem concerns the relationship</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(T_{\mu\nu}\longleftrightarrow R_{\mu\nu}\)</span>.</p>
+</blockquote>
+<p>The problem is one of local covariant compatibility.</p>
+</section>
+<section id="state-the-projection-class-explicitly" class="level2">
+<h2 class="anchored" data-anchor-id="state-the-projection-class-explicitly">7. State the Projection Class Explicitly</h2>
+<p>The field equation derived below is conditional on a specified mature gravitational representation.</p>
+<p>Assume:</p>
+<p>A. Four-dimensional metric geometry</p>
+<p>The physical gravitational projection is represented by</p>
+<p><span class="math display">\[g_{\mu\nu}\]</span></p>
+<p>on a four-dimensional spacetime.</p>
+<!-- source_pdf_page: 1362 -->
+<p>B. Levi-Civita connection</p>
+<p>The geometric connection is metric compatible and torsion free.</p>
+<p>C. Symmetric total stress-energy</p>
+<p>The complete local source read is a symmetric tensor</p>
+<p><span class="math display">\[T_{\mu\nu}.\]</span></p>
+<p>D. Local source conservation</p>
+<p><span class="math display">\[\nabla^\mu T_{\mu\nu}=0.\]</span></p>
+<p>E. Local algebraic linearity</p>
+<p>The curvature-source relation is local and algebraic and is linear in the projected source tensor.</p>
+<p>F. Minimal source content</p>
+<p>No additional independent source tensors or fields enter the relation.</p>
+<p>G. Constant coupling within the selected gravitational boundary</p>
+<p>The source-curvature coefficient is not arbitrarily position dependent inside an otherwise fixed projection law.</p>
+<p>H. Source-independent metric term allowed</p>
+<p>A constant term proportional to</p>
+<p><span class="math display">\[g_{\mu\nu}\]</span></p>
+<p>is permitted.</p>
+<p>These are projection assumptions.</p>
+<p>They are not primitive R²D axioms.</p>
+</section>
+<section id="why-the-assumptions-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-assumptions-matter">8. Why the Assumptions Matter</h2>
+<p>If one allows:</p>
+<blockquote class="blockquote">
+<p>• extra dynamical fields; • torsion; • higher curvature derivatives;</p>
+</blockquote>
+<!-- source_pdf_page: 1363 -->
+<blockquote class="blockquote">
+<p>• nonlinear source functions; • varying gravitational couplings; • additional dimensions;</p>
+</blockquote>
+<p>then other gravitational equations are possible.</p>
+<p>Therefore the result below is not:</p>
+<blockquote class="blockquote">
+<p>Einstein’s equation is the only mathematically conceivable gravitational theory.</p>
+</blockquote>
+<p>The stronger accurate statement is:</p>
+<blockquote class="blockquote">
+<p>within the specified minimal projection class, the Einstein form is forced.</p>
+</blockquote>
+</section>
+<section id="write-the-most-general-minimal-ricci-source-relation" class="level2">
+<h2 class="anchored" data-anchor-id="write-the-most-general-minimal-ricci-source-relation">9. Write the Most General Minimal Ricci-Source Relation</h2>
+<p>Within the stated class, the available symmetric rank-two source structures are</p>
+<p><span class="math display">\[T_{\mu\nu},\]</span></p>
+<p><span class="math display">\[Tg_{\mu\nu},\]</span></p>
+<p>and a source-independent metric term.</p>
+<p>Therefore write</p>
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G(T_{\mu\nu}+\sigma T g_{\mu\nu})+\lambda g_{\mu\nu}.\]</span></p>
+<p>Here</p>
+<p><span class="math display">\[T\equiv T^\alpha{}_{\alpha}.\]</span></p>
+<p>The constants</p>
+<p><span class="math display">\[\kappa_G,\quad\sigma,\quad\lambda\]</span></p>
+<p>remain undetermined.</p>
+</section>
+<section id="no-trace-reversal-has-yet-been-assumed" class="level2">
+<h2 class="anchored" data-anchor-id="no-trace-reversal-has-yet-been-assumed">10. No Trace Reversal Has Yet Been Assumed</h2>
+<p>The coefficient</p>
+<p><span class="math display">\[\sigma\]</span></p>
+<p>has not been chosen to equal</p>
+<!-- source_pdf_page: 1364 -->
+<p><span class="math display">\[-\frac12.\]</span></p>
+<p>That value must follow from compatibility.</p>
+<p>Likewise,</p>
+<p><span class="math display">\[\kappa_G\]</span></p>
+<p>has not been assigned the value</p>
+<p><span class="math display">\[\frac{8\pi G}{c^4}.\]</span></p>
+<p>The Newtonian tidal calibration will determine it later.</p>
+</section>
+<section id="take-the-trace" class="level2">
+<h2 class="anchored" data-anchor-id="take-the-trace">11. Take the Trace</h2>
+<p>In four dimensions,</p>
+<p><span class="math display">\[g^{\mu\nu}g_{\mu\nu}=4.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[R=\kappa_G(T+4\sigma T)+4\lambda.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[R=\kappa_G(1+4\sigma)T+4\lambda.\]</span></p>
+</section>
+<section id="apply-the-contracted-bianchi-identity" class="level2">
+<h2 class="anchored" data-anchor-id="apply-the-contracted-bianchi-identity">12. Apply the Contracted Bianchi Identity</h2>
+<p>The differential geometry satisfies</p>
+<p><span class="math display">\[\nabla^\mu G_{\mu\nu}=0,\]</span></p>
+<p>where</p>
+<p><span class="math display">\[G_{\mu\nu}=R_{\mu\nu}-\frac12Rg_{\mu\nu}.\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\nabla^\mu R_{\mu\nu}=\frac12\nabla_\nu R.\]</span></p>
+<!-- source_pdf_page: 1365 -->
+<p>This is the contracted Bianchi identity.</p>
+</section>
+<section id="apply-source-conservation" class="level2">
+<h2 class="anchored" data-anchor-id="apply-source-conservation">13. Apply Source Conservation</h2>
+<p>The mature source projection satisfies</p>
+<p><span class="math display">\[\nabla^\mu T_{\mu\nu}=0.\]</span></p>
+<p>Take the divergence of</p>
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G(T_{\mu\nu}+\sigma T g_{\mu\nu})+\lambda g_{\mu\nu}.\]</span></p>
+<p>For constant</p>
+<p><span class="math display">\[\kappa_G,\quad\lambda,\]</span></p>
+<p>and metric compatibility,</p>
+<p><span class="math display">\[\nabla^\mu g_{\mu\nu}=0,\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\nabla^\mu R_{\mu\nu}=\kappa_G\sigma\nabla_\nu T.\]</span></p>
+</section>
+<section id="differentiate-the-trace-relation" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-the-trace-relation">14. Differentiate the Trace Relation</h2>
+<p>From</p>
+<p><span class="math display">\[R=\kappa_G(1+4\sigma)T+4\lambda,\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\nabla_\nu R=\kappa_G(1+4\sigma)\nabla_\nu T.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac12\nabla_\nu R=\frac{\kappa_G}{2}(1+4\sigma)\nabla_\nu T.\]</span></p>
+</section>
+<section id="covariant-compatibility-fixes-the-trace-coefficient" class="level2">
+<h2 class="anchored" data-anchor-id="covariant-compatibility-fixes-the-trace-coefficient">15. Covariant Compatibility Fixes the Trace Coefficient</h2>
+<p>The contracted Bianchi identity requires</p>
+<!-- source_pdf_page: 1366 -->
+<p><span class="math display">\[\nabla^\mu R_{\mu\nu}=\frac12\nabla_\nu R.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[\kappa_G\sigma\nabla_\nu T=\frac{\kappa_G}{2}(1+4\sigma)\nabla_\nu T.\]</span></p>
+<p>For general source variation,</p>
+<p><span class="math display">\[\sigma=\frac12(1+4\sigma).\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[2\sigma=1+4\sigma.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[-2\sigma=1,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\sigma=-\frac12.\]</span></p>
+<p>The trace reversal is forced.</p>
+</section>
+<section id="the-trace-reversed-source-combination-is-not-arbitrary" class="level2">
+<h2 class="anchored" data-anchor-id="the-trace-reversed-source-combination-is-not-arbitrary">16. The Trace-Reversed Source Combination Is Not Arbitrary</h2>
+<p>The source relation becomes</p>
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G\left(T_{\mu\nu}-\frac12Tg_{\mu\nu}\right)+\lambda g_{\mu\nu}.\]</span></p>
+<p>The combination</p>
+<p><span class="math display">\[T_{\mu\nu}-\frac12Tg_{\mu\nu}\]</span></p>
+<p>has therefore not been inserted because it is familiar from general relativity.</p>
+<p>Within the stated projection class, it follows from:</p>
+<blockquote class="blockquote">
+<p>source conservation + Bianchi compatibility.</p>
+</blockquote>
+<!-- source_pdf_page: 1367 -->
+</section>
+<section id="the-coupling-coefficient-remains-undetermined" class="level2">
+<h2 class="anchored" data-anchor-id="the-coupling-coefficient-remains-undetermined">17. The Coupling Coefficient Remains Undetermined</h2>
+<p>At this stage,</p>
+<p><span class="math display">\[\kappa_G\]</span></p>
+<p>is still unknown.</p>
+<p>Geometry and conservation determine the tensor structure.</p>
+<p>They do not determine the physical strength of gravitational source coupling.</p>
+<p>That coefficient must be calibrated from observation.</p>
+<p>Addendum 38 already provides the required calibration.</p>
+</section>
+<section id="return-to-pressureless-matter" class="level2">
+<h2 class="anchored" data-anchor-id="return-to-pressureless-matter">18. Return to Pressureless Matter</h2>
+<p>Consider pressureless matter in its local rest frame.</p>
+<p>Then</p>
+<p><span class="math display">\[T_{\hat0\hat0}=\rho c^2.\]</span></p>
+<p>With signature</p>
+<p><span class="math display">\[(-,+,+,+),\]</span></p>
+<p>the stress-energy trace is</p>
+<p><span class="math display">\[T=-\rho c^2.\]</span></p>
+<p>Also,</p>
+<p><span class="math display">\[g_{\hat0\hat0}=-1.\]</span></p>
+</section>
+<section id="evaluate-the-trace-reversed-00-source" class="level2">
+<h2 class="anchored" data-anchor-id="evaluate-the-trace-reversed-00-source">19. Evaluate the Trace-Reversed 00 Source</h2>
+<p>The source combination is</p>
+<p><span class="math display">\[T_{\hat0\hat0}-\frac12Tg_{\hat0\hat0}.\]</span></p>
+<p>Substitute:</p>
+<!-- source_pdf_page: 1368 -->
+<p><span class="math display">\[T_{\hat0\hat0}-\frac12Tg_{\hat0\hat0}=\rho c^2-\frac12(-\rho c^2)(-1).\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[T_{\hat0\hat0}-\frac12Tg_{\hat0\hat0}=\frac12\rho c^2.\]</span></p>
+</section>
+<section id="match-the-tidal-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="match-the-tidal-calibration">20. Match the Tidal Calibration</h2>
+<p>On the local Newtonian calibration scale, neglect the source-independent cosmological contribution.</p>
+<p>Then</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\kappa_G\frac12\rho c^2.\]</span></p>
+<p>But Addendum 38 established</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{\kappa_G}{2}\rho c^2=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<p>Cancel ρ:</p>
+<p><span class="math display">\[\frac{\kappa_Gc^2}{2}=\frac{4\pi G}{c^2}.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[\kappa_G=\frac{8\pi G}{c^4}.\]</span></p>
+</section>
+<section id="the-factor-8π-comes-after-the-tidal-source-read" class="level2">
+<h2 class="anchored" data-anchor-id="the-factor-8π-comes-after-the-tidal-source-read">21. The Factor 8π Comes After the Tidal Source Read</h2>
+<p>The earlier weak-field tidal trace contained</p>
+<p><span class="math display">\[4\pi G\rho.\]</span></p>
+<p>The covariant source coefficient contains</p>
+<p><span class="math display">\[8\pi G.\]</span></p>
+<!-- source_pdf_page: 1369 -->
+<p>The factor of two appears because the four-dimensional trace-reversed 00 source for pressureless matter is</p>
+<p><span class="math display">\[\frac12\rho c^2.\]</span></p>
+<p>Thus the Newtonian tidal calibration and the four-dimensional trace reversal together produce</p>
+<p><span class="math display">\[8\pi.\]</span></p>
+<p>The coefficient is not inserted independently.</p>
+</section>
+<section id="write-the-complete-ricci-source-relation" class="level2">
+<h2 class="anchored" data-anchor-id="write-the-complete-ricci-source-relation">22. Write the Complete Ricci-Source Relation</h2>
+<p>The result is</p>
+<p><span class="math display">\[R_{\mu\nu}=\frac{8\pi G}{c^4}\left(T_{\mu\nu}-\frac12Tg_{\mu\nu}\right)+\lambda g_{\mu\nu}.\]</span></p>
+<p>This is the complete local Ricci-source compatibility relation within the stated projection class.</p>
+</section>
+<section id="take-the-trace-again" class="level2">
+<h2 class="anchored" data-anchor-id="take-the-trace-again">23. Take the Trace Again</h2>
+<p>Because</p>
+<p><span class="math display">\[T_{\mu\nu}-\frac12Tg_{\mu\nu}\]</span></p>
+<p>has trace</p>
+<p><span class="math display">\[-T\]</span></p>
+<p>in four dimensions,</p>
+<p><span class="math display">\[R=-\frac{8\pi G}{c^4}T+4\lambda.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[R=-\frac{8\pi G}{c^4}T+4\lambda.\]</span></p>
+</section>
+<section id="define-the-einstein-tensor" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-einstein-tensor">24. Define the Einstein Tensor</h2>
+<p>Define</p>
+<!-- source_pdf_page: 1370 -->
+<p><span class="math display">\[G_{\mu\nu}\equiv R_{\mu\nu}-\frac12Rg_{\mu\nu}.\]</span></p>
+<p>Substitute the Ricci-source relation and its trace.</p>
+<p>The source-trace terms cancel appropriately, leaving</p>
+<p><span class="math display">\[G_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}-\lambda g_{\mu\nu}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[G_{\mu\nu}+\lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+</section>
+<section id="identify-the-cosmological-constant" class="level2">
+<h2 class="anchored" data-anchor-id="identify-the-cosmological-constant">25. Identify the Cosmological Constant</h2>
+<p>Conventionally write</p>
+<p><span class="math display">\[\lambda=\Lambda.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>This is Einstein’s field equation.</p>
+<p>It has appeared only after:</p>
+<blockquote class="blockquote">
+<p>• reference geometry; • mass-energy; • free fall; • tidal rapidity; • Riemann curvature; • Ricci source calibration; • full relativistic source content; • and covariant compatibility</p>
+</blockquote>
+<p>have already been established.</p>
+</section>
+<section id="the-einstein-tensor-appears-because-it-is-divergence-free" class="level2">
+<h2 class="anchored" data-anchor-id="the-einstein-tensor-appears-because-it-is-divergence-free">26. The Einstein Tensor Appears Because It Is Divergence Free</h2>
+<p>The projected source satisfies</p>
+<!-- source_pdf_page: 1371 -->
+<p><span class="math display">\[\nabla^\mu T_{\mu\nu}=0.\]</span></p>
+<p>The geometric identity gives</p>
+<p><span class="math display">\[\nabla^\mu G_{\mu\nu}=0.\]</span></p>
+<p>For constant Λ,</p>
+<p><span class="math display">\[\nabla^\mu(\Lambda g_{\mu\nu})=0.\]</span></p>
+<p>Therefore the field equation pairs:</p>
+<blockquote class="blockquote">
+<p>locally conserved source coordinate</p>
+</blockquote>
+<p>with</p>
+<blockquote class="blockquote">
+<p>divergence-free geometric coordinate.</p>
+</blockquote>
+<p>This is the mathematical reason the Einstein tensor is the natural geometric object in the stated projection class.</p>
+</section>
+<section id="principle-the-einstein-equation-is-a-compatibility-relation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-einstein-equation-is-a-compatibility-relation">27. Principle — The Einstein Equation Is a Compatibility Relation</h2>
+<p>The conventional causal shorthand</p>
+<blockquote class="blockquote">
+<p>matter tells spacetime how to curve</p>
+</blockquote>
+<p>is useful within the mature projected theory.</p>
+<p>R²D places both sides later.</p>
+<p>The more primitive architecture is</p>
+<blockquote class="blockquote">
+<p>enclosing gravitational organization</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>{local source read; local tidal/curvature read}</p>
+</blockquote>
+<p>followed by their required compatibility.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(T_{\mu\nu}\longleftrightarrow G_{\mu\nu}\)</span></p>
+</blockquote>
+<p>is more primitive in logical role than a one-way ontological arrow between two primitive substances.</p>
+<!-- source_pdf_page: 1372 -->
+</section>
+<section id="this-does-not-make-the-field-equation-merely-descriptive" class="level2">
+<h2 class="anchored" data-anchor-id="this-does-not-make-the-field-equation-merely-descriptive">28. This Does Not Make the Field Equation Merely Descriptive</h2>
+<p>The equation</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}\]</span></p>
+<p>remains an exact dynamical relation within general relativity.</p>
+<p>Calling it a projection compatibility relation does not weaken its physical content.</p>
+<p>It changes only the explanatory order.</p>
+<p>A projected equation can be exact without being ontologically primitive.</p>
+</section>
+<section id="pressure-must-gravitate" class="level2">
+<h2 class="anchored" data-anchor-id="pressure-must-gravitate">29. Pressure Must Gravitate</h2>
+<p>The necessity of Tμν rather than scalar density becomes especially clear for a perfect fluid.</p>
+<p>In its local rest frame,</p>
+<p><span class="math display">\[T_{\hat0\hat0}=\epsilon,\]</span></p>
+<p>where ε is energy density.</p>
+<p>For isotropic pressure p,</p>
+<p><span class="math display">\[T=-\epsilon+3p.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[T_{\hat0\hat0}-\frac12Tg_{\hat0\hat0}=\epsilon-\frac12(-\epsilon+3p)(-1).\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[T_{\hat0\hat0}-\frac12Tg_{\hat0\hat0}=\frac12(\epsilon+3p).\]</span></p>
+</section>
+<section id="pressure-contributes-to-ricci-focusing" class="level2">
+<h2 class="anchored" data-anchor-id="pressure-contributes-to-ricci-focusing">30. Pressure Contributes to Ricci Focusing</h2>
+<p>Substitution gives</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^4}(\epsilon+3p)-\Lambda.\]</span></p>
+<!-- source_pdf_page: 1373 -->
+<p>for the sign and curvature convention adopted here.</p>
+<p>Thus pressure contributes to gravitational focusing.</p>
+<p>This is not an additional ad hoc force.</p>
+<p>Pressure is part of the complete relativistic source organization.</p>
+</section>
+<section id="stress-and-flux-also-belong-to-the-source-read" class="level2">
+<h2 class="anchored" data-anchor-id="stress-and-flux-also-belong-to-the-source-read">31. Stress and Flux Also Belong to the Source Read</h2>
+<p>Other components of</p>
+<p><span class="math display">\[T_{\mu\nu}\]</span></p>
+<p>represent momentum density, anisotropic stress, and energy flux.</p>
+<p>Therefore the gravitational source projection is not merely:</p>
+<blockquote class="blockquote">
+<p>amount of mass.</p>
+</blockquote>
+<p>It is:</p>
+<blockquote class="blockquote">
+<p>complete local relativistic organization of energy, momentum, flux, pressure, and stress.</p>
+</blockquote>
+<p>This is the source-side counterpart of Addendum 38’s full curvature projection.</p>
+</section>
+<section id="local-source-content-does-not-determine-the-entire-riemann-tensor" class="level2">
+<h2 class="anchored" data-anchor-id="local-source-content-does-not-determine-the-entire-riemann-tensor">32. Local Source Content Does Not Determine the Entire Riemann Tensor</h2>
+<p>Addendum 38 already established that vacuum may satisfy</p>
+<p><span class="math display">\[R_{\mu\nu}=0\]</span></p>
+<p>while</p>
+<p><span class="math display">\[R^\rho{}_{\sigma\mu\nu}\ne0.\]</span></p>
+<p>Thus local stress-energy does not algebraically determine the complete gravitational curvature.</p>
+<p>The trace-free Weyl sector can remain.</p>
+<p>Therefore:</p>
+<!-- source_pdf_page: 1374 -->
+<blockquote class="blockquote">
+<p>local <span class="math inline">\(T_{\mu\nu}\ne\)</span> complete gravitational boundary.</p>
+</blockquote>
+</section>
+<section id="ricci-and-weyl-occupy-different-roles" class="level2">
+<h2 class="anchored" data-anchor-id="ricci-and-weyl-occupy-different-roles">33. Ricci and Weyl Occupy Different Roles</h2>
+<p>The Ricci sector is locally constrained by the source compatibility equation.</p>
+<p>The Weyl sector represents the trace-free part of curvature not fixed algebraically by the local stress-energy tensor.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Ricci <span class="math inline">\(\longleftrightarrow\)</span> local source-compatible curvature,</p>
+</blockquote>
+<p>whereas</p>
+<blockquote class="blockquote">
+<p>Weyl <span class="math inline">\(\longleftrightarrow\)</span> trace-free tidal organization not locally fixed by <span class="math inline">\(T_{\mu\nu}\)</span>.</p>
+</blockquote>
+<p>Larger-scale boundary conditions remain necessary.</p>
+</section>
+<section id="this-is-exactly-what-an-enclosing-theory-should-predict" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-exactly-what-an-enclosing-theory-should-predict">34. This Is Exactly What an Enclosing Theory Should Predict</h2>
+<p>If gravity belongs first to an enclosing relation among peer boundaries, then local source content should not be expected to determine the entire enclosing gravitational organization.</p>
+<p>Vacuum tidal structure is therefore not anomalous.</p>
+<p>It is evidence that the local source read and the full gravitational boundary occupy different logical levels.</p>
+</section>
+<section id="the-cosmological-term-has-a-different-logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="the-cosmological-term-has-a-different-logical-status">35. The Cosmological Term Has a Different Logical Status</h2>
+<p>The source-independent term</p>
+<p><span class="math display">\[\Lambda g_{\mu\nu}\]</span></p>
+<p>satisfies</p>
+<p><span class="math display">\[\nabla^\mu(\Lambda g_{\mu\nu})=0\]</span></p>
+<p>for constant Λ.</p>
+<p>It therefore survives every local conservation constraint used above.</p>
+<!-- source_pdf_page: 1375 -->
+<p>The local tidal-matter calibration does not fix its value.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Lambda\)</span> is not determined by the local source match.</p>
+</blockquote>
+</section>
+<section id="do-not-identify-λ-with-r²d-background" class="level2">
+<h2 class="anchored" data-anchor-id="do-not-identify-λ-with-r²d-background">36. Do Not Identify Λ With R²D Background</h2>
+<p>R²D background is a realized nondirectional count relation.</p>
+<p>The cosmological constant is a particular source-independent parameter in the mature geometric projection.</p>
+<p>The present derivation does not establish</p>
+<p><span class="math display">\[\Lambda=\Phi.\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\Lambda\ne\Phi\]</span></p>
+<p>remains the default unless a later explicit mapping is obtained.</p>
+</section>
+<section id="g-is-a-physical-calibration-not-the-primitive-gravitational-relation" class="level2">
+<h2 class="anchored" data-anchor-id="g-is-a-physical-calibration-not-the-primitive-gravitational-relation">37. G Is a Physical Calibration, Not the Primitive Gravitational Relation</h2>
+<p>The coefficient</p>
+<p><span class="math display">\[G\]</span></p>
+<p>sets the dimensional strength of the mature gravitational source-curvature projection.</p>
+<p>The preceding addenda began earlier:</p>
+<blockquote class="blockquote">
+<p>reference relation <span class="math inline">\(\longrightarrow\)</span> tidal distinction <span class="math inline">\(\longrightarrow\)</span> curvature.</p>
+</blockquote>
+<p>Thus G calibrates the physical projection.</p>
+<p>It should not be identified automatically with a primitive R²D count variable.</p>
+<!-- source_pdf_page: 1376 -->
+</section>
+<section id="nor-should-g-be-made-position-dependent-without-changing-the-theory" class="level2">
+<h2 class="anchored" data-anchor-id="nor-should-g-be-made-position-dependent-without-changing-the-theory">38. Nor Should G Be Made Position Dependent Without Changing the Theory</h2>
+<p>Within one selected gravitational boundary, the present derivation assumes</p>
+<p><span class="math display">\[G=\text{constant}.\]</span></p>
+<p>Replacing it by an arbitrary</p>
+<p><span class="math display">\[G(x)\]</span></p>
+<p>while leaving every other equation unchanged would violate the assumptions used in the compatibility derivation.</p>
+<p>A genuinely varying coupling would require a different physical theory and generally additional dynamical structure.</p>
+</section>
+<section id="the-einstein-tensor-is-late-in-the-logical-sequence" class="level2">
+<h2 class="anchored" data-anchor-id="the-einstein-tensor-is-late-in-the-logical-sequence">39. The Einstein Tensor Is Late in the Logical Sequence</h2>
+<p>The complete sequence is now</p>
+<blockquote class="blockquote">
+<p>boundary</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>enclosing rapidity relation</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>local Lorentz geometry</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>differential free-fall rapidity</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>tidal distinguishability</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Riemann curvature</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Ricci tidal trace</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Updownarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>relativistic stress-energy source read</p>
+</blockquote>
+<!-- source_pdf_page: 1377 -->
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>covariant compatibility</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[G_{\mu\nu}.\]</span></p>
+<p>The Einstein tensor is not where gravity begins.</p>
+</section>
+<section id="area-before-radius-reappears-at-the-field-equation-level" class="level2">
+<h2 class="anchored" data-anchor-id="area-before-radius-reappears-at-the-field-equation-level">40. Area Before Radius Reappears at the Field-Equation Level</h2>
+<p>The same R²D inversion continues.</p>
+<p>In spherical geometry:</p>
+<blockquote class="blockquote">
+<p>enclosing area <span class="math inline">\(\longrightarrow\)</span> areal radius.</p>
+</blockquote>
+<p>In Lorentz geometry:</p>
+<blockquote class="blockquote">
+<p>enclosing multiplicative relation <span class="math inline">\(\longrightarrow\)</span> invariant norm <span class="math inline">\(\longrightarrow\)</span> clock/ruler coordinates.</p>
+</blockquote>
+<p>In curvature:</p>
+<blockquote class="blockquote">
+<p>differential peer relation <span class="math inline">\(\longrightarrow\)</span> Riemann geometry.</p>
+</blockquote>
+<p>And now in the source equation:</p>
+<p>enclosing gravitational compatibility → source and geometry projections → Einstein equation.</p>
+<p>The projected coordinates do not construct the enclosure from below.</p>
+</section>
+<section id="the-field-equation-does-not-reverse-r²d-causality" class="level2">
+<h2 class="anchored" data-anchor-id="the-field-equation-does-not-reverse-r²d-causality">41. The Field Equation Does Not Reverse R²D Causality</h2>
+<p>Because the mature field equation can be solved in either direction, one might be tempted to infer a primitive causal relation</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(T_{\mu\nu}\longrightarrow G_{\mu\nu}\)</span>.</p>
+</blockquote>
+<p>But mathematical solvability is not primitive causal ownership.</p>
+<p>R²D instead places both quantities within the same enclosing gravitational organization.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>field equation = compatibility constraint among projected reads.</p>
+</blockquote>
+<!-- source_pdf_page: 1378 -->
+</section>
+<section id="the-equation-can-still-predict-geometry-from-sources" class="level2">
+<h2 class="anchored" data-anchor-id="the-equation-can-still-predict-geometry-from-sources">42. The Equation Can Still Predict Geometry From Sources</h2>
+<p>Nothing in the R²D interpretation prevents using</p>
+<p><span class="math display">\[T_{\mu\nu}\]</span></p>
+<p>as input to determine</p>
+<p><span class="math display">\[g_{\mu\nu}\]</span></p>
+<p>subject to appropriate boundary conditions.</p>
+<p>That is exactly what the projected theory does.</p>
+<p>The distinction is ontological rather than computational.</p>
+<p>The equation can predict perfectly even if neither side is the primitive object beneath the projection.</p>
+</section>
+<section id="boundary-conditions-remain-essential" class="level2">
+<h2 class="anchored" data-anchor-id="boundary-conditions-remain-essential">43. Boundary Conditions Remain Essential</h2>
+<p>Because local stress-energy does not determine Weyl curvature algebraically, solving Einstein’s equation requires more than local source values.</p>
+<p>Boundary and initial conditions matter.</p>
+<p>That is exactly what should be expected if gravitational organization belongs first to an enclosing compatibility relation.</p>
+<p>The source tensor is necessary.</p>
+<p>It is not the whole boundary.</p>
+</section>
+<section id="conditional-theorem-trace-reversed-covariant-source-relation-assume" class="level2">
+<h2 class="anchored" data-anchor-id="conditional-theorem-trace-reversed-covariant-source-relation-assume">44. Conditional Theorem — Trace-Reversed Covariant Source Relation Assume:</h2>
+<ol type="1">
+<li>four-dimensional metric geometry;</li>
+<li>Levi-Civita connection;</li>
+<li>a symmetric total stress-energy tensor <span class="math inline">\(T_{\mu
+u}\)</span>;</li>
+<li>local source conservation,</li>
+</ol>
+<!-- source_pdf_page: 1379 -->
+<p><span class="math display">\[\nabla^\mu T_{\mu\nu}=0;\]</span></p>
+<ol start="5" type="1">
+<li>a local algebraic relation linear in</li>
+</ol>
+<p><span class="math display">\[T_{\mu\nu},\quad T,\quad g_{\mu\nu};\]</span></p>
+<ol start="6" type="1">
+<li>no additional independent source tensors;</li>
+<li>constant source-curvature calibration within the selected gravitational boundary;</li>
+<li>a constant source-independent metric term.</li>
+</ol>
+<p>Then covariant compatibility requires</p>
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G\left(T_{\mu\nu}-\frac12Tg_{\mu\nu}\right)+\Lambda g_{\mu\nu}.\]</span></p>
+<p>The coefficient</p>
+<p><span class="math display">\[-\frac12\]</span></p>
+<p>is fixed by source conservation and the contracted Bianchi identity.</p>
+</section>
+<section id="conditional-theorem-einstein-coupling-from-tidal-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="conditional-theorem-einstein-coupling-from-tidal-calibration">45. Conditional Theorem — Einstein Coupling From Tidal Calibration</h2>
+<p>If, in addition, the weak-field tidal projection satisfies</p>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho,\]</span></p>
+<p>then pressureless matter requires</p>
+<p><span class="math display">\[\kappa_G=\frac{8\pi G}{c^4}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>Within the stated physical projection assumptions, the Einstein equation is fixed by:</p>
+<blockquote class="blockquote">
+<p>tidal source calibration + covariant compatibility.</p>
+</blockquote>
+<!-- source_pdf_page: 1380 -->
+</section>
+<section id="principle-source-compatibility-occurs-before-the-einstein-tensor" class="level2">
+<h2 class="anchored" data-anchor-id="principle-source-compatibility-occurs-before-the-einstein-tensor">46. Principle — Source Compatibility Occurs Before the Einstein Tensor</h2>
+<p>The complete relativistic source read and the Ricci curvature read arise as complementary physical projections of one gravitational organization.</p>
+<p>Local conservation requires the source projection to be divergence compatible.</p>
+<p>The Bianchi identity requires the geometric projection to be divergence compatible.</p>
+<p>Their minimal local covariant relation therefore takes Einstein form.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>gravitational organization <span class="math inline">\(\longrightarrow\)</span> {<span class="math inline">\(T_{\mu\nu}\)</span>, <span class="math inline">\(G_{\mu\nu}\)</span>} <span class="math inline">\(\longrightarrow\)</span> covariant compatibility.</p>
+</blockquote>
+<p>The Einstein tensor is not the primitive source of gravitational organization.</p>
+<p>It is the divergence-free geometric coordinate through which that organization is represented.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">47. Logical Status</h2>
+<p>Established Before This Addendum</p>
+<p>Addendum 35:</p>
+<blockquote class="blockquote">
+<p>• background-relative rapidity; • local Lorentz geometry; • invariant clock-ruler calibration.</p>
+</blockquote>
+<p>Addendum 36:</p>
+<blockquote class="blockquote">
+<p>• relativistic energy and momentum; • mass-energy equivalence; • mass as local boundary coupling rather than motion reference.</p>
+</blockquote>
+<p>Addendum 37:</p>
+<blockquote class="blockquote">
+<p>• free fall as local common-mode participation; • support as differential rapidity constraint; • finite tidal rapidity between neighboring free-fall boundaries.</p>
+</blockquote>
+<!-- source_pdf_page: 1381 -->
+<p>Addendum 38:</p>
+<blockquote class="blockquote">
+<p>• continuous tidal operator; • geodesic-deviation projection; • electric Riemann curvature; • weak-field tidal source trace;</p>
+</blockquote>
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<p>New Projection Assumptions</p>
+<p>This addendum additionally assumes:</p>
+<blockquote class="blockquote">
+<p>• four-dimensional metric geometry; • Levi-Civita connection; • symmetric total stress-energy; • local covariant source conservation; • local algebraic linear source-curvature coupling; • no extra independent source fields in the minimal relation; • constant coupling within the gravitational boundary.</p>
+</blockquote>
+<p>Mathematical Consequence</p>
+<p>These assumptions force the trace-reversed source combination</p>
+<p><span class="math display">\[T_{\mu\nu}-\frac12Tg_{\mu\nu}.\]</span></p>
+<p>Physical Calibration Consequence</p>
+<p>The weak-field tidal relation fixes</p>
+<p><span class="math display">\[\kappa_G=\frac{8\pi G}{c^4}.\]</span></p>
+<p>Resulting Projected Equation</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>Not Established Here</p>
+<p>This addendum does not establish:</p>
+<blockquote class="blockquote">
+<p>• that Tμν is a primitive R²D variable; • that Gμν is a primitive R²D variable; • that spacetime is identical to an R²D boundary; • that Einstein gravity is the only conceivable gravitational theory outside the stated projection class;</p>
+</blockquote>
+<!-- source_pdf_page: 1382 -->
+<blockquote class="blockquote">
+<p>• that local matter determines the Weyl tensor algebraically; • that Λ is R²D background; • that G is a primitive universal count constant; • the microscopic origin of the numerical value of G; • quantum gravity.</p>
+</blockquote>
+</section>
+<section id="what-has-been-established" class="level2">
+<h2 class="anchored" data-anchor-id="what-has-been-established">48. What Has Been Established</h2>
+<p>The gravitational chain now closes locally.</p>
+<p>A local boundary requires an enclosing reference.</p>
+<p>A common background rapidity relation gives Lorentz geometry.</p>
+<p>Changing enclosing rapidity gives gravitational motion.</p>
+<p>Common-mode participation gives free fall.</p>
+<p>Failure of common mode across neighboring peers gives tidal rapidity.</p>
+<p>The continuous limit gives geodesic deviation.</p>
+<p>Metric projection gives Riemann curvature.</p>
+<p>The tidal trace gives the weak-field Ricci source calibration.</p>
+<p>Relativistic source content requires Tμν .</p>
+<p>Conservation and Bianchi compatibility force trace reversal.</p>
+<p>The Newtonian tidal calibration fixes the coupling.</p>
+<p>Thus the mature equation is</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>The field equation has been reached without beginning with it.</p>
+</section>
+<section id="the-new-relativistic-gravitational-sequence" class="level2">
+<h2 class="anchored" data-anchor-id="the-new-relativistic-gravitational-sequence">49. The New Relativistic-Gravitational Sequence</h2>
+<p>Addenda 35–39 now form one continuous hierarchy:</p>
+<!-- source_pdf_page: 1383 -->
+<p>Addendum 35</p>
+<blockquote class="blockquote">
+<p>reference boundary <span class="math inline">\(\longrightarrow\)</span> Lorentz geometry.</p>
+</blockquote>
+<p>Addendum 36</p>
+<blockquote class="blockquote">
+<p>boundary mass + background rapidity <span class="math inline">\(\longrightarrow mc^2\)</span>.</p>
+</blockquote>
+<p>Addendum 37</p>
+<blockquote class="blockquote">
+<p>differential free-fall rapidity <span class="math inline">\(\longrightarrow\)</span> tidal gravity.</p>
+</blockquote>
+<p>Addendum 38</p>
+<blockquote class="blockquote">
+<p>tidal rapidity <span class="math inline">\(\longrightarrow\)</span> Riemann projection.</p>
+</blockquote>
+<p>Addendum 39</p>
+<blockquote class="blockquote">
+<p>source compatibility <span class="math inline">\(\longrightarrow\)</span> Einstein tensor.</p>
+</blockquote>
+<p>The conventional physical laws appear successively as projections of an earlier recursive-reference architecture.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">50. Conclusion</h2>
+<p>Einstein’s field equation need not be where gravity begins.</p>
+<p>R²D begins earlier.</p>
+<p>A local boundary is read relative to an enclosing rapidity landscape.</p>
+<p>A changing enclosing reference produces gravitational motion.</p>
+<p>A uniform change becomes locally common mode and is experienced as free fall.</p>
+<p>A difference in that change between neighboring free-fall boundaries survives as tidal distinguishability.</p>
+<p>The continuous geometric projection of that differential relation is curvature.</p>
+<p>In the local freely falling frame,</p>
+<p><span class="math display">\[\mathcal E^{\hat i}{}_{\hat j}=-c^2R^{\hat i}{}_{\hat0\hat j\hat0}.\]</span></p>
+<p>When matter is present, the tidal trace gives</p>
+<!-- source_pdf_page: 1384 -->
+<p><span class="math display">\[R_{\hat0\hat0}=\frac{4\pi G}{c^2}\rho.\]</span></p>
+<p>This relation exists before the Einstein tensor.</p>
+<p>Relativistic source organization cannot remain scalar density.</p>
+<p>It is represented by</p>
+<p><span class="math display">\[T_{\mu\nu}.\]</span></p>
+<p>Within a four-dimensional metric, torsion-free, local linear projection with conserved total stress-energy, write the most general minimal Ricci-source relation:</p>
+<p><span class="math display">\[R_{\mu\nu}=\kappa_G(T_{\mu\nu}+\sigma T g_{\mu\nu})+\lambda g_{\mu\nu}.\]</span></p>
+<p>Source conservation and the contracted Bianchi identity force</p>
+<p><span class="math display">\[\sigma=-\frac12.\]</span></p>
+<p>The weak-field tidal calibration then fixes</p>
+<p><span class="math display">\[\kappa_G=\frac{8\pi G}{c^4}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}.\]</span></p>
+<p>The Einstein tensor appears because it is the divergence-free geometric coordinate compatible with the conserved relativistic source coordinate.</p>
+<p>The equation is exact within its physical projection.</p>
+<p>But its explanatory order is downstream.</p>
+<p>The source tensor does not have to be the primitive cause of the gravitational boundary.</p>
+<p>The Einstein tensor does not have to be the primitive geometry from which tidal relations arise.</p>
+<p>Both are mature physical reads of an enclosing organization established earlier.</p>
+<p>The full ordering is:</p>
+<p>enclosing reference → Lorentz geometry → gravitational rapidity change → tidal distinction → curvature → sour</p>
+<p>Thus:</p>
+<!-- source_pdf_page: 1385 -->
+<blockquote class="blockquote">
+<p>source compatibility occurs before the Einstein tensor.</p>
+</blockquote>
+<p>And the broader R²D inversion remains:</p>
+<p>the enclosing relation occurs before the mathematical coordinates used to describe it.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="pagination-link" aria-label="Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="pagination-link" aria-label="Addendum 40 — Keplerian Closure Occurs Before Gravitational Force">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

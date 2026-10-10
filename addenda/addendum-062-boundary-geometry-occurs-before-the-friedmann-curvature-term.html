@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" rel="next">
+<link href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-62-boundary-geometry-occurs-before-the-friedmann-curvature-term" id="toc-addendum-62-boundary-geometry-occurs-before-the-friedmann-curvature-term" class="nav-link active" data-scroll-target="#addendum-62-boundary-geometry-occurs-before-the-friedmann-curvature-term">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-curvature-contribution-is-not-a-matter-source" id="toc-the-curvature-contribution-is-not-a-matter-source" class="nav-link" data-scroll-target="#the-curvature-contribution-is-not-a-matter-source">1. The Curvature Contribution Is Not a Matter Source</a></li>
+  <li><a href="#define-the-physical-curvature-coordinate" id="toc-define-the-physical-curvature-coordinate" class="nav-link" data-scroll-target="#define-the-physical-curvature-coordinate">2. Define the Physical Curvature Coordinate</a></li>
+  <li><a href="#k-and-kζ-must-remain-distinct" id="toc-k-and-kζ-must-remain-distinct" class="nav-link" data-scroll-target="#k-and-kζ-must-remain-distinct">3. k and Kζ Must Remain Distinct</a></li>
+  <li><a href="#the-intrinsic-three-curvature-is" id="toc-the-intrinsic-three-curvature-is" class="nav-link" data-scroll-target="#the-intrinsic-three-curvature-is">4. The Intrinsic Three-Curvature Is</a></li>
+  <li><a href="#rewrite-the-friedmann-curvature-contribution" id="toc-rewrite-the-friedmann-curvature-contribution" class="nav-link" data-scroll-target="#rewrite-the-friedmann-curvature-contribution">5. Rewrite the Friedmann Curvature Contribution</a></li>
+  <li><a href="#this-identifies-the-physical-ownership-of-fk" id="toc-this-identifies-the-physical-ownership-of-fk" class="nav-link" data-scroll-target="#this-identifies-the-physical-ownership-of-fk">6. This Identifies the Physical Ownership of Fk</a></li>
+  <li><a href="#return-to-the-cosmological-boundary-area" id="toc-return-to-the-cosmological-boundary-area" class="nav-link" data-scroll-target="#return-to-the-cosmological-boundary-area">7. Return to the Cosmological Boundary Area</a></li>
+  <li><a href="#solve-for-the-scale-factor" id="toc-solve-for-the-scale-factor" class="nav-link" data-scroll-target="#solve-for-the-scale-factor">8. Solve for the Scale Factor</a></li>
+  <li><a href="#physical-spatial-curvature-is-an-inverse-area-read" id="toc-physical-spatial-curvature-is-an-inverse-area-read" class="nav-link" data-scroll-target="#physical-spatial-curvature-is-an-inverse-area-read">9. Physical Spatial Curvature Is an Inverse-Area Read</a></li>
+  <li><a href="#the-three-curvature-is-therefore" id="toc-the-three-curvature-is-therefore" class="nav-link" data-scroll-target="#the-three-curvature-is-therefore">10. The Three-Curvature Is Therefore</a></li>
+  <li><a href="#the-friedmann-curvature-term-becomes" id="toc-the-friedmann-curvature-term-becomes" class="nav-link" data-scroll-target="#the-friedmann-curvature-term-becomes">11. The Friedmann Curvature Term Becomes</a></li>
+  <li><a href="#area-occurs-before-curvature-magnitude" id="toc-area-occurs-before-curvature-magnitude" class="nav-link" data-scroll-target="#area-occurs-before-curvature-magnitude">12. Area Occurs Before Curvature Magnitude</a></li>
+  <li><a href="#curvature-class-and-geometric-place-value-perform-different-jobs" id="toc-curvature-class-and-geometric-place-value-perform-different-jobs" class="nav-link" data-scroll-target="#curvature-class-and-geometric-place-value-perform-different-jobs">13. Curvature Class and Geometric Place Value Perform Different Jobs</a></li>
+  <li><a href="#a-dimensionless-class-does-not-supply-dimensional-magnitude" id="toc-a-dimensionless-class-does-not-supply-dimensional-magnitude" class="nav-link" data-scroll-target="#a-dimensionless-class-does-not-supply-dimensional-magnitude">14. A Dimensionless Class Does Not Supply Dimensional Magnitude</a></li>
+  <li><a href="#the-curvature-class-is-constant-within-one-flrw-projection" id="toc-the-curvature-class-is-constant-within-one-flrw-projection" class="nav-link" data-scroll-target="#the-curvature-class-is-constant-within-one-flrw-projection">15. The Curvature Class Is Constant Within One FLRW Projection</a></li>
+  <li><a href="#physical-curvature-changes-with-the-state" id="toc-physical-curvature-changes-with-the-state" class="nav-link" data-scroll-target="#physical-curvature-changes-with-the-state">16. Physical Curvature Changes With the State</a></li>
+  <li><a href="#in-area-coordinates-the-evolution-is-immediate" id="toc-in-area-coordinates-the-evolution-is-immediate" class="nav-link" data-scroll-target="#in-area-coordinates-the-evolution-is-immediate">17. In Area Coordinates the Evolution Is Immediate</a></li>
+  <li><a href="#physical-clock-calibration-gives-the-curvature-rate" id="toc-physical-clock-calibration-gives-the-curvature-rate" class="nav-link" data-scroll-target="#physical-clock-calibration-gives-the-curvature-rate">18. Physical Clock Calibration Gives the Curvature Rate</a></li>
+  <li><a href="#hence" id="toc-hence" class="nav-link" data-scroll-target="#hence">19. Hence</a></li>
+  <li><a href="#the-same-is-true-of-the-scalar-three-curvature" id="toc-the-same-is-true-of-the-scalar-three-curvature" class="nav-link" data-scroll-target="#the-same-is-true-of-the-scalar-three-curvature">20. The Same Is True of the Scalar Three-Curvature</a></li>
+  <li><a href="#positive-curvature-dilutes-toward-zero-under-expansion" id="toc-positive-curvature-dilutes-toward-zero-under-expansion" class="nav-link" data-scroll-target="#positive-curvature-dilutes-toward-zero-under-expansion">21. Positive Curvature Dilutes Toward Zero Under Expansion</a></li>
+  <li><a href="#negative-curvature-also-dilutes-toward-zero-in-magnitude" id="toc-negative-curvature-also-dilutes-toward-zero-in-magnitude" class="nav-link" data-scroll-target="#negative-curvature-also-dilutes-toward-zero-in-magnitude">22. Negative Curvature Also Dilutes Toward Zero in Magnitude</a></li>
+  <li><a href="#flat-geometry-remains-flat" id="toc-flat-geometry-remains-flat" class="nav-link" data-scroll-target="#flat-geometry-remains-flat">23. Flat Geometry Remains Flat</a></li>
+  <li><a href="#principle-boundary-growth-changes-curvature-magnitude-not-curvature-class" id="toc-principle-boundary-growth-changes-curvature-magnitude-not-curvature-class" class="nav-link" data-scroll-target="#principle-boundary-growth-changes-curvature-magnitude-not-curvature-class">24. Principle — Boundary Growth Changes Curvature Magnitude, Not Curvature Class</a></li>
+  <li><a href="#the-curvature-class-is-not-a-cosmological-macrostate-coordinate-in-the-same-sense-as-area" id="toc-the-curvature-class-is-not-a-cosmological-macrostate-coordinate-in-the-same-sense-as-area" class="nav-link" data-scroll-target="#the-curvature-class-is-not-a-cosmological-macrostate-coordinate-in-the-same-sense-as-area">25. The Curvature Class Is Not a Cosmological Macrostate Coordinate in the Same Sense as Area</a></li>
+  <li><a href="#kζ-does-distinguish-them" id="toc-kζ-does-distinguish-them" class="nav-link" data-scroll-target="#kζ-does-distinguish-them">26. Kζ Does Distinguish Them</a></li>
+  <li><a href="#curvature-must-pass-the-physical-read-factorization-test" id="toc-curvature-must-pass-the-physical-read-factorization-test" class="nav-link" data-scroll-target="#curvature-must-pass-the-physical-read-factorization-test">27. Curvature Must Pass the Physical-Read Factorization Test</a></li>
+  <li><a href="#k-has-different-ownership" id="toc-k-has-different-ownership" class="nav-link" data-scroll-target="#k-has-different-ownership">28. k Has Different Ownership</a></li>
+  <li><a href="#this-makes-k-a-projection-class-coordinate" id="toc-this-makes-k-a-projection-class-coordinate" class="nav-link" data-scroll-target="#this-makes-k-a-projection-class-coordinate">29. This Makes k a Projection-Class Coordinate</a></li>
+  <li><a href="#r²d-constraint-must-remain-distinct" id="toc-r²d-constraint-must-remain-distinct" class="nav-link" data-scroll-target="#r²d-constraint-must-remain-distinct">30. R²D Constraint Must Remain Distinct</a></li>
+  <li><a href="#physical-curvature-is-also-not-retention" id="toc-physical-curvature-is-also-not-retention" class="nav-link" data-scroll-target="#physical-curvature-is-also-not-retention">31. Physical Curvature Is Also Not Retention</a></li>
+  <li><a href="#nor-is-negative-curvature-primitive-possibility" id="toc-nor-is-negative-curvature-primitive-possibility" class="nav-link" data-scroll-target="#nor-is-negative-curvature-primitive-possibility">32. Nor Is Negative Curvature Primitive Possibility</a></li>
+  <li><a href="#curvature-is-a-relational-geometric-read-of-peer-organization" id="toc-curvature-is-a-relational-geometric-read-of-peer-organization" class="nav-link" data-scroll-target="#curvature-is-a-relational-geometric-read-of-peer-organization">33. Curvature Is a Relational Geometric Read of Peer Organization</a></li>
+  <li><a href="#no-single-peer-determines-k" id="toc-no-single-peer-determines-k" class="nav-link" data-scroll-target="#no-single-peer-determines-k">34. No Single Peer Determines k</a></li>
+  <li><a href="#this-suggests-a-global-compatibility-origin" id="toc-this-suggests-a-global-compatibility-origin" class="nav-link" data-scroll-target="#this-suggests-a-global-compatibility-origin">35. This Suggests a Global Compatibility Origin</a></li>
+  <li><a href="#the-present-result-begins-after-curvature-class-selection" id="toc-the-present-result-begins-after-curvature-class-selection" class="nav-link" data-scroll-target="#the-present-result-begins-after-curvature-class-selection">36. The Present Result Begins After Curvature-Class Selection</a></li>
+  <li><a href="#matter-energy-and-curvature-have-different-area-scalings" id="toc-matter-energy-and-curvature-have-different-area-scalings" class="nav-link" data-scroll-target="#matter-energy-and-curvature-have-different-area-scalings">37. Matter-Energy and Curvature Have Different Area Scalings</a></li>
+  <li><a href="#the-different-powers-reflect-different-physical-ownership" id="toc-the-different-powers-reflect-different-physical-ownership" class="nav-link" data-scroll-target="#the-different-powers-reflect-different-physical-ownership">38. The Different Powers Reflect Different Physical Ownership</a></li>
+  <li><a href="#curvature-is-an-inverse-squared-length-read" id="toc-curvature-is-an-inverse-squared-length-read" class="nav-link" data-scroll-target="#curvature-is-an-inverse-squared-length-read">39. Curvature Is an Inverse Squared-Length Read</a></li>
+  <li><a href="#the-difference-is-therefore-structural-not-merely-algebraic" id="toc-the-difference-is-therefore-structural-not-merely-algebraic" class="nav-link" data-scroll-target="#the-difference-is-therefore-structural-not-merely-algebraic">40. The Difference Is Therefore Structural, Not Merely Algebraic</a></li>
+  <li><a href="#write-the-first-two-friedmann-terms-in-area-form" id="toc-write-the-first-two-friedmann-terms-in-area-form" class="nav-link" data-scroll-target="#write-the-first-two-friedmann-terms-in-area-form">41. Write the First Two Friedmann Terms in Area Form</a></li>
+  <li><a href="#the-friedmann-equation-therefore-becomes" id="toc-the-friedmann-equation-therefore-becomes" class="nav-link" data-scroll-target="#the-friedmann-equation-therefore-becomes">42. The Friedmann Equation Therefore Becomes</a></li>
+  <li><a href="#the-three-terms-now-separate-by-area-scaling" id="toc-the-three-terms-now-separate-by-area-scaling" class="nav-link" data-scroll-target="#the-three-terms-now-separate-by-area-scaling">43. The Three Terms Now Separate by Area Scaling</a></li>
+  <li><a href="#the-familiar-scale-factor-powers-follow-later" id="toc-the-familiar-scale-factor-powers-follow-later" class="nav-link" data-scroll-target="#the-familiar-scale-factor-powers-follow-later">44. The Familiar Scale-Factor Powers Follow Later</a></li>
+  <li><a href="#curvature-can-be-rewritten-as-an-effective-density" id="toc-curvature-can-be-rewritten-as-an-effective-density" class="nav-link" data-scroll-target="#curvature-can-be-rewritten-as-an-effective-density">45. Curvature Can Be Rewritten as an Effective Density</a></li>
+  <li><a href="#but-the-effective-density-does-not-change-its-geometric-origin" id="toc-but-the-effective-density-does-not-change-its-geometric-origin" class="nav-link" data-scroll-target="#but-the-effective-density-does-not-change-its-geometric-origin">46. But the Effective Density Does Not Change Its Geometric Origin</a></li>
+  <li><a href="#the-effective-curvature-density-scales-as" id="toc-the-effective-curvature-density-scales-as" class="nav-link" data-scroll-target="#the-effective-curvature-density-scales-as">47. The Effective Curvature Density Scales as</a></li>
+  <li><a href="#therefore" id="toc-therefore" class="nav-link" data-scroll-target="#therefore">48. Therefore</a></li>
+  <li><a href="#no-curvature-fluid-has-been-discovered" id="toc-no-curvature-fluid-has-been-discovered" class="nav-link" data-scroll-target="#no-curvature-fluid-has-been-discovered">49. No Curvature Fluid Has Been Discovered</a></li>
+  <li><a href="#this-reinforces-friedmann-partition-nonuniqueness" id="toc-this-reinforces-friedmann-partition-nonuniqueness" class="nav-link" data-scroll-target="#this-reinforces-friedmann-partition-nonuniqueness">50. This Reinforces Friedmann Partition Nonuniqueness</a></li>
+  <li><a href="#principle-curvature-class-precedes-curvature-magnitude" id="toc-principle-curvature-class-precedes-curvature-magnitude" class="nav-link" data-scroll-target="#principle-curvature-class-precedes-curvature-magnitude">51. Principle — Curvature Class Precedes Curvature Magnitude</a></li>
+  <li><a href="#principle-boundary-area-sets-physical-curvature-magnitude" id="toc-principle-boundary-area-sets-physical-curvature-magnitude" class="nav-link" data-scroll-target="#principle-boundary-area-sets-physical-curvature-magnitude">52. Principle — Boundary Area Sets Physical Curvature Magnitude</a></li>
+  <li><a href="#principle-friedmann-curvature-is-a-geometric-rate-read" id="toc-principle-friedmann-curvature-is-a-geometric-rate-read" class="nav-link" data-scroll-target="#principle-friedmann-curvature-is-a-geometric-rate-read">53. Principle — Friedmann Curvature Is a Geometric Rate Read</a></li>
+  <li><a href="#principle-curvature-class-preservation-under-expansion" id="toc-principle-curvature-class-preservation-under-expansion" class="nav-link" data-scroll-target="#principle-curvature-class-preservation-under-expansion">54. Principle — Curvature-Class Preservation Under Expansion</a></li>
+  <li><a href="#principle-curvature-is-not-a-primitive-source-coordinate" id="toc-principle-curvature-is-not-a-primitive-source-coordinate" class="nav-link" data-scroll-target="#principle-curvature-is-not-a-primitive-source-coordinate">55. Principle — Curvature Is Not a Primitive Source Coordinate</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">56. Logical Status</a></li>
+  <li><a href="#the-complete-curvature-projection-sequence" id="toc-the-complete-curvature-projection-sequence" class="nav-link" data-scroll-target="#the-complete-curvature-projection-sequence">57. The Complete Curvature Projection Sequence</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">58. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></h1>
+<p class="subtitle lead">Spatial-Curvature Class, Inverse-Area Scaling, and the Geometric Read of Cosmological Peer Organization</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-62-boundary-geometry-occurs-before-the-friedmann-curvature-term" class="level1">
+<h1>Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 60 showed that the Friedmann equation partitions one already-defined physical rate magnitude,</p>
+<p><span class="math display">\[ H^2\]</span></p>
+<p>into several downstream gravitational coordinates.</p>
+<p>Addendum 61 then deprojected the matter-energy contribution,</p>
+<p><span class="math display">\[\frac{8\pi G}{3c^2}\epsilon_\zeta\]</span></p>
+<p>into two prior physical reads:</p>
+<blockquote class="blockquote">
+<p>peer-energy read</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>boundary-support read.</p>
+</blockquote>
+<p>The next Friedmann contribution is</p>
+<p><span class="math display">\[ F_k=-\frac{kc^2}{a^2}\]</span></p>
+<p>This term has fundamentally different physical ownership.</p>
+<p>It is not a source-density term.</p>
+<p>For normalized FLRW spatial geometry,</p>
+<p><span class="math display">\[ k\in\{-1,0,+1\}.\]</span></p>
+<p>labels the constant-curvature projection class, whereas</p>
+<p><span class="math display">\[ K_\zeta\equiv\frac{k}{a^2}\]</span></p>
+<!-- source_pdf_page: 2097 -->
+<p>is the state-dependent physical sectional curvature of the spatial geometry.</p>
+<p>Equivalently, the intrinsic scalar curvature of a constant-cosmological-time spatial slice is</p>
+<p><span class="math display">\[{}^{(3)}R_\zeta=\frac{6k}{a^2}=6K_\zeta\]</span></p>
+<p>Thus the Friedmann curvature contribution can be written</p>
+<p><span class="math display">\[ F_k=-c^2K_\zeta.\]</span></p>
+<p>or</p>
+<p><span class="math display">\[ F_k=-\frac{c^2}{6}\,{}^{(3)}R_\zeta\]</span></p>
+<p>The curvature term is therefore already a physical geometric read.</p>
+<p>Addendum 56 established that, for a fixed comoving shell χ,</p>
+<p><span class="math display">\[ A_\zeta=4\pi a^2S_k^2(\chi).\]</span></p>
+<p>Solving for the scale factor gives</p>
+<p><span class="math display">\[ a^2=\frac{A_\zeta}{4\pi S_k^2(\chi)}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[ K_\zeta=\frac{k}{a^2}=\frac{4\pi k S_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>The spatial scalar curvature is correspondingly</p>
+<p><span class="math display">\[{}^{(3)}R_\zeta=\frac{24\pi kS_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>And the Friedmann curvature contribution becomes</p>
+<p><span class="math display">\[ F_k=-\frac{4\pi kc^2 S_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>Once the curvature class and comoving comparison domain are fixed, physical spatial curvature therefore scales as the inverse of cosmological boundary area:</p>
+<!-- source_pdf_page: 2098 -->
+<p><span class="math display">\[ K_\zeta\propto A_\zeta^{-1}\]</span></p>
+<p>The geometric ordering is consequently</p>
+<p><span class="math display">\[ B_\zeta\to A_\zeta\to K_\zeta\to F_k\]</span></p>
+<p>The normalized label k does not supply physical curvature magnitude by itself.</p>
+<p>Instead,</p>
+<p><span class="math inline">\(k\)</span> = geometric projection class</p>
+<p>and</p>
+<p><span class="math inline">\(A_\zeta\)</span> = state-dependent geometric place value</p>
+<p>jointly determine</p>
+<p><span class="math inline">\(K_\zeta\)</span> = physical spatial curvature</p>
+<p>This also explains why cosmological expansion changes the magnitude of curvature without changing the FLRW curvature class.</p>
+<p>For fixed nonzero k ,</p>
+<p><span class="math display">\[ K_\zeta\propto A_\zeta^{-1}\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[ d\ln|K_\zeta|=-d\ln A_\zeta\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[ H=\frac12\frac{d\ln A_\zeta}{dt}\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\frac{\dot K_\zeta}{K_\zeta}=-2H\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[\dot K_\zeta=-2HK_\zeta.\]</span></p>
+<p>Likewise,</p>
+<!-- source_pdf_page: 2099 -->
+<p><span class="math display">\[\dot{{}^{(3)}R}_\zeta=-2H\,{}^{(3)}R_\zeta\]</span></p>
+<p>The curvature class does not evolve:</p>
+<p><span class="math display">\[ k=\mathrm{constant}.\]</span></p>
+<p>while its physical magnitude does.</p>
+<p>The distinction is crucial for R²D.</p>
+<p>The primitive cosmological state is defined through compatible peer-boundary realization before FLRW geometry is assigned.</p>
+<p>The curvature class k therefore cannot be identified by definition with R²D constraint, retention, possibility, or asymmetry.</p>
+<p>In particular,</p>
+<p><span class="math display">\[ k\ne C_\zeta\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ K_\zeta\ne R_\zeta\]</span></p>
+<p>Any such relation would require an independent bridge from peer-compatibility structure to the physical curvature class.</p>
+<p>The present addendum does not yet derive why a particular R²D cosmological realization projects as</p>
+<p><span class="math display">\[ k=+1,\quad k=0,\quad\text{or}\quad k=-1\]</span></p>
+<p>It derives the later relation:</p>
+<blockquote class="blockquote">
+<p>Once an isotropic constant-curvature projection class is selected, the magnitude of its physical curvature is determined by the cosmological boundary-area read.</p>
+</blockquote>
+<p>This separates curvature from matter-energy.</p>
+<p>For pressureless conserved source energy, Addendum 61 gave</p>
+<p><span class="math display">\[ F_{\mathrm{dust}}\propto A_\zeta^{-3/2}\]</span></p>
+<p>By contrast,</p>
+<p><span class="math display">\[ F_k\propto A_\zeta^{-1}\]</span></p>
+<!-- source_pdf_page: 2100 -->
+<p>The different scalings follow because the terms have different physical ownership.</p>
+<p>Matter-energy is a source-energy read divided by a three-dimensional support volume:</p>
+<p><span class="math display">\[ V_\zeta\propto A_\zeta^{3/2}\]</span></p>
+<p>Curvature is an inverse squared-length property of the projected boundary geometry:</p>
+<p><span class="math display">\[ K_\zeta\propto A_\zeta^{-1}\]</span></p>
+<p>The Friedmann equation can therefore be written, in the pressureless-source limit, almost entirely in area coordinates:</p>
+<p><span class="math display">\[ H^2=\frac{8\pi c^2\ell_{E,\zeta}}{3\eta_{k,\chi}A_\zeta^{3/2}}-\frac{4\pi kc^2S_k^2(\chi)}{A_\zeta}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>The three contributions now reveal three different area-scaling classes:</p>
+<p><span class="math display">\[ F_{\mathrm{dust}}\propto A_\zeta^{-3/2}\]</span></p>
+<p><span class="math display">\[ F_k\propto A_\zeta^{-1}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ F_\Lambda\propto A_\zeta^0\]</span></p>
+<p>The conventional scale-factor forms,</p>
+<p><span class="math inline">\(a^{-3}\)</span>, <span class="math inline">\(a^{-2}\)</span>, and <span class="math inline">\(a^0\)</span>, respectively.</p>
+<p>are therefore later expressions of different physical boundary reads.</p>
+<p>The central statement is:</p>
+<p>the Friedmann curvature term is not a primitive negative source contribution. It is the rate-squared</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>Boundary geometry occurs before the Friedmann curvature term.</p>
+</blockquote>
+</section>
+<section id="the-curvature-contribution-is-not-a-matter-source" class="level2">
+<h2 class="anchored" data-anchor-id="the-curvature-contribution-is-not-a-matter-source">1. The Curvature Contribution Is Not a Matter Source</h2>
+<p>The Friedmann curvature contribution is</p>
+<!-- source_pdf_page: 2101 -->
+<p><span class="math display">\[ F_k=-\frac{kc^2}{a^2}\]</span></p>
+<p>It appears additively beside the matter-energy and cosmological-constant terms.</p>
+<p>That algebraic placement does not make all three quantities the same type of object.</p>
+</section>
+<section id="define-the-physical-curvature-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-physical-curvature-coordinate">2. Define the Physical Curvature Coordinate</h2>
+<p>For normalized FLRW curvature label</p>
+<p><span class="math display">\[ k\in\{-1,0,+1\}.\]</span>,</p>
+<p>define</p>
+<p><span class="math display">\[ K_\zeta\equiv\frac{k}{a^2}\]</span></p>
+<p>The quantity Kζ has dimensions of inverse length squared.</p>
+</section>
+<section id="k-and-kζ-must-remain-distinct" class="level2">
+<h2 class="anchored" data-anchor-id="k-and-kζ-must-remain-distinct">3. k and Kζ Must Remain Distinct</h2>
+<p>The normalized label</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>specifies the sign and class of the constant-curvature spatial geometry.</p>
+<p>The quantity</p>
+<p><span class="math display">\[ K_\zeta\]</span></p>
+<p>specifies its physical curvature magnitude.</p>
+<p>Therefore:</p>
+<p><span class="math display">\[ k\ne K_\zeta\]</span></p>
+</section>
+<section id="the-intrinsic-three-curvature-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-intrinsic-three-curvature-is">4. The Intrinsic Three-Curvature Is</h2>
+<p>For an FLRW spatial slice,</p>
+<!-- source_pdf_page: 2102 -->
+<p><span class="math display">\[{}^{(3)}R_\zeta=\frac{6k}{a^2}=6K_\zeta\]</span></p>
+<p>This is an invariant scalar characterization of the intrinsic spatial curvature.</p>
+</section>
+<section id="rewrite-the-friedmann-curvature-contribution" class="level2">
+<h2 class="anchored" data-anchor-id="rewrite-the-friedmann-curvature-contribution">5. Rewrite the Friedmann Curvature Contribution</h2>
+<p>Since</p>
+<p><span class="math display">\[ K_\zeta\equiv\frac{k}{a^2}\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[ F_k=-c^2K_\zeta.\]</span> .</p>
+<p>Or:</p>
+<p><span class="math display">\[ F_k=-\frac{c^2}{6}\,{}^{(3)}R_\zeta\]</span></p>
+</section>
+<section id="this-identifies-the-physical-ownership-of-fk" class="level2">
+<h2 class="anchored" data-anchor-id="this-identifies-the-physical-ownership-of-fk">6. This Identifies the Physical Ownership of Fk</h2>
+<p>The curvature term is a geometric quantity converted into rate-squared units.</p>
+<p>It is not fundamentally a density.</p>
+<p>It does not require matter to be present.</p>
+</section>
+<section id="return-to-the-cosmological-boundary-area" class="level2">
+<h2 class="anchored" data-anchor-id="return-to-the-cosmological-boundary-area">7. Return to the Cosmological Boundary Area</h2>
+<p>Addendum 56 introduced the area of a fixed comoving shell:</p>
+<p><span class="math display">\[ A_\zeta=4\pi a^2S_k^2(\chi).\]</span></p>
+<p>This is the first physical geometric read relevant to the present construction.</p>
+</section>
+<section id="solve-for-the-scale-factor" class="level2">
+<h2 class="anchored" data-anchor-id="solve-for-the-scale-factor">8. Solve for the Scale Factor</h2>
+<p>For fixed χ,</p>
+<!-- source_pdf_page: 2103 -->
+<p><span class="math display">\[ a^2=\frac{A_\zeta}{4\pi S_k^2(\chi)}\]</span></p>
+<p>Therefore the physical curvature can be written directly in boundary-area coordinates.</p>
+</section>
+<section id="physical-spatial-curvature-is-an-inverse-area-read" class="level2">
+<h2 class="anchored" data-anchor-id="physical-spatial-curvature-is-an-inverse-area-read">9. Physical Spatial Curvature Is an Inverse-Area Read</h2>
+<p>Substituting into</p>
+<p><span class="math display">\[ K_\zeta\equiv\frac{k}{a^2}\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[ K_\zeta=\frac{k}{a^2}=\frac{4\pi k S_k^2(\chi)}{A_\zeta}\]</span></p>
+</section>
+<section id="the-three-curvature-is-therefore" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-curvature-is-therefore">10. The Three-Curvature Is Therefore</h2>
+<p><span class="math display">\[{}^{(3)}R_\zeta=\frac{24\pi kS_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>The intrinsic spatial-curvature magnitude is inversely proportional to the cosmological boundary-area read.</p>
+</section>
+<section id="the-friedmann-curvature-term-becomes" class="level2">
+<h2 class="anchored" data-anchor-id="the-friedmann-curvature-term-becomes">11. The Friedmann Curvature Term Becomes</h2>
+<p><span class="math display">\[ F_k=-\frac{4\pi kc^2 S_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>This is the area-first form of the Friedmann curvature contribution.</p>
+</section>
+<section id="area-occurs-before-curvature-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="area-occurs-before-curvature-magnitude">12. Area Occurs Before Curvature Magnitude</h2>
+<p>The physical ordering is</p>
+<p><span class="math display">\[ B_\zeta\to A_\zeta\to K_\zeta\]</span></p>
+<p>Physical curvature magnitude is defined only after the boundary has acquired geometric place value.</p>
+<!-- source_pdf_page: 2104 -->
+</section>
+<section id="curvature-class-and-geometric-place-value-perform-different-jobs" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-class-and-geometric-place-value-perform-different-jobs">13. Curvature Class and Geometric Place Value Perform Different Jobs</h2>
+<p>The class label is</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>The scale of the geometry is supplied by</p>
+<p><span class="math display">\[ A_\zeta\]</span></p>
+<p>Their combination produces physical curvature.</p>
+</section>
+<section id="a-dimensionless-class-does-not-supply-dimensional-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="a-dimensionless-class-does-not-supply-dimensional-magnitude">14. A Dimensionless Class Does Not Supply Dimensional Magnitude</h2>
+<p>Knowing only</p>
+<p><span class="math display">\[ k=+1\]</span></p>
+<p>does not tell us whether the physical spatial curvature is large or small.</p>
+<p>That requires the physical scale</p>
+<p><span class="math display">\[ a\]</span></p>
+<p>or equivalently</p>
+<p><span class="math display">\[ A_\zeta\]</span></p>
+</section>
+<section id="the-curvature-class-is-constant-within-one-flrw-projection" class="level2">
+<h2 class="anchored" data-anchor-id="the-curvature-class-is-constant-within-one-flrw-projection">15. The Curvature Class Is Constant Within One FLRW Projection</h2>
+<p>For a chosen FLRW spatial class,</p>
+<p><span class="math display">\[\dot k=0\]</span></p>
+<p>The cosmological state can change while the projection class remains fixed.</p>
+</section>
+<section id="physical-curvature-changes-with-the-state" class="level2">
+<h2 class="anchored" data-anchor-id="physical-curvature-changes-with-the-state">16. Physical Curvature Changes With the State</h2>
+<p>Because</p>
+<p><span class="math display">\[ K_\zeta=k/a^2\]</span></p>
+<!-- source_pdf_page: 2105 -->
+<p>changing</p>
+<p><span class="math inline">\(a\)</span> changes while <span class="math inline">\(K_\zeta\)</span> changes.</p>
+<p>even when k remains fixed.</p>
+</section>
+<section id="in-area-coordinates-the-evolution-is-immediate" class="level2">
+<h2 class="anchored" data-anchor-id="in-area-coordinates-the-evolution-is-immediate">17. In Area Coordinates the Evolution Is Immediate</h2>
+<p>For nonzero fixed k ,</p>
+<p><span class="math display">\[ K_\zeta\propto A_\zeta^{-1}\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ d\ln|K_\zeta|=-d\ln A_\zeta\]</span></p>
+</section>
+<section id="physical-clock-calibration-gives-the-curvature-rate" class="level2">
+<h2 class="anchored" data-anchor-id="physical-clock-calibration-gives-the-curvature-rate">18. Physical Clock Calibration Gives the Curvature Rate</h2>
+<p>Addendum 56 gave</p>
+<p><span class="math display">\[ H=\frac12\frac{d\ln A_\zeta}{dt}\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\frac{\dot K_\zeta}{K_\zeta}=-2H\]</span></p>
+</section>
+<section id="hence" class="level2">
+<h2 class="anchored" data-anchor-id="hence">19. Hence</h2>
+<p><span class="math display">\[\dot K_\zeta=-2HK_\zeta.\]</span></p>
+<p>The physical curvature evolves directly with boundary-area evolution.</p>
+</section>
+<section id="the-same-is-true-of-the-scalar-three-curvature" class="level2">
+<h2 class="anchored" data-anchor-id="the-same-is-true-of-the-scalar-three-curvature">20. The Same Is True of the Scalar Three-Curvature</h2>
+<p>Because</p>
+<p><span class="math display">\[{}^{(3)}R_\zeta=6K_\zeta\]</span></p>
+<!-- source_pdf_page: 2106 -->
+<p><span class="math display">\[\dot{{}^{(3)}R}_\zeta=-2H\,{}^{(3)}R_\zeta\]</span></p>
+</section>
+<section id="positive-curvature-dilutes-toward-zero-under-expansion" class="level2">
+<h2 class="anchored" data-anchor-id="positive-curvature-dilutes-toward-zero-under-expansion">21. Positive Curvature Dilutes Toward Zero Under Expansion</h2>
+<p>For</p>
+<p><span class="math display">\[ k=+1\]</span></p>
+<p><span class="math display">\[ K_\zeta&gt;0\]</span></p>
+<p>As</p>
+<p><span class="math display">\[ A_\zeta\]</span></p>
+<p>increases,</p>
+<p><span class="math display">\[ K_\zeta\to0^+\]</span></p>
+</section>
+<section id="negative-curvature-also-dilutes-toward-zero-in-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="negative-curvature-also-dilutes-toward-zero-in-magnitude">22. Negative Curvature Also Dilutes Toward Zero in Magnitude</h2>
+<p>For</p>
+<p><span class="math display">\[ k=-1\]</span></p>
+<p><span class="math display">\[ K_\zeta&lt;0\]</span></p>
+<p>As area increases,</p>
+<p><span class="math display">\[ K_\zeta\to0^-\]</span></p>
+</section>
+<section id="flat-geometry-remains-flat" class="level2">
+<h2 class="anchored" data-anchor-id="flat-geometry-remains-flat">23. Flat Geometry Remains Flat</h2>
+<p>For</p>
+<p><span class="math display">\[ k=0\]</span></p>
+<p><span class="math display">\[ K_\zeta=0\]</span></p>
+<p>for every value of</p>
+<p><span class="math display">\[ A_\zeta\]</span></p>
+<p>No area scaling can generate nonzero curvature from the flat FLRW class itself.</p>
+<!-- source_pdf_page: 2107 -->
+</section>
+<section id="principle-boundary-growth-changes-curvature-magnitude-not-curvature-class" class="level2">
+<h2 class="anchored" data-anchor-id="principle-boundary-growth-changes-curvature-magnitude-not-curvature-class">24. Principle — Boundary Growth Changes Curvature Magnitude, Not Curvature Class</h2>
+<p>Thus:</p>
+<p><span class="math display">\[\text{state change}\to\text{curvature magnitude change}\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\text{projection class}=k\]</span></p>
+<p>remains fixed.</p>
+</section>
+<section id="the-curvature-class-is-not-a-cosmological-macrostate-coordinate-in-the-same-sense-as-area" class="level2">
+<h2 class="anchored" data-anchor-id="the-curvature-class-is-not-a-cosmological-macrostate-coordinate-in-the-same-sense-as-area">25. The Curvature Class Is Not a Cosmological Macrostate Coordinate in the Same Sense as Area</h2>
+<p>If successive states</p>
+<p><span class="math display">\[ i\to j\]</span></p>
+<p>remain inside one FLRW projection class, then</p>
+<p><span class="math display">\[ k_i=k_j\]</span></p>
+<p>Thus k does not distinguish those states.</p>
+</section>
+<section id="kζ-does-distinguish-them" class="level2">
+<h2 class="anchored" data-anchor-id="kζ-does-distinguish-them">26. Kζ Does Distinguish Them</h2>
+<p>Because</p>
+<p><span class="math display">\[ A_{\zeta,i}\ne A_{\zeta,j}\]</span></p>
+<p>one generally has</p>
+<p><span class="math display">\[ K_{\zeta,i}\ne K_{\zeta,j}\]</span></p>
+<p>for nonzero k .</p>
+<p>Thus physical curvature is a state-dependent macrostate read.</p>
+<!-- source_pdf_page: 2108 -->
+</section>
+<section id="curvature-must-pass-the-physical-read-factorization-test" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-must-pass-the-physical-read-factorization-test">27. Curvature Must Pass the Physical-Read Factorization Test</h2>
+<p>For</p>
+<p><span class="math display">\[ K_\zeta\]</span></p>
+<p>to represent cosmological macrostate i, require</p>
+<p><span class="math display">\[ K\circ\Pi_G=\bar K_\zeta\circ\pi_\zeta\]</span></p>
+<p>Then all formal microstates classified into one cosmological macrostate share the same physical curvature read.</p>
+</section>
+<section id="k-has-different-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="k-has-different-ownership">28. k Has Different Ownership</h2>
+<p>The curvature class may instead label the geometric projection map itself.</p>
+<p>Schematically:</p>
+<p><span class="math display">\[\Pi_G^{(k)}:\Omega_\zeta\to\Gamma_G^{(k)}\]</span></p>
+<p>The superscript indicates which constant-curvature family is being used to represent the cosmological state.</p>
+</section>
+<section id="this-makes-k-a-projection-class-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="this-makes-k-a-projection-class-coordinate">29. This Makes k a Projection-Class Coordinate</h2>
+<p>Within this interpretation,</p>
+<p><span class="math inline">\(k\)</span> = class of geometric projection</p>
+<p>not</p>
+<p><span class="math inline">\(k\)</span> is not a primitive local count.</p>
+</section>
+<section id="r²d-constraint-must-remain-distinct" class="level2">
+<h2 class="anchored" data-anchor-id="r²d-constraint-must-remain-distinct">30. R²D Constraint Must Remain Distinct</h2>
+<p>The primitive retention relation is</p>
+<p><span class="math display">\[ R=C\lambda\]</span></p>
+<p>The physical curvature class is k .</p>
+<!-- source_pdf_page: 2109 -->
+<p>No identity has been derived between them.</p>
+<p>Thus:</p>
+<p><span class="math display">\[ k\ne C_\zeta\]</span></p>
+</section>
+<section id="physical-curvature-is-also-not-retention" class="level2">
+<h2 class="anchored" data-anchor-id="physical-curvature-is-also-not-retention">31. Physical Curvature Is Also Not Retention</h2>
+<p>Likewise:</p>
+<p><span class="math display">\[ K_\zeta\ne R_\zeta\]</span></p>
+<p>A sign resemblance or intuitive notion of “confinement” is insufficient to establish a bridge.</p>
+</section>
+<section id="nor-is-negative-curvature-primitive-possibility" class="level2">
+<h2 class="anchored" data-anchor-id="nor-is-negative-curvature-primitive-possibility">32. Nor Is Negative Curvature Primitive Possibility</h2>
+<p>The class</p>
+<p><span class="math display">\[ k=-1\]</span></p>
+<p>should not be interpreted automatically as positive R²D possibility or outward asymmetry.</p>
+<p>Its sign belongs to the projected spatial geometry.</p>
+</section>
+<section id="curvature-is-a-relational-geometric-read-of-peer-organization" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-is-a-relational-geometric-read-of-peer-organization">33. Curvature Is a Relational Geometric Read of Peer Organization</h2>
+<p>The cosmological state is defined through compatible joint peer realization.</p>
+<p>Therefore any physical spatial curvature associated with that state is naturally a read of the relational organization of the peer set as a whole.</p>
+</section>
+<section id="no-single-peer-determines-k" class="level2">
+<h2 class="anchored" data-anchor-id="no-single-peer-determines-k">34. No Single Peer Determines k</h2>
+<p>The curvature class is not naturally a property of one isolated</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>It belongs to the enclosing spatial representation of their compatible organization.</p>
+<!-- source_pdf_page: 2110 -->
+</section>
+<section id="this-suggests-a-global-compatibility-origin" class="level2">
+<h2 class="anchored" data-anchor-id="this-suggests-a-global-compatibility-origin">35. This Suggests a Global Compatibility Origin</h2>
+<p>A future derivation may ask whether distinct classes of peer compatibility project as</p>
+<p><span class="math display">\[ k=+1,\quad k=0,\quad\text{or}\quad k=-1\]</span></p>
+<p>That possibility is structurally natural.</p>
+<p>It is not derived here.</p>
+</section>
+<section id="the-present-result-begins-after-curvature-class-selection" class="level2">
+<h2 class="anchored" data-anchor-id="the-present-result-begins-after-curvature-class-selection">36. The Present Result Begins After Curvature-Class Selection</h2>
+<p>This addendum assumes an isotropic constant-curvature physical projection class has already been selected.</p>
+<p>It then derives the physical magnitude of curvature from boundary area.</p>
+</section>
+<section id="matter-energy-and-curvature-have-different-area-scalings" class="level2">
+<h2 class="anchored" data-anchor-id="matter-energy-and-curvature-have-different-area-scalings">37. Matter-Energy and Curvature Have Different Area Scalings</h2>
+<p>For conserved pressureless source energy, Addendum 61 gave</p>
+<p><span class="math display">\[ F_{\mathrm{dust}}\propto A_\zeta^{-3/2}\]</span></p>
+<p>The present addendum gives</p>
+<p><span class="math display">\[ K_\zeta\propto A_\zeta^{-1}\]</span></p>
+</section>
+<section id="the-different-powers-reflect-different-physical-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="the-different-powers-reflect-different-physical-ownership">38. The Different Powers Reflect Different Physical Ownership</h2>
+<p>Matter-energy is a source read divided by three-dimensional support:</p>
+<p><span class="math display">\[\epsilon_{\mathrm{dust}}\sim\frac{E}{V}\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[ V\propto A^{3/2}\]</span></p>
+<p>the matter term scales as</p>
+<p><span class="math display">\[ A^{-3/2}\]</span></p>
+<!-- source_pdf_page: 2111 -->
+</section>
+<section id="curvature-is-an-inverse-squared-length-read" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-is-an-inverse-squared-length-read">39. Curvature Is an Inverse Squared-Length Read</h2>
+<p>Since</p>
+<p><span class="math display">\[ A\propto L^2\]</span></p>
+<p>one has</p>
+<p><span class="math display">\[ K\propto L^{-2}\propto A^{-1}\]</span></p>
+<p>No source-volume quotient is involved.</p>
+</section>
+<section id="the-difference-is-therefore-structural-not-merely-algebraic" class="level2">
+<h2 class="anchored" data-anchor-id="the-difference-is-therefore-structural-not-merely-algebraic">40. The Difference Is Therefore Structural, Not Merely Algebraic</h2>
+<p>The powers</p>
+<p><span class="math display">\[-\frac32\]</span></p>
+<p>and</p>
+<p><span class="math display">\[-1\]</span></p>
+<p>do not arise because Friedmann happens to contain different exponents.</p>
+<p>They arise because the physical reads are different kinds of quantities.</p>
+</section>
+<section id="write-the-first-two-friedmann-terms-in-area-form" class="level2">
+<h2 class="anchored" data-anchor-id="write-the-first-two-friedmann-terms-in-area-form">41. Write the First Two Friedmann Terms in Area Form</h2>
+<p>For a pressureless source domain,</p>
+<p><span class="math display">\[ F_\epsilon=\frac{8\pi c^2\ell_{E,\zeta}}{3\eta_{k,\chi}A_\zeta^{3/2}}\]</span></p>
+<p>The curvature term is</p>
+<p><span class="math display">\[ F_k=-\frac{4\pi kc^2 S_k^2(\chi)}{A_\zeta}\]</span></p>
+<!-- source_pdf_page: 2112 -->
+</section>
+<section id="the-friedmann-equation-therefore-becomes" class="level2">
+<h2 class="anchored" data-anchor-id="the-friedmann-equation-therefore-becomes">42. The Friedmann Equation Therefore Becomes</h2>
+<p><span class="math display">\[ H^2=\frac{8\pi c^2\ell_{E,\zeta}}{3\eta_{k,\chi}A_\zeta^{3/2}}-\frac{4\pi kc^2S_k^2(\chi)}{A_\zeta}+\frac{\Lambda c^2}{3}\]</span></p>
+<p>This is the area-first form of the pressureless FLRW rate constraint.</p>
+</section>
+<section id="the-three-terms-now-separate-by-area-scaling" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-terms-now-separate-by-area-scaling">43. The Three Terms Now Separate by Area Scaling</h2>
+<p>The matter term behaves as</p>
+<p><span class="math display">\[ A_\zeta^{-3/2}\]</span></p>
+<p>The curvature term behaves as</p>
+<p><span class="math display">\[ A_\zeta^{-1}\]</span></p>
+<p>The cosmological-constant term behaves as</p>
+<p><span class="math display">\[ A^0\]</span></p>
+</section>
+<section id="the-familiar-scale-factor-powers-follow-later" class="level2">
+<h2 class="anchored" data-anchor-id="the-familiar-scale-factor-powers-follow-later">44. The Familiar Scale-Factor Powers Follow Later</h2>
+<p>Since</p>
+<p><span class="math display">\[ A\propto a^2\]</span></p>
+<p>the same terms scale as</p>
+<p><span class="math display">\[ a^{-3}\]</span></p>
+<p><span class="math display">\[ a^{-2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ a^0\]</span></p>
+<p>Area provides the more primitive geometric read in the present R²D sequence.</p>
+<!-- source_pdf_page: 2113 -->
+</section>
+<section id="curvature-can-be-rewritten-as-an-effective-density" class="level2">
+<h2 class="anchored" data-anchor-id="curvature-can-be-rewritten-as-an-effective-density">45. Curvature Can Be Rewritten as an Effective Density</h2>
+<p>Addendum 60 defined</p>
+<p><span class="math display">\[\epsilon_k=-\frac{3kc^4}{8\pi G a^2}\]</span></p>
+<p>This allows the curvature term to be written as</p>
+<p><span class="math display">\[ F_k=\frac{8\pi G}{3c^2}\epsilon_k\]</span></p>
+</section>
+<section id="but-the-effective-density-does-not-change-its-geometric-origin" class="level2">
+<h2 class="anchored" data-anchor-id="but-the-effective-density-does-not-change-its-geometric-origin">46. But the Effective Density Does Not Change Its Geometric Origin</h2>
+<p>The physical quantity being represented remains</p>
+<p><span class="math display">\[ K_\zeta\equiv\frac{k}{a^2}\]</span></p>
+<p>The effective density is only a bookkeeping translation.</p>
+</section>
+<section id="the-effective-curvature-density-scales-as" class="level2">
+<h2 class="anchored" data-anchor-id="the-effective-curvature-density-scales-as">47. The Effective Curvature Density Scales as</h2>
+<p><span class="math display">\[\epsilon_k\propto a^{-2}\]</span></p>
+<p>If one forces this into the perfect-fluid form</p>
+<p><span class="math display">\[\epsilon\propto a^{-3(1+w)}\]</span></p>
+<p>then</p>
+<p><span class="math display">\[-3(1+w_k)=-2\]</span></p>
+</section>
+<section id="therefore" class="level2">
+<h2 class="anchored" data-anchor-id="therefore">48. Therefore</h2>
+<p><span class="math display">\[ w_k=-\frac13\]</span></p>
+<p>This is the effective equation-of-state parameter assigned to curvature when it is written as if it were a fluid.</p>
+<!-- source_pdf_page: 2114 -->
+</section>
+<section id="no-curvature-fluid-has-been-discovered" class="level2">
+<h2 class="anchored" data-anchor-id="no-curvature-fluid-has-been-discovered">49. No Curvature Fluid Has Been Discovered</h2>
+<p>The result</p>
+<p><span class="math display">\[ w_k=-\frac13\]</span></p>
+<p>does not imply the existence of a physical substance with that equation of state.</p>
+<p>It is the source-density bookkeeping representation of a geometric term.</p>
+</section>
+<section id="this-reinforces-friedmann-partition-nonuniqueness" class="level2">
+<h2 class="anchored" data-anchor-id="this-reinforces-friedmann-partition-nonuniqueness">50. This Reinforces Friedmann Partition Nonuniqueness</h2>
+<p>A geometric quantity can be algebraically represented as an effective source quantity without changing the physical cosmological rate.</p>
+<p>Thus:</p>
+<p><span class="math display">\[\text{effective density}\ne\text{primitive source}\]</span></p>
+</section>
+<section id="principle-curvature-class-precedes-curvature-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="principle-curvature-class-precedes-curvature-magnitude">51. Principle — Curvature Class Precedes Curvature Magnitude</h2>
+<p>Within an FLRW projection,</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>selects the normalized constant-curvature class.</p>
+<p>Physical scale then determines</p>
+<p><span class="math display">\[ K_\zeta\equiv\frac{k}{a^2}\]</span></p>
+</section>
+<section id="principle-boundary-area-sets-physical-curvature-magnitude" class="level2">
+<h2 class="anchored" data-anchor-id="principle-boundary-area-sets-physical-curvature-magnitude">52. Principle — Boundary Area Sets Physical Curvature Magnitude</h2>
+<p>For a fixed comoving comparison shell,</p>
+<p><span class="math display">\[ K_{\zeta,i}=\frac{4\pi kS_k^2(\chi)}{A_{\zeta,i}}\]</span></p>
+<p>Thus:</p>
+<!-- source_pdf_page: 2115 -->
+<p><span class="math display">\[|K_\zeta|\propto A_\zeta^{-1}\]</span></p>
+</section>
+<section id="principle-friedmann-curvature-is-a-geometric-rate-read" class="level2">
+<h2 class="anchored" data-anchor-id="principle-friedmann-curvature-is-a-geometric-rate-read">53. Principle — Friedmann Curvature Is a Geometric Rate Read</h2>
+<p>The curvature contribution is</p>
+<p><span class="math display">\[ F_k=-c^2K_\zeta.\]</span> .</p>
+<p>Equivalently,</p>
+<p><span class="math display">\[ F_k=-\frac{c^2}{6}\,{}^{(3)}R_\zeta\]</span></p>
+</section>
+<section id="principle-curvature-class-preservation-under-expansion" class="level2">
+<h2 class="anchored" data-anchor-id="principle-curvature-class-preservation-under-expansion">54. Principle — Curvature-Class Preservation Under Expansion</h2>
+<p>For a fixed FLRW projection,</p>
+<p><span class="math display">\[\dot k=0\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\dot K_\zeta=-2HK_\zeta.\]</span></p>
+<p>Expansion changes the physical magnitude of curvature, not its normalized class.</p>
+</section>
+<section id="principle-curvature-is-not-a-primitive-source-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="principle-curvature-is-not-a-primitive-source-coordinate">55. Principle — Curvature Is Not a Primitive Source Coordinate</h2>
+<p>The representation</p>
+<p><span class="math display">\[ F_k=\frac{8\pi G}{3c^2}\epsilon_k\]</span></p>
+<p>is algebraically valid but does not change the geometric ownership of the term.</p>
+<p>Thus:</p>
+<p><span class="math inline">\(\epsilon_k\)</span> = effective source bookkeeping</p>
+<p>not a primitive physical source density.</p>
+<!-- source_pdf_page: 2116 -->
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">56. Logical Status</h2>
+<p>Canonical R²D</p>
+<p>The cosmological state is defined through compatible peer-boundary realization before physical spatial geometry is introduced.</p>
+<p>Addendum 56</p>
+<p>The cosmological state can acquire a boundary-area read</p>
+<p><span class="math display">\[ A_\zeta\]</span></p>
+<p>Imported FLRW Curvature Class</p>
+<p><span class="math display">\[ k\in\{-1,0,+1\}.\]</span></p>
+<p>labels the normalized isotropic constant-curvature projection class.</p>
+<p>Derived Physical Curvature</p>
+<p><span class="math display">\[ K_\zeta=\frac{k}{a^2}=\frac{4\pi k S_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>Derived Spatial Scalar Curvature</p>
+<p><span class="math display">\[{}^{(3)}R_\zeta=\frac{24\pi kS_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>Derived Friedmann Curvature Contribution</p>
+<p><span class="math display">\[ F_k=-\frac{4\pi kc^2 S_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>Derived Evolution</p>
+<p><span class="math display">\[\dot K_\zeta=-2HK_\zeta.\]</span></p>
+<p>Conditional R²D Interpretation</p>
+<p>Physical spatial curvature is a geometric read of the cosmological macrostate once an isotropic constant- curvature projection class has been selected.</p>
+<!-- source_pdf_page: 2117 -->
+<p>Not Established Here</p>
+<p>This addendum does not establish:</p>
+<ul>
+<li>why a particular state selects <span class="math inline">\(k=+1,0,-1\)</span>;</li>
+<li><span class="math inline">\(k=C_\zeta\)</span>;</li>
+<li><span class="math inline">\(K_\zeta=R_\zeta\)</span>;</li>
+<li>negative curvature as primitive possibility;</li>
+<li>positive curvature as primitive retention;</li>
+<li>a primitive R²D derivation of spatial homogeneity or isotropy;</li>
+<li>a physical curvature fluid with <span class="math inline">\(w=-1/3\)</span>.</li>
+</ul>
+</section>
+<section id="the-complete-curvature-projection-sequence" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-curvature-projection-sequence">57. The Complete Curvature Projection Sequence</h2>
+<p>The primitive cosmological peer organization exists first:</p>
+<p><span class="math display">\[\{B_{\zeta-1,\alpha}\}\to\Omega_\zeta\to\mathcal M_\zeta\]</span></p>
+<p>A physical isotropic constant-curvature projection class is selected:</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>The cosmological state acquires a physical boundary-area read:</p>
+<p><span class="math display">\[ A_{\zeta,i}\]</span></p>
+<p>The fixed projection class and area together define physical curvature:</p>
+<p><span class="math display">\[ K_{\zeta,i}=\frac{4\pi kS_k^2(\chi)}{A_{\zeta,i}}\]</span></p>
+<p>This gives intrinsic spatial scalar curvature:</p>
+<p><span class="math display">\[{}^{(3)}R_\zeta=6K_\zeta\]</span></p>
+<p>The physical curvature then enters the Friedmann rate partition as</p>
+<p><span class="math display">\[ F_k=-c^2K_\zeta.\]</span> .</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>peer organization</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<!-- source_pdf_page: 2118 -->
+<blockquote class="blockquote">
+<p>geometric projection class</p>
+</blockquote>
+<p>combined with</p>
+<blockquote class="blockquote">
+<p>boundary-area place value</p>
+</blockquote>
+<p>to produce</p>
+<blockquote class="blockquote">
+<p>physical spatial curvature</p>
+</blockquote>
+<p>and only afterward</p>
+<blockquote class="blockquote">
+<p>Friedmann curvature contribution.</p>
+</blockquote>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">58. Conclusion</h2>
+<p>The curvature term in the Friedmann equation,</p>
+<p><span class="math display">\[-\frac{kc^2}{a^2}\]</span></p>
+<p>can look like a negative source contribution because it appears algebraically beside matter-energy and the cosmological constant.</p>
+<p>Its physical origin is different.</p>
+<p>The normalized parameter</p>
+<p><span class="math display">\[ k\]</span></p>
+<p>selects the constant-curvature class of the FLRW spatial projection.</p>
+<p>It does not supply a physical curvature magnitude by itself.</p>
+<p>The magnitude appears only after the cosmological boundary receives physical geometric place value.</p>
+<p>Addendum 56 established that place value first through boundary area:</p>
+<p><span class="math display">\[ A_\zeta=4\pi a^2S_k^2(\chi).\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[ K_{\zeta,i}=\frac{4\pi kS_k^2(\chi)}{A_{\zeta,i}}\]</span></p>
+<p>The Friedmann curvature contribution is consequently</p>
+<!-- source_pdf_page: 2119 -->
+<p><span class="math display">\[ F_k=-\frac{4\pi kc^2 S_k^2(\chi)}{A_\zeta}\]</span></p>
+<p>Physical curvature is therefore an inverse-area read of the projected cosmological boundary.</p>
+<p>As the boundary area grows,</p>
+<p><span class="math display">\[|K_\zeta|\propto A_\zeta^{-1}\]</span></p>
+<p>decreases.</p>
+<p>The curvature class remains fixed.</p>
+<p>This differs fundamentally from the matter-energy contribution.</p>
+<p>Matter-energy depends on source energy divided by three-dimensional boundary support and therefore scales, for conserved dust energy, as</p>
+<p><span class="math display">\[ A_\zeta^{-3/2}\]</span></p>
+<p>Curvature depends directly on inverse squared geometric scale and therefore behaves as</p>
+<p><span class="math display">\[ A_\zeta^{-1}\]</span></p>
+<p>The difference in Friedmann scaling is therefore not merely a difference in algebraic exponent.</p>
+<p>It reflects a difference in physical ownership.</p>
+<p>The matter term is a source/support read.</p>
+<p>The curvature term is a geometric read.</p>
+<p>Rewriting curvature as an effective density does not erase that distinction.</p>
+<p>Within R²D, the unresolved primitive question lies one level earlier:</p>
+<blockquote class="blockquote">
+<p>What property of compatible cosmological peer organization selects the constant-curvature / projection class k ?</p>
+</blockquote>
+<p>That question remains open.</p>
+<p>But once the class has been selected, its physical magnitude and its Friedmann contribution follow from the boundary-area projection.</p>
+<p>The central statement is therefore:</p>
+<!-- source_pdf_page: 2120 -->
+<p>the Friedmann curvature term is not a primitive negative source contribution. It is the rate-squared</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>Boundary geometry occurs before the Friedmann curvature term.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="pagination-link" aria-label="Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="pagination-link" aria-label="Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

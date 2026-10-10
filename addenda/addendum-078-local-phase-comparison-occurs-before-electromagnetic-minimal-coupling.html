@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" rel="next">
+<link href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-78-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling" id="toc-addendum-78-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling" class="nav-link active" data-scroll-target="#addendum-78-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#closure-phase-already-exists-before-electromagnetism" id="toc-closure-phase-already-exists-before-electromagnetism" class="nav-link" data-scroll-target="#closure-phase-already-exists-before-electromagnetism">1. Closure Phase Already Exists Before Electromagnetism</a></li>
+  <li><a href="#absolute-phase-zero-is-not-primitive" id="toc-absolute-phase-zero-is-not-primitive" class="nav-link" data-scroll-target="#absolute-phase-zero-is-not-primitive">2. Absolute Phase Zero Is Not Primitive</a></li>
+  <li><a href="#the-quantum-state-therefore-has-global-phase-freedom" id="toc-the-quantum-state-therefore-has-global-phase-freedom" class="nav-link" data-scroll-target="#the-quantum-state-therefore-has-global-phase-freedom">3. The Quantum State Therefore Has Global Phase Freedom</a></li>
+  <li><a href="#this-freedom-comes-from-closure-reference" id="toc-this-freedom-comes-from-closure-reference" class="nav-link" data-scroll-target="#this-freedom-comes-from-closure-reference">4. This Freedom Comes From Closure Reference</a></li>
+  <li><a href="#gauge-freedom-is-not-background-change" id="toc-gauge-freedom-is-not-background-change" class="nav-link" data-scroll-target="#gauge-freedom-is-not-background-change">5. Gauge Freedom Is Not Background Change</a></li>
+  <li><a href="#gauge-transformation-is-not-an-r2d-occurrence" id="toc-gauge-transformation-is-not-an-r2d-occurrence" class="nav-link" data-scroll-target="#gauge-transformation-is-not-an-r2d-occurrence">6. Gauge Transformation Is Not an R2D Occurrence</a></li>
+  <li><a href="#local-phase-freedom-is-stronger-than-global-freedom" id="toc-local-phase-freedom-is-stronger-than-global-freedom" class="nav-link" data-scroll-target="#local-phase-freedom-is-stronger-than-global-freedom">7. Local Phase Freedom Is Stronger Than Global Freedom</a></li>
+  <li><a href="#for-a-charge-bearing-state-write" id="toc-for-a-charge-bearing-state-write" class="nav-link" data-scroll-target="#for-a-charge-bearing-state-write">8. For a Charge-Bearing State Write</a></li>
+  <li><a href="#differentiate-spatially" id="toc-differentiate-spatially" class="nav-link" data-scroll-target="#differentiate-spatially">9. Differentiate Spatially</a></li>
+  <li><a href="#the-additional-term-is-reference-dependent" id="toc-the-additional-term-is-reference-dependent" class="nav-link" data-scroll-target="#the-additional-term-is-reference-dependent">10. The Additional Term Is Reference Dependent</a></li>
+  <li><a href="#ordinary-spatial-differentiation-has-become-ambiguous" id="toc-ordinary-spatial-differentiation-has-become-ambiguous" class="nav-link" data-scroll-target="#ordinary-spatial-differentiation-has-become-ambiguous">11. Ordinary Spatial Differentiation Has Become Ambiguous</a></li>
+  <li><a href="#differentiate-temporally" id="toc-differentiate-temporally" class="nav-link" data-scroll-target="#differentiate-temporally">12. Differentiate Temporally</a></li>
+  <li><a href="#temporal-differentiation-has-the-same-problem" id="toc-temporal-differentiation-has-the-same-problem" class="nav-link" data-scroll-target="#temporal-differentiation-has-the-same-problem">13. Temporal Differentiation Has the Same Problem</a></li>
+  <li><a href="#local-comparison-therefore-requires-additional-structure" id="toc-local-comparison-therefore-requires-additional-structure" class="nav-link" data-scroll-target="#local-comparison-therefore-requires-additional-structure">14. Local Comparison Therefore Requires Additional Structure</a></li>
+  <li><a href="#this-structure-is-the-gauge-connection" id="toc-this-structure-is-the-gauge-connection" class="nav-link" data-scroll-target="#this-structure-is-the-gauge-connection">15. This Structure Is the Gauge Connection</a></li>
+  <li><a href="#the-notation-must-remain-distinct-from-r2d-asymmetry" id="toc-the-notation-must-remain-distinct-from-r2d-asymmetry" class="nav-link" data-scroll-target="#the-notation-must-remain-distinct-from-r2d-asymmetry">16. The Notation Must Remain Distinct From R2D Asymmetry</a></li>
+  <li><a href="#let-the-spatial-connection-transform-as" id="toc-let-the-spatial-connection-transform-as" class="nav-link" data-scroll-target="#let-the-spatial-connection-transform-as">17. Let the Spatial Connection Transform As</a></li>
+  <li><a href="#let-the-temporal-connection-transform-as" id="toc-let-the-temporal-connection-transform-as" class="nav-link" data-scroll-target="#let-the-temporal-connection-transform-as">18. Let the Temporal Connection Transform As</a></li>
+  <li><a href="#define-the-spatial-covariant-derivative" id="toc-define-the-spatial-covariant-derivative" class="nav-link" data-scroll-target="#define-the-spatial-covariant-derivative">19. Define the Spatial Covariant Derivative</a></li>
+  <li><a href="#transform-it" id="toc-transform-it" class="nav-link" data-scroll-target="#transform-it">20. Transform It</a></li>
+  <li><a href="#the-reference-terms-cancel" id="toc-the-reference-terms-cancel" class="nav-link" data-scroll-target="#the-reference-terms-cancel">21. The Reference Terms Cancel</a></li>
+  <li><a href="#define-the-temporal-covariant-derivative" id="toc-define-the-temporal-covariant-derivative" class="nav-link" data-scroll-target="#define-the-temporal-covariant-derivative">22. Define the Temporal Covariant Derivative</a></li>
+  <li><a href="#transform-it-1" id="toc-transform-it-1" class="nav-link" data-scroll-target="#transform-it-1">23. Transform It</a></li>
+  <li><a href="#covariant-differentiation-restores-relational-comparison" id="toc-covariant-differentiation-restores-relational-comparison" class="nav-link" data-scroll-target="#covariant-differentiation-restores-relational-comparison">24. Covariant Differentiation Restores Relational Comparison</a></li>
+  <li><a href="#the-connection-does-not-create-the-invariance" id="toc-the-connection-does-not-create-the-invariance" class="nav-link" data-scroll-target="#the-connection-does-not-create-the-invariance">25. The Connection Does Not Create the Invariance</a></li>
+  <li><a href="#the-r2d-causal-order-is" id="toc-the-r2d-causal-order-is" class="nav-link" data-scroll-target="#the-r2d-causal-order-is">26. The R2D Causal Order Is</a></li>
+  <li><a href="#charge-has-already-been-assigned-boundary-ownership" id="toc-charge-has-already-been-assigned-boundary-ownership" class="nav-link" data-scroll-target="#charge-has-already-been-assigned-boundary-ownership">27. Charge Has Already Been Assigned Boundary Ownership</a></li>
+  <li><a href="#charge-orientation-survives-recursive-replacement" id="toc-charge-orientation-survives-recursive-replacement" class="nav-link" data-scroll-target="#charge-orientation-survives-recursive-replacement">28. Charge Orientation Survives Recursive Replacement</a></li>
+  <li><a href="#charge-sign-controls-phase-orientation" id="toc-charge-sign-controls-phase-orientation" class="nav-link" data-scroll-target="#charge-sign-controls-phase-orientation">29. Charge Sign Controls Phase Orientation</a></li>
+  <li><a href="#thus" id="toc-thus" class="nav-link" data-scroll-target="#thus">30. Thus</a></li>
+  <li><a href="#charge-magnitude-controls-coupling-strength" id="toc-charge-magnitude-controls-coupling-strength" class="nav-link" data-scroll-target="#charge-magnitude-controls-coupling-strength">31. Charge Magnitude Controls Coupling Strength</a></li>
+  <li><a href="#gauge-theory-does-not-create-charge" id="toc-gauge-theory-does-not-create-charge" class="nav-link" data-scroll-target="#gauge-theory-does-not-create-charge">32. Gauge Theory Does Not Create Charge</a></li>
+  <li><a href="#return-to-the-spatial-translation-generator" id="toc-return-to-the-spatial-translation-generator" class="nav-link" data-scroll-target="#return-to-the-spatial-translation-generator">33. Return to the Spatial Translation Generator</a></li>
+  <li><a href="#local-phase-reference-changes-that-identification" id="toc-local-phase-reference-changes-that-identification" class="nav-link" data-scroll-target="#local-phase-reference-changes-that-identification">34. Local Phase Reference Changes That Identification</a></li>
+  <li><a href="#define-the-gauge-covariant-momentum" id="toc-define-the-gauge-covariant-momentum" class="nav-link" data-scroll-target="#define-the-gauge-covariant-momentum">35. Define the Gauge-Covariant Momentum</a></li>
+  <li><a href="#substitute-the-covariant-derivative" id="toc-substitute-the-covariant-derivative" class="nav-link" data-scroll-target="#substitute-the-covariant-derivative">36. Substitute the Covariant Derivative</a></li>
+  <li><a href="#therefore" id="toc-therefore" class="nav-link" data-scroll-target="#therefore">37. Therefore</a></li>
+  <li><a href="#canonical-and-mechanical-momentum-are-now-distinct" id="toc-canonical-and-mechanical-momentum-are-now-distinct" class="nav-link" data-scroll-target="#canonical-and-mechanical-momentum-are-now-distinct">38. Canonical and Mechanical Momentum Are Now Distinct</a></li>
+  <li><a href="#this-refines-addendum-75-rather-than-contradicting-it" id="toc-this-refines-addendum-75-rather-than-contradicting-it" class="nav-link" data-scroll-target="#this-refines-addendum-75-rather-than-contradicting-it">39. This Refines Addendum 75 Rather Than Contradicting It</a></li>
+  <li><a href="#the-temporal-connection-produces-the-scalar-electromagnetic-energy" id="toc-the-temporal-connection-produces-the-scalar-electromagnetic-energy" class="nav-link" data-scroll-target="#the-temporal-connection-produces-the-scalar-electromagnetic-energy">40. The Temporal Connection Produces the Scalar Electromagnetic Energy</a></li>
+  <li><a href="#write-the-free-residual-schrödinger-equation-covariantly" id="toc-write-the-free-residual-schrödinger-equation-covariantly" class="nav-link" data-scroll-target="#write-the-free-residual-schrödinger-equation-covariantly">41. Write the Free Residual Schrödinger Equation Covariantly</a></li>
+  <li><a href="#replace-the-spatial-derivative-with-mechanical-momentum" id="toc-replace-the-spatial-derivative-with-mechanical-momentum" class="nav-link" data-scroll-target="#replace-the-spatial-derivative-with-mechanical-momentum">42. Replace the Spatial Derivative With Mechanical Momentum</a></li>
+  <li><a href="#therefore-1" id="toc-therefore-1" class="nav-link" data-scroll-target="#therefore-1">43. Therefore</a></li>
+  <li><a href="#expand-the-temporal-side" id="toc-expand-the-temporal-side" class="nav-link" data-scroll-target="#expand-the-temporal-side">44. Expand the Temporal Side</a></li>
+  <li><a href="#rearranging-gives" id="toc-rearranging-gives" class="nav-link" data-scroll-target="#rearranging-gives">45. Rearranging Gives</a></li>
+  <li><a href="#substitute-the-mechanical-momentum" id="toc-substitute-the-mechanical-momentum" class="nav-link" data-scroll-target="#substitute-the-mechanical-momentum">46. Substitute the Mechanical Momentum</a></li>
+  <li><a href="#the-two-electromagnetic-terms-have-one-origin" id="toc-the-two-electromagnetic-terms-have-one-origin" class="nav-link" data-scroll-target="#the-two-electromagnetic-terms-have-one-origin">47. The Two Electromagnetic Terms Have One Origin</a></li>
+  <li><a href="#addendum-77-is-recovered-as-the-pure-scalar-limit" id="toc-addendum-77-is-recovered-as-the-pure-scalar-limit" class="nav-link" data-scroll-target="#addendum-77-is-recovered-as-the-pure-scalar-limit">48. Addendum 77 Is Recovered as the Pure Scalar Limit</a></li>
+  <li><a href="#the-connection-can-be-written-as-one-differential-object" id="toc-the-connection-can-be-written-as-one-differential-object" class="nav-link" data-scroll-target="#the-connection-can-be-written-as-one-differential-object">49. The Connection Can Be Written as One Differential Object</a></li>
+  <li><a href="#under-local-gauge-transformation" id="toc-under-local-gauge-transformation" class="nav-link" data-scroll-target="#under-local-gauge-transformation">50. Under Local Gauge Transformation</a></li>
+  <li><a href="#the-phase-coordinate-transforms-as" id="toc-the-phase-coordinate-transforms-as" class="nav-link" data-scroll-target="#the-phase-coordinate-transforms-as">51. The Phase Coordinate Transforms As</a></li>
+  <li><a href="#define-the-relational-phase-differential" id="toc-define-the-relational-phase-differential" class="nav-link" data-scroll-target="#define-the-relational-phase-differential">52. Define the Relational Phase Differential</a></li>
+  <li><a href="#it-is-gauge-invariant" id="toc-it-is-gauge-invariant" class="nav-link" data-scroll-target="#it-is-gauge-invariant">53. It Is Gauge Invariant</a></li>
+  <li><a href="#this-is-the-core-physical-relation" id="toc-this-is-the-core-physical-relation" class="nav-link" data-scroll-target="#this-is-the-core-physical-relation">54. This Is the Core Physical Relation</a></li>
+  <li><a href="#the-spatial-part-gives-mechanical-momentum" id="toc-the-spatial-part-gives-mechanical-momentum" class="nav-link" data-scroll-target="#the-spatial-part-gives-mechanical-momentum">55. The Spatial Part Gives Mechanical Momentum</a></li>
+  <li><a href="#this-quantity-is-gauge-invariant" id="toc-this-quantity-is-gauge-invariant" class="nav-link" data-scroll-target="#this-quantity-is-gauge-invariant">56. This Quantity Is Gauge Invariant</a></li>
+  <li><a href="#the-temporal-part-gives-gauge-invariant-recurrence-energy" id="toc-the-temporal-part-gives-gauge-invariant-recurrence-energy" class="nav-link" data-scroll-target="#the-temporal-part-gives-gauge-invariant-recurrence-energy">57. The Temporal Part Gives Gauge-Invariant Recurrence Energy</a></li>
+  <li><a href="#this-quantity-is-also-gauge-invariant" id="toc-this-quantity-is-also-gauge-invariant" class="nav-link" data-scroll-target="#this-quantity-is-also-gauge-invariant">58. This Quantity Is Also Gauge Invariant</a></li>
+  <li><a href="#energy-and-momentum-therefore-have-parallel-gauge--covariant-forms" id="toc-energy-and-momentum-therefore-have-parallel-gauge--covariant-forms" class="nav-link" data-scroll-target="#energy-and-momentum-therefore-have-parallel-gauge--covariant-forms">59. Energy and Momentum Therefore Have Parallel Gauge- Covariant Forms</a></li>
+  <li><a href="#electromagnetic-minimal-coupling-is-phase-comparison-in-space-and-time" id="toc-electromagnetic-minimal-coupling-is-phase-comparison-in-space-and-time" class="nav-link" data-scroll-target="#electromagnetic-minimal-coupling-is-phase-comparison-in-space-and-time">60. Electromagnetic Minimal Coupling Is Phase Comparison in Space and Time</a></li>
+  <li><a href="#the-potential-coordinates-are-not-the-gauge-invariant-field" id="toc-the-potential-coordinates-are-not-the-gauge-invariant-field" class="nav-link" data-scroll-target="#the-potential-coordinates-are-not-the-gauge-invariant-field">61. The Potential Coordinates Are Not the Gauge-Invariant Field</a></li>
+  <li><a href="#but-gauge-dependence-does-not-make-them-physically-meaningless" id="toc-but-gauge-dependence-does-not-make-them-physically-meaningless" class="nav-link" data-scroll-target="#but-gauge-dependence-does-not-make-them-physically-meaningless">62. But Gauge Dependence Does Not Make Them Physically Meaningless</a></li>
+  <li><a href="#gauge-curvature-comes-later" id="toc-gauge-curvature-comes-later" class="nav-link" data-scroll-target="#gauge-curvature-comes-later">63. Gauge Curvature Comes Later</a></li>
+  <li><a href="#these-are-not-derived-here-as-primitive-r2d-fields" id="toc-these-are-not-derived-here-as-primitive-r2d-fields" class="nav-link" data-scroll-target="#these-are-not-derived-here-as-primitive-r2d-fields">64. These Are Not Derived Here as Primitive R2D Fields</a></li>
+  <li><a href="#the-aharonovbohm-relation-shows-why-connection-matters" id="toc-the-aharonovbohm-relation-shows-why-connection-matters" class="nav-link" data-scroll-target="#the-aharonovbohm-relation-shows-why-connection-matters">65. The Aharonov–Bohm Relation Shows Why Connection Matters</a></li>
+  <li><a href="#gauge-transformation-adds" id="toc-gauge-transformation-adds" class="nav-link" data-scroll-target="#gauge-transformation-adds">66. Gauge Transformation Adds</a></li>
+  <li><a href="#therefore-the-closed-loop-phase-is-gauge-invariant" id="toc-therefore-the-closed-loop-phase-is-gauge-invariant" class="nav-link" data-scroll-target="#therefore-the-closed-loop-phase-is-gauge-invariant">67. Therefore the Closed-Loop Phase Is Gauge Invariant</a></li>
+  <li><a href="#stokes-theorem-gives" id="toc-stokes-theorem-gives" class="nav-link" data-scroll-target="#stokes-theorem-gives">68. Stokes’ Theorem Gives</a></li>
+  <li><a href="#this-is-especially-natural-in-r2d" id="toc-this-is-especially-natural-in-r2d" class="nav-link" data-scroll-target="#this-is-especially-natural-in-r2d">69. This Is Especially Natural in R2D</a></li>
+  <li><a href="#principle-closure-invariance-precedes-gauge-invariance" id="toc-principle-closure-invariance-precedes-gauge-invariance" class="nav-link" data-scroll-target="#principle-closure-invariance-precedes-gauge-invariance">70. Principle — Closure Invariance Precedes Gauge Invariance</a></li>
+  <li><a href="#principle-global-phase-freedom-precedes-local-gauge-connection" id="toc-principle-global-phase-freedom-precedes-local-gauge-connection" class="nav-link" data-scroll-target="#principle-global-phase-freedom-precedes-local-gauge-connection">71. Principle — Global Phase Freedom Precedes Local Gauge Connection</a></li>
+  <li><a href="#principle-gauge-transformation-is-not-physical-boundary-replacement" id="toc-principle-gauge-transformation-is-not-physical-boundary-replacement" class="nav-link" data-scroll-target="#principle-gauge-transformation-is-not-physical-boundary-replacement">72. Principle — Gauge Transformation Is Not Physical Boundary Replacement</a></li>
+  <li><a href="#principle-local-phase-comparison-requires-covariant-differentiation" id="toc-principle-local-phase-comparison-requires-covariant-differentiation" class="nav-link" data-scroll-target="#principle-local-phase-comparison-requires-covariant-differentiation">73. Principle — Local Phase Comparison Requires Covariant Differentiation</a></li>
+  <li><a href="#principle-charge-is-the-oriented-coupling-to-the-connection" id="toc-principle-charge-is-the-oriented-coupling-to-the-connection" class="nav-link" data-scroll-target="#principle-charge-is-the-oriented-coupling-to-the-connection">74. Principle — Charge Is the Oriented Coupling to the Connection</a></li>
+  <li><a href="#principle-mechanical-momentum-is-gauge-covariant-translation" id="toc-principle-mechanical-momentum-is-gauge-covariant-translation" class="nav-link" data-scroll-target="#principle-mechanical-momentum-is-gauge-covariant-translation">75. Principle — Mechanical Momentum Is Gauge-Covariant Translation</a></li>
+  <li><a href="#principle-electromagnetic-scalar-energy-is-the-temporal-connection-read" id="toc-principle-electromagnetic-scalar-energy-is-the-temporal-connection-read" class="nav-link" data-scroll-target="#principle-electromagnetic-scalar-energy-is-the-temporal-connection-read">76. Principle — Electromagnetic Scalar Energy Is the Temporal Connection Read</a></li>
+  <li><a href="#principle-minimal-coupling-is-not-primitive-substitution" id="toc-principle-minimal-coupling-is-not-primitive-substitution" class="nav-link" data-scroll-target="#principle-minimal-coupling-is-not-primitive-substitution">77. Principle — Minimal Coupling Is Not Primitive Substitution</a></li>
+  <li><a href="#principle-temporal-and-spatial-coupling-are-one-connection" id="toc-principle-temporal-and-spatial-coupling-are-one-connection" class="nav-link" data-scroll-target="#principle-temporal-and-spatial-coupling-are-one-connection">78. Principle — Temporal and Spatial Coupling Are One Connection</a></li>
+  <li><a href="#principle-relational-phase-is-gauge-invariant" id="toc-principle-relational-phase-is-gauge-invariant" class="nav-link" data-scroll-target="#principle-relational-phase-is-gauge-invariant">79. Principle — Relational Phase Is Gauge Invariant</a></li>
+  <li><a href="#principle-gauge-potential-is-connection-not-primitive-field-substance" id="toc-principle-gauge-potential-is-connection-not-primitive-field-substance" class="nav-link" data-scroll-target="#principle-gauge-potential-is-connection-not-primitive-field-substance">80. Principle — Gauge Potential Is Connection, Not Primitive Field Substance</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">81. Logical Status</a></li>
+  <li><a href="#the-complete-minimal-coupling-architecture" id="toc-the-complete-minimal-coupling-architecture" class="nav-link" data-scroll-target="#the-complete-minimal-coupling-architecture">82. The Complete Minimal-Coupling Architecture</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">83. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></h1>
+<p class="subtitle lead">Gauge Connection, Retained Charge Orientation, and the Origin of the Electromagnetic Schrödinger Equation</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-78-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling" class="level1">
+<h1>Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</h1>
+<p><em>Gauge Connection, Retained Charge Orientation, and the Origin of the Electromagnetic Schrödinger Equation</em></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<!-- source_pdf_page: 2563 -->
+<p>The preceding quantum addenda have constructed the nonrelativistic Schrödinger architecture without beginning from particle ontology.</p>
+<p>Addendum 72 derived complex phase from boundary-native recurrent closure.</p>
+<p>Addendum 73 connected normalized detector realization to the Born measure.</p>
+<p>Addendum 74 derived unitary evolution from preservation of quantum realization relations under boundary-preserving recurrence.</p>
+<p>Addendum 75 derived</p>
+<p><span class="math display">\[ P=-i\hbar\nabla\]</span></p>
+<p>as the physical momentum read of continuous spatial translation.</p>
+<p>Addendum 76 derived the free spatial Schrödinger equation as the slow residual dynamics of persistent mass recurrence.</p>
+<p>Addendum 77 identified a scalar potential as the energetic read of an enclosing constraint-induced temporal phase bias.</p>
+<p>Electromagnetic coupling introduces a further problem.</p>
+<p>Closure phase has no primitive absolute zero.</p>
+<p>A quantum state may therefore be rephased globally without changing its physical realization relations.</p>
+<p>If that freedom is allowed to vary locally,</p>
+<p><span class="math display">\[\chi=\chi(x,t)\]</span></p>
+<p>neighboring phase coordinates may use different reference origins.</p>
+<p>Ordinary differentiation then mixes two distinct quantities:</p>
+<!-- source_pdf_page: 2564 -->
+<p>physical recurrence change</p>
+<p>and</p>
+<blockquote class="blockquote">
+<p>change of local phase reference.</p>
+</blockquote>
+<p>The existing R2D gauge development already identified this comparison problem: global phase freedom creates no difficulty, but local phase-reference freedom makes ordinary derivatives unable to separate physical variation from variation of the coordinate reference.</p>
+<p>A connection is therefore required.</p>
+<p>For a charge-bearing state, write the local phase-reference transformation as</p>
+<p><span class="math display">\[ \psi\prime(x,t)=e^{iq\chi(x,t)/\hbar}\psi(x,t). \]</span></p>
+<p>Here q is not introduced as a primitive substance.</p>
+<p>R2D has already assigned charge the physical form</p>
+<p><span class="math display">\[ q=\sigma|q|,\qquad\sigma=\pm1, \]</span></p>
+<p>where σ records an orientation distinction that survives recursive replacement and ∣q∣ gives the physical coupling magnitude.</p>
+<p>Because the symbol A is already reserved in R2D for asymmetry,</p>
+<p><span class="math display">\[ A=P-R\]</span></p>
+<p>denote the electromagnetic vector potential explicitly by</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>and the electromagnetic scalar potential by</p>
+<p><span class="math display">\[\Phi_{\mathrm{EM}}\]</span></p>
+<p>Require the local reference transformation</p>
+<p><span class="math display">\[ A_{\mathrm{EM}}\prime=A_{\mathrm{EM}}+\nabla\chi, \]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Phi'_{\mathrm{EM}}=\Phi_{\mathrm{EM}}-\partial_t\chi\]</span></p>
+<p>Define the spatial and temporal covariant derivatives</p>
+<!-- source_pdf_page: 2565 -->
+<p><span class="math display">\[ \mathbf D=\nabla-\frac{iq}{\hbar}\mathbf A_{\mathrm{EM}}, \]</span></p>
+<p>and</p>
+<p><span class="math display">\[ D_t=\partial_t+\frac{iq}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[ D'\psi'=e^{iq\chi/\hbar}D\psi\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ D'_t\psi'=e^{iq\chi/\hbar}D_t\psi\]</span></p>
+<p>The connection therefore restores comparison among locally different phase coordinates without changing the underlying physical closure relation.</p>
+<p>This reverses the usual explanatory order.</p>
+<p>Gauge connection does not create invariance.</p>
+<p>The prior R2D development already states the ordering</p>
+<blockquote class="blockquote">
+<p>counting invariance → closure invariance → gauge invariance.</p>
+</blockquote>
+<p>A gauge transformation changes the representation rather than producing a new R2D occurrence.</p>
+<p>Addendum 75 now converts the spatial covariant derivative directly into mechanical momentum.</p>
+<p>Define</p>
+<p><span class="math display">\[ \boldsymbol\Pi\equiv-i\hbar\mathbf D. \]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\Pi=-i\hbar\nabla-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[ P_{\mathrm{can}}=-i\hbar\nabla\]</span></p>
+<p>one obtains</p>
+<p><span class="math display">\[ \boldsymbol\Pi=\mathbf P_{\mathrm{can}}-q\mathbf A_{\mathrm{EM}}. \]</span></p>
+<!-- source_pdf_page: 2566 -->
+<p>Thus electromagnetic minimal coupling is not introduced as the substitution</p>
+<p><span class="math display">\[ p\to p-q\mathbf A\]</span></p>
+<p>by fiat.</p>
+<p>It follows because local phase comparison requires the spatial derivative to become covariant.</p>
+<p>Likewise,</p>
+<p><span class="math display">\[ i\hbar D_t=i\hbar\partial_t-q\Phi_{\mathrm{EM}}. \]</span></p>
+<p>The free residual Schrödinger equation written covariantly is</p>
+<p><span class="math display">\[ i\hbar D_t\psi=-\frac{\hbar^2}{2m}D^2\psi. \]</span></p>
+<p>Expanding gives</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}-q\Phi_{\mathrm{EM}}\psi=\frac{(-i\hbar\nabla-q\mathbf A_{\mathrm{EM}})^2}{2m}\psi\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[\frac{(-i\hbar\nabla-q\mathbf A_{\mathrm{EM}})^2}{2m}+q\Phi_{\mathrm{EM}}\right]\psi\]</span></p>
+<p>This is the nonrelativistic electromagnetic Schrödinger equation.</p>
+<p>Its two electromagnetic terms are not independent additions.</p>
+<p>They are the spatial and temporal components of one local phase-comparison connection.</p>
+<p>The scalar electromagnetic energy read is</p>
+<p><span class="math display">\[ V_{\mathrm{EM}}=q\Phi_{\mathrm{EM}}, \]</span></p>
+<p>while the mechanical momentum read is</p>
+<p><span class="math display">\[\Pi=P_{\mathrm{can}}-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\text{local phase-reference freedom}\to\text{connection}\to\{q\Phi_{\mathrm{EM}},q\mathbf A_{\mathrm{EM}}\}\]</span></p>
+<p>The phase itself makes the invariant structure particularly clear.</p>
+<!-- source_pdf_page: 2567 -->
+<p>Write</p>
+<p><span class="math display">\[\psi=|\psi|e^{i\phi}\]</span></p>
+<p>Under local rephasing,</p>
+<p><span class="math display">\[\phi'=\phi+\frac{q}{\hbar}\chi\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\hbar\nabla\phi'=\hbar\nabla\phi+q\nabla\chi\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[\mathbf A'_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}+\nabla\chi\]</span></p>
+<p>the combination</p>
+<p><span class="math display">\[ p_{\mathrm{mech}}=\hbar\nabla\phi-qA_{\mathrm{EM}} \]</span></p>
+<p>is invariant.</p>
+<p>Similarly,</p>
+<p><span class="math display">\[-\hbar\partial_t\phi'=-\hbar\partial_t\phi-q\partial_t\chi\]</span></p>
+<p>while</p>
+<p><span class="math display">\[ q\Phi'_{\mathrm{EM}}=q\Phi_{\mathrm{EM}}-q\partial_t\chi\]</span></p>
+<p>Hence:</p>
+<p><span class="math display">\[-\hbar\partial_t\phi-q\Phi_{\mathrm{EM}}\]</span></p>
+<p>is invariant.</p>
+<p>The most compact expression uses the electromagnetic connection one-form</p>
+<p><span class="math display">\[\mathcal A_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}\cdot d\mathbf x-\Phi_{\mathrm{EM}}\,dt\]</span></p>
+<p>Under local rephasing,</p>
+<p><span class="math display">\[\mathcal A'_{\mathrm{EM}}=\mathcal A_{\mathrm{EM}}+d\chi\]</span></p>
+<p>Then the combination</p>
+<!-- source_pdf_page: 2568 -->
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}=d\phi-\frac{q}{\hbar}\mathcal A_{\mathrm{EM}} \]</span></p>
+<p>is invariant:</p>
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}\prime=d\phi_{\mathrm{rel}}. \]</span></p>
+<p>This is the central geometric relation of the addendum.</p>
+<p>The physically comparable phase change is not the coordinate differential dϕ alone.</p>
+<p>It is the phase differential after correction for local reference variation.</p>
+<p>Electromagnetic minimal coupling is therefore the physical rule for comparing closure phase across locally different representations.</p>
+<p>Charge determines how strongly and in which orientation the state couples to that comparison rule.</p>
+<p>For the same connection,</p>
+<p><span class="math display">\[ q&gt;0\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ q&lt;0\]</span></p>
+<p>produce opposite phase rotations.</p>
+<p>This is exactly the physical behavior expected from the prior R2D interpretation of charge as retained orientation-sensitive coupling. The earlier gauge analysis already identified charge sign as the orientation of coupling to the gauge connection and charge magnitude as its strength.</p>
+<p>The gauge potential itself is not the invariant physical relation.</p>
+<p>The previous R2D gauge treatment correctly distinguishes the reference-dependent connection</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>from its reference-independent curvature.</p>
+<p>That curvature will be developed separately.</p>
+<p>The Aharonov–Bohm effect nevertheless shows why the connection is physically consequential even though its local coordinate value is gauge dependent.</p>
+<p>For a closed spatial path,</p>
+<!-- source_pdf_page: 2569 -->
+<p>q</p>
+<p><span class="math display">\[\Delta\phi_{AB}=\frac{q}{\hbar}\oint_C\mathbf A_{\mathrm{EM}}\cdot d\mathbf l\]</span></p>
+<p>Under</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\to\mathbf A_{\mathrm{EM}}+\nabla\chi\]</span></p>
+<p>the additional contribution is</p>
+<p><span class="math display">\[\oint_C\nabla\chi\cdot d\mathbf l=0\]</span></p>
+<p>Thus the closed-loop phase relation is gauge invariant.</p>
+<p>The earlier R2D gauge development already identified this as particularly suggestive: local connection coordinates may vary while the closed relational phase remains physically meaningful, though a Wilson loop should not be identified term-by-term with primitive R2D closure.</p>
+<p>The central statement is therefore:</p>
+<p>a quantum closure possesses phase before it possesses an electromagnetic gauge potential. Because absolute phase zero is not primitive, equivalent representations may use different phase references. When that reference freedom varies locally, ordinary derivatives mix physical recurrence change with reference change. A connection is therefore required to compare neighboring phase reads. For a charge-bearing boundary with retained oriented coupling <span class="math inline">\(q=\sigma|q|\)</span>, covariance supplies the temporal and spatial connection corrections <span class="math inline">\(i\hbar D_t=i\hbar\partial_t-q\Phi_{\mathrm{EM}}\)</span> and <span class="math inline">\(\boldsymbol\Pi=\mathbf P_{\mathrm{can}}-q\mathbf A_{\mathrm{EM}}\)</span>, yielding the standard electromagnetic minimal-coupling Hamiltonian. Gauge coupling is therefore the projected rule for preserving relational closure phase across &gt; locally different representations, not the primitive source of the invariant state.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>local phase comparison occurs before electromagnetic minimal coupling.</p>
+</blockquote>
+</section>
+<section id="closure-phase-already-exists-before-electromagnetism" class="level2">
+<h2 class="anchored" data-anchor-id="closure-phase-already-exists-before-electromagnetism">1. Closure Phase Already Exists Before Electromagnetism</h2>
+<p>Addendum 72 established</p>
+<p><span class="math display">\[\text{closure}\to\text{phase}\]</span></p>
+<p>A boundary-native recurrence can therefore possess</p>
+<p><span class="math display">\[\phi\]</span></p>
+<p>without yet being assigned electromagnetic coupling.</p>
+<!-- source_pdf_page: 2570 -->
+</section>
+<section id="absolute-phase-zero-is-not-primitive" class="level2">
+<h2 class="anchored" data-anchor-id="absolute-phase-zero-is-not-primitive">2. Absolute Phase Zero Is Not Primitive</h2>
+<p>For a global phase shift</p>
+<p><span class="math display">\[\phi\to\phi+\alpha\]</span></p>
+<p>relative phase differences remain unchanged.</p>
+</section>
+<section id="the-quantum-state-therefore-has-global-phase-freedom" class="level2">
+<h2 class="anchored" data-anchor-id="the-quantum-state-therefore-has-global-phase-freedom">3. The Quantum State Therefore Has Global Phase Freedom</h2>
+<p><span class="math display">\[\psi\to e^{i\alpha}\psi\]</span></p>
+<p>Born realization measures remain unchanged.</p>
+</section>
+<section id="this-freedom-comes-from-closure-reference" class="level2">
+<h2 class="anchored" data-anchor-id="this-freedom-comes-from-closure-reference">4. This Freedom Comes From Closure Reference</h2>
+<p>A closed cycle has no primitive distinguished point that must be called</p>
+<p><span class="math display">\[\phi=0\]</span></p>
+<p>The recurrence relation is physical.</p>
+<p>The absolute phase label is representational.</p>
+</section>
+<section id="gauge-freedom-is-not-background-change" class="level2">
+<h2 class="anchored" data-anchor-id="gauge-freedom-is-not-background-change">5. Gauge Freedom Is Not Background Change</h2>
+<p>A change of physical background can change occupancy, recurrence, or asymmetry.</p>
+<p>A gauge change can leave the physical state unchanged.</p>
+<p>The two must remain distinct.</p>
+</section>
+<section id="gauge-transformation-is-not-an-r2d-occurrence" class="level2">
+<h2 class="anchored" data-anchor-id="gauge-transformation-is-not-an-r2d-occurrence">6. Gauge Transformation Is Not an R2D Occurrence</h2>
+<p>It need not represent:</p>
+<ul>
+<li>macrostate transition;</li>
+<li>occupancy change;</li>
+<li>closure;</li>
+<li>recursive carry;</li>
+</ul>
+<!-- source_pdf_page: 2571 -->
+<p>• or background change.</p>
+<p>It can alter only the physical mathematical representation.</p>
+</section>
+<section id="local-phase-freedom-is-stronger-than-global-freedom" class="level2">
+<h2 class="anchored" data-anchor-id="local-phase-freedom-is-stronger-than-global-freedom">7. Local Phase Freedom Is Stronger Than Global Freedom</h2>
+<p>Now let the phase reference vary:</p>
+<p><span class="math display">\[\chi=\chi(x,t)\]</span></p>
+</section>
+<section id="for-a-charge-bearing-state-write" class="level2">
+<h2 class="anchored" data-anchor-id="for-a-charge-bearing-state-write">8. For a Charge-Bearing State Write</h2>
+<p><span class="math display">\[\psi'=e^{iq\chi/\hbar}\psi\]</span></p>
+<p>The normalization convention assigns the physical coupling q to the phase representation.</p>
+</section>
+<section id="differentiate-spatially" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-spatially">9. Differentiate Spatially</h2>
+<p><span class="math display">\[\nabla\psi'=\nabla(e^{iq\chi/\hbar}\psi)\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[\nabla\psi'=e^{iq\chi/\hbar}\left[\nabla\psi+\frac{iq}{\hbar}(\nabla\chi)\psi\right]\]</span></p>
+</section>
+<section id="the-additional-term-is-reference-dependent" class="level2">
+<h2 class="anchored" data-anchor-id="the-additional-term-is-reference-dependent">10. The Additional Term Is Reference Dependent</h2>
+<p><span class="math display">\[\frac{iq}{\hbar}(\nabla\chi)\psi\]</span></p>
+<p>It appears even though the underlying physical state may be unchanged.</p>
+</section>
+<section id="ordinary-spatial-differentiation-has-become-ambiguous" class="level2">
+<h2 class="anchored" data-anchor-id="ordinary-spatial-differentiation-has-become-ambiguous">11. Ordinary Spatial Differentiation Has Become Ambiguous</h2>
+<p>It now mixes:</p>
+<blockquote class="blockquote">
+<p>physical spatial phase change</p>
+</blockquote>
+<p>with</p>
+<!-- source_pdf_page: 2572 -->
+<p>change of phase reference.</p>
+</section>
+<section id="differentiate-temporally" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-temporally">12. Differentiate Temporally</h2>
+<p><span class="math display">\[\partial_t\psi'=e^{iq\chi/\hbar}\left[\partial_t\psi+\frac{iq}{\hbar}(\partial_t\chi)\psi\right]\]</span></p>
+</section>
+<section id="temporal-differentiation-has-the-same-problem" class="level2">
+<h2 class="anchored" data-anchor-id="temporal-differentiation-has-the-same-problem">13. Temporal Differentiation Has the Same Problem</h2>
+<p>The additional term</p>
+<p><span class="math display">\[\frac{iq}{\hbar}(\partial_t\chi)\psi\]</span></p>
+<p>is not necessarily physical recurrence change.</p>
+<p>It can arise from reference choice.</p>
+</section>
+<section id="local-comparison-therefore-requires-additional-structure" class="level2">
+<h2 class="anchored" data-anchor-id="local-comparison-therefore-requires-additional-structure">14. Local Comparison Therefore Requires Additional Structure</h2>
+<p>A physical derivative must compare neighboring state representations while compensating for the local reference change.</p>
+</section>
+<section id="this-structure-is-the-gauge-connection" class="level2">
+<h2 class="anchored" data-anchor-id="this-structure-is-the-gauge-connection">15. This Structure Is the Gauge Connection</h2>
+<p>Introduce:</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Phi_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="the-notation-must-remain-distinct-from-r2d-asymmetry" class="level2">
+<h2 class="anchored" data-anchor-id="the-notation-must-remain-distinct-from-r2d-asymmetry">16. The Notation Must Remain Distinct From R2D Asymmetry</h2>
+<p>R2D reserves</p>
+<p><span class="math display">\[ A=P-R\]</span></p>
+<!-- source_pdf_page: 2573 -->
+<p>for asymmetry.</p>
+<p>Therefore this addendum writes the electromagnetic vector potential explicitly as</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="let-the-spatial-connection-transform-as" class="level2">
+<h2 class="anchored" data-anchor-id="let-the-spatial-connection-transform-as">17. Let the Spatial Connection Transform As</h2>
+<p><span class="math display">\[\mathbf A'_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}+\nabla\chi\]</span></p>
+</section>
+<section id="let-the-temporal-connection-transform-as" class="level2">
+<h2 class="anchored" data-anchor-id="let-the-temporal-connection-transform-as">18. Let the Temporal Connection Transform As</h2>
+<p><span class="math display">\[\Phi'_{\mathrm{EM}}=\Phi_{\mathrm{EM}}-\partial_t\chi\]</span></p>
+</section>
+<section id="define-the-spatial-covariant-derivative" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-spatial-covariant-derivative">19. Define the Spatial Covariant Derivative</h2>
+<p><span class="math display">\[ D=\nabla-\frac{iq}{\hbar}\mathbf A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="transform-it" class="level2">
+<h2 class="anchored" data-anchor-id="transform-it">20. Transform It</h2>
+<p><span class="math display">\[ D'\psi'=\left[\nabla-\frac{iq}{\hbar}\mathbf A'_{\mathrm{EM}}\right]e^{iq\chi/\hbar}\psi\]</span></p>
+</section>
+<section id="the-reference-terms-cancel" class="level2">
+<h2 class="anchored" data-anchor-id="the-reference-terms-cancel">21. The Reference Terms Cancel</h2>
+<p>Substitution gives</p>
+<p><span class="math display">\[ D'\psi'=e^{iq\chi/\hbar}D\psi\]</span></p>
+<p>The derivative transforms like the state itself.</p>
+</section>
+<section id="define-the-temporal-covariant-derivative" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-temporal-covariant-derivative">22. Define the Temporal Covariant Derivative</h2>
+<p><span class="math display">\[ D_t=\partial_t+\frac{iq}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+<!-- source_pdf_page: 2574 -->
+</section>
+<section id="transform-it-1" class="level2">
+<h2 class="anchored" data-anchor-id="transform-it-1">23. Transform It</h2>
+<p>Using</p>
+<p><span class="math display">\[\Phi'_{\mathrm{EM}}=\Phi_{\mathrm{EM}}-\partial_t\chi\]</span></p>
+<p>one obtains</p>
+<p><span class="math display">\[ D'_t\psi'=e^{iq\chi/\hbar}D_t\psi\]</span></p>
+</section>
+<section id="covariant-differentiation-restores-relational-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="covariant-differentiation-restores-relational-comparison">24. Covariant Differentiation Restores Relational Comparison</h2>
+<p>The physical derivative can now distinguish state change from coordinate-reference change.</p>
+<p>That is the mathematical purpose of the connection.</p>
+</section>
+<section id="the-connection-does-not-create-the-invariance" class="level2">
+<h2 class="anchored" data-anchor-id="the-connection-does-not-create-the-invariance">25. The Connection Does Not Create the Invariance</h2>
+<p>The underlying closure relation was already physically invariant.</p>
+<p>The connection allows that invariance to remain readable across locally varying representations.</p>
+<p>The existing R2D manuscript states this ordering directly.</p>
+</section>
+<section id="the-r2d-causal-order-is" class="level2">
+<h2 class="anchored" data-anchor-id="the-r2d-causal-order-is">26. The R2D Causal Order Is</h2>
+<blockquote class="blockquote">
+<p>counting invariance</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>closure invariance</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>local phase-reference freedom</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>connection.</p>
+</blockquote>
+<!-- source_pdf_page: 2575 -->
+</section>
+<section id="charge-has-already-been-assigned-boundary-ownership" class="level2">
+<h2 class="anchored" data-anchor-id="charge-has-already-been-assigned-boundary-ownership">27. Charge Has Already Been Assigned Boundary Ownership</h2>
+<p>R2D writes charge schematically as</p>
+<p><span class="math display">\[ q=\sigma|q|,\qquad\sigma=\pm1\]</span></p>
+</section>
+<section id="charge-orientation-survives-recursive-replacement" class="level2">
+<h2 class="anchored" data-anchor-id="charge-orientation-survives-recursive-replacement">28. Charge Orientation Survives Recursive Replacement</h2>
+<p>If opposed local closure orientations remain distinguishable after enclosing classification, a signed physical coupling survives.</p>
+<p>This is the R2D antecedent of charge sign.</p>
+</section>
+<section id="charge-sign-controls-phase-orientation" class="level2">
+<h2 class="anchored" data-anchor-id="charge-sign-controls-phase-orientation">29. Charge Sign Controls Phase Orientation</h2>
+<p>The local gauge phase shift is</p>
+<p><span class="math display">\[\delta\phi=\frac{q}{\hbar}\chi\]</span></p>
+<p>Therefore reversing</p>
+<p><span class="math display">\[ q\to-q\]</span></p>
+<p>reverses the phase rotation.</p>
+</section>
+<section id="thus" class="level2">
+<h2 class="anchored" data-anchor-id="thus">30. Thus</h2>
+<p><span class="math display">\[\operatorname{sgn}(q)=\text{orientation of connection coupling}\]</span></p>
+</section>
+<section id="charge-magnitude-controls-coupling-strength" class="level2">
+<h2 class="anchored" data-anchor-id="charge-magnitude-controls-coupling-strength">31. Charge Magnitude Controls Coupling Strength</h2>
+<p>For fixed χ,</p>
+<p><span class="math display">\[|\delta\phi|\propto|q|\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[|q|=\text{physical connection-coupling magnitude}\]</span></p>
+<!-- source_pdf_page: 2576 -->
+</section>
+<section id="gauge-theory-does-not-create-charge" class="level2">
+<h2 class="anchored" data-anchor-id="gauge-theory-does-not-create-charge">32. Gauge Theory Does Not Create Charge</h2>
+<p>The R2D order is</p>
+<blockquote class="blockquote">
+<p>retained orientation coupling → q → gauge representation.</p>
+</blockquote>
+<p>This is already the ordering established in the integrated R2D development.</p>
+</section>
+<section id="return-to-the-spatial-translation-generator" class="level2">
+<h2 class="anchored" data-anchor-id="return-to-the-spatial-translation-generator">33. Return to the Spatial Translation Generator</h2>
+<p>Addendum 75 gave</p>
+<p><span class="math display">\[ P_{\mathrm{can}}=-i\hbar\nabla\]</span></p>
+<p>In the free case this is also the mechanical momentum read.</p>
+</section>
+<section id="local-phase-reference-changes-that-identification" class="level2">
+<h2 class="anchored" data-anchor-id="local-phase-reference-changes-that-identification">34. Local Phase Reference Changes That Identification</h2>
+<p>Ordinary spatial differentiation is no longer gauge covariant.</p>
+<p>Therefore the physically comparable momentum must be built from</p>
+<p><span class="math display">\[ D\]</span></p>
+</section>
+<section id="define-the-gauge-covariant-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-gauge-covariant-momentum">35. Define the Gauge-Covariant Momentum</h2>
+<p><span class="math display">\[\Pi=-i\hbar D\]</span></p>
+</section>
+<section id="substitute-the-covariant-derivative" class="level2">
+<h2 class="anchored" data-anchor-id="substitute-the-covariant-derivative">36. Substitute the Covariant Derivative</h2>
+<p><span class="math display">\[\Pi=-i\hbar\left[\nabla-\frac{iq}{\hbar}\mathbf A_{\mathrm{EM}}\right]\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[\Pi=-i\hbar\nabla-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<!-- source_pdf_page: 2577 -->
+</section>
+<section id="therefore" class="level2">
+<h2 class="anchored" data-anchor-id="therefore">37. Therefore</h2>
+<p><span class="math display">\[\Pi=P_{\mathrm{can}}-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>This is electromagnetic minimal momentum coupling.</p>
+</section>
+<section id="canonical-and-mechanical-momentum-are-now-distinct" class="level2">
+<h2 class="anchored" data-anchor-id="canonical-and-mechanical-momentum-are-now-distinct">38. Canonical and Mechanical Momentum Are Now Distinct</h2>
+<p><span class="math display">\[ P_{\mathrm{can}}=-i\hbar\nabla\]</span></p>
+<p>generates coordinate translation.</p>
+<p>The gauge-covariant mechanical momentum is</p>
+<p><span class="math display">\[\Pi=P_{\mathrm{can}}-q\mathbf A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="this-refines-addendum-75-rather-than-contradicting-it" class="level2">
+<h2 class="anchored" data-anchor-id="this-refines-addendum-75-rather-than-contradicting-it">39. This Refines Addendum 75 Rather Than Contradicting It</h2>
+<p>Without electromagnetic connection,</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}=0\]</span></p>
+<p>so</p>
+<p><span class="math display">\[\Pi=P_{\mathrm{can}}\]</span></p>
+</section>
+<section id="the-temporal-connection-produces-the-scalar-electromagnetic-energy" class="level2">
+<h2 class="anchored" data-anchor-id="the-temporal-connection-produces-the-scalar-electromagnetic-energy">40. The Temporal Connection Produces the Scalar Electromagnetic Energy</h2>
+<p>From</p>
+<p><span class="math display">\[ D_t=\partial_t+\frac{iq}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+<p>one has</p>
+<p><span class="math display">\[ i\hbar D_t=i\hbar\partial_t-q\Phi_{\mathrm{EM}}\]</span></p>
+<!-- source_pdf_page: 2578 -->
+</section>
+<section id="write-the-free-residual-schrödinger-equation-covariantly" class="level2">
+<h2 class="anchored" data-anchor-id="write-the-free-residual-schrödinger-equation-covariantly">41. Write the Free Residual Schrödinger Equation Covariantly</h2>
+<p><span class="math display">\[ i\hbar D_t\psi=-\frac{\hbar^2}{2m}D^2\psi\]</span></p>
+</section>
+<section id="replace-the-spatial-derivative-with-mechanical-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="replace-the-spatial-derivative-with-mechanical-momentum">42. Replace the Spatial Derivative With Mechanical Momentum</h2>
+<p>Since</p>
+<p><span class="math display">\[\Pi=-i\hbar D\]</span></p>
+<p><span class="math display">\[-\hbar^2D^2=\Pi^2\]</span></p>
+</section>
+<section id="therefore-1" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-1">43. Therefore</h2>
+<p><span class="math display">\[ i\hbar D_t\psi=\frac{\Pi^2}{2m}\psi\]</span></p>
+</section>
+<section id="expand-the-temporal-side" class="level2">
+<h2 class="anchored" data-anchor-id="expand-the-temporal-side">44. Expand the Temporal Side</h2>
+<p><span class="math display">\[ i\hbar\partial_t\psi-q\Phi_{\mathrm{EM}}\psi=\frac{\Pi^2}{2m}\psi\]</span></p>
+</section>
+<section id="rearranging-gives" class="level2">
+<h2 class="anchored" data-anchor-id="rearranging-gives">45. Rearranging Gives</h2>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[\frac{\Pi^2}{2m}+q\Phi_{\mathrm{EM}}\right]\psi\]</span></p>
+</section>
+<section id="substitute-the-mechanical-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="substitute-the-mechanical-momentum">46. Substitute the Mechanical Momentum</h2>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[\frac{(-i\hbar\nabla-q\mathbf A_{\mathrm{EM}})^2}{2m}+q\Phi_{\mathrm{EM}}\right]\psi\]</span></p>
+<p>This is the electromagnetic minimally coupled Schrödinger equation.</p>
+<!-- source_pdf_page: 2579 -->
+</section>
+<section id="the-two-electromagnetic-terms-have-one-origin" class="level2">
+<h2 class="anchored" data-anchor-id="the-two-electromagnetic-terms-have-one-origin">47. The Two Electromagnetic Terms Have One Origin</h2>
+<p>Spatial connection:</p>
+<p><span class="math display">\[ q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Temporal connection:</p>
+<p><span class="math display">\[ q\Phi_{\mathrm{EM}}\]</span></p>
+<p>Both arise from local phase comparison.</p>
+</section>
+<section id="addendum-77-is-recovered-as-the-pure-scalar-limit" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-77-is-recovered-as-the-pure-scalar-limit">48. Addendum 77 Is Recovered as the Pure Scalar Limit</h2>
+<p>If</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}=0\]</span></p>
+<p>then:</p>
+<p><span class="math display">\[ V_{\mathrm{EM}}=q\Phi_{\mathrm{EM}}\]</span></p>
+<p>Thus the scalar electromagnetic potential is one physical instance of the more general constraint phase bias developed in Addendum 77.</p>
+</section>
+<section id="the-connection-can-be-written-as-one-differential-object" class="level2">
+<h2 class="anchored" data-anchor-id="the-connection-can-be-written-as-one-differential-object">49. The Connection Can Be Written as One Differential Object</h2>
+<p>Define</p>
+<p><span class="math display">\[\mathcal A_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}\cdot d\mathbf x-\Phi_{\mathrm{EM}}\,dt\]</span></p>
+</section>
+<section id="under-local-gauge-transformation" class="level2">
+<h2 class="anchored" data-anchor-id="under-local-gauge-transformation">50. Under Local Gauge Transformation</h2>
+<p><span class="math display">\[\mathcal A'_{\mathrm{EM}}=\mathcal A_{\mathrm{EM}}+d\chi\]</span></p>
+</section>
+<section id="the-phase-coordinate-transforms-as" class="level2">
+<h2 class="anchored" data-anchor-id="the-phase-coordinate-transforms-as">51. The Phase Coordinate Transforms As</h2>
+<p><span class="math display">\[\phi'=\phi+\frac{q}{\hbar}\chi\]</span></p>
+<!-- source_pdf_page: 2580 -->
+<p>Thus:</p>
+<p><span class="math display">\[ d\phi'=d\phi+\frac{q}{\hbar}\,d\chi\]</span></p>
+</section>
+<section id="define-the-relational-phase-differential" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-relational-phase-differential">52. Define the Relational Phase Differential</h2>
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}=d\phi-\frac{q}{\hbar}\mathcal A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="it-is-gauge-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="it-is-gauge-invariant">53. It Is Gauge Invariant</h2>
+<p><span class="math display">\[ d\phi'_{\mathrm{rel}}=d\phi+\frac{q}{\hbar}d\chi-\frac{q}{\hbar}(\mathcal A_{\mathrm{EM}}+d\chi)\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[ d\phi'_{\mathrm{rel}}=d\phi_{\mathrm{rel}}\]</span></p>
+</section>
+<section id="this-is-the-core-physical-relation" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-core-physical-relation">54. This Is the Core Physical Relation</h2>
+<p>The physically comparable recurrence is not</p>
+<p><span class="math display">\[ d\phi\]</span></p>
+<p>alone.</p>
+<p>It is the relational phase change after local reference correction.</p>
+</section>
+<section id="the-spatial-part-gives-mechanical-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="the-spatial-part-gives-mechanical-momentum">55. The Spatial Part Gives Mechanical Momentum</h2>
+<p>The spatial component is</p>
+<p><span class="math display">\[\nabla\phi-\frac{q}{\hbar}\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Multiplying by ℏ,</p>
+<p><span class="math display">\[ p_{\mathrm{mech}}=\hbar\nabla\phi-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<!-- source_pdf_page: 2581 -->
+</section>
+<section id="this-quantity-is-gauge-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="this-quantity-is-gauge-invariant">56. This Quantity Is Gauge Invariant</h2>
+<p>Under</p>
+<p><span class="math display">\[\phi'=\phi+\frac{q}{\hbar}\chi\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\mathbf A'_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}+\nabla\chi\]</span></p>
+<p>the added terms cancel.</p>
+</section>
+<section id="the-temporal-part-gives-gauge-invariant-recurrence-energy" class="level2">
+<h2 class="anchored" data-anchor-id="the-temporal-part-gives-gauge-invariant-recurrence-energy">57. The Temporal Part Gives Gauge-Invariant Recurrence Energy</h2>
+<p>The temporal component of</p>
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}\]</span></p>
+<p>is</p>
+<p><span class="math display">\[\partial_t\phi+\frac{q}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+<p>Multiplying by −ℏ,</p>
+<p><span class="math display">\[ E_{\mathrm{rel}}=-\hbar\partial_t\phi-q\Phi_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="this-quantity-is-also-gauge-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="this-quantity-is-also-gauge-invariant">58. This Quantity Is Also Gauge Invariant</h2>
+<p>The change in temporal phase reference is exactly cancelled by the change in scalar connection.</p>
+</section>
+<section id="energy-and-momentum-therefore-have-parallel-gauge--covariant-forms" class="level2">
+<h2 class="anchored" data-anchor-id="energy-and-momentum-therefore-have-parallel-gauge--covariant-forms">59. Energy and Momentum Therefore Have Parallel Gauge- Covariant Forms</h2>
+<p><span class="math display">\[ E_{\mathrm{rel}}=-\hbar\partial_t\phi-q\Phi_{\mathrm{EM}}\]</span></p>
+<p><span class="math display">\[ p_{\mathrm{mech}}=\hbar\nabla\phi-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<!-- source_pdf_page: 2582 -->
+</section>
+<section id="electromagnetic-minimal-coupling-is-phase-comparison-in-space-and-time" class="level2">
+<h2 class="anchored" data-anchor-id="electromagnetic-minimal-coupling-is-phase-comparison-in-space-and-time">60. Electromagnetic Minimal Coupling Is Phase Comparison in Space and Time</h2>
+<p>The usual substitutions</p>
+<p><span class="math display">\[ E\to E-q\Phi_{\mathrm{EM}}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ p\to p-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>are therefore later physical summaries of local phase covariance.</p>
+</section>
+<section id="the-potential-coordinates-are-not-the-gauge-invariant-field" class="level2">
+<h2 class="anchored" data-anchor-id="the-potential-coordinates-are-not-the-gauge-invariant-field">61. The Potential Coordinates Are Not the Gauge-Invariant Field</h2>
+<p>The values of</p>
+<p><span class="math display">\[\Phi_{\mathrm{EM}}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>depend on the phase-reference convention.</p>
+<p>They cannot themselves be primitive invariant ontology.</p>
+</section>
+<section id="but-gauge-dependence-does-not-make-them-physically-meaningless" class="level2">
+<h2 class="anchored" data-anchor-id="but-gauge-dependence-does-not-make-them-physically-meaningless">62. But Gauge Dependence Does Not Make Them Physically Meaningless</h2>
+<p>They carry the comparison information needed to relate local phase representations.</p>
+<p>The existing R2D gauge chapter makes this distinction explicitly.</p>
+</section>
+<section id="gauge-curvature-comes-later" class="level2">
+<h2 class="anchored" data-anchor-id="gauge-curvature-comes-later">63. Gauge Curvature Comes Later</h2>
+<p>The invariant electromagnetic field relation is constructed from derivatives of the connection.</p>
+<p>In the usual spatial-temporal decomposition,</p>
+<p><span class="math display">\[\mathbf B=\nabla\times\mathbf A_{\mathrm{EM}}\]</span></p>
+<!-- source_pdf_page: 2583 -->
+<p>and</p>
+<p><span class="math display">\[\mathbf E=-\nabla\Phi_{\mathrm{EM}}-\partial_t\mathbf A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="these-are-not-derived-here-as-primitive-r2d-fields" class="level2">
+<h2 class="anchored" data-anchor-id="these-are-not-derived-here-as-primitive-r2d-fields">64. These Are Not Derived Here as Primitive R2D Fields</h2>
+<p>They are the gauge-invariant curvature of the projected connection.</p>
+<p>Their deeper R2D interpretation belongs to the next addendum.</p>
+</section>
+<section id="the-aharonovbohm-relation-shows-why-connection-matters" class="level2">
+<h2 class="anchored" data-anchor-id="the-aharonovbohm-relation-shows-why-connection-matters">65. The Aharonov–Bohm Relation Shows Why Connection Matters</h2>
+<p>Consider a closed spatial path C .</p>
+<p>The connection contributes the phase</p>
+<p><span class="math display">\[\Delta\phi_{AB}=\frac{q}{\hbar}\oint_C\mathbf A_{\mathrm{EM}}\cdot d\mathbf l\]</span></p>
+</section>
+<section id="gauge-transformation-adds" class="level2">
+<h2 class="anchored" data-anchor-id="gauge-transformation-adds">66. Gauge Transformation Adds</h2>
+<p><span class="math display">\[\frac{q}{\hbar}\oint_C\nabla\chi\cdot d\mathbf l\]</span></p>
+<p>For a single-valued regular gauge function,</p>
+<p><span class="math display">\[\oint_C\nabla\chi\cdot d\mathbf l=0\]</span></p>
+</section>
+<section id="therefore-the-closed-loop-phase-is-gauge-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="therefore-the-closed-loop-phase-is-gauge-invariant">67. Therefore the Closed-Loop Phase Is Gauge Invariant</h2>
+<p><span class="math display">\[\Delta\phi'_{AB}=\Delta\phi_{AB}\]</span></p>
+</section>
+<section id="stokes-theorem-gives" class="level2">
+<h2 class="anchored" data-anchor-id="stokes-theorem-gives">68. Stokes’ Theorem Gives</h2>
+<p><span class="math display">\[\oint_C\mathbf A_{\mathrm{EM}}\cdot d\mathbf l=\int_\Sigma\mathbf B\cdot d\mathbf S\]</span></p>
+<!-- source_pdf_page: 2584 -->
+<p>Thus:</p>
+<p><span class="math display">\[\Delta\phi_{AB}=\frac{q}{\hbar}\int_\Sigma\mathbf B\cdot d\mathbf S\]</span></p>
+</section>
+<section id="this-is-especially-natural-in-r2d" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-especially-natural-in-r2d">69. This Is Especially Natural in R2D</h2>
+<p>Local representation can vary while a closed relational quantity remains invariant.</p>
+<p>That architecture closely resembles recurrent closure.</p>
+<p>But the two mathematical objects should not yet be identified term by term.</p>
+</section>
+<section id="principle-closure-invariance-precedes-gauge-invariance" class="level2">
+<h2 class="anchored" data-anchor-id="principle-closure-invariance-precedes-gauge-invariance">70. Principle — Closure Invariance Precedes Gauge Invariance</h2>
+<p>The physical count relation must remain invariant before gauge redundancy can represent it.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>counting invariance → closure invariance → gauge invariance.</p>
+</blockquote>
+</section>
+<section id="principle-global-phase-freedom-precedes-local-gauge-connection" class="level2">
+<h2 class="anchored" data-anchor-id="principle-global-phase-freedom-precedes-local-gauge-connection">71. Principle — Global Phase Freedom Precedes Local Gauge Connection</h2>
+<p>A constant change of phase origin causes no local comparison problem.</p>
+<p>A local change does.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>α → χ(x, t) → connection.</p>
+</blockquote>
+</section>
+<section id="principle-gauge-transformation-is-not-physical-boundary-replacement" class="level2">
+<h2 class="anchored" data-anchor-id="principle-gauge-transformation-is-not-physical-boundary-replacement">72. Principle — Gauge Transformation Is Not Physical Boundary Replacement</h2>
+<blockquote class="blockquote">
+<p>gauge change ≠ R2D occurrence.</p>
+</blockquote>
+<p>The physical count class can remain unchanged.</p>
+<!-- source_pdf_page: 2585 -->
+</section>
+<section id="principle-local-phase-comparison-requires-covariant-differentiation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-local-phase-comparison-requires-covariant-differentiation">73. Principle — Local Phase Comparison Requires Covariant Differentiation</h2>
+<p><span class="math display">\[ D=\nabla-\frac{iq}{\hbar}\mathbf A_{\mathrm{EM}}\]</span></p>
+<p><span class="math display">\[ D_t=\partial_t+\frac{iq}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="principle-charge-is-the-oriented-coupling-to-the-connection" class="level2">
+<h2 class="anchored" data-anchor-id="principle-charge-is-the-oriented-coupling-to-the-connection">74. Principle — Charge Is the Oriented Coupling to the Connection</h2>
+<p><span class="math display">\[ q=\sigma|q|,\qquad\sigma=\pm1\]</span></p>
+<p>Its sign controls phase-rotation orientation.</p>
+<p>Its magnitude controls coupling strength.</p>
+</section>
+<section id="principle-mechanical-momentum-is-gauge-covariant-translation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-mechanical-momentum-is-gauge-covariant-translation">75. Principle — Mechanical Momentum Is Gauge-Covariant Translation</h2>
+<p><span class="math display">\[\Pi=-i\hbar\nabla-q\mathbf A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="principle-electromagnetic-scalar-energy-is-the-temporal-connection-read" class="level2">
+<h2 class="anchored" data-anchor-id="principle-electromagnetic-scalar-energy-is-the-temporal-connection-read">76. Principle — Electromagnetic Scalar Energy Is the Temporal Connection Read</h2>
+<p><span class="math display">\[ V_{\mathrm{EM}}=q\Phi_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="principle-minimal-coupling-is-not-primitive-substitution" class="level2">
+<h2 class="anchored" data-anchor-id="principle-minimal-coupling-is-not-primitive-substitution">77. Principle — Minimal Coupling Is Not Primitive Substitution</h2>
+<p>The familiar rule</p>
+<p><span class="math display">\[ p\to p-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>is the consequence of requiring local phase comparison to remain physically meaningful.</p>
+<!-- source_pdf_page: 2586 -->
+</section>
+<section id="principle-temporal-and-spatial-coupling-are-one-connection" class="level2">
+<h2 class="anchored" data-anchor-id="principle-temporal-and-spatial-coupling-are-one-connection">78. Principle — Temporal and Spatial Coupling Are One Connection</h2>
+<p><span class="math display">\[\mathcal A_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}\cdot d\mathbf x-\Phi_{\mathrm{EM}}\,dt\]</span></p>
+</section>
+<section id="principle-relational-phase-is-gauge-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="principle-relational-phase-is-gauge-invariant">79. Principle — Relational Phase Is Gauge Invariant</h2>
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}=d\phi-\frac{q}{\hbar}\mathcal A_{\mathrm{EM}}\]</span></p>
+</section>
+<section id="principle-gauge-potential-is-connection-not-primitive-field-substance" class="level2">
+<h2 class="anchored" data-anchor-id="principle-gauge-potential-is-connection-not-primitive-field-substance">80. Principle — Gauge Potential Is Connection, Not Primitive Field Substance</h2>
+<p>The potential records how locally different phase representations are compared.</p>
+<p>Gauge-invariant curvature comes later.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">81. Logical Status</h2>
+<p>Canonical R2D</p>
+<p>State identity is boundary indexed.</p>
+<p>Recursive closure is invariant under changes that do not alter the underlying count structure.</p>
+<p>Charge is a retained orientation-sensitive coupling.</p>
+<p>Addendum 72</p>
+<p>Closure produces phase and no primitive absolute phase zero.</p>
+<p>Addendum 73</p>
+<p>Born realization depends on phase-independent relational state structure.</p>
+<p>Addendum 74</p>
+<p>Boundary-preserving recurrence is represented unitarily.</p>
+<p>Addendum 75</p>
+<p>Boundary-preserving spatial translation gives</p>
+<!-- source_pdf_page: 2587 -->
+<p>Pcan = −iℏ∇.</p>
+<p>Addendum 77</p>
+<p>A scalar phase-rate bias produces a potential term.</p>
+<p>Prior Gauge Result</p>
+<p>Local phase-reference freedom requires a connection because ordinary differentiation mixes physical change with reference change.</p>
+<p>New Covariant Derivatives</p>
+<p><span class="math display">\[ D=\nabla-\frac{iq}{\hbar}\mathbf A_{\mathrm{EM}}\]</span></p>
+<p><span class="math display">\[ D_t=\partial_t+\frac{iq}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+<p>Derived Mechanical Momentum</p>
+<p><span class="math display">\[\Pi=-i\hbar\nabla-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Derived Electromagnetic Scalar Energy</p>
+<p><span class="math display">\[ V_{\mathrm{EM}}=q\Phi_{\mathrm{EM}}\]</span></p>
+<p>Derived Minimal-Coupling Schrödinger Equation</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[\frac{(-i\hbar\nabla-q\mathbf A_{\mathrm{EM}})^2}{2m}+q\Phi_{\mathrm{EM}}\right]\psi\]</span></p>
+<p>New Gauge-Invariant Relational Phase Differential</p>
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}=d\phi-\frac{q}{\hbar}\mathcal A_{\mathrm{EM}}\]</span></p>
+<p>Not Yet Established</p>
+<p>This addendum does not yet derive:</p>
+<ul>
+<li>the elementary charge magnitude;</li>
+<li>the Standard Model charge spectrum;</li>
+<li>Maxwell’s equations from primitive R2D counting;</li>
+<li>the dynamical action of the electromagnetic connection;</li>
+<li>electromagnetic field energy;</li>
+<li>spin coupling;</li>
+<li>magnetic moment;</li>
+</ul>
+<!-- source_pdf_page: 2588 -->
+<p>• or the unique emergence of physical electromagnetism from all possible U (1) connections.</p>
+<p>Those remain downstream physical bridges.</p>
+</section>
+<section id="the-complete-minimal-coupling-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-complete-minimal-coupling-architecture">82. The Complete Minimal-Coupling Architecture</h2>
+<p>Boundary-native closure gives phase:</p>
+<p><span class="math display">\[\phi\]</span></p>
+<p>Absolute phase zero is not primitive:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\phi\to\phi+\alpha\]</span></p>
+<p>Allow the reference to vary locally:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\chi=\chi(x,t)\]</span></p>
+<p>Ordinary differentiation becomes reference contaminated:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\partial\psi\to\partial\psi+\text{reference term}\]</span></p>
+<p>Local comparison requires a connection:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\Phi_{\mathrm{EM}},\quad\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Charge sets oriented coupling:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[ q=\sigma|q|,\qquad\sigma=\pm1\]</span></p>
+<p>The derivatives become covariant:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[ D_t,\quad D\]</span></p>
+<p>Spatial covariance gives:</p>
+<!-- source_pdf_page: 2589 -->
+<p>⇓</p>
+<p><span class="math display">\[\Pi=-i\hbar\nabla-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>Temporal covariance gives:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[ V_{\mathrm{EM}}=q\Phi_{\mathrm{EM}}\]</span></p>
+<p>Together:</p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[\frac{(-i\hbar\nabla-q\mathbf A_{\mathrm{EM}})^2}{2m}+q\Phi_{\mathrm{EM}}\right]\psi\]</span></p>
+<p>Electromagnetic minimal coupling is therefore the end of the local phase-comparison chain, not its beginning.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">83. Conclusion</h2>
+<p>Quantum phase is logically prior to electromagnetic gauge potential.</p>
+<p>A boundary-native recurrence closes before any electromagnetic field coordinate is assigned.</p>
+<p>That closure admits a phase representation.</p>
+<p>Because closure possesses no primitive absolute phase zero, different mathematical representations can use different phase origins without changing the physical state.</p>
+<p>For a global phase-reference shift, this freedom is harmless.</p>
+<p>Every point changes by the same amount.</p>
+<p>Relative phase is preserved automatically.</p>
+<p>The situation changes when the reference freedom becomes local:</p>
+<p><span class="math display">\[\chi=\chi(x,t)\]</span></p>
+<p>Then ordinary derivatives no longer distinguish physical recurrence change from change in reference.</p>
+<p>For a charge-bearing state,</p>
+<!-- source_pdf_page: 2590 -->
+<p>ψ ′ = eiqχ/ℏ ψ,</p>
+<p>spatial differentiation produces an additional term proportional to</p>
+<p><span class="math display">\[\nabla\chi\]</span></p>
+<p>and temporal differentiation produces another proportional to</p>
+<p><span class="math display">\[\partial_t\chi\]</span></p>
+<p>A physical comparison therefore requires a connection.</p>
+<p>Introduce</p>
+<p><span class="math display">\[\mathbf A'_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}+\nabla\chi\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Phi'_{\mathrm{EM}}=\Phi_{\mathrm{EM}}-\partial_t\chi\]</span></p>
+<p>The corresponding covariant derivatives are</p>
+<p><span class="math display">\[ D=\nabla-\frac{iq}{\hbar}\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[ D_t=\partial_t+\frac{iq}{\hbar}\Phi_{\mathrm{EM}}\]</span></p>
+<p>These derivatives compare locally different phase representations while preserving the same physical closure relation.</p>
+<p>The spatial connection changes the momentum read from</p>
+<p><span class="math display">\[ P_{\mathrm{can}}=-i\hbar\nabla\]</span></p>
+<p>to</p>
+<p><span class="math display">\[-i\hbar\nabla-q\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>The temporal connection contributes</p>
+<p><span class="math display">\[ q\Phi_{\mathrm{EM}}\]</span></p>
+<p>Thus:</p>
+<!-- source_pdf_page: 2591 -->
+<p>∂ψ (−iℏ∇ − qAEM )2</p>
+<p><span class="math display">\[ i\hbar\frac{\partial\psi}{\partial t}=\left[\frac{(-i\hbar\nabla-q\mathbf A_{\mathrm{EM}})^2}{2m}+q\Phi_{\mathrm{EM}}\right]\psi\]</span></p>
+<p>Minimal coupling therefore does not need to be imposed as an unexplained replacement rule.</p>
+<p>It follows from local phase comparison.</p>
+<p>The physical charge coordinate likewise acquires a direct role.</p>
+<p>R2D has already identified</p>
+<p><span class="math display">\[ q=\sigma|q|,\qquad\sigma=\pm1\]</span></p>
+<p>as a retained orientation-sensitive boundary coupling.</p>
+<p>The sign σ determines which direction the state rotates under the same local phase-reference change.</p>
+<p>The magnitude ∣q∣ determines how strongly it couples.</p>
+<p>Gauge theory does not create this orientation.</p>
+<p>It is the projected representation of an orientation already retained by the boundary architecture.</p>
+<p>The most compact expression of the complete relation is</p>
+<p><span class="math display">\[ d\phi_{\mathrm{rel}}=d\phi-\frac{q}{\hbar}\mathcal A_{\mathrm{EM}}\]</span></p>
+<p>where</p>
+<p><span class="math display">\[\mathcal A_{\mathrm{EM}}=\mathbf A_{\mathrm{EM}}\cdot d\mathbf x-\Phi_{\mathrm{EM}}\,dt\]</span></p>
+<p>The coordinate phase</p>
+<p><span class="math display">\[ d\phi\]</span></p>
+<p>depends on local reference.</p>
+<p>The connection</p>
+<p><span class="math display">\[\mathbf A_{\mathrm{EM}}\]</span></p>
+<p>also depends on local reference.</p>
+<p>Their combination does not.</p>
+<p>This is the electromagnetic physical read that survives.</p>
+<!-- source_pdf_page: 2592 -->
+<p>The central statement is therefore:</p>
+<p>electromagnetic minimal coupling is the physical rule required to compare closure phase across locally different phase references. The underlying count relation remains invariant before gauge coordinates are introduced. Local phase freedom makes ordinary derivatives reference dependent, requiring a connection. Charge determines the orientation and strength with which the quantum state couples to that connection. The familiar substitutions <span class="math inline">\(\mathbf P_{\mathrm{can}}\to\mathbf P_{\mathrm{can}}-q\mathbf A_{\mathrm{EM}}\)</span> and <span class="math inline">\(i\hbar\partial_t\to i\hbar\partial_t-q\Phi_{\mathrm{EM}}\)</span> therefore arise after local &gt; phase comparison rather than before it.</p>
+<p>And hence:</p>
+<blockquote class="blockquote">
+<p>local phase comparison occurs before electromagnetic minimal coupling.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="pagination-link" aria-label="Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="pagination-link" aria-label="Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

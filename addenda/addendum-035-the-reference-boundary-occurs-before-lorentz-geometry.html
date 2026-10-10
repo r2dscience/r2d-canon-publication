@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" rel="next">
+<link href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-35-the-reference-boundary-occurs-before-lorentz-geometry" id="toc-addendum-35-the-reference-boundary-occurs-before-lorentz-geometry" class="nav-link active" data-scroll-target="#addendum-35-the-reference-boundary-occurs-before-lorentz-geometry">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#velocity-does-not-define-its-own-reference" id="toc-velocity-does-not-define-its-own-reference" class="nav-link" data-scroll-target="#velocity-does-not-define-its-own-reference">1. Velocity Does Not Define Its Own Reference</a></li>
+  <li><a href="#the-thermal-gas-provides-the-physical-prototype" id="toc-the-thermal-gas-provides-the-physical-prototype" class="nav-link" data-scroll-target="#the-thermal-gas-provides-the-physical-prototype">2. The Thermal Gas Provides the Physical Prototype</a></li>
+  <li><a href="#probability-belongs-after-the-enclosing-count-structure" id="toc-probability-belongs-after-the-enclosing-count-structure" class="nav-link" data-scroll-target="#probability-belongs-after-the-enclosing-count-structure">3. Probability Belongs After the Enclosing Count Structure</a></li>
+  <li><a href="#the-reference-boundary-can-itself-move" id="toc-the-reference-boundary-can-itself-move" class="nav-link" data-scroll-target="#the-reference-boundary-can-itself-move">4. The Reference Boundary Can Itself Move</a></li>
+  <li><a href="#principle-the-enclosure-defines-the-motion-reference" id="toc-principle-the-enclosure-defines-the-motion-reference" class="nav-link" data-scroll-target="#principle-the-enclosure-defines-the-motion-reference">5. Principle — The Enclosure Defines the Motion Reference</a></li>
+  <li><a href="#rest-is-background-relative" id="toc-rest-is-background-relative" class="nav-link" data-scroll-target="#rest-is-background-relative">6. Rest Is Background Relative</a></li>
+  <li><a href="#the-enclosure-defines-a-rapidity-landscape" id="toc-the-enclosure-defines-a-rapidity-landscape" class="nav-link" data-scroll-target="#the-enclosure-defines-a-rapidity-landscape">7. The Enclosure Defines a Rapidity Landscape</a></li>
+  <li><a href="#a-change-of-enclosing-reference-shifts-the-landscape" id="toc-a-change-of-enclosing-reference-shifts-the-landscape" class="nav-link" data-scroll-target="#a-change-of-enclosing-reference-shifts-the-landscape">8. A Change of Enclosing Reference Shifts the Landscape</a></li>
+  <li><a href="#the-observable-does-not-reveal-a-unique-reference-decomposition" id="toc-the-observable-does-not-reveal-a-unique-reference-decomposition" class="nav-link" data-scroll-target="#the-observable-does-not-reveal-a-unique-reference-decomposition">9. The Observable Does Not Reveal a Unique Reference Decomposition</a></li>
+  <li><a href="#area-before-radius-applies-to-motion-geometry" id="toc-area-before-radius-applies-to-motion-geometry" class="nav-link" data-scroll-target="#area-before-radius-applies-to-motion-geometry">10. Area Before Radius Applies to Motion Geometry</a></li>
+  <li><a href="#the-local-radius-like-norm-does-not-generate-the-enclosure" id="toc-the-local-radius-like-norm-does-not-generate-the-enclosure" class="nav-link" data-scroll-target="#the-local-radius-like-norm-does-not-generate-the-enclosure">11. The Local Radius-Like Norm Does Not Generate the Enclosure</a></li>
+  <li><a href="#opposed-count-coordinates-separate-enclosure-from-direction" id="toc-opposed-count-coordinates-separate-enclosure-from-direction" class="nav-link" data-scroll-target="#opposed-count-coordinates-separate-enclosure-from-direction">12. Opposed Count Coordinates Separate Enclosure From Direction</a></li>
+  <li><a href="#the-radius-like-norm-is-derived-from-the-even-coordinate" id="toc-the-radius-like-norm-is-derived-from-the-even-coordinate" class="nav-link" data-scroll-target="#the-radius-like-norm-is-derived-from-the-even-coordinate">13. The Radius-Like Norm Is Derived From the Even Coordinate</a></li>
+  <li><a href="#rapidity-changes-directional-decomposition-not-the-local-norm" id="toc-rapidity-changes-directional-decomposition-not-the-local-norm" class="nav-link" data-scroll-target="#rapidity-changes-directional-decomposition-not-the-local-norm">14. Rapidity Changes Directional Decomposition, Not the Local Norm</a></li>
+  <li><a href="#nested-reference-relations-make-rapidity-additive" id="toc-nested-reference-relations-make-rapidity-additive" class="nav-link" data-scroll-target="#nested-reference-relations-make-rapidity-additive">15. Nested Reference Relations Make Rapidity Additive</a></li>
+  <li><a href="#the-dimensionless-lorentz-geometry" id="toc-the-dimensionless-lorentz-geometry" class="nav-link" data-scroll-target="#the-dimensionless-lorentz-geometry">16. The Dimensionless Lorentz Geometry</a></li>
+  <li><a href="#the-lorentz-transformation-follows-from-a-reference-shift" id="toc-the-lorentz-transformation-follows-from-a-reference-shift" class="nav-link" data-scroll-target="#the-lorentz-transformation-follows-from-a-reference-shift">17. The Lorentz Transformation Follows From a Reference Shift</a></li>
+  <li><a href="#physical-clock-and-ruler-coordinates-come-after-the-count-geometry" id="toc-physical-clock-and-ruler-coordinates-come-after-the-count-geometry" class="nav-link" data-scroll-target="#physical-clock-and-ruler-coordinates-come-after-the-count-geometry">18. Physical Clock and Ruler Coordinates Come After the Count Geometry</a></li>
+  <li><a href="#c-is-not-rapidity" id="toc-c-is-not-rapidity" class="nav-link" data-scroll-target="#c-is-not-rapidity">19. c Is Not Rapidity</a></li>
+  <li><a href="#relativity-is-relative-to-background-rapidity-not-rest-mass" id="toc-relativity-is-relative-to-background-rapidity-not-rest-mass" class="nav-link" data-scroll-target="#relativity-is-relative-to-background-rapidity-not-rest-mass">20. Relativity Is Relative to Background Rapidity, Not Rest Mass</a></li>
+  <li><a href="#velocity-is-a-bounded-read-of-background-relative-rapidity" id="toc-velocity-is-a-bounded-read-of-background-relative-rapidity" class="nav-link" data-scroll-target="#velocity-is-a-bounded-read-of-background-relative-rapidity">21. Velocity Is a Bounded Read of Background-Relative Rapidity</a></li>
+  <li><a href="#relativistic-velocity-addition-is-a-projection-of-nested-reference-addition" id="toc-relativistic-velocity-addition-is-a-projection-of-nested-reference-addition" class="nav-link" data-scroll-target="#relativistic-velocity-addition-is-a-projection-of-nested-reference-addition">22. Relativistic Velocity Addition Is a Projection of Nested Reference Addition</a></li>
+  <li><a href="#the-limiting-speed-is-a-projection-horizon" id="toc-the-limiting-speed-is-a-projection-horizon" class="nav-link" data-scroll-target="#the-limiting-speed-is-a-projection-horizon">23. The Limiting Speed Is a Projection Horizon</a></li>
+  <li><a href="#the-gas-shows-what-happens-near-the-projection-horizon" id="toc-the-gas-shows-what-happens-near-the-projection-horizon" class="nav-link" data-scroll-target="#the-gas-shows-what-happens-near-the-projection-horizon">24. The Gas Shows What Happens Near the Projection Horizon</a></li>
+  <li><a href="#time-dilation-does-not-require-local-time-to-mechanically-slow" id="toc-time-dilation-does-not-require-local-time-to-mechanically-slow" class="nav-link" data-scroll-target="#time-dilation-does-not-require-local-time-to-mechanically-slow">25. Time Dilation Does Not Require Local Time to Mechanically Slow</a></li>
+  <li><a href="#length-contraction-does-not-require-the-local-boundary-to-shrink" id="toc-length-contraction-does-not-require-the-local-boundary-to-shrink" class="nav-link" data-scroll-target="#length-contraction-does-not-require-the-local-boundary-to-shrink">26. Length Contraction Does Not Require the Local Boundary to Shrink</a></li>
+  <li><a href="#relativity-of-simultaneity-has-the-same-origin-the-physical-transformation-gives" id="toc-relativity-of-simultaneity-has-the-same-origin-the-physical-transformation-gives" class="nav-link" data-scroll-target="#relativity-of-simultaneity-has-the-same-origin-the-physical-transformation-gives">27. Relativity of Simultaneity Has the Same Origin The physical transformation gives</a></li>
+  <li><a href="#lorentz-geometry-is-the-uniform-background-case" id="toc-lorentz-geometry-is-the-uniform-background-case" class="nav-link" data-scroll-target="#lorentz-geometry-is-the-uniform-background-case">28. Lorentz Geometry Is the Uniform-Background Case</a></li>
+  <li><a href="#curved-spacetime-begins-when-the-enclosing-rapidity-relation-is-not-uniform" id="toc-curved-spacetime-begins-when-the-enclosing-rapidity-relation-is-not-uniform" class="nav-link" data-scroll-target="#curved-spacetime-begins-when-the-enclosing-rapidity-relation-is-not-uniform">29. Curved Spacetime Begins When the Enclosing Rapidity Relation Is Not Uniform</a></li>
+  <li><a href="#area-before-radius-is-therefore-common-to-lorentz-and-einstein-geometry" id="toc-area-before-radius-is-therefore-common-to-lorentz-and-einstein-geometry" class="nav-link" data-scroll-target="#area-before-radius-is-therefore-common-to-lorentz-and-einstein-geometry">30. Area Before Radius Is Therefore Common to Lorentz and Einstein Geometry</a></li>
+  <li><a href="#the-local-radius-does-not-bend" id="toc-the-local-radius-does-not-bend" class="nav-link" data-scroll-target="#the-local-radius-does-not-bend">31. The Local Radius Does Not Bend</a></li>
+  <li><a href="#c-is-the-shared-calibration-of-the-uniform-rapidity-background" id="toc-c-is-the-shared-calibration-of-the-uniform-rapidity-background" class="nav-link" data-scroll-target="#c-is-the-shared-calibration-of-the-uniform-rapidity-background">32. c Is the Shared Calibration of the Uniform Rapidity Background</a></li>
+  <li><a href="#lorentz-relativity-is-not-relative-to-a-rest-mass" id="toc-lorentz-relativity-is-not-relative-to-a-rest-mass" class="nav-link" data-scroll-target="#lorentz-relativity-is-not-relative-to-a-rest-mass">33. Lorentz Relativity Is Not Relative to a Rest Mass</a></li>
+  <li><a href="#the-route-to-mass-energy-is-now-downstream" id="toc-the-route-to-mass-energy-is-now-downstream" class="nav-link" data-scroll-target="#the-route-to-mass-energy-is-now-downstream">34. The Route to Mass-Energy Is Now Downstream</a></li>
+  <li><a href="#the-route-to-gravity-is-also-downstream" id="toc-the-route-to-gravity-is-also-downstream" class="nav-link" data-scroll-target="#the-route-to-gravity-is-also-downstream">35. The Route to Gravity Is Also Downstream</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">36. Logical Status</a></li>
+  <li><a href="#principle-the-enclosure-defines-the-rapidity-landscape" id="toc-principle-the-enclosure-defines-the-rapidity-landscape" class="nav-link" data-scroll-target="#principle-the-enclosure-defines-the-rapidity-landscape">37. Principle — The Enclosure Defines the Rapidity Landscape</a></li>
+  <li><a href="#principle-lorentz-geometry-is-area-before-radius-let" id="toc-principle-lorentz-geometry-is-area-before-radius-let" class="nav-link" data-scroll-target="#principle-lorentz-geometry-is-area-before-radius-let">38. Principle — Lorentz Geometry Is Area Before Radius Let</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">39. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></h1>
+<p class="subtitle lead">Enclosing Rapidity Landscapes, Area Before Radius, and the Projection of Relativistic Motion</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-35-the-reference-boundary-occurs-before-lorentz-geometry" class="level1">
+<h1>Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Special relativity is conventionally formulated as a relation among observers, clocks, rulers, velocities, and an invariant propagation speed c.&nbsp;Recursively Realized Distinguishability (R²D) asks a prior question:</p>
+<p>What boundary defines the reference relative to which velocity is measured?</p>
+<p>A local directional realization cannot define its own nondirectional zero. The zero belongs to an enclosing relation.</p>
+<p>A thermal gas makes this architecture directly visible. Individual molecules possess velocities relative to the gas/container boundary, but no individual molecule determines the mean velocity about which the distribution is centered. The enclosing gas defines that distribution. Its molecules realize it. If the container itself moves relative to a larger boundary, the internal molecular multiplicity need not be reconstructed. Instead, the entire directional distribution acquires a new enclosing reference.</p>
+<p>The R²D hierarchy is therefore</p>
+<p><span class="math display">\[B_a\subset\Phi_0\subset\Phi_1.\]</span></p>
+<p>where Ba is a subordinate observed boundary, Φ0 defines its immediate motion reference, and Φ1 defines the reference relative to which Φ0 itself possesses directional motion.</p>
+<p>This reverses the usual causal picture. Physical velocity is not primitive motion carried intrinsically by an object. It is a boundary-relative read of a subordinate realization within an enclosing rapidity landscape.</p>
+<p>For a one-dimensional directional relation, two positive opposed count coordinates admit one orientation- even and one orientation-odd logarithmic coordinate. The even coordinate belongs to the unchanged local boundary. The odd coordinate belongs to its relation to the enclosing reference. A pure inertial reread therefore changes the latter without reconstructing the former.</p>
+<p>The positive coordinates consequently transform reciprocally,</p>
+<p><span class="math display">\[Z_+'=e^{-\bar\Xi}Z_+,\]</span></p>
+<p><span class="math display">\[Z_-'=e^{+\bar\Xi}Z_-,\]</span></p>
+<p>while</p>
+<!-- source_pdf_page: 1233 -->
+<p><span class="math display">\[Z_+Z_-.\]</span></p>
+<p>remains invariant.</p>
+<p>The product is an area-like enclosing count relation from which a radius-like invariant norm can subsequently be defined. In linear even and odd coordinates,</p>
+<p><span class="math display">\[d\theta=\frac{Z_++Z_-}{2},\qquad d\chi=\frac{Z_--Z_+}{2}.\]</span></p>
+<p>the invariant becomes</p>
+<p><span class="math display">\[d\theta^2-d\chi^2=Z_+Z_-.\]</span></p>
+<p>Thus the Lorentzian quadratic form is obtained before physical time, distance, or spacetime geometry is introduced.</p>
+<p>Only afterward are</p>
+<p><span class="math display">\[d\theta=a_\Phi\,dt,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[d\chi=b_\Phi\,dx.\]</span></p>
+<p>assigned physical clock and ruler reads. Their ratio defines the dimensional conversion</p>
+<p><span class="math display">\[c_{\Phi}=\frac{a_{\Phi}}{b_{\Phi}}.\]</span></p>
+<p>The resulting physical projection is</p>
+<p><span class="math display">\[d\tau^2=dt^2-\frac{dx^2}{c_{\Phi}^{\,2}},\]</span></p>
+<p>with</p>
+<p><span class="math display">\[\frac{v}{c_{\Phi}}=\tanh\xi.\]</span></p>
+<p>Relativistic velocity addition, time dilation, length contraction, and relativity of simultaneity then follow.</p>
+<p>The local boundary has not been mechanically compressed or slowed. Its proper relation remains invariant. What changes is the enclosing rapidity geometry through which its temporal, spatial, and velocity coordinates are read.</p>
+<p>This is the Lorentz version of the R²D inversion area before radius.</p>
+<p>The enclosure determines the coordinate geometry.</p>
+<!-- source_pdf_page: 1234 -->
+<p>The coordinate geometry does not construct the enclosure.</p>
+<p>The central claim is therefore:</p>
+<blockquote class="blockquote">
+<p>the reference boundary occurs before Lorentz geometry.</p>
+</blockquote>
+</section>
+<section id="velocity-does-not-define-its-own-reference" class="level2">
+<h2 class="anchored" data-anchor-id="velocity-does-not-define-its-own-reference">1. Velocity Does Not Define Its Own Reference</h2>
+<p>A physical velocity written simply as</p>
+<p><span class="math display">\[v_a\]</span></p>
+<p>is incomplete.</p>
+<p>Velocity necessarily compares one realized boundary with another relation.</p>
+<p>R²D therefore requires the indexed form</p>
+<p><span class="math display">\[v_{a\mid\Phi}.\]</span></p>
+<p>The local boundary Ba supplies the observed realization.</p>
+<p>The enclosing relation Φ supplies the reference relative to which that realization is directional.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>motion is a relation between boundaries.</p>
+</blockquote>
+<p>An object cannot define its own zero velocity any more than one member of a statistical distribution can independently define the mean of that distribution.</p>
+<p>The reference is enclosing.</p>
+</section>
+<section id="the-thermal-gas-provides-the-physical-prototype" class="level2">
+<h2 class="anchored" data-anchor-id="the-thermal-gas-provides-the-physical-prototype">2. The Thermal Gas Provides the Physical Prototype</h2>
+<p>Consider a gas enclosed within a container.</p>
+<p>Let</p>
+<p><span class="math display">\[B_a\]</span></p>
+<p>denote one molecular boundary and</p>
+<p><span class="math display">\[\Phi_0\]</span></p>
+<!-- source_pdf_page: 1235 -->
+<p>the enclosing gas/container boundary.</p>
+<p>The molecules possess directional physical reads</p>
+<p><span class="math display">\[v_{a\mid\Phi_0}.\]</span></p>
+<p>At equilibrium the distribution is centered on the bulk reference:</p>
+<p><span class="math display">\[\langle v_{a\mid\Phi_0}\rangle=0.\]</span></p>
+<p>No individual molecule defines that zero.</p>
+<p>The gas ensemble does.</p>
+<p>Likewise, no individual molecular probability constructs the ensemble multiplicity from below.</p>
+<p>The enclosing statistical state defines the multiplicity landscape within which molecular velocities are realized.</p>
+<p>Thus the R²D causal order is</p>
+<blockquote class="blockquote">
+<p>enclosing multiplicity → directional distribution → subordinate realization.</p>
+</blockquote>
+<p>The molecules occupy the distribution.</p>
+<p>They do not independently generate it.</p>
+</section>
+<section id="probability-belongs-after-the-enclosing-count-structure" class="level2">
+<h2 class="anchored" data-anchor-id="probability-belongs-after-the-enclosing-count-structure">3. Probability Belongs After the Enclosing Count Structure</h2>
+<p>The molecular example exposes a general projection error.</p>
+<p>One may describe a particular molecule as having some probability of occupying a given velocity interval.</p>
+<p>That description is valid.</p>
+<p>But the probability is normalized from an already-defined ensemble distribution.</p>
+<p>It does not reside primitively inside the molecule and then assemble upward to construct the gas.</p>
+<p>R²D instead gives:</p>
+<blockquote class="blockquote">
+<p>possible-count landscape → normalized probability → observed molecular realization.</p>
+</blockquote>
+<p>Therefore the rapidity distribution considered below belongs first to the enclosing boundary.</p>
+<!-- source_pdf_page: 1236 -->
+<p>A subordinate velocity is one realized read of that landscape.</p>
+</section>
+<section id="the-reference-boundary-can-itself-move" class="level2">
+<h2 class="anchored" data-anchor-id="the-reference-boundary-can-itself-move">4. The Reference Boundary Can Itself Move</h2>
+<p>Now introduce another enclosing reference,</p>
+<p><span class="math display">\[\Phi_1.\]</span></p>
+<p>The hierarchy becomes</p>
+<p><span class="math display">\[B_a\subset\Phi_0\subset\Phi_1.\]</span></p>
+<p>The molecule has a directional relation relative to the container,</p>
+<p><span class="math display">\[B_a\mid\Phi_0,\]</span></p>
+<p>while the container itself has a directional relation relative to the larger reference,</p>
+<p><span class="math display">\[\Phi_0\mid\Phi_1.\]</span></p>
+<p>Moving the container relative to Φ1 does not require reconstruction of the gas multiplicity inside Φ0 .</p>
+<p>The internal distribution can remain unchanged relative to its own boundary.</p>
+<p>What changes is the enclosing reference through which that distribution is read.</p>
+<p>This is the primitive problem underlying relativity.</p>
+</section>
+<section id="principle-the-enclosure-defines-the-motion-reference" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-enclosure-defines-the-motion-reference">5. Principle — The Enclosure Defines the Motion Reference</h2>
+<p>For subordinate directional realizations {Ba } contained within an enclosing boundary Φ, the nondirectional zero relative to which their motion is measured belongs to Φ.</p>
+<p>The subordinate boundary supplies the local realization.</p>
+<p>The enclosing boundary supplies the common reference.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>local directional realization + enclosing reference → physical velocity.</p>
+</blockquote>
+<p>A pure change of inertial reference can change the velocity read without changing the native subordinate boundary.</p>
+<!-- source_pdf_page: 1237 -->
+</section>
+<section id="rest-is-background-relative" class="level2">
+<h2 class="anchored" data-anchor-id="rest-is-background-relative">6. Rest Is Background Relative</h2>
+<p>The statement</p>
+<p><span class="math display">\[v=0\]</span></p>
+<p>does not define a primitive state called absolute rest.</p>
+<p>It means</p>
+<p><span class="math display">\[v_{a\mid\Phi}=0.\]</span></p>
+<p>Equivalently, the subordinate directional relation is centered on the selected enclosing reference.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>rest belongs to <span class="math inline">\(B_a\mid\Phi\)</span>,</p>
+</blockquote>
+<p>not to Ba alone.</p>
+<p>Mass does not define the zero of motion.</p>
+<p>The background does.</p>
+<p>This distinction becomes important later when mass-energy is derived. The Lorentz reference structure must therefore be established before rest mass is allowed to define any relativistic geometry.</p>
+</section>
+<section id="the-enclosure-defines-a-rapidity-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="the-enclosure-defines-a-rapidity-landscape">7. The Enclosure Defines a Rapidity Landscape</h2>
+<p>Physical velocity is not yet the most primitive directional coordinate.</p>
+<p>R²D directional relations are naturally logarithmic because multiplicative compatible counts become additive in logarithmic coordinates.</p>
+<p>Let</p>
+<p><span class="math display">\[\xi_{a\mid\Phi}\]</span></p>
+<p>denote the logarithmic directional coordinate of subordinate boundary Ba relative to enclosing reference Φ.</p>
+<p>For an enclosing nondirectional state,</p>
+<p><span class="math display">\[\langle\xi_{a\mid\Phi}\rangle=0.\]</span></p>
+<!-- source_pdf_page: 1238 -->
+<p>The distribution</p>
+<p><span class="math display">\[p_{\Phi}(\xi)\]</span></p>
+<p>is therefore an enclosing rapidity landscape.</p>
+<p>The center belongs to Φ.</p>
+<p>Individual subordinate boundaries realize values within it.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>the enclosure determines the rapidity landscape.</p>
+</blockquote>
+</section>
+<section id="a-change-of-enclosing-reference-shifts-the-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="a-change-of-enclosing-reference-shifts-the-landscape">8. A Change of Enclosing Reference Shifts the Landscape</h2>
+<p>Let the immediate reference Φ0 possess directional relation</p>
+<p><span class="math display">\[\bar\Xi_{\Phi_0\mid\Phi_1}\]</span></p>
+<p>relative to a larger reference Φ1 .</p>
+<p>The same local realization is then read as</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_1}=\xi_{a\mid\Phi_0}+\bar\Xi_{\Phi_0\mid\Phi_1}.\]</span></p>
+<p>Correspondingly,</p>
+<p><span class="math display">\[p_{\Phi_1}(\xi)=p_{\Phi_0}(\xi-\bar\Xi_{\Phi_0\mid\Phi_1}).\]</span></p>
+<p>The local distribution need not change shape.</p>
+<p>Its center changes relative to the larger enclosure.</p>
+<p>This is the R²D meaning of a pure inertial boost.</p>
+</section>
+<section id="the-observable-does-not-reveal-a-unique-reference-decomposition" class="level2">
+<h2 class="anchored" data-anchor-id="the-observable-does-not-reveal-a-unique-reference-decomposition">9. The Observable Does Not Reveal a Unique Reference Decomposition</h2>
+<p>Suppose an observer reads only</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_1}.\]</span></p>
+<!-- source_pdf_page: 1239 -->
+<p>The decomposition</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_1}=\xi_{a\mid\Phi_0}+\bar\Xi_{\Phi_0\mid\Phi_1}\]</span></p>
+<p>is not uniquely recoverable from that total alone.</p>
+<p>Different pairs</p>
+<p><span class="math display">\[(\xi_{a\mid\Phi_0},\bar\Xi_{\Phi_0\mid\Phi_1})\]</span></p>
+<p>can produce the same larger-boundary read.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>observable motion does not imply a unique subordinate/reference decomposition. [PDF statement clipped at right edge; wording requires author review.]</p>
+</blockquote>
+<p>The reference center can be physically consequential while remaining unreadable from the observational boundary.</p>
+<p>This is the projection problem that Lorentz geometry resolves.</p>
+</section>
+<section id="area-before-radius-applies-to-motion-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="area-before-radius-applies-to-motion-geometry">10. Area Before Radius Applies to Motion Geometry</h2>
+<p>R²D gravitational geometry already motivates the ordering</p>
+<blockquote class="blockquote">
+<p>enclosing area → radial coordinate.</p>
+</blockquote>
+<p>The same inversion appears in relativistic motion.</p>
+<p>The primitive relation is not a radius moving through an already-existing geometry.</p>
+<p>It is an enclosing multiplicative count relation.</p>
+<p>Let the two opposed positive reference-resolved coordinates be</p>
+<p><span class="math display">\[Z_+&gt;0,\qquad Z_-&gt;0.\]</span></p>
+<p>Define their multiplicative enclosure measure</p>
+<p><span class="math display">\[\mathcal A_L\equiv Z_+Z_-.\]</span></p>
+<p>The notation AL is area-like: it denotes the prior multiplicative enclosure relation, not a literal Euclidean surface.</p>
+<p>Only afterward define the associated norm</p>
+<!-- source_pdf_page: 1240 -->
+<p><span class="math display">\[\rho_L\equiv\sqrt{\mathcal A_L}.\]</span></p>
+<p>Thus the logical order is</p>
+<p><span class="math display">\[\mathcal A_L\longrightarrow\rho_L.\]</span></p>
+<p>This is the Lorentz analogue of area before radius.</p>
+</section>
+<section id="the-local-radius-like-norm-does-not-generate-the-enclosure" class="level2">
+<h2 class="anchored" data-anchor-id="the-local-radius-like-norm-does-not-generate-the-enclosure">11. The Local Radius-Like Norm Does Not Generate the Enclosure</h2>
+<p>For a fixed local boundary under a pure inertial reread,</p>
+<p><span class="math display">\[\rho_L\]</span></p>
+<p>remains the same.</p>
+<p>The boundary itself has not been reconstructed.</p>
+<p>What changes is its decomposition relative to the enclosing rapidity reference.</p>
+<p>Thus the apparent relativistic change does not begin with</p>
+<p><span class="math display">\[\rho_L\longrightarrow\rho'_L.\]</span></p>
+<p>It begins with</p>
+<p><span class="math display">\[\bar\Xi_{\Phi_i\mid\Phi_j}\ne0.\]</span></p>
+<p>The same local norm is resolved differently relative to the new enclosing reference.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>boost ≠ change of local proper size.</p>
+</blockquote>
+<p>It is a change of enclosing coordinate decomposition.</p>
+</section>
+<section id="opposed-count-coordinates-separate-enclosure-from-direction" class="level2">
+<h2 class="anchored" data-anchor-id="opposed-count-coordinates-separate-enclosure-from-direction">12. Opposed Count Coordinates Separate Enclosure From Direction</h2>
+<p>Define</p>
+<p><span class="math display">\[z_+=\ln Z_+,\]</span></p>
+<p><span class="math display">\[z_-=\ln Z_-.\]</span></p>
+<p>Orientation reversal exchanges</p>
+<!-- source_pdf_page: 1241 -->
+<p><span class="math display">\[z_+\longleftrightarrow z_-.\]</span></p>
+<p>The unique linear even and odd coordinates are</p>
+<p><span class="math display">\[I=\frac12(z_++z_-),\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\xi=\frac12(z_--z_+).\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[I=\frac12\ln(Z_+Z_-)\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\xi=\frac12\ln\frac{Z_-}{Z_+}.\]</span></p>
+<p>The even coordinate measures the orientation-independent enclosure relation.</p>
+<p>The odd coordinate measures direction relative to the selected enclosing reference.</p>
+</section>
+<section id="the-radius-like-norm-is-derived-from-the-even-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="the-radius-like-norm-is-derived-from-the-even-coordinate">13. The Radius-Like Norm Is Derived From the Even Coordinate</h2>
+<p>Because</p>
+<p><span class="math display">\[Z_+Z_-=e^{2I},\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[\mathcal A_L=e^{2I},\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[\rho_L=e^I.\]</span></p>
+<p>Thus:</p>
+<p><span class="math display">\[I\longrightarrow\mathcal A_L\longrightarrow\rho_L.\]</span></p>
+<p>The radius-like invariant is downstream of the enclosing multiplicative relation.</p>
+<p>Again:</p>
+<!-- source_pdf_page: 1242 -->
+<blockquote class="blockquote">
+<p>area before radius.</p>
+</blockquote>
+</section>
+<section id="rapidity-changes-directional-decomposition-not-the-local-norm" class="level2">
+<h2 class="anchored" data-anchor-id="rapidity-changes-directional-decomposition-not-the-local-norm">14. Rapidity Changes Directional Decomposition, Not the Local Norm</h2>
+<p>Invert the logarithmic coordinates:</p>
+<p><span class="math display">\[z_+=I-\xi,\]</span></p>
+<p><span class="math display">\[z_-=I+\xi.\]</span></p>
+<p>Therefore</p>
+<p><span class="math display">\[Z_+=\rho_Le^{-\xi},\]</span></p>
+<p><span class="math display">\[Z_-=\rho_Le^{+\xi}.\]</span></p>
+<p>A change of enclosing rapidity reference,</p>
+<p><span class="math display">\[\xi\longrightarrow\xi+\bar\Xi,\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[Z_+'=e^{-\bar\Xi}Z_+,\]</span></p>
+<p><span class="math display">\[Z_-'=e^{+\bar\Xi}Z_-.\]</span></p>
+<p>Their product remains</p>
+<p><span class="math display">\[Z_+'Z_-'=\rho_L^2.\]</span></p>
+<p>The local norm has not changed.</p>
+<p>Its opposed reference-resolved coordinates have.</p>
+</section>
+<section id="nested-reference-relations-make-rapidity-additive" class="level2">
+<h2 class="anchored" data-anchor-id="nested-reference-relations-make-rapidity-additive">15. Nested Reference Relations Make Rapidity Additive</h2>
+<p>Introduce another enclosing boundary:</p>
+<p><span class="math display">\[B_a\subset\Phi_0\subset\Phi_1\subset\Phi_2.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_1}=\xi_{a\mid\Phi_0}+\bar\Xi_{0\mid1},\]</span></p>
+<!-- source_pdf_page: 1243 -->
+<p>and</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_2}=\xi_{a\mid\Phi_1}+\bar\Xi_{1\mid2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_2}=\xi_{a\mid\Phi_0}+\bar\Xi_{0\mid1}+\bar\Xi_{1\mid2}.\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[\bar\Xi_{0\mid2}=\bar\Xi_{0\mid1}+\bar\Xi_{1\mid2}.\]</span></p>
+<p>Rapidity adds because it is the logarithmic coordinate of nested multiplicative reference relations.</p>
+<p>Physical velocity need not add.</p>
+</section>
+<section id="the-dimensionless-lorentz-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="the-dimensionless-lorentz-geometry">16. The Dimensionless Lorentz Geometry</h2>
+<p>Define the linear even and odd coordinates</p>
+<p><span class="math display">\[d\theta=\frac12(Z_++Z_-),\]</span></p>
+<p>and</p>
+<p><span class="math display">\[d\chi=\frac12(Z_--Z_+).\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[Z_-=d\theta+d\chi,\]</span></p>
+<p><span class="math display">\[Z_+=d\theta-d\chi.\]</span></p>
+<p>Therefore</p>
+<p><span class="math display">\[Z_+Z_-=(d\theta-d\chi)(d\theta+d\chi).\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[d\theta^2-d\chi^2=\rho_L^2.\]</span></p>
+<p>This relation exists before physical space or time.</p>
+<p>It is the dimensionless Lorentz geometry of the enclosing count relation.</p>
+<!-- source_pdf_page: 1244 -->
+</section>
+<section id="the-lorentz-transformation-follows-from-a-reference-shift" class="level2">
+<h2 class="anchored" data-anchor-id="the-lorentz-transformation-follows-from-a-reference-shift">17. The Lorentz Transformation Follows From a Reference Shift</h2>
+<p>Under</p>
+<p><span class="math display">\[\xi\longrightarrow\xi+\bar\Xi,\]</span></p>
+<p>the opposed coordinates transform as</p>
+<p><span class="math display">\[Z_+'=e^{-\bar\Xi}Z_+,\]</span></p>
+<p><span class="math display">\[Z_-'=e^{+\bar\Xi}Z_-.\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[d\theta'=\cosh\bar\Xi\,d\theta-\sinh\bar\Xi\,d\chi,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[d\chi'=-\sinh\bar\Xi\,d\theta+\cosh\bar\Xi\,d\chi.\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[d\theta'^2-d\chi'^2=d\theta^2-d\chi^2.\]</span></p>
+<p>The Lorentz transformation has appeared as the mathematical representation of a change in enclosing rapidity reference while the local norm remains fixed.</p>
+<p>No physical spacetime metric has yet been assumed.</p>
+</section>
+<section id="physical-clock-and-ruler-coordinates-come-after-the-count-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="physical-clock-and-ruler-coordinates-come-after-the-count-geometry">18. Physical Clock and Ruler Coordinates Come After the Count Geometry</h2>
+<p>Let the enclosing physical background Φ supply temporal calibration</p>
+<p><span class="math display">\[a_{\Phi}\]</span></p>
+<p>and spatial calibration</p>
+<p><span class="math display">\[b_{\Phi}.\]</span></p>
+<p>Assign</p>
+<p><span class="math display">\[d\theta=a_\Phi\,dt,\]</span></p>
+<p>and</p>
+<!-- source_pdf_page: 1245 -->
+<p><span class="math display">\[d\chi=b_{\Phi}\,dx.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[a_{\Phi}^{\,2}dt^2-b_{\Phi}^{\,2}dx^2=\rho_L^2.\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[c_{\Phi}=\frac{a_{\Phi}}{b_{\Phi}}.\]</span></p>
+<p>Also define the proper clock read</p>
+<p><span class="math display">\[d\tau=\frac{\rho_L}{a_{\Phi}}.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[d\tau^2=dt^2-\frac{dx^2}{c_{\Phi}^{\,2}}.\]</span></p>
+<p>Minkowski geometry is therefore the clock-and-ruler projection of a prior enclosing count geometry.</p>
+</section>
+<section id="c-is-not-rapidity" class="level2">
+<h2 class="anchored" data-anchor-id="c-is-not-rapidity">19. c Is Not Rapidity</h2>
+<p>Rapidity is dimensionless and unbounded.</p>
+<p>The quantity cΦ has physical dimensions of velocity.</p>
+<p>Therefore</p>
+<p><span class="math display">\[c_{\Phi}\ne\xi.\]</span></p>
+<p>Instead,</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(c_{\Phi}\)</span> = physical clock/ruler calibration of the background rapidity geometry.</p>
+</blockquote>
+<p>The background supplies the dimensionless reference geometry.</p>
+<p>The physical domain supplies the units through which that geometry is read.</p>
+<p>This distinction is essential.</p>
+<!-- source_pdf_page: 1246 -->
+</section>
+<section id="relativity-is-relative-to-background-rapidity-not-rest-mass" class="level2">
+<h2 class="anchored" data-anchor-id="relativity-is-relative-to-background-rapidity-not-rest-mass">20. Relativity Is Relative to Background Rapidity, Not Rest Mass</h2>
+<p>The relativistic reference is not created by mass.</p>
+<p>Mass belongs to the local boundary-coupling read.</p>
+<p>The motion zero belongs to the enclosing background.</p>
+<p>Thus the logical order is</p>
+<blockquote class="blockquote">
+<p>background rapidity reference → rest condition → velocity read.</p>
+</blockquote>
+<p>Mechanical rest is simply</p>
+<p><span class="math display">\[\xi_{a\mid\Phi}=0.\]</span></p>
+<p>A mass boundary can possess persistent local recurrence while satisfying this condition.</p>
+<p>Mass therefore does not generate Lorentz relativity.</p>
+<p>It participates in a reference geometry already defined by the enclosure.</p>
+</section>
+<section id="velocity-is-a-bounded-read-of-background-relative-rapidity" class="level2">
+<h2 class="anchored" data-anchor-id="velocity-is-a-bounded-read-of-background-relative-rapidity">21. Velocity Is a Bounded Read of Background-Relative Rapidity</h2>
+<p>For the origin of a shifted reference,</p>
+<p><span class="math display">\[dx'=0.\]</span></p>
+<p>The hyperbolic transformation yields</p>
+<p><span class="math display">\[\frac{dx}{c_{\Phi}\,dt}=\tanh\bar\Xi.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{V_{\Phi_i\mid\Phi_j}}{c_{\Phi}}=\tanh\bar\Xi_{\Phi_i\mid\Phi_j}.\]</span></p>
+<p>For a subordinate realization,</p>
+<p><span class="math display">\[\frac{v_{a\mid\Phi}}{c_{\Phi}}=\tanh\xi_{a\mid\Phi}.\]</span></p>
+<p>Velocity is therefore not the primitive additive coordinate.</p>
+<p>Rapidity is.</p>
+<!-- source_pdf_page: 1247 -->
+<p>Velocity is its bounded physical projection.</p>
+</section>
+<section id="relativistic-velocity-addition-is-a-projection-of-nested-reference-addition" class="level2">
+<h2 class="anchored" data-anchor-id="relativistic-velocity-addition-is-a-projection-of-nested-reference-addition">22. Relativistic Velocity Addition Is a Projection of Nested Reference Addition</h2>
+<p>Let</p>
+<p><span class="math display">\[u=c\tanh\eta\]</span></p>
+<p>be the local subordinate velocity relative to Φ0 , and</p>
+<p><span class="math display">\[V=c\tanh\bar\Xi\]</span></p>
+<p>the velocity of Φ0 relative to Φ1 .</p>
+<p>The larger-boundary rapidity is</p>
+<p><span class="math display">\[\xi=\eta+\bar\Xi.\]</span></p>
+<p>Therefore</p>
+<p><span class="math display">\[v=c\tanh(\eta+\bar\Xi),\]</span></p>
+<p>which gives</p>
+<p><span class="math display">\[v=\frac{u+V}{1+uV/c^2}.\]</span></p>
+<p>The nonlinear velocity law is therefore downstream of the linear nested-reference law</p>
+<p><span class="math display">\[\xi=\eta+\bar\Xi.\]</span></p>
+</section>
+<section id="the-limiting-speed-is-a-projection-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="the-limiting-speed-is-a-projection-horizon">23. The Limiting Speed Is a Projection Horizon</h2>
+<p>For any finite rapidity,</p>
+<p><span class="math display">\[|\tanh\xi|&lt;1.\]</span></p>
+<p>Therefore</p>
+<p><span class="math display">\[|v|&lt;c.\]</span></p>
+<p>As</p>
+<!-- source_pdf_page: 1248 -->
+<p><span class="math display">\[\xi\longrightarrow+\infty,\]</span></p>
+<p><span class="math display">\[v\longrightarrow+c.\]</span></p>
+<p>As</p>
+<p><span class="math display">\[\xi\longrightarrow-\infty,\]</span></p>
+<p><span class="math display">\[v\longrightarrow-c.\]</span></p>
+<p>Thus c is the limiting velocity read of an unbounded logarithmic directional coordinate.</p>
+<p>The bound belongs to the projection.</p>
+<p>It is not an arbitrary ceiling imposed on a Galilean velocity variable.</p>
+</section>
+<section id="the-gas-shows-what-happens-near-the-projection-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="the-gas-shows-what-happens-near-the-projection-horizon">24. The Gas Shows What Happens Near the Projection Horizon</h2>
+<p>Suppose molecules retain finite local rapidities</p>
+<p><span class="math display">\[\eta_a\]</span></p>
+<p>relative to their gas/container boundary.</p>
+<p>Relative to a larger reference,</p>
+<p><span class="math display">\[\xi_a=\eta_a+\bar\Xi.\]</span></p>
+<p>For any finite ηa ,</p>
+<p><span class="math display">\[\bar\Xi\longrightarrow+\infty\]</span></p>
+<p>implies</p>
+<p><span class="math display">\[v_a=c\tanh(\eta_a+\bar\Xi)\longrightarrow c.\]</span></p>
+<p>The subordinate rapidity differences can remain finite:</p>
+<p><span class="math display">\[\eta_a-\eta_b\ne0.\]</span></p>
+<p>Yet their larger-boundary velocity reads become compressed toward the same limiting value.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>loss of velocity distinction ≠ loss of local rapidity distinction. [PDF statement clipped at right edge; wording requires author review.]</p>
+</blockquote>
+<p>The hidden rapidity landscape retains structure that the bounded velocity projection can no longer resolve.</p>
+<!-- source_pdf_page: 1249 -->
+</section>
+<section id="time-dilation-does-not-require-local-time-to-mechanically-slow" class="level2">
+<h2 class="anchored" data-anchor-id="time-dilation-does-not-require-local-time-to-mechanically-slow">25. Time Dilation Does Not Require Local Time to Mechanically Slow</h2>
+<p>For the selected local boundary,</p>
+<p><span class="math display">\[dx=v\,dt.\]</span></p>
+<p>The invariant gives</p>
+<p><span class="math display">\[d\tau^2=dt^2\left(1-\frac{v^2}{c^2}\right).\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[d\tau=\frac{dt}{\gamma},\]</span></p>
+<p>where</p>
+<p><span class="math display">\[\gamma=\frac1{\sqrt{1-v^2/c^2}}.\]</span></p>
+<p>The local proper recurrence remains invariant.</p>
+<p>What changes is the temporal coordinate assigned to it from another enclosing reference.</p>
+<p>Thus time dilation is a real cross-boundary clock relation.</p>
+<p>It need not mean that motion acts as a primitive mechanism slowing an independently existing universal time.</p>
+</section>
+<section id="length-contraction-does-not-require-the-local-boundary-to-shrink" class="level2">
+<h2 class="anchored" data-anchor-id="length-contraction-does-not-require-the-local-boundary-to-shrink">26. Length Contraction Does Not Require the Local Boundary to Shrink</h2>
+<p>The same reasoning applies to spatial projection.</p>
+<p>The local boundary retains its proper distinguishability.</p>
+<p>A ruler belonging to another enclosing reference assigns a different spatial coordinate to that invariant local relation.</p>
+<p>For a structure with proper length L0 ,</p>
+<!-- source_pdf_page: 1250 -->
+<p><span class="math display">\[L=\frac{L_0}{\gamma}.\]</span></p>
+<p>This is a real physical relation among reference-dependent ruler reads.</p>
+<p>It does not require the primitive local boundary itself to become ontologically shorter.</p>
+<p>The radius does not generate the enclosing geometry.</p>
+<p>The enclosure determines how the local radius-like distinction is read.</p>
+</section>
+<section id="relativity-of-simultaneity-has-the-same-origin-the-physical-transformation-gives" class="level2">
+<h2 class="anchored" data-anchor-id="relativity-of-simultaneity-has-the-same-origin-the-physical-transformation-gives">27. Relativity of Simultaneity Has the Same Origin The physical transformation gives</h2>
+<p><span class="math display">\[dt'=\gamma\left(dt-\frac{v\,dx}{c^2}\right).\]</span></p>
+<p>Two separated occurrences satisfying</p>
+<p><span class="math display">\[dt=0\]</span></p>
+<p>in one reference generally satisfy</p>
+<p><span class="math display">\[dt'\ne0.\]</span></p>
+<p>in another.</p>
+<p>Thus simultaneity is also owned by a specified enclosing coordinate relation.</p>
+<p>There is no requirement for a primitive universal present extending independently across all boundaries.</p>
+</section>
+<section id="lorentz-geometry-is-the-uniform-background-case" class="level2">
+<h2 class="anchored" data-anchor-id="lorentz-geometry-is-the-uniform-background-case">28. Lorentz Geometry Is the Uniform-Background Case</h2>
+<p>The preceding construction assumes that the enclosing rapidity reference is uniform over the comparison domain.</p>
+<p>Schematically,</p>
+<p><span class="math display">\[\bar\Xi_{\Phi}=\text{common reference shift}.\]</span></p>
+<p>Every local boundary in that domain is reread through the same enclosing transformation.</p>
+<p>The resulting geometry is flat:</p>
+<!-- source_pdf_page: 1251 -->
+<blockquote class="blockquote">
+<p>uniform enclosing rapidity relation → Lorentz geometry.</p>
+</blockquote>
+<p>This supplies the natural bridge to gravity.</p>
+</section>
+<section id="curved-spacetime-begins-when-the-enclosing-rapidity-relation-is-not-uniform" class="level2">
+<h2 class="anchored" data-anchor-id="curved-spacetime-begins-when-the-enclosing-rapidity-relation-is-not-uniform">29. Curved Spacetime Begins When the Enclosing Rapidity Relation Is Not Uniform</h2>
+<p>Now permit the enclosing reference relation to vary across a larger gravitational boundary:</p>
+<p><span class="math display">\[\bar\Xi=\bar\Xi(x).\]</span></p>
+<p>Two neighboring subordinate boundaries a and b may then satisfy</p>
+<p><span class="math display">\[\bar\Xi_a\ne\bar\Xi_b.\]</span></p>
+<p>Their difference,</p>
+<p><span class="math display">\[\delta_{ab}\bar\Xi,\]</span></p>
+<p>is locally distinguishable.</p>
+<p>If the difference changes through recurrence,</p>
+<p><span class="math display">\[\delta_{ab}(\Delta\bar\Xi)\ne0,\]</span></p>
+<p>the enclosing relation possesses tidal structure.</p>
+<p>This suggests the next R²D ordering:</p>
+<p>nonuniform enclosing rapidity → peer rapidity difference → tidal relation → curvature projection.</p>
+<p>Einstein curvature therefore need not mean that a primitive radius has physically bent.</p>
+<p>The enclosing relation has changed.</p>
+<p>The radius and clock coordinates reconstructed from that relation consequently cease to obey one global Euclidean calibration.</p>
+</section>
+<section id="area-before-radius-is-therefore-common-to-lorentz-and-einstein-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="area-before-radius-is-therefore-common-to-lorentz-and-einstein-geometry">30. Area Before Radius Is Therefore Common to Lorentz and Einstein Geometry</h2>
+<p>The same inversion appears twice.</p>
+<p>For Lorentz geometry:</p>
+<!-- source_pdf_page: 1252 -->
+<blockquote class="blockquote">
+<p>enclosing multiplicative relation → invariant norm → clock/ruler decomposition.</p>
+</blockquote>
+<p>For spherical gravity:</p>
+<blockquote class="blockquote">
+<p>enclosing gravitational area → areal radius → radial coordinate geometry.</p>
+</blockquote>
+<p>In neither case should the projected radius-like coordinate be promoted to the primitive source of the enclosure.</p>
+<p>The enclosure is prior.</p>
+<p>The coordinate is its read.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Lorentz geometry is the motion-coordinate form of area before radius.</p>
+</blockquote>
+<p>And gravitational curvature is the extension in which the enclosing relation itself varies from place to place.</p>
+</section>
+<section id="the-local-radius-does-not-bend" class="level2">
+<h2 class="anchored" data-anchor-id="the-local-radius-does-not-bend">31. The Local Radius Does Not Bend</h2>
+<p>The phrase “curved spacetime” can easily encourage a misleading primitive picture.</p>
+<p>R²D does not require a local radius to bend.</p>
+<p>A local boundary retains its own proper distinguishability.</p>
+<p>What changes across a gravitational relation is the enclosing geometry from which multiple local radial and temporal reads are reconstructed.</p>
+<p>Therefore a more precise R²D statement is:</p>
+<blockquote class="blockquote">
+<p>the local radius does not bend; the enclosing relation changes.</p>
+</blockquote>
+<p>The resulting projected coordinate system is curved because no single flat ruler-and-clock calibration can represent all local enclosure relations simultaneously.</p>
+</section>
+<section id="c-is-the-shared-calibration-of-the-uniform-rapidity-background" class="level2">
+<h2 class="anchored" data-anchor-id="c-is-the-shared-calibration-of-the-uniform-rapidity-background">32. c Is the Shared Calibration of the Uniform Rapidity Background</h2>
+<p>Within one Lorentz domain,</p>
+<p><span class="math display">\[c_{\Phi}=\frac{a_{\Phi}}{b_{\Phi}}\]</span></p>
+<!-- source_pdf_page: 1253 -->
+<p>is common to every inertial reread because those rereads belong to the same enclosing calibration.</p>
+<p>Therefore the invariance of c means, in this addendum:</p>
+<blockquote class="blockquote">
+<p>all local velocity projections share one background rapidity calibration.</p>
+</blockquote>
+<p>This does not yet prove that the dimensional value of c must remain unchanged under every genuine recursive boundary replacement.</p>
+<p>The stronger cross-scale statement remains separate.</p>
+<p>What is established here is local Lorentz invariance within one common enclosing rapidity geometry.</p>
+</section>
+<section id="lorentz-relativity-is-not-relative-to-a-rest-mass" class="level2">
+<h2 class="anchored" data-anchor-id="lorentz-relativity-is-not-relative-to-a-rest-mass">33. Lorentz Relativity Is Not Relative to a Rest Mass</h2>
+<p>A rest mass can serve as a useful local clock once its recurrence is physically calibrated.</p>
+<p>But it does not define the relativistic reference architecture.</p>
+<p>The logical order is instead</p>
+<p>enclosing background → rapidity zero → local motion relation → massive or massless physical realization.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>Lorentz relativity is background-relative before it is mass-relative.</p>
+</blockquote>
+<p>Mass-energy belongs downstream.</p>
+<p>This prevents the derivation of relativity from becoming circular through a prior assumption of rest energy.</p>
+</section>
+<section id="the-route-to-mass-energy-is-now-downstream" class="level2">
+<h2 class="anchored" data-anchor-id="the-route-to-mass-energy-is-now-downstream">34. The Route to Mass-Energy Is Now Downstream</h2>
+<p>Once the reference geometry has produced the rapidity coordinate ξ , a persistent mass-bearing boundary can acquire mechanical even and odd reads:</p>
+<p><span class="math display">\[\Pi_{\pm}=\Pi_0e^{\pm\xi}.\]</span></p>
+<p>Their combinations are</p>
+<p><span class="math display">\[Q=\Pi_0\cosh\xi,\]</span></p>
+<p>and</p>
+<!-- source_pdf_page: 1254 -->
+<p><span class="math display">\[P=\Pi_0\sinh\xi.\]</span></p>
+<p>The next problem is to determine the physical calibrations that identify these quantities as energy and momentum and to determine the invariant scale Π0 .</p>
+<p>That argument can now proceed without importing Lorentz geometry.</p>
+<p>The reference geometry has already been derived.</p>
+</section>
+<section id="the-route-to-gravity-is-also-downstream" class="level2">
+<h2 class="anchored" data-anchor-id="the-route-to-gravity-is-also-downstream">35. The Route to Gravity Is Also Downstream</h2>
+<p>The next gravitational problem is not initially:</p>
+<blockquote class="blockquote">
+<p>How does mass bend spacetime?</p>
+</blockquote>
+<p>It is:</p>
+<pre><code>How does the enclosing rapidity landscape vary across neighboring subordinate realizations?</code></pre>
+<p>A uniform shift produces ordinary inertial Lorentz rereading.</p>
+<p>A changing common-mode shift produces acceleration relative to a larger boundary.</p>
+<p>A differential shift between peers produces tidal distinguishability.</p>
+<p>Only afterward is that structure represented by curved spacetime.</p>
+<p>This gives the hierarchy:</p>
+<p>background rapidity → rapidity change → peer difference → tidal geometry → Einstein curvature.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">36. Logical Status</h2>
+<p>Canonical R²D</p>
+<p>The canon supplies:</p>
+<blockquote class="blockquote">
+<p>• boundary-relative statehood; • enclosing definition of compatibility; • multiplicative compatible count structure; • logarithmic coordinates of multiplicative count; • counting invariance when physical representation changes without changing boundary classification; • background as a nondirectional reference;</p>
+</blockquote>
+<!-- source_pdf_page: 1255 -->
+<pre><code> • physical motion as a cross-boundary read;
+ • multiplicity as prior to normalized probability.</code></pre>
+<p>Physical prototype</p>
+<p>A thermal gas demonstrates:</p>
+<pre><code> • subordinate directional motions distributed around an enclosing mean;
+ • the mean belongs to the ensemble rather than an individual molecule;
+ • motion of the ensemble changes the larger-boundary reference without requiring reconstruction of</code></pre>
+<blockquote class="blockquote">
+<p>every local state.</p>
+</blockquote>
+<p>Addendum-level physical mapping</p>
+<p>This addendum proposes that inertial motion realizes the same architecture:</p>
+<pre><code>the enclosing boundary defines a rapidity landscape whose center is the motion reference.</code></pre>
+<p>A pure inertial change shifts that reference without changing the native subordinate boundary.</p>
+<p>Derived mathematics</p>
+<p>For a one-dimensional directional relation:</p>
+<p><span class="math display">\[I=\frac12\ln(Z_+Z_-),\]</span></p>
+<p><span class="math display">\[\xi=\frac12\ln\frac{Z_-}{Z_+}.\]</span></p>
+<p>A reference shift gives</p>
+<p><span class="math display">\[\xi'=\xi+\bar\Xi,\]</span></p>
+<p><span class="math display">\[Z_+'=e^{-\bar\Xi}Z_+,\]</span></p>
+<p><span class="math display">\[Z_-'=e^{+\bar\Xi}Z_-,\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[Z_+Z_-=\text{invariant}.\]</span></p>
+<p>Defining linear even and odd coordinates gives</p>
+<p><span class="math display">\[d\theta^2-d\chi^2=\text{invariant}.\]</span></p>
+<p>Physical calibration</p>
+<p>Clock and ruler mappings</p>
+<!-- source_pdf_page: 1256 -->
+<p><span class="math display">\[d\theta=a_\Phi\,dt,\]</span></p>
+<p><span class="math display">\[d\chi=b_\Phi\,dx.\]</span></p>
+<p>define</p>
+<p><span class="math display">\[c_{\Phi}=\frac{a_{\Phi}}{b_{\Phi}}\]</span></p>
+<p>and produce</p>
+<p><span class="math display">\[d\tau^2=dt^2-\frac{dx^2}{c_{\Phi}^{\,2}}.\]</span></p>
+<p>Derived physical consequences</p>
+<p>The resulting projection gives</p>
+<p><span class="math display">\[\frac{v}{c_{\Phi}}=\tanh\xi,\]</span></p>
+<p>the Lorentz transformation, relativistic velocity addition, time dilation, length contraction, relativity of simultaneity, and the limiting speed.</p>
+<p>Not yet established</p>
+<p>This addendum does not yet derive:</p>
+<blockquote class="blockquote">
+<p>• universal equality of dimensional c across genuine recursive boundary replacement; • ξ = Γ, where Γ is the canonical recursive recurrence ladder; • mass-energy equivalence; • gravitational tidal geometry; • the Riemann tensor; • Einstein’s field equations.</p>
+</blockquote>
+<p>Those are downstream results.</p>
+</section>
+<section id="principle-the-enclosure-defines-the-rapidity-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="principle-the-enclosure-defines-the-rapidity-landscape">37. Principle — The Enclosure Defines the Rapidity Landscape</h2>
+<p>For subordinate directional realizations {Ba } contained within enclosing reference boundary Φ, the enclosing count structure defines the admissible directional landscape and its nondirectional center.</p>
+<p>Subordinate boundaries realize positions within that landscape.</p>
+<p>They do not independently construct it.</p>
+<p>Thus</p>
+<!-- source_pdf_page: 1257 -->
+<blockquote class="blockquote">
+<p>enclosing multiplicity → rapidity landscape → subordinate velocity realization.</p>
+</blockquote>
+<p>A pure inertial change of reference shifts the rapidity center while preserving the local boundary-defined invariant.</p>
+</section>
+<section id="principle-lorentz-geometry-is-area-before-radius-let" class="level2">
+<h2 class="anchored" data-anchor-id="principle-lorentz-geometry-is-area-before-radius-let">38. Principle — Lorentz Geometry Is Area Before Radius Let</h2>
+<p><span class="math display">\[Z_+,Z_-&gt;0\]</span></p>
+<p>be the opposed multiplicative coordinates of a one-dimensional reference relation.</p>
+<p>Their product defines the prior enclosing measure</p>
+<p><span class="math display">\[\mathcal A_L=Z_+Z_-.\]</span></p>
+<p>The associated invariant norm is then</p>
+<p><span class="math display">\[\rho_L=\sqrt{\mathcal A_L}.\]</span></p>
+<p>Linear even and odd coordinate reads satisfy</p>
+<p><span class="math display">\[d\theta^2-d\chi^2=\rho_L^2.\]</span></p>
+<p>Therefore the invariant quadratic geometry is not constructed from a primitive radius.</p>
+<p>The radius-like norm is reconstructed from a prior enclosing multiplicative relation.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>enclosure → area-like count relation → radius-like norm → Lorentz coordinate geometry.</p>
+</blockquote>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">39. Conclusion</h2>
+<p>Special relativity begins with a reference problem.</p>
+<p>A local boundary does not define the zero relative to which its motion is measured.</p>
+<p>The zero belongs to an enclosure.</p>
+<p>A thermal gas makes this structure directly visible. Molecules move relative to a gas/container boundary. Their velocities form an enclosing distribution whose center is defined by the gas, not by any individual</p>
+<!-- source_pdf_page: 1258 -->
+<p>molecule. If the entire container moves relative to a larger boundary, the internal distribution need not be reconstructed. Its reference center changes.</p>
+<p>R²D generalizes this architecture.</p>
+<p>For</p>
+<p><span class="math display">\[B_a\subset\Phi_0\subset\Phi_1.\]</span></p>
+<p>the subordinate boundary realizes a local directional relation.</p>
+<p>The immediate enclosure defines the local rapidity landscape.</p>
+<p>The larger enclosure shifts its reference center.</p>
+<p>The additive relation is</p>
+<p><span class="math display">\[\xi_{a\mid\Phi_1}=\xi_{a\mid\Phi_0}+\bar\Xi_{\Phi_0\mid\Phi_1}.\]</span></p>
+<p>Because rapidity is logarithmic, the corresponding positive multiplicative coordinates scale reciprocally:</p>
+<p><span class="math display">\[Z_+'=e^{-\bar\Xi}Z_+,\]</span></p>
+<p><span class="math display">\[Z_-'=e^{+\bar\Xi}Z_-.\]</span></p>
+<p>Their product remains invariant:</p>
+<p><span class="math display">\[Z_+Z_-=\mathcal A_L.\]</span></p>
+<p>The associated norm is</p>
+<p><span class="math display">\[\rho_L=\sqrt{\mathcal A_L}.\]</span></p>
+<p>Only afterward do linear coordinate reads give</p>
+<p><span class="math display">\[d\theta^2-d\chi^2=\rho_L^2.\]</span></p>
+<p>And only after physical calibration does this become</p>
+<p><span class="math display">\[d\tau^2=dt^2-\frac{dx^2}{c^2}.\]</span></p>
+<p>Thus the Lorentz interval is not the primitive geometry that causes relativistic invariance.</p>
+<p>It is the physical coordinate representation of a prior enclosing count relation.</p>
+<p>The local proper boundary does not need to shrink.</p>
+<p>Its proper recurrence does not need to slow.</p>
+<!-- source_pdf_page: 1259 -->
+<p>What changes is the enclosing rapidity geometry through which its temporal, spatial, and velocity coordinates are read.</p>
+<p>The same inversion appears in gravity.</p>
+<p>A primitive radius does not bend to create gravitational geometry.</p>
+<p>The enclosing relation changes, and radial and temporal coordinates are reconstructed from that changed enclosure.</p>
+<p>Lorentz flatness is the uniform-background case.</p>
+<p>Einstein curvature will arise when the enclosing rapidity relation is no longer uniform across neighboring subordinate realizations.</p>
+<p>The unified order is therefore</p>
+<p>enclosing multiplicity → background rapidity landscape → subordinate realization → area-like invariant → radiu</p>
+<p>And beyond special relativity,</p>
+<blockquote class="blockquote">
+<p>nonuniform enclosing rapidity → tidal distinction → curved spacetime.</p>
+</blockquote>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>the reference boundary occurs before Lorentz geometry.</p>
+</blockquote>
+<p>And more generally:</p>
+<blockquote class="blockquote">
+<p>the enclosure occurs before the radius used to describe it.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="pagination-link" aria-label="Addendum 11 — Enclosing Relation Occurs Before Biological Function">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="pagination-link" aria-label="Addendum 36 — Invariant Boundary Coupling Occurs Before mc²">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 97: Mathematical Structure Before Local Laws – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-096-local-laws-and-global-fit.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-97-mathematical-structure-before-local-laws" id="toc-addendum-97-mathematical-structure-before-local-laws" class="nav-link active" data-scroll-target="#addendum-97-mathematical-structure-before-local-laws">Addendum 97: Mathematical Structure Before Local Laws</a>
+  <ul class="collapse">
+  <li><a href="#scattering-geometry-thermodynamic-gravity-and-quantum-distinguishability" id="toc-scattering-geometry-thermodynamic-gravity-and-quantum-distinguishability" class="nav-link" data-scroll-target="#scattering-geometry-thermodynamic-gravity-and-quantum-distinguishability">Scattering Geometry, Thermodynamic Gravity, and Quantum Distinguishability</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  </ul></li>
+  <li><a href="#the-question-beneath-a-local-equation" id="toc-the-question-beneath-a-local-equation" class="nav-link" data-scroll-target="#the-question-beneath-a-local-equation">1. The question beneath a local equation</a></li>
+  <li><a href="#the-r²d-starting-point" id="toc-the-r²d-starting-point" class="nav-link" data-scroll-target="#the-r²d-starting-point">2. The R²D starting point</a></li>
+  <li><a href="#particle-amplitudes-geometry-and-combinatorics-before-a-familiar-expansion" id="toc-particle-amplitudes-geometry-and-combinatorics-before-a-familiar-expansion" class="nav-link" data-scroll-target="#particle-amplitudes-geometry-and-combinatorics-before-a-familiar-expansion">3. Particle amplitudes: geometry and combinatorics before a familiar expansion</a></li>
+  <li><a href="#gravity-horizon-thermodynamics-and-boundary-degrees-of-freedom" id="toc-gravity-horizon-thermodynamics-and-boundary-degrees-of-freedom" class="nav-link" data-scroll-target="#gravity-horizon-thermodynamics-and-boundary-degrees-of-freedom">4. Gravity: horizon thermodynamics and boundary degrees of freedom</a></li>
+  <li><a href="#quantum-theory-distinguishability-before-a-state-space-read" id="toc-quantum-theory-distinguishability-before-a-state-space-read" class="nav-link" data-scroll-target="#quantum-theory-distinguishability-before-a-state-space-read">5. Quantum theory: distinguishability before a state-space read</a></li>
+  <li><a href="#comparison-ledger-exact-result-shared-ordering-and-distinct-object" id="toc-comparison-ledger-exact-result-shared-ordering-and-distinct-object" class="nav-link" data-scroll-target="#comparison-ledger-exact-result-shared-ordering-and-distinct-object">6. Comparison ledger: exact result, shared ordering, and distinct object</a></li>
+  <li><a href="#the-unifying-claim-and-its-limits" id="toc-the-unifying-claim-and-its-limits" class="nav-link" data-scroll-target="#the-unifying-claim-and-its-limits">7. The unifying claim and its limits</a></li>
+  <li><a href="#a-concrete-program-for-comparison" id="toc-a-concrete-program-for-comparison" class="nav-link" data-scroll-target="#a-concrete-program-for-comparison">8. A concrete program for comparison</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">9. Conclusion</a></li>
+  <li><a href="#sources-and-related-r²d-work" id="toc-sources-and-related-r²d-work" class="nav-link" data-scroll-target="#sources-and-related-r²d-work">Sources and related R²D work</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></h1>
+<p class="subtitle lead">Scattering Geometry, Thermodynamic Gravity, and Quantum Distinguishability</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-97-mathematical-structure-before-local-laws" class="level1">
+<h1>Addendum 97: Mathematical Structure Before Local Laws</h1>
+<section id="scattering-geometry-thermodynamic-gravity-and-quantum-distinguishability" class="level2">
+<h2 class="anchored" data-anchor-id="scattering-geometry-thermodynamic-gravity-and-quantum-distinguishability">Scattering Geometry, Thermodynamic Gravity, and Quantum Distinguishability</h2>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p>Several research programs derive familiar physical descriptions from a prior mathematical organization of possibilities. Scattering amplitudes can arise from positive geometry or combinatorial structures rather than an initial sum over Feynman diagrams. Gravitational field equations can be recovered, under specified assumptions, from horizon thermodynamics. Operational principles of distinguishability and information can reconstruct the structure of quantum theory. These are distinct results with distinct premises. Their mathematical objects are not thereby identical to one another or to R²D counts.</p>
+<p>R²D supplies a precise cross-domain question that these results make difficult to ignore: <strong>what defines the states, compatible realizations, and admissible relations on which a local law operates?</strong> At a specified boundary, an enclosing state classifies which subordinate arrangements count as its microstates. The identity of a microstate <em>as a microstate of that state</em> therefore depends on the classification. Where an enclosing compatibility relation is also specified, R²D distinguishes the support for a direction from the local events that realize it. A successful local equation remains successful; its fit does not, by itself, reverse the formal order of definition or establish universal causal priority for its variables. This addendum compares exact results, identifies their common mathematical ordering, and states where the proposed R²D interpretation reaches beyond what those results alone derive.</p>
+</section>
+</section>
+<section id="the-question-beneath-a-local-equation" class="level2">
+<h2 class="anchored" data-anchor-id="the-question-beneath-a-local-equation">1. The question beneath a local equation</h2>
+<p>A local physical law relates variables within a domain. It may predict a scattering amplitude, the curvature of a specified spacetime, or a quantum outcome. To use the law, one has already specified what counts as a system, which alternatives are distinguishable, which configurations are admissible, and how a result is read. These premises need not all appear as variables in the final equation.</p>
+<p>This observation does not erase the law or its evidence. It locates its achievement. A derivation from an action, field equation, or dynamical rule is rigorous <em>given that starting structure</em>. A further claim—that the law’s selected local variables independently define the enclosing state in which they have meaning—requires a separate whole–part argument. No such claim should be attributed to a theory simply because its equations contain microscopic variables.</p>
+<p>R²D takes that further question as its starting point. The purpose here is neither to borrow authority from work in other fields nor to declare it secretly R²D. It is to compare the order of mathematical explanation: a structure of admissible, distinguishable possibilities first; particular local reads and equations within it.</p>
+</section>
+<section id="the-r²d-starting-point" class="level2">
+<h2 class="anchored" data-anchor-id="the-r²d-starting-point">2. The R²D starting point</h2>
+<p>At boundary <span class="math inline">\(B_n\)</span>, let <span class="math inline">\(\mathfrak M_n\)</span> be the admissible complete joint realizations of the immediately subordinate peers, <span class="math inline">\(\mathcal M_n\)</span> the distinguishable macrostates, and</p>
+<p><span class="math display">\[
+\pi_n:\mathfrak M_n\longrightarrow\mathcal M_n
+\]</span></p>
+<p>the classification that assigns each admissible realization to its enclosing state. For a state <span class="math inline">\(i\)</span>, its native multiplicity is</p>
+<p><span class="math display">\[
+W_{n,i}=\left|\pi_n^{-1}(i)\right|.
+\]</span></p>
+<p>This is a mathematical definition, not an estimate of how often <span class="math inline">\(i\)</span> was observed. The fiber <span class="math inline">\(\pi_n^{-1}(i)\)</span> consists of the realizations that <em>count as</em> microstates of <span class="math inline">\(i\)</span>. A configuration is not intrinsically a microstate of every possible enclosing description. Change the boundary or classification, and its count meaning can change even if a local configuration can still be written down.</p>
+<p>The resulting priority is definitional: the enclosing classification defines microstate identity <em>as such</em>. It does not say that a macrostate occurs earlier in time than its realizations, or that a local mechanism is ineffective. A microscopic variable cannot acquire primitive priority <strong>by being called a microstate</strong> over the relation that makes it a microstate. If a different formal whole–part architecture defines that identity independently, it should be presented and assessed on its own terms.</p>
+<p>R²D further distinguishes native multiplicity, realized occupancy, and enclosing compatibility. Where the next boundary is defined, the Canon writes a compatible-extension count <span class="math inline">\(\Theta_{n+1\mid n,i}\)</span> and, for positive native multiplicity,</p>
+<p><span class="math display">\[
+K_{n+1\mid n,i}=\frac{\Theta_{n+1\mid n,i}}{W_{n,i}},
+\qquad
+P_{n,i}=\ln K_{n+1\mid n,i}.
+\]</span></p>
+<p>These coordinates ask how many enclosing realizations remain compatible with a local alternative, relative to its native realizations. Unequal support can organize a direction under the Canon’s stated conditions; local processes realize the change. A formal count relation is one claim. Identifying a particular laboratory, spacetime, or particle variable with that relation is another. Neither a resemblance of equations nor a local theory’s predictive success silently supplies that identification.</p>
+</section>
+<section id="particle-amplitudes-geometry-and-combinatorics-before-a-familiar-expansion" class="level2">
+<h2 class="anchored" data-anchor-id="particle-amplitudes-geometry-and-combinatorics-before-a-familiar-expansion">3. Particle amplitudes: geometry and combinatorics before a familiar expansion</h2>
+<p>In the planar limit of <span class="math inline">\(\mathcal N=4\)</span> supersymmetric Yang–Mills theory, Arkani-Hamed and Trnka identify scattering amplitudes with a positive-geometric object, the <em>amplituhedron</em>. Locality and unitarity arise in this formulation from the geometry rather than serving as its initial organizing principles [1]. The result has an exact theoretical setting; it is not a derivation of every particle interaction from one geometry.</p>
+<p>Another construction obtains all-loop integrated amplitudes in a colored cubic scalar theory from a combinatorial counting problem in scattering-data space, without the conventional sum over Feynman diagrams as the defining formula [2]. Here the explanatory reversal is especially visible: the count is defined on a mathematical structure, and a familiar local perturbative result is recovered from it. The counted objects, however, are specific to that scattering construction. They have not been proved to be the fibers <span class="math inline">\(\pi_n^{-1}(i)\)</span> of an R²D macrostate.</p>
+<p>Work by Arkani-Hamed, Cao, Dong, <strong>Carolina Figueiredo</strong>, and He shows that certain colored-scalar, pion, and gluon amplitudes can be related through one function with a shift of kinematic data; shared hidden zeros and factorization constrain the result in the tree-level setting studied [3]. In later work, the same group replaces an ordinary momentum assignment with <em>surface kinematics</em>, distinguishing curves whose ordinary assignments would collapse together. This resolves particular integrand-level <span class="math inline">\(1/0\)</span> ambiguities and supports a canonical loop-integrand construction in the stated planar Yang–Mills setting [4]. The <span class="math inline">\(1/0\)</span> in that paper concerns its loop-integrand kinematics; it is <strong>not</strong> R²D’s zero-occupancy finite-step example.</p>
+<p>Cachazo, He, and Yuan provide a complementary result: tree-level scattering expressions for scalars, gluons, and gravitons arise from integrals over marked points on a sphere, with theory-specific ingredients inserted into a shared framework [5]. Again, the mathematical lesson is a common organizing space yielding multiple local reads, not identity between that space and an R²D count boundary.</p>
+<p><strong>R²D reading.</strong> These works demonstrate, within their stated theories, that a local calculation need not be the most primitive form of its own result. Geometry, admissible kinematics, and combinatorial restrictions can organize what the familiar particle-law expression reads. R²D goes further by specifying a general macrostate–microstate classification and asking whether the relevant particle states admit an exact boundary-preserving map to it. The scattering papers establish their own theorems; that additional map is not established by shared words such as <em>count</em>, <em>surface</em>, or <em>boundary</em>.</p>
+</section>
+<section id="gravity-horizon-thermodynamics-and-boundary-degrees-of-freedom" class="level2">
+<h2 class="anchored" data-anchor-id="gravity-horizon-thermodynamics-and-boundary-degrees-of-freedom">4. Gravity: horizon thermodynamics and boundary degrees of freedom</h2>
+<p>Bekenstein argued that black holes possess entropy proportional to horizon area [6]. Hawking’s thermal-radiation result fixes the familiar quarter-area expression, <span class="math inline">\(S_{\mathrm{BH}}=k_B A/(4\ell_P^2)\)</span>, in the usual units [7]. A gravitational boundary thus carries a thermodynamic relation whose significance cannot be read from a local metric coefficient alone. This is an area–entropy relation, not an independently supplied enumeration of R²D microstate fibers.</p>
+<p>Jacobson takes horizon entropy proportional to area and the Clausius relation <span class="math inline">\(\delta Q=T\,dS\)</span> at every local causal horizon and derives the Einstein equation as an equation of state, under the construction’s assumptions [8]. This is a genuine conditional derivation: its horizon and thermodynamic premises have content, and it begins with a spacetime setting in which local horizons can be described. The result shows that Einstein’s equation can be read from thermodynamic organization; it does not derive the entire R²D boundary architecture or show that the physical degrees of freedom have a unique R²D count assignment.</p>
+<p>Padmanabhan relates cosmological expansion, in the relevant cosmological setting and units, to an imbalance between surface and bulk degrees of freedom,</p>
+<p><span class="math display">\[
+\frac{dV}{dt}=N_{\mathrm{sur}}-N_{\mathrm{bulk}}.
+\]</span></p>
+<p>The surface and bulk counts are specified by that construction [9]. In another treatment he works in both logical directions: field equations can motivate a surface density of degrees of freedom, while an entropy-extremization starting point can yield gravitational field equations [10]. The direction of derivation therefore matters. A result obtained <em>using</em> Einstein’s equation cannot be redescribed as an independent derivation <em>of</em> it; a separate construction starting from thermodynamic assumptions should receive credit for what it actually derives.</p>
+<p><strong>R²D reading.</strong> Gravity is a promising place to ask whether an area or horizon variable is a readable projection of a prior boundary-defined count relation. R²D’s proposed “area before radius” order concerns which relation gives geometric quantities their state meaning; it does not follow merely by rearranging <span class="math inline">\(A=4\pi r^2\)</span>. In the R²D picture, thermodynamics is a bridge where recurrence and geometry can be jointly read, while a gravitational geometric read may hide the recurrence that sustains it. These are R²D claims to be examined with the gravity addenda and their own assumptions. Neither Bekenstein–Hawking entropy nor Jacobson’s derivation alone identifies <span class="math inline">\(N_{\mathrm{sur}}\)</span>, horizon area, or entropy with <span class="math inline">\(W_{n,i}\)</span> or <span class="math inline">\(K_{n+1\mid n,i}\)</span>. Their significance is that well-developed gravity mathematics already makes boundary and thermodynamic organization explanatory rather than incidental.</p>
+</section>
+<section id="quantum-theory-distinguishability-before-a-state-space-read" class="level2">
+<h2 class="anchored" data-anchor-id="quantum-theory-distinguishability-before-a-state-space-read">5. Quantum theory: distinguishability before a state-space read</h2>
+<p>Chiribella, D’Ariano, and Perinotti formulate quantum theory operationally from principles that include perfect distinguishability, ideal compression, local distinguishability, pure conditioning, and purification, within a framework of physical systems and operations [11]. The reconstruction does not begin by treating the Hilbert-space formalism as an unexplained primitive. It also does not define an R²D macrostate fiber: its operational alternatives, transformations, and purification principle have their own precise meanings.</p>
+<p>Rovelli’s relational interpretation supplies a different, conceptual example: a physical state is specified relative to a physical system, challenging the idea of a state description wholly independent of the relation in which it is read [12]. Relational quantum mechanics is not a proof of R²D enclosing-to-local direction. It makes the question of <em>which relation owns a state description</em> unavoidable without answering it through R²D’s count definitions.</p>
+<p><strong>R²D reading.</strong> If the distinguishability of alternatives and their compatible realization conditions are prior to a particular operator or coordinate read, R²D can ask what boundary classifies those alternatives and whether a recursive replacement changes state identity. That is a sharper question than announcing that quantum information “is R²D.” The operational reconstruction establishes a conditional route to quantum mathematics; R²D contributes a distinct formal account of macrostate and microstate identity that would need an explicit bridge to those operational objects for a variable-level correspondence.</p>
+</section>
+<section id="comparison-ledger-exact-result-shared-ordering-and-distinct-object" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-ledger-exact-result-shared-ordering-and-distinct-object">6. Comparison ledger: exact result, shared ordering, and distinct object</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Program</th>
+<th>What is fixed first</th>
+<th>What follows within its stated scope</th>
+<th>R²D relevance</th>
+<th>What is not identified by the result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Positive geometry and scattering [1]</td>
+<td>A positive-geometric amplitude construction</td>
+<td>Locality and unitarity appear in planar <span class="math inline">\(\mathcal N=4\)</span> SYM amplitudes</td>
+<td>A local-looking law can arise from prior admissible geometry</td>
+<td>Geometric cells are not proved to be R²D microstates</td>
+</tr>
+<tr class="even">
+<td>Combinatorial and surface scattering [2–5]</td>
+<td>Scattering-data structure, curve distinctions, or marked-point constraints</td>
+<td>Specified scalar, pion, gluon, and graviton amplitude relations</td>
+<td>Distinguishability and counting may organize several local expressions</td>
+<td>Curve counts, kinematic poles, and external particle number are not <span class="math inline">\(W\)</span> by name alone</td>
+</tr>
+<tr class="odd">
+<td>Horizon thermodynamics [6–8]</td>
+<td>Horizon, area–entropy, heat-flow, and temperature premises</td>
+<td>Black-hole thermal relations and a conditional Einstein-equation derivation</td>
+<td>Boundary thermodynamics can organize a gravitational field equation</td>
+<td>Horizon area and entropy have no automatic R²D fiber assignment</td>
+</tr>
+<tr class="even">
+<td>Surface–bulk gravity [9–10]</td>
+<td>Specified cosmological/horizon setting and degree-of-freedom counts</td>
+<td>Conditional expansion or field-equation relations</td>
+<td>A relation between enclosing and bulk descriptions can govern a local read</td>
+<td><span class="math inline">\(N_{\mathrm{sur}}\)</span> and <span class="math inline">\(N_{\mathrm{bulk}}\)</span> are not automatically <span class="math inline">\(W\)</span> and <span class="math inline">\(\Theta\)</span></td>
+</tr>
+<tr class="odd">
+<td>Operational and relational quantum theory [11–12]</td>
+<td>Operational alternatives and constraints, or a relation between physical systems</td>
+<td>Quantum formalism under axioms, or a relative-state interpretation</td>
+<td>State meaning depends on distinguishability and a specified relation</td>
+<td>Operational states and relative states are not an R²D count classification without a map</td>
+</tr>
+</tbody>
+</table>
+<p>The rows have different proof types. Some give exact amplitudes in restricted models; one derives a field equation from thermodynamic premises; one reconstructs quantum theory from operational axioms; one is an interpretation of quantum states. Their shared ordering is an <strong>inference across the results</strong>, not a theorem proved jointly by their authors. The R²D theorem is narrower and more exact at its starting point: for a specified macrostate classification, subordinate microstate identity is defined by that classification. R²D’s physical readings are a further step.</p>
+</section>
+<section id="the-unifying-claim-and-its-limits" class="level2">
+<h2 class="anchored" data-anchor-id="the-unifying-claim-and-its-limits">7. The unifying claim and its limits</h2>
+<p>These studies make a coherent possibility visible: descriptions called <em>local laws</em> can be highly accurate projections of more basic constraints on what is distinguishable, admissible, and compatible. They do not require all their authors to adopt one ontology. Nor do they imply that every use of <em>boundary</em> has the same mathematical type. A scattering-surface curve, a causal horizon, a quantum subsystem, and an R²D count boundary must be compared by their definitions and maps, not their names.</p>
+<p>R²D’s proposed unification is more specific than a slogan about emergence:</p>
+<ol type="1">
+<li>Define the boundary and its distinguishable states.</li>
+<li>Identify the complete subordinate realizations admitted at that boundary and the classification <span class="math inline">\(\pi_n\)</span>.</li>
+<li>Count native multiplicity without substituting observed occupancy for possible realizations.</li>
+<li>If a directional claim is made, identify the compatible relation at the enclosing boundary and distinguish its support from the local events that realize an outcome.</li>
+<li>Only then ask which conventional variables and equations read that structure in a particular physical domain.</li>
+</ol>
+<p>Steps 1–3 specify a formal state/count architecture wherever the requisite macrostate–microstate relation exists. Step 4 requires the stated enclosing comparison. Step 5 is a domain-specific mathematical and physical identification. Failure of one proposed identification would constrain or defeat that identification; it would not retrospectively make a microstate independent of the classification that defined it.</p>
+<p>The comparison also runs in the other direction. A conventional local law’s empirical fit is evidence for the law’s predictions under its premises. It is not, without an additional derivation, evidence that its local variables possess primitive causal priority over the state relation that makes them meaningful. Equally, an R²D correspondence that exactly recovers an established law should be called an exact correspondence under its imported premises; it should not be called a derivation of every premise from Part I. The same words—<em>derived</em>, <em>assumed</em>, <em>mapped</em>, <em>measured</em>—must carry the same burdens for each account.</p>
+</section>
+<section id="a-concrete-program-for-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="a-concrete-program-for-comparison">8. A concrete program for comparison</h2>
+<p>The next task is to compare structures rather than collect analogies. For each candidate result, record:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Required item</th>
+<th>Question to answer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Native objects</td>
+<td>What is actually counted, distinguished, integrated, or constrained in the cited work?</td>
+</tr>
+<tr class="even">
+<td>Boundary and ownership</td>
+<td>Which mathematical or physical relation defines those objects and their admissible states?</td>
+</tr>
+<tr class="odd">
+<td>Exact local result</td>
+<td>What equation or amplitude follows, and under which explicit assumptions?</td>
+</tr>
+<tr class="even">
+<td>Candidate R²D map</td>
+<td>Can one specify <span class="math inline">\(\mathfrak M_n\)</span>, <span class="math inline">\(\mathcal M_n\)</span>, and <span class="math inline">\(\pi_n\)</span> without changing either theory’s definitions?</td>
+</tr>
+<tr class="odd">
+<td>Preserved distinctions</td>
+<td>Are possible count, observed occupancy, state, transition, and completed closure kept separate?</td>
+</tr>
+<tr class="even">
+<td>Status</td>
+<td>Is the relation an exact isomorphism, a conditional correspondence, a structural parallel, or an incompatibility?</td>
+</tr>
+</tbody>
+</table>
+<p>A successful exact map would explain why a domain result has its familiar mathematical form. A structural parallel can guide a search without pretending that the map has been completed. An incompatibility should be identified by the particular definitions or results that conflict. This keeps external work useful to R²D while allowing it to resist, refine, or support the proposed unification on logical grounds.</p>
+<p>The distinction can be made formal. Suppose a domain construction has native configurations <span class="math inline">\(X_D\)</span>, readable outcomes <span class="math inline">\(Y_D\)</span>, and a specified readout <span class="math inline">\(q_D:X_D\to Y_D\)</span>. A proposed exact R²D classification must give maps <span class="math inline">\(f:X_D\to\mathfrak M_n\)</span> and <span class="math inline">\(g:Y_D\to\mathcal M_n\)</span> for which</p>
+<p><span class="math display">\[
+\pi_n\circ f=g\circ q_D,
+\]</span></p>
+<p>with the maps preserving the domain’s relevant admissibility and distinguishability. If the claim also equates multiplicities, it must preserve fiber counts, or the corresponding measures in a continuous construction; merely making the square commute is insufficient. If it equates a physical direction, it must additionally specify the enclosing compatibility relation and the readout of the direction. No scattering amplitude, horizon degree of freedom, or operational quantum state in the sources above has been shown here to meet all of those conditions. The equation states <strong>what an exact unification would mean</strong>, rather than claiming that it has already been completed.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">9. Conclusion</h2>
+<p>The particle, gravity, and quantum examples do not prove that their mathematical objects are one object. They do demonstrate that major local descriptions can be organized from geometry, combinatorics, thermodynamic relations, or operational distinguishability whose premises precede the final local expression. R²D makes the whole–part question exact: an enclosing state defines which compatible subordinate arrangements count as its microstates, and an enclosing compatibility comparison can organize direction while local processes realize it.</p>
+<p>The comparison asks whether valid local results, with their actual assumptions intact, can be read consistently through a single boundary-defined state/count architecture, and whether a claimed exception supplies a precise alternative to that architecture. This addendum identifies the shared mathematical route and the work required to test each proposed identification. Local equations retain their demonstrated results, and a proposed cross-domain identification receives the claim status its mathematics actually supports.</p>
+</section>
+<section id="sources-and-related-r²d-work" class="level2">
+<h2 class="anchored" data-anchor-id="sources-and-related-r²d-work">Sources and related R²D work</h2>
+<ol type="1">
+<li>N. Arkani-Hamed and J. Trnka, “<a href="https://arxiv.org/abs/1312.2007">The Amplituhedron</a>” (2013; <em>JHEP</em>, 2014).</li>
+<li>N. Arkani-Hamed, H. Frost, G. Salvatori, P.-G. Plamondon, and H. Thomas, “<a href="https://arxiv.org/abs/2309.15913">All Loop Scattering As A Counting Problem</a>” (2023; revised 2024).</li>
+<li>N. Arkani-Hamed, Q. Cao, J. Dong, C. Figueiredo, and S. He, “<a href="https://arxiv.org/abs/2312.16282">Hidden zeros for particle/string amplitudes and the unity of colored scalars, pions and gluons</a>” (<em>JHEP</em>, 2024).</li>
+<li>N. Arkani-Hamed, Q. Cao, J. Dong, C. Figueiredo, and S. He, “<a href="https://arxiv.org/abs/2408.11891">Surface Kinematics and ‘The’ Yang-Mills Integrand</a>” (2024; revised 2025).</li>
+<li>F. Cachazo, S. He, and E. Y. Yuan, “<a href="https://arxiv.org/abs/1309.0885">Scattering of Massless Particles: Scalars, Gluons and Gravitons</a>” (2013).</li>
+<li>J. D. Bekenstein, “<a href="https://doi.org/10.1103/PhysRevD.7.2333">Black Holes and Entropy</a>” (<em>Physical Review D</em>, 1973).</li>
+<li>S. W. Hawking, “<a href="https://doi.org/10.1007/BF02345020">Particle Creation by Black Holes</a>” (<em>Communications in Mathematical Physics</em>, 1975).</li>
+<li>T. Jacobson, “<a href="https://arxiv.org/abs/gr-qc/9504004">Thermodynamics of Spacetime: The Einstein Equation of State</a>” (<em>Physical Review Letters</em>, 1995).</li>
+<li>T. Padmanabhan, “<a href="https://arxiv.org/abs/1206.4916">Emergence and Expansion of Cosmic Space as due to the Quest for Holographic Equipartition</a>” (2012).</li>
+<li>T. Padmanabhan, “<a href="https://arxiv.org/abs/1003.5665">Surface Density of Spacetime Degrees of Freedom from Equipartition Law in theories of Gravity</a>” (2010).</li>
+<li>G. Chiribella, G. M. D’Ariano, and P. Perinotti, “<a href="https://arxiv.org/abs/1011.6451">Informational derivation of Quantum Theory</a>” (2010; <em>Physical Review A</em>, 2011).</li>
+<li>C. Rovelli, “<a href="https://arxiv.org/abs/quant-ph/9609002">Relational Quantum Mechanics</a>” (1996).</li>
+</ol>
+<p>Related R²D material: Part I on boundary-defined microstates and enclosing compatibility; Part IV on deprojection and gravity; Addendum 86 on the logical status of physical mappings; Addendum 96 on local laws and global fit.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="pagination-link" aria-label="Addendum 96: Local Laws and Global Fit">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

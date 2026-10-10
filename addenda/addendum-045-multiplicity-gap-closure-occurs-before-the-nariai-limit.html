@@ -1,0 +1,2070 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" rel="next">
+<link href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-45-multiplicity-gap-closure-occurs-before-the-nariai-limit" id="toc-addendum-45-multiplicity-gap-closure-occurs-before-the-nariai-limit" class="nav-link active" data-scroll-target="#addendum-45-multiplicity-gap-closure-occurs-before-the-nariai-limit">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#addendum-44-made-a-prediction-before-choosing-a-physical-solution" id="toc-addendum-44-made-a-prediction-before-choosing-a-physical-solution" class="nav-link" data-scroll-target="#addendum-44-made-a-prediction-before-choosing-a-physical-solution">1. Addendum 44 Made a Prediction Before Choosing a Physical Solution</a></li>
+  <li><a href="#the-test-requires-two-coupled-gravitational-boundaries" id="toc-the-test-requires-two-coupled-gravitational-boundaries" class="nav-link" data-scroll-target="#the-test-requires-two-coupled-gravitational-boundaries">2. The Test Requires Two Coupled Gravitational Boundaries</a></li>
+  <li><a href="#begin-with-schwarzschildde-sitter-geometry" id="toc-begin-with-schwarzschildde-sitter-geometry" class="nav-link" data-scroll-target="#begin-with-schwarzschildde-sitter-geometry">3. Begin With Schwarzschild–de Sitter Geometry</a></li>
+  <li><a href="#the-ordinary-static-regime-contains-two-positive-horizon-roots" id="toc-the-ordinary-static-regime-contains-two-positive-horizon-roots" class="nav-link" data-scroll-target="#the-ordinary-static-regime-contains-two-positive-horizon-roots">4. The Ordinary Static Regime Contains Two Positive Horizon Roots</a></li>
+  <li><a href="#the-two-horizons-belong-to-one-equation" id="toc-the-two-horizons-belong-to-one-equation" class="nav-link" data-scroll-target="#the-two-horizons-belong-to-one-equation">5. The Two Horizons Belong to One Equation</a></li>
+  <li><a href="#multiply-the-horizon-equation-by-r" id="toc-multiply-the-horizon-equation-by-r" class="nav-link" data-scroll-target="#multiply-the-horizon-equation-by-r">6. Multiply the Horizon Equation by r</a></li>
+  <li><a href="#introduce-the-third-root" id="toc-introduce-the-third-root" class="nav-link" data-scroll-target="#introduce-the-third-root">7. Introduce the Third Root</a></li>
+  <li><a href="#the-pairwise-root-relation-gives-the-coupled-horizon-identity" id="toc-the-pairwise-root-relation-gives-the-coupled-horizon-identity" class="nav-link" data-scroll-target="#the-pairwise-root-relation-gives-the-coupled-horizon-identity">8. The Pairwise Root Relation Gives the Coupled Horizon Identity</a></li>
+  <li><a href="#the-enclosing-horizon-is-not-a-fixed-box" id="toc-the-enclosing-horizon-is-not-a-fixed-box" class="nav-link" data-scroll-target="#the-enclosing-horizon-is-not-a-fixed-box">9. The Enclosing Horizon Is Not a Fixed Box</a></li>
+  <li><a href="#define-a-convenient-relative-radius-coordinate" id="toc-define-a-convenient-relative-radius-coordinate" class="nav-link" data-scroll-target="#define-a-convenient-relative-radius-coordinate">10. Define a Convenient Relative Radius Coordinate</a></li>
+  <li><a href="#solve-the-coupled-horizon-identity" id="toc-solve-the-coupled-horizon-identity" class="nav-link" data-scroll-target="#solve-the-coupled-horizon-identity">11. Solve the Coupled Horizon Identity</a></li>
+  <li><a href="#project-the-two-boundaries-onto-area" id="toc-project-the-two-boundaries-onto-area" class="nav-link" data-scroll-target="#project-the-two-boundaries-onto-area">12. Project the Two Boundaries Onto Area</a></li>
+  <li><a href="#their-area-ratio-is-simple" id="toc-their-area-ratio-is-simple" class="nav-link" data-scroll-target="#their-area-ratio-is-simple">13. Their Area Ratio Is Simple</a></li>
+  <li><a href="#the-area-ratio-is-not-yet-the-primitive-r²d-gap" id="toc-the-area-ratio-is-not-yet-the-primitive-r²d-gap" class="nav-link" data-scroll-target="#the-area-ratio-is-not-yet-the-primitive-r²d-gap">14. The Area Ratio Is Not Yet the Primitive R²D Gap</a></li>
+  <li><a href="#apply-the-same-horizon-multiplicity-calibration-to-both-boundaries" id="toc-apply-the-same-horizon-multiplicity-calibration-to-both-boundaries" class="nav-link" data-scroll-target="#apply-the-same-horizon-multiplicity-calibration-to-both-boundaries">15. Apply the Same Horizon Multiplicity Calibration to Both Boundaries</a></li>
+  <li><a href="#the-logarithmic-capacity-ratio-equals-the-area-ratio" id="toc-the-logarithmic-capacity-ratio-equals-the-area-ratio" class="nav-link" data-scroll-target="#the-logarithmic-capacity-ratio-equals-the-area-ratio">16. The Logarithmic Capacity Ratio Equals the Area Ratio</a></li>
+  <li><a href="#define-the-exact-multiplicity-gap" id="toc-define-the-exact-multiplicity-gap" class="nav-link" data-scroll-target="#define-the-exact-multiplicity-gap">17. Define the Exact Multiplicity Gap</a></li>
+  <li><a href="#substitute-the-exact-coupled-areas" id="toc-substitute-the-exact-coupled-areas" class="nav-link" data-scroll-target="#substitute-the-exact-coupled-areas">18. Substitute the Exact Coupled Areas</a></li>
+  <li><a href="#the-ordinary-two-horizon-regime-has-positive-multiplicity-gap" id="toc-the-ordinary-two-horizon-regime-has-positive-multiplicity-gap" class="nav-link" data-scroll-target="#the-ordinary-two-horizon-regime-has-positive-multiplicity-gap">19. The Ordinary Two-Horizon Regime Has Positive Multiplicity Gap</a></li>
+  <li><a href="#schwarzschildde-sitter-therefore-realizes-the-generic-addendum-44-ordering" id="toc-schwarzschildde-sitter-therefore-realizes-the-generic-addendum-44-ordering" class="nav-link" data-scroll-target="#schwarzschildde-sitter-therefore-realizes-the-generic-addendum-44-ordering">20. Schwarzschild–de Sitter Therefore Realizes the Generic Addendum 44 Ordering</a></li>
+  <li><a href="#pure-de-sitter-is-the-zero-black-hole-limit" id="toc-pure-de-sitter-is-the-zero-black-hole-limit" class="nav-link" data-scroll-target="#pure-de-sitter-is-the-zero-black-hole-limit">21. Pure de Sitter Is the Zero-Black-Hole Limit</a></li>
+  <li><a href="#increasing-mass-reorganizes-both-horizon-reads" id="toc-increasing-mass-reorganizes-both-horizon-reads" class="nav-link" data-scroll-target="#increasing-mass-reorganizes-both-horizon-reads">22. Increasing Mass Reorganizes Both Horizon Reads</a></li>
+  <li><a href="#this-is-not-filling-a-fixed-cosmological-capacity" id="toc-this-is-not-filling-a-fixed-cosmological-capacity" class="nav-link" data-scroll-target="#this-is-not-filling-a-fixed-cosmological-capacity">23. This Is Not Filling a Fixed Cosmological Capacity</a></li>
+  <li><a href="#derive-the-physical-limiting-condition-independently" id="toc-derive-the-physical-limiting-condition-independently" class="nav-link" data-scroll-target="#derive-the-physical-limiting-condition-independently">24. Derive the Physical Limiting Condition Independently</a></li>
+  <li><a href="#differentiate-the-schwarzschildde-sitter-function" id="toc-differentiate-the-schwarzschildde-sitter-function" class="nav-link" data-scroll-target="#differentiate-the-schwarzschildde-sitter-function">25. Differentiate the Schwarzschild–de Sitter Function</a></li>
+  <li><a href="#insert-this-into-the-horizon-equation" id="toc-insert-this-into-the-horizon-equation" class="nav-link" data-scroll-target="#insert-this-into-the-horizon-equation">26. Insert This Into the Horizon Equation</a></li>
+  <li><a href="#the-physical-nariai-mass-follows" id="toc-the-physical-nariai-mass-follows" class="nav-link" data-scroll-target="#the-physical-nariai-mass-follows">27. The Physical Nariai Mass Follows</a></li>
+  <li><a href="#now-test-the-r²d-prediction" id="toc-now-test-the-r²d-prediction" class="nav-link" data-scroll-target="#now-test-the-r²d-prediction">28. Now Test the R²D Prediction</a></li>
+  <li><a href="#the-horizon-multiplicities-become-equal" id="toc-the-horizon-multiplicities-become-equal" class="nav-link" data-scroll-target="#the-horizon-multiplicities-become-equal">29. The Horizon Multiplicities Become Equal</a></li>
+  <li><a href="#the-horizon-areas-become-equal" id="toc-the-horizon-areas-become-equal" class="nav-link" data-scroll-target="#the-horizon-areas-become-equal">30. The Horizon Areas Become Equal</a></li>
+  <li><a href="#their-entropy-coordinates-become-equal" id="toc-their-entropy-coordinates-become-equal" class="nav-link" data-scroll-target="#their-entropy-coordinates-become-equal">31. Their Entropy Coordinates Become Equal</a></li>
+  <li><a href="#the-ratio-coordinate-simultaneously-reaches-unity" id="toc-the-ratio-coordinate-simultaneously-reaches-unity" class="nav-link" data-scroll-target="#the-ratio-coordinate-simultaneously-reaches-unity">32. The Ratio Coordinate Simultaneously Reaches Unity</a></li>
+  <li><a href="#multiplicity-equality-alone-would-not-normally-prove-boundary-identity" id="toc-multiplicity-equality-alone-would-not-normally-prove-boundary-identity" class="nav-link" data-scroll-target="#multiplicity-equality-alone-would-not-normally-prove-boundary-identity">33. Multiplicity Equality Alone Would Not Normally Prove Boundary Identity</a></li>
+  <li><a href="#root-coalescence-is-the-geometric-read-of-classification-loss" id="toc-root-coalescence-is-the-geometric-read-of-classification-loss" class="nav-link" data-scroll-target="#root-coalescence-is-the-geometric-read-of-classification-loss">34. Root Coalescence Is the Geometric Read of Classification Loss</a></li>
+  <li><a href="#the-enclosing-area-has-changed-substantially" id="toc-the-enclosing-area-has-changed-substantially" class="nav-link" data-scroll-target="#the-enclosing-area-has-changed-substantially">35. The Enclosing Area Has Changed Substantially</a></li>
+  <li><a href="#the-enclosing-multiplicity-changes-by-the-same-factor-in-logarithmic-coordinate" id="toc-the-enclosing-multiplicity-changes-by-the-same-factor-in-logarithmic-coordinate" class="nav-link" data-scroll-target="#the-enclosing-multiplicity-changes-by-the-same-factor-in-logarithmic-coordinate">36. The Enclosing Multiplicity Changes by the Same Factor in Logarithmic Coordinate</a></li>
+  <li><a href="#meanwhile-the-subordinate-well-grows" id="toc-meanwhile-the-subordinate-well-grows" class="nav-link" data-scroll-target="#meanwhile-the-subordinate-well-grows">37. Meanwhile the Subordinate Well Grows</a></li>
+  <li><a href="#the-gap-closes-from-both-sides" id="toc-the-gap-closes-from-both-sides" class="nav-link" data-scroll-target="#the-gap-closes-from-both-sides">38. The Gap Closes From Both Sides</a></li>
+  <li><a href="#mass-can-be-written-as-a-function-of-the-boundary-ratio" id="toc-mass-can-be-written-as-a-function-of-the-boundary-ratio" class="nav-link" data-scroll-target="#mass-can-be-written-as-a-function-of-the-boundary-ratio">39. Mass Can Be Written as a Function of the Boundary Ratio</a></li>
+  <li><a href="#normalize-by-the-nariai-mass" id="toc-normalize-by-the-nariai-mass" class="nav-link" data-scroll-target="#normalize-by-the-nariai-mass">40. Normalize by the Nariai Mass</a></li>
+  <li><a href="#write-mass-in-terms-of-the-areal-saturation-coordinate" id="toc-write-mass-in-terms-of-the-areal-saturation-coordinate" class="nav-link" data-scroll-target="#write-mass-in-terms-of-the-areal-saturation-coordinate">41. Write Mass in Terms of the Areal Saturation Coordinate</a></li>
+  <li><a href="#the-multiplicity-gap-is-still-more-primitive-than-the-area-ratio" id="toc-the-multiplicity-gap-is-still-more-primitive-than-the-area-ratio" class="nav-link" data-scroll-target="#the-multiplicity-gap-is-still-more-primitive-than-the-area-ratio">42. The Multiplicity Gap Is Still More Primitive Than the Area Ratio</a></li>
+  <li><a href="#the-nariai-mass-is-not-the-primitive-saturation-condition" id="toc-the-nariai-mass-is-not-the-primitive-saturation-condition" class="nav-link" data-scroll-target="#the-nariai-mass-is-not-the-primitive-saturation-condition">43. The Nariai Mass Is Not the Primitive Saturation Condition</a></li>
+  <li><a href="#the-nariai-limit-is-not-caused-by-area-equality" id="toc-the-nariai-limit-is-not-caused-by-area-equality" class="nav-link" data-scroll-target="#the-nariai-limit-is-not-caused-by-area-equality">44. The Nariai Limit Is Not Caused by Area Equality</a></li>
+  <li><a href="#this-is-an-exact-projection-test-of-addendum-44" id="toc-this-is-an-exact-projection-test-of-addendum-44" class="nav-link" data-scroll-target="#this-is-an-exact-projection-test-of-addendum-44">45. This Is an Exact Projection Test of Addendum 44</a></li>
+  <li><a href="#this-is-stronger-than-post-hoc-reinterpretation" id="toc-this-is-stronger-than-post-hoc-reinterpretation" class="nav-link" data-scroll-target="#this-is-stronger-than-post-hoc-reinterpretation">46. This Is Stronger Than Post-Hoc Reinterpretation</a></li>
+  <li><a href="#the-result-does-not-prove-the-whole-r²d-ontology" id="toc-the-result-does-not-prove-the-whole-r²d-ontology" class="nav-link" data-scroll-target="#the-result-does-not-prove-the-whole-r²d-ontology">47. The Result Does Not Prove the Whole R²D Ontology</a></li>
+  <li><a href="#the-gibbs-type-interpretation-is-now-physically-realized" id="toc-the-gibbs-type-interpretation-is-now-physically-realized" class="nav-link" data-scroll-target="#the-gibbs-type-interpretation-is-now-physically-realized">48. The Gibbs-Type Interpretation Is Now Physically Realized</a></li>
+  <li><a href="#nothing-requires-physical-annihilation" id="toc-nothing-requires-physical-annihilation" class="nav-link" data-scroll-target="#nothing-requires-physical-annihilation">49. Nothing Requires Physical Annihilation</a></li>
+  <li><a href="#nariai-is-therefore-a-boundary-replacement-point" id="toc-nariai-is-therefore-a-boundary-replacement-point" class="nav-link" data-scroll-target="#nariai-is-therefore-a-boundary-replacement-point">50. Nariai Is Therefore a Boundary-Replacement Point</a></li>
+  <li><a href="#the-recurrence-question-must-remain-separate" id="toc-the-recurrence-question-must-remain-separate" class="nav-link" data-scroll-target="#the-recurrence-question-must-remain-separate">51. The Recurrence Question Must Remain Separate</a></li>
+  <li><a href="#principle-coupled-horizon-multiplicity" id="toc-principle-coupled-horizon-multiplicity" class="nav-link" data-scroll-target="#principle-coupled-horizon-multiplicity">52. Principle — Coupled Horizon Multiplicity</a></li>
+  <li><a href="#principle-horizon-multiplicity-gap-closure" id="toc-principle-horizon-multiplicity-gap-closure" class="nav-link" data-scroll-target="#principle-horizon-multiplicity-gap-closure">53. Principle — Horizon Multiplicity-Gap Closure</a></li>
+  <li><a href="#corollary-areal-equality-is-the-physical-projection-of-gap-closure" id="toc-corollary-areal-equality-is-the-physical-projection-of-gap-closure" class="nav-link" data-scroll-target="#corollary-areal-equality-is-the-physical-projection-of-gap-closure">54. Corollary — Areal Equality Is the Physical Projection of Gap Closure</a></li>
+  <li><a href="#corollary-nariai-mass-is-downstream" id="toc-corollary-nariai-mass-is-downstream" class="nav-link" data-scroll-target="#corollary-nariai-mass-is-downstream">55. Corollary — Nariai Mass Is Downstream</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">56. Logical Status</a></li>
+  <li><a href="#the-central-r²d-inversion" id="toc-the-central-r²d-inversion" class="nav-link" data-scroll-target="#the-central-r²d-inversion">57. The Central R²D Inversion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">58. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-45-multiplicity-gap-closure-occurs-before-the-nariai-limit" class="level1">
+<h1>Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 44 proposed a generic R²D condition for gravitational saturation.</p>
+<p>Let a subordinate gravitational boundary have multiplicity</p>
+<p><span class="math display">\[W_b,\]</span></p>
+<p>and let its enclosing gravitational boundary have multiplicity</p>
+<p><span class="math display">\[W_c.\]</span></p>
+<p>Define their logarithmic multiplicity gap</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=S_c-S_b=\ln\frac{W_c}{W_b}.\]</span></p>
+<p>The nested classification remains multiplicatively distinct while</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0.\]</span></p>
+<p>Its marginal condition is</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[W_b=W_c.\]</span></p>
+<p>If both boundaries share the same horizon-area calibration,</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2},\]</span></p>
+<p>the same condition is physically read as</p>
+<p><span class="math display">\[A_b=A_c.\]</span></p>
+<!-- source_pdf_page: 1546 -->
+<p>Addendum 44 did not identify a physical system that satisfies this relation. It deliberately stopped before assigning a maximum mass.</p>
+<p>Schwarzschild–de Sitter geometry provides an exact independent test.</p>
+<p>For positive cosmological constant Λ, the static projection is</p>
+<p><span class="math display">\[ds^2=-f(r)c^2dt^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,\]</span></p>
+<p>where</p>
+<p><span class="math display">\[f(r)=1-\frac{2GM}{c^2r}-\frac{\Lambda r^2}{3}.\]</span></p>
+<p>Within its nonextremal two-horizon regime, the equation</p>
+<p><span class="math display">\[f(r)=0\]</span></p>
+<p>has two positive roots,</p>
+<p><span class="math display">\[r_b&lt;r_c,\]</span></p>
+<p>representing the black-hole and cosmological horizon reads.</p>
+<p>They are not independent surfaces inserted into a fixed container. They are two roots of one shared gravitational equation.</p>
+<p>Their exact coupling implies</p>
+<p><span class="math display">\[r_b^2+r_br_c+r_c^2=\frac3\Lambda.\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[q\equiv\frac{r_b}{r_c},\qquad0\le q\le1.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[r_c^2=\frac3{\Lambda(1+q+q^2)},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[r_b^2=\frac{3q^2}{\Lambda(1+q+q^2)}.\]</span></p>
+<p>The corresponding areas are</p>
+<!-- source_pdf_page: 1547 -->
+<p><span class="math display">\[A_c=\frac{12\pi}{\Lambda(1+q+q^2)},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[A_b=\frac{12\pi q^2}{\Lambda(1+q+q^2)}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{A_b}{A_c}=q^2.\]</span></p>
+<p>Because both horizons share the same Bekenstein–Hawking calibration,</p>
+<p><span class="math display">\[S_b=\ln W_b=\frac{A_b}{4\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_c=\ln W_c=\frac{A_c}{4\ell_P^2}.\]</span></p>
+<p>Their multiplicity gap is therefore</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+<p>For</p>
+<p><span class="math display">\[0\le q&lt;1,\]</span></p>
+<p>this quantity is positive:</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0.\]</span></p>
+<p>Thus throughout the ordinary two-horizon Schwarzschild–de Sitter regime,</p>
+<p><span class="math display">\[W_c&gt;W_b.\]</span></p>
+<p>The physical solution independently reaches its limiting mass when the two positive roots become a double root:</p>
+<p><span class="math display">\[f(r_N)=0,\qquad f'(r_N)=0.\]</span></p>
+<p>These conditions give</p>
+<!-- source_pdf_page: 1548 -->
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[M_N=\frac{c^2}{3G\sqrt\Lambda}.\]</span></p>
+<p>This is the Nariai limit.</p>
+<p>At that independently derived maximum mass,</p>
+<p><span class="math display">\[r_b=r_c=r_N.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[q=1,\]</span></p>
+<p>and hence</p>
+<p><span class="math display">\[A_b=A_c=\frac{4\pi}{\Lambda}.\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[S_b=S_c,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}=0.\]</span></p>
+<p>The exact known maximum-mass condition therefore occurs precisely where the independently proposed R²D subordinate–enclosing multiplicity gap closes.</p>
+<p>The result is stronger than area equality alone.</p>
+<p>At Nariai:</p>
+<p><span class="math display">\[W_b=W_c,\]</span></p>
+<p><span class="math display">\[S_b=S_c,\]</span></p>
+<p><span class="math display">\[A_b=A_c,\]</span></p>
+<p><span class="math display">\[r_b=r_c,\]</span></p>
+<p>and the two previously distinct positive roots of the same gravitational equation coalesce into one double root.</p>
+<!-- source_pdf_page: 1549 -->
+<p>Thus the old two-horizon classification becomes mathematically marginal at exactly the same point at which the R²D count distinction vanishes.</p>
+<p>The enclosing cosmological boundary is not fixed during this process.</p>
+<p>At zero black-hole mass,</p>
+<p><span class="math display">\[r_c=\sqrt{\frac3\Lambda},\]</span></p>
+<p>so</p>
+<p><span class="math display">\[A_{\mathrm{dS}}=\frac{12\pi}{\Lambda}.\]</span></p>
+<p>At Nariai,</p>
+<p><span class="math display">\[A_c=\frac{4\pi}{\Lambda}=\frac13A_{\mathrm{dS}}.\]</span></p>
+<p>The subordinate area grows while the enclosing area contracts.</p>
+<p>The Nariai limit is therefore not a local black-hole well growing until it fills a pre-existing cosmological box.</p>
+<p>It is a coupled reorganization of two boundary reads belonging to one gravitational relation.</p>
+<p>The logical order is</p>
+<blockquote class="blockquote">
+<p>shared gravitational relation</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[W_b(M),\quad W_c(M)\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}.\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[\Delta S_{c\mid b}\longrightarrow0\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[A_b\longrightarrow A_c\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[r_b\longrightarrow r_c\]</span></p>
+<!-- source_pdf_page: 1550 -->
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>double-root boundary</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[M\longrightarrow M_N.\]</span></p>
+<p>The maximum mass comes last.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>multiplicity-gap closure occurs before the Nariai limit.</p>
+</blockquote>
+<p>More precisely:</p>
+<p>the Nariai maximum mass is the physical source coordinate of the point at which the Schwarzschild–</p>
+</section>
+<section id="addendum-44-made-a-prediction-before-choosing-a-physical-solution" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-44-made-a-prediction-before-choosing-a-physical-solution">1. Addendum 44 Made a Prediction Before Choosing a Physical Solution</h2>
+<p>Addendum 44 considered a generic subordinate gravitational multiplicity well.</p>
+<p>Its multiplicity was</p>
+<p><span class="math display">\[W_H,\]</span></p>
+<p>and the multiplicity of its enclosing gravitational count boundary was</p>
+<p><span class="math display">\[W_E.\]</span></p>
+<p>The remaining count distinction was defined as</p>
+<p><span class="math display">\[\Delta S_{E\mid H}=\ln\frac{W_E}{W_H}.\]</span></p>
+<p>The proposed marginal condition was</p>
+<p><span class="math display">\[\Delta S_{E\mid H}=0.\]</span></p>
+<p>Nothing in that construction assumed Schwarzschild–de Sitter geometry.</p>
+<p>Nothing assumed a cosmological constant.</p>
+<p>Nothing assumed the Nariai mass.</p>
+<!-- source_pdf_page: 1551 -->
+<p>Therefore the physical solution can now be used as an independent test.</p>
+</section>
+<section id="the-test-requires-two-coupled-gravitational-boundaries" class="level2">
+<h2 class="anchored" data-anchor-id="the-test-requires-two-coupled-gravitational-boundaries">2. The Test Requires Two Coupled Gravitational Boundaries</h2>
+<p>A useful test system must contain:</p>
+<ol type="1">
+<li>a subordinate gravitational horizon;</li>
+<li>an enclosing gravitational horizon;</li>
+<li>a continuously varying gravitational source coordinate;</li>
+<li>a regime in which both boundaries remain separately readable;</li>
+<li>and a known limiting mass at which the two-horizon classification becomes marginal.</li>
+</ol>
+<p>Schwarzschild–de Sitter possesses exactly this architecture.</p>
+</section>
+<section id="begin-with-schwarzschildde-sitter-geometry" class="level2">
+<h2 class="anchored" data-anchor-id="begin-with-schwarzschildde-sitter-geometry">3. Begin With Schwarzschild–de Sitter Geometry</h2>
+<p>For positive cosmological constant,</p>
+<p><span class="math display">\[\Lambda&gt;0,\]</span></p>
+<p>the static Schwarzschild–de Sitter metric is</p>
+<p><span class="math display">\[ds^2=-f(r)c^2dt^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,\]</span></p>
+<p>where</p>
+<p><span class="math display">\[f(r)=1-\frac{2GM}{c^2r}-\frac{\Lambda r^2}{3}.\]</span></p>
+<p>Horizons occur where</p>
+<p><span class="math display">\[f(r)=0.\]</span></p>
+</section>
+<section id="the-ordinary-static-regime-contains-two-positive-horizon-roots" class="level2">
+<h2 class="anchored" data-anchor-id="the-ordinary-static-regime-contains-two-positive-horizon-roots">4. The Ordinary Static Regime Contains Two Positive Horizon Roots</h2>
+<p>For an allowed nonextremal source mass,</p>
+<p><span class="math display">\[f(r)=0\]</span></p>
+<p>contains two positive roots:</p>
+<p><span class="math display">\[r_b&lt;r_c.\]</span></p>
+<!-- source_pdf_page: 1552 -->
+<p>The smaller root,</p>
+<p><span class="math display">\[r_b,\]</span></p>
+<p>is the black-hole horizon.</p>
+<p>The larger root,</p>
+<p><span class="math display">\[r_c,\]</span></p>
+<p>is the cosmological horizon.</p>
+<p>There is also one negative algebraic root that does not represent a positive horizon radius.</p>
+</section>
+<section id="the-two-horizons-belong-to-one-equation" class="level2">
+<h2 class="anchored" data-anchor-id="the-two-horizons-belong-to-one-equation">5. The Two Horizons Belong to One Equation</h2>
+<p>Both</p>
+<p><span class="math display">\[r_b\]</span></p>
+<p>and</p>
+<p><span class="math display">\[r_c\]</span></p>
+<p>satisfy</p>
+<p><span class="math display">\[f(r)=0.\]</span></p>
+<p>Therefore changing M changes both roots.</p>
+<p>The black-hole and cosmological horizon reads are not independently variable physical surfaces.</p>
+<p>They are coupled solutions of one gravitational relation.</p>
+<p>This already matches the structural requirement from Addendum 44:</p>
+<p><span class="math display">\[W_H=W_H(M),\]</span></p>
+<p>while</p>
+<p><span class="math display">\[W_E=W_E(M,\ldots).\]</span></p>
+<p>The enclosing boundary need not remain fixed while the subordinate well changes.</p>
+<!-- source_pdf_page: 1553 -->
+</section>
+<section id="multiply-the-horizon-equation-by-r" class="level2">
+<h2 class="anchored" data-anchor-id="multiply-the-horizon-equation-by-r">6. Multiply the Horizon Equation by r</h2>
+<p>From</p>
+<p><span class="math display">\[1-\frac{2GM}{c^2r}-\frac{\Lambda r^2}{3}=0,\]</span></p>
+<p>multiply by r :</p>
+<p><span class="math display">\[r-\frac{2GM}{c^2}-\frac{\Lambda r^3}{3}=0.\]</span></p>
+<p>Rearrange:</p>
+<p><span class="math display">\[r^3-\frac3\Lambda r+\frac{6GM}{\Lambda c^2}=0.\]</span></p>
+<p>This cubic makes the coupling among the roots explicit.</p>
+</section>
+<section id="introduce-the-third-root" class="level2">
+<h2 class="anchored" data-anchor-id="introduce-the-third-root">7. Introduce the Third Root</h2>
+<p>Let the third root be</p>
+<p><span class="math display">\[r_n&lt;0.\]</span></p>
+<p>The cubic contains no r 2 term.</p>
+<p>Therefore the sum of its roots vanishes:</p>
+<p><span class="math display">\[r_b+r_c+r_n=0.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[r_n=-(r_b+r_c).\]</span></p>
+</section>
+<section id="the-pairwise-root-relation-gives-the-coupled-horizon-identity" class="level2">
+<h2 class="anchored" data-anchor-id="the-pairwise-root-relation-gives-the-coupled-horizon-identity">8. The Pairwise Root Relation Gives the Coupled Horizon Identity</h2>
+<p>For the cubic,</p>
+<p><span class="math display">\[r_br_c+r_br_n+r_cr_n=-\frac3\Lambda.\]</span></p>
+<p>Substitute</p>
+<p><span class="math display">\[r_n=-(r_b+r_c).\]</span></p>
+<!-- source_pdf_page: 1554 -->
+<p>Then</p>
+<p><span class="math display">\[r_br_c-r_b(r_b+r_c)-r_c(r_b+r_c)=-\frac3\Lambda.\]</span></p>
+<p>Simplifying gives</p>
+<p><span class="math display">\[-r_b^2-r_br_c-r_c^2=-\frac3\Lambda.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[r_b^2+r_br_c+r_c^2=\frac3\Lambda.\]</span></p>
+<p>This is the exact coupled horizon relation.</p>
+</section>
+<section id="the-enclosing-horizon-is-not-a-fixed-box" class="level2">
+<h2 class="anchored" data-anchor-id="the-enclosing-horizon-is-not-a-fixed-box">9. The Enclosing Horizon Is Not a Fixed Box</h2>
+<p>The equation</p>
+<p><span class="math display">\[r_b^2+r_br_c+r_c^2=\frac3\Lambda\]</span></p>
+<p>shows immediately that increasing one positive root changes the allowed value of the other.</p>
+<p>Thus the cosmological horizon cannot remain fixed while the black-hole horizon changes.</p>
+<p>The exact physical problem is a coupled boundary realization.</p>
+</section>
+<section id="define-a-convenient-relative-radius-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="define-a-convenient-relative-radius-coordinate">10. Define a Convenient Relative Radius Coordinate</h2>
+<p>Define</p>
+<p><span class="math display">\[q\equiv\frac{r_b}{r_c}.\]</span></p>
+<p>Throughout the ordinary two-horizon regime,</p>
+<p><span class="math display">\[0\le q&lt;1.\]</span></p>
+<p>At horizon coalescence,</p>
+<p><span class="math display">\[q\longrightarrow1.\]</span></p>
+<p>This ratio is a convenient physical coordinate.</p>
+<!-- source_pdf_page: 1555 -->
+<p>It is not introduced as a primitive R²D quantity.</p>
+</section>
+<section id="solve-the-coupled-horizon-identity" class="level2">
+<h2 class="anchored" data-anchor-id="solve-the-coupled-horizon-identity">11. Solve the Coupled Horizon Identity</h2>
+<p>Using q</p>
+<p>Write</p>
+<p><span class="math display">\[r_b=qr_c.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[q^2r_c^2+qr_c^2+r_c^2=\frac3\Lambda.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[r_c^2(1+q+q^2)=\frac3\Lambda.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[r_c^2=\frac3{\Lambda(1+q+q^2)}.\]</span></p>
+<p>And</p>
+<p><span class="math display">\[r_b^2=\frac{3q^2}{\Lambda(1+q+q^2)}.\]</span></p>
+</section>
+<section id="project-the-two-boundaries-onto-area" class="level2">
+<h2 class="anchored" data-anchor-id="project-the-two-boundaries-onto-area">12. Project the Two Boundaries Onto Area</h2>
+<p>For spherical horizon projection,</p>
+<p><span class="math display">\[A_b=4\pi r_b^2\]</span></p>
+<p>and</p>
+<p><span class="math display">\[A_c=4\pi r_c^2.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[A_b(q)=\frac{12\pi q^2}{\Lambda(1+q+q^2)},\]</span></p>
+<p>and</p>
+<!-- source_pdf_page: 1556 -->
+<p><span class="math display">\[A_c(q)=\frac{12\pi}{\Lambda(1+q+q^2)}.\]</span></p>
+<p>The two areas are therefore explicitly coupled.</p>
+</section>
+<section id="their-area-ratio-is-simple" class="level2">
+<h2 class="anchored" data-anchor-id="their-area-ratio-is-simple">13. Their Area Ratio Is Simple</h2>
+<p>Take the ratio:</p>
+<p><span class="math display">\[\frac{A_b}{A_c}=q^2.\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[\sigma_{b\mid c}\equiv\frac{A_b}{A_c}.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\sigma_{b\mid c}=q^2.\]</span></p>
+<p>For</p>
+<p><span class="math display">\[0\le q&lt;1,\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[0\le\sigma_{b\mid c}&lt;1.\]</span></p>
+<p>At equality,</p>
+<p><span class="math display">\[\sigma_{b\mid c}=1.\]</span></p>
+</section>
+<section id="the-area-ratio-is-not-yet-the-primitive-r²d-gap" class="level2">
+<h2 class="anchored" data-anchor-id="the-area-ratio-is-not-yet-the-primitive-r²d-gap">14. The Area Ratio Is Not Yet the Primitive R²D Gap</h2>
+<p>The ratio</p>
+<p><span class="math display">\[\sigma_{b\mid c}\]</span></p>
+<p>is physically convenient.</p>
+<p>But Addendum 44 identified a more primitive count comparison:</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}.\]</span></p>
+<!-- source_pdf_page: 1557 -->
+<p>The present addendum should therefore test that quantity directly.</p>
+</section>
+<section id="apply-the-same-horizon-multiplicity-calibration-to-both-boundaries" class="level2">
+<h2 class="anchored" data-anchor-id="apply-the-same-horizon-multiplicity-calibration-to-both-boundaries">15. Apply the Same Horizon Multiplicity Calibration to Both Boundaries</h2>
+<p>For the black-hole horizon,</p>
+<p><span class="math display">\[S_b=\ln W_b=\frac{A_b}{4\ell_P^2}.\]</span></p>
+<p>For the cosmological horizon,</p>
+<p><span class="math display">\[S_c=\ln W_c=\frac{A_c}{4\ell_P^2}.\]</span></p>
+<p>The common calibration allows their logarithmic multiplicities to be compared directly.</p>
+</section>
+<section id="the-logarithmic-capacity-ratio-equals-the-area-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="the-logarithmic-capacity-ratio-equals-the-area-ratio">16. The Logarithmic Capacity Ratio Equals the Area Ratio</h2>
+<p>Because both use the same coefficient,</p>
+<p><span class="math display">\[\frac{S_b}{S_c}=\frac{A_b}{A_c}=q^2.\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[\frac{S_b}{S_c}=\sigma_{b\mid c}.\]</span></p>
+<p>This is a ratio of logarithmic multiplicity coordinates.</p>
+<p>It is not the same as the ratio</p>
+<p><span class="math display">\[W_b/W_c.\]</span></p>
+</section>
+<section id="define-the-exact-multiplicity-gap" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-exact-multiplicity-gap">17. Define the Exact Multiplicity Gap</h2>
+<p>The R²D saturation coordinate from Addendum 44 is</p>
+<p><span class="math display">\[\Delta S_{c\mid b}\equiv S_c-S_b.\]</span></p>
+<!-- source_pdf_page: 1558 -->
+<p>Since</p>
+<p><span class="math display">\[S=\ln W,\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}.\]</span></p>
+<p>This is the actual multiplicative distinction between the two horizon classes.</p>
+</section>
+<section id="substitute-the-exact-coupled-areas" class="level2">
+<h2 class="anchored" data-anchor-id="substitute-the-exact-coupled-areas">18. Substitute the Exact Coupled Areas</h2>
+<p>Using</p>
+<p><span class="math display">\[A_c=\frac{12\pi}{\Lambda(1+q+q^2)},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[A_b=\frac{12\pi q^2}{\Lambda(1+q+q^2)},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\frac{A_c-A_b}{4\ell_P^2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\ln\frac{W_c}{W_b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+</section>
+<section id="the-ordinary-two-horizon-regime-has-positive-multiplicity-gap" class="level2">
+<h2 class="anchored" data-anchor-id="the-ordinary-two-horizon-regime-has-positive-multiplicity-gap">19. The Ordinary Two-Horizon Regime Has Positive Multiplicity Gap</h2>
+<p>For</p>
+<p><span class="math display">\[0\le q&lt;1,\]</span></p>
+<p><span class="math display">\[1-q^2&gt;0.\]</span></p>
+<!-- source_pdf_page: 1559 -->
+<p>The denominator</p>
+<p><span class="math display">\[1+q+q^2\]</span></p>
+<p>is positive.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[W_c&gt;W_b.\]</span></p>
+<p>The enclosing cosmological horizon remains multiplicatively distinguishable from the subordinate black- hole horizon throughout the ordinary two-horizon regime.</p>
+</section>
+<section id="schwarzschildde-sitter-therefore-realizes-the-generic-addendum-44-ordering" class="level2">
+<h2 class="anchored" data-anchor-id="schwarzschildde-sitter-therefore-realizes-the-generic-addendum-44-ordering">20. Schwarzschild–de Sitter Therefore Realizes the Generic Addendum 44 Ordering</h2>
+<p>Addendum 44 required</p>
+<p><span class="math display">\[\Delta S_{E\mid H}&gt;0\]</span></p>
+<p>for the distinguishable nested regime.</p>
+<p>Schwarzschild–de Sitter gives exactly</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0\]</span></p>
+<p>for every ordinary two-horizon state.</p>
+<p>Thus the physical solution occupies the expected side of the proposed R²D marginal boundary.</p>
+</section>
+<section id="pure-de-sitter-is-the-zero-black-hole-limit" class="level2">
+<h2 class="anchored" data-anchor-id="pure-de-sitter-is-the-zero-black-hole-limit">21. Pure de Sitter Is the Zero-Black-Hole Limit</h2>
+<p>Take</p>
+<p><span class="math display">\[M\longrightarrow0.\]</span></p>
+<p>Then the black-hole positive root disappears:</p>
+<p><span class="math display">\[r_b\longrightarrow0.\]</span></p>
+<!-- source_pdf_page: 1560 -->
+<p>Thus</p>
+<p><span class="math display">\[q\longrightarrow0.\]</span></p>
+<p>The remaining cosmological horizon satisfies</p>
+<p><span class="math display">\[r_{\mathrm{dS}}=\sqrt{\frac3\Lambda}.\]</span></p>
+<p>Its area is</p>
+<p><span class="math display">\[A_{\mathrm{dS}}=\frac{12\pi}{\Lambda}.\]</span></p>
+<p>This is the enclosing-area read at the zero-black-hole end of the family.</p>
+</section>
+<section id="increasing-mass-reorganizes-both-horizon-reads" class="level2">
+<h2 class="anchored" data-anchor-id="increasing-mass-reorganizes-both-horizon-reads">22. Increasing Mass Reorganizes Both Horizon Reads</h2>
+<p>As the physical source mass increases within the two-horizon regime,</p>
+<p><span class="math display">\[r_b\uparrow\]</span></p>
+<p>while</p>
+<p><span class="math display">\[r_c\downarrow.\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[A_b\uparrow,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[A_c\downarrow.\]</span></p>
+<p>The subordinate multiplicity increases while the enclosing multiplicity decreases under their common calibration.</p>
+<p>Thus the multiplicity gap closes from both sides.</p>
+</section>
+<section id="this-is-not-filling-a-fixed-cosmological-capacity" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-not-filling-a-fixed-cosmological-capacity">23. This Is Not Filling a Fixed Cosmological Capacity</h2>
+<p>A simpler provisional model would hold</p>
+<p><span class="math display">\[A_c\]</span></p>
+<!-- source_pdf_page: 1561 -->
+<p>fixed while</p>
+<p><span class="math display">\[A_b\]</span></p>
+<p>increases.</p>
+<p>The exact solution does not behave this way.</p>
+<p>Instead,</p>
+<p><span class="math display">\[A_b=A_b(M),\qquad A_c=A_c(M).\]</span></p>
+<p>The black-hole and cosmological boundaries jointly reorganize.</p>
+<p>The enclosing count domain participates in the physical realization.</p>
+</section>
+<section id="derive-the-physical-limiting-condition-independently" class="level2">
+<h2 class="anchored" data-anchor-id="derive-the-physical-limiting-condition-independently">24. Derive the Physical Limiting Condition Independently</h2>
+<p>The maximum-mass two-horizon solution occurs when the two positive roots coalesce.</p>
+<p>Mathematically this is a double root.</p>
+<p>Therefore require</p>
+<p><span class="math display">\[f(r_N)=0\]</span></p>
+<p>and</p>
+<p><span class="math display">\[f'(r_N)=0.\]</span></p>
+<p>No R²D saturation condition has yet been imposed.</p>
+<p>This makes the result an independent physical test.</p>
+</section>
+<section id="differentiate-the-schwarzschildde-sitter-function" class="level2">
+<h2 class="anchored" data-anchor-id="differentiate-the-schwarzschildde-sitter-function">25. Differentiate the Schwarzschild–de Sitter Function</h2>
+<p>From</p>
+<p><span class="math display">\[f(r)=1-\frac{2GM}{c^2r}-\frac{\Lambda r^2}{3},\]</span></p>
+<p>we obtain</p>
+<!-- source_pdf_page: 1562 -->
+<p><span class="math display">\[f'(r)=\frac{2GM}{c^2r^2}-\frac{2\Lambda r}{3}.\]</span></p>
+<p>At the double root,</p>
+<p><span class="math display">\[f'(r_N)=0.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{GM_N}{c^2}=\frac{\Lambda r_N^3}{3}.\]</span></p>
+<blockquote class="blockquote">
+<p>c2 3</p>
+</blockquote>
+</section>
+<section id="insert-this-into-the-horizon-equation" class="level2">
+<h2 class="anchored" data-anchor-id="insert-this-into-the-horizon-equation">26. Insert This Into the Horizon Equation</h2>
+<p>At the limiting root,</p>
+<p><span class="math display">\[f(r_N)=0.\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[1-\frac{2GM_N}{c^2r_N}-\frac{\Lambda r_N^2}{3}=0.\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[\frac{GM_N}{c^2}=\frac{\Lambda r_N^3}{3},\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[1-\frac{2\Lambda r_N^2}{3}-\frac{\Lambda r_N^2}{3}=0.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[1-\Lambda r_N^2=0.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda}.\]</span></p>
+</section>
+<section id="the-physical-nariai-mass-follows" class="level2">
+<h2 class="anchored" data-anchor-id="the-physical-nariai-mass-follows">27. The Physical Nariai Mass Follows</h2>
+<p>Using</p>
+<!-- source_pdf_page: 1563 -->
+<p><span class="math display">\[\frac{GM_N}{c^2}=\frac{\Lambda r_N^3}{3},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[M_N=\frac{c^2}{3G\sqrt\Lambda}.\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\frac{3GM_N\sqrt\Lambda}{c^2}=1.\]</span></p>
+<p>This maximum has been obtained solely from the exact gravitational solution.</p>
+</section>
+<section id="now-test-the-r²d-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="now-test-the-r²d-prediction">28. Now Test the R²D Prediction</h2>
+<p>At the Nariai limit,</p>
+<p><span class="math display">\[r_b=r_c=r_N.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[q=1.\]</span></p>
+<p>Insert this into the exact R²D multiplicity gap:</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+<p>At</p>
+<p><span class="math display">\[q=1,\]</span></p>
+<p>the numerator vanishes.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<!-- source_pdf_page: 1564 -->
+</section>
+<section id="the-horizon-multiplicities-become-equal" class="level2">
+<h2 class="anchored" data-anchor-id="the-horizon-multiplicities-become-equal">29. The Horizon Multiplicities Become Equal</h2>
+<p>Since</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b},\]</span></p>
+<p>the Nariai condition gives</p>
+<p><span class="math display">\[\ln\frac{W_c}{W_b}=0.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[W_c=W_b.\]</span></p>
+<p>This is exactly the independently proposed Addendum 44 saturation condition.</p>
+</section>
+<section id="the-horizon-areas-become-equal" class="level2">
+<h2 class="anchored" data-anchor-id="the-horizon-areas-become-equal">30. The Horizon Areas Become Equal</h2>
+<p>At</p>
+<p><span class="math display">\[r_b=r_c=\frac1{\sqrt\Lambda},\]</span></p>
+<p>the spherical horizon areas are equal:</p>
+<p><span class="math display">\[A_b=A_c.\]</span></p>
+<p>Their common value is</p>
+<p><span class="math display">\[A_N=\frac{4\pi}{\Lambda}.\]</span></p>
+<p>Thus the physical area projection reproduces the multiplicity-gap marginality.</p>
+</section>
+<section id="their-entropy-coordinates-become-equal" class="level2">
+<h2 class="anchored" data-anchor-id="their-entropy-coordinates-become-equal">31. Their Entropy Coordinates Become Equal</h2>
+<p>Using</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2},\]</span></p>
+<p>we obtain</p>
+<!-- source_pdf_page: 1565 -->
+<p><span class="math display">\[S_b=S_c.\]</span></p>
+<p>Their common value is</p>
+<p><span class="math display">\[S_N=\frac\pi{\Lambda\ell_P^2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_c-S_b=0.\]</span></p>
+<p>The logarithmic multiplicity distinction has vanished.</p>
+</section>
+<section id="the-ratio-coordinate-simultaneously-reaches-unity" class="level2">
+<h2 class="anchored" data-anchor-id="the-ratio-coordinate-simultaneously-reaches-unity">32. The Ratio Coordinate Simultaneously Reaches Unity</h2>
+<p>Because</p>
+<p><span class="math display">\[\sigma_{b\mid c}=\frac{A_b}{A_c}=q^2,\]</span></p>
+<p>at Nariai,</p>
+<p><span class="math display">\[\sigma_{b\mid c}=1.\]</span></p>
+<p>Thus the ratio and gap forms of the saturation condition agree:</p>
+<p><span class="math display">\[\sigma_{b\mid c}=1\]</span></p>
+<p>if and only if</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<p>within the two-horizon Schwarzschild–de Sitter family.</p>
+</section>
+<section id="multiplicity-equality-alone-would-not-normally-prove-boundary-identity" class="level2">
+<h2 class="anchored" data-anchor-id="multiplicity-equality-alone-would-not-normally-prove-boundary-identity">33. Multiplicity Equality Alone Would Not Normally Prove Boundary Identity</h2>
+<p>In general,</p>
+<p><span class="math display">\[W_1=W_2\]</span></p>
+<p>does not require two macrostates to be identical.</p>
+<p>Degenerate states may share the same multiplicity.</p>
+<!-- source_pdf_page: 1566 -->
+<p>The Nariai result is stronger.</p>
+<p>At the same limiting point,</p>
+<p><span class="math display">\[W_b=W_c,\]</span></p>
+<p><span class="math display">\[S_b=S_c,\]</span></p>
+<p><span class="math display">\[A_b=A_c,\]</span></p>
+<p><span class="math display">\[r_b=r_c,\]</span></p>
+<p>and the two positive roots of one common horizon equation merge into a double root.</p>
+<p>The entire physical classification becomes marginal simultaneously.</p>
+</section>
+<section id="root-coalescence-is-the-geometric-read-of-classification-loss" class="level2">
+<h2 class="anchored" data-anchor-id="root-coalescence-is-the-geometric-read-of-classification-loss">34. Root Coalescence Is the Geometric Read of Classification Loss</h2>
+<p>Before Nariai,</p>
+<p><span class="math display">\[r_b&lt;r_c.\]</span></p>
+<p>The horizon equation therefore supplies two distinguishable positive branches.</p>
+<p>At Nariai,</p>
+<p><span class="math display">\[r_b=r_c.\]</span></p>
+<p>The two branches no longer remain separately labeled by distinct positive root values.</p>
+<p>Thus the conventional mathematical description itself loses the distinction on which the old two-horizon classification depended.</p>
+<p>This is precisely the type of boundary event proposed by Addendum 44.</p>
+</section>
+<section id="the-enclosing-area-has-changed-substantially" class="level2">
+<h2 class="anchored" data-anchor-id="the-enclosing-area-has-changed-substantially">35. The Enclosing Area Has Changed Substantially</h2>
+<p>At zero black-hole mass,</p>
+<p><span class="math display">\[A_{\mathrm{dS}}=\frac{12\pi}{\Lambda}.\]</span></p>
+<p>At Nariai,</p>
+<p><span class="math display">\[A_c^N=\frac{4\pi}{\Lambda}.\]</span></p>
+<!-- source_pdf_page: 1567 -->
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{A_c^N}{A_{\mathrm{dS}}}=\frac13.\]</span></p>
+<p>The enclosing cosmological area has contracted by a factor of three.</p>
+</section>
+<section id="the-enclosing-multiplicity-changes-by-the-same-factor-in-logarithmic-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="the-enclosing-multiplicity-changes-by-the-same-factor-in-logarithmic-coordinate">36. The Enclosing Multiplicity Changes by the Same Factor in Logarithmic Coordinate</h2>
+<p>Because</p>
+<p><span class="math display">\[S_c=\frac{A_c}{4\ell_P^2},\]</span></p>
+<p>the pure de Sitter entropy coordinate is</p>
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{3\pi}{\Lambda\ell_P^2}.\]</span></p>
+<p>At Nariai,</p>
+<p><span class="math display">\[S_c^N=\frac\pi{\Lambda\ell_P^2}.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[S_c^N=\frac13S_{\mathrm{dS}}.\]</span></p>
+<p>The enclosing logarithmic multiplicity capacity is not fixed either.</p>
+</section>
+<section id="meanwhile-the-subordinate-well-grows" class="level2">
+<h2 class="anchored" data-anchor-id="meanwhile-the-subordinate-well-grows">37. Meanwhile the Subordinate Well Grows</h2>
+<p>At the zero-mass end,</p>
+<p><span class="math display">\[A_b\longrightarrow0.\]</span></p>
+<p>At Nariai,</p>
+<p><span class="math display">\[A_b=\frac{4\pi}{\Lambda}.\]</span></p>
+<p>Thus the black-hole multiplicity coordinate grows from its zero-horizon limit to</p>
+<!-- source_pdf_page: 1568 -->
+<p><span class="math display">\[S_b^N=\frac\pi{\Lambda\ell_P^2}.\]</span></p>
+<p>The subordinate and enclosing count coordinates approach one another through coupled change.</p>
+</section>
+<section id="the-gap-closes-from-both-sides" class="level2">
+<h2 class="anchored" data-anchor-id="the-gap-closes-from-both-sides">38. The Gap Closes From Both Sides</h2>
+<p>The physical evolution of the family is therefore not</p>
+<p><span class="math display">\[S_b\uparrow\quad\text{with}\quad S_c=\text{constant}.\]</span></p>
+<p>It is</p>
+<p><span class="math display">\[S_b\uparrow,\qquad S_c\downarrow.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=S_c-S_b\downarrow0.\]</span></p>
+<p>The saturation boundary is a coupled realization.</p>
+</section>
+<section id="mass-can-be-written-as-a-function-of-the-boundary-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="mass-can-be-written-as-a-function-of-the-boundary-ratio">39. Mass Can Be Written as a Function of the Boundary Ratio</h2>
+<p>The cubic root product gives</p>
+<p><span class="math display">\[r_br_c(r_b+r_c)=\frac{6GM}{\Lambda c^2}.\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[r_b=qr_c\]</span></p>
+<p>and</p>
+<p><span class="math display">\[r_c^2=\frac3{\Lambda(1+q+q^2)},\]</span></p>
+<p>one obtains</p>
+<p><span class="math display">\[\frac{GM}{c^2}=\frac{\sqrt3}{2\sqrt\Lambda}\frac{q(1+q)}{(1+q+q^2)^{3/2}}.\]</span></p>
+<p>This puts the physical mass after the coupled horizon coordinate.</p>
+<!-- source_pdf_page: 1569 -->
+</section>
+<section id="normalize-by-the-nariai-mass" class="level2">
+<h2 class="anchored" data-anchor-id="normalize-by-the-nariai-mass">40. Normalize by the Nariai Mass</h2>
+<p>Since</p>
+<p><span class="math display">\[M_N=\frac{c^2}{3G\sqrt\Lambda},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\frac{M}{M_N}=\frac{3\sqrt3}{2}\frac{q(1+q)}{(1+q+q^2)^{3/2}}.\]</span></p>
+<p>At</p>
+<p><span class="math display">\[q=1,\]</span></p>
+<p>the right-hand side is unity.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[q\longrightarrow1\quad\Longrightarrow\quad M\longrightarrow M_N.\]</span></p>
+</section>
+<section id="write-mass-in-terms-of-the-areal-saturation-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="write-mass-in-terms-of-the-areal-saturation-coordinate">41. Write Mass in Terms of the Areal Saturation Coordinate</h2>
+<p>Because</p>
+<p><span class="math display">\[\sigma_{b\mid c}=q^2,\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[q=\sqrt{\sigma_{b\mid c}}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{M}{M_N}=\frac{3\sqrt3}{2}\frac{\sqrt{\sigma_{b\mid c}}(1+\sqrt{\sigma_{b\mid c}})}{(1+\sqrt{\sigma_{b\mid c}}+\sigma_{b\mid c})^{3/2}}.\]</span></p>
+<p>Thus mass is explicitly a downstream function of the coupled boundary relation.</p>
+<p>At</p>
+<p><span class="math display">\[\sigma_{b\mid c}=1,\]</span></p>
+<p><span class="math display">\[M=M_N.\]</span></p>
+<!-- source_pdf_page: 1570 -->
+</section>
+<section id="the-multiplicity-gap-is-still-more-primitive-than-the-area-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="the-multiplicity-gap-is-still-more-primitive-than-the-area-ratio">42. The Multiplicity Gap Is Still More Primitive Than the Area Ratio</h2>
+<p>The ratio</p>
+<p><span class="math display">\[\sigma_{b\mid c}\]</span></p>
+<p>is useful because it gives a compact geometric representation.</p>
+<p>But it compares logarithmic count coordinates:</p>
+<p><span class="math display">\[\sigma_{b\mid c}=\frac{S_b}{S_c}.\]</span></p>
+<p>The true multiplicative count gap is</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}.\]</span></p>
+<p>Thus Addendum 45 places the multiplicity gap before the areal ratio in the explanatory hierarchy.</p>
+</section>
+<section id="the-nariai-mass-is-not-the-primitive-saturation-condition" class="level2">
+<h2 class="anchored" data-anchor-id="the-nariai-mass-is-not-the-primitive-saturation-condition">43. The Nariai Mass Is Not the Primitive Saturation Condition</h2>
+<p>Conventional gravity may state the limit as</p>
+<p><span class="math display">\[M=M_N.\]</span></p>
+<p>R²D asks what boundary distinction is lost at that value.</p>
+<p>The exact solution gives</p>
+<p><span class="math display">\[M=M_N\]</span></p>
+<p>at the same point where</p>
+<p><span class="math display">\[r_b=r_c,\]</span></p>
+<p><span class="math display">\[A_b=A_c,\]</span></p>
+<p><span class="math display">\[S_b=S_c,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[W_b=W_c.\]</span></p>
+<p>Thus the mass is one physical coordinate of a deeper boundary marginality.</p>
+<!-- source_pdf_page: 1571 -->
+</section>
+<section id="the-nariai-limit-is-not-caused-by-area-equality" class="level2">
+<h2 class="anchored" data-anchor-id="the-nariai-limit-is-not-caused-by-area-equality">44. The Nariai Limit Is Not Caused by Area Equality</h2>
+<p>The R²D inversion should not simply replace</p>
+<p><span class="math display">\[M\longrightarrow\text{Nariai}\]</span></p>
+<p>with</p>
+<p><span class="math display">\[A_b=A_c\longrightarrow\text{Nariai}.\]</span></p>
+<p>Area is itself a physical projection.</p>
+<p>The prior R²D statement is</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<p>Under the common horizon calibration, this is read as area equality.</p>
+<p>Thus the explanatory sequence remains</p>
+<blockquote class="blockquote">
+<p>count distinction <span class="math inline">\(\longrightarrow\)</span> areal distinction <span class="math inline">\(\longrightarrow\)</span> mass coordinate.</p>
+</blockquote>
+</section>
+<section id="this-is-an-exact-projection-test-of-addendum-44" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-an-exact-projection-test-of-addendum-44">45. This Is an Exact Projection Test of Addendum 44</h2>
+<p>Addendum 44 proposed, before invoking Schwarzschild–de Sitter,</p>
+<blockquote class="blockquote">
+<p>gravitational saturation <span class="math inline">\(\Longleftrightarrow\Delta S_{E\mid H}=0\)</span>.</p>
+</blockquote>
+<p>Schwarzschild–de Sitter independently gives a known maximum mass through the double-root condition.</p>
+<p>At that exact maximum,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<p>The proposed R²D marginal condition and the independently known gravitational maximum coincide.</p>
+</section>
+<section id="this-is-stronger-than-post-hoc-reinterpretation" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-stronger-than-post-hoc-reinterpretation">46. This Is Stronger Than Post-Hoc Reinterpretation</h2>
+<p>The count criterion was not obtained by first examining the Nariai solution and then defining saturation to match it.</p>
+<p>The logical sequence was:</p>
+<!-- source_pdf_page: 1572 -->
+<p>Addendum 44:</p>
+<p><span class="math display">\[\Delta S_{E\mid H}=0\]</span></p>
+<p>as the generic marginal condition.</p>
+<p>Then Addendum 45:</p>
+<p><span class="math display">\[f(r)=0,\qquad f'(r)=0\]</span></p>
+<p>independently defines the known physical maximum.</p>
+<p>Only afterward are they compared.</p>
+<p>Their coincidence is therefore a genuine projection test.</p>
+</section>
+<section id="the-result-does-not-prove-the-whole-r²d-ontology" class="level2">
+<h2 class="anchored" data-anchor-id="the-result-does-not-prove-the-whole-r²d-ontology">47. The Result Does Not Prove the Whole R²D Ontology</h2>
+<p>The agreement establishes a narrower statement.</p>
+<p>It shows that the exact Schwarzschild–de Sitter maximum-mass boundary possesses precisely the count structure predicted by the proposed subordinate–enclosing multiplicity-gap criterion.</p>
+<p>It does not by itself prove:</p>
+<blockquote class="blockquote">
+<p>• that all gravitational maxima arise this way; • that the Bekenstein–Hawking relation has been derived from primitive R²D counting; • that <span class="math inline">\(\Delta r=\ell_P\)</span> is exact; • that cosmological horizons are ontologically identical to black-hole horizons; • or that R²D uniquely explains the Nariai geometry.</p>
+</blockquote>
+<p>The result is an exact compatibility test of one independently proposed boundary condition.</p>
+</section>
+<section id="the-gibbs-type-interpretation-is-now-physically-realized" class="level2">
+<h2 class="anchored" data-anchor-id="the-gibbs-type-interpretation-is-now-physically-realized">48. The Gibbs-Type Interpretation Is Now Physically Realized</h2>
+<p>Before Nariai,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0.\]</span></p>
+<p>The black-hole and cosmological branches are separately distinguishable.</p>
+<p>At Nariai,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<!-- source_pdf_page: 1573 -->
+<p>Their defining multiplicity gap vanishes.</p>
+<p>Formal continuation of the same nested two-horizon classification past that condition would attempt to retain two count classes after the distinction supporting them has disappeared.</p>
+<p>Thus the Gibbs-type boundary problem proposed generically in Addendum 44 is realized concretely by root coalescence.</p>
+</section>
+<section id="nothing-requires-physical-annihilation" class="level2">
+<h2 class="anchored" data-anchor-id="nothing-requires-physical-annihilation">49. Nothing Requires Physical Annihilation</h2>
+<p>The disappearance of the old two-horizon distinction does not imply disappearance of all physical organization.</p>
+<p>It means that the old Schwarzschild–de Sitter static-patch classification becomes marginal.</p>
+<p>A different gravitational boundary classification may remain physically realizable.</p>
+<p>Thus,</p>
+<blockquote class="blockquote">
+<p>gap closure <span class="math inline">\(\ne\)</span> physical annihilation.</p>
+</blockquote>
+<p>It is a landscape-replacement condition.</p>
+</section>
+<section id="nariai-is-therefore-a-boundary-replacement-point" class="level2">
+<h2 class="anchored" data-anchor-id="nariai-is-therefore-a-boundary-replacement-point">50. Nariai Is Therefore a Boundary-Replacement Point</h2>
+<p>Before the limit:</p>
+<p><span class="math display">\[B_b\quad\text{and}\quad B_c\]</span></p>
+<p>are distinguishable through separate horizon reads.</p>
+<p>At the limit:</p>
+<p><span class="math display">\[r_b=r_c.\]</span></p>
+<p>The multiplicity gap vanishes:</p>
+<p><span class="math display">\[W_b=W_c.\]</span></p>
+<p>The old two-boundary static classification therefore loses the distinction required to define its separate branches.</p>
+<p>The Nariai geometry should consequently be interpreted as a replacement gravitational landscape rather than simply as the final member of an unchanged two-horizon family.</p>
+<!-- source_pdf_page: 1574 -->
+</section>
+<section id="the-recurrence-question-must-remain-separate" class="level2">
+<h2 class="anchored" data-anchor-id="the-recurrence-question-must-remain-separate">51. The Recurrence Question Must Remain Separate</h2>
+<p>Nothing in the multiplicity-gap argument determines the physical clock associated with the replacement landscape.</p>
+<p>The disappearance of the old horizon distinction does not imply</p>
+<p><span class="math display">\[\text{recurrence}=0.\]</span></p>
+<p>Multiplicity, distinguishability, recurrence, and physical time calibration remain different relations.</p>
+<p>The next addendum therefore asks what happens to the clock read when the old two-horizon boundary classification is replaced.</p>
+</section>
+<section id="principle-coupled-horizon-multiplicity" class="level2">
+<h2 class="anchored" data-anchor-id="principle-coupled-horizon-multiplicity">52. Principle — Coupled Horizon Multiplicity</h2>
+<p>Within the Schwarzschild–de Sitter two-horizon regime, define</p>
+<p><span class="math display">\[S_b=\frac{A_b}{4\ell_P^2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_c=\frac{A_c}{4\ell_P^2}.\]</span></p>
+<p>Their exact coupled areas imply</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+<p>Thus the subordinate and enclosing multiplicity coordinates are not independent.</p>
+</section>
+<section id="principle-horizon-multiplicity-gap-closure" class="level2">
+<h2 class="anchored" data-anchor-id="principle-horizon-multiplicity-gap-closure">53. Principle — Horizon Multiplicity-Gap Closure</h2>
+<p>For the ordinary two-horizon regime,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0.\]</span></p>
+<p>At the Nariai boundary,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<!-- source_pdf_page: 1575 -->
+<p>Thus the exact limiting geometry coincides with closure of the subordinate–enclosing horizon multiplicity gap.</p>
+</section>
+<section id="corollary-areal-equality-is-the-physical-projection-of-gap-closure" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-areal-equality-is-the-physical-projection-of-gap-closure">54. Corollary — Areal Equality Is the Physical Projection of Gap Closure</h2>
+<p>Because both horizons share</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2},\]</span></p>
+<p>we have</p>
+<p><span class="math inline">\(\Delta S_{c\mid b}=0\;\Longleftrightarrow\;A_b=A_c\)</span>.</p>
+<p>Within spherical projection,</p>
+<p><span class="math display">\[A_b=A_c\quad\Longleftrightarrow\quad r_b=r_c.\]</span></p>
+<p>Thus root coalescence is the radial geometric read of prior count marginality.</p>
+</section>
+<section id="corollary-nariai-mass-is-downstream" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-nariai-mass-is-downstream">55. Corollary — Nariai Mass Is Downstream</h2>
+<p>The double-root condition gives</p>
+<p><span class="math display">\[M_N=\frac{c^2}{3G\sqrt\Lambda}.\]</span></p>
+<p>But this same condition occurs when</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<p>Therefore,</p>
+<blockquote class="blockquote">
+<p>multiplicity-gap closure <span class="math inline">\(\longrightarrow\)</span> areal equality <span class="math inline">\(\longrightarrow\)</span> root coalescence <span class="math inline">\(\longrightarrow M_N\)</span>.</p>
+</blockquote>
+<p>The maximum mass comes last.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">56. Logical Status</h2>
+<p>Proposed Independently in Addendum 44</p>
+<p>The generic gravitational saturation criterion is</p>
+<!-- source_pdf_page: 1576 -->
+<p><span class="math display">\[\Delta S_{E\mid H}=\ln\frac{W_E}{W_H}=0.\]</span></p>
+<p>Under common areal calibration,</p>
+<p><span class="math display">\[\Delta S_{E\mid H}=0\quad\Longrightarrow\quad A_E=A_H.\]</span></p>
+<p>Conventional Exact Physical Input</p>
+<p>Schwarzschild–de Sitter geometry is</p>
+<p><span class="math display">\[f(r)=1-\frac{2GM}{c^2r}-\frac{\Lambda r^2}{3}.\]</span></p>
+<p>The physical horizons are positive roots of</p>
+<p><span class="math display">\[f(r)=0.\]</span></p>
+<p>The limiting Nariai solution is a double positive root.</p>
+<p>Derived Exact Geometry</p>
+<p>The two positive horizon roots satisfy</p>
+<p><span class="math display">\[r_b^2+r_br_c+r_c^2=\frac3\Lambda.\]</span></p>
+<p>Defining</p>
+<p><span class="math display">\[q=\frac{r_b}{r_c},\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[A_b=\frac{12\pi q^2}{\Lambda(1+q+q^2)},\]</span></p>
+<p><span class="math display">\[A_c=\frac{12\pi}{\Lambda(1+q+q^2)},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\frac{A_b}{A_c}=q^2.\]</span></p>
+<p>Derived Multiplicity Gap</p>
+<p>Using the common horizon calibration,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+<!-- source_pdf_page: 1577 -->
+<p>Independently Derived Maximum</p>
+<p>The double-root conditions give</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[M_N=\frac{c^2}{3G\sqrt\Lambda}.\]</span></p>
+<p>Exact Projection Test</p>
+<p>At the independently determined Nariai maximum,</p>
+<p><span class="math display">\[q=1,\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=0.\]</span></p>
+<p>Thus the exact physical maximum satisfies the independently proposed R²D marginal condition.</p>
+<p>Not Established Here</p>
+<p>This addendum does not derive:</p>
+<blockquote class="blockquote">
+<p>• Schwarzschild–de Sitter geometry from primitive R²D counting; • the value of Λ; • the Bekenstein–Hawking calibration; • the microscopic horizon multiplicities; • the Nariai temperature; • the physical clock of the replacement landscape; • or the recurrence relation surviving horizon-branch coalescence.</p>
+</blockquote>
+<p>Those recurrence questions are deliberately deferred.</p>
+</section>
+<section id="the-central-r²d-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-r²d-inversion">57. The Central R²D Inversion</h2>
+<p>The conventional description is</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(M\uparrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[r_b\uparrow,\qquad r_c\downarrow\]</span></p>
+<!-- source_pdf_page: 1578 -->
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[r_b=r_c\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Nariai.</p>
+</blockquote>
+<p>R²D resolves the same physical relation one level earlier:</p>
+<blockquote class="blockquote">
+<p>shared gravitational boundary relation</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[W_b(M),\qquad W_c(M)\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}.\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[\Delta S_{c\mid b}\longrightarrow0\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[A_b\longrightarrow A_c\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[r_b\longrightarrow r_c\]</span></p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>double-root landscape</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<p><span class="math display">\[M\longrightarrow M_N.\]</span></p>
+<p>The mass limit is the last physical coordinate assigned to the transition.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">58. Conclusion</h2>
+<p>Addendum 44 proposed that a gravitational multiplicity well reaches its enclosing limit when the multiplicity distinction separating subordinate and enclosing count boundaries vanishes.</p>
+<p>The proposed count coordinate was</p>
+<!-- source_pdf_page: 1579 -->
+<p><span class="math display">\[\Delta S_{E\mid H}=\ln\frac{W_E}{W_H}.\]</span></p>
+<p>Its marginal condition was</p>
+<p><span class="math display">\[\Delta S_{E\mid H}=0.\]</span></p>
+<p>That proposal was made without invoking Schwarzschild–de Sitter geometry or the Nariai solution.</p>
+<p>Schwarzschild–de Sitter therefore provides an independent exact physical test.</p>
+<p>Its black-hole and cosmological horizons are positive roots of</p>
+<p><span class="math display">\[f(r)=1-\frac{2GM}{c^2r}-\frac{\Lambda r^2}{3}.\]</span></p>
+<p>The two positive roots are coupled by</p>
+<p><span class="math display">\[r_b^2+r_br_c+r_c^2=\frac3\Lambda.\]</span></p>
+<p>Defining</p>
+<p><span class="math display">\[q=\frac{r_b}{r_c},\]</span></p>
+<p>their areas are</p>
+<p><span class="math display">\[A_b=\frac{12\pi q^2}{\Lambda(1+q+q^2)},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[A_c=\frac{12\pi}{\Lambda(1+q+q^2)}.\]</span></p>
+<p>With the common horizon multiplicity calibration,</p>
+<p><span class="math display">\[S_b=\ln W_b=\frac{A_b}{4\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_c=\ln W_c=\frac{A_c}{4\ell_P^2},\]</span></p>
+<p>the exact multiplicity gap is</p>
+<!-- source_pdf_page: 1580 -->
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}=\frac{3\pi}{\Lambda\ell_P^2}\frac{1-q^2}{1+q+q^2}.\]</span></p>
+<p>Throughout the ordinary two-horizon regime,</p>
+<p><span class="math display">\[q&lt;1,\]</span></p>
+<p>so</p>
+<p><span class="math display">\[\Delta S_{c\mid b}&gt;0.\]</span></p>
+<p>The subordinate and enclosing horizon classes remain multiplicatively distinct.</p>
+<p>The independently known physical maximum occurs when the two positive roots form a double root:</p>
+<p><span class="math display">\[f(r_N)=0,\]</span></p>
+<p><span class="math display">\[f'(r_N)=0.\]</span></p>
+<p>This gives</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[M_N=\frac{c^2}{3G\sqrt\Lambda}.\]</span></p>
+<p>At this exact maximum,</p>
+<p><span class="math display">\[r_b=r_c,\]</span></p>
+<p>so</p>
+<p><span class="math display">\[q=1.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[A_b=A_c,\]</span></p>
+<p><span class="math display">\[S_b=S_c,\]</span></p>
+<p>and most importantly,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}=0.\]</span></p>
+<!-- source_pdf_page: 1581 -->
+<p>The exact maximum-mass gravitational solution therefore reaches precisely the count-level marginal condition proposed independently in Addendum 44.</p>
+<p>The enclosing cosmological boundary does not remain fixed while the black-hole multiplicity well grows.</p>
+<p>Instead,</p>
+<p><span class="math display">\[A_b\uparrow\]</span></p>
+<p>while</p>
+<p><span class="math display">\[A_c\downarrow.\]</span></p>
+<p>At zero black-hole mass,</p>
+<p><span class="math display">\[A_{\mathrm{dS}}=\frac{12\pi}{\Lambda}.\]</span></p>
+<p>At Nariai,</p>
+<p><span class="math display">\[A_b=A_c=\frac{4\pi}{\Lambda}.\]</span></p>
+<p>Thus the enclosing area contracts to one third of its pure de Sitter value while the subordinate horizon grows to meet it.</p>
+<p>The limit is therefore not a local well filling a fixed box.</p>
+<p>It is coupled boundary reorganization.</p>
+<p>At the point where the multiplicity gap disappears, the two positive horizon roots also coalesce.</p>
+<p>The old two-horizon count classification has lost the distinction required to sustain it.</p>
+<p>The physical system need not disappear.</p>
+<p>A replacement gravitational landscape can remain.</p>
+<p>What fails is the old classification.</p>
+<p>The clock and recurrence associated with that replacement landscape are separate questions.</p>
+<p>They come next.</p>
+<p>The causal hierarchy established here is</p>
+<p>shared gravitational relation → coupled horizon multiplicities → multiplicity-gap closure → areal equality → root… [PDF line clipped; author review required.]</p>
+<!-- source_pdf_page: 1582 -->
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>multiplicity-gap closure occurs before the Nariai limit.</p>
+</blockquote>
+<p>And more specifically:</p>
+<p>the Nariai maximum mass is the physical source-coordinate read of an exact gravitational boundary… [PDF line clipped; author review required.]</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="pagination-link" aria-label="Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="pagination-link" aria-label="Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

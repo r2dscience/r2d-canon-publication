@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" rel="next">
+<link href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-47-horizon-countclock-calibration-persists-across-boundary-replacement" id="toc-addendum-47-horizon-countclock-calibration-persists-across-boundary-replacement" class="nav-link active" data-scroll-target="#addendum-47-horizon-countclock-calibration-persists-across-boundary-replacement">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#addendum-46-left-an-invariance-question" id="toc-addendum-46-left-an-invariance-question" class="nav-link" data-scroll-target="#addendum-46-left-an-invariance-question">1. Addendum 46 Left an Invariance Question</a></li>
+  <li><a href="#r²d-does-not-require-physical-coordinates-to-survive-replacement" id="toc-r²d-does-not-require-physical-coordinates-to-survive-replacement" class="nav-link" data-scroll-target="#r²d-does-not-require-physical-coordinates-to-survive-replacement">2. R²D Does Not Require Physical Coordinates to Survive Replacement</a></li>
+  <li><a href="#recursive-replacement-preserves-relation-more-naturally-than-identity" id="toc-recursive-replacement-preserves-relation-more-naturally-than-identity" class="nav-link" data-scroll-target="#recursive-replacement-preserves-relation-more-naturally-than-identity">3. Recursive Replacement Preserves Relation More Naturally Than Identity</a></li>
+  <li><a href="#pure-de-sitter-provides-a-reference-horizon-calibration" id="toc-pure-de-sitter-provides-a-reference-horizon-calibration" class="nav-link" data-scroll-target="#pure-de-sitter-provides-a-reference-horizon-calibration">4. Pure de Sitter Provides a Reference Horizon Calibration</a></li>
+  <li><a href="#the-de-sitter-horizon-multiplicity-coordinate" id="toc-the-de-sitter-horizon-multiplicity-coordinate" class="nav-link" data-scroll-target="#the-de-sitter-horizon-multiplicity-coordinate">5. The de Sitter Horizon Multiplicity Coordinate</a></li>
+  <li><a href="#the-de-sitter-horizon-has-a-thermal-phase-clock-read" id="toc-the-de-sitter-horizon-has-a-thermal-phase-clock-read" class="nav-link" data-scroll-target="#the-de-sitter-horizon-has-a-thermal-phase-clock-read">6. The de Sitter Horizon Has a Thermal Phase-Clock Read</a></li>
+  <li><a href="#radius-and-clock-are-reciprocal-in-the-de-sitter-calibration" id="toc-radius-and-clock-are-reciprocal-in-the-de-sitter-calibration" class="nav-link" data-scroll-target="#radius-and-clock-are-reciprocal-in-the-de-sitter-calibration">7. Radius and Clock Are Reciprocal in the de Sitter Calibration</a></li>
+  <li><a href="#the-replacement-nariai-horizon-has-a-different-radius" id="toc-the-replacement-nariai-horizon-has-a-different-radius" class="nav-link" data-scroll-target="#the-replacement-nariai-horizon-has-a-different-radius">8. The Replacement Nariai Horizon Has a Different Radius</a></li>
+  <li><a href="#its-boundary-area-is-smaller-by-a-factor-of-three" id="toc-its-boundary-area-is-smaller-by-a-factor-of-three" class="nav-link" data-scroll-target="#its-boundary-area-is-smaller-by-a-factor-of-three">9. Its Boundary Area Is Smaller by a Factor of Three</a></li>
+  <li><a href="#its-multiplicity-coordinate-changes-by-the-same-factor" id="toc-its-multiplicity-coordinate-changes-by-the-same-factor" class="nav-link" data-scroll-target="#its-multiplicity-coordinate-changes-by-the-same-factor">10. Its Multiplicity Coordinate Changes by the Same Factor</a></li>
+  <li><a href="#its-physical-clock-changes-in-the-opposite-direction" id="toc-its-physical-clock-changes-in-the-opposite-direction" class="nav-link" data-scroll-target="#its-physical-clock-changes-in-the-opposite-direction">11. Its Physical Clock Changes in the Opposite Direction</a></li>
+  <li><a href="#neither-coordinate-is-preserved" id="toc-neither-coordinate-is-preserved" class="nav-link" data-scroll-target="#neither-coordinate-is-preserved">12. Neither Coordinate Is Preserved</a></li>
+  <li><a href="#their-changes-are-reciprocal" id="toc-their-changes-are-reciprocal" class="nav-link" data-scroll-target="#their-changes-are-reciprocal">13. Their Changes Are Reciprocal</a></li>
+  <li><a href="#evaluate-the-shared-relation-explicitly" id="toc-evaluate-the-shared-relation-explicitly" class="nav-link" data-scroll-target="#evaluate-the-shared-relation-explicitly">14. Evaluate the Shared Relation Explicitly</a></li>
+  <li><a href="#the-nariai-horizon-gives-the-same-result" id="toc-the-nariai-horizon-gives-the-same-result" class="nav-link" data-scroll-target="#the-nariai-horizon-gives-the-same-result">15. The Nariai Horizon Gives the Same Result</a></li>
+  <li><a href="#remove-the-planck-length-calibration" id="toc-remove-the-planck-length-calibration" class="nav-link" data-scroll-target="#remove-the-planck-length-calibration">16. Remove the Planck-Length Calibration</a></li>
+  <li><a href="#define-a-dimensionless-gravitational-clock-coupling" id="toc-define-a-dimensionless-gravitational-clock-coupling" class="nav-link" data-scroll-target="#define-a-dimensionless-gravitational-clock-coupling">17. Define a Dimensionless Gravitational Clock Coupling</a></li>
+  <li><a href="#the-coupling-changes-while-the-product-does-not" id="toc-the-coupling-changes-while-the-product-does-not" class="nav-link" data-scroll-target="#the-coupling-changes-while-the-product-does-not">18. The Coupling Changes While the Product Does Not</a></li>
+  <li><a href="#this-is-not-conservation-of-entropy" id="toc-this-is-not-conservation-of-entropy" class="nav-link" data-scroll-target="#this-is-not-conservation-of-entropy">19. This Is Not Conservation of Entropy</a></li>
+  <li><a href="#this-is-not-conservation-of-frequency" id="toc-this-is-not-conservation-of-frequency" class="nav-link" data-scroll-target="#this-is-not-conservation-of-frequency">20. This Is Not Conservation of Frequency</a></li>
+  <li><a href="#nor-is-it-conservation-of-radius-or-area" id="toc-nor-is-it-conservation-of-radius-or-area" class="nav-link" data-scroll-target="#nor-is-it-conservation-of-radius-or-area">21. Nor Is It Conservation of Radius or Area</a></li>
+  <li><a href="#the-invariant-comes-from-the-joint-scaling-structure" id="toc-the-invariant-comes-from-the-joint-scaling-structure" class="nav-link" data-scroll-target="#the-invariant-comes-from-the-joint-scaling-structure">22. The Invariant Comes From the Joint Scaling Structure</a></li>
+  <li><a href="#boundary-projects-onto-area" id="toc-boundary-projects-onto-area" class="nav-link" data-scroll-target="#boundary-projects-onto-area">23. Boundary Projects Onto Area</a></li>
+  <li><a href="#the-physical-clock-is-reciprocal-to-the-boundary-scale" id="toc-the-physical-clock-is-reciprocal-to-the-boundary-scale" class="nav-link" data-scroll-target="#the-physical-clock-is-reciprocal-to-the-boundary-scale">24. The Physical Clock Is Reciprocal to the Boundary Scale</a></li>
+  <li><a href="#the-product-removes-the-physical-radius" id="toc-the-product-removes-the-physical-radius" class="nav-link" data-scroll-target="#the-product-removes-the-physical-radius">25. The Product Removes the Physical Radius</a></li>
+  <li><a href="#this-is-not-entropy-as-circumference" id="toc-this-is-not-entropy-as-circumference" class="nav-link" data-scroll-target="#this-is-not-entropy-as-circumference">26. This Is Not Entropy as Circumference</a></li>
+  <li><a href="#nor-is-this-a-primitive-lambdatau-relation" id="toc-nor-is-this-a-primitive-lambdatau-relation" class="nav-link" data-scroll-target="#nor-is-this-a-primitive-lambdatau-relation">27. Nor Is This a Primitive <span class="math inline">\(\lambda\)</span>–<span class="math inline">\(\tau\)</span> Relation</a></li>
+  <li><a href="#the-algebra-alone-does-not-establish-a-new-fundamental-law" id="toc-the-algebra-alone-does-not-establish-a-new-fundamental-law" class="nav-link" data-scroll-target="#the-algebra-alone-does-not-establish-a-new-fundamental-law">28. The Algebra Alone Does Not Establish a New Fundamental Law</a></li>
+  <li><a href="#the-result-is-therefore-a-calibration-class-invariant" id="toc-the-result-is-therefore-a-calibration-class-invariant" class="nav-link" data-scroll-target="#the-result-is-therefore-a-calibration-class-invariant">29. The Result Is Therefore a Calibration-Class Invariant</a></li>
+  <li><a href="#this-is-replacement-coherence-not-transport" id="toc-this-is-replacement-coherence-not-transport" class="nav-link" data-scroll-target="#this-is-replacement-coherence-not-transport">30. This Is Replacement Coherence, Not Transport</a></li>
+  <li><a href="#pure-de-sitter-is-not-the-state-immediately-before-nariai" id="toc-pure-de-sitter-is-not-the-state-immediately-before-nariai" class="nav-link" data-scroll-target="#pure-de-sitter-is-not-the-state-immediately-before-nariai">31. Pure de Sitter Is Not the State Immediately Before Nariai</a></li>
+  <li><a href="#the-relation-is-not-claimed-to-be-constant-along-the-full-family" id="toc-the-relation-is-not-claimed-to-be-constant-along-the-full-family" class="nav-link" data-scroll-target="#the-relation-is-not-claimed-to-be-constant-along-the-full-family">32. The Relation Is Not Claimed to Be Constant Along the Full Family</a></li>
+  <li><a href="#the-replacement-statement-is-local-to-nariai" id="toc-the-replacement-statement-is-local-to-nariai" class="nav-link" data-scroll-target="#the-replacement-statement-is-local-to-nariai">33. The Replacement Statement Is Local to Nariai</a></li>
+  <li><a href="#the-de-sitter-comparison-identifies-the-shared-class" id="toc-the-de-sitter-comparison-identifies-the-shared-class" class="nav-link" data-scroll-target="#the-de-sitter-comparison-identifies-the-shared-class">34. The de Sitter Comparison Identifies the Shared Class</a></li>
+  <li><a href="#this-is-the-r²d-pattern-of-relation-without-identity" id="toc-this-is-the-r²d-pattern-of-relation-without-identity" class="nav-link" data-scroll-target="#this-is-the-r²d-pattern-of-relation-without-identity">35. This Is the R²D Pattern of Relation Without Identity</a></li>
+  <li><a href="#the-result-mirrors-the-general-r²d-replacement-architecture" id="toc-the-result-mirrors-the-general-r²d-replacement-architecture" class="nav-link" data-scroll-target="#the-result-mirrors-the-general-r²d-replacement-architecture">36. The Result Mirrors the General R²D Replacement Architecture</a></li>
+  <li><a href="#this-does-not-mean-the-two-boundaries-are-the-same-boundary" id="toc-this-does-not-mean-the-two-boundaries-are-the-same-boundary" class="nav-link" data-scroll-target="#this-does-not-mean-the-two-boundaries-are-the-same-boundary">37. This Does Not Mean the Two Boundaries Are the Same Boundary</a></li>
+  <li><a href="#the-invariant-is-also-not-an-energy-conservation-law" id="toc-the-invariant-is-also-not-an-energy-conservation-law" class="nav-link" data-scroll-target="#the-invariant-is-also-not-an-energy-conservation-law">38. The Invariant Is Also Not an Energy Conservation Law</a></li>
+  <li><a href="#nor-is-it-a-statement-of-total-horizon-entropy-conservation" id="toc-nor-is-it-a-statement-of-total-horizon-entropy-conservation" class="nav-link" data-scroll-target="#nor-is-it-a-statement-of-total-horizon-entropy-conservation">39. Nor Is It a Statement of Total Horizon Entropy Conservation</a></li>
+  <li><a href="#the-factor-of-two-between-nariai-horizons-does-not-alter-the-calibration-result" id="toc-the-factor-of-two-between-nariai-horizons-does-not-alter-the-calibration-result" class="nav-link" data-scroll-target="#the-factor-of-two-between-nariai-horizons-does-not-alter-the-calibration-result">40. The Factor of Two Between Nariai Horizons Does Not Alter the Calibration Result</a></li>
+  <li><a href="#principle-horizon-countclock-calibration" id="toc-principle-horizon-countclock-calibration" class="nav-link" data-scroll-target="#principle-horizon-countclock-calibration">41. Principle — Horizon Count–Clock Calibration</a></li>
+  <li><a href="#principle-replacement-calibration-coherence" id="toc-principle-replacement-calibration-coherence" class="nav-link" data-scroll-target="#principle-replacement-calibration-coherence">42. Principle — Replacement Calibration Coherence</a></li>
+  <li><a href="#corollary-de-sitternariai-reciprocal-rescaling" id="toc-corollary-de-sitternariai-reciprocal-rescaling" class="nav-link" data-scroll-target="#corollary-de-sitternariai-reciprocal-rescaling">43. Corollary — de Sitter–Nariai Reciprocal Rescaling</a></li>
+  <li><a href="#corollary-boundary-scale-is-eliminated-from-the-relation" id="toc-corollary-boundary-scale-is-eliminated-from-the-relation" class="nav-link" data-scroll-target="#corollary-boundary-scale-is-eliminated-from-the-relation">44. Corollary — Boundary Scale Is Eliminated From the Relation</a></li>
+  <li><a href="#the-result-suggests-where-a-deeper-gravitational-invariant-may-live" id="toc-the-result-suggests-where-a-deeper-gravitational-invariant-may-live" class="nav-link" data-scroll-target="#the-result-suggests-where-a-deeper-gravitational-invariant-may-live">45. The Result Suggests Where a Deeper Gravitational Invariant May Live</a></li>
+  <li><a href="#a-universal-claim-would-require-more-tests" id="toc-a-universal-claim-would-require-more-tests" class="nav-link" data-scroll-target="#a-universal-claim-would-require-more-tests">46. A Universal Claim Would Require More Tests</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">47. Logical Status</a></li>
+  <li><a href="#the-central-r²d-inversion" id="toc-the-central-r²d-inversion" class="nav-link" data-scroll-target="#the-central-r²d-inversion">48. The Central R²D Inversion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">49. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-47-horizon-countclock-calibration-persists-across-boundary-replacement" class="level1">
+<h1>Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 46 established that the Nariai limit is a boundary-clock replacement problem.</p>
+<p>As the Schwarzschild–de Sitter black-hole and cosmological horizon branches coalesce, their multiplicity gap vanishes,</p>
+<p><span class="math display">\[\Delta S_{c\mid b}=\ln\frac{W_c}{W_b}\longrightarrow0,\]</span></p>
+<p>while the ordinary static-patch clock also degenerates:</p>
+<p><span class="math display">\[\omega_b^{(0)},\omega_c^{(0)}\longrightarrow0.\]</span></p>
+<p>The normalization defining that clock vanishes at the same boundary,</p>
+<p><span class="math display">\[N_{\mathrm{stat}}\longrightarrow0.\]</span></p>
+<p>The replacement Nariai landscape nevertheless possesses the finite boundary-appropriate phase-frequency read</p>
+<p><span class="math display">\[\omega_N=\frac{c\sqrt\Lambda}{2\pi}.\]</span></p>
+<p>Thus neither the old clock nor the old two-horizon multiplicity classification survives unchanged.</p>
+<p>The present addendum asks the next R²D question:</p>
+<blockquote class="blockquote">
+<p>If the physical count and physical clock both change under boundary replacement, does a deeper relation remain coherent?</p>
+</blockquote>
+<p>Pure de Sitter provides an independent horizon calibration within the same Λ-defined gravitational family.</p>
+<p>Its horizon radius is</p>
+<p><span class="math display">\[r_{\mathrm{dS}}=\sqrt{\frac3\Lambda},\]</span></p>
+<p>its horizon multiplicity coordinate is</p>
+<!-- source_pdf_page: 1615 -->
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{3\pi}{\Lambda\ell_P^2},\]</span></p>
+<p>and its Gibbons–Hawking phase-frequency read is</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}=\frac{c}{2\pi}\sqrt{\frac\Lambda3}.\]</span></p>
+<p>The replacement Nariai horizon has</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda},\]</span></p>
+<p><span class="math display">\[S_N=\frac\pi{\Lambda\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_N=\frac{c\sqrt\Lambda}{2\pi}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}},\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}}.\]</span></p>
+<p>Neither physical coordinate is invariant.</p>
+<p>But their combined relation is:</p>
+<p><span class="math display">\[S_N\omega_N^2=S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2.\]</span></p>
+<p>Explicitly,</p>
+<p><span class="math display">\[S\omega^2=\frac{c^2}{4\pi\ell_P^2}=\frac{c^5}{4\pi G\hbar}.\]</span></p>
+<p>Define the dimensionless gravitational count–clock coupling</p>
+<p><span class="math display">\[\alpha_G^\omega\equiv\frac{G\hbar\omega^2}{c^5}.\]</span></p>
+<p>Then both horizon calibrations satisfy</p>
+<!-- source_pdf_page: 1616 -->
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>This relation is not introduced here as a new primitive R²D law.</p>
+<p>It follows algebraically whenever two physical calibrations hold:</p>
+<p><span class="math display">\[S=\frac{\pi r^2}{\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega=\frac{c}{2\pi r}.\]</span></p>
+<p>Its significance is instead relational.</p>
+<p>Pure de Sitter and Nariai possess different radii, different horizon multiplicities, different physical clocks, and different boundary classifications. Yet both realize the same dimensionless count–clock calibration.</p>
+<p>Thus boundary replacement need not preserve either physical coordinate separately.</p>
+<p>It can preserve the relation connecting them.</p>
+<p>This is the R²D meaning of replacement coherence:</p>
+<blockquote class="blockquote">
+<p>state identity changes; relational organization persists.</p>
+</blockquote>
+<p>The result is not a conservation law along the full Schwarzschild–de Sitter family.</p>
+<p>It does not imply</p>
+<p><span class="math display">\[\frac{d}{dM}(S\omega^2)=0.\]</span></p>
+<p>Nor does it imply that pure de Sitter is the state immediately preceding Nariai.</p>
+<p>Instead, the result identifies a common gravitational calibration class realized by two different horizon landscapes.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>horizon count–clock calibration persists across boundary replacement.</p>
+</blockquote>
+<p>More precisely:</p>
+<p>boundary replacement can change both the physical horizon count and the physical clock while pres… [PDF line clipped; author review required.]</p>
+<!-- source_pdf_page: 1617 -->
+</section>
+<section id="addendum-46-left-an-invariance-question" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-46-left-an-invariance-question">1. Addendum 46 Left an Invariance Question</h2>
+<p>Addendum 46 established that the ordinary Schwarzschild–de Sitter clock does not survive the Nariai boundary unchanged.</p>
+<p>The ordinary static-patch frequencies satisfy</p>
+<p><span class="math display">\[\omega_b^{(0)},\omega_c^{(0)}\longrightarrow0.\]</span></p>
+<p>The normalization defining the old clock also satisfies</p>
+<p><span class="math display">\[N_{\mathrm{stat}}\longrightarrow0.\]</span></p>
+<p>A replacement Nariai clock is instead read as</p>
+<p><span class="math display">\[\omega_N=\frac{c\sqrt\Lambda}{2\pi}.\]</span></p>
+<p>Thus physical frequency itself is not what remains unchanged.</p>
+<p>The next question is therefore not</p>
+<blockquote class="blockquote">
+<p>Which clock is the true clock?</p>
+</blockquote>
+<p>It is:</p>
+<blockquote class="blockquote">
+<p>What relation, if any, remains coherent when the clock changes?</p>
+</blockquote>
+</section>
+<section id="r²d-does-not-require-physical-coordinates-to-survive-replacement" class="level2">
+<h2 class="anchored" data-anchor-id="r²d-does-not-require-physical-coordinates-to-survive-replacement">2. R²D Does Not Require Physical Coordinates to Survive Replacement</h2>
+<p>R²D assigns physical coordinates relative to count boundaries.</p>
+<p>A change of boundary classification can therefore change:</p>
+<p><span class="math display">\[r,\]</span></p>
+<p><span class="math display">\[A,\]</span></p>
+<p><span class="math display">\[S,\]</span></p>
+<p><span class="math display">\[\omega,\]</span></p>
+<p><span class="math display">\[T,\]</span></p>
+<p>and other dimensional reads.</p>
+<!-- source_pdf_page: 1618 -->
+<p>No contradiction follows merely because these coordinates do not remain numerically constant.</p>
+<p>A deeper invariant, if one exists, should be sought in the relation among the reads rather than in their individual values.</p>
+</section>
+<section id="recursive-replacement-preserves-relation-more-naturally-than-identity" class="level2">
+<h2 class="anchored" data-anchor-id="recursive-replacement-preserves-relation-more-naturally-than-identity">3. Recursive Replacement Preserves Relation More Naturally Than Identity</h2>
+<p>The R²D architecture does not require subordinate realization identities to survive recursive reclassification.</p>
+<p>What can survive is relational organization.</p>
+<p>Schematically,</p>
+<p><span class="math display">\[\mathcal R_{\mathrm{old}}\longrightarrow\mathcal R_{\mathrm{new}},\]</span></p>
+<p>while</p>
+<blockquote class="blockquote">
+<p>relational form</p>
+</blockquote>
+<p>may remain coherent even when the individual physical realizations differ.</p>
+<p>This is the appropriate standard for the de Sitter–Nariai comparison.</p>
+</section>
+<section id="pure-de-sitter-provides-a-reference-horizon-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="pure-de-sitter-provides-a-reference-horizon-calibration">4. Pure de Sitter Provides a Reference Horizon Calibration</h2>
+<p>For pure de Sitter space,</p>
+<p><span class="math display">\[M=0.\]</span></p>
+<p>The cosmological horizon radius is</p>
+<p><span class="math display">\[r_{\mathrm{dS}}=\sqrt{\frac3\Lambda}.\]</span></p>
+<p>Its spherical boundary area is</p>
+<p><span class="math display">\[A_{\mathrm{dS}}=4\pi r_{\mathrm{dS}}^2.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[A_{\mathrm{dS}}=\frac{12\pi}{\Lambda}.\]</span></p>
+<!-- source_pdf_page: 1619 -->
+</section>
+<section id="the-de-sitter-horizon-multiplicity-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="the-de-sitter-horizon-multiplicity-coordinate">5. The de Sitter Horizon Multiplicity Coordinate</h2>
+<p>Using the horizon multiplicity calibration,</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{12\pi/\Lambda}{4\ell_P^2}.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{3\pi}{\Lambda\ell_P^2}.\]</span></p>
+<p>And therefore,</p>
+<p><span class="math display">\[W_{\mathrm{dS}}=\exp\!\left(\frac{3\pi}{\Lambda\ell_P^2}\right).\]</span></p>
+</section>
+<section id="the-de-sitter-horizon-has-a-thermal-phase-clock-read" class="level2">
+<h2 class="anchored" data-anchor-id="the-de-sitter-horizon-has-a-thermal-phase-clock-read">6. The de Sitter Horizon Has a Thermal Phase-Clock Read</h2>
+<p>Define the de Sitter Hubble scale</p>
+<p><span class="math display">\[H_{\mathrm{dS}}=c\sqrt{\frac\Lambda3}.\]</span></p>
+<p>The Gibbons–Hawking thermal phase-frequency read is</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}=\frac{H_{\mathrm{dS}}}{2\pi}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}=\frac{c}{2\pi}\sqrt{\frac\Lambda3}.\]</span></p>
+<p>This is a physical frequency calibration.</p>
+<p>It is not identified with primitive R²D recurrence.</p>
+<!-- source_pdf_page: 1620 -->
+</section>
+<section id="radius-and-clock-are-reciprocal-in-the-de-sitter-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="radius-and-clock-are-reciprocal-in-the-de-sitter-calibration">7. Radius and Clock Are Reciprocal in the de Sitter Calibration</h2>
+<p>Using</p>
+<p><span class="math display">\[r_{\mathrm{dS}}=\sqrt{\frac3\Lambda},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}=\frac{c}{2\pi r_{\mathrm{dS}}}.\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[2\pi r_{\mathrm{dS}}\omega_{\mathrm{dS}}=c.\]</span></p>
+<p>This is the physical cycle–phase calibration of the de Sitter horizon.</p>
+</section>
+<section id="the-replacement-nariai-horizon-has-a-different-radius" class="level2">
+<h2 class="anchored" data-anchor-id="the-replacement-nariai-horizon-has-a-different-radius">8. The Replacement Nariai Horizon Has a Different Radius</h2>
+<p>At Nariai,</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{r_N}{r_{\mathrm{dS}}}=\frac{1/\sqrt\Lambda}{\sqrt{3/\Lambda}}=\frac1{\sqrt3}.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[r_N=\frac{r_{\mathrm{dS}}}{\sqrt3}.\]</span></p>
+<p>The replacement horizon is smaller by a factor of 3.</p>
+</section>
+<section id="its-boundary-area-is-smaller-by-a-factor-of-three" class="level2">
+<h2 class="anchored" data-anchor-id="its-boundary-area-is-smaller-by-a-factor-of-three">9. Its Boundary Area Is Smaller by a Factor of Three</h2>
+<p>Since</p>
+<p><span class="math display">\[A=4\pi r^2,\]</span></p>
+<p>we obtain</p>
+<!-- source_pdf_page: 1621 -->
+<p><span class="math display">\[A_N=4\pi r_N^2=\frac{4\pi}{\Lambda}.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[A_N=\frac13A_{\mathrm{dS}}.\]</span></p>
+<p>This is a change in physical boundary area.</p>
+</section>
+<section id="its-multiplicity-coordinate-changes-by-the-same-factor" class="level2">
+<h2 class="anchored" data-anchor-id="its-multiplicity-coordinate-changes-by-the-same-factor">10. Its Multiplicity Coordinate Changes by the Same Factor</h2>
+<p>Using</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[S_N=\frac\pi{\Lambda\ell_P^2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}}.\]</span></p>
+<p>The replacement boundary does not preserve the old horizon count.</p>
+</section>
+<section id="its-physical-clock-changes-in-the-opposite-direction" class="level2">
+<h2 class="anchored" data-anchor-id="its-physical-clock-changes-in-the-opposite-direction">11. Its Physical Clock Changes in the Opposite Direction</h2>
+<p>Addendum 46 established the boundary-appropriate Nariai phase-frequency read</p>
+<p><span class="math display">\[\omega_N=\frac{c\sqrt\Lambda}{2\pi}.\]</span></p>
+<p>Compare this with</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}=\frac{c}{2\pi}\sqrt{\frac\Lambda3}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}}.\]</span></p>
+<!-- source_pdf_page: 1622 -->
+<p>The smaller replacement boundary carries the faster physical clock calibration.</p>
+</section>
+<section id="neither-coordinate-is-preserved" class="level2">
+<h2 class="anchored" data-anchor-id="neither-coordinate-is-preserved">12. Neither Coordinate Is Preserved</h2>
+<p>We have</p>
+<p><span class="math display">\[S_N\ne S_{\mathrm{dS}},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_N\ne\omega_{\mathrm{dS}}.\]</span></p>
+<p>More specifically,</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}},\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}}.\]</span></p>
+<p>Thus neither horizon multiplicity nor horizon phase frequency is individually invariant.</p>
+</section>
+<section id="their-changes-are-reciprocal" class="level2">
+<h2 class="anchored" data-anchor-id="their-changes-are-reciprocal">13. Their Changes Are Reciprocal</h2>
+<p>Square the frequency relation:</p>
+<p><span class="math display">\[\omega_N^2=3\omega_{\mathrm{dS}}^2.\]</span></p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}}.\]</span></p>
+<p>Multiply by</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}}.\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[S_N\omega_N^2=\frac13S_{\mathrm{dS}}(3\omega_{\mathrm{dS}}^2).\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_N\omega_N^2=S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2.\]</span></p>
+<p>A relational quantity survives even though its individual physical coordinates do not.</p>
+<!-- source_pdf_page: 1623 -->
+</section>
+<section id="evaluate-the-shared-relation-explicitly" class="level2">
+<h2 class="anchored" data-anchor-id="evaluate-the-shared-relation-explicitly">14. Evaluate the Shared Relation Explicitly</h2>
+<p>For de Sitter,</p>
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{3\pi}{\Lambda\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}^2=\frac{c^2\Lambda}{12\pi^2},\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2=\frac{3\pi}{\Lambda\ell_P^2}\frac{c^2\Lambda}{12\pi^2}.\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2=\frac{c^2}{4\pi\ell_P^2}.\]</span></p>
+</section>
+<section id="the-nariai-horizon-gives-the-same-result" class="level2">
+<h2 class="anchored" data-anchor-id="the-nariai-horizon-gives-the-same-result">15. The Nariai Horizon Gives the Same Result</h2>
+<p>For Nariai,</p>
+<p><span class="math display">\[S_N=\frac\pi{\Lambda\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_N^2=\frac{c^2\Lambda}{4\pi^2},\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[S_N\omega_N^2=\frac\pi{\Lambda\ell_P^2}\frac{c^2\Lambda}{4\pi^2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_N\omega_N^2=\frac{c^2}{4\pi\ell_P^2}.\]</span></p>
+<p>The two boundary realizations share exactly the same count–clock relation.</p>
+<!-- source_pdf_page: 1624 -->
+</section>
+<section id="remove-the-planck-length-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="remove-the-planck-length-calibration">16. Remove the Planck-Length Calibration</h2>
+<p>Using</p>
+<p><span class="math display">\[\ell_P^2=\frac{G\hbar}{c^3},\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\frac{c^2}{4\pi\ell_P^2}=\frac{c^5}{4\pi G\hbar}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S\omega^2=\frac{c^5}{4\pi G\hbar}.\]</span></p>
+<p>This is the common dimensional form of the calibration relation.</p>
+</section>
+<section id="define-a-dimensionless-gravitational-clock-coupling" class="level2">
+<h2 class="anchored" data-anchor-id="define-a-dimensionless-gravitational-clock-coupling">17. Define a Dimensionless Gravitational Clock Coupling</h2>
+<p>Define</p>
+<p><span class="math display">\[\alpha_G^\omega\equiv\frac{G\hbar\omega^2}{c^5}.\]</span></p>
+<p>The quantity is dimensionless.</p>
+<p>Then the shared count–clock relation becomes</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>Thus both pure de Sitter and Nariai satisfy</p>
+<p><span class="math display">\[4\pi\alpha_{G,\mathrm{dS}}^\omega S_{\mathrm{dS}}=1,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[4\pi\alpha_{G,N}^\omega S_N=1.\]</span></p>
+</section>
+<section id="the-coupling-changes-while-the-product-does-not" class="level2">
+<h2 class="anchored" data-anchor-id="the-coupling-changes-while-the-product-does-not">18. The Coupling Changes While the Product Does Not</h2>
+<p>Because</p>
+<!-- source_pdf_page: 1625 -->
+<p><span class="math display">\[\omega_N^2=3\omega_{\mathrm{dS}}^2,\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[\alpha_{G,N}^\omega=3\alpha_{G,\mathrm{dS}}^\omega.\]</span></p>
+<p>At the same time,</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\alpha_G^\omega\propto S^{-1}.\]</span></p>
+<p>across these two horizon calibrations.</p>
+<p>The dimensionless product remains fixed.</p>
+</section>
+<section id="this-is-not-conservation-of-entropy" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-not-conservation-of-entropy">19. This Is Not Conservation of Entropy</h2>
+<p>The relation</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}}\]</span></p>
+<p>already proves that horizon entropy is not conserved under this comparison.</p>
+<p>Nor is the summed entropy of the two equal Nariai horizon components equal to the original pure de Sitter entropy.</p>
+<p>The invariant is therefore not total entropy conservation.</p>
+<p>It is a relation among boundary-calibrated quantities.</p>
+</section>
+<section id="this-is-not-conservation-of-frequency" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-not-conservation-of-frequency">20. This Is Not Conservation of Frequency</h2>
+<p>Likewise,</p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}}.\]</span></p>
+<p>Frequency changes.</p>
+<p>Thus no physical clock value is being transported unchanged from one landscape to the other.</p>
+<!-- source_pdf_page: 1626 -->
+</section>
+<section id="nor-is-it-conservation-of-radius-or-area" class="level2">
+<h2 class="anchored" data-anchor-id="nor-is-it-conservation-of-radius-or-area">21. Nor Is It Conservation of Radius or Area</h2>
+<p>We also have</p>
+<p><span class="math display">\[r_N=\frac{r_{\mathrm{dS}}}{\sqrt3},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[A_N=\frac13A_{\mathrm{dS}}.\]</span></p>
+<p>The physical geometry changes.</p>
+<p>Therefore the shared relation is not hidden conservation of a dimensional spatial coordinate.</p>
+</section>
+<section id="the-invariant-comes-from-the-joint-scaling-structure" class="level2">
+<h2 class="anchored" data-anchor-id="the-invariant-comes-from-the-joint-scaling-structure">22. The Invariant Comes From the Joint Scaling Structure</h2>
+<p>For the two calibrated spherical horizons,</p>
+<p><span class="math display">\[S\propto r^2,\]</span></p>
+<p>while</p>
+<p><span class="math display">\[\omega\propto r^{-1}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega^2\propto r^{-2}.\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[S\omega^2\propto r^2r^{-2}=1.\]</span></p>
+<p>The cancellation is a direct consequence of the opposed scaling of boundary count and physical clock.</p>
+</section>
+<section id="boundary-projects-onto-area" class="level2">
+<h2 class="anchored" data-anchor-id="boundary-projects-onto-area">23. Boundary Projects Onto Area</h2>
+<p>Addenda 41–43 established the relevant gravitational hierarchy:</p>
+<p><span class="math display">\[\text{boundary}\longrightarrow A.\]</span></p>
+<p>Under spherical projection,</p>
+<p><span class="math display">\[A=4\pi r^2.\]</span></p>
+<!-- source_pdf_page: 1627 -->
+<p>The horizon multiplicity calibration gives</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S\propto r^2.\]</span></p>
+<p>The quadratic count scaling comes from the area projection of the boundary.</p>
+</section>
+<section id="the-physical-clock-is-reciprocal-to-the-boundary-scale" class="level2">
+<h2 class="anchored" data-anchor-id="the-physical-clock-is-reciprocal-to-the-boundary-scale">24. The Physical Clock Is Reciprocal to the Boundary Scale</h2>
+<p>For both boundary calibrations considered here,</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega\propto r^{-1}.\]</span></p>
+<p>The physical clock scales inversely with the boundary radius.</p>
+</section>
+<section id="the-product-removes-the-physical-radius" class="level2">
+<h2 class="anchored" data-anchor-id="the-product-removes-the-physical-radius">25. The Product Removes the Physical Radius</h2>
+<p>Combining</p>
+<p><span class="math display">\[S=\frac{\pi r^2}{\ell_P^2},\]</span></p>
+<p>with</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r},\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[S\omega^2=\frac{\pi r^2}{\ell_P^2}\frac{c^2}{4\pi^2r^2}.\]</span></p>
+<p>The physical radius cancels:</p>
+<p><span class="math display">\[S\omega^2=\frac{c^2}{4\pi\ell_P^2}.\]</span></p>
+<!-- source_pdf_page: 1628 -->
+<p>Thus the relation removes the particular gravitational scale at which the boundary is physically realized.</p>
+</section>
+<section id="this-is-not-entropy-as-circumference" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-not-entropy-as-circumference">26. This Is Not Entropy as Circumference</h2>
+<p>Nothing in the relation requires</p>
+<p><span class="math display">\[S\propto r.\]</span></p>
+<p>Nothing requires entropy to be circumferential.</p>
+<p>The horizon multiplicity coordinate satisfies</p>
+<p><span class="math display">\[S\propto r^2\]</span></p>
+<p>because the boundary is physically projected through area.</p>
+<p>The phase clock satisfies</p>
+<p><span class="math display">\[\omega\propto r^{-1}.\]</span></p>
+<p>The invariant product therefore arises from</p>
+<p><span class="math display">\[r^2\times r^{-2}.\]</span></p>
+<p>No circumferential entropy coordinate is introduced.</p>
+</section>
+<section id="nor-is-this-a-primitive-lambdatau-relation" class="level2">
+<h2 class="anchored" data-anchor-id="nor-is-this-a-primitive-lambdatau-relation">27. Nor Is This a Primitive <span class="math inline">\(\lambda\)</span>–<span class="math inline">\(\tau\)</span> Relation</h2>
+<p>The equation</p>
+<p><span class="math display">\[S\omega^2=\frac{c^5}{4\pi G\hbar}.\]</span></p>
+<p>is written entirely in physically calibrated quantities.</p>
+<p>It does not imply a primitive R²D relation such as</p>
+<p><span class="math display">\[\tau=f(\lambda).\]</span></p>
+<p>It does not establish</p>
+<p><span class="math display">\[\frac{d\tau}{d\lambda}.\]</span></p>
+<p>And it does not identify physical phase frequency with the primitive occurrence coordinate.</p>
+<!-- source_pdf_page: 1629 -->
+<p>The relation remains a physical calibration relation.</p>
+</section>
+<section id="the-algebra-alone-does-not-establish-a-new-fundamental-law" class="level2">
+<h2 class="anchored" data-anchor-id="the-algebra-alone-does-not-establish-a-new-fundamental-law">28. The Algebra Alone Does Not Establish a New Fundamental Law</h2>
+<p>Whenever both</p>
+<p><span class="math display">\[S=\frac{\pi r^2}{\ell_P^2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r}\]</span></p>
+<p>hold, the relation</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1\]</span></p>
+<p>follows algebraically.</p>
+<p>Therefore this addendum does not claim that R²D independently derives the relation from primitive counting.</p>
+<p>The novelty is not the cancellation itself.</p>
+<p>The novelty is that distinct gravitational boundary realizations reproduce the same relation.</p>
+</section>
+<section id="the-result-is-therefore-a-calibration-class-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="the-result-is-therefore-a-calibration-class-invariant">29. The Result Is Therefore a Calibration-Class Invariant</h2>
+<p>Define</p>
+<p><span class="math display">\[I_G\equiv4\pi\alpha_G^\omega S.\]</span></p>
+<p>For pure de Sitter,</p>
+<p><span class="math display">\[I_{G,\mathrm{dS}}=1.\]</span></p>
+<p>For the replacement Nariai horizon,</p>
+<p><span class="math display">\[I_{G,N}=1.\]</span></p>
+<p>Thus the two physical landscapes belong to the same count–clock calibration class.</p>
+<!-- source_pdf_page: 1630 -->
+</section>
+<section id="this-is-replacement-coherence-not-transport" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-replacement-coherence-not-transport">30. This Is Replacement Coherence, Not Transport</h2>
+<p>The correct R²D statement is not</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(I_G\)</span> was physically carried from de Sitter into Nariai.</p>
+</blockquote>
+<p>No such transport has been demonstrated.</p>
+<p>The correct statement is</p>
+<blockquote class="blockquote">
+<p>two different boundary realizations instantiate the same relation.</p>
+</blockquote>
+<p>This is relational coherence.</p>
+</section>
+<section id="pure-de-sitter-is-not-the-state-immediately-before-nariai" class="level2">
+<h2 class="anchored" data-anchor-id="pure-de-sitter-is-not-the-state-immediately-before-nariai">31. Pure de Sitter Is Not the State Immediately Before Nariai</h2>
+<p>The Schwarzschild–de Sitter family contains a continuous range of source masses between</p>
+<p><span class="math display">\[M=0\]</span></p>
+<p>and</p>
+<p><span class="math display">\[M=M_N.\]</span></p>
+<p>Pure de Sitter is the zero-mass endpoint.</p>
+<p>Nariai is the maximum-mass endpoint.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\text{de Sitter}\ne\text{immediate pre-Nariai state}.\]</span></p>
+<p>The comparison in this addendum is between two distinguished horizon calibrations within the same Λ- defined gravitational family.</p>
+</section>
+<section id="the-relation-is-not-claimed-to-be-constant-along-the-full-family" class="level2">
+<h2 class="anchored" data-anchor-id="the-relation-is-not-claimed-to-be-constant-along-the-full-family">32. The Relation Is Not Claimed to Be Constant Along the Full Family</h2>
+<p>The present result does not assert</p>
+<p><span class="math display">\[\frac{d}{dM}(S_h\omega_h^2)=0.\]</span></p>
+<!-- source_pdf_page: 1631 -->
+<p>For generic intermediate Schwarzschild–de Sitter states, the horizon clock normalizations are more complicated.</p>
+<p>The simple relation</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r}\]</span></p>
+<p>does not serve as the same horizon-clock formula for every member of the two-horizon family.</p>
+<p>Thus the invariant identified here is not a continuous first integral in M .</p>
+</section>
+<section id="the-replacement-statement-is-local-to-nariai" class="level2">
+<h2 class="anchored" data-anchor-id="the-replacement-statement-is-local-to-nariai">33. The Replacement Statement Is Local to Nariai</h2>
+<p>As the ordinary two-horizon landscape approaches Nariai,</p>
+<p><span class="math display">\[S_b,S_c\longrightarrow S_N.\]</span></p>
+<p>Under the boundary-appropriate normalization,</p>
+<p><span class="math display">\[\omega_b^{\mathrm{BH}},\omega_c^{\mathrm{BH}}\longrightarrow\omega_N.\]</span></p>
+<p>The limiting landscape therefore possesses the definite pair</p>
+<p><span class="math display">\[(S_N,\omega_N).\]</span></p>
+<p>The replacement boundary is physically well calibrated even though the old static clock has disappeared.</p>
+</section>
+<section id="the-de-sitter-comparison-identifies-the-shared-class" class="level2">
+<h2 class="anchored" data-anchor-id="the-de-sitter-comparison-identifies-the-shared-class">34. The de Sitter Comparison Identifies the Shared Class</h2>
+<p>Pure de Sitter supplies the independent pair</p>
+<p><span class="math display">\[(S_{\mathrm{dS}},\omega_{\mathrm{dS}}).\]</span></p>
+<p>The two pairs differ:</p>
+<p><span class="math display">\[(S_{\mathrm{dS}},\omega_{\mathrm{dS}})\ne(S_N,\omega_N).\quad\text{[Source glyph after relation clipped; author review required.]}\]</span></p>
+<p>But both satisfy</p>
+<p><span class="math display">\[I_G=1.\]</span></p>
+<p>Thus the replacement landscape has changed physical coordinates without leaving the common count– clock calibration class.</p>
+<!-- source_pdf_page: 1632 -->
+</section>
+<section id="this-is-the-r²d-pattern-of-relation-without-identity" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-r²d-pattern-of-relation-without-identity">35. This Is the R²D Pattern of Relation Without Identity</h2>
+<p>The two landscapes differ in:</p>
+<blockquote class="blockquote">
+<p>• horizon radius; • horizon area; • horizon multiplicity; • physical phase frequency; • temperature; • and boundary classification.</p>
+</blockquote>
+<p>Yet they share</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>Therefore,</p>
+<blockquote class="blockquote">
+<p>identity is replaced; relation remains coherent.</p>
+</blockquote>
+<p>This is precisely the kind of structure recursive replacement is expected to preserve.</p>
+</section>
+<section id="the-result-mirrors-the-general-r²d-replacement-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-result-mirrors-the-general-r²d-replacement-architecture">36. The Result Mirrors the General R²D Replacement Architecture</h2>
+<p>The generic R²D pattern is</p>
+<blockquote class="blockquote">
+<p>subordinate realization <span class="math inline">\(\longrightarrow\)</span> recursive reclassification <span class="math inline">\(\longrightarrow\)</span> new count meaning.</p>
+</blockquote>
+<p>The constituent representation need not survive.</p>
+<p>What can survive is a relation among the newly classified counts.</p>
+<p>The de Sitter–Nariai comparison supplies a physical example in which:</p>
+<p><span class="math display">\[S\]</span></p>
+<p>changes,</p>
+<p><span class="math display">\[\omega\]</span></p>
+<p>changes,</p>
+<p>but</p>
+<p><span class="math display">\[\alpha_G^\omega S\]</span></p>
+<p>does not.</p>
+<!-- source_pdf_page: 1633 -->
+</section>
+<section id="this-does-not-mean-the-two-boundaries-are-the-same-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="this-does-not-mean-the-two-boundaries-are-the-same-boundary">37. This Does Not Mean the Two Boundaries Are the Same Boundary</h2>
+<p>The common calibration does not imply</p>
+<p><span class="math display">\[B_{\mathrm{dS}}=B_N.\]</span></p>
+<p>The physical geometries differ.</p>
+<p>Their multiplicities differ.</p>
+<p>Their clocks differ.</p>
+<p>Therefore the correct statement is</p>
+<p><span class="math display">\[B_{\mathrm{dS}}\ne B_N,\]</span></p>
+<p>while</p>
+<p><span class="math display">\[I_G(B_{\mathrm{dS}})=I_G(B_N).\]</span></p>
+<p>Boundary identity is unnecessary for relational coherence.</p>
+</section>
+<section id="the-invariant-is-also-not-an-energy-conservation-law" class="level2">
+<h2 class="anchored" data-anchor-id="the-invariant-is-also-not-an-energy-conservation-law">38. The Invariant Is Also Not an Energy Conservation Law</h2>
+<p>The relation</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1\]</span></p>
+<p>does not represent transport of energy.</p>
+<p>No conserved energetic substance is being transferred from the de Sitter horizon into the Nariai horizon.</p>
+<p>The relation is a compatibility of physical calibrations.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>replacement coherence <span class="math inline">\(\ne\)</span> energy conservation. [PDF line clipped; author review required.]</p>
+</blockquote>
+<!-- source_pdf_page: 1634 -->
+</section>
+<section id="nor-is-it-a-statement-of-total-horizon-entropy-conservation" class="level2">
+<h2 class="anchored" data-anchor-id="nor-is-it-a-statement-of-total-horizon-entropy-conservation">39. Nor Is It a Statement of Total Horizon Entropy Conservation</h2>
+<p>At Nariai there are two equal horizon components.</p>
+<p>If one defines a summed horizon entropy,</p>
+<p><span class="math display">\[S_{\mathrm{tot},N}=2S_N,\]</span></p>
+<p>then</p>
+<p><span class="math display">\[S_{\mathrm{tot},N}=\frac23S_{\mathrm{dS}}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_{\mathrm{tot},N}\ne S_{\mathrm{dS}}.\]</span></p>
+<p>The count–clock invariant applies to the calibrated individual horizon relation considered here.</p>
+<p>It is not a statement of conserved total entropy.</p>
+</section>
+<section id="the-factor-of-two-between-nariai-horizons-does-not-alter-the-calibration-result" class="level2">
+<h2 class="anchored" data-anchor-id="the-factor-of-two-between-nariai-horizons-does-not-alter-the-calibration-result">40. The Factor of Two Between Nariai Horizons Does Not Alter the Calibration Result</h2>
+<p>At Nariai the two limiting horizon branches possess equal area and equal multiplicity coordinate:</p>
+<p><span class="math display">\[S_b=S_c=S_N.\]</span></p>
+<p>They also approach the same boundary-normalized physical frequency:</p>
+<p><span class="math display">\[\omega_b^{\mathrm{BH}}=\omega_c^{\mathrm{BH}}=\omega_N.\]</span></p>
+<p>Therefore each horizon component separately realizes</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S_N=1.\]</span></p>
+<p>The calibration is componentwise.</p>
+</section>
+<section id="principle-horizon-countclock-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="principle-horizon-countclock-calibration">41. Principle — Horizon Count–Clock Calibration</h2>
+<p>For a spherical gravitational horizon possessing the physical relations</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2}=\frac{\pi r^2}{\ell_P^2},\]</span></p>
+<!-- source_pdf_page: 1635 -->
+<p>and</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r},\]</span></p>
+<p>define</p>
+<p><span class="math display">\[\alpha_G^\omega=\frac{G\hbar\omega^2}{c^5},\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>This is a physical count–clock calibration identity.</p>
+</section>
+<section id="principle-replacement-calibration-coherence" class="level2">
+<h2 class="anchored" data-anchor-id="principle-replacement-calibration-coherence">42. Principle — Replacement Calibration Coherence</h2>
+<p>Suppose two different gravitational boundary realizations both satisfy the same count–clock calibration relation</p>
+<p><span class="math display">\[I_G=1.\]</span></p>
+<p>Then replacement of one realization by another need not preserve</p>
+<p><span class="math display">\[S,\]</span></p>
+<p>or</p>
+<p><span class="math display">\[\omega,\]</span></p>
+<p>individually.</p>
+<p>It may instead preserve</p>
+<p><span class="math display">\[I_G.\]</span></p>
+<p>This defines calibration coherence across boundary replacement.</p>
+</section>
+<section id="corollary-de-sitternariai-reciprocal-rescaling" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-de-sitternariai-reciprocal-rescaling">43. Corollary — de Sitter–Nariai Reciprocal Rescaling</h2>
+<p>For pure de Sitter and Nariai,</p>
+<p><span class="math display">\[\frac{S_N}{S_{\mathrm{dS}}}=\frac13,\]</span></p>
+<!-- source_pdf_page: 1636 -->
+<p>while</p>
+<p><span class="math display">\[\frac{\omega_N}{\omega_{\mathrm{dS}}}=\sqrt3.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{S_N\omega_N^2}{S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2}=1.\]</span></p>
+<p>The physical count and physical clock rescale reciprocally.</p>
+</section>
+<section id="corollary-boundary-scale-is-eliminated-from-the-relation" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-boundary-scale-is-eliminated-from-the-relation">44. Corollary — Boundary Scale Is Eliminated From the Relation</h2>
+<p>Because</p>
+<p><span class="math display">\[S\propto r^2\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega^2\propto r^{-2},\]</span></p>
+<p>the physical boundary scale cancels.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[I_G\]</span></p>
+<p>does not depend on the particular radius at which the calibrated boundary is realized.</p>
+<p>This is why different horizon scales can occupy the same count–clock calibration class.</p>
+</section>
+<section id="the-result-suggests-where-a-deeper-gravitational-invariant-may-live" class="level2">
+<h2 class="anchored" data-anchor-id="the-result-suggests-where-a-deeper-gravitational-invariant-may-live">45. The Result Suggests Where a Deeper Gravitational Invariant May Live</h2>
+<p>The physical coordinates</p>
+<p><span class="math display">\[r,\quad A,\quad S,\quad\omega,\quad T\]</span></p>
+<p>all depend on boundary calibration.</p>
+<p>The dimensionless quantity</p>
+<!-- source_pdf_page: 1637 -->
+<p><span class="math display">\[I_G=4\pi\frac{G\hbar\omega^2}{c^5}S\]</span></p>
+<p>does not contain an explicit horizon radius.</p>
+<p>This makes it a more natural candidate for a deeper gravitational relation than either area or clock alone.</p>
+<p>But the present addendum does not promote it to a universal R²D law.</p>
+</section>
+<section id="a-universal-claim-would-require-more-tests" class="level2">
+<h2 class="anchored" data-anchor-id="a-universal-claim-would-require-more-tests">46. A Universal Claim Would Require More Tests</h2>
+<p>To elevate</p>
+<p><span class="math display">\[I_G=1\]</span></p>
+<p>from a calibration-class identity to a general gravitational principle would require showing that the same dimensionless relation emerges independently in additional gravitational boundary classes.</p>
+<p>Possible future tests include:</p>
+<blockquote class="blockquote">
+<p>• charged horizons; • rotating horizons; • Kerr–Newman horizons; • dynamically evolving horizons; • and other replacement geometries.</p>
+</blockquote>
+<p>Those tests have not yet been performed here.</p>
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">47. Logical Status</h2>
+<p>Canonical R²D</p>
+<p>R²D permits recursive replacement to change realization identity while preserving relational organization.</p>
+<p>Physical coordinates are boundary relative.</p>
+<p>Multiplicity is</p>
+<p><span class="math display">\[S=\ln W.\]</span></p>
+<p>Physical recurrence rates are later calibrations and are not automatically primitive recurrence counts.</p>
+<!-- source_pdf_page: 1638 -->
+<p>Established Physical Calibration</p>
+<p>For a spherical gravitational horizon,</p>
+<p><span class="math display">\[S=\frac A{4\ell_P^2}.\]</span></p>
+<p>For the de Sitter and boundary-normalized Nariai horizon reads considered here,</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r}.\]</span></p>
+<p>Exact de Sitter Relations</p>
+<p><span class="math display">\[r_{\mathrm{dS}}=\sqrt{\frac3\Lambda},\]</span></p>
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{3\pi}{\Lambda\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_{\mathrm{dS}}=\frac c{2\pi}\sqrt{\frac\Lambda3}.\]</span></p>
+<p>Exact Nariai Relations</p>
+<p><span class="math display">\[r_N=\frac1{\sqrt\Lambda},\]</span></p>
+<p><span class="math display">\[S_N=\frac\pi{\Lambda\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_N=\frac{c\sqrt\Lambda}{2\pi}.\]</span></p>
+<p>Derived Exact Comparison</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}},\]</span></p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}},\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[S_N\omega_N^2=S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2.\]</span></p>
+<!-- source_pdf_page: 1639 -->
+<p>Derived Calibration Identity</p>
+<p><span class="math display">\[S\omega^2=\frac{c^5}{4\pi G\hbar},\]</span></p>
+<p>or equivalently,</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>New R²D Interpretation</p>
+<p>The common dimensionless relation is interpreted as calibration coherence between distinct gravitational boundary realizations.</p>
+<p>It is not interpreted as conservation of horizon entropy, clock frequency, radius, area, or energy.</p>
+<p>Not Established Here</p>
+<p>This addendum does not establish:</p>
+<blockquote class="blockquote">
+<p>• that <span class="math inline">\(4\pi\alpha_G^\omega S=1\)</span> is a universal R²D gravitational law; • that the invariant is continuously conserved through all intermediate Schwarzschild–de Sitter states; • that pure de Sitter is the immediate predecessor of Nariai; • that physical phase frequency is primitive recurrence; • that the de Sitter and Nariai horizons are the same boundary; • or that the relation is independent of the physical calibrations from which it follows.</p>
+</blockquote>
+</section>
+<section id="the-central-r²d-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-r²d-inversion">48. The Central R²D Inversion</h2>
+<p>A conventional comparison begins with two geometries and notes their different horizon areas and temperatures.</p>
+<p>R²D asks instead what relational structure survives those changing physical reads.</p>
+<p>For pure de Sitter,</p>
+<p><span class="math display">\[B_{\mathrm{dS}}\longrightarrow(S_{\mathrm{dS}},\omega_{\mathrm{dS}}).\]</span></p>
+<p>For the replacement Nariai landscape,</p>
+<p><span class="math display">\[B_N\longrightarrow(S_N,\omega_N).\]</span></p>
+<p>The pairs differ:</p>
+<p><span class="math display">\[(S_{\mathrm{dS}},\omega_{\mathrm{dS}})\ne(S_N,\omega_N).\quad\text{[Source glyph after relation clipped; author review required.]}\]</span></p>
+<!-- source_pdf_page: 1640 -->
+<p>Yet both satisfy</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>Thus the deeper hierarchy is</p>
+<blockquote class="blockquote">
+<p>boundary realization</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\Downarrow\)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>area read <span class="math inline">\(\longrightarrow S\)</span></p>
+</blockquote>
+<p>and independently</p>
+<blockquote class="blockquote">
+<p>boundary-scale clock read <span class="math inline">\(\longrightarrow\omega\)</span></p>
+</blockquote>
+<p>such that</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(S\omega^2\)</span> = same gravitational calibration.</p>
+</blockquote>
+<p>When the boundary changes, the physical reads change.</p>
+<p>The relational calibration persists.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">49. Conclusion</h2>
+<p>Addendum 46 showed that the Nariai limit replaces the clock belonging to the ordinary two-horizon Schwarzschild–de Sitter landscape.</p>
+<p>The old static frequencies vanish:</p>
+<p><span class="math display">\[\omega_b^{(0)},\omega_c^{(0)}\longrightarrow0.\]</span></p>
+<p>The replacement Nariai landscape instead possesses the finite physical phase-frequency read</p>
+<p><span class="math display">\[\omega_N=\frac{c\sqrt\Lambda}{2\pi}.\]</span></p>
+<p>Thus physical clock identity is not preserved under the boundary replacement.</p>
+<p>The horizon multiplicity also changes.</p>
+<p>Pure de Sitter possesses</p>
+<p><span class="math display">\[S_{\mathrm{dS}}=\frac{3\pi}{\Lambda\ell_P^2},\]</span></p>
+<!-- source_pdf_page: 1641 -->
+<p>while the Nariai horizon possesses</p>
+<p><span class="math display">\[S_N=\frac\pi{\Lambda\ell_P^2}.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_N=\frac13S_{\mathrm{dS}}.\]</span></p>
+<p>The Nariai physical clock changes oppositely:</p>
+<p><span class="math display">\[\omega_N=\sqrt3\,\omega_{\mathrm{dS}}.\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[S_N\omega_N^2=S_{\mathrm{dS}}\omega_{\mathrm{dS}}^2.\]</span></p>
+<p>Both evaluate to</p>
+<p><span class="math display">\[S\omega^2=\frac{c^5}{4\pi G\hbar}.\]</span></p>
+<p>Defining</p>
+<p><span class="math display">\[\alpha_G^\omega=\frac{G\hbar\omega^2}{c^5},\]</span></p>
+<p>the relation becomes</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1.\]</span></p>
+<p>This is not a claim that the horizon entropy is conserved.</p>
+<p>It is not a claim that the clock is conserved.</p>
+<p>It is not a claim that pure de Sitter evolves directly into Nariai while carrying an invariant substance.</p>
+<p>Nor is it a new primitive equation inserted into R²D.</p>
+<p>The relation follows from the joint physical calibrations</p>
+<p><span class="math display">\[S=\frac{\pi r^2}{\ell_P^2},\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega=\frac c{2\pi r}.\]</span></p>
+<!-- source_pdf_page: 1642 -->
+<p>Its R²D significance lies elsewhere.</p>
+<p>Pure de Sitter and Nariai possess different:</p>
+<blockquote class="blockquote">
+<p>• radii; • areas; • multiplicities; • clock rates; • temperatures; • and boundary classifications.</p>
+</blockquote>
+<p>Yet the relation connecting horizon count to horizon clock is identical.</p>
+<p>Thus recursive boundary replacement need not preserve the physical realization.</p>
+<p>It can preserve the relational architecture by which that realization is calibrated.</p>
+<p>The count changes.</p>
+<p>The clock changes.</p>
+<p>The boundary changes.</p>
+<p>The relation remains coherent.</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>horizon count–clock calibration persists across boundary replacement.</p>
+</blockquote>
+<p>And more specifically:</p>
+<p>R²D replacement coherence is expressed not by persistence of physical coordinates, but by persisten… [PDF line clipped; author review required.]</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="pagination-link" aria-label="Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="pagination-link" aria-label="Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

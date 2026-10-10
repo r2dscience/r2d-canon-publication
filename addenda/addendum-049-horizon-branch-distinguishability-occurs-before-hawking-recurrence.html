@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" rel="next">
+<link href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-49-horizon-branch-distinguishability-occurs-before-hawking-recurrence" id="toc-addendum-49-horizon-branch-distinguishability-occurs-before-hawking-recurrence" class="nav-link active" data-scroll-target="#addendum-49-horizon-branch-distinguishability-occurs-before-hawking-recurrence">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#begin-with-the-horizon-boundary-not-its-temperature" id="toc-begin-with-the-horizon-boundary-not-its-temperature" class="nav-link" data-scroll-target="#begin-with-the-horizon-boundary-not-its-temperature">1. Begin With the Horizon Boundary, Not Its Temperature</a></li>
+  <li><a href="#addendum-48-established-the-native-horizon-state" id="toc-addendum-48-established-the-native-horizon-state" class="nav-link" data-scroll-target="#addendum-48-established-the-native-horizon-state">2. Addendum 48 Established the Native Horizon State</a></li>
+  <li><a href="#extremality-is-not-the-stationary-stall-condition" id="toc-extremality-is-not-the-stationary-stall-condition" class="nav-link" data-scroll-target="#extremality-is-not-the-stationary-stall-condition">3. Extremality Is Not the Stationary Stall Condition</a></li>
+  <li><a href="#the-outer-and-inner-horizons-are-projected-branches" id="toc-the-outer-and-inner-horizons-are-projected-branches" class="nav-link" data-scroll-target="#the-outer-and-inner-horizons-are-projected-branches">4. The Outer and Inner Horizons Are Projected Branches</a></li>
+  <li><a href="#the-branches-have-radial-separation" id="toc-the-branches-have-radial-separation" class="nav-link" data-scroll-target="#the-branches-have-radial-separation">5. The Branches Have Radial Separation</a></li>
+  <li><a href="#the-same-branch-separation-has-an-areamultiplicity-read" id="toc-the-same-branch-separation-has-an-areamultiplicity-read" class="nav-link" data-scroll-target="#the-same-branch-separation-has-an-areamultiplicity-read">6. The Same Branch Separation Has an Area/Multiplicity Read</a></li>
+  <li><a href="#the-multiplicity-gap-is-a-logarithmic-ratio" id="toc-the-multiplicity-gap-is-a-logarithmic-ratio" class="nav-link" data-scroll-target="#the-multiplicity-gap-is-a-logarithmic-ratio">7. The Multiplicity Gap Is a Logarithmic Ratio</a></li>
+  <li><a href="#radial-and-multiplicity-reads-must-not-be-collapsed" id="toc-radial-and-multiplicity-reads-must-not-be-collapsed" class="nav-link" data-scroll-target="#radial-and-multiplicity-reads-must-not-be-collapsed">8. Radial and Multiplicity Reads Must Not Be Collapsed</a></li>
+  <li><a href="#this-is-consistent-with-area-before-radius" id="toc-this-is-consistent-with-area-before-radius" class="nav-link" data-scroll-target="#this-is-consistent-with-area-before-radius">9. This Is Consistent With Area Before Radius</a></li>
+  <li><a href="#equal-multiplicity-alone-would-not-prove-branch-identity" id="toc-equal-multiplicity-alone-would-not-prove-branch-identity" class="nav-link" data-scroll-target="#equal-multiplicity-alone-would-not-prove-branch-identity">10. Equal Multiplicity Alone Would Not Prove Branch Identity</a></li>
+  <li><a href="#extremality-closes-the-radial-branch-gap" id="toc-extremality-closes-the-radial-branch-gap" class="nav-link" data-scroll-target="#extremality-closes-the-radial-branch-gap">11. Extremality Closes the Radial Branch Gap</a></li>
+  <li><a href="#extremality-also-closes-the-multiplicity-gap" id="toc-extremality-also-closes-the-multiplicity-gap" class="nav-link" data-scroll-target="#extremality-also-closes-the-multiplicity-gap">12. Extremality Also Closes the Multiplicity Gap</a></li>
+  <li><a href="#the-horizon-boundary-itself-remains" id="toc-the-horizon-boundary-itself-remains" class="nav-link" data-scroll-target="#the-horizon-boundary-itself-remains">13. The Horizon Boundary Itself Remains</a></li>
+  <li><a href="#retained-rotational-andor-charge-organization-also-remains" id="toc-retained-rotational-andor-charge-organization-also-remains" class="nav-link" data-scroll-target="#retained-rotational-andor-charge-organization-also-remains">14. Retained Rotational and/or Charge Organization Also Remains</a></li>
+  <li><a href="#now-introduce-the-thermal-clock" id="toc-now-introduce-the-thermal-clock" class="nav-link" data-scroll-target="#now-introduce-the-thermal-clock">15. Now Introduce the Thermal Clock</a></li>
+  <li><a href="#the-kerrnewman-surface-gravity-contains-the-branch-separation-explicitly" id="toc-the-kerrnewman-surface-gravity-contains-the-branch-separation-explicitly" class="nav-link" data-scroll-target="#the-kerrnewman-surface-gravity-contains-the-branch-separation-explicitly">16. The Kerr–Newman Surface Gravity Contains the Branch Separation Explicitly</a></li>
+  <li><a href="#replace-the-area-factor-with-horizon-multiplicity" id="toc-replace-the-area-factor-with-horizon-multiplicity" class="nav-link" data-scroll-target="#replace-the-area-factor-with-horizon-multiplicity">17. Replace the Area Factor With Horizon Multiplicity</a></li>
+  <li><a href="#hawking-recurrence-is-not-set-by-total-multiplicity-alone" id="toc-hawking-recurrence-is-not-set-by-total-multiplicity-alone" class="nav-link" data-scroll-target="#hawking-recurrence-is-not-set-by-total-multiplicity-alone">18. Hawking Recurrence Is Not Set by Total Multiplicity Alone</a></li>
+  <li><a href="#rewrite-the-thermal-clock-using-the-multiplicity-gap" id="toc-rewrite-the-thermal-clock-using-the-multiplicity-gap" class="nav-link" data-scroll-target="#rewrite-the-thermal-clock-using-the-multiplicity-gap">19. Rewrite the Thermal Clock Using the Multiplicity Gap</a></li>
+  <li><a href="#write-the-result-directly-in-multiplicities" id="toc-write-the-result-directly-in-multiplicities" class="nav-link" data-scroll-target="#write-the-result-directly-in-multiplicities">20. Write the Result Directly in Multiplicities</a></li>
+  <li><a href="#define-the-normalized-branch-multiplicity-gap" id="toc-define-the-normalized-branch-multiplicity-gap" class="nav-link" data-scroll-target="#define-the-normalized-branch-multiplicity-gap">21. Define the Normalized Branch Multiplicity Gap</a></li>
+  <li><a href="#the-normalized-gap-is-bounded" id="toc-the-normalized-gap-is-bounded" class="nav-link" data-scroll-target="#the-normalized-gap-is-bounded">22. The Normalized Gap Is Bounded</a></li>
+  <li><a href="#hawking-recurrence-becomes-linear-in-the-normalized-gap" id="toc-hawking-recurrence-becomes-linear-in-the-normalized-gap" class="nav-link" data-scroll-target="#hawking-recurrence-becomes-linear-in-the-normalized-gap">23. Hawking Recurrence Becomes Linear in the Normalized Gap</a></li>
+  <li><a href="#schwarzschild-is-the-maximally-separated-endpoint" id="toc-schwarzschild-is-the-maximally-separated-endpoint" class="nav-link" data-scroll-target="#schwarzschild-is-the-maximally-separated-endpoint">24. Schwarzschild Is the Maximally Separated Endpoint</a></li>
+  <li><a href="#the-schwarzschild-hawking-clock-follows" id="toc-the-schwarzschild-hawking-clock-follows" class="nav-link" data-scroll-target="#the-schwarzschild-hawking-clock-follows">25. The Schwarzschild Hawking Clock Follows</a></li>
+  <li><a href="#rotation-and-charge-reduce-the-branch-gap" id="toc-rotation-and-charge-reduce-the-branch-gap" class="nav-link" data-scroll-target="#rotation-and-charge-reduce-the-branch-gap">26. Rotation and Charge Reduce the Branch Gap</a></li>
+  <li><a href="#the-thermal-clock-approaches-zero-at-extremality" id="toc-the-thermal-clock-approaches-zero-at-extremality" class="nav-link" data-scroll-target="#the-thermal-clock-approaches-zero-at-extremality">27. The Thermal Clock Approaches Zero at Extremality</a></li>
+  <li><a href="#total-horizon-multiplicity-does-not-vanish" id="toc-total-horizon-multiplicity-does-not-vanish" class="nav-link" data-scroll-target="#total-horizon-multiplicity-does-not-vanish">28. Total Horizon Multiplicity Does Not Vanish</a></li>
+  <li><a href="#retention-does-not-vanish" id="toc-retention-does-not-vanish" class="nav-link" data-scroll-target="#retention-does-not-vanish">29. Retention Does Not Vanish</a></li>
+  <li><a href="#stationary-asymmetry-does-not-track-hawking-recurrence" id="toc-stationary-asymmetry-does-not-track-hawking-recurrence" class="nav-link" data-scroll-target="#stationary-asymmetry-does-not-track-hawking-recurrence">30. Stationary Asymmetry Does Not Track Hawking Recurrence</a></li>
+  <li><a href="#extremality-is-not-more-stalled-than-schwarzschild" id="toc-extremality-is-not-more-stalled-than-schwarzschild" class="nav-link" data-scroll-target="#extremality-is-not-more-stalled-than-schwarzschild">31. Extremality Is Not “More Stalled” Than Schwarzschild</a></li>
+  <li><a href="#the-horizon-boundary-does-not-depend-on-hawking-recurrence-for-its-existence" id="toc-the-horizon-boundary-does-not-depend-on-hawking-recurrence-for-its-existence" class="nav-link" data-scroll-target="#the-horizon-boundary-does-not-depend-on-hawking-recurrence-for-its-existence">32. The Horizon Boundary Does Not Depend on Hawking Recurrence for Its Existence</a></li>
+  <li><a href="#the-causal-inversion-is-therefore-clear" id="toc-the-causal-inversion-is-therefore-clear" class="nav-link" data-scroll-target="#the-causal-inversion-is-therefore-clear">33. The Causal Inversion Is Therefore Clear</a></li>
+  <li><a href="#surface-gravity-is-a-later-geometric-read" id="toc-surface-gravity-is-a-later-geometric-read" class="nav-link" data-scroll-target="#surface-gravity-is-a-later-geometric-read">34. Surface Gravity Is a Later Geometric Read</a></li>
+  <li><a href="#hawking-temperature-comes-later-still" id="toc-hawking-temperature-comes-later-still" class="nav-link" data-scroll-target="#hawking-temperature-comes-later-still">35. Hawking Temperature Comes Later Still</a></li>
+  <li><a href="#hawking-recurrence-is-not-the-directed-enclosing-gravitational-recurrence" id="toc-hawking-recurrence-is-not-the-directed-enclosing-gravitational-recurrence" class="nav-link" data-scroll-target="#hawking-recurrence-is-not-the-directed-enclosing-gravitational-recurrence">36. Hawking Recurrence Is Not the Directed Enclosing Gravitational Recurrence</a></li>
+  <li><a href="#hawking-recurrence-is-not-the-primitive-gravitational-clock" id="toc-hawking-recurrence-is-not-the-primitive-gravitational-clock" class="nav-link" data-scroll-target="#hawking-recurrence-is-not-the-primitive-gravitational-clock">37. Hawking Recurrence Is Not the Primitive Gravitational Clock</a></li>
+  <li><a href="#this-audits-the-countclock-relation-from-addendum-47" id="toc-this-audits-the-countclock-relation-from-addendum-47" class="nav-link" data-scroll-target="#this-audits-the-countclock-relation-from-addendum-47">38. This Audits the Count–Clock Relation From Addendum 47</a></li>
+  <li><a href="#hawking-recurrence-does-not-belong-to-the-addendum-47-calibration-class" id="toc-hawking-recurrence-does-not-belong-to-the-addendum-47-calibration-class" class="nav-link" data-scroll-target="#hawking-recurrence-does-not-belong-to-the-addendum-47-calibration-class">39. Hawking Recurrence Does Not Belong to the Addendum 47 Calibration Class</a></li>
+  <li><a href="#different-boundary-distinctions-can-own-different-clocks" id="toc-different-boundary-distinctions-can-own-different-clocks" class="nav-link" data-scroll-target="#different-boundary-distinctions-can-own-different-clocks">40. Different Boundary Distinctions Can Own Different Clocks</a></li>
+  <li><a href="#the-nariai-and-extremal-kerrnewman-limits-reveal-a-common-pattern" id="toc-the-nariai-and-extremal-kerrnewman-limits-reveal-a-common-pattern" class="nav-link" data-scroll-target="#the-nariai-and-extremal-kerrnewman-limits-reveal-a-common-pattern">41. The Nariai and Extremal Kerr–Newman Limits Reveal a Common Pattern</a></li>
+  <li><a href="#this-pattern-is-suggestive-but-not-yet-a-canonical-theorem" id="toc-this-pattern-is-suggestive-but-not-yet-a-canonical-theorem" class="nav-link" data-scroll-target="#this-pattern-is-suggestive-but-not-yet-a-canonical-theorem">42. This Pattern Is Suggestive but Not Yet a Canonical Theorem</a></li>
+  <li><a href="#hawking-recurrence-should-not-be-called-the-background-itself" id="toc-hawking-recurrence-should-not-be-called-the-background-itself" class="nav-link" data-scroll-target="#hawking-recurrence-should-not-be-called-the-background-itself">43. Hawking Recurrence Should Not Be Called the Background Itself</a></li>
+  <li><a href="#a-better-characterization-of-hawking-recurrence" id="toc-a-better-characterization-of-hawking-recurrence" class="nav-link" data-scroll-target="#a-better-characterization-of-hawking-recurrence">44. A Better Characterization of Hawking Recurrence</a></li>
+  <li><a href="#principle-horizon-branch-multiplicity-gap" id="toc-principle-horizon-branch-multiplicity-gap" class="nav-link" data-scroll-target="#principle-horizon-branch-multiplicity-gap">45. Principle — Horizon-Branch Multiplicity Gap</a></li>
+  <li><a href="#principle-horizon-branch-radial-separation" id="toc-principle-horizon-branch-radial-separation" class="nav-link" data-scroll-target="#principle-horizon-branch-radial-separation">46. Principle — Horizon-Branch Radial Separation</a></li>
+  <li><a href="#principle-normalized-branch-distinguishability" id="toc-principle-normalized-branch-distinguishability" class="nav-link" data-scroll-target="#principle-normalized-branch-distinguishability">47. Principle — Normalized Branch Distinguishability</a></li>
+  <li><a href="#principle-hawking-recurrence-reads-branch-distinguishability" id="toc-principle-hawking-recurrence-reads-branch-distinguishability" class="nav-link" data-scroll-target="#principle-hawking-recurrence-reads-branch-distinguishability">48. Principle — Hawking Recurrence Reads Branch Distinguishability</a></li>
+  <li><a href="#corollary-extremality-removes-the-hawking-read-without-removing-the-horizon" id="toc-corollary-extremality-removes-the-hawking-read-without-removing-the-horizon" class="nav-link" data-scroll-target="#corollary-extremality-removes-the-hawking-read-without-removing-the-horizon">49. Corollary — Extremality Removes the Hawking Read Without Removing the Horizon</a></li>
+  <li><a href="#corollary-hawking-temperature-is-not-the-r²d-stall-coordinate" id="toc-corollary-hawking-temperature-is-not-the-r²d-stall-coordinate" class="nav-link" data-scroll-target="#corollary-hawking-temperature-is-not-the-r²d-stall-coordinate">50. Corollary — Hawking Temperature Is Not the R²D Stall Coordinate</a></li>
+  <li><a href="#corollary-hawking-temperature-is-not-retention" id="toc-corollary-hawking-temperature-is-not-retention" class="nav-link" data-scroll-target="#corollary-hawking-temperature-is-not-retention">51. Corollary — Hawking Temperature Is Not Retention</a></li>
+  <li><a href="#corollary-hawking-recurrence-cannot-universally-calibrate-gravity" id="toc-corollary-hawking-recurrence-cannot-universally-calibrate-gravity" class="nav-link" data-scroll-target="#corollary-hawking-recurrence-cannot-universally-calibrate-gravity">52. Corollary — Hawking Recurrence Cannot Universally Calibrate Gravity</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">53. Logical Status</a></li>
+  <li><a href="#the-central-r²d-inversion" id="toc-the-central-r²d-inversion" class="nav-link" data-scroll-target="#the-central-r²d-inversion">54. The Central R²D Inversion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">55. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-49-horizon-branch-distinguishability-occurs-before-hawking-recurrence" class="level1">
+<h1>Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 48 established a stationary Kerr–Newman horizon count domain at fixed physical mass.</p>
+<p>Its rotational and charge macrostates are physically labeled by</p>
+<p><span class="math display">\[j=\frac J\hbar\]</span></p>
+<p>and</p>
+<p><span class="math display">\[q=\frac Q{q_P}\]</span></p>
+<p>within the admissible domain</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p>where</p>
+<p><span class="math display">\[j_M=\frac{GM^2}{\hbar c}\]</span></p>
+<p>The Kerr–Newman residual coordinate is</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>The physical horizon state projects onto two geometric branches,</p>
+<p><span class="math display">\[x_\pm=j_M\pm\Delta_{\mathrm{KN}}\]</span></p>
+<p>with corresponding area-calibrated logarithmic multiplicity coordinates</p>
+<p><span class="math display">\[S_\pm=\ln W_\pm=2\pi(j_M\pm\Delta_{\mathrm{KN}})-\pi q^2\]</span></p>
+<p>Their difference is therefore</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}\equiv S_+-S_-=4\pi\Delta_{\mathrm{KN}}.\]</span></p>
+<p>Since</p>
+<!-- source_pdf_page: 1679 -->
+<p><span class="math display">\[S_\pm = \ln W_\pm\]</span></p>
+<p>this may also be written</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\ln\frac{W_+}{W_-}\]</span></p>
+<p>The same projected branch distinction possesses a radial read.</p>
+<p>Because</p>
+<p><span class="math display">\[x=\frac{Mc}{\hbar}r\]</span></p>
+<p>the radial separation of the two horizon branches is</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}\equiv r_+-r_-=\frac{2\hbar}{Mc}\Delta_{\mathrm{KN}}\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\frac{2\pi Mc}{\hbar}\Delta r_{\mathrm{br}}\]</span></p>
+<p>This equality is specific to the Kerr–Newman physical projection.</p>
+<p>It does not identify entropy with radius, circumference, or primitive R²D distinguishability.</p>
+<p>It says that the same projected outer–inner branch separation acquires both a radial read and an area/ multiplicity read.</p>
+<p>The outer-horizon surface gravity is</p>
+<p><span class="math display">\[\kappa_H=\frac{c^2(r_+-r_-)}{2(r_+^2+a^2)}\]</span></p>
+<p>Therefore the Hawking phase-frequency read is</p>
+<p><span class="math display">\[\omega_H=\frac{\kappa_H}{2\pi c}=\frac{c(r_+-r_-)}{4\pi(r_+^2+a^2)}\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[S_+=\frac{\pi(r_+^2+a^2)}{\ell_P^2}\]</span></p>
+<p>this becomes</p>
+<!-- source_pdf_page: 1680 -->
+<p><span class="math display">\[\omega_H=\frac{c\,\Delta r_{\mathrm{br}}}{4\ell_P^2S_+}\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{S_+-S_-}{8\pi j_MS_+}\]</span></p>
+<p>Define the normalized branch multiplicity gap</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}\equiv\frac{S_+-S_-}{S_+}=1-\frac{S_-}{S_+}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>At fixed mass,</p>
+<p><span class="math display">\[\omega_H\propto\delta_{\mathrm{br}}.\]</span></p>
+<p>The Hawking clock therefore does not read total horizon multiplicity.</p>
+<p>It reads the remaining outer–inner branch distinction under the Kerr–Newman thermal calibration.</p>
+<p>At Schwarzschild,</p>
+<p><span class="math display">\[S_- = 0\]</span></p>
+<p>so</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 1\]</span></p>
+<p>At extremality,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>and therefore</p>
+<p><span class="math display">\[r_+ = r_-\]</span></p>
+<p><span class="math display">\[S_+ = S_-\]</span></p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 0\]</span></p>
+<p>Consequently,</p>
+<!-- source_pdf_page: 1681 -->
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>But the horizon boundary has not disappeared.</p>
+<p>At extremality,</p>
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<p>and nontrivial rotational and/or charge organization remains.</p>
+<p>Addendum 48 also established that the stationary macrostate family is mapped to the differential stall relation</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>so</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>throughout the stationary family, not only at extremality.</p>
+<p>Therefore the vanishing of Hawking recurrence cannot be identified with:</p>
+<p><span class="math display">\[S_+\]</span></p>
+<p><span class="math display">\[R_{\mathrm{KN}}\]</span></p>
+<p><span class="math display">\[P_{\mathrm{KN}} - R_{\mathrm{KN}}\]</span></p>
+<p>or the existence of the gravitational horizon itself.</p>
+<p>What vanishes is the projected branch distinction.</p>
+<p>The causal order is therefore</p>
+<blockquote class="blockquote">
+<p>horizon boundary</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>(j, q) horizon state</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>outer/inner branch projection</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\Delta r_{\mathrm{br}} ,        \Delta S_{\mathrm{br}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<!-- source_pdf_page: 1682 -->
+<p><span class="math display">\[\delta_{\mathrm{br}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\omega_H\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[T_H\]</span></p>
+<p>Temperature comes last.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Hawking recurrence does not sustain the horizon.</p>
+</blockquote>
+<p>Rather,</p>
+<p>Hawking recurrence is a thermal clock read conditioned by a branch distinction already sustained by</p>
+<p>Therefore:</p>
+<blockquote class="blockquote">
+<p>horizon-branch distinguishability occurs before Hawking recurrence.</p>
+</blockquote>
+</section>
+<section id="begin-with-the-horizon-boundary-not-its-temperature" class="level2">
+<h2 class="anchored" data-anchor-id="begin-with-the-horizon-boundary-not-its-temperature">1. Begin With the Horizon Boundary, Not Its Temperature</h2>
+<p>R²D begins by asking which boundary owns the state distinctions.</p>
+<p>Let</p>
+<p><span class="math display">\[B_{\mathrm{KN}}\]</span></p>
+<p>denote the fixed-mass stationary Kerr–Newman horizon count boundary.</p>
+<p>Its physical macrostate is specified by the rotational and charge coordinates</p>
+<p><span class="math display">\[(j, q)\]</span></p>
+<p>The horizon does not become a count boundary because it possesses a Hawking temperature.</p>
+<p>Its state domain is defined first.</p>
+<p>Thermal recurrence is a later physical read.</p>
+<!-- source_pdf_page: 1683 -->
+</section>
+<section id="addendum-48-established-the-native-horizon-state" class="level2">
+<h2 class="anchored" data-anchor-id="addendum-48-established-the-native-horizon-state">2. Addendum 48 Established the Native Horizon State</h2>
+<p>At fixed mass,</p>
+<p><span class="math display">\[j_M=\frac{GM^2}{\hbar c}\]</span></p>
+<p>The admissible state domain is</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p>The residual geometric coordinate is</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>The boundary exists throughout the nonextremal and extremal state domain.</p>
+</section>
+<section id="extremality-is-not-the-stationary-stall-condition" class="level2">
+<h2 class="anchored" data-anchor-id="extremality-is-not-the-stationary-stall-condition">3. Extremality Is Not the Stationary Stall Condition</h2>
+<p>Addendum 48 mapped the stationary fixed-mass family to</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>throughout that stationary manifold.</p>
+<p>Extremality, by contrast, is</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>Therefore,</p>
+<blockquote class="blockquote">
+<p>stationary differential stall <span class="math inline">\(\\ne\)</span> extremality.</p>
+</blockquote>
+<p>This distinction is essential.</p>
+</section>
+<section id="the-outer-and-inner-horizons-are-projected-branches" class="level2">
+<h2 class="anchored" data-anchor-id="the-outer-and-inner-horizons-are-projected-branches">4. The Outer and Inner Horizons Are Projected Branches</h2>
+<p>The phase-normalized horizon polynomial produces</p>
+<!-- source_pdf_page: 1684 -->
+<p><span class="math display">\[x_\pm=j_M\pm\Delta_{\mathrm{KN}}\]</span></p>
+<p>These are two roots belonging to the same physically specified Kerr–Newman horizon state.</p>
+<p>They should not be treated as two independent primitive R²D states.</p>
+<p>They are two geometric branches of one boundary-owned physical relation.</p>
+</section>
+<section id="the-branches-have-radial-separation" class="level2">
+<h2 class="anchored" data-anchor-id="the-branches-have-radial-separation">5. The Branches Have Radial Separation</h2>
+<p>Since</p>
+<p><span class="math display">\[x=\frac{Mc}{\hbar}r\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[r_\pm=\frac\hbar{Mc}x_\pm\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[r_+-r_-=\frac\hbar{Mc}(x_+-x_-)\]</span></p>
+<p>But</p>
+<p><span class="math display">\[x_+ - x_- = 2\Delta_{\mathrm{KN}}\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}=r_+-r_-=\frac{2\hbar}{Mc}\Delta_{\mathrm{KN}}\]</span></p>
+</section>
+<section id="the-same-branch-separation-has-an-areamultiplicity-read" class="level2">
+<h2 class="anchored" data-anchor-id="the-same-branch-separation-has-an-areamultiplicity-read">6. The Same Branch Separation Has an Area/Multiplicity Read</h2>
+<p>The horizon area calibration gives</p>
+<p><span class="math display">\[S_\pm=\ln W_\pm=\frac{A_\pm}{4\ell_P^2}\]</span></p>
+<p>For Kerr–Newman,</p>
+<p><span class="math display">\[S_\pm=2\pi(j_M\pm\Delta_{\mathrm{KN}})-\pi q^2\]</span></p>
+<p>Subtracting,</p>
+<!-- source_pdf_page: 1685 -->
+<p><span class="math display">\[S_+ - S_- = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} \equiv S_+ - S_-\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+</section>
+<section id="the-multiplicity-gap-is-a-logarithmic-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="the-multiplicity-gap-is-a-logarithmic-ratio">7. The Multiplicity Gap Is a Logarithmic Ratio</h2>
+<p>Because</p>
+<p><span class="math display">\[S_+ = \ln W_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_- = \ln W_-\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = \ln W_+ - \ln W_-\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\ln\frac{W_+}{W_-}\]</span></p>
+<p>The branch gap is therefore more than a geometric area difference.</p>
+<p>It is a logarithmic multiplicity ratio under the horizon-area calibration.</p>
+</section>
+<section id="radial-and-multiplicity-reads-must-not-be-collapsed" class="level2">
+<h2 class="anchored" data-anchor-id="radial-and-multiplicity-reads-must-not-be-collapsed">8. Radial and Multiplicity Reads Must Not Be Collapsed</h2>
+<p>From</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}=\frac{2\hbar}{Mc}\Delta_{\mathrm{KN}}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>we obtain</p>
+<!-- source_pdf_page: 1686 -->
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\frac{2\pi Mc}{\hbar}\Delta r_{\mathrm{br}}\]</span></p>
+<p>This relation belongs to the Kerr–Newman physical projection.</p>
+<p>It does not imply</p>
+<p><span class="math display">\[S = \lambda\]</span></p>
+<p>Nor does it imply</p>
+<blockquote class="blockquote">
+<p>entropy = radius.</p>
+</blockquote>
+<p>The two quantities are distinct physical reads of the same projected branch splitting.</p>
+</section>
+<section id="this-is-consistent-with-area-before-radius" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-consistent-with-area-before-radius">9. This Is Consistent With Area Before Radius</h2>
+<p>The boundary multiplicities remain area calibrated:</p>
+<p><span class="math display">\[S_\pm=\frac{A_\pm}{4\ell_P^2}\]</span></p>
+<p>The branch separation also possesses a radial physical read,</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}\]</span></p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>boundary count → area/multiplicity read,</p>
+</blockquote>
+<p>while</p>
+<blockquote class="blockquote">
+<p>branch separation → radial distinguishability read.</p>
+</blockquote>
+<p>No circumferential entropy interpretation is required.</p>
+</section>
+<section id="equal-multiplicity-alone-would-not-prove-branch-identity" class="level2">
+<h2 class="anchored" data-anchor-id="equal-multiplicity-alone-would-not-prove-branch-identity">10. Equal Multiplicity Alone Would Not Prove Branch Identity</h2>
+<p>In general,</p>
+<p><span class="math display">\[W_1 = W_2\]</span></p>
+<p>does not require two states or branches to be identical.</p>
+<p>Equal degeneracy can occur for distinguishable states.</p>
+<!-- source_pdf_page: 1687 -->
+<p>Kerr–Newman extremality supplies additional information.</p>
+<p>At extremality,</p>
+<p><span class="math display">\[r_+ = r_-\]</span></p>
+<p>at the same time that</p>
+<p><span class="math display">\[W_+ = W_-\]</span></p>
+<p>Thus both the geometric branch separation and the multiplicity gap vanish together.</p>
+</section>
+<section id="extremality-closes-the-radial-branch-gap" class="level2">
+<h2 class="anchored" data-anchor-id="extremality-closes-the-radial-branch-gap">11. Extremality Closes the Radial Branch Gap</h2>
+<p>The normalized admissible state domain is</p>
+<p><span class="math display">\[\chi_J^2 + \chi_Q^2 \le 1\]</span></p>
+<p>Extremality is</p>
+<p><span class="math display">\[\chi_J^2 + \chi_Q^2 = 1\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}} = 0\]</span></p>
+<p>The two horizon radii coalesce.</p>
+</section>
+<section id="extremality-also-closes-the-multiplicity-gap" class="level2">
+<h2 class="anchored" data-anchor-id="extremality-also-closes-the-multiplicity-gap">12. Extremality Also Closes the Multiplicity Gap</h2>
+<p>Because</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>extremality gives</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 0\]</span></p>
+<p>Thus,</p>
+<!-- source_pdf_page: 1688 -->
+<p><span class="math display">\[\ln\frac{W_+}{W_-}=0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[W_+ = W_-\]</span></p>
+<p>The outer–inner multiplicity distinction has closed.</p>
+</section>
+<section id="the-horizon-boundary-itself-remains" class="level2">
+<h2 class="anchored" data-anchor-id="the-horizon-boundary-itself-remains">13. The Horizon Boundary Itself Remains</h2>
+<p>At extremality,</p>
+<p><span class="math display">\[S_+ = S_-\]</span></p>
+<p>but</p>
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[W_+ = e^{S_+} &gt; 1\]</span></p>
+<p>The loss of outer–inner branch distinction is not disappearance of the horizon multiplicity landscape.</p>
+<p>Thus,</p>
+<blockquote class="blockquote">
+<p>branch closure <span class="math inline">\(\\ne\)</span> horizon boundary collapse</p>
+</blockquote>
+</section>
+<section id="retained-rotational-andor-charge-organization-also-remains" class="level2">
+<h2 class="anchored" data-anchor-id="retained-rotational-andor-charge-organization-also-remains">14. Retained Rotational and/or Charge Organization Also Remains</h2>
+<p>A nontrivial extremal Kerr–Newman horizon satisfies</p>
+<p><span class="math display">\[\chi_J^2 + \chi_Q^2 = 1\]</span></p>
+<p>Thus rotation, charge, or both remain nonzero.</p>
+<p>The extremal state therefore simultaneously has</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 0\]</span></p>
+<p>and</p>
+<blockquote class="blockquote">
+<p>retained horizon organization <span class="math inline">\(\\ne\)</span> 0.</p>
+</blockquote>
+<!-- source_pdf_page: 1689 -->
+<p>Loss of branch distinction is not loss of retention.</p>
+</section>
+<section id="now-introduce-the-thermal-clock" class="level2">
+<h2 class="anchored" data-anchor-id="now-introduce-the-thermal-clock">15. Now Introduce the Thermal Clock</h2>
+<p>Only after the horizon state and its branch structure have been defined do we introduce the Hawking phase-frequency read.</p>
+<p>Define</p>
+<p><span class="math display">\[\omega_H\equiv\frac{k_BT_H}{\hbar}\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\omega_H=\frac{\kappa_H}{2\pi c}\]</span></p>
+<p>Temperature and frequency are therefore later physical calibrations.</p>
+</section>
+<section id="the-kerrnewman-surface-gravity-contains-the-branch-separation-explicitly" class="level2">
+<h2 class="anchored" data-anchor-id="the-kerrnewman-surface-gravity-contains-the-branch-separation-explicitly">16. The Kerr–Newman Surface Gravity Contains the Branch Separation Explicitly</h2>
+<p>For the outer Kerr–Newman horizon,</p>
+<p><span class="math display">\[\kappa_H=\frac{c^2(r_+-r_-)}{2(r_+^2+a^2)}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H=\frac{c(r_+-r_-)}{4\pi(r_+^2+a^2)}\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}} = r_+ - r_-\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\omega_H=\frac{c\,\Delta r_{\mathrm{br}}}{4\pi(r_+^2+a^2)}\]</span></p>
+<p>The branch separation is already explicit before temperature is assigned.</p>
+<!-- source_pdf_page: 1690 -->
+</section>
+<section id="replace-the-area-factor-with-horizon-multiplicity" class="level2">
+<h2 class="anchored" data-anchor-id="replace-the-area-factor-with-horizon-multiplicity">17. Replace the Area Factor With Horizon Multiplicity</h2>
+<p>For the outer horizon,</p>
+<p><span class="math display">\[S_+=\frac{\pi(r_+^2+a^2)}{\ell_P^2}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[r_+^2+a^2=\frac{\ell_P^2S_+}{\pi}\]</span></p>
+<p>Substituting gives</p>
+<p><span class="math display">\[\omega_H=\frac{c\,\Delta r_{\mathrm{br}}}{4\ell_P^2S_+}\]</span></p>
+<p>This is a direct physical branch-gap representation of the Hawking clock.</p>
+</section>
+<section id="hawking-recurrence-is-not-set-by-total-multiplicity-alone" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-recurrence-is-not-set-by-total-multiplicity-alone">18. Hawking Recurrence Is Not Set by Total Multiplicity Alone</h2>
+<p>The equation</p>
+<p><span class="math display">\[\omega_H=\frac{c\,\Delta r_{\mathrm{br}}}{4\ell_P^2S_+}\]</span></p>
+<p>contains both</p>
+<p><span class="math display">\[S_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}\]</span></p>
+<p>Thus two horizons with the same outer multiplicity but different branch separation would not possess the same Hawking read.</p>
+<p>The clock depends on the remaining branch distinction.</p>
+</section>
+<section id="rewrite-the-thermal-clock-using-the-multiplicity-gap" class="level2">
+<h2 class="anchored" data-anchor-id="rewrite-the-thermal-clock-using-the-multiplicity-gap">19. Rewrite the Thermal Clock Using the Multiplicity Gap</h2>
+<p>From</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\frac{2\pi Mc}{\hbar}\Delta r_{\mathrm{br}}\]</span></p>
+<!-- source_pdf_page: 1691 -->
+<p>we have</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}=\frac\hbar{2\pi Mc}\Delta S_{\mathrm{br}}\]</span></p>
+<p>Insert this into the Hawking relation:</p>
+<p><span class="math display">\[\omega_H=\frac c{4\ell_P^2S_+}\frac\hbar{2\pi Mc}\Delta S_{\mathrm{br}}\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[\ell_P^2=\frac{G\hbar}{c^3}\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\Delta S_{\mathrm{br}}}{8\pi j_MS_+}\]</span></p>
+</section>
+<section id="write-the-result-directly-in-multiplicities" class="level2">
+<h2 class="anchored" data-anchor-id="write-the-result-directly-in-multiplicities">20. Write the Result Directly in Multiplicities</h2>
+<p>Since</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\ln\frac{W_+}{W_-}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_+ = \ln W_+\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac1{8\pi j_M}\frac{\ln(W_+/W_-)}{\ln W_+}\]</span></p>
+<p>The Hawking clock is therefore tied directly to a relative horizon multiplicity distinction.</p>
+</section>
+<section id="define-the-normalized-branch-multiplicity-gap" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-normalized-branch-multiplicity-gap">21. Define the Normalized Branch Multiplicity Gap</h2>
+<p>Define</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}\equiv\frac{S_+-S_-}{S_+}\]</span></p>
+<p>Equivalently,</p>
+<!-- source_pdf_page: 1692 -->
+<p><span class="math display">\[\delta_{\mathrm{br}}=1-\frac{S_-}{S_+}\]</span></p>
+<p>And, using multiplicities,</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}=\frac{\ln(W_+/W_-)}{\ln W_+}\]</span></p>
+<p>This quantity compares the branch multiplicity gap with the outer-horizon multiplicity scale.</p>
+</section>
+<section id="the-normalized-gap-is-bounded" class="level2">
+<h2 class="anchored" data-anchor-id="the-normalized-gap-is-bounded">22. The Normalized Gap Is Bounded</h2>
+<p>For the Kerr–Newman family considered here,</p>
+<p><span class="math display">\[0 \le S_- \le S_+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[0 \le \delta_{\mathrm{br}} \le 1\]</span></p>
+<p>The two endpoints have immediate physical meanings.</p>
+</section>
+<section id="hawking-recurrence-becomes-linear-in-the-normalized-gap" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-recurrence-becomes-linear-in-the-normalized-gap">23. Hawking Recurrence Becomes Linear in the Normalized Gap</h2>
+<p>The thermal bridge becomes</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>At fixed mass,</p>
+<p><span class="math display">\[j_M\]</span></p>
+<p>is fixed.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H\propto\delta_{\mathrm{br}}.\]</span></p>
+<p>This is the central physical result.</p>
+<!-- source_pdf_page: 1693 -->
+</section>
+<section id="schwarzschild-is-the-maximally-separated-endpoint" class="level2">
+<h2 class="anchored" data-anchor-id="schwarzschild-is-the-maximally-separated-endpoint">24. Schwarzschild Is the Maximally Separated Endpoint</h2>
+<p>For Schwarzschild,</p>
+<p><span class="math display">\[j = 0,        q = 0\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = j_M\]</span></p>
+<p>The branch counts become</p>
+<p><span class="math display">\[S_+ = 4\pi j_M\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_- = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 1\]</span></p>
+<p>Within this normalized family, the branch distinction is maximal.</p>
+</section>
+<section id="the-schwarzschild-hawking-clock-follows" class="level2">
+<h2 class="anchored" data-anchor-id="the-schwarzschild-hawking-clock-follows">25. The Schwarzschild Hawking Clock Follows</h2>
+<p>At</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 1\]</span></p>
+<p>the thermal bridge becomes</p>
+<p><span class="math display">\[\frac{\hbar\omega_{\mathrm{Schw}}}{Mc^2}=\frac1{8\pi j_M}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_{\mathrm{Schw}}=\frac{c^3}{8\pi GM}\]</span></p>
+<p>This is the standard Schwarzschild Hawking phase-frequency read.</p>
+</section>
+<section id="rotation-and-charge-reduce-the-branch-gap" class="level2">
+<h2 class="anchored" data-anchor-id="rotation-and-charge-reduce-the-branch-gap">26. Rotation and Charge Reduce the Branch Gap</h2>
+<p>Moving away from the Schwarzschild point at fixed mass increases</p>
+<!-- source_pdf_page: 1694 -->
+<p><span class="math display">\[j^2 + j_M q^2\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}\]</span></p>
+<p>decreases.</p>
+<p>Since</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>the outer–inner multiplicity gap decreases.</p>
+<p>The Hawking clock decreases with it.</p>
+</section>
+<section id="the-thermal-clock-approaches-zero-at-extremality" class="level2">
+<h2 class="anchored" data-anchor-id="the-thermal-clock-approaches-zero-at-extremality">27. The Thermal Clock Approaches Zero at Extremality</h2>
+<p>At extremality,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}} = 0\]</span></p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 0\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 0\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>And therefore,</p>
+<p><span class="math display">\[T_H = 0\]</span></p>
+<p>within the standard stationary semiclassical Kerr–Newman calibration.</p>
+</section>
+<section id="total-horizon-multiplicity-does-not-vanish" class="level2">
+<h2 class="anchored" data-anchor-id="total-horizon-multiplicity-does-not-vanish">28. Total Horizon Multiplicity Does Not Vanish</h2>
+<p>At the same extremal point,</p>
+<!-- source_pdf_page: 1695 -->
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[\omega_H=0\quad\text{while}\quad S_+&gt;0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H \ne S_+\]</span></p>
+<p>Hawking recurrence is not a direct read of the amount of horizon multiplicity.</p>
+</section>
+<section id="retention-does-not-vanish" class="level2">
+<h2 class="anchored" data-anchor-id="retention-does-not-vanish">29. Retention Does Not Vanish</h2>
+<p>Addendum 48 defined the cumulative retention read</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_{\mathrm{Schw}} - S_+\]</span></p>
+<p>At nontrivial extremality this quantity remains nonzero.</p>
+<p>Yet</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H \ne R_{\mathrm{KN}}\]</span></p>
+<p>Hawking recurrence is not the retained horizon coordinate.</p>
+</section>
+<section id="stationary-asymmetry-does-not-track-hawking-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="stationary-asymmetry-does-not-track-hawking-recurrence">30. Stationary Asymmetry Does Not Track Hawking Recurrence</h2>
+<p>Addendum 48 mapped the stationary family to</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>throughout the stationary family.</p>
+<p>But</p>
+<p><span class="math display">\[\omega_H\]</span></p>
+<!-- source_pdf_page: 1696 -->
+<p>varies continuously from the Schwarzschild value to zero.</p>
+<p>Therefore Hawking recurrence cannot be the physical read of the stationary R²D asymmetry.</p>
+<p>Thus,</p>
+<p><span class="math display">\[\omega_H \ne A_{\mathrm{KN}}\]</span></p>
+</section>
+<section id="extremality-is-not-more-stalled-than-schwarzschild" class="level2">
+<h2 class="anchored" data-anchor-id="extremality-is-not-more-stalled-than-schwarzschild">31. Extremality Is Not “More Stalled” Than Schwarzschild</h2>
+<p>Because</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>already characterizes the stationary family under the Addendum 48 mapping, extremality is not the point at which stall is newly achieved.</p>
+<p>What changes at extremality is</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}\]</span></p>
+<p>It reaches zero.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>extremality = branch closure,</p>
+</blockquote>
+<p>not</p>
+<blockquote class="blockquote">
+<p>extremality = onset of stationary stall.</p>
+</blockquote>
+</section>
+<section id="the-horizon-boundary-does-not-depend-on-hawking-recurrence-for-its-existence" class="level2">
+<h2 class="anchored" data-anchor-id="the-horizon-boundary-does-not-depend-on-hawking-recurrence-for-its-existence">32. The Horizon Boundary Does Not Depend on Hawking Recurrence for Its Existence</h2>
+<p>If Hawking recurrence constituted the horizon boundary itself, then</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>would imply disappearance of that boundary.</p>
+<p>But at extremality,</p>
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<!-- source_pdf_page: 1697 -->
+<p>and retained charge and/or rotation remains.</p>
+<p>Therefore,</p>
+<blockquote class="blockquote">
+<p>Hawking recurrence does not sustain the horizon boundary.</p>
+</blockquote>
+<p>The boundary sustains the distinction that the Hawking clock reads.</p>
+</section>
+<section id="the-causal-inversion-is-therefore-clear" class="level2">
+<h2 class="anchored" data-anchor-id="the-causal-inversion-is-therefore-clear">33. The Causal Inversion Is Therefore Clear</h2>
+<p>The conventional presentation often begins with surface gravity,</p>
+<p><span class="math display">\[\kappa_H\]</span></p>
+<p>and derives temperature.</p>
+<p>R²D pushes the interpretation earlier.</p>
+<p>The physical state defines two projected branches.</p>
+<p>Those branches possess a radial and multiplicity separation.</p>
+<p>That separation then appears in surface gravity.</p>
+<p>Thus the explanatory ordering is</p>
+<blockquote class="blockquote">
+<p>branch distinction → <span class="math inline">\(\\kappa_H\)</span> → <span class="math inline">\(\\omega_H\)</span> → <span class="math inline">\(T_H\)</span> .</p>
+</blockquote>
+<p>Not the reverse.</p>
+</section>
+<section id="surface-gravity-is-a-later-geometric-read" class="level2">
+<h2 class="anchored" data-anchor-id="surface-gravity-is-a-later-geometric-read">34. Surface Gravity Is a Later Geometric Read</h2>
+<p>Since</p>
+<p><span class="math display">\[\omega_H=\frac{\kappa_H}{2\pi c}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\omega_H \propto \delta_{\mathrm{br}}\]</span></p>
+<p>at fixed mass, we have</p>
+<p><span class="math display">\[\kappa_H \propto \delta_{\mathrm{br}}\]</span></p>
+<!-- source_pdf_page: 1698 -->
+<p>Thus surface gravity itself is a physical geometric read conditioned by branch separation.</p>
+<p>It does not define the primitive horizon state.</p>
+</section>
+<section id="hawking-temperature-comes-later-still" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-temperature-comes-later-still">35. Hawking Temperature Comes Later Still</h2>
+<p>Using</p>
+<p><span class="math display">\[k_B T_H = \hbar\omega_H\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\frac{k_BT_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>Thus the ordering is</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} \to \omega_H \to T_H\]</span></p>
+<p>The temperature is the final thermal dimensionalization.</p>
+</section>
+<section id="hawking-recurrence-is-not-the-directed-enclosing-gravitational-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-recurrence-is-not-the-directed-enclosing-gravitational-recurrence">36. Hawking Recurrence Is Not the Directed Enclosing Gravitational Recurrence</h2>
+<p>The gravitational horizon was already interpreted in Addendum 42 as a readability boundary.</p>
+<p>The relevant exterior-directed gravitational read reaches complete retention at the horizon.</p>
+<p>Hawking recurrence remains a different physical quantity.</p>
+<p>Therefore the thermal frequency</p>
+<p><span class="math display">\[\omega_H\]</span></p>
+<p>cannot simply be identified with the directed enclosing recurrence whose readability was lost at horizon formation.</p>
+<p>Thus,</p>
+<p><span class="math display">\[\omega_H \ne \rho_{\mathrm{directed}}\]</span></p>
+<p>without a separate derived bridge.</p>
+<!-- source_pdf_page: 1699 -->
+</section>
+<section id="hawking-recurrence-is-not-the-primitive-gravitational-clock" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-recurrence-is-not-the-primitive-gravitational-clock">37. Hawking Recurrence Is Not the Primitive Gravitational Clock</h2>
+<p>At extremality,</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>while the gravitational horizon remains fully realized.</p>
+<p>Therefore a universal gravitational dimensionalization cannot require nonzero Hawking recurrence.</p>
+<p>Hence,</p>
+<blockquote class="blockquote">
+<p>The comparison of <span class="math inline">\(\omega_H\)</span> with <span class="math inline">\(\omega_G^{\mathrm{primitive}}\)</span> has a clipped relation glyph [source page 1699; author review].</p>
+</blockquote>
+<p>as a universal identity.</p>
+<p>The recurrence scale underlying gravitational dimensionalization remains a separate open problem.</p>
+</section>
+<section id="this-audits-the-countclock-relation-from-addendum-47" class="level2">
+<h2 class="anchored" data-anchor-id="this-audits-the-countclock-relation-from-addendum-47">38. This Audits the Count–Clock Relation From Addendum 47</h2>
+<p>Addendum 47 defined</p>
+<p><span class="math display">\[\alpha_G^\omega=\frac{G\hbar\omega^2}{c^5}\]</span></p>
+<p>and found</p>
+<p><span class="math display">\[4\pi\alpha_G^\omega S=1\]</span></p>
+<p>for the de Sitter and Nariai count–clock calibration class.</p>
+<p>Now define the corresponding Hawking-frequency quantity</p>
+<p><span class="math display">\[\alpha_G^H\equiv\frac{G\hbar\omega_H^2}{c^5}\]</span></p>
+<p>Using</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[\alpha_G^H=\frac{\delta_{\mathrm{br}}^2}{64\pi^2j_M}\]</span></p>
+<!-- source_pdf_page: 1700 -->
+</section>
+<section id="hawking-recurrence-does-not-belong-to-the-addendum-47-calibration-class" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-recurrence-does-not-belong-to-the-addendum-47-calibration-class">39. Hawking Recurrence Does Not Belong to the Addendum 47 Calibration Class</h2>
+<p>Multiply by <span class="math inline">\(4\pi S_+\)</span>:</p>
+<p><span class="math display">\[4\pi\alpha_G^H S_+=\frac{\delta_{\mathrm{br}}^2S_+}{16\pi j_M}\]</span></p>
+<p>This is not generally unity.</p>
+<p>At extremality,</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 0\]</span></p>
+<p>so</p>
+<p><span class="math display">\[4\pi\alpha_G^H S_+\longrightarrow0\]</span></p>
+<p>Therefore the de Sitter/Nariai count–clock relation from Addendum 47 is not a universal identity for every gravitational thermal clock.</p>
+<p>This is an important negative result.</p>
+</section>
+<section id="different-boundary-distinctions-can-own-different-clocks" class="level2">
+<h2 class="anchored" data-anchor-id="different-boundary-distinctions-can-own-different-clocks">40. Different Boundary Distinctions Can Own Different Clocks</h2>
+<p>Addendum 46 established that clocks are boundary owned.</p>
+<p>Addendum 49 now gives a second example.</p>
+<p>The Kerr–Newman Hawking clock is controlled by</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}\]</span></p>
+<p>the remaining outer–inner branch distinction.</p>
+<p>The de Sitter/Nariai clock relation belongs to a different gravitational calibration class.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>different boundary distinctions → different physical clocks.</p>
+</blockquote>
+<p>No single thermal frequency should automatically be promoted to universal primitive recurrence.</p>
+<!-- source_pdf_page: 1701 -->
+</section>
+<section id="the-nariai-and-extremal-kerrnewman-limits-reveal-a-common-pattern" class="level2">
+<h2 class="anchored" data-anchor-id="the-nariai-and-extremal-kerrnewman-limits-reveal-a-common-pattern">41. The Nariai and Extremal Kerr–Newman Limits Reveal a Common Pattern</h2>
+<p>At the Nariai limit, the black-hole/cosmological branch distinction closes and the old static-patch clock vanishes.</p>
+<p>At Kerr–Newman extremality, the outer/inner horizon branch distinction closes and the Hawking clock vanishes.</p>
+<p>In both cases:</p>
+<blockquote class="blockquote">
+<p>boundary-specific distinction → 0</p>
+</blockquote>
+<p>is accompanied by</p>
+<blockquote class="blockquote">
+<p>boundary-specific clock → 0.</p>
+</blockquote>
+<p>Yet physical organization remains.</p>
+</section>
+<section id="this-pattern-is-suggestive-but-not-yet-a-canonical-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="this-pattern-is-suggestive-but-not-yet-a-canonical-theorem">42. This Pattern Is Suggestive but Not Yet a Canonical Theorem</h2>
+<p>The repeated structure suggests:</p>
+<blockquote class="blockquote">
+<p>a physical clock may vanish when the distinction defining that clock closes.</p>
+</blockquote>
+<p>But two gravitational examples are not sufficient to elevate this to a universal R²D theorem.</p>
+<p>The present addendum treats it as an emerging structural pattern.</p>
+</section>
+<section id="hawking-recurrence-should-not-be-called-the-background-itself" class="level2">
+<h2 class="anchored" data-anchor-id="hawking-recurrence-should-not-be-called-the-background-itself">43. Hawking Recurrence Should Not Be Called the Background Itself</h2>
+<p>A physical thermal environment may supply the conventional context in which Hawking temperature is defined.</p>
+<p>But the frequency</p>
+<p><span class="math display">\[\omega_H\]</span></p>
+<p>is a physical clock read.</p>
+<p>It is not identical to an R²D background count.</p>
+<!-- source_pdf_page: 1702 -->
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H \ne \Phi\]</span></p>
+<p>as a count identity.</p>
+<p>Nor does</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>imply</p>
+<p><span class="math display">\[\Phi = 0\]</span></p>
+<p>Physical calibration and count category remain separate.</p>
+</section>
+<section id="a-better-characterization-of-hawking-recurrence" class="level2">
+<h2 class="anchored" data-anchor-id="a-better-characterization-of-hawking-recurrence">44. A Better Characterization of Hawking Recurrence</h2>
+<p>The present analysis supports the narrower statement:</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(\\omega_H\)</span> = thermal phase-frequency read conditioned by horizon-branch distinguishability.</p>
+</blockquote>
+<p>This says exactly what the Kerr–Newman equations support.</p>
+<p>It does not assign Hawking frequency a more primitive ontology than the calculation warrants.</p>
+</section>
+<section id="principle-horizon-branch-multiplicity-gap" class="level2">
+<h2 class="anchored" data-anchor-id="principle-horizon-branch-multiplicity-gap">45. Principle — Horizon-Branch Multiplicity Gap</h2>
+<p>For a Kerr–Newman horizon state, define the projected branch multiplicity gap</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=S_+-S_-=\ln\frac{W_+}{W_-}\]</span></p>
+<p>The Kerr–Newman projection gives</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>At extremality,</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = 0\]</span></p>
+<!-- source_pdf_page: 1703 -->
+</section>
+<section id="principle-horizon-branch-radial-separation" class="level2">
+<h2 class="anchored" data-anchor-id="principle-horizon-branch-radial-separation">46. Principle — Horizon-Branch Radial Separation</h2>
+<p>Define</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}} = r_+ - r_-\]</span></p>
+<p>For Kerr–Newman,</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}=\frac{2\hbar}{Mc}\Delta_{\mathrm{KN}}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\frac{2\pi Mc}{\hbar}\Delta r_{\mathrm{br}}\]</span></p>
+<p>These are distinct physical reads of the same projected branch splitting.</p>
+</section>
+<section id="principle-normalized-branch-distinguishability" class="level2">
+<h2 class="anchored" data-anchor-id="principle-normalized-branch-distinguishability">47. Principle — Normalized Branch Distinguishability</h2>
+<p>Define</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}=\frac{\Delta S_{\mathrm{br}}}{S_+}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[0 \le \delta_{\mathrm{br}} \le 1\]</span></p>
+<p>Schwarzschild gives</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 1\]</span></p>
+<p>Extremality gives</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 0\]</span></p>
+</section>
+<section id="principle-hawking-recurrence-reads-branch-distinguishability" class="level2">
+<h2 class="anchored" data-anchor-id="principle-hawking-recurrence-reads-branch-distinguishability">48. Principle — Hawking Recurrence Reads Branch Distinguishability</h2>
+<p>The Kerr–Newman Hawking phase-frequency satisfies</p>
+<!-- source_pdf_page: 1704 -->
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>Therefore, at fixed mass,</p>
+<p><span class="math display">\[\omega_H\propto\delta_{\mathrm{br}}.\]</span></p>
+<p>Hawking recurrence is downstream of the branch distinction.</p>
+</section>
+<section id="corollary-extremality-removes-the-hawking-read-without-removing-the-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-extremality-removes-the-hawking-read-without-removing-the-horizon">49. Corollary — Extremality Removes the Hawking Read Without Removing the Horizon</h2>
+<p>At extremality,</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>But</p>
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<p>and retained rotational and/or charge organization remains.</p>
+<p>Thus,</p>
+<blockquote class="blockquote">
+<p>loss of Hawking recurrence = loss of the branch read,</p>
+</blockquote>
+<p>not</p>
+<blockquote class="blockquote">
+<p>loss of the gravitational horizon boundary.</p>
+</blockquote>
+</section>
+<section id="corollary-hawking-temperature-is-not-the-r²d-stall-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-hawking-temperature-is-not-the-r²d-stall-coordinate">50. Corollary — Hawking Temperature Is Not the R²D Stall Coordinate</h2>
+<p>Throughout the stationary fixed-mass family,</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>under the Addendum 48 mapping.</p>
+<!-- source_pdf_page: 1705 -->
+<p>Yet</p>
+<p><span class="math display">\[\omega_H\]</span></p>
+<p>varies continuously.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H \ne A_{\mathrm{KN}}\]</span></p>
+<p>Hawking temperature does not measure departure from or approach to stationary R²D stall.</p>
+</section>
+<section id="corollary-hawking-temperature-is-not-retention" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-hawking-temperature-is-not-retention">51. Corollary — Hawking Temperature Is Not Retention</h2>
+<p>At extremality,</p>
+<p><span class="math display">\[R_{\mathrm{KN}}\]</span></p>
+<p>remains nonzero while</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H \ne R_{\mathrm{KN}}\]</span></p>
+<p>Retention and thermal recurrence belong to different horizon relations.</p>
+</section>
+<section id="corollary-hawking-recurrence-cannot-universally-calibrate-gravity" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-hawking-recurrence-cannot-universally-calibrate-gravity">52. Corollary — Hawking Recurrence Cannot Universally Calibrate Gravity</h2>
+<p>The gravitational horizon remains realized when</p>
+<p><span class="math display">\[\omega_H = 0\]</span></p>
+<p>Therefore Hawking recurrence cannot be a universally necessary clock for gravitational existence or gravitational dimensionalization.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>Hawking clock versus a universal gravitational clock: relation and ending clipped [source page 1705; author review].</p>
+</blockquote>
+<!-- source_pdf_page: 1706 -->
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">53. Logical Status</h2>
+<p>Canonical R²D</p>
+<p>A count boundary possesses boundary-defined multiplicity</p>
+<p><span class="math display">\[S = \ln W\]</span></p>
+<p>Multiplicity, retention, asymmetry, background, and physical recurrence are distinct count or calibration categories.</p>
+<p>Physical distinguishability may acquire different downstream reads.</p>
+<p>Established in Addendum 48</p>
+<p>At fixed mass,</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_\pm = 2\pi(j_M \pm \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<p>The stationary family is mapped to</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>so</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>Derived Branch Relations</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}} = S_+ - S_- = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}=r_+-r_-=\frac{2\hbar}{Mc}\Delta_{\mathrm{KN}}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\frac{2\pi Mc}{\hbar}\Delta r_{\mathrm{br}}\]</span></p>
+<!-- source_pdf_page: 1707 -->
+<p>Conventional Thermal Input</p>
+<p>The outer-horizon surface gravity is</p>
+<p><span class="math display">\[\kappa_H=\frac{c^2(r_+-r_-)}{2(r_+^2+a^2)}\]</span></p>
+<p>The Hawking phase-frequency read is</p>
+<p><span class="math display">\[\omega_H=\frac{\kappa_H}{2\pi c}\]</span></p>
+<p>Derived Thermal Bridge</p>
+<p><span class="math display">\[\omega_H=\frac{c\,\Delta r_{\mathrm{br}}}{4\ell_P^2S_+}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{S_+-S_-}{8\pi j_MS_+}\]</span></p>
+<p>Defining</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}=\frac{S_+-S_-}{S_+}\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>New R²D Interpretation</p>
+<p>The Hawking clock is interpreted as a thermal physical read conditioned by the projected outer–inner branch distinction.</p>
+<p>It is not interpreted as:</p>
+<blockquote class="blockquote">
+<p>• primitive horizon recurrence; • total horizon multiplicity; • cumulative retention; • P − R; • the directed enclosing gravitational recurrence; • R²D background itself; • or a universal gravitational clock.</p>
+</blockquote>
+<!-- source_pdf_page: 1708 -->
+<p>Not Established Here</p>
+<p>This addendum does not establish:</p>
+<pre><code> • a primitive R²D derivation of Hawking radiation;
+ • a microscopic emission mechanism;
+ • that $\Delta S_{\mathrm{br}}$ is primitive $\lambda$;
+ • that $\Delta r_{\mathrm{br}}$ is primitive $\lambda$;
+ • that every vanishing physical clock implies closure of a count distinction;
+ • that inner-horizon multiplicity is an independent thermodynamic reservoir;
+ • or that the semiclassical Hawking calibration remains complete under all quantum-gravitational</code></pre>
+<blockquote class="blockquote">
+<p>extremal corrections.</p>
+</blockquote>
+</section>
+<section id="the-central-r²d-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-r²d-inversion">54. The Central R²D Inversion</h2>
+<p>The conventional route is</p>
+<p><span class="math display">\[\kappa_H\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[T_H\]</span></p>
+<p>R²D asks what physical distinction the surface gravity is reading.</p>
+<p>For Kerr–Newman, the sequence can be pushed earlier:</p>
+<p><span class="math display">\[B_{\mathrm{KN}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[(j, q)\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[r_+ - r_- ,          S_+ - S_-\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\delta_{\mathrm{br}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\kappa_H\]</span></p>
+<!-- source_pdf_page: 1709 -->
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[\omega_H\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[T_H\]</span></p>
+<p>The branch distinction comes before the thermal clock.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">55. Conclusion</h2>
+<p>The Kerr–Newman extremal limit does more than send Hawking temperature to zero.</p>
+<p>It reveals what the Hawking clock is physically reading.</p>
+<p>A fixed-mass Kerr–Newman horizon state possesses two projected branches,</p>
+<p><span class="math display">\[r_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[r_-\]</span></p>
+<p>Their radial separation is</p>
+<p><span class="math display">\[\Delta r_{\mathrm{br}}=r_+-r_-=\frac{2\hbar}{Mc}\Delta_{\mathrm{KN}}\]</span></p>
+<p>Their logarithmic multiplicity separation is</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=S_+-S_-=\ln\frac{W_+}{W_-}=4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>These are distinct physical reads of the same projected branch splitting.</p>
+<p>They satisfy</p>
+<p><span class="math display">\[\Delta S_{\mathrm{br}}=\frac{2\pi Mc}{\hbar}\Delta r_{\mathrm{br}}\]</span></p>
+<p>The Hawking phase-frequency read is</p>
+<p><span class="math display">\[\omega_H=\frac{c\,\Delta r_{\mathrm{br}}}{4\ell_P^2S_+}\]</span></p>
+<p>Equivalently,</p>
+<!-- source_pdf_page: 1710 -->
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{S_+-S_-}{8\pi j_MS_+}\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[\delta_{\mathrm{br}}=\frac{S_+-S_-}{S_+}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\frac{\hbar\omega_H}{Mc^2}=\frac{\delta_{\mathrm{br}}}{8\pi j_M}\]</span></p>
+<p>At Schwarzschild,</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 1\]</span></p>
+<p>At extremality,</p>
+<p><span class="math display">\[\delta_{\mathrm{br}} = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\omega_H \to 0\]</span></p>
+<p>But at that same point,</p>
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<p>The gravitational horizon remains.</p>
+<p>Rotational and/or charge organization remains.</p>
+<p>The stationary retention relation remains well defined.</p>
+<p>And the differential stall condition</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>was already satisfied throughout the stationary family.</p>
+<p>Thus Hawking recurrence is not the horizon count.</p>
+<p>It is not horizon retention.</p>
+<p>It is not the R²D asymmetry.</p>
+<!-- source_pdf_page: 1711 -->
+<p>It is not the directed enclosing gravitational recurrence.</p>
+<p>And it is not a universal primitive clock for gravity.</p>
+<p>What disappears at extremality is specifically the projected outer–inner branch distinction.</p>
+<p>The Hawking clock disappears with it.</p>
+<p>The resulting hierarchy is</p>
+<p>horizon state → branch distinction → surface gravity → Hawking recurrence → temperature.</p>
+<p>Thus:</p>
+<p>Hawking recurrence does not sustain the horizon. It reads a projected distinguishability that the hor</p>
+<p>And therefore:</p>
+<blockquote class="blockquote">
+<p>horizon-branch distinguishability occurs before Hawking recurrence.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="pagination-link" aria-label="Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="pagination-link" aria-label="Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

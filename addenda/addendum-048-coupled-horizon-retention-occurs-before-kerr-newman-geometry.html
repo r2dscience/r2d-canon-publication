@@ -1,0 +1,2040 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" rel="next">
+<link href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part I — References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-48-coupled-horizon-retention-occurs-before-kerrnewman-geometry" id="toc-addendum-48-coupled-horizon-retention-occurs-before-kerrnewman-geometry" class="nav-link active" data-scroll-target="#addendum-48-coupled-horizon-retention-occurs-before-kerrnewman-geometry">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#begin-with-the-boundary" id="toc-begin-with-the-boundary" class="nav-link" data-scroll-target="#begin-with-the-boundary">1. Begin With the Boundary</a></li>
+  <li><a href="#mass-remains-orientation-even" id="toc-mass-remains-orientation-even" class="nav-link" data-scroll-target="#mass-remains-orientation-even">2. Mass Remains Orientation Even</a></li>
+  <li><a href="#rotation-supplies-one-physical-macrostate-coordinate" id="toc-rotation-supplies-one-physical-macrostate-coordinate" class="nav-link" data-scroll-target="#rotation-supplies-one-physical-macrostate-coordinate">3. Rotation Supplies One Physical Macrostate Coordinate</a></li>
+  <li><a href="#charge-supplies-a-different-physical-macrostate-coordinate" id="toc-charge-supplies-a-different-physical-macrostate-coordinate" class="nav-link" data-scroll-target="#charge-supplies-a-different-physical-macrostate-coordinate">4. Charge Supplies a Different Physical Macrostate Coordinate</a></li>
+  <li><a href="#rotation-and-charge-need-not-be-the-same-primitive-distinction" id="toc-rotation-and-charge-need-not-be-the-same-primitive-distinction" class="nav-link" data-scroll-target="#rotation-and-charge-need-not-be-the-same-primitive-distinction">5. Rotation and Charge Need Not Be the Same Primitive Distinction</a></li>
+  <li><a href="#kerrnewman-answers-yes" id="toc-kerrnewman-answers-yes" class="nav-link" data-scroll-target="#kerrnewman-answers-yes">6. Kerr–Newman Answers Yes</a></li>
+  <li><a href="#rewrite-the-horizon-condition-in-count-normalized-coordinates" id="toc-rewrite-the-horizon-condition-in-count-normalized-coordinates" class="nav-link" data-scroll-target="#rewrite-the-horizon-condition-in-count-normalized-coordinates">7. Rewrite the Horizon Condition in Count-Normalized Coordinates</a></li>
+  <li><a href="#normalize-the-admissible-domain" id="toc-normalize-the-admissible-domain" class="nav-link" data-scroll-target="#normalize-the-admissible-domain">8. Normalize the Admissible Domain</a></li>
+  <li><a href="#kerr-and-reissnernordström-are-axes-of-one-domain" id="toc-kerr-and-reissnernordström-are-axes-of-one-domain" class="nav-link" data-scroll-target="#kerr-and-reissnernordström-are-axes-of-one-domain">9. Kerr and Reissner–Nordström Are Axes of One Domain</a></li>
+  <li><a href="#define-the-residual-geometric-coordinate" id="toc-define-the-residual-geometric-coordinate" class="nav-link" data-scroll-target="#define-the-residual-geometric-coordinate">10. Define the Residual Geometric Coordinate</a></li>
+  <li><a href="#the-residual-coordinate-is-not-r²d-asymmetry" id="toc-the-residual-coordinate-is-not-r²d-asymmetry" class="nav-link" data-scroll-target="#the-residual-coordinate-is-not-r²d-asymmetry">11. The Residual Coordinate Is Not R²D Asymmetry</a></li>
+  <li><a href="#define-the-phase-normalized-radius" id="toc-define-the-phase-normalized-radius" class="nav-link" data-scroll-target="#define-the-phase-normalized-radius">12. Define the Phase-Normalized Radius</a></li>
+  <li><a href="#the-root-sum-is-mass-owned" id="toc-the-root-sum-is-mass-owned" class="nav-link" data-scroll-target="#the-root-sum-is-mass-owned">13. The Root Sum Is Mass Owned</a></li>
+  <li><a href="#the-outer-horizon-supplies-the-native-multiplicity-read" id="toc-the-outer-horizon-supplies-the-native-multiplicity-read" class="nav-link" data-scroll-target="#the-outer-horizon-supplies-the-native-multiplicity-read">14. The Outer Horizon Supplies the Native Multiplicity Read</a></li>
+  <li><a href="#the-native-multiplicity-is-even-under-orientation-reversal" id="toc-the-native-multiplicity-is-even-under-orientation-reversal" class="nav-link" data-scroll-target="#the-native-multiplicity-is-even-under-orientation-reversal">15. The Native Multiplicity Is Even Under Orientation Reversal</a></li>
+  <li><a href="#orientation-and-multiplicity-must-remain-distinct" id="toc-orientation-and-multiplicity-must-remain-distinct" class="nav-link" data-scroll-target="#orientation-and-multiplicity-must-remain-distinct">16. Orientation and Multiplicity Must Remain Distinct</a></li>
+  <li><a href="#the-first-law-supplies-the-physical-work-reads" id="toc-the-first-law-supplies-the-physical-work-reads" class="nav-link" data-scroll-target="#the-first-law-supplies-the-physical-work-reads">17. The First Law Supplies the Physical Work Reads</a></li>
+  <li><a href="#restrict-to-the-fixed-mass-stationary-family" id="toc-restrict-to-the-fixed-mass-stationary-family" class="nav-link" data-scroll-target="#restrict-to-the-fixed-mass-stationary-family">18. Restrict to the Fixed-Mass Stationary Family</a></li>
+  <li><a href="#define-the-coupled-physical-retention-read" id="toc-define-the-coupled-physical-retention-read" class="nav-link" data-scroll-target="#define-the-coupled-physical-retention-read">19. Define the Coupled Physical Retention Read</a></li>
+  <li><a href="#retention-is-not-angular-momentum-or-charge" id="toc-retention-is-not-angular-momentum-or-charge" class="nav-link" data-scroll-target="#retention-is-not-angular-momentum-or-charge">20. Retention Is Not Angular Momentum or Charge</a></li>
+  <li><a href="#decompose-the-physical-work-read" id="toc-decompose-the-physical-work-read" class="nav-link" data-scroll-target="#decompose-the-physical-work-read">21. Decompose the Physical Work Read</a></li>
+  <li><a href="#the-individual-channels-are-coupled" id="toc-the-individual-channels-are-coupled" class="nav-link" data-scroll-target="#the-individual-channels-are-coupled">22. The Individual Channels Are Coupled</a></li>
+  <li><a href="#the-individual-channel-one-forms-are-not-generally-exact" id="toc-the-individual-channel-one-forms-are-not-generally-exact" class="nav-link" data-scroll-target="#the-individual-channel-one-forms-are-not-generally-exact">23. The Individual Channel One-Forms Are Not Generally Exact</a></li>
+  <li><a href="#their-sum-is-exact" id="toc-their-sum-is-exact" class="nav-link" data-scroll-target="#their-sum-is-exact">24. Their Sum Is Exact</a></li>
+  <li><a href="#this-is-the-central-coupling-result" id="toc-this-is-the-central-coupling-result" class="nav-link" data-scroll-target="#this-is-the-central-coupling-result">25. This Is the Central Coupling Result</a></li>
+  <li><a href="#introduce-enclosing-possibility" id="toc-introduce-enclosing-possibility" class="nav-link" data-scroll-target="#introduce-enclosing-possibility">26. Introduce Enclosing Possibility</a></li>
+  <li><a href="#map-the-stationary-family-to-differential-stall" id="toc-map-the-stationary-family-to-differential-stall" class="nav-link" data-scroll-target="#map-the-stationary-family-to-differential-stall">27. Map the Stationary Family to Differential Stall</a></li>
+  <li><a href="#differential-stall-is-not-absolute-complete-retention" id="toc-differential-stall-is-not-absolute-complete-retention" class="nav-link" data-scroll-target="#differential-stall-is-not-absolute-complete-retention">28. Differential Stall Is Not Absolute Complete Retention</a></li>
+  <li><a href="#differential-stall-is-also-not-mechanical-immobility" id="toc-differential-stall-is-also-not-mechanical-immobility" class="nav-link" data-scroll-target="#differential-stall-is-also-not-mechanical-immobility">29. Differential Stall Is Also Not Mechanical Immobility</a></li>
+  <li><a href="#the-compatible-enclosing-multiplicity-is-then-invariant" id="toc-the-compatible-enclosing-multiplicity-is-then-invariant" class="nav-link" data-scroll-target="#the-compatible-enclosing-multiplicity-is-then-invariant">30. The Compatible Enclosing Multiplicity Is Then Invariant</a></li>
+  <li><a href="#rotation-and-charge-reorganize-the-local-landscape" id="toc-rotation-and-charge-reorganize-the-local-landscape" class="nav-link" data-scroll-target="#rotation-and-charge-reorganize-the-local-landscape">31. Rotation and Charge Reorganize the Local Landscape</a></li>
+  <li><a href="#possibility-changes-because-local-multiplicity-changes" id="toc-possibility-changes-because-local-multiplicity-changes" class="nav-link" data-scroll-target="#possibility-changes-because-local-multiplicity-changes">32. Possibility Changes Because Local Multiplicity Changes</a></li>
+  <li><a href="#schwarzschild-is-the-reference-maximum-multiplicity-state-at-fixed-mass" id="toc-schwarzschild-is-the-reference-maximum-multiplicity-state-at-fixed-mass" class="nav-link" data-scroll-target="#schwarzschild-is-the-reference-maximum-multiplicity-state-at-fixed-mass">33. Schwarzschild Is the Reference Maximum-Multiplicity State at Fixed Mass</a></li>
+  <li><a href="#define-cumulative-retention-relative-to-schwarzschild" id="toc-define-cumulative-retention-relative-to-schwarzschild" class="nav-link" data-scroll-target="#define-cumulative-retention-relative-to-schwarzschild">34. Define Cumulative Retention Relative to Schwarzschild</a></li>
+  <li><a href="#do-not-identify-the-schwarzschild-count-with-primitive-possibility" id="toc-do-not-identify-the-schwarzschild-count-with-primitive-possibility" class="nav-link" data-scroll-target="#do-not-identify-the-schwarzschild-count-with-primitive-possibility">35. Do Not Identify the Schwarzschild Count With Primitive Possibility</a></li>
+  <li><a href="#evaluate-the-cumulative-retention" id="toc-evaluate-the-cumulative-retention" class="nav-link" data-scroll-target="#evaluate-the-cumulative-retention">36. Evaluate the Cumulative Retention</a></li>
+  <li><a href="#now-examine-the-inner-horizon" id="toc-now-examine-the-inner-horizon" class="nav-link" data-scroll-target="#now-examine-the-inner-horizon">37. Now Examine the Inner Horizon</a></li>
+  <li><a href="#the-inner-horizon-is-not-the-primitive-retention-coordinate" id="toc-the-inner-horizon-is-not-the-primitive-retention-coordinate" class="nav-link" data-scroll-target="#the-inner-horizon-is-not-the-primitive-retention-coordinate">38. The Inner Horizon Is Not the Primitive Retention Coordinate</a></li>
+  <li><a href="#pure-kerr-is-the-special-case" id="toc-pure-kerr-is-the-special-case" class="nav-link" data-scroll-target="#pure-kerr-is-the-special-case">39. Pure Kerr Is the Special Case</a></li>
+  <li><a href="#reissnernordström-breaks-the-coincidence" id="toc-reissnernordström-breaks-the-coincidence" class="nav-link" data-scroll-target="#reissnernordström-breaks-the-coincidence">40. Reissner–Nordström Breaks the Coincidence</a></li>
+  <li><a href="#the-charge-specific-excess-persists-in-kerrnewman" id="toc-the-charge-specific-excess-persists-in-kerrnewman" class="nav-link" data-scroll-target="#the-charge-specific-excess-persists-in-kerrnewman">41. The Charge-Specific Excess Persists in Kerr–Newman</a></li>
+  <li><a href="#this-prevents-an-inner-horizon-ontology" id="toc-this-prevents-an-inner-horizon-ontology" class="nav-link" data-scroll-target="#this-prevents-an-inner-horizon-ontology">42. This Prevents an Inner-Horizon Ontology</a></li>
+  <li><a href="#extremality-is-the-boundary-of-the-admissible-macrostate-domain" id="toc-extremality-is-the-boundary-of-the-admissible-macrostate-domain" class="nav-link" data-scroll-target="#extremality-is-the-boundary-of-the-admissible-macrostate-domain">43. Extremality Is the Boundary of the Admissible Macrostate Domain</a></li>
+  <li><a href="#extremality-is-not-where-differential-stall-begins" id="toc-extremality-is-not-where-differential-stall-begins" class="nav-link" data-scroll-target="#extremality-is-not-where-differential-stall-begins">44. Extremality Is Not Where Differential Stall Begins</a></li>
+  <li><a href="#what-disappears-at-extremality-is-branch-distinguishability" id="toc-what-disappears-at-extremality-is-branch-distinguishability" class="nav-link" data-scroll-target="#what-disappears-at-extremality-is-branch-distinguishability">45. What Disappears at Extremality Is Branch Distinguishability</a></li>
+  <li><a href="#the-boundary-can-persist-while-the-branch-distinction-vanishes" id="toc-the-boundary-can-persist-while-the-branch-distinction-vanishes" class="nav-link" data-scroll-target="#the-boundary-can-persist-while-the-branch-distinction-vanishes">46. The Boundary Can Persist While the Branch Distinction Vanishes</a></li>
+  <li><a href="#principle-coupled-horizon-macrostate-domain" id="toc-principle-coupled-horizon-macrostate-domain" class="nav-link" data-scroll-target="#principle-coupled-horizon-macrostate-domain">47. Principle — Coupled Horizon Macrostate Domain</a></li>
+  <li><a href="#principle-coupled-horizon-retention" id="toc-principle-coupled-horizon-retention" class="nav-link" data-scroll-target="#principle-coupled-horizon-retention">48. Principle — Coupled Horizon Retention</a></li>
+  <li><a href="#principle-stationary-differential-stall" id="toc-principle-stationary-differential-stall" class="nav-link" data-scroll-target="#principle-stationary-differential-stall">49. Principle — Stationary Differential Stall</a></li>
+  <li><a href="#corollary-invariant-enclosing-compatibility" id="toc-corollary-invariant-enclosing-compatibility" class="nav-link" data-scroll-target="#corollary-invariant-enclosing-compatibility">50. Corollary — Invariant Enclosing Compatibility</a></li>
+  <li><a href="#corollary-physical-work-channels-need-not-be-primitive-retention-channels" id="toc-corollary-physical-work-channels-need-not-be-primitive-retention-channels" class="nav-link" data-scroll-target="#corollary-physical-work-channels-need-not-be-primitive-retention-channels">51. Corollary — Physical Work Channels Need Not Be Primitive Retention Channels</a></li>
+  <li><a href="#corollary-the-inner-horizon-is-a-projection-not-the-retention-primitive" id="toc-corollary-the-inner-horizon-is-a-projection-not-the-retention-primitive" class="nav-link" data-scroll-target="#corollary-the-inner-horizon-is-a-projection-not-the-retention-primitive">52. Corollary — The Inner Horizon Is a Projection, Not the Retention Primitive</a></li>
+  <li><a href="#corollary-extremality-is-branch-closure" id="toc-corollary-extremality-is-branch-closure" class="nav-link" data-scroll-target="#corollary-extremality-is-branch-closure">53. Corollary — Extremality Is Branch Closure</a></li>
+  <li><a href="#background-remains-separate" id="toc-background-remains-separate" class="nav-link" data-scroll-target="#background-remains-separate">54. Background Remains Separate</a></li>
+  <li><a href="#logical-status" id="toc-logical-status" class="nav-link" data-scroll-target="#logical-status">55. Logical Status</a></li>
+  <li><a href="#the-central-r²d-inversion" id="toc-the-central-r²d-inversion" class="nav-link" data-scroll-target="#the-central-r²d-inversion">56. The Central R²D Inversion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">57. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-48-coupled-horizon-retention-occurs-before-kerrnewman-geometry" class="level1">
+<h1>Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</h1>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Schwarzschild geometry contains a horizon boundary whose exterior-directed gravitational read reaches complete retention.</p>
+<p>Kerr, Reissner–Nordström, and Kerr–Newman introduce additional structure.</p>
+<p>At fixed physical mass, the horizon can occupy different rotational and charge states. Conventional gravity represents these states using angular momentum</p>
+<p><span class="math display">\[J\]</span></p>
+<p>and charge</p>
+<p><span class="math display">\[Q\]</span></p>
+<p>and their changes enter the black-hole first law through the work terms</p>
+<p><span class="math display">\[\Omega_H dJ\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\Phi_H dQ\]</span></p>
+<p>Recursively Realized Distinguishability (R²D) asks what count architecture exists before those physical work terms are interpreted geometrically.</p>
+<p>Define the mass-owned dimensionless scale</p>
+<p><span class="math display">\[j_M\equiv\frac{GM^2}{\hbar c}\]</span></p>
+<p>Define the rotational macrostate coordinate</p>
+<p><span class="math display">\[j\equiv\frac J\hbar\]</span></p>
+<p>and the dimensionless charge coordinate</p>
+<!-- source_pdf_page: 1644 -->
+<p><span class="math display">\[q\equiv\frac Q{q_P},\qquad q_P=\sqrt{4\pi\epsilon_0\hbar c}\]</span></p>
+<p>The Kerr–Newman horizon condition becomes</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p>Thus rotation and charge are not two unrelated additions to a Schwarzschild horizon.</p>
+<p>They are two distinguishable physical macrostate coordinates within one fixed-mass admissible horizon domain.</p>
+<p>Define</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>Then the phase-normalized horizon roots are</p>
+<p><span class="math display">\[x_\pm=j_M\pm\Delta_{\mathrm{KN}}.\]</span></p>
+<p>The outer-horizon Bekenstein–Hawking multiplicity coordinate is</p>
+<p><span class="math display">\[S_+ (j, q) = \ln W_+ = 2\pi (j_M + \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<p>This is the native logarithmic multiplicity landscape of the physically calibrated stationary horizon boundary.</p>
+<p>The Kerr–Newman first law is</p>
+<p><span class="math display">\[d(M c^2 ) = k_B T_H dS_+ + \Omega_H dJ + \Phi_H dQ\]</span></p>
+<p>Along the fixed-mass stationary family,</p>
+<p><span class="math display">\[d(M c^2 ) = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[k_B T_H dS_+ = - (\Omega_H dJ + \Phi_H dQ)\]</span></p>
+<p>Define the physical dimensionless retention differential</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<!-- source_pdf_page: 1645 -->
+<p>Because S+ is a state function, the total coupled retention one-form is exact.</p>
+<p>The two conventional work channels may be written</p>
+<p><span class="math display">\[dR_J=\frac{\Omega_H\,dJ}{k_BT_H}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[dR_Q=\frac{\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p>But on the full two-dimensional Kerr–Newman macrostate domain, these channel contributions are not separately exact in general.</p>
+<p>Their sum is:</p>
+<p><span class="math display">\[dR_{\mathrm{KN}} = dR_J + dR_Q = -dS_+\]</span></p>
+<p>The integrable object therefore belongs to the coupled horizon boundary, not independently to rotation and charge.</p>
+<p>Under the R²D stationary-state mapping, enclosing possibility changes in the same differential relation:</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[dA_{\mathrm{KN}}=dP_{\mathrm{KN}}-dR_{\mathrm{KN}}=0.\]</span></p>
+<p>This is a differential stall condition over the stationary Kerr–Newman macrostate manifold.</p>
+<p>It must not be confused with an absolute statement</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = R_{\mathrm{KN}}\]</span></p>
+<p>which requires an independently specified integration constant.</p>
+<p>Nor should it be confused with extremality.</p>
+<p>Differential stall holds throughout the stationary family under this mapping.</p>
+<p>Extremality occurs only when</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>Using the canonical R²D possibility relation</p>
+<!-- source_pdf_page: 1646 -->
+<p><span class="math display">\[P=\ln\frac\Theta W=\ln\Theta-S\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[dP = d \ln \Theta - dS\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}} = -dS_+\]</span></p>
+<p>it follows that</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<p>Thus the enclosing compatible multiplicity remains invariant across the connected fixed-mass stationary macrostate family.</p>
+<p>Rotation and charge redistribute the realized horizon multiplicity landscape without changing the enclosing compatible count under this stationary-stall mapping.</p>
+<p>Relative to the same-mass Schwarzschild state,</p>
+<p><span class="math display">\[S_{\mathrm{Schw}} = 4\pi j_M\]</span></p>
+<p>Define the cumulative physical retention read</p>
+<p><span class="math display">\[R_{\mathrm{KN}} \equiv S_{\mathrm{Schw}} - S_+\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[S_+ + R_{\mathrm{KN}} = S_{\mathrm{Schw}}\]</span></p>
+<p>This is a physical state-space identity.</p>
+<p>It does not identify</p>
+<p><span class="math display">\[S_{\mathrm{Schw}}\]</span></p>
+<p>with primitive possibility or with</p>
+<p><span class="math display">\[\ln \Theta\]</span></p>
+<p>The inner horizon supplies a useful but secondary geometric comparison.</p>
+<p>Its multiplicity coordinate is</p>
+<p><span class="math display">\[S_- = 2\pi (j_M - \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<!-- source_pdf_page: 1647 -->
+<p>The cumulative retention read is</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = 2\pi (j_M - \Delta_{\mathrm{KN}} ) + \pi q^2\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_- + 2\pi q^2\]</span></p>
+<p>Only on the pure Kerr axis,</p>
+<p><span class="math display">\[q = 0\]</span></p>
+<p>does this reduce to</p>
+<p><span class="math display">\[R_J = S_-\]</span></p>
+<p>Thus the Kerr inner-horizon equality is not a universal R²D identification.</p>
+<p>Reissner–Nordström and the full Kerr–Newman family show that the inner horizon is not the primitive retention coordinate.</p>
+<p>The correct hierarchy is therefore</p>
+<blockquote class="blockquote">
+<p>fixed-mass horizon boundary</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>(j, q) admissible macrostate domain</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[S_+ (j, q) = \ln W_+\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}=-dS_+\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>under the stationary-state R²D mapping,</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<!-- source_pdf_page: 1648 -->
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Kerr–Newman geometry.</p>
+</blockquote>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>coupled horizon retention occurs before Kerr–Newman geometry.</p>
+</blockquote>
+<p>More specifically:</p>
+<p>rotation and charge are distinct physical work projections of one integrable retention relation owned</p>
+</section>
+<section id="begin-with-the-boundary" class="level2">
+<h2 class="anchored" data-anchor-id="begin-with-the-boundary">1. Begin With the Boundary</h2>
+<p>Before introducing Kerr–Newman radius, metric, angular velocity, electrostatic potential, or inner and outer horizons, R²D requires a count boundary that owns the distinguishable states.</p>
+<p>Let</p>
+<p><span class="math display">\[B_{\mathrm{KN}}\]</span></p>
+<p>denote a stationary gravitational horizon count boundary at fixed physical mass</p>
+<p><span class="math display">\[M\]</span></p>
+<p>The fixed mass defines the orientation-even gravitational scale of the macrostate domain.</p>
+<p>Rotation and charge label distinguishable states within that domain.</p>
+</section>
+<section id="mass-remains-orientation-even" class="level2">
+<h2 class="anchored" data-anchor-id="mass-remains-orientation-even">2. Mass Remains Orientation Even</h2>
+<p>Under rotational reversal,</p>
+<p><span class="math display">\[J \to -J\]</span></p>
+<p>while</p>
+<p><span class="math display">\[M \to M\]</span></p>
+<p>Under charge reversal,</p>
+<p><span class="math display">\[Q \to -Q\]</span></p>
+<!-- source_pdf_page: 1649 -->
+<p>while again</p>
+<p><span class="math display">\[M \to M\]</span></p>
+<p>Thus mass does not carry the signs of either physical orientation coordinate.</p>
+<p>Define</p>
+<p><span class="math display">\[j_M=\frac{GM^2}{\hbar c}\]</span></p>
+<p>This is the fixed-mass dimensionless gravitational scale used throughout the present state family.</p>
+</section>
+<section id="rotation-supplies-one-physical-macrostate-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="rotation-supplies-one-physical-macrostate-coordinate">3. Rotation Supplies One Physical Macrostate Coordinate</h2>
+<p>Define</p>
+<p><span class="math display">\[j=\frac J\hbar\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[J \to -J\]</span></p>
+<p>implies</p>
+<p><span class="math display">\[j \to -j\]</span></p>
+<p>The sign of j retains rotational orientation.</p>
+<p>But the gravitational multiplicity landscape need not distinguish the signs +j and −j separately.</p>
+</section>
+<section id="charge-supplies-a-different-physical-macrostate-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="charge-supplies-a-different-physical-macrostate-coordinate">4. Charge Supplies a Different Physical Macrostate Coordinate</h2>
+<p>Define the rationalized Planck-charge scale</p>
+<p><span class="math display">\[q_P=\sqrt{4\pi\epsilon_0\hbar c}\]</span></p>
+<p>Then define</p>
+<p><span class="math display">\[q=\frac Q{q_P}\]</span></p>
+<p>Under charge reversal,</p>
+<!-- source_pdf_page: 1650 -->
+<p><span class="math display">\[Q \to -Q\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[q \to -q\]</span></p>
+<p>Thus charge also possesses an orientation-odd physical coordinate.</p>
+<p>Its physical meaning is not identical to rotational orientation.</p>
+</section>
+<section id="rotation-and-charge-need-not-be-the-same-primitive-distinction" class="level2">
+<h2 class="anchored" data-anchor-id="rotation-and-charge-need-not-be-the-same-primitive-distinction">5. Rotation and Charge Need Not Be the Same Primitive Distinction</h2>
+<p>The coordinates</p>
+<p><span class="math display">\[j\]</span></p>
+<p>and</p>
+<p><span class="math display">\[q\]</span></p>
+<p>transform similarly under reversal,</p>
+<p><span class="math display">\[j \to -j\]</span></p>
+<p><span class="math display">\[q \to -q\]</span></p>
+<p>but they represent different physical projections.</p>
+<p>Angular momentum is a mechanical rotational read.</p>
+<p>Charge is an electromagnetic coupling read.</p>
+<p>R²D does not need to collapse these physical coordinates into one primitive substance.</p>
+<p>The question is whether they belong to one larger admissible boundary relation.</p>
+</section>
+<section id="kerrnewman-answers-yes" class="level2">
+<h2 class="anchored" data-anchor-id="kerrnewman-answers-yes">6. Kerr–Newman Answers Yes</h2>
+<p>The conventional Kerr–Newman horizon radii are</p>
+<p><span class="math display">\[r_\pm=r_M\pm\sqrt{r_M^2-a^2-r_Q^2}\]</span></p>
+<p>where</p>
+<!-- source_pdf_page: 1651 -->
+<p><span class="math display">\[r_M=\frac{GM}{c^2},\qquad a=\frac J{Mc}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[r_Q^2=\frac{GQ^2}{4\pi\epsilon_0c^4}\]</span></p>
+<p>Real horizons require</p>
+<p><span class="math display">\[r_M^2-a^2-r_Q^2\ge0\]</span></p>
+</section>
+<section id="rewrite-the-horizon-condition-in-count-normalized-coordinates" class="level2">
+<h2 class="anchored" data-anchor-id="rewrite-the-horizon-condition-in-count-normalized-coordinates">7. Rewrite the Horizon Condition in Count-Normalized Coordinates</h2>
+<p>Multiplying the horizon relation by the appropriate mass-phase scale gives</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p>Thus the physically different coordinates j and q occupy one common admissible horizon domain.</p>
+<p>This is already an important R²D result.</p>
+<p>The two work channels belong to one boundary before they are decomposed into separate conventional physical terms.</p>
+</section>
+<section id="normalize-the-admissible-domain" class="level2">
+<h2 class="anchored" data-anchor-id="normalize-the-admissible-domain">8. Normalize the Admissible Domain</h2>
+<p>Define</p>
+<p><span class="math display">\[\chi_J\equiv\frac j{j_M}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\chi_Q\equiv\frac q{\sqrt{j_M}}\]</span></p>
+<p>Then the admissible domain becomes</p>
+<p><span class="math display">\[\chi_J^2 + \chi_Q^2 \le 1\]</span></p>
+<p>The fixed-mass Kerr–Newman family therefore occupies a bounded two-dimensional macrostate domain.</p>
+<!-- source_pdf_page: 1652 -->
+</section>
+<section id="kerr-and-reissnernordström-are-axes-of-one-domain" class="level2">
+<h2 class="anchored" data-anchor-id="kerr-and-reissnernordström-are-axes-of-one-domain">9. Kerr and Reissner–Nordström Are Axes of One Domain</h2>
+<p>Pure Kerr corresponds to</p>
+<p><span class="math display">\[\chi_Q = 0\]</span></p>
+<p>Pure Reissner–Nordström corresponds to</p>
+<p><span class="math display">\[\chi_J = 0\]</span></p>
+<p>Schwarzschild is</p>
+<p><span class="math display">\[\chi_J = \chi_Q = 0\]</span></p>
+<p>The general Kerr–Newman state lies inside the combined domain.</p>
+<p>Thus Kerr and Reissner–Nordström should not be treated as fundamentally unrelated gravitational ontologies.</p>
+<p>They are physical axes of one larger stationary state space.</p>
+</section>
+<section id="define-the-residual-geometric-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-residual-geometric-coordinate">10. Define the Residual Geometric Coordinate</h2>
+<p>Define</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=j_M\sqrt{1-\chi_J^2-\chi_Q^2}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} \ge 0\]</span></p>
+<p>Schwarzschild has</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = j_M\]</span></p>
+<p>Extremality has</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<!-- source_pdf_page: 1653 -->
+</section>
+<section id="the-residual-coordinate-is-not-r²d-asymmetry" class="level2">
+<h2 class="anchored" data-anchor-id="the-residual-coordinate-is-not-r²d-asymmetry">11. The Residual Coordinate Is Not R²D Asymmetry</h2>
+<p>The R²D directional asymmetry is</p>
+<p><span class="math display">\[A = P - R\]</span></p>
+<p>The Kerr–Newman residual coordinate</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}\]</span></p>
+<p>is not that quantity.</p>
+<p>It is a physical coordinate describing the remaining separation permitted by the projected Kerr–Newman state geometry.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} \ne A\]</span></p>
+<p>This distinction will become crucial when stationary stall and extremality are compared.</p>
+</section>
+<section id="define-the-phase-normalized-radius" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-phase-normalized-radius">12. Define the Phase-Normalized Radius</h2>
+<p>Let</p>
+<p><span class="math display">\[x=\frac{Mc}{\hbar}r\]</span></p>
+<p>The Kerr–Newman horizon polynomial becomes</p>
+<p><span class="math display">\[x^2-2j_Mx+j^2+j_Mq^2=0\]</span></p>
+<p>Its roots are</p>
+<p><span class="math display">\[x_\pm=j_M\pm\Delta_{\mathrm{KN}}.\]</span></p>
+</section>
+<section id="the-root-sum-is-mass-owned" class="level2">
+<h2 class="anchored" data-anchor-id="the-root-sum-is-mass-owned">13. The Root Sum Is Mass Owned</h2>
+<p>The roots satisfy</p>
+<p><span class="math display">\[x_+ + x_- = 2j_M\]</span></p>
+<p>Thus their sum depends only on the fixed-mass gravitational scale.</p>
+<!-- source_pdf_page: 1654 -->
+<p>Their product is</p>
+<p><span class="math display">\[x_+ x_- = j^2 + j_M q^2\]</span></p>
+<p>The branch splitting therefore depends on the rotational and charge state.</p>
+</section>
+<section id="the-outer-horizon-supplies-the-native-multiplicity-read" class="level2">
+<h2 class="anchored" data-anchor-id="the-outer-horizon-supplies-the-native-multiplicity-read">14. The Outer Horizon Supplies the Native Multiplicity Read</h2>
+<p>The Kerr–Newman horizon area is</p>
+<p><span class="math display">\[A_\pm=4\pi(r_\pm^2+a^2)\]</span></p>
+<p>Under the Bekenstein–Hawking physical calibration,</p>
+<p><span class="math display">\[S_\pm=\ln W_\pm=\frac{A_\pm}{4\ell_P^2}\]</span></p>
+<p>Using the normalized horizon polynomial gives</p>
+<p><span class="math display">\[S_\pm=2\pi x_\pm-\pi q^2\]</span></p>
+<p>Therefore the outer-horizon multiplicity landscape is</p>
+<p><span class="math display">\[S_+ (j, q) = 2\pi (j_M + \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+</section>
+<section id="the-native-multiplicity-is-even-under-orientation-reversal" class="level2">
+<h2 class="anchored" data-anchor-id="the-native-multiplicity-is-even-under-orientation-reversal">15. The Native Multiplicity Is Even Under Orientation Reversal</h2>
+<p>Because S+ depends on</p>
+<p><span class="math display">\[j^2\]</span></p>
+<p>and</p>
+<p><span class="math display">\[q^2\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[S_+ (j, q) = S_+ (-j, q)\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_+ (j, q) = S_+ (j, -q)\]</span></p>
+<p>Thus the scalar gravitational multiplicity projection is orientation even.</p>
+<!-- source_pdf_page: 1655 -->
+<p>The signs of rotation and charge belong to the physical macrostate coordinates, not to the scalar multiplicity value itself.</p>
+</section>
+<section id="orientation-and-multiplicity-must-remain-distinct" class="level2">
+<h2 class="anchored" data-anchor-id="orientation-and-multiplicity-must-remain-distinct">16. Orientation and Multiplicity Must Remain Distinct</h2>
+<p>The states</p>
+<p><span class="math display">\[+j\quad\text{and}\quad-j\]</span></p>
+<p>can have equal horizon multiplicity while remaining physically distinguishable rotational states.</p>
+<p>Likewise,</p>
+<p><span class="math display">\[+q\quad\text{and}\quad-q\]</span></p>
+<p>can have equal gravitational horizon multiplicity while remaining physically distinct charge states.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>orientation distinction <span class="math inline">\(\\ne\)</span> multiplicity diff</p>
+</blockquote>
+<p>The boundary can own both.</p>
+</section>
+<section id="the-first-law-supplies-the-physical-work-reads" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-law-supplies-the-physical-work-reads">17. The First Law Supplies the Physical Work Reads</h2>
+<p>The Kerr–Newman first law may be written</p>
+<p><span class="math display">\[d(M c^2 ) = k_B T_H dS_+ + \Omega_H dJ + \Phi_H dQ\]</span></p>
+<p>Here</p>
+<p><span class="math display">\[\Omega_H\]</span></p>
+<p>is the horizon angular velocity and</p>
+<p><span class="math display">\[\Phi_H\]</span></p>
+<p>the horizon electrostatic potential.</p>
+<p>The two conventional productive work reads are therefore</p>
+<p><span class="math display">\[\Omega_H dJ\]</span></p>
+<p>and</p>
+<!-- source_pdf_page: 1656 -->
+<p><span class="math display">\[\Phi_H dQ\]</span></p>
+</section>
+<section id="restrict-to-the-fixed-mass-stationary-family" class="level2">
+<h2 class="anchored" data-anchor-id="restrict-to-the-fixed-mass-stationary-family">18. Restrict to the Fixed-Mass Stationary Family</h2>
+<p>For the macrostate family considered here,</p>
+<p><span class="math display">\[dM = 0\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[d(M c^2 ) = 0\]</span></p>
+<p>The first law becomes</p>
+<p><span class="math display">\[k_B T_H dS_+ + \Omega_H dJ + \Phi_H dQ = 0\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}=-dS_+\]</span></p>
+</section>
+<section id="define-the-coupled-physical-retention-read" class="level2">
+<h2 class="anchored" data-anchor-id="define-the-coupled-physical-retention-read">19. Define the Coupled Physical Retention Read</h2>
+<p>Map the dimensionless productive work coordinate to R²D retention:</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<p>This relation is exact over the connected stationary macrostate domain.</p>
+</section>
+<section id="retention-is-not-angular-momentum-or-charge" class="level2">
+<h2 class="anchored" data-anchor-id="retention-is-not-angular-momentum-or-charge">20. Retention Is Not Angular Momentum or Charge</h2>
+<p>The mapping does not identify</p>
+<p><span class="math display">\[J = R\]</span></p>
+<p>or</p>
+<p><span class="math display">\[Q = R\]</span></p>
+<!-- source_pdf_page: 1657 -->
+<p>Nor does it identify either work term alone with a primitive independent retention variable.</p>
+<p>Instead,</p>
+<p><span class="math display">\[R_{\mathrm{KN}}\]</span></p>
+<p>belongs to the transition relation of the full coupled boundary.</p>
+<p>The physical coordinates J and Q describe how that relation is read.</p>
+</section>
+<section id="decompose-the-physical-work-read" class="level2">
+<h2 class="anchored" data-anchor-id="decompose-the-physical-work-read">21. Decompose the Physical Work Read</h2>
+<p>Define</p>
+<p><span class="math display">\[dR_J\equiv\frac{\Omega_H\,dJ}{k_BT_H}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[dR_Q\equiv\frac{\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[dR_{\mathrm{KN}} = dR_J + dR_Q\]</span></p>
+<p>This is a decomposition of the physical work read.</p>
+<p>It need not imply two independent primitive turbines.</p>
+</section>
+<section id="the-individual-channels-are-coupled" class="level2">
+<h2 class="anchored" data-anchor-id="the-individual-channels-are-coupled">22. The Individual Channels Are Coupled</h2>
+<p>When both</p>
+<blockquote class="blockquote">
+<p>J and zero are separated by a clipped relation glyph [source page 1657; author review].</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>Q and zero are separated by a clipped relation glyph [source page 1657; author review].</p>
+</blockquote>
+<p>the horizon quantities</p>
+<p><span class="math display">\[\Omega_H ,       \Phi_H ,        T_H\]</span></p>
+<!-- source_pdf_page: 1658 -->
+<p>depend on the full Kerr–Newman state.</p>
+<p>Thus the coefficient multiplying dJ depends on charge, and the coefficient multiplying dQ depends on rotation.</p>
+<p>The two physical work channels are therefore conditionally coupled.</p>
+</section>
+<section id="the-individual-channel-one-forms-are-not-generally-exact" class="level2">
+<h2 class="anchored" data-anchor-id="the-individual-channel-one-forms-are-not-generally-exact">23. The Individual Channel One-Forms Are Not Generally Exact</h2>
+<p>Across the full two-dimensional state domain,</p>
+<p><span class="math display">\[dR_J\]</span></p>
+<p>and</p>
+<p><span class="math display">\[dR_Q\]</span></p>
+<p>are not, in general, independently exact one-forms.</p>
+<p>Their separate integrals can depend on the path taken through the (J, Q) state space.</p>
+<p>The old Kerr–Newman analysis explicitly found this nonseparability.</p>
+</section>
+<section id="their-sum-is-exact" class="level2">
+<h2 class="anchored" data-anchor-id="their-sum-is-exact">24. Their Sum Is Exact</h2>
+<p>But</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[S_+\]</span></p>
+<p>is a state function,</p>
+<p><span class="math display">\[dS_+\]</span></p>
+<p>is exact.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}\]</span></p>
+<p>is exact.</p>
+<!-- source_pdf_page: 1659 -->
+<p>The total retention relation is owned by the coupled horizon boundary.</p>
+</section>
+<section id="this-is-the-central-coupling-result" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-the-central-coupling-result">25. This Is the Central Coupling Result</h2>
+<p>The physical decomposition is</p>
+<p><span class="math display">\[dR_{\mathrm{KN}} = dR_J + dR_Q\]</span></p>
+<p>But integrability belongs to</p>
+<p><span class="math display">\[R_{\mathrm{KN}}\]</span></p>
+<p>not separately to the individual channel reads.</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>one horizon boundary → one exact retention relation → multiple physical work projections.</p>
+</blockquote>
+<p>This is more primitive than treating rotation and charge as two independent black-hole mechanisms.</p>
+</section>
+<section id="introduce-enclosing-possibility" class="level2">
+<h2 class="anchored" data-anchor-id="introduce-enclosing-possibility">26. Introduce Enclosing Possibility</h2>
+<p>Let</p>
+<p><span class="math display">\[\Theta_{\mathrm{KN}}\]</span></p>
+<p>denote the multiplicity of enclosing realizations compatible with the selected local Kerr–Newman macrostate.</p>
+<p>Canonical R²D gives</p>
+<p><span class="math display">\[P_{\mathrm{KN}}=\ln\frac{\Theta_{\mathrm{KN}}}{W_+}\]</span></p>
+<p>Since</p>
+<p><span class="math display">\[S_+ = \ln W_+\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = \ln \Theta_{\mathrm{KN}} - S_+\]</span></p>
+<p>Therefore,</p>
+<!-- source_pdf_page: 1660 -->
+<p><span class="math display">\[dP_{\mathrm{KN}} = d \ln \Theta_{\mathrm{KN}} - dS_+\]</span></p>
+</section>
+<section id="map-the-stationary-family-to-differential-stall" class="level2">
+<h2 class="anchored" data-anchor-id="map-the-stationary-family-to-differential-stall">27. Map the Stationary Family to Differential Stall</h2>
+<p>The fixed-mass stationary family is mapped to an R²D differential stall manifold by</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>This is an addendum-level physical mapping.</p>
+<p>It says that an infinitesimal change of stationary Kerr–Newman macrostate changes enclosing possibility and productive retention equally.</p>
+<p>Therefore,</p>
+<p><span class="math display">\[dA_{\mathrm{KN}}=dP_{\mathrm{KN}}-dR_{\mathrm{KN}}=0.\]</span></p>
+</section>
+<section id="differential-stall-is-not-absolute-complete-retention" class="level2">
+<h2 class="anchored" data-anchor-id="differential-stall-is-not-absolute-complete-retention">28. Differential Stall Is Not Absolute Complete Retention</h2>
+<p>From</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>we cannot infer without additional boundary information that</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = R_{\mathrm{KN}}\]</span></p>
+<p>absolutely.</p>
+<p>The integration constant remains undetermined.</p>
+<p>Thus the rigorous statement is</p>
+<blockquote class="blockquote">
+<p>stationary Kerr–Newman is a differential stall manifold.</p>
+</blockquote>
+<p>This is stronger than saying only that the geometry is stationary, but narrower than asserting absolute complete retention.</p>
+</section>
+<section id="differential-stall-is-also-not-mechanical-immobility" class="level2">
+<h2 class="anchored" data-anchor-id="differential-stall-is-also-not-mechanical-immobility">29. Differential Stall Is Also Not Mechanical Immobility</h2>
+<p>For a rotating state,</p>
+<!-- source_pdf_page: 1661 -->
+<blockquote class="blockquote">
+<p>The relation between <span class="math inline">\(\Omega_H\)</span> and zero is clipped [source page 1661; author review].</p>
+</blockquote>
+<p>Changing rotational macrostates can have a nonzero work coordinate.</p>
+<p>Likewise,</p>
+<blockquote class="blockquote">
+<p>The relation between <span class="math inline">\(\Phi_H\)</span> and zero is clipped [source page 1661; author review].</p>
+</blockquote>
+<p>for a charged state.</p>
+<p>Thus</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>does not mean that the state lacks physical rotational or charge structure.</p>
+<p>It means that the relevant infinitesimal possibility and retention changes balance.</p>
+</section>
+<section id="the-compatible-enclosing-multiplicity-is-then-invariant" class="level2">
+<h2 class="anchored" data-anchor-id="the-compatible-enclosing-multiplicity-is-then-invariant">30. The Compatible Enclosing Multiplicity Is Then Invariant</h2>
+<p>We have</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = d \ln \Theta_{\mathrm{KN}} - dS_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<p>Under differential stall,</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} - dS_+ = -dS_+\]</span></p>
+<p>Hence,</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<p>Thus,</p>
+<p><span class="math display">\[\Theta_{\mathrm{KN}}=\text{constant}\]</span></p>
+<p>across the connected fixed-mass stationary family.</p>
+<!-- source_pdf_page: 1662 -->
+</section>
+<section id="rotation-and-charge-reorganize-the-local-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="rotation-and-charge-reorganize-the-local-landscape">31. Rotation and Charge Reorganize the Local Landscape</h2>
+<p>The invariant</p>
+<p><span class="math display">\[\Theta_{\mathrm{KN}}\]</span></p>
+<p>does not mean that the local horizon multiplicity remains unchanged.</p>
+<p>Indeed,</p>
+<p><span class="math display">\[S_+ = S_+ (j, q)\]</span></p>
+<p>Changing rotation or charge changes</p>
+<p><span class="math display">\[W_+ = e^{S_+}\]</span></p>
+<p>Thus the stationary family reorganizes local horizon multiplicity while preserving the compatible enclosing multiplicity under the stall mapping.</p>
+</section>
+<section id="possibility-changes-because-local-multiplicity-changes" class="level2">
+<h2 class="anchored" data-anchor-id="possibility-changes-because-local-multiplicity-changes">32. Possibility Changes Because Local Multiplicity Changes</h2>
+<p>Since</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = \ln \Theta_{\mathrm{KN}} - S_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = -dS_+\]</span></p>
+<p>But</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>The stationary stall relation is realized through complementary change between native multiplicity and the possibility coordinate defined relative to the invariant enclosing compatibility count.</p>
+<!-- source_pdf_page: 1663 -->
+</section>
+<section id="schwarzschild-is-the-reference-maximum-multiplicity-state-at-fixed-mass" class="level2">
+<h2 class="anchored" data-anchor-id="schwarzschild-is-the-reference-maximum-multiplicity-state-at-fixed-mass">33. Schwarzschild Is the Reference Maximum-Multiplicity State at Fixed Mass</h2>
+<p>At</p>
+<p><span class="math display">\[j = 0,        q = 0\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = j_M\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_+ = 4\pi j_M\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[S_{\mathrm{Schw}} = 4\pi j_M\]</span></p>
+<p>This is the same-mass Schwarzschild horizon multiplicity coordinate.</p>
+</section>
+<section id="define-cumulative-retention-relative-to-schwarzschild" class="level2">
+<h2 class="anchored" data-anchor-id="define-cumulative-retention-relative-to-schwarzschild">34. Define Cumulative Retention Relative to Schwarzschild</h2>
+<p>For any state in the connected fixed-mass domain, define</p>
+<p><span class="math display">\[R_{\mathrm{KN}} \equiv S_{\mathrm{Schw}} - S_+\]</span></p>
+<p>Because</p>
+<p><span class="math display">\[dR_{\mathrm{KN}} = -dS_+\]</span></p>
+<p>this is the integrated physical retention difference relative to the Schwarzschild reference.</p>
+<p>Thus,</p>
+<p><span class="math display">\[S_+ + R_{\mathrm{KN}} = S_{\mathrm{Schw}}\]</span></p>
+</section>
+<section id="do-not-identify-the-schwarzschild-count-with-primitive-possibility" class="level2">
+<h2 class="anchored" data-anchor-id="do-not-identify-the-schwarzschild-count-with-primitive-possibility">35. Do Not Identify the Schwarzschild Count With Primitive Possibility</h2>
+<p>The equality</p>
+<p><span class="math display">\[S_+ + R_{\mathrm{KN}} = S_{\mathrm{Schw}}\]</span></p>
+<!-- source_pdf_page: 1664 -->
+<p>does not establish</p>
+<p><span class="math display">\[P = S_{\mathrm{Schw}}\]</span></p>
+<p>Nor does it establish</p>
+<p><span class="math display">\[\ln \Theta_{\mathrm{KN}} = S_{\mathrm{Schw}}\]</span></p>
+<p>The reference Schwarzschild entropy is a physical horizon multiplicity coordinate.</p>
+<p>Primitive possibility remains</p>
+<p><span class="math display">\[P = \ln \Theta - S\]</span></p>
+<p>These count relations must remain separate.</p>
+</section>
+<section id="evaluate-the-cumulative-retention" class="level2">
+<h2 class="anchored" data-anchor-id="evaluate-the-cumulative-retention">36. Evaluate the Cumulative Retention</h2>
+<p>From</p>
+<p><span class="math display">\[S_{\mathrm{Schw}} = 4\pi j_M\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_+ = 2\pi (j_M + \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = 2\pi (j_M - \Delta_{\mathrm{KN}} ) + \pi q^2\]</span></p>
+<p>This is the integrated retention read from Schwarzschild to the selected Kerr–Newman state.</p>
+</section>
+<section id="now-examine-the-inner-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="now-examine-the-inner-horizon">37. Now Examine the Inner Horizon</h2>
+<p>The inner-horizon multiplicity coordinate is</p>
+<p><span class="math display">\[S_- = 2\pi (j_M - \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<p>Subtracting gives</p>
+<p><span class="math display">\[R_{\mathrm{KN}} - S_- = 2\pi q^2\]</span></p>
+<p>Therefore,</p>
+<!-- source_pdf_page: 1665 -->
+<p><span class="math display">\[R_{\mathrm{KN}} = S_- + 2\pi q^2\]</span></p>
+</section>
+<section id="the-inner-horizon-is-not-the-primitive-retention-coordinate" class="level2">
+<h2 class="anchored" data-anchor-id="the-inner-horizon-is-not-the-primitive-retention-coordinate">38. The Inner Horizon Is Not the Primitive Retention Coordinate</h2>
+<p>For general charge,</p>
+<blockquote class="blockquote">
+<p>The relation between <span class="math inline">\(q\)</span> and zero is clipped [source page 1665; author review].</p>
+</blockquote>
+<p>we have</p>
+<p><span class="math display">\[R_{\mathrm{KN}} \ne S_-\]</span></p>
+<p>Therefore no universal R²D principle can identify the inner-horizon multiplicity with total cumulative retention.</p>
+<p>The inner horizon is a downstream geometric branch read.</p>
+<p>Retention is defined before that projection.</p>
+</section>
+<section id="pure-kerr-is-the-special-case" class="level2">
+<h2 class="anchored" data-anchor-id="pure-kerr-is-the-special-case">39. Pure Kerr Is the Special Case</h2>
+<p>Set</p>
+<p><span class="math display">\[q = 0\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[R_J = S_-\]</span></p>
+<p>Thus pure Kerr possesses an exact coincidence:</p>
+<blockquote class="blockquote">
+<p>cumulative rotational retention = inner-horizon multiplicity count.</p>
+</blockquote>
+<p>But Kerr–Newman shows that this equality is not primitive.</p>
+<p>It is a special property of the uncharged rotational axis.</p>
+</section>
+<section id="reissnernordström-breaks-the-coincidence" class="level2">
+<h2 class="anchored" data-anchor-id="reissnernordström-breaks-the-coincidence">40. Reissner–Nordström Breaks the Coincidence</h2>
+<p>Set</p>
+<p><span class="math display">\[j = 0\]</span></p>
+<!-- source_pdf_page: 1666 -->
+<p>Then the system is Reissner–Nordström.</p>
+<p>Its cumulative charge-state retention satisfies</p>
+<p><span class="math display">\[R_Q = S_- + 2\pi q^2\]</span></p>
+<p>The additional term is even under charge reversal:</p>
+<p><span class="math display">\[q \to -q\]</span></p>
+<p>leaves</p>
+<p><span class="math display">\[2\pi q^2\]</span></p>
+<p>unchanged.</p>
+<p>Thus the charge projection carries retention structure not exhausted by the inner-horizon area count.</p>
+</section>
+<section id="the-charge-specific-excess-persists-in-kerrnewman" class="level2">
+<h2 class="anchored" data-anchor-id="the-charge-specific-excess-persists-in-kerrnewman">41. The Charge-Specific Excess Persists in Kerr–Newman</h2>
+<p>For the full Kerr–Newman family,</p>
+<p><span class="math display">\[R_{\mathrm{KN}} - S_- = 2\pi q^2\]</span></p>
+<p>The difference contains no explicit j .</p>
+<p>Thus the charge-specific excess retention survives the addition of rotation unchanged in this state-space representation.</p>
+<p>The old Kerr–Newman analysis identified this as an exact algebraic result.</p>
+</section>
+<section id="this-prevents-an-inner-horizon-ontology" class="level2">
+<h2 class="anchored" data-anchor-id="this-prevents-an-inner-horizon-ontology">42. This Prevents an Inner-Horizon Ontology</h2>
+<p>The inner horizon cannot be the primitive origin of retention because the same R²D retention relation exists before its geometric decomposition.</p>
+<p>Moreover,</p>
+<p><span class="math display">\[R_J = S_-\]</span></p>
+<p>only in one special physical subfamily.</p>
+<p>Therefore the correct order is</p>
+<!-- source_pdf_page: 1667 -->
+<blockquote class="blockquote">
+<p>retention relation → geometric branch representation,</p>
+</blockquote>
+<p>not</p>
+<blockquote class="blockquote">
+<p>inner horizon → retention.</p>
+</blockquote>
+</section>
+<section id="extremality-is-the-boundary-of-the-admissible-macrostate-domain" class="level2">
+<h2 class="anchored" data-anchor-id="extremality-is-the-boundary-of-the-admissible-macrostate-domain">43. Extremality Is the Boundary of the Admissible Macrostate Domain</h2>
+<p>The normalized state-space condition is</p>
+<p><span class="math display">\[\chi_J^2 + \chi_Q^2 \le 1\]</span></p>
+<p>Extremality is</p>
+<p><span class="math display">\[\chi_J^2 + \chi_Q^2 = 1\]</span></p>
+<p>Equivalently,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>At this point the projected horizon roots coalesce:</p>
+<p><span class="math display">\[x_+ = x_- = j_M\]</span></p>
+</section>
+<section id="extremality-is-not-where-differential-stall-begins" class="level2">
+<h2 class="anchored" data-anchor-id="extremality-is-not-where-differential-stall-begins">44. Extremality Is Not Where Differential Stall Begins</h2>
+<p>The differential stall relation is</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>Under the stationary mapping, this holds throughout the connected fixed-mass stationary family.</p>
+<p>By contrast,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<p>holds only at the extremal boundary.</p>
+<p>Therefore,</p>
+<blockquote class="blockquote">
+<p>Differential stall <span class="math inline">\(dA_{\mathrm{KN}}=0\)</span> is a different condition from extremality <span class="math inline">\(\Delta_{\mathrm{KN}}=0\)</span>.</p>
+</blockquote>
+<p>Stall and extremality are different physical statements.</p>
+<!-- source_pdf_page: 1668 -->
+</section>
+<section id="what-disappears-at-extremality-is-branch-distinguishability" class="level2">
+<h2 class="anchored" data-anchor-id="what-disappears-at-extremality-is-branch-distinguishability">45. What Disappears at Extremality Is Branch Distinguishability</h2>
+<p>The outer- and inner-horizon multiplicity difference is</p>
+<p><span class="math display">\[S_+ - S_-\]</span></p>
+<p>Using the expressions above,</p>
+<p><span class="math display">\[S_+ - S_- = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[S_+ - S_- = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>At extremality,</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} \to 0\]</span></p>
+<p>so</p>
+<p><span class="math display">\[S_+ - S_- \to 0\]</span></p>
+<p>The two projected horizon branches become multiplicatively indistinguishable.</p>
+</section>
+<section id="the-boundary-can-persist-while-the-branch-distinction-vanishes" class="level2">
+<h2 class="anchored" data-anchor-id="the-boundary-can-persist-while-the-branch-distinction-vanishes">46. The Boundary Can Persist While the Branch Distinction Vanishes</h2>
+<p>At extremality,</p>
+<p><span class="math display">\[S_+ = S_-\]</span></p>
+<p>but</p>
+<p><span class="math display">\[S_+ &gt; 0\]</span></p>
+<p>Thus the horizon multiplicity itself does not vanish.</p>
+<p>What vanishes is the distinction between the two geometric branches.</p>
+<p>This prepares the next question:</p>
+<blockquote class="blockquote">
+<p>What physical read tracks that branch distinction?</p>
+</blockquote>
+<p>The answer will be Hawking recurrence.</p>
+<!-- source_pdf_page: 1669 -->
+</section>
+<section id="principle-coupled-horizon-macrostate-domain" class="level2">
+<h2 class="anchored" data-anchor-id="principle-coupled-horizon-macrostate-domain">47. Principle — Coupled Horizon Macrostate Domain</h2>
+<p>At fixed mass, define</p>
+<p><span class="math display">\[j_M=\frac{GM^2}{\hbar c},\qquad j=\frac J\hbar\]</span></p>
+<p>and</p>
+<p><span class="math display">\[q=\frac Q{q_P}\]</span></p>
+<p>The stationary Kerr–Newman horizon domain satisfies</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p>Rotation and charge are distinct physical macrostate coordinates belonging to one horizon count domain.</p>
+</section>
+<section id="principle-coupled-horizon-retention" class="level2">
+<h2 class="anchored" data-anchor-id="principle-coupled-horizon-retention">48. Principle — Coupled Horizon Retention</h2>
+<p>For fixed-mass stationary Kerr–Newman transitions, define</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p>Then the first law gives</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<p>The total coupled retention one-form is exact.</p>
+</section>
+<section id="principle-stationary-differential-stall" class="level2">
+<h2 class="anchored" data-anchor-id="principle-stationary-differential-stall">49. Principle — Stationary Differential Stall</h2>
+<p>Under the R²D stationary-state mapping,</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>This defines a differential stall manifold.</p>
+<!-- source_pdf_page: 1670 -->
+<p>It does not by itself fix the absolute integration constant between PKN and RKN .</p>
+</section>
+<section id="corollary-invariant-enclosing-compatibility" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-invariant-enclosing-compatibility">50. Corollary — Invariant Enclosing Compatibility</h2>
+<p>Since</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = \ln \Theta_{\mathrm{KN}} - S_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}} = -dS_+\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<p>Thus the compatible enclosing multiplicity is invariant across the connected fixed-mass stationary macrostate family.</p>
+</section>
+<section id="corollary-physical-work-channels-need-not-be-primitive-retention-channels" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-physical-work-channels-need-not-be-primitive-retention-channels">51. Corollary — Physical Work Channels Need Not Be Primitive Retention Channels</h2>
+<p>The conventional decomposition</p>
+<p><span class="math display">\[\Omega_H dJ + \Phi_H dQ\]</span></p>
+<p>produces separate physical reads.</p>
+<p>But only their combined dimensionless retention differential is generally exact:</p>
+<p><span class="math display">\[dR_{\mathrm{KN}} = dR_J + dR_Q\]</span></p>
+<p>Thus separate work coordinates need not imply separate primitive R²D retention variables.</p>
+</section>
+<section id="corollary-the-inner-horizon-is-a-projection-not-the-retention-primitive" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-the-inner-horizon-is-a-projection-not-the-retention-primitive">52. Corollary — The Inner Horizon Is a Projection, Not the Retention Primitive</h2>
+<p>The integrated retention read satisfies</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_- + 2\pi q^2\]</span></p>
+<p>Therefore,</p>
+<!-- source_pdf_page: 1671 -->
+<p><span class="math display">\[R_{\mathrm{KN}} = S_-\]</span></p>
+<p>only when</p>
+<p><span class="math display">\[q = 0\]</span></p>
+<p>The pure Kerr equality is a special-case projection identity.</p>
+</section>
+<section id="corollary-extremality-is-branch-closure" class="level2">
+<h2 class="anchored" data-anchor-id="corollary-extremality-is-branch-closure">53. Corollary — Extremality Is Branch Closure</h2>
+<p>Because</p>
+<p><span class="math display">\[S_+ - S_- = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>extremality gives</p>
+<p><span class="math display">\[S_+ - S_- = 0\]</span></p>
+<p>Thus extremality is the point at which the outer/inner horizon branch distinction closes.</p>
+<p>It is not the point at which the stationary differential stall condition first appears.</p>
+</section>
+<section id="background-remains-separate" class="level2">
+<h2 class="anchored" data-anchor-id="background-remains-separate">54. Background Remains Separate</h2>
+<p>Nothing in the present construction identifies horizon temperature with R²D background.</p>
+<p>Nor is</p>
+<p><span class="math display">\[\Theta_{\mathrm{KN}}\]</span></p>
+<p>the same object as a physical thermal bath.</p>
+<p>Background, possibility, multiplicity, retention, and physical temperature remain distinct.</p>
+<p>In particular,</p>
+<blockquote class="blockquote">
+<p>The boxed <span class="math inline">\(T_H\)</span> comparison has clipped relation glyphs [source page 1671; author review].</p>
+</blockquote>
+<p>Temperature enters only as part of the thermodynamic physical calibration of the work/retention relation.</p>
+<!-- source_pdf_page: 1672 -->
+</section>
+<section id="logical-status" class="level2">
+<h2 class="anchored" data-anchor-id="logical-status">55. Logical Status</h2>
+<p>Canonical R²D</p>
+<p>Multiplicity is</p>
+<p><span class="math display">\[S = \ln W\]</span></p>
+<p>Possibility is</p>
+<p><span class="math display">\[P=\ln\frac\Theta W=\ln\Theta-S\]</span></p>
+<p>Retention is distinct from multiplicity.</p>
+<p>The directional asymmetry is</p>
+<p><span class="math display">\[A = P - R\]</span></p>
+<p>Conventional Physical Input</p>
+<p>The Kerr–Newman horizon relation supplies</p>
+<p><span class="math display">\[r_\pm=r_M\pm\sqrt{r_M^2-a^2-r_Q^2}\]</span></p>
+<p>The Bekenstein–Hawking relation supplies the horizon multiplicity calibration.</p>
+<p>The black-hole first law supplies</p>
+<p><span class="math display">\[d(M c^2 ) = k_B T_H dS_+ + \Omega_H dJ + \Phi_H dQ\]</span></p>
+<p>Derived State-Space Geometry</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[S_+ = 2\pi(j_M + \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<p>Physical Retention Mapping</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p>At fixed mass,</p>
+<!-- source_pdf_page: 1673 -->
+<p><span class="math display">\[dR_{\mathrm{KN}}=-dS_+.\]</span></p>
+<p>Addendum-Level R²D Mapping</p>
+<p>The stationary family is mapped to differential stall:</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>and</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<p>Derived Integrated Relation</p>
+<p>Relative to Schwarzschild,</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_{\mathrm{Schw}} - S_+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_- + 2\pi q^2\]</span></p>
+<p>Not Established Here</p>
+<p>This addendum does not establish that:</p>
+<blockquote class="blockquote">
+<p>• primitive R²D independently derives the Kerr–Newman metric; • J is itself retention; • Q is itself retention; • rotation and charge are two independent primitive retention variables; • PKN = RKN absolutely throughout the family; • SSchw = ln ΘKN ; • the inner horizon is a primitive thermodynamic reservoir; • the inner horizon is universally the geometric read of retention; • ΔKN = A; • horizon temperature is background; • or charge quantization follows from the present construction.</p>
+</blockquote>
+</section>
+<section id="the-central-r²d-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-r²d-inversion">56. The Central R²D Inversion</h2>
+<p>The conventional description begins with a Kerr–Newman geometry and writes</p>
+<!-- source_pdf_page: 1674 -->
+<p><span class="math display">\[M,    J,   Q\]</span></p>
+<p>into a metric.</p>
+<p>R²D asks first what boundary owns the corresponding distinctions.</p>
+<p>The sequence is</p>
+<blockquote class="blockquote">
+<p>fixed-mass horizon count boundary</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>(j, q) macrostate domain</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[S_+ (j, q) = \ln W_+\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>coupled physical work read</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}\]</span></p>
+<p><span class="math display">\[dR_{\mathrm{KN}} = -dS_+\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p>under the stationary R²D mapping,</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<blockquote class="blockquote">
+<p>↓</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Kerr–Newman geometric projection.</p>
+</blockquote>
+<p>The geometry is the final physical read.</p>
+<!-- source_pdf_page: 1675 -->
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">57. Conclusion</h2>
+<p>Kerr, Reissner–Nordström, and Kerr–Newman do not require three different gravitational ontologies.</p>
+<p>At fixed mass, they occupy one combined stationary horizon macrostate domain.</p>
+<p>The mass-owned dimensionless scale is</p>
+<p><span class="math display">\[j_M=\frac{GM^2}{\hbar c}\]</span></p>
+<p>Rotation and charge supply the physical state coordinates</p>
+<p><span class="math display">\[j=\frac J\hbar\]</span></p>
+<p>and</p>
+<p><span class="math display">\[q=\frac Q{q_P}\]</span></p>
+<p>Their admissible states satisfy</p>
+<p><span class="math display">\[j^2+j_Mq^2\le j_M^2\]</span></p>
+<p>The outer horizon supplies the native multiplicity landscape</p>
+<p><span class="math display">\[S_+ = 2\pi (j_M + \Delta_{\mathrm{KN}} ) - \pi q^2\]</span></p>
+<p>where</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}}=\sqrt{j_M^2-j^2-j_Mq^2}\]</span></p>
+<p>The black-hole first law then gives the coupled physical retention differential</p>
+<p><span class="math display">\[dR_{\mathrm{KN}}=\frac{\Omega_H\,dJ+\Phi_H\,dQ}{k_BT_H}=-dS_+\]</span></p>
+<p>The two conventional work terms are physically distinguishable.</p>
+<p>But their separate retention-channel one-forms are not generally independent state functions across the full two-dimensional state domain.</p>
+<p>Their sum is exact.</p>
+<p>The integrable relation therefore belongs to the coupled horizon boundary.</p>
+<!-- source_pdf_page: 1676 -->
+<p>Under the R²D stationary-state mapping,</p>
+<p><span class="math display">\[dP_{\mathrm{KN}} = dR_{\mathrm{KN}}\]</span></p>
+<p>so</p>
+<p><span class="math display">\[dA_{\mathrm{KN}} = 0\]</span></p>
+<p>This is a differential stall condition.</p>
+<p>It does not by itself establish the absolute equality</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = R_{\mathrm{KN}}\]</span></p>
+<p>Combining this differential stall relation with</p>
+<p><span class="math display">\[P_{\mathrm{KN}} = \ln \Theta_{\mathrm{KN}} - S_+\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[d \ln \Theta_{\mathrm{KN}} = 0\]</span></p>
+<p>Thus the local horizon multiplicity changes while the compatible enclosing multiplicity remains invariant across the connected fixed-mass stationary family.</p>
+<p>Relative to Schwarzschild,</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_{\mathrm{Schw}} - S_+\]</span></p>
+<p>The inner horizon then satisfies</p>
+<p><span class="math display">\[R_{\mathrm{KN}} = S_- + 2\pi q^2\]</span></p>
+<p>Only on the pure Kerr axis does</p>
+<p><span class="math display">\[q=0\]</span></p>
+<p>give</p>
+<p><span class="math display">\[R_J = S_-\]</span></p>
+<p>Thus the inner horizon is not the primitive origin of retention.</p>
+<p>It is a downstream branch of the physical geometry.</p>
+<p>Finally, extremality occurs when</p>
+<p><span class="math display">\[\Delta_{\mathrm{KN}} = 0\]</span></p>
+<!-- source_pdf_page: 1677 -->
+<p>Since</p>
+<p><span class="math display">\[S_+ - S_- = 4\pi\Delta_{\mathrm{KN}}\]</span></p>
+<p>extremality gives</p>
+<p><span class="math display">\[S_+ = S_-\]</span></p>
+<p>The horizon boundary remains.</p>
+<p>Its multiplicity remains nonzero.</p>
+<p>What disappears is the distinction between its two projected horizon branches.</p>
+<p>That event is different from differential stall and prepares the next physical question: why does Hawking recurrence vanish when the branch distinction disappears?</p>
+<p>The causal order is therefore</p>
+<p>boundary → macrostate domain → multiplicity → coupled retention → differential stall → geometric horizon bra</p>
+<p>Thus:</p>
+<blockquote class="blockquote">
+<p>coupled horizon retention occurs before Kerr–Newman geometry.</p>
+</blockquote>
+<p>And more specifically:</p>
+<p>rotation and charge are distinct physical projections of one coupled stationary horizon relation whos</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="pagination-link" aria-label="Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="pagination-link" aria-label="Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
