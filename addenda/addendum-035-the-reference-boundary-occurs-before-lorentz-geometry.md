@@ -5,7 +5,7 @@ subtitle: Enclosing Rapidity Landscapes, Area Before Radius, and the Projection 
 source_type: addendum
 authority: addendum
 text_status: candidate_reconstruction_pending_author_review
-indexable: false
+indexable: true
 addendum: 35
 unit: addendum
 integrated_in_publication_canon: false
@@ -21,7 +21,7 @@ equation_status: authoritative_normalization_with_targeted_visual_verification_a
 equation_audit_scope: load-bearing equations visually checked against publication PDF; all explicit LaTeX syntax/renderability checked; publication PDF controls any residual discrepancy
 semantic_sync: 2026-09-25-no-substantive-structural-universality-amendment-required
 primitive_authority: false
-review_status: author_review_pending
+review_status: author_reviewed
 machine_revision: 2026-10-09-equation-reconstruction-v1
 qa_status: standalone_render_pass_full_book_pending
 promotion_date: null

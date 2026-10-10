@@ -5,7 +5,7 @@ subtitle: Boundary Coupling, Mass–Area Projection, and the Causal Inversion of
 source_type: addendum
 authority: addendum
 text_status: candidate_reconstruction_pending_author_review
-indexable: false
+indexable: true
 addendum: 55
 unit: addendum
 integrated_in_publication_canon: false
@@ -21,7 +21,7 @@ equation_status: candidate_visual_reconstruction_pending_author_review
 equation_audit_scope: archived_pdf_visual_comparison; author_review_pending
 semantic_sync: 2026-09-25-structural-universality-preserved-domain-mappings-remain-testable
 primitive_authority: false
-review_status: author_review_pending
+review_status: author_reviewed
 source_defect_repair: documented_contextual_reconstruction_of_broken_KATEX_placeholders
 machine_revision: 2026-10-09-equation-reconstruction-v1
 qa_status: standalone_render_pass_full_book_pending

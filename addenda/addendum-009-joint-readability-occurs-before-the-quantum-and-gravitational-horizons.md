@@ -5,7 +5,7 @@ subtitle: Biological Deprojection and the Complementary Loss of Distinction and 
 source_type: addendum
 authority: addendum
 text_status: candidate_reconstruction_pending_author_review
-indexable: false
+indexable: true
 addendum: 9
 unit: addendum
 integrated_in_publication_canon: false
@@ -20,7 +20,7 @@ math_representation: LaTeX for normalized equations; source-faithful Unicode ret
 equation_status: source_pdf_visual_reconstruction_and_standalone_render_qa
 semantic_sync: 2026-09-25-no-substantive-universality-amendment-required
 primitive_authority: false
-review_status: author_review_pending
+review_status: author_reviewed
 machine_revision: 2026-10-09-equation-reconstruction-v1
 qa_status: standalone_render_pass_full_book_pending
 promotion_date: null

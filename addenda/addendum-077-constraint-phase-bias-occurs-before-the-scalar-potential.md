@@ -5,7 +5,7 @@ subtitle: Enclosing Constraint, Local Recurrence Bias, and the Origin of the V Ï
 source_type: addendum
 authority: addendum
 text_status: candidate_reconstruction_pending_author_review
-indexable: false
+indexable: true
 addendum: 77
 unit: addendum
 integrated_in_publication_canon: false
@@ -20,7 +20,7 @@ math_representation: LaTeX for normalized equations; source PDF layout text reta
 equation_status: candidate_visual_reconstruction_pending_author_review
 equation_audit_scope: archived_pdf_visual_comparison; author_review_pending
 primitive_authority: false
-review_status: author_review_pending
+review_status: author_reviewed
 semantic_sync: 2026-09-25-boundary-ordering-and-conditional-bridges-preserved
 machine_revision: 2026-10-09-equation-reconstruction-v1
 qa_status: standalone_render_pass_full_book_pending
