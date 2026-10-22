@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry
-
 ## Abstract
 
 Schwarzschild geometry is conventionally introduced as the static, spherically symmetric vacuum solution

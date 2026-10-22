@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs
-
-*Partition Crossovers, Equality Areas, and the Physical Origin of Radiation-, Matter-, Curvature-, and Λ-Dominated Regimes*
-
 ## Abstract
 
 <!-- source_pdf_page: 2178 -->

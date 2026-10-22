@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality
-
-*Joint Compatibility, Quantum Nonseparability, and the Emergence of Local Geometry*
-
 ## Abstract
 
 <!-- source_pdf_page: 2687 -->

@@ -20,10 +20,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 89: Logical Consistency Before Physical Comparison
-
-## Paradoxes, Zero Occupancy, and the Evaluation Order for Ask R²D
-
 ### Abstract
 
 Logical consistency must be a primary consideration whenever Ask R²D compares R²D with a conventional scientific account. An equation's predictive usefulness does not repair a contradiction in its asserted ontology. Nor does successful use within one domain justify applying that equation where its defining quantities cease to exist.

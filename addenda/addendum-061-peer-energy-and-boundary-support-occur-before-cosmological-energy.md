@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy
-
 ## Abstract
 
 Addendum 60 established that the Friedmann equation partitions one already-defined physical rate

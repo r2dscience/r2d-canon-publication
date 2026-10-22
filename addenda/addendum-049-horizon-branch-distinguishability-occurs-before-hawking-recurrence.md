@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence
-
 ## Abstract
 
 Addendum 48 established a stationary Kerr–Newman horizon count domain at fixed physical mass.

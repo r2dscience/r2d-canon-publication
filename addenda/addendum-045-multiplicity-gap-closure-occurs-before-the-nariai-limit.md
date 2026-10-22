@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit
-
 ## Abstract
 
 Addendum 44 proposed a generic R²D condition for gravitational saturation.

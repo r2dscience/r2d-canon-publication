@@ -27,11 +27,6 @@ promotion_date: null
 equation_audit_scope: displayed_equations_and_schematics_visually_checked_against_pdf; clipped_source_text_flagged
 ---
 
-# Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra
-
-## Mechanical Oscillation, Moving Readability Horizons, and Recursive Deprojection in Muscle
-
-
 ## Abstract
 
 

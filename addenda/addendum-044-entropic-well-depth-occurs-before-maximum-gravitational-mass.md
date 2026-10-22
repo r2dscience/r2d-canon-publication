@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass
-
 ## Abstract
 
 A maximum gravitational mass is ordinarily posed as a property of matter or of a gravitational solution.

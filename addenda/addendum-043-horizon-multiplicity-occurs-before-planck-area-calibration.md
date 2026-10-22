@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration
-
 ## Abstract
 
 The Bekenstein–Hawking relation is conventionally written

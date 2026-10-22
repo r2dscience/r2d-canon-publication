@@ -27,10 +27,6 @@ promotion_date: null
 equation_audit_scope: source_pdf_compared; clipped_text_and_raw_latex_flagged
 ---
 
-# Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons
-
-## Biological Deprojection and the Complementary Loss of Distinction and Recurrence
-
 ## Abstract
 
 Addenda 4–8 established recursive replacement in a regime in which several neighboring physical

@@ -26,11 +26,6 @@ qa_status: pass
 promotion_date: '2026-09-25'
 equation_audit_scope: full_page_visual_audit_pages_949_991
 ---
-
-# Addendum 2 — Boundary Mass Occurs Before Relativity
-
-## Landscape, Background, and the Recursive Replacement of Mass
-
 ## Abstract
 
 Relativity ordinarily begins with an object that already possesses mass and asks how its

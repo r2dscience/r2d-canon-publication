@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference
-
-*Atmospheric Deprojection, Recursive Replacement, and the Double-Slit Distribution*
-
 ## Abstract
 
 <!-- source_pdf_page: 2655 -->

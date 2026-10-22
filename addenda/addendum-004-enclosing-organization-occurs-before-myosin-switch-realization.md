@@ -26,11 +26,6 @@ qa_status: standalone_render_pass_full_book_pending
 promotion_date: null
 equation_audit_scope: all_display_math_reconstructed_and_checked_against_pdf; source_clipped_prose_flagged
 ---
-
-# Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization
-
-## Direct Spectroscopic Resolution of Chemical Possibility, Mechanical Retention, and Stall in Muscle
-
 ## Abstract
 
 Recursively Realized Distinguishability did not originate from quantum mechanics or gravity. It originated

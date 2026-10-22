@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 86: The Status of a Physical Mapping
-
-## Formal Consistency, Physical Tests, and Symmetric Evidentiary Burdens
-
 ### Abstract
 
 A physical mapping identifies how boundary-defined count relations become readable in a specified physical domain. Evaluating that mapping requires separating its formal definitions, conditional derivations, physical assignments, predictions, and claims of causal priority. These claims have different evidentiary requirements. Their status cannot be inferred collectively from the success or failure of one equation.

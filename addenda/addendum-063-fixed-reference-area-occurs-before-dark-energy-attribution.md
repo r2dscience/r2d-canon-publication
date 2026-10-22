@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution
-
-*The Cosmological Constant, de Sitter Scale, and the State-Independent Geometric Offset in the Friedmann Partition*
-
 ## Abstract
 
 <!-- source_pdf_page: 2121 -->

@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch
-
 ## Abstract
 
 Addendum 56 established a conditional bridge between the R²D cosmological structural state and the

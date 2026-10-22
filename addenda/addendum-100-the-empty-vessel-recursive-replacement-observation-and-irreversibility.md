@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 100 — The Empty Vessel: Recursive Replacement, Observation, and Irreversibility
-
-**Dynamic Coins, the Gibbs Limit, and Epoch-Dependent Enclosing Realization**
-
 ## Abstract
 
 Recursively Realized Distinguishability (R²D) defines multiplicity before occupancy. A boundary specifies a landscape of possible realizations independently of whether that landscape is occupied. Subordinate occurrences do not construct the enclosing multiplicity landscape. They realize the possibilities already defined by the enclosing boundary.

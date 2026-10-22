@@ -27,10 +27,6 @@ promotion_date: null
 equation_audit_scope: displayed_equations_and_schematics_visually_checked_against_pdf; clipped_source_text_flagged
 ---
 
-# Addendum 8 — Biological Function Makes Recursive Replacement Observable
-
-## Direct Recursive Deprojection Across Functional, Mechanical, Molecular, and Spectroscopic Boundaries
-
 ## Abstract
 
 Addenda 4–7 developed recursive replacement from a biological system in which several neighboring

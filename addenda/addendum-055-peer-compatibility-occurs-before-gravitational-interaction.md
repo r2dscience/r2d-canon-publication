@@ -30,8 +30,6 @@ equation_source_conflict_rule: publication_pdf_controls
 source_defect_repair_status: archival_pdf_KaTeX_placeholder; contextual_text_pending_author_review
 ---
 
-# Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction
-
 ## Abstract
 
 Addendum 54 established the primitive content of R²D cosmology.

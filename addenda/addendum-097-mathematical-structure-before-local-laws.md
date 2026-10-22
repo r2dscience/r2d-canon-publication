@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: 2026-10-09
 ---
 
-# Addendum 97: Mathematical Structure Before Local Laws
-
-## Scattering Geometry, Thermodynamic Gravity, and Quantum Distinguishability
-
 ### Abstract
 
 Several research programs derive familiar physical descriptions from a prior mathematical organization of possibilities. Scattering amplitudes can arise from positive geometry or combinatorial structures rather than an initial sum over Feynman diagrams. Gravitational field equations can be recovered, under specified assumptions, from horizon thermodynamics. Operational principles of distinguishability and information can reconstruct the structure of quantum theory. These are distinct results with distinct premises. Their mathematical objects are not thereby identical to one another or to R²D counts.

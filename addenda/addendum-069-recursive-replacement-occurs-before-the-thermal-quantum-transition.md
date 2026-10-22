@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition
-
-*Complementary Readability, Native Recurrence, and Cross-Scale Spectral Replacement*
-
 ## Abstract
 
 <!-- source_pdf_page: 2304 -->

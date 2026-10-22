@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 73 — Normalized Realization Occurs Before the Born Rule
-
-*Detector Occupancy, Additive Boundary Measure, and the Origin of Squared Quantum Amplitude*
-
 ## Abstract
 
 <!-- source_pdf_page: 2416 -->

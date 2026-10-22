@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement
-
-*Recursive Readout, Detector Occupancy, and the Physical Meaning of Collapse*
-
 ## Abstract
 
 <!-- source_pdf_page: 2720 -->

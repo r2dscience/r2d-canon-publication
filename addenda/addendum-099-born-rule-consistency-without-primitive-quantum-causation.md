@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 99 — Born-Rule Consistency Without Primitive Quantum Causation
-
-**Boundary Ownership, Observable Realization Counts, and Quantum-Horizon Readability**
-
 ## Abstract
 
 The Born rule describes the observed statistical relationships among quantum preparation, measurement, and detector outcomes. Recursively Realized Distinguishability (R²D) must account for these relationships without treating a quantum state vector, measurement operator, elementary particle, or other projected mathematical representation as the primitive cause of the measurement.

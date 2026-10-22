@@ -30,8 +30,6 @@ equation_source_conflict_rule: publication_pdf_controls
 source_defect_repair_status: archival_pdf_KaTeX_placeholder; contextual_text_pending_author_review
 ---
 
-# Addendum 60 — Friedmann Partition Occurs After Recursive Throughput
-
 ## Abstract
 
 Addendum 59 established a conditional bridge from primitive recursive counting to the physical

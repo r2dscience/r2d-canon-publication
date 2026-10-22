@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry
-
 ## Abstract
 
 Special relativity is conventionally formulated as a relation among observers, clocks, rulers, velocities, and

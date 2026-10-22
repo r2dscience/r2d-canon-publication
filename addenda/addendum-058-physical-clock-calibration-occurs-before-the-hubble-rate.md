@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate
-
 ## Abstract
 
 Addenda 56 and 57 established two distinct components of cosmological evolution.

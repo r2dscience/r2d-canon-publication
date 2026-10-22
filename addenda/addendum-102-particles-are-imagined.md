@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 102 — Particles Are Imagined
-
-**Recursive Replacement, Quantum Readability, and the Primitive-Object Projection Error**
-
 ## Abstract
 
 Quantum physics describes measurable phenomena through particles, wavefunctions, fields, and interactions. Its mathematical laws are extraordinarily predictive. But their success does not establish that independently existing microscopic particles cause the enclosing quantum transitions those laws describe.

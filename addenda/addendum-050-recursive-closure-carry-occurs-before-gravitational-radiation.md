@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation
-
 ## Abstract
 
 Gravitational radiation is conventionally introduced through a changing source, a wave solution of the

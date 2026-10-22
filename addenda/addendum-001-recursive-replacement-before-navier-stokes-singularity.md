@@ -22,10 +22,6 @@ primitive_authority: false
 review_status: "authoritative"
 ---
 
-# Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity
-
-## Finite Occupancy and the Limit of Continuum Projection in Recursively Realized Distinguishability
-
 **Author:** Josh E. Baker\
 **Series:** Recursively Realized Distinguishability (R²D) Addenda\
 **Original publication status:** Addendum to the previously published four-part R²D canon, DOI 10.5281/zenodo.22313772.

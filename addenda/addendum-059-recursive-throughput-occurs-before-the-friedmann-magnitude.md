@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude
-
 ## Abstract
 
 Addendum 58 decomposed the physical Hubble rate into two logically distinct quantities:

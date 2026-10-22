@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 98: Enclosing Compatibility Occurs Before Microscopic Causality
-
-## The Exact Coin Proof, MaxX Statistical Dependence, and the EP Projection Error
-
 ### Abstract
 
 Statistical mechanics defines a macrostate through its compatible microstates. Yet microscopic descriptions are frequently interpreted as though the subordinate states and transitions independently cause the enclosing organization that defines their statistical meaning.

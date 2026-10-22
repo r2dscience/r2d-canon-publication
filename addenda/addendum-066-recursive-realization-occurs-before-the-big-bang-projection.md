@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection
-
-*Vanishing Boundary Area, Divergent Physical Reads, and Why the FLRW Singularity Is the Opposite of R2D Origin Architecture*
-
 ## Abstract
 
 <!-- source_pdf_page: 2210 -->

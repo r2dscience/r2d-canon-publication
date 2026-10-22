@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection
-
 ## Abstract
 
 General relativity represents tidal gravity through spacetime curvature. Neighboring freely falling

@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 84: Paradox as Boundary Projection
-
-## Gibbs, Zeno, and the Coastline: Counts, Coordinates, and Rulers Beyond Their Defining Distinctions
-
 ### Abstract
 
 Scientific paradoxes can arise when a relation defined at one count boundary is treated as invariant after the conditions defining that relation change. Recursively Realized Distinguishability (R²D) makes those conditions explicit: a boundary defines distinguishable macrostates, compatible subordinate realizations define their multiplicities, and physical coordinates express later reads of this state architecture. A change in distinguishability can therefore require a change in the count, coordinate, or ruler through which an object is represented.

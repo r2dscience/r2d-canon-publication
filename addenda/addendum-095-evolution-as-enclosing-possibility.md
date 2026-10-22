@@ -20,10 +20,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 95: Evolution as Enclosing Possibility
-
-## What Is Doing the Selection? Evolution Was Pulled, Not Pushed
-
 ### Abstract
 
 **What is doing the selection? In the R²D account, the multiplicity of the boundary of what is selected.**

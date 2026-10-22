@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor
-
 ## Abstract
 
 Einstein's field equation is conventionally written

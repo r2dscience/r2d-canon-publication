@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields
-
-*Gauge Curvature, Covariant Noncommutation, and the Homogeneous Maxwell Structure*
-
 ## Abstract
 
 <!-- source_pdf_page: 2593 -->

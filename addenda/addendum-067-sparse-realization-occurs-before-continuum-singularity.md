@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 67 — Sparse Realization Occurs Before Continuum Singularity
-
-*Occurrence Resolution, Discrete Geometric Steps, and the Mathematical Signature of Continuum Breakdown*
-
 ## Abstract
 
 <!-- source_pdf_page: 2237 -->

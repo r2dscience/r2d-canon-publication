@@ -29,8 +29,6 @@ source_defect_repair: documented_contextual_reconstruction_of_broken_KATEX_place
 source_defect_repair_status: accepted_in_authoritative_markdown
 ---
 
-# Addendum 52 — Count-to-Space Calibration Occurs Before G
-
 ## Abstract
 
 Recursively Realized Distinguishability does not require different primitive counting laws for quantum

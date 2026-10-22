@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations
-
-*Retained Charge Orientation, Conserved Current, and the Dynamical Support of Electromagnetic Curvature*
-
 ## Abstract
 
 <!-- source_pdf_page: 2622 -->

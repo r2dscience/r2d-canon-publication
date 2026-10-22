@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation
-
-*Complementary Readability, Areal Recurrence Counting, and the Planck Spectrum*
-
 ## Abstract
 
 <!-- source_pdf_page: 2324 -->

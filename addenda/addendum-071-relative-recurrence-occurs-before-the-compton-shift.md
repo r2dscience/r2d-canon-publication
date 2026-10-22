@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 71 — Relative Recurrence Occurs Before the Compton Shift
-
-*Persistent Mass Closure, Radiative Recurrence, and Orientation-Dependent Recoil*
-
 ## Abstract
 
 <!-- source_pdf_page: 2352 -->

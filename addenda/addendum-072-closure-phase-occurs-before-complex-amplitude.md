@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 72 — Closure Phase Occurs Before Complex Amplitude
-
-*Recursive Replacement, Boundary-Native Recurrence, Cyclic Representation, and the Burden of Constructing the Quantum State Vector*
-
 ## Abstract
 
 <!-- source_pdf_page: 2382 -->

@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution
-
-*Transition-Measure Preservation, Continuous Closure, and the Origin of the Abstract Schrödinger Equation*
-
 ## Abstract
 
 <!-- source_pdf_page: 2449 -->

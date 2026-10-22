@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 105 — The Observational Inversion
-
-## A Mathematical Proof of Top-Down Organizing Causality
-
 *Recursive Replacement, Measurable Reality, and the Mistaken Reconstruction of Primitive Bottom-Up Causes*
 
 ### Abstract

@@ -27,10 +27,6 @@ promotion_date: null
 equation_audit_scope: source_pdf_compared; clipped_text_and_type_scope_flagged
 ---
 
-# Addendum 11 — Enclosing Relation Occurs Before Biological Function
-
-## Boundary-Owned Function, Structural Constraint, and Recursive Replacement Beyond Protein Structure
-
 ## Abstract
 
 Biology is often summarized by the sequence

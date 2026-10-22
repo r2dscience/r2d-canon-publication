@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation
-
-*Persistent Compton Recurrence, Translation Phase, and the Nonrelativistic Residual Generator*
-
 ## Abstract
 
 <!-- source_pdf_page: 2505 -->

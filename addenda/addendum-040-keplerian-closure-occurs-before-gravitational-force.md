@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 40 — Keplerian Closure Occurs Before Gravitational Force
-
 ## Abstract
 
 Newtonian gravity is conventionally introduced through the force law

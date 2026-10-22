@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum
-
-*Spatial Phase Translation, the Inverse-Length Generator, and the Origin of the Quantum Momentum Operator*
-
 ## Abstract
 
 <!-- source_pdf_page: 2476 -->

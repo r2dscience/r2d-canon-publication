@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 41 — Gravitational Area Occurs Before Areal Radius
-
 ## Abstract
 
 Newtonian gravity is conventionally written in terms of radial distance:

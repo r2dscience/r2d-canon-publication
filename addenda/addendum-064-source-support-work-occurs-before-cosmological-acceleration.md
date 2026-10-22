@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration
-
-*Pressure, Curvature Cancellation, and the Evolution of the Friedmann Partition*
-
 ## Abstract
 
 <!-- source_pdf_page: 2150 -->

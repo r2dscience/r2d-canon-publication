@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement
-
 ## Abstract
 
 Addendum 46 established that the Nariai limit is a boundary-clock replacement problem.

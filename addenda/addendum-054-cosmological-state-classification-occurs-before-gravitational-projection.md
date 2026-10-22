@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection
-
 ## Abstract
 
 Addendum 53 established that R²D cosmology must begin before mass, gravity, spacetime, and the

@@ -18,10 +18,6 @@ review_status: authoritative
 promotion_date: 2026-10-09
 ---
 
-# Addendum 96: Local Laws and Global Fit
-
-## What an Equation Derives, What Its Domain Assumes, and What Fits Across Boundaries
-
 ### Abstract
 
 A physical law relates selected variables under specified conditions. Its equations may be rigorously derived within a theory and tested with remarkable precision. The derivation nevertheless begins with a state description, physical principles, and a domain of application. Empirical agreement establishes the success of the resulting relation in that domain; it does not, by itself, establish that its variables define every enclosing state or have primitive causal priority.

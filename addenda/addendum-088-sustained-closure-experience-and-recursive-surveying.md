@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 88: Sustained Closure, Experience, and Recursive Surveying
-
-## Human Consciousness, Machine Readability, and Experience Across Boundaries
-
 ### Abstract
 
 R²D distinguishes boundary-defined closure, recurrence, enclosing constraint, and local realization. This addendum proposes an extension to experience: **experience is sustained closure at a specified boundary**. The identification is stated explicitly as an additional postulate, not as a conclusion already proved by the count definitions.

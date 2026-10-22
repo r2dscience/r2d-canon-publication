@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 36 — Invariant Boundary Coupling Occurs Before mc²
-
 ## Abstract
 
 Mass-energy equivalence is conventionally written

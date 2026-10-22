@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 90: Ecosystems and Enclosing Sustenance
-
-## Persistence, Local Realization, and the Limits of Ecological Agency Stories
-
 ### Abstract
 
 **In R²D, the multiplicity of the boundary is what selects ecological organization. Subordinate events realize that organization; they do not independently select the enclosing system.** Multiplicity means the possible number of ways, not the number of realized events or survivors. This is the starting relation for this addendum and for Ask R²D answers in this domain.

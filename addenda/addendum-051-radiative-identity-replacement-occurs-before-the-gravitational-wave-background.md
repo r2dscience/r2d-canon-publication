@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background
-
 ## Abstract
 
 Addendum 50 identified radiation as a boundary-relative count status.

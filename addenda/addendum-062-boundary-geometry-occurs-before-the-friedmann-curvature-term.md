@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term
-
 ## Abstract
 
 Addendum 60 showed that the Friedmann equation partitions one already-defined physical rate magnitude,

@@ -19,14 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections
-
-**Finite Compatibility, Symmetric Incidence, Quadrupole Coupling, Spectral Coherence, and the Thorium-229 Nuclear Clock**
-
-**Date:** October 21, 2026
-
-**Relation to the canon:** Parts I–IV; Addenda 3, 69–83, and 86
-
 ## Abstract
 
 The thorium-229 nuclear clock provides a quantitative test of Recursively Realized Distinguishability (R²D) at the quantum readability horizon. The observable system possesses a sharply distinguishable nuclear transition, finite angular-state manifolds, quadrupole-resolved spectral lines, and a measurable response to enclosing crystal constraints. The subordinate realization geometry of the quantum state is not jointly readable with these enclosing observations.

@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale
-
-*The R2D Knudsen Criterion, Thermal Recurrence, and the Distinction Between Continuum Breakdown and Planck Strong Coupling*
-
 ## Abstract
 
 <!-- source_pdf_page: 2267 -->

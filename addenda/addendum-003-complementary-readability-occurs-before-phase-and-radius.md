@@ -26,11 +26,6 @@ qa_status: standalone_render_pass_full_book_pending
 promotion_date: '2026-09-25'
 equation_audit_scope: all_display_equations_typeset_with_source_page_inventory_and_targeted_visual_checks; full_book_layout_pending
 ---
-
-# Addendum 3 — Complementary Readability Occurs Before Phase and Radius
-
-## Recursive Replacement, the h/G Conversion Duality, and the Planck Crossover
-
 ## Abstract
 
 Recursively Realized Distinguishability begins neither with quantum phase nor with gravitational radius.

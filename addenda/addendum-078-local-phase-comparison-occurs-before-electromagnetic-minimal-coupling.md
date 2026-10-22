@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling
-
-*Gauge Connection, Retained Charge Orientation, and the Origin of the Electromagnetic Schrödinger Equation*
-
 ## Abstract
 
 <!-- source_pdf_page: 2563 -->

@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature
-
 ## Abstract
 
 Addendum 45 established that the Schwarzschild–de Sitter black-hole and cosmological horizon multiplicity

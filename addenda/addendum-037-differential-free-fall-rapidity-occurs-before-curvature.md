@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature
-
 ## Abstract
 
 General relativity conventionally describes gravity through curved spacetime. Freely falling bodies follow

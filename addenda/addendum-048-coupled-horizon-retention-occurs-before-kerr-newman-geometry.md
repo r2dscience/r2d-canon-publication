@@ -27,8 +27,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry
-
 ## Abstract
 
 Schwarzschild geometry contains a horizon boundary whose exterior-directed gravitational read reaches

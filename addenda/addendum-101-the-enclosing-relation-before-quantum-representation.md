@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 101 — The Enclosing Relation Before Quantum Representation
-
-**Interference, Measurement, Entanglement, and Relativity as Consistent Boundary Reads**
-
 ## Abstract
 
 Recursively Realized Distinguishability (R²D) defines an enclosing boundary, its distinguishable macrostates, and its compatible possible subordinate realizations before any particular realization is occupied. A macrostate transition is therefore not constructed by a collection of independently acting subordinate transitions. The enclosing transition defines the class of subordinate realizations compatible with it.

@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 85: Local Agency and Enclosing Dependence
-
-## Boundaries Within Boundaries: How Objects Act Within the Relations That Sustain Them
-
 ### Abstract
 
 An object can act locally without supplying all the conditions under which its action becomes possible, meaningful, or sustainable. Recursively Realized Distinguishability (R²D) provides a formal basis for this distinction. At a count boundary, readable macrostates classify compatible joint realizations of subordinate peers. Those realizations participate in an enclosing relation whose state meaning is not exhausted by any single subordinate mechanism. Resolving how a local transition occurs therefore does not, by itself, establish that the local mechanism is causally sufficient for the enclosing organization.

@@ -19,13 +19,11 @@ publication_baseline_snapshot: '2026-09-14'
 source_format: authoritative_markdown
 indexable: false
 ---
-# Recursively Realized Distinguishability (R²D)
-
-## Part IV — Projection: The Physics Constructed from What Remains
 
 > **Authoritative Markdown Canon.** This file is the authoritative scientific source for this Part beginning with Canon revision 2026-09-25. Mathematical notation was normalized from the equation-preserving Word/OMML source into LaTeX. The September 14, 2026 integrated publication remains the archival publication baseline; explicitly listed semantic amendments define the current Markdown Canon revision.
 
 ## Preface
+
 Part I began with a deliberately narrow question: **What must be true before anything can be counted?**
 
 The answer was not space, time, matter, energy, force, field, or particle. It was distinguishability within a boundary. A boundary defines a count domain. Within that domain, compatible realizations are classified into distinguishable macrostates. Their multiplicities define the native counting structure
@@ -63,7 +61,7 @@ Part III stopped there deliberately. It described what remains readable. It did 
 
 A projection is not an error simply because it is a projection. A velocity is real. A force is real. A particle count is real. A gravitational acceleration is real. An electromagnetic field is real. A spacetime metric is real as a physical representation. A gauge potential can have indispensable physical consequences. The error occurs when a boundary-relative readable coordinate is promoted into the primitive cause of the recursive relation from which it is read.
 
-Part IV therefore does not attempt to replace successful physical theories. Nor does it attempt to translate the R2D law term by term into Newton's law, Maxwell\'s equations, the Schrödinger equation, or Einstein\'s field equation. That would be a category error.
+Part IV therefore does not attempt to replace successful physical theories. Nor does it attempt to translate the R2D law term by term into Newton's law, Maxwell's equations, the Schrödinger equation, or Einstein's field equation. That would be a category error.
 
 The R²D formalism and the physical theories are different mathematical languages. There is no admissible universal identification such as
 
@@ -373,7 +371,9 @@ It is: **What does one boundary-indexed recursive counting structure look like w
 The chapters that follow begin with that question. They begin not with the objects of physics. They begin with the invisible mathematics those objects must follow.
 
 ## Chapter 1 — Projection: Hidden Counting and Visible Physics
+
 ### 1.1 Physics Begins with What Can Be Read
+
 Physical theories begin with readable quantities. A particle is detected. A force is measured. A trajectory is reconstructed. A temperature is assigned. A field is inferred. A clock advances. A mass accelerates. Radiation arrives at a detector. The natural temptation is to take these readable quantities as the objects from which physical explanation should begin. R²D begins one step earlier.
 
 Before anything can be observed as a particle, force, trajectory, field, mass, or radiation, a boundary must define what counts as a state. Compatible realizations must be classified. Distinguishable alternatives must exist. Their possible counts must be defined. Only then can one of those possibilities be realized and subsequently assigned a physical coordinate.
@@ -399,6 +399,7 @@ is the logarithmic coordinate of that possible-count structure. The state is the
 Part I calls this the **hidden structure** of R²D: recursive multiplicity is not merely mathematics applied to an independently existing physical ontology; it is the primitive mathematical structure through which distinguishable states and relations are defined. Part IV begins from this result.
 
 ### 1.2 The Invisible Mathematics
+
 The distinction is unusual because science normally treats mathematics and physical structure as conceptually separate. An object exists. A coordinate is assigned to it. An equation describes how that coordinate changes. R²D reverses this order. The multiplicity structure
 
 $$\left\{ W_{n,i} \right\}$$
@@ -407,11 +408,12 @@ is not another measured property placed beside mass, energy, force, or position.
 
 $$multiplicity \rightarrow distinguishable state architecture \rightarrow realization.$$
 
-Occurrence and occupancy are realized counts **within** that architecture. They do not construct it. This is why neither multiplicity nor entropy needs to appear as an additional physical term in the R²D law. The law is already defined inside a recursive multiplicity structure that determines the landscapes, distinctions, compatible possibilities, and recursive relations giving its terms meaning. Part I explicitly makes this point: multiplicity can remain absent from the law because it is the mathematical structure in which the law is formed. 
+Occurrence and occupancy are realized counts **within** that architecture. They do not construct it. This is why neither multiplicity nor entropy needs to appear as an additional physical term in the R²D law. The law is already defined inside a recursive multiplicity structure that determines the landscapes, distinctions, compatible possibilities, and recursive relations giving its terms meaning. Part I explicitly makes this point: multiplicity can remain absent from the law because it is the mathematical structure in which the law is formed.
 
 In conventional physics, mathematics describes physical structure. In R²D, recursive multiplicity is the primitive structure being realized. This is what will be meant throughout Part IV by the **invisible mathematics**. Invisible does not mean inaccessible hidden matter. It means that the mathematical count architecture need not itself appear as one of the physical coordinates through which its realization is read.
 
 ### 1.3 Entropy Is Structural, Not an Additional Cause
+
 Entropy inherits the same status. Because
 
 $$S_{n,i} = \ln W_{n,i},$$
@@ -421,6 +423,7 @@ entropy is the logarithmic coordinate of multiplicity. It is therefore not neces
 A molecular switch may acquire an energetic read. A mechanical boundary may acquire a force read. A gravitational system may acquire a geometric read. A quantum occurrence may acquire a phase or particle-count read. The physical coordinates change. The counting requirement does not.
 
 ### 1.4 Possible Structure Exists Before Particular Realization
+
 This distinction can be made exact. Suppose one particular microstate
 
 $$\omega \in \pi_{n}^{-1}(i)$$
@@ -429,13 +432,14 @@ is realized. That occurrence does not change
 
 $$W_{n,i}.$$
 
-Another compatible microstate can replace it without changing the multiplicity of macrostate $i$. Likewise, moving from macrostate $i$ to macrostate $k$ can change which part of the landscape is occupied without constructing the landscape itself. Part I emphasizes this separation repeatedly: native multiplicity is fixed by the boundary classification, while subordinate realization selects among the possibilities already defined by that classification.  Thus:
+Another compatible microstate can replace it without changing the multiplicity of macrostate $i$. Likewise, moving from macrostate $i$ to macrostate $k$ can change which part of the landscape is occupied without constructing the landscape itself. Part I emphasizes this separation repeatedly: native multiplicity is fixed by the boundary classification, while subordinate realization selects among the possibilities already defined by that classification. Thus:
 
 $$possible count \neq realized count.$$
 
 Multiplicity tells us what can be realized. Occurrence tells us what is realized. Occupancy tells us how realized occurrences are distributed among readable macrostates. These are different count relations. Their distinction is essential to everything that follows.
 
 ### 1.5 Direction Is Not Contained in the Native Landscape
+
 A multiplicity landscape can structure possible alternatives without determining which one will be directionally favored under a particular enclosing relation. This is another central result of Part I. For local macrostate $i$, define the multiplicity of compatible enclosing realizations available per local possibility. Its logarithmic coordinate is the local possibility
 
 $$P_{n,i}.$$
@@ -456,7 +460,7 @@ then
 
 $$\Delta P_{n,i \rightarrow k} = 0.$$
 
-Large enclosing multiplicity alone is therefore insufficient. Direction appears only when enclosing compatibility differs between the local alternatives.  Constraint then determines how that enclosing possibility is expressed locally. With retention $R_{n,i \rightarrow k},$
+Large enclosing multiplicity alone is therefore insufficient. Direction appears only when enclosing compatibility differs between the local alternatives. Constraint then determines how that enclosing possibility is expressed locally. With retention $R_{n,i \rightarrow k},$
 
 local asymmetry is
 
@@ -465,13 +469,15 @@ $$A_{n,i \rightarrow k} = \Delta P_{n,i \rightarrow k} - R_{n,i \rightarrow k}.$
 The native multiplicity landscape determines **how** a directional relation can be locally realized. The enclosing relation determines **why** one realization is favored. This is the causal inversion at the center of R²D.
 
 ### 1.6 Realization Is Local; Direction Is Enclosing
+
 The distinction is particularly readable in biological systems. A molecular switch changes state. That switch is necessary for the local event. But the direction of its occupancy change depends on an enclosing chemical relation. That chemical relation depends on a larger metabolic relation. The metabolic relation depends on still larger organismal and environmental structures. At every step, expanding the boundary reveals the relation under which the subordinate event is directionally realized.
 
-Part I summarizes the distinction: realization occurs locally; direction is defined externally. The subordinate structure answers how. The enclosing structure answers why.  This distinction will become important in every physical projection considered in Part IV.
+Part I summarizes the distinction: realization occurs locally; direction is defined externally. The subordinate structure answers how. The enclosing structure answers why. This distinction will become important in every physical projection considered in Part IV.
 
 Local masses do not need to generate gravitational organization from below. Local charges do not need to generate the entire electromagnetic relation from below. Particles do not need to create the wavefunction whose count structure organizes their statistics. Local mechanisms remain necessary realizers. They need not be primitive directional causes.
 
 ### 1.7 A Boundary Change Changes What a State Means
+
 Projection cannot be understood without recursive replacement. Consider a transition that is readable as a macrostate transition at subordinate boundary
 
 $$B_{n,a}.$$
@@ -489,6 +495,7 @@ $$recursive replacement \neq ordinary coarse graining.$$
 What disappears from one boundary has not necessarily ceased to exist relative to another. It has ceased to possess the same count identity.
 
 ### 1.8 Recursive Carry Is a Change in Count Meaning
+
 The same distinction applies in the enclosing direction. Suppose
 
 $$\chi_{n + 1}$$
@@ -516,6 +523,7 @@ The second asks: How is this completed local realization counted when the bounda
 Part I is explicit that recursive carry is not reverse causation. A closure below does not causally build the occurrence above. It is the subordinate read of an enclosing occurrence whose count meaning changes when viewed from the enclosing boundary. This distinction will become crucial when Part IV reaches motion and radiation.
 
 ### 1.9 Physical Quantities Come After the Count Relation
+
 Nothing introduced so far requires space, time, mass, charge, energy field, particle, or wavefunction. Part I deliberately defines its primitive count relations before physical units are introduced. The count architecture therefore cannot be formally identical to any one later physical representation.
 
 A physical theory assigns domain-specific coordinates to some readable consequence of that architecture. For example, a distinguishability relation may later acquire a spatial read. A recurrence relation may later acquire a physical clock or frequency read. Constraint may acquire a mechanical read. An oriented coupling may acquire an electromagnetic read. These mappings must be demonstrated within the relevant physical system. They cannot be obtained merely by renaming the formal R²D variables.
@@ -523,6 +531,7 @@ A physical theory assigns domain-specific coordinates to some readable consequen
 Part I itself insists that quantities such as energy, temperature, time, mass, force, electromagnetic structure, spacetime geometry, quantum amplitudes, and probability cannot simply be declared equivalent to R²D variables. That restriction governs Part IV.
 
 ### 1.10 Projection Is the Physical Read of a More Primitive Relation
+
 Part IV will use the word **projection** in a broad physical sense. A projection occurs when a primitive count relation acquires a domain-specific readable coordinate. Schematically,
 
 $$\text{recursive~count~relation}\overset{\text{physical~read}}{\rightarrow}X.$$
@@ -536,6 +545,7 @@ $$projected \neq unreal.$$
 The relevant distinction is between **boundary-relative physical reality** and **boundary-independent primitive ontology**.
 
 ### 1.11 Projection Is Unavoidable
+
 Once statehood is boundary relative, projection is unavoidable. An observer has access only to distinctions readable from a particular boundary. If subordinate identity has been recursively replaced, the observer cannot reconstruct the same state ontology merely by assuming that the missing objects continue to function as primitive causes. If an enclosing relation is unreadable, the observer still sees its stable local consequences.
 
 Physical theory must describe those consequences using the quantities that remain accessible. Thus, a finite observer necessarily builds a description from what survives readability. This is not an error. It is the condition under which physical science operates.
@@ -543,17 +553,19 @@ Physical theory must describe those consequences using the quantities that remai
 Part III described the two horizons produced when one side of recursive closure becomes unreadable. Part IV asks what physical structures are constructed from what remains.
 
 ### 1.12 A Readability Limit Is Not a Projection Error
+
 This distinction must remain sharp.
 
 A readability limit answers: What cannot be directly resolved from this boundary?
 
 An EP projection error answers: What is incorrectly promoted to primitive causality after the missing relation has been omitted?
 
-Part I explicitly separates the two. Readability limits follow from boundary-relative statehood and recursive replacement. They are unavoidable. Omission of an unreadable relation is also not necessarily an error; a local theory can be useful and highly predictive without explicitly representing every enclosing boundary. 
+Part I explicitly separates the two. Readability limits follow from boundary-relative statehood and recursive replacement. They are unavoidable. Omission of an unreadable relation is also not necessarily an error; a local theory can be useful and highly predictive without explicitly representing every enclosing boundary.
 
 The error occurs only when the readable remainder is promoted from a boundary-specific physical representation to primitive causal ontology. Unreadability is not the error. Projection is not the error. The error is causal reification.
 
 ### 1.13 EP Projection Is Causal Reassignment
+
 R²D reserves **epiphenomenological projection** for this stronger step. Suppose an enclosing relation organizes local realization:
 
 $$B_{n + 1} \Rightarrow \left\{ B_{n,\alpha} \right\}.$$
@@ -567,14 +579,16 @@ $$local realization \rightarrow local realization.$$
 The mathematical description may remain excellent. What changes is the assigned source of agency. Part I defines EP projection precisely as promotion of a readable consequence of recursive organization into the primitive cause of that organization. This causal reassignment commonly develops in stages.
 
 ### 1.14 Projection I — The Primitive Object
-The first projection promotes a boundary-relative object into a boundary-independent primitive. A particle is readable somewhere. A molecule is readable somewhere. A mass is readable somewhere. A cell, organism, or economic agent is readable somewhere. R²D does not deny any of these objects. The error occurs when the object\'s identity is assumed to persist primitively across boundaries after the state classification that defined that identity has been replaced.
 
-At $B_{n}$, an object may be a perfectly legitimate macrostate distinction. At $B_{n + 1}$, its identity may contribute only to the multiplicity of a newly classified state. Treating the subordinate identity as an independently persistent primitive then creates the first projection error. Part I calls this the **primitive-object error**. 
+The first projection promotes a boundary-relative object into a boundary-independent primitive. A particle is readable somewhere. A molecule is readable somewhere. A mass is readable somewhere. A cell, organism, or economic agent is readable somewhere. R²D does not deny any of these objects. The error occurs when the object's identity is assumed to persist primitively across boundaries after the state classification that defined that identity has been replaced.
+
+At $B_{n}$, an object may be a perfectly legitimate macrostate distinction. At $B_{n + 1}$, its identity may contribute only to the multiplicity of a newly classified state. Treating the subordinate identity as an independently persistent primitive then creates the first projection error. Part I calls this the **primitive-object error**.
 
 In physics this projection produces familiar starting objects such as particle, molecule, point mass, charge-bearing object. They may all be physically real. They need not all be primitive.
 
 ### 1.15 Projection II — The Primitive Interaction
-Once independently primitive objects have been assumed, persistent correlation among them requires explanation. If two masses accelerate coherently, one object must apparently act on another. If two charges respond coherently, an interaction must apparently connect them. If chemical occupancies change together, local components apparently produce one another\'s behavior. But R²D permits another causal structure.
+
+Once independently primitive objects have been assumed, persistent correlation among them requires explanation. If two masses accelerate coherently, one object must apparently act on another. If two charges respond coherently, an interaction must apparently connect them. If chemical occupancies change together, local components apparently produce one another's behavior. But R²D permits another causal structure.
 
 Peer boundaries can remain correlated because the same enclosing boundary defines which joint realizations are compatible. Thus:
 
@@ -592,12 +606,13 @@ without requiring either peer to be the primitive cause of the other. When $B_{n
 
 $$B_{n,a} \leftrightarrow B_{n,b}.$$
 
-This is the second projection. Part I identifies gravitational and electromagnetic interactions as examples of such domain-specific descriptions: the mathematical interaction can remain extraordinarily accurate while its promotion to primitive causal agency constitutes the projection error. 
+This is the second projection. Part I identifies gravitational and electromagnetic interactions as examples of such domain-specific descriptions: the mathematical interaction can remain extraordinarily accurate while its promotion to primitive causal agency constitutes the projection error.
 
 ### 1.16 Projection III — The Primitive Organizing Structure
+
 The third step follows almost inevitably. Once independently primitive objects and their interactions have been assumed, the persistent organization of those interactions often requires an additional mathematical structure. Physics introduces potential, field, wavefunction, metric, connection, state function. These structures are extraordinarily powerful. R²D does not dismiss them as mathematical artifices. On the contrary, their precision is part of what any deeper ontology must explain. The projection error occurs only when the organizing structure required to reproduce the readable consequences of an omitted recursive relation is itself promoted to primitive causal ontology.
 
-Part I therefore places object, interaction, and organizing structure into a natural sequence.  Recursive organization becomes
+Part I therefore places object, interaction, and organizing structure into a natural sequence. Recursive organization becomes
 
 $$\text{recursive~organization}$$becomes
 
@@ -610,6 +625,7 @@ $$field or geometry organizing that interaction.$$
 Part IV will repeatedly encounter this sequence.
 
 ### 1.17 Why Projected Theories Remain Predictive
+
 A projected ontology does not have to produce incorrect equations. Suppose an enclosing compatibility relation is stable. Then the peer realizations it organizes will also exhibit stable correlations. A theory written entirely in terms of those correlations can therefore reproduce observations with extraordinary precision even if it omits the enclosing causal relation. This is why predictive success alone cannot determine primitive ontology.
 
 Part I separates three questions:
@@ -620,9 +636,10 @@ $$\begin{aligned}
 \text{What~organizes~the~relation?} & \text{Ontological~question}.
 \end{aligned}$$
 
-A theory can answer the second brilliantly without answering the third correctly.  This is why Part IV is not organized as a critique of successful physics. The equations are not the problem. The question is what they are equations **of**.
+A theory can answer the second brilliantly without answering the third correctly. This is why Part IV is not organized as a critique of successful physics. The equations are not the problem. The question is what they are equations **of**.
 
 ### 1.18 Boundary-Relative Reality Is Still Reality
+
 The word projection can easily be misunderstood as implying that particles, fields, trajectories, or spacetime are unreal. R²D makes no such claim. Reality is boundary indexed. A macrostate distinction is real at the boundary that defines it. A force is real in the physical system where it is measured. An organism is real at the organismal boundary. A price is real in a market. A particle count is real at the detector. A spacetime metric can be the correct physical geometry for relations readable within its domain.
 
 What R2D denies is the additional step:
@@ -634,9 +651,11 @@ That inference does not follow. Indeed, recursive replacement says precisely the
 This distinction allows Part IV to preserve the empirical success and local reality of physical objects while relocating primitiveness beneath them.
 
 ### 1.19 The Physical World Is Not Built from Shadows
+
 Projection should not be interpreted as a hierarchy in which increasingly unreal shadows are cast by one inaccessible hidden world. That would simply replace one substance ontology with another. The R²D architecture is recursive. At every boundary there are real distinctions. Those distinctions define a new count domain. That count domain possesses its own multiplicity structure. Its realizations can become subordinate structure at another boundary. Thus, there is no privileged middle scale where the "real objects" live. There is instead a hierarchy of boundary-defined realities connected through recursive replacement. What remains invariant is not object identity. It is the counting architecture by which distinguishability can be realized recursively.
 
 ### 1.20 Counting Invariance
+
 This suggests the central invariant of Part IV. Suppose two physical coordinate descriptions,
 
 $$X$$and
@@ -656,9 +675,10 @@ Likewise, a particular physical realization can be represented through different
 This result will become especially important when Part IV reaches gauge theory. Gauge invariance will not be introduced as an inexplicable symmetry of fields. It will appear as a physical projection of a deeper counting invariance.
 
 ### 1.21 Counting Invariance Is Not Static Physics
+
 An invariant multiplicity structure does not mean that nothing changes. Occurrence can change. Occupancy can change. Asymmetry can change. The structural macrostate can change. Closure can recur. The enclosing relation can change. The boundary itself can eventually collapse or be replaced. Counting invariance means only that, **while the native classification remains fixed**, realized events occur within the same possible-count structure.
 
-Part I proves precisely this distinction: occurrence and occupancy do not alter native multiplicity unless the boundary classification itself changes.  Thus:
+Part I proves precisely this distinction: occurrence and occupancy do not alter native multiplicity unless the boundary classification itself changes. Thus:
 
 $$\Delta c \neq 0 \not\Rightarrow  \Delta W \neq 0.$$
 
@@ -669,6 +689,7 @@ $$\text{physical~dynamics} \neq \text{continual~recreation~of~the~underlying~cou
 The physical world realizes the mathematics. It does not have to rebuild it with each occurrence.
 
 ### 1.22 Projection Can Preserve Structure While Reversing Causality
+
 This distinction explains why projection is so difficult to detect empirically. Suppose an enclosing relation determines a reproducible local correlation. If the relation remains stable, then the local realization repeatedly follows the same pattern. An observer who never reads the enclosing relation can formulate a deterministic law among the local quantities.
 
 The law works. The correlation is genuine. Nothing in the measurement itself reveals whether the local objects generate the relation or jointly realize an enclosing one. Thus, two causal narratives can preserve the same measured relation:
@@ -682,6 +703,7 @@ The empirical distinction therefore cannot be settled merely by showing that the
 A deeper test must ask whether the projected quantities are actually defined at the boundaries where causal agency is assigned to them. This is one of the principal tasks of Part IV.
 
 ### 1.23 The Three Physical Projection Questions
+
 Every major physical case considered in Part IV can now be approached using three questions.
 
 **What is the invariant count structure?**
@@ -703,11 +725,13 @@ $$count structure \rightarrow readability \rightarrow physical projection.$$
 Only after those steps have been separated should the conventional physical law be introduced.
 
 ### 1.24 Physical Laws Are Constraints on the Projection
+
 This ordering does not weaken empirical physics. It strengthens the burden on R²D. Once R²D proposes a physical mapping, the projected theory must reproduce the observed physical relationships. If mass and charge are different reads of boundary coupling, their conventional laws must still emerge correctly. If inverse-square behavior is an areal projection, the correct geometric coefficients must still be recovered. If electromagnetic radiation is recursive occurrence, its physical mapping must reproduce the observed dependence on charge, acceleration, frequency, and propagation geometry. If quantum phase is a recurrence read, the physical mapping must remain compatible with interference, spectra, and quantum dynamics. If spacetime geometry is a gravitational projection, it must remain compatible with relativistic observations.
 
 Projection is not permission to ignore quantitative physics. It is a claim about where that physics sits in the ontological hierarchy.
 
 ### 1.25 Part IV Will Not Translate Formal R²D Into Physical Law
+
 The distinction is important enough to state as a rule. Part IV will not use equations of the form
 
 $${P = \text{physical~field},
@@ -726,6 +750,7 @@ $$R^{2}\text{D~count~relation}\overset{\text{physical~mapping}}{\rightarrow}\tex
 This separation will be maintained throughout Part IV.
 
 ### 1.26 The Architecture That Follows
+
 With the projection problem now defined, the rest of Part IV can proceed from the count architecture rather than from the historical categories of physics.
 
 First comes **boundary coupling**. A local boundary can retain only a coupling magnitude or can retain both magnitude and orientation. This will provide the primitive distinction from which the later physical reads of mass and charge can be examined.
@@ -749,6 +774,7 @@ $$counting \rightarrow coupling \rightarrow reference \rightarrow field \rightar
 The sequence does not claim that one physical object literally transforms into the next. It is the order in which physical projection becomes intelligible from the underlying count architecture.
 
 ### 1.27 Principle — Hidden Counting Structure
+
 **Principle -- Hidden Counting Structure**
 
 At boundary $B_{n}$, the multiplicities
@@ -762,6 +788,7 @@ $$S_{n,i} = \ln W_{n,i}$$
 is its logarithmic representation. Occurrence, occupancy, asymmetry, retention, and closure are realized relations defined within this architecture. Therefore, multiplicity and entropy need not appear as additional causal terms in every realization law. They are the mathematical structure within which those laws have meaning. Multiplicity structures what can occur whereas occurrence realizes it.
 
 ### 1.28 Principle — Boundary-Relative Projection
+
 **Principle -- Boundary-Relative Projection**
 
 A domain-specific physical quantity is a readable coordinate assigned to a recursively organized relation from a specified boundary. Its physical reality at that boundary does not imply primitive identity across all boundaries.
@@ -773,11 +800,13 @@ $$boundary - relative reality \not\Rightarrow boundary - independent primitivene
 Projection is unavoidable whenever only part of the recursive relation remains physically readable.
 
 ### 1.29 Principle — EP Projection Error
+
 **Principle --- EP Projection Error**
 
 A projected physical description becomes an EP projection error when a readable consequence of recursive organization is promoted to the primitive cause of that organization after the relevant enclosing relation has been omitted. The error is therefore not measurement, not mathematical representation, and not physical law. It is causal reification of the projection.
 
 ### 1.30 Principle — Counting Invariance
+
 **Principle -- Counting Invariance**
 
 If a change in physical representation leaves the boundary classification unchanged, then the native multiplicity structure remains unchanged:
@@ -791,6 +820,7 @@ $$S_{n,i}^{'} = S_{n,i}.$$
 Different physical coordinate descriptions may therefore represent the same recursively realized count structure. Counting invariance is logically prior to later physical invariances, including gauge invariance.
 
 ### 1.31 Corollary — Predictive Success Does Not Establish Primitive Ontology
+
 A projected theory can preserve exact or extremely accurate correlations among readable quantities because those correlations are stable consequences of the omitted recursive organization. Therefore:
 
 $$predictive success \not\Rightarrow primitive ontology.$$
@@ -798,6 +828,7 @@ $$predictive success \not\Rightarrow primitive ontology.$$
 The empirical success of a physical law determines the accuracy of its readable relation. It does not, by itself, determine the deepest causal assignment.
 
 ### 1.32 Corollary — Objects and Fields Can Be Real Without Being Primitive
+
 A particle, force, field, metric, potential, wavefunction, organism, or market can be a real boundary-specific physical or scientific object. R²D does not require these objects to be illusions. It requires only that their ontological status remain indexed to the boundary that defines them. Thus:
 
 $$projected object \neq illusory object.$$
@@ -805,6 +836,7 @@ $$projected object \neq illusory object.$$
 The projection error begins only when local reality is promoted to boundary-independent primitive causality.
 
 ### 1.33 What Has Been Established
+
 Part IV begins with a result that is easy to state but radical in consequence. The physical world does not have to be built from the physical coordinates through which we observe it. Before physical coordinates are introduced, R²D defines a boundary-indexed counting architecture. At boundary $B_{n}$,
 
 $$W_{n,i}$$defines possible count. Its logarithm
@@ -813,7 +845,7 @@ $$S_{n,i}$$
 
 defines the additive coordinate of that structure. Occurrence and occupancy realize the structure. They do not construct it. Enclosing compatibility determines directional possibility. Constraint determines retention. Local asymmetry determines how the enclosing relation is expressed in occupancy. Closure completes a local recurrent relation. Recursive carry changes the count meaning of that completed realization when the boundary changes.
 
-None of this yet requires matter, space, time, force, field, mass, charge, or energy. Those enter later as physical readings. Projection is therefore unavoidable. An observer can only describe the recursive relation through what remains readable at the observer\'s boundary.
+None of this yet requires matter, space, time, force, field, mass, charge, or energy. Those enter later as physical readings. Projection is therefore unavoidable. An observer can only describe the recursive relation through what remains readable at the observer's boundary.
 
 But projection is not itself an error. A projected quantity can be real, measurable, indispensable, and highly predictive. The error arises only when the surviving coordinate is promoted into the primitive cause of the recursive organization from which it is read.
 
@@ -844,7 +876,9 @@ $$q.$$
 Both appear as properties of local objects. Both determine how those objects participate in larger physical relations. But one is orientation-even, while the other retains a signed orientation. The next chapter asks what distinction in the underlying counting architecture is required before either physical projection can exist.
 
 ## Chapter 2 — Boundary Coupling: Mass, Charge, and Retained Orientation
+
 ### 2.1 Before Mass and Charge There Is a Boundary
+
 Conventional physics introduces mass and charge as different properties of physical objects. A body possesses mass,
 
 $$m,$$
@@ -867,7 +901,7 @@ $$W_{n,a,i} = \mid \pi_{n,a}^{-1}(i) \mid$$
 
 defines the native multiplicity. The local object is therefore not primitive to its boundary. Its readable identity is already a classification of compatible realizations.
 
-Part I makes this boundary dependence explicit: formal microstates and macrostates are defined only relative to their count boundary, and changing that boundary changes the state structure rather than merely revealing the same object at different resolution. 
+Part I makes this boundary dependence explicit: formal microstates and macrostates are defined only relative to their count boundary, and changing that boundary changes the state structure rather than merely revealing the same object at different resolution.
 
 The first question of this chapter is consequently not: What substance is mass made of?
 
@@ -878,6 +912,7 @@ It is: **What property of a boundary-defined realization must survive projection
 That question places mass and charge in the same logical position before distinguishing them.
 
 ### 2.2 A Generic Boundary-Coupling Read
+
 Part I does not contain mass or charge as primitives. Part IV therefore cannot identify either quantity directly with one formal R²D variable. Instead, introduce a generic physical coupling read
 
 $$\kappa_{a}.$$
@@ -893,6 +928,7 @@ $$local boundary \rightarrow boundary - specific coupling to an enclosing relati
 Their difference is not that one is a coupling and the other is something else. Their difference is whether the projected coupling retains an orientation that exists in the underlying count structure.
 
 ### 2.3 Part I Already Contains Orientation
+
 Orientation does not have to be introduced from electromagnetism. Part I already requires it. For a readable local transition
 
 $$i \rightarrow k,$$the distinguishable interval
@@ -912,6 +948,7 @@ gives the size of the distinction. The sign distinguishes its orientation.
 Part I also defines retention as transition specific, so retention inherits the orientation of the transition on which it acts. Thus, before physical space, charge, or force has been introduced, R2D already distinguishes magnitude from orientation. This distinction will become the key to mass and charge.
 
 ### 2.4 Binaryity Supplies Opposed Alternatives
+
 Consider the minimal nontrivial readable state structure:
 
 $$\mathcal{M}_{n,a} = \left\{ i,k \right\}.$$
@@ -935,6 +972,7 @@ $$\mathcal{C}^{+} \leftrightarrow \mathcal{C}^{-}.$$
 It does not determine which one is directionally favored.
 
 ### 2.5 A Binary Well Does Not Generate Its Own Direction
+
 This distinction is already established in Part I. The native multiplicity landscape defines the possible realizations of the local macrostates. It does not, by itself, determine which realization is directionally favored under an enclosing condition. For local states $i$ and $k$, possibility is determined by the multiplicity of compatible enclosing realizations. If the two states possess equal compatible enclosing extension,
 
 $$K_{n + 1 \mid n,i} = K_{n + 1 \mid n,k},$$then
@@ -952,6 +990,7 @@ $$\text{binaryity}\not\Rightarrow \text{preferred direction}.$$
 The source of local directional realization lies outside the native binary landscape.
 
 ### 2.6 Enclosing Compatibility Selects Orientation
+
 For the local transition
 
 $$i \rightarrow k,$$directional possibility is
@@ -968,13 +1007,14 @@ $$A_{n,a,i \rightarrow k} = \Delta P_{n,a,i \rightarrow k} - R_{n,a,i \rightarro
 
 The local landscape provides the alternatives through which this relation can be realized. The enclosing relation determines which orientation is favored. Part I states this causal organization directly: realization occurs locally; direction is defined externally.
 
-The subordinate structure determines how the change can occur; the enclosing relation determines why one realization is favored. This is not merely interpretive. The recursive coin construction demonstrates exactly that changing only enclosing compatibility can create, remove, or reverse the local directional possibility while leaving the native local multiplicity landscape unchanged. 
+The subordinate structure determines how the change can occur; the enclosing relation determines why one realization is favored. This is not merely interpretive. The recursive coin construction demonstrates exactly that changing only enclosing compatibility can create, remove, or reverse the local directional possibility while leaving the native local multiplicity landscape unchanged.
 
 Therefore:
 
 $$\text{local~binary~architecture} + \text{enclosing~asymmetry} \rightarrow \text{oriented~realization}\text{.}$$
 
 ### 2.7 Muscle Is the Readable Prototype
+
 The importance of muscle now becomes broader than mechanics. A myosin switch is effectively binary over the relevant structural classification. The two-state landscape supplies the local alternatives. It does not independently supply the directional asymmetry under which those alternatives are realized. The enclosing biochemical and mechanical relation biases occupancy within that fixed native structure. Thus, muscle provides a directly readable example of the general sequence
 
 $$binary state architecture + enclosing asymmetry \rightarrow directional realization.$$
@@ -984,6 +1024,7 @@ The switch realizes the direction. It does not generate the direction. This is e
 But charge requires something more than directional realization. It requires persistence of orientation.
 
 ### 2.8 Instantaneous Asymmetry Cannot Be Charge Sign
+
 The distinction matters. Local asymmetry
 
 $$A_{n,a}$$
@@ -1001,6 +1042,7 @@ Charge requires an orientation that has become part of the persistent classifica
 Part I already contains the machinery needed to answer this.
 
 ### 2.9 Recursive Carry Does Not Automatically Preserve Local Orientation
+
 A completed local closure at
 
 $$B_{n,a}$$
@@ -1009,7 +1051,7 @@ can be recursively classified at the enclosing boundary
 
 $$B_{n + 1}.$$
 
-But Part I does not assume that the detailed local path remains recoverable there. Indeed, distinct subordinate closures can belong to the same enclosing occurrence class. Recursive carry can therefore preserve count meaning while eliminating the recoverable identity of the particular subordinate path.  This means the two local orientations
+But Part I does not assume that the detailed local path remains recoverable there. Indeed, distinct subordinate closures can belong to the same enclosing occurrence class. Recursive carry can therefore preserve count meaning while eliminating the recoverable identity of the particular subordinate path. This means the two local orientations
 
 $$\mathcal{C}_{n,a}^{+}$$and
 
@@ -1018,6 +1060,7 @@ $$\mathcal{C}_{n,a}^{-}$$
 need not remain distinct at $B_{n + 1}$. Their fate depends upon the enclosing classification. That gives two fundamentally different possibilities.
 
 ### 2.10 Orientation Can Be Quotiented Out
+
 Suppose the enclosing classification treats the two opposed local orientations as equivalent:
 
 $$\pi_{n + 1}\left( \mathcal{C}_{n,a}^{+} \right) = \pi_{n + 1}\left( \mathcal{C}_{n,a}^{-} \right).$$
@@ -1029,6 +1072,7 @@ $$\left\{ \mathcal{C}^{+},\mathcal{C}^{-} \right\} \rightarrow \left\lbrack \mat
 The two local possibilities now belong to one enclosing equivalence class. The sign has disappeared from the new readable state structure. This is a pure counting operation. Nothing physical has yet been called mass.
 
 ### 2.11 Orientation Can Instead Be Retained
+
 Now consider the opposite case:
 
 $$\pi_{n + 1}\left( \mathcal{C}_{n,a}^{+} \right) \neq \pi_{n + 1}\left( \mathcal{C}_{n,a}^{-} \right).$$
@@ -1040,6 +1084,7 @@ $$\sigma_{a} \in \left\{ - ,1 + 1 \right\}.$$
 This is the critical count structure required for a signed physical coupling.
 
 ### 2.12 Definition — Retained Closure Orientation
+
 **Definition -- Retained Closure Orientation**
 
 Let
@@ -1067,6 +1112,7 @@ orientation has been quotiented out and no signed coupling can be constructed fr
 This definition contains no electromagnetism. It is a consequence of boundary-relative state classification.
 
 ### 2.13 Magnitude and Orientation Are Different Pieces of a Coupling
+
 A physical boundary coupling can now be written in its most general signed form as
 
 $$\kappa_{a} = \sigma_{a} \mid \kappa_{a} \mid$$where
@@ -1089,6 +1135,7 @@ $$\begin{aligned}
 This is the point at which mass and charge first separate.
 
 ### 2.14 Mass and Charge Occupy the Same Projection Slot
+
 The physical mappings can now be introduced. For the orientation-even projection, write
 
 $$\mid \kappa_{a} \mid \overset{\text{gravitational/mechanical~read}}{\rightarrow}m_{a}.$$
@@ -1112,6 +1159,7 @@ They are different physical quantities with different units and different physic
 The distinction between them is whether orientation remains readable.
 
 ### 2.15 Mass Does Not Require a Second Kind of Mass
+
 This immediately simplifies a familiar gravitational problem. The same boundary
 
 $$B_{n,a}$$
@@ -1123,6 +1171,7 @@ $$m_{i} = m_{g} = m_{a}.$$
 What differs is not the mass. What differs is the enclosing relation in which that same boundary participates. That distinction will become central when Part IV reaches applied force and gravity.
 
 ### 2.16 Charge Adds Orientation to the Same Coupling Role
+
 Charge differs because its coupling preserves a signed class:
 
 $$q_{a} = \sigma_{a} \mid q_{a} \mid .$$Thus the two charge orientations are
@@ -1138,6 +1187,7 @@ $$+ \leftrightarrow - .$$
 No physical relation should depend upon that global relabeling. This is already implied by the Part I principle that labels themselves have no boundary-level significance when the same equivalence classes and multiplicities are preserved. Therefore, electric sign cannot fundamentally reside in the symbols $+$ and $-$. It must reside in the **relative orientation relation**.
 
 ### 2.17 Relative Orientation Is the Physical Binary Invariant
+
 Take two peer boundaries
 
 $$B_{n,a}$$and
@@ -1176,6 +1226,7 @@ $$\Sigma_{ab}\text{~is~invariant~under~global~orientation~reversal}\text{.}$$
 This is the natural binary relational quantity. The absolute sign convention is arbitrary. The relation between peers is not.
 
 ### 2.18 The Sign Structure of Coulomb Coupling Follows Naturally
+
 Write the physical charge reads as
 
 $${q_{a} = \sigma_{a} \mid q_{a} \mid ,
@@ -1200,6 +1251,7 @@ The physical law itself is not derived here. Its sign architecture is.
 The electromagnetic interaction distinguishes whether the two local orientation-retaining coupling classes agree or oppose. That is precisely what a binary retained orientation predicts.
 
 ### 2.19 Same Orientation and Opposed Orientation
+
 The two relational cases are therefore:
 
 $$\Sigma_{ab} = + 1$$
@@ -1219,6 +1271,7 @@ Conventional electromagnetism reads these as the two possible orientations of el
 Thus, charge polarity does not need to be appended to matter as an unexplained intrinsic sign. It can arise as a readable consequence of retained orientation.
 
 ### 2.20 Charge Magnitude and Charge Sign Have Different Origins
+
 This separation is important. The magnitude
 
 $$\mid q_{a} \mid$$
@@ -1234,6 +1287,7 @@ $$q_{a} = \underset{\text{coupling~magnitude}}{\overset{\mid q_{a} \mid}{︸}}\t
 The two should not be explained by the same mechanism. The counting derivation developed here addresses the second. It does not yet determine the observed magnitude of elementary charge.
 
 ### 2.21 Charge Quantization Is Not Yet Derived
+
 Nothing in the present argument establishes
 
 $$\mid q \mid = e.$$
@@ -1244,19 +1298,20 @@ $$q = 0, \pm e, \pm 2e,\ldots$$
 
 for composite physical systems, or fractional elementary couplings in other physical sectors. The present result is more limited: if a physical coupling preserves a binary orientation class, its natural form is signed. A quantitative theory of charge must still explain:
 
--   why the elementary coupling magnitude has its observed value;
+- why the elementary coupling magnitude has its observed value;
 
--   why particular physical states realize particular charge magnitudes;
+- why particular physical states realize particular charge magnitudes;
 
--   how charge quantization arises;
+- how charge quantization arises;
 
--   how composite coupling classes combine;
+- how composite coupling classes combine;
 
--   and how the observed Standard Model charge structure emerges.
+- and how the observed Standard Model charge structure emerges.
 
 These are genuine physical burdens. They should not be hidden behind the structural success of the orientation argument.
 
 ### 2.22 Neutrality Is Recursive Cancellation of Orientation
+
 The orientation formulation does, however, immediately clarify neutrality. For an enclosing boundary containing charged peers,
 
 $$\left\{ B_{n,\alpha} \right\},$$
@@ -1276,6 +1331,7 @@ This is another example of recursive replacement.
 A neutral macroscopic object can contain many locally charged structures while carrying no net charge at the enclosing physical boundary. No contradiction exists because the two statements refer to different count domains.
 
 ### 2.23 Charge Conservation Becomes an Orientation-Classification Question
+
 This perspective also reframes charge conservation. If charge is the physical read of a retained orientation class, then changing net charge within a closed physical domain requires changing the enclosing classification of those orientation classes. A mere change of local occupancy or local physical position cannot arbitrarily change the total orientation class carried by the enclosing boundary. Thus, charge conservation should ultimately correspond to preservation of an orientation-sensitive count classification under the allowed physical realization.
 
 This chapter does not derive the conventional conservation law
@@ -1287,6 +1343,7 @@ That belongs to the physical theory. But it identifies what a deeper count accou
 This will become relevant when gauge symmetry is considered later.
 
 ### 2.24 Mass Is Orientation Even
+
 The mass projection is different. Suppose the subordinate structure possesses opposed orientations,
 
 $$\mathcal{C}^{+}, \mathcal{C}^{-},$$
@@ -1304,6 +1361,7 @@ This provides a natural reason mass is not ordinarily assigned positive and nega
 This statement is more precise than saying that mass simply lacks a sign. Its relevant projection does not retain the sign distinction.
 
 ### 2.25 Charge Is Orientation Odd
+
 For the electromagnetic projection,
 
 $$\pi_{E}\left( \mathcal{C}^{+} \right) \neq \pi_{E}\left( \mathcal{C}^{-} \right).$$
@@ -1326,6 +1384,7 @@ q & :\text{orientation-odd~coupling~projection}.
 \end{aligned}$$
 
 ### 2.26 Scalar Observables Must Be Even in Charge Orientation
+
 A further consequence follows. A scalar physical observable cannot depend on the arbitrary global choice of which orientation class is called positive. Therefore, a scalar associated only with one charged coupling must be invariant under
 
 $$q \rightarrow - q.$$
@@ -1341,6 +1400,7 @@ $$P \propto q^{2}.$$
 Reversing charge orientation reverses orientation-sensitive field quantities. It cannot turn positive radiated power into negative radiated power. The distinction follows directly from the retained-orientation interpretation.
 
 ### 2.27 A Pair Observable Can Be Odd in Relative Orientation
+
 Pair relations are different. For two peers,
 
 $$\Sigma_{ab} = \sigma_{a}\sigma_{b}$$
@@ -1360,6 +1420,7 @@ $$\text{t}\text{wo-boundary~directional~relation} \rightarrow \text{can~depend~o
 This is exactly the algebraic structure required for an orientation-sensitive interaction such as electrostatics.
 
 ### 2.28 The Counting Architecture Explains Polarity Before Field
+
 This order is important. The field does not create charge polarity. Gauge symmetry does not create charge polarity. Electromagnetic force does not create charge polarity. The binary orientation structure exists before any of those projected descriptions are introduced. The sequence is:
 
 $${\text{binary~count~structure}
@@ -1376,6 +1437,7 @@ $${\text{binary~count~structure}
 Only afterward does the shared enclosing relation among charged peers acquire a physical field description. That field will be the subject of a later chapter.
 
 ### 2.29 The Same Architecture Explains Why Muscle Has Direction Without Charge
+
 Muscle helps distinguish transient directional realization from persistent orientation class. The binary myosin landscape has opposed local alternatives. Enclosing asymmetry produces directional structural realization. But nothing requires the sign of that current directional asymmetry to survive as a persistent identity of the switch across all enclosing conditions. Thus:
 
 $$\text{binary~+~asymmetry} \rightarrow \text{direction}$$
@@ -1391,6 +1453,7 @@ $$\pi_{n + 1}\left( \mathcal{C}^{+} \right) \neq \pi_{n + 1}\left( \mathcal{C}^{
 Muscle therefore supplies the empirical prototype for direction. Charge supplies the physical example in which orientation itself appears to remain part of the recursively retained classification.
 
 ### 2.30 Is Charge a Two-Dimensional Well?
+
 The orientation result raises an obvious geometric possibility. A cyclic physical representation in two dimensions possesses two natural orientations:
 
 $$\circlearrowright and \circlearrowleft.$$
@@ -1418,6 +1481,7 @@ Part I is pre-metric. Its orientation is an orientation of distinguishable trans
 Whether the physical realization of that orientation is specifically two-dimensional is a later mapping problem.
 
 ### 2.31 Is Mass a Three-Dimensional Well?
+
 The same caution applies to mass. Part III and the gravitational development suggest that the physical mass projection may occur where orientation has been replaced by an enclosing isotropic relation. That makes a three-dimensional physical read plausible. But Part I does not prove
 
 $$m = 3D multiplicity well.$$
@@ -1429,11 +1493,13 @@ $$mass - like coupling does not retain the relevant subordinate orientation.$$
 A later physical geometry may show that the orientation-even projection corresponds naturally to three-dimensional enclosure. If so, the dimensional hierarchy would follow from the prior count hierarchy rather than being assumed as its cause.
 
 ### 2.32 Orientation Is Therefore More Primitive Than Dimension
+
 This ordering is conceptually important. We should not say: charge has sign because a two-dimensional geometry has clockwise and counterclockwise motion. That begins too late.
 
 The R²D order is: first count structure admits opposed orientations then physical geometry represents those orientations. Thus, if a 2D physical representation ultimately proves appropriate, its two handedness classes are the **read** of a pre-existing count distinction. Dimension does not generate the orientation. It makes the orientation geometrically readable.
 
 ### 2.33 Mass and Charge Are Therefore Not Different Substances
+
 The resulting ontology is substantially simpler. Conventional language suggests that matter possesses mass and separately matter possesses charge. R²D instead begins with one boundary
 
 $$B_{n,a}$$
@@ -1441,6 +1507,7 @@ $$B_{n,a}$$
 and asks how its coupling to different enclosing relations is read. The same local boundary can possess orientation-even coupling read and orientation-retaining coupling read. The physical coordinates are different because the enclosing readability structures are different. There is no need to posit two primitive substances called mass and charge underneath the same object.
 
 ### 2.34 The Next Boundary Will Determine What the Coupling Does
+
 A local coupling alone does not yet define a force. The quantity
 
 $$m_{a}$$
@@ -1456,6 +1523,7 @@ $$local coupling \neq field.$$
 The coupling tells us how the local boundary participates in an enclosing physical relation. The next question is what supplies the reference against which any change in that participation can be read. That brings Part IV first to background and motion. Only afterward will many coupled peers be assembled into the shared-boundary field relation.
 
 ### 2.35 Principle — Boundary Coupling
+
 **Principle -- Boundary Coupling**
 
 A physical mass or charge is not a primitive R²D object. Both occupy the same projection role: a boundary-specific physical coupling read describing how one local boundary participates in an enclosing physical relation. Denote the generic coupling magnitude by
@@ -1467,6 +1535,7 @@ The physical domain determines its units and calibration. Thus:
 $$B_{n,a}\overset{\text{physical~projection}}{\rightarrow}\kappa_{a}.$$
 
 ### 2.36 Principle — Polarity Without Direction
+
 **Principle -- Polarity Without Direction**
 
 A binary local state architecture admits two opposed orientations,
@@ -1480,6 +1549,7 @@ $$\text{binaryity} \rightarrow \text{opposed~alternatives}$$while
 $$\text{enclosing~asymmetry} \rightarrow \text{favored~realization}\text{.}$$
 
 ### 2.37 Principle — Retained Orientation
+
 **Principle -- Retained Orientation**
 
 Opposed local orientations survive recursive replacement only when the enclosing classification continues to distinguish them:
@@ -1497,6 +1567,7 @@ $$\pi_{n + 1}\left( \mathcal{C}^{+} \right) = \pi_{n + 1}\left( \mathcal{C}^{-} 
 orientation has been quotiented out at the enclosing boundary.
 
 ### 2.38 Principle — Mass and Charge as Orientation Classes of Boundary Coupling
+
 **Principle -- Mass and Charge as Orientation Classes of Boundary Coupling**
 
 The physical mass projection reads coupling magnitude without retaining the relevant orientation:
@@ -1512,6 +1583,7 @@ Therefore, mass and charge are not primitive independent substances within R²D.
 They are domain-specific physical reads of the same generic boundary-coupling role, distinguished by whether orientation survives recursive classification.
 
 ### 2.39 Corollary — Relative Charge Sign Is More Primitive Than Absolute Sign Label
+
 For two charge-bearing peers,
 
 $$\Sigma_{ab} = \sigma_{a}\sigma_{b}$$
@@ -1525,6 +1597,7 @@ Therefore, the physically meaningful binary relation is relative orientation, no
 Thus, absolute charge label is conventional whereas relative orientation is physical.
 
 ### 2.40 Corollary — Charge Neutrality Is Orientation Cancellation at the Enclosing Boundary
+
 If
 
 $$\sum_{\alpha}q_{\alpha} = 0,$$
@@ -1536,6 +1609,7 @@ $$\text{neutrality} \neq \text{absence~of~subordinate~charge}\text{;}$$
 it is the absence of a net oriented coupling read at the enclosing boundary.
 
 ### 2.41 Corollary — Orientation-Insensitive Scalars Are Even in Charge
+
 A scalar physical read that is invariant under global reversal
 
 $$q \rightarrow - q$$
@@ -1547,6 +1621,7 @@ $$q^{2}.$$
 This provides the count-theoretic reason that scalar electromagnetic quantities can be insensitive to charge sign even while directional field quantities reverse with charge orientation.
 
 ### 2.42 What Has Been Established
+
 The distinction between mass and charge can now be stated without beginning from either physical quantity. At a local boundary
 
 $$B_{n,a},$$
@@ -1606,7 +1681,9 @@ What has been established is more primitive: signed coupling requires an orienta
 The next chapter now asks what a coupling is measured **relative to**. A local directional state cannot define its own zero. Neither mass nor charge can define the enclosing reference through which their motion becomes readable. That reference belongs to the next boundary.
 
 ## Chapter 3 — Background and Motion: The Enclosing Reference
+
 ### 3.1 Motion Requires More Than a Position Change
+
 Chapter 2 introduced a local boundary
 
 $$B_{n,a}$$
@@ -1632,6 +1709,7 @@ But position change alone does not define motion. To say that a boundary moves r
 Conventional mechanics usually answers by specifying a coordinate frame. R²D asks what must exist before such a frame can be physically defined. The answer follows from boundary-relative statehood. A local directional distinction cannot define its own nondirectional zero. The zero belongs to an enclosing relation.
 
 ### 3.2 A Local State Cannot Define Its Own Zero
+
 Consider the simplest binary example. A coin at $B_{n}$ has two readable alternatives:
 
 $$H, T.$$
@@ -1657,6 +1735,7 @@ $$N_{H} - N_{T} = 0.$$
 The zero therefore does not belong to either local state. It belongs to the relation among local states as counted from the enclosing boundary. This is not peculiar to coins. It is a consequence of state definition. A directional alternative cannot, by itself, define the point at which direction vanishes. Thus, a local directional distinction cannot define its own zero reference. The zero belongs to an enclosing relation.
 
 ### 3.3 Background Is the R²D Form of the Nondirectional Enclosing Read
+
 Part I already defines the count structure needed for this reference. Let
 
 $$b_{n}$$
@@ -1665,11 +1744,12 @@ denote realized count at $B_{n}$ whose relevant subordinate directional classifi
 
 $$\Phi_{n} = \ln b_{n}.$$
 
-Background is therefore realized count, not unoccupied possibility and not an abstract empty container. It is nondirectional relative to the boundary at which it functions as background. Part I also allows two quantities that are separately background at peer boundaries to become distinguishable from an enclosing boundary; nondirectionality is therefore boundary relative, not absolute. 
+Background is therefore realized count, not unoccupied possibility and not an abstract empty container. It is nondirectional relative to the boundary at which it functions as background. Part I also allows two quantities that are separately background at peer boundaries to become distinguishable from an enclosing boundary; nondirectionality is therefore boundary relative, not absolute.
 
 This distinction is central. Background is not nothing. It is what remains after a subordinate directional classification has ceased to be the distinction being read.
 
 ### 3.4 Background Is Not Possibility
+
 Background must also remain distinct from enclosing possibility. Possibility is defined from compatible enclosing multiplicity:
 
 $$P_{n,i}.$$
@@ -1687,6 +1767,7 @@ The two occupy different logical positions. Possibility belongs to the compatibl
 Background is not mass. Background is not energy. Background is not the gravitational field. Background is not a spacetime metric. Background is not the speed of light. It is a primitive count category that may acquire different physical reads in different domains.
 
 ### 3.5 Physical Background Is a Mapping, Not a Formal Identity
+
 Part IV now asks what physical quantity can read this formal background structure. For mechanical motion, the relevant physical background must supply a reference relative to which direction and rate can be defined. Introduce a physical background-frame read
 
 $$\mathbf{u}_{n}^{\Phi}.$$
@@ -1705,6 +1786,7 @@ $$\begin{aligned}
 Neither mapping is universal by definition. They must be established in physical systems. Thermodynamics provides the clearest example.
 
 ### 3.6 A Gas Makes the Background Frame Visible
+
 Consider a thermal gas. Let
 
 $$\mathbf{v}_{\alpha}$$
@@ -1724,6 +1806,7 @@ $$\left\langle \mathbf{v}_{\alpha} - \mathbf{u}_{\Phi} \right\rangle = 0.$$
 The local molecular motions do not individually define this zero. The ensemble does. The center of the velocity distribution therefore supplies a physical frame read of the enclosing background relation. This is the same count logic as the coin ensemble. A single directional state cannot define its own nondirectional reference. The enclosing distribution can.
 
 ### 3.7 Temperature Supplies a Scale, Not the Frame
+
 The same gas supplies another read. The spread of molecular velocities around the background frame is related to temperature. For an ideal thermal realization,
 
 $$\left\langle \mid \mathbf{v}_{\alpha} - \mathbf{u}_{\Phi} \mid^{2} \right\rangle \propto \frac{k_{B}T}{m}.$$
@@ -1742,6 +1825,7 @@ $$temperature \neq background frame.$$
 The two are physical reads of different aspects of one enclosing statistical relation.
 
 ### 3.8 A Thermometer Is Necessarily an Enclosing Read
+
 This also clarifies what a thermometer measures. No single kinetic occurrence contains temperature. A molecule can possess a physical velocity. It does not thereby possess the temperature of the ensemble. Temperature is inferred from or equilibrated with an enclosing statistical relation. Thus, there can be microscopic dynamics of a thermometer, but the temperature it reads is not a purely same-boundary kinetic property. The physical architecture is:
 
 $$\left\{ \text{local~kinetic~occurrences} \right\} \rightarrow \text{enclosing~statistical~relation} \rightarrow T\text{~read}\text{.}$$
@@ -1753,6 +1837,7 @@ $$\text{kinetics~can~realize~thermometry}; \text{kinetics~cannot~by~itself~defin
 This is the same structural reason that a local motion cannot define the frame relative to which it moves. Both the frame and the scale are enclosing reads.
 
 ### 3.9 The Mechanical Zero Is Therefore an Enclosing Quantity
+
 Return to a local boundary
 
 $$B_{n,a}.$$
@@ -1776,6 +1861,7 @@ $$\mathbf{v}_{\Phi,a} = 0$$
 means only that the local boundary has no directional motion relative to that enclosing physical background. It does not define a primitive universal state of rest.
 
 ### 3.10 There Is No Primitive Rest in R²D
+
 This follows immediately. A boundary can be stationary relative to one enclosing frame and moving relative to another. Rest exhibits zero directional distinction relative to a specified background. There is no primitive state called rest independent of boundary and reference. Consequently, R²D also contains no primitive **rest energy** merely because conventional relativity later defines
 
 $$E_{0} = mc^{2}.$$
@@ -1787,6 +1873,7 @@ $$\Phi \neq m, \Phi \neq c, \Phi \neq mc^{2}.$$
 The background is the reference relation. It cannot be projected onto one of the local objects measured relative to it without reversing the architecture.
 
 ### 3.11 Position Belongs First to the Local Boundary
+
 Now consider physical motion dynamically. Let
 
 $$B_{n,a}$$possess readable macrostates
@@ -1808,6 +1895,7 @@ $$\Delta x = x_{i + 1} - x_{i}$$
 is a later physical coordinate assigned to that distinction.
 
 ### 3.12 An Applied Force Is a Physical Read of Constraint
+
 Suppose an external apparatus constrains the local boundary. Formally, Part I defines an enclosing constraint
 
 $$C_{n + 1}$$
@@ -1829,6 +1917,7 @@ This distinction will later separate applied force from gravitational force. For
 $$F_{a} = \text{physical~read~of~a~differential~constraint~on~one~selected~local~boundary}\text{.}$$
 
 ### 3.13 Position Change Relaxes the Applied Constraint
+
 Consider a compliant positional system. An imposed physical force
 
 $$F_{a}$$
@@ -1846,6 +1935,7 @@ $$F_{a} \rightarrow \Delta x_{a} \rightarrow \text{relaxation~of~}F_{a}.$$
 This is already familiar from muscle. Force generation changes position. Position change changes force. The relevant physical cycle is not a single unidirectional push. It is a closure.
 
 ### 3.14 Constant Applied Force Requires Constraint Restoration
+
 Suppose the experiment maintains
 
 $$F_{a} = \text{constant}.$$
@@ -1861,6 +1951,7 @@ $$possibility \rightarrow force \rightarrow position change \rightarrow force re
 In externally driven mechanics, the physical direction is reversed in the sense that the experiment begins by supplying the constraint. The recursive geometry is the same.
 
 ### 3.15 Constant Force Is Therefore a Closure Condition
+
 The physical condition
 
 $$F_{a} = \text{constant}$$
@@ -1873,9 +1964,10 @@ The local closure is readable at $B_{n,a}$.
 
 What is its enclosing read?
 
-Part I already supplies the answer structurally. A completed local closure is one subordinate reading of an enclosing occurrence. When the count boundary changes, its local path identity need not remain readable as the same object. The completed realization is classified according to the enclosing occurrence to which it belongs.  The physical mapping can therefore assign a new mechanical coordinate to that enclosing occurrence.
+Part I already supplies the answer structurally. A completed local closure is one subordinate reading of an enclosing occurrence. When the count boundary changes, its local path identity need not remain readable as the same object. The completed realization is classified according to the enclosing occurrence to which it belongs. The physical mapping can therefore assign a new mechanical coordinate to that enclosing occurrence.
 
 ### 3.16 The Enclosing Occurrence Can Be Read as Velocity
+
 This gives a natural place for velocity. At $B_{n}$, the directly readable physical distinction is positional:
 
 $$x_{i} \rightarrow x_{i + 1}.$$
@@ -1895,6 +1987,7 @@ $$\mathcal{C}_{n,a}^{x}\overset{\text{recursive~read}}{\Rightarrow}\chi_{n + 1}^
 The superscripts denote physical readings, not formal R²D identities. The central proposal is: position and velocity need not be primitive coordinates of the same boundary. Position is a local macrostate read. Velocity is an enclosing occurrence read relative to background.
 
 ### 3.17 Velocity Is Therefore a Cross-Boundary Physical Quantity
+
 This differs from ordinary mechanics. Conventional kinematics defines
 
 $$v = \frac{dx}{dt}$$
@@ -1920,6 +2013,7 @@ $$v = \frac{dx}{dt}$$
 is retained as the continuous physical representation. It is not the primitive R²D definition of motion.
 
 ### 3.18 Physical Time Is a Recurrence Read
+
 The same qualification applies to $t$. Part I defines occurrence and recurrence counts before physical time. It does not identify
 
 $$\tau = \ln\nu$$
@@ -1937,6 +2031,7 @@ $t$ is already a **physical clock read of recurrence**. It is not a primitive R�
 $$\text{recurrence~count} \rightarrow \text{physical~clock~calibration} \rightarrow t,\text{~}f,\text{~or~rate}\text{.}$$
 
 ### 3.19 Acceleration Is a Change in the Enclosing Motion Read
+
 Once velocity has been defined relative to background,
 
 $$\mathbf{v}_{\Phi,a} = \mathbf{v}_{a} - \mathbf{u}_{n + 1}^{\Phi},$$
@@ -1958,6 +2053,7 @@ $$a = differential motion of one peer relative to its enclosing reference.$$
 This will become important when Chapter 4 distinguishes $a$ from $g$.
 
 ### 3.20 Applied Force and Applied Acceleration Occupy Different Physical Roles
+
 The common equation
 
 $$F_{a} = ma$$
@@ -1973,6 +2069,7 @@ $$F = ma$$
 belongs to conventional mechanics. R²D supplies the boundary architecture within which its quantities become readable.
 
 ### 3.21 Mass Is the Local Coupling Factor in This Mechanical Projection
+
 Chapter 2 identified mass as an orientation-even boundary-coupling read. Now its mechanical role becomes visible. The local boundary
 
 $$B_{n,a}$$has coupling read
@@ -2000,6 +2097,7 @@ F_{a} & :\text{~applied~differential~constraint~read}.
 Newton's law is the empirical physical relation among them.
 
 ### 3.22 Inertia Is Persistence of the Enclosing Motion Classification
+
 Now remove the applied differential constraint. Suppose no new local closure changes the enclosing motion classification. Then
 
 $$\Delta\mathbf{v}_{\Phi,a} = 0.$$
@@ -2013,6 +2111,7 @@ Conventional mechanics describes this as inertial persistence. R²D does not req
 Mass is the local coupling read associated with that boundary. It is not an internal motive substance.
 
 ### 3.23 Newton's First Law Is Therefore a Persistence Statement
+
 Newton's first law states that an object remains at rest or in uniform motion unless acted upon. R²D can place this more primitively. If no local constraint relation generates a new enclosing motion distinction,
 
 $$\Delta\mathbf{v}_{\Phi,a} = 0.$$
@@ -2028,6 +2127,7 @@ $$\mathbf{v}_{\Phi,a} = \text{constant} \neq 0.$$
 Both are persistent enclosing classifications. The primitive distinction is not between rest and motion. It is between unchanged enclosing motion relation and new enclosing motion relation.
 
 ### 3.24 Kinetic Energy Comes After the Motion Projection
+
 The same ordering changes the interpretation of kinetic energy. Once the physical quantities
 
 $$m$$ and
@@ -2057,6 +2157,7 @@ Not:
 $$\boxed{K \rightarrow \text{background~reference}.}$$
 
 ### 3.25 A Moving Mass Is Therefore a Cross-Boundary Projection
+
 The familiar object "a moving mass" compresses several recursive relations into one physical phrase. It contains:
 
 $$B_{n,a},$$the local boundary;
@@ -2078,6 +2179,7 @@ the enclosing motion read. Conventional mechanics compresses all of these into m
 This is a useful projection. It is not the primitive architecture.
 
 ### 3.26 The Mechanical Projection Omits the Enclosing Background
+
 Once velocity and acceleration are assigned to the local mass, it becomes easy to forget that their zero was defined by an enclosing relation. The projected mechanical ontology becomes:
 
 $$mass + position + velocity + force.$$
@@ -2087,6 +2189,7 @@ The background disappears. Then kinetic energy appears to belong intrinsically t
 The physical quantities remain valid. The missing piece is the enclosing relation required to define them.
 
 ### 3.27 A Physical Reference Must Be Observable
+
 The background argument would be empty if the reference were purely metaphysical. If motion is physically defined relative to an enclosing background, that background must admit a physical read. The gas example establishes this at thermal scale. Its bulk frame is measurable. The larger-scale mechanical hierarchy therefore requires the same kind of physical completeness.
 
 A macroscopic background reference must be physically available, at least in principle, from the enclosing domain in which large-scale velocities are defined. This gives R²D a concrete empirical requirement: large-scale motion requires a physically observable large-scale background reference.
@@ -2094,17 +2197,18 @@ A macroscopic background reference must be physically available, at least in pri
 The background need not appear in the local equations of motion as a privileged coordinate. But it must exist physically if it is to define the enclosing zero.
 
 ### 3.28 The Required Large-Scale Background Must Be CMB-Like
+
 The count architecture constrains the properties of such a physical read. To function as the enclosing reference for macroscopic directional motion, it must be:
 
--   pervasive across the relevant peer domain;
+- pervasive across the relevant peer domain;
 
--   approximately nondirectional in its own frame;
+- approximately nondirectional in its own frame;
 
--   capable of revealing anisotropy to an observer moving relative to it;
+- capable of revealing anisotropy to an observer moving relative to it;
 
--   associated with a measurable recurrence or scale;
+- associated with a measurable recurrence or scale;
 
--   physically observable from within the enclosing domain.
+- physically observable from within the enclosing domain.
 
 Thus R²D requires a physical background of the general form:
 
@@ -2113,6 +2217,7 @@ $$pervasive + approximately isotropic + spectrally scaled + motion - sensitive.$
 This is what is meant by a **CMB-like background**. The requirement follows from the background/reference architecture. It does not depend on first identifying the observed cosmic microwave background with that required read.
 
 ### 3.29 The Observed Cosmic Microwave Background Is the Natural Candidate
+
 The observed cosmic microwave background possesses precisely the qualitative properties required of such a large-scale reference. It is pervasive. It has a measurable spectrum. It defines an approximately isotropic frame. Motion relative to that frame is read through anisotropy. Thus, it naturally supplies the two physical roles already identified:
 
 $$\begin{aligned}
@@ -2127,6 +2232,7 @@ $$\Phi = CMB.$$
 The formal background remains a count relation. The CMB is the obvious physical candidate for its macroscopic read. The distinction between requirement and identification should remain explicit.
 
 ### 3.30 A Background Frame Is Not a Newtonian Absolute Space
+
 This conclusion does not restore Newtonian absolute space. The R²D background is boundary relative. A background at one recursive level need not be identical to the background at another:
 
 $$\mathcal{F}_{n}^{\Phi} \neq \mathcal{F}_{n + 1}^{\Phi}$$in general.
@@ -2138,6 +2244,7 @@ $$physically measurable reference frame \neq one absolute frame primitive to all
 R²D requires enclosing references. It does not require one universal Euclidean container within which every boundary is defined.
 
 ### 3.31 A Physical Preferred Frame Does Not Require Preferred Local Laws
+
 A particular physical system can possess a measurable background frame without local laws being mathematically valid only in that frame. The thermal gas again provides the simplest example. Its bulk rest frame is physically measurable. Yet the equations describing local molecular motion can be transformed into another frame. Thus:
 
 $$\text{physically~distinguished~state~of~a~system} \neq \text{mathematically~privileged~form~of~every~local~law}\text{.}$$
@@ -2149,6 +2256,7 @@ The existence of a physical background therefore does not, by itself, refute rel
 A scale reference, however, may do more than define faster and slower recurrence. Later chapters will show that once the physical gravitational projection is introduced, the background recurrence also fixes its dimensional calibration. The consequence is that gravitational calibration need not remain invariant across recursively distinct background boundaries.
 
 ### 3.32 The Accelerating Mass Is Now Fully Defined
+
 The local mechanical architecture can now be written in one sequence. Begin with the boundary:
 
 $$B_{n,a}.$$
@@ -2182,6 +2290,7 @@ $$B_{n,a} \rightarrow m_{a} \rightarrow x_{a} \rightarrow F_{a} \rightarrow \mat
 The arrows connecting physical quantities are schematic ordering relations, not a derivation of Newtonian equations. This is the complete mechanical projection required before gravity is introduced.
 
 ### 3.33 One Boundary Has Been Singled Out
+
 The final point is crucial for the next chapter. Everything developed so far concerns one selected boundary:
 
 $$B_{n,a}.$$The applied force
@@ -2201,6 +2310,7 @@ $$B_{n + 1} \supset \left\{ B_{n,1},B_{n,2},\ldots,B_{n,N} \right\}.$$
 At that point the same local boundary will no longer be read only as an isolated selected object. It will also be one peer among many. That single change produces the foundation for fields, gravity, and electromagnetism.
 
 ### 3.34 Principle — Enclosing Reference
+
 **Principle -- Enclosing Reference**
 
 A local directional state cannot define its own nondirectional zero. The zero reference belongs to an enclosing relation in which subordinate directional classifications have been replaced by an enclosing count. Thus:
@@ -2212,6 +2322,7 @@ In a physical mechanical realization, this enclosing background may acquire a fr
 $$\mathbf{u}^{\Phi}.$$
 
 ### 3.35 Principle — Background Frame and Background Scale
+
 **Principle --- Background Frame and Background Scale**
 
 Background is formal realized nondirectional count,
@@ -2228,6 +2339,7 @@ $$\begin{aligned}
 These physical reads are not formal identities with $\Phi_{n}$.
 
 ### 3.36 Principle — Position-Closure Projection
+
 **Principle -- Position-Closure Projection**
 
 A local positional macrostate transition is readable at $B_{n}$. A maintained applied constraint can generate a recurrent local constraint-position cycle. The completed local closure is the subordinate reading of an enclosing occurrence. In a mechanical physical mapping, that enclosing occurrence may be read as motion relative to background. Thus:
@@ -2237,6 +2349,7 @@ $$\text{local~position~closure}\overset{\text{recursive~read}}{\Rightarrow}\text
 Position and velocity therefore need not be primitive coordinates defined at the same boundary.
 
 ### 3.37 Principle — Applied Acceleration
+
 **Principle -- Applied Acceleration**
 
 Applied acceleration is the physical read of changing enclosing motion of one selected local boundary relative to its immediate physical background. After clock calibration,
@@ -2246,6 +2359,7 @@ $$\mathbf{a}_{a} = \frac{d}{dt}\left( \mathbf{v}_{a} - \mathbf{u}_{n + 1}^{\Phi}
 This is a physical mapping, not an R²D definition of acceleration. Applied acceleration is therefore a **differential local relation**.
 
 ### 3.38 Principle — Inertial Persistence
+
 **Principle -- Inertial Persistence**
 
 If no new local closure produces a new enclosing motion distinction, then the background-relative velocity classification persists:
@@ -2255,6 +2369,7 @@ $$\Delta\mathbf{v}_{\Phi,a} = 0$$
 Conventional mechanics reads this persistence as inertia. Inertia therefore need not be treated as an internal motive property of primitive matter. It is the projected persistence of an enclosing motion state.
 
 ### 3.39 Corollary — There Is No Primitive Rest
+
 Rest is the condition
 
 $$\mathbf{v}_{\Phi,a} = 0$$
@@ -2262,6 +2377,7 @@ $$\mathbf{v}_{\Phi,a} = 0$$
 relative to a specified enclosing physical background. Therefore, rest is relational, not primitive. No primitive R²D rest state or rest energy follows from the count architecture.
 
 ### 3.40 Corollary — Kinetic Energy Is Downstream of Background
+
 Kinetic energy,
 
 $$K = \frac{1}{2}mv_{\Phi}^{2},$$
@@ -2275,11 +2391,13 @@ $$K \rightarrow background.$$
 Kinetic energy can be physically real and dynamically useful without being the primitive source of motion or reference.
 
 ### 3.41 Corollary — A CMB-Like Large-Scale Background Is Required
+
 If macroscopic motion possesses a physical enclosing zero reference, that reference must admit a physical read with the properties required of background like pervasive, approximately isotropic, motion-sensitive, and scale-bearing.
 
 R²D therefore requires a CMB-like large-scale physical background. The observed cosmic microwave background is the natural empirical candidate for that read. Its identification with the R²D background remains a physical mapping rather than a formal definition.
 
 ### 3.42 What Has Been Established
+
 Motion cannot begin with motion. A physical velocity requires a zero. A local directional state cannot supply that zero itself. The zero belongs to an enclosing relation. Part I already contains the corresponding formal category. Background is realized count whose relevant subordinate directional classification is no longer readable from the boundary at which it functions as background. Thus:
 
 $$b_{n}$$
@@ -2345,7 +2463,9 @@ Only one local boundary has been considered so far. That boundary can possess ma
 The next chapter changes the problem. Instead of singling out one boundary, it places many peer boundaries inside one enclosing count domain. Then the local reference becomes a shared relation. The applied constraint becomes a collective constraint. And the same enclosing architecture begins to be read as a field.
 
 ## Chapter 4 — The Shared Boundary: Fields, Gravity, and Electromagnetism
+
 ### 4.1 One Boundary Does Not Define an Interaction
+
 Chapter 3 considered one selected local boundary,
 
 $$B_{n,a}.$$
@@ -2365,6 +2485,7 @@ It is: **What defines the joint realization of many peer boundaries?**
 Part I already answers this question. The answer is the enclosing boundary.
 
 ### 4.2 A Microstate at the Enclosing Boundary Is a Joint Peer Realization
+
 At every nonprimitive boundary, the formal microstate domain is constructed from compatible joint realizations of peer subordinate boundaries. For the peer set
 
 $$\left\{ B_{n,\alpha} \right\},$$
@@ -2377,9 +2498,10 @@ subject to the compatibility relation defined by $B_{n + 1}$. The enclosing boun
 
 $$\text{state~at~}B_{n + 1} = \text{classification~of~compatible~joint~peer~realizations}\text{.}$$
 
-This is not an additional physical hypothesis introduced for gravity or electromagnetism. It is the Part I definition of boundary-relative statehood.  Everything that follows in this chapter begins from that definition.
+This is not an additional physical hypothesis introduced for gravity or electromagnetism. It is the Part I definition of boundary-relative statehood. Everything that follows in this chapter begins from that definition.
 
 ### 4.3 Peers Do Not Define Their Own Joint Compatibility
+
 Suppose two peers are
 
 $$B_{n,a}$$and
@@ -2394,9 +2516,10 @@ belong to a state at $B_{n + 1}$. That rule belongs to the enclosing boundary. T
 
 $$B_{n + 1} \Rightarrow \left\{ B_{n,a},B_{n,b},\ldots \right\}.$$
 
-The arrow denotes causal organization. The enclosing occurrence defines which local peer realizations are jointly compatible with it. The peers realize that relation locally. Part I explicitly prevents reversing this causal relation: compatible peer closures provide the local realization of an enclosing occurrence; they do not combine from below to construct it.  This result is the foundation of the R²D field interpretation.
+The arrow denotes causal organization. The enclosing occurrence defines which local peer realizations are jointly compatible with it. The peers realize that relation locally. Part I explicitly prevents reversing this causal relation: compatible peer closures provide the local realization of an enclosing occurrence; they do not combine from below to construct it. This result is the foundation of the R²D field interpretation.
 
 ### 4.4 A Field Begins as a Shared Relation
+
 If many local boundaries repeatedly participate in the same enclosing compatibility relation, their realizations will be correlated. Those correlations can persist. They can be highly reproducible. They can depend systematically upon position, orientation, motion, and local coupling. An observer who reads only the peers sees a structured relation distributed across the physical domain. Conventional physics represents such organization through a **field**.
 
 R²D therefore places the field after the enclosing relation:
@@ -2405,9 +2528,10 @@ $$\text{enclosing~compatibility}\overset{\text{physical~projection}}{\rightarrow
 
 The field is not introduced as a new primitive substance needed to connect independently complete objects. It is the physical coordinate system through which their omitted common relation is read.
 
-Part I already identifies this projection sequence: stable enclosing compatibility can produce persistent peer correlations; after the enclosing relation is omitted, those correlations are represented as interactions and then as organizing structures such as fields or potentials. 
+Part I already identifies this projection sequence: stable enclosing compatibility can produce persistent peer correlations; after the enclosing relation is omitted, those correlations are represented as interactions and then as organizing structures such as fields or potentials.
 
 ### 4.5 Field and Background Are Not the Same Thing
+
 Chapter 3 introduced background as realized count whose relevant subordinate directional classification is no longer readable at the boundary where it functions as background. A field is different. A field is a **distinguishable relation**. It varies. It can possess orientation. Different local boundaries can read different values of it. Therefore:
 
 $$field \neq background.$$
@@ -2422,6 +2546,7 @@ $$\begin{aligned}
 A field may later become background when its subordinate directional structure ceases to be readable at a still larger boundary. That is a recursive transition discussed later. It is not the starting definition of a field.
 
 ### 4.6 Coupling and Field Occupy Complementary Positions
+
 Chapter 2 introduced a generic local coupling read
 
 $$\kappa_{a}.$$
@@ -2447,6 +2572,7 @@ $$E$$
 or, more generally, an electromagnetic field. The physical laws relating these quantities come from conventional physics. R²D supplies their recursive positions.
 
 ### 4.7 Gravity Uses the Orientation-Even Coupling
+
 Chapter 2 identified mass as an orientation-even physical coupling read:
 
 $$m_{a} = \text{orientation-even~boundary~coupling}\text{.}$$
@@ -2474,6 +2600,7 @@ $$\mathbf{g} = \text{physical~read~of~the~shared~gravitational~relation}\text{.}
 It is not an R2D primitive.
 
 ### 4.8 There Are Not Two Masses
+
 This architecture immediately removes a conventional conceptual distraction. The boundary
 
 $$B_{n,a}$$
@@ -2489,6 +2616,7 @@ $$m_{i} \text{versus} m_{g}.$$It is
 $$F_{a} \text{versus} F_{g}.$$
 
 ### 4.9 $F_{a}$ and $F_{g}$ Belong to Different Constraint Contexts
+
 Chapter 3 defined
 
 $$F_{a}$$
@@ -2512,6 +2640,7 @@ $$F_{g,a} = \text{local~projection~of~the~shared~constraint~on~the~same~}B_{n,a}
 The object is the same. The constraint geometry is different.
 
 ### 4.10 Gravitational Force Is a Local Projection of Shared Constraint
+
 Conventional mechanics writes
 
 $$\mathbf{F}_{g,a} = m_{a}\mathbf{g}\mathbf{.}$$
@@ -2535,6 +2664,7 @@ $$m_{b} \rightarrow \text{primitive~attraction} \rightarrow m_{a}$$
 as the foundational causal architecture. The peers share an enclosing relation before one is projected as the source acting upon another.
 
 ### 4.11 $g$ Is Not $a$
+
 The difference between applied and gravitational force implies a corresponding distinction between
 
 $$a$$
@@ -2560,6 +2690,7 @@ $$g = the shared peer relation changing relative to a larger background.$$
 Conventional mechanics assigns both the dimensions of acceleration because both are ultimately read through changes of motion. They need not occupy the same recursive position.
 
 ### 4.12 Uniform Gravity Is Common-Mode Realization
+
 Suppose neighboring peer boundaries participate in the same gravitational relation:
 
 $$\mathbf{g}_{a} = \mathbf{g}_{b} = \mathbf{g}_{c} = \cdots\text{ }.$$
@@ -2571,6 +2702,7 @@ $$\Delta\mathbf{g}_{ab} = \mathbf{g}_{b} - \mathbf{g}_{a} = 0.$$
 Nothing in the local peer relation distinguishes one freely participating boundary from another. This is the R²D reason that a uniform gravitational realization can disappear from a sufficiently local mechanical read. The gravitational relation has not disappeared. Its differential local distinction has.
 
 ### 4.13 Free Fall Is Shared Realization
+
 Consider a freely falling object and an accelerometer attached to it. Both participate in the same sufficiently local enclosing gravitational realization. There is no differential support constraint between them. Therefore, the accelerometer reads no applied local acceleration:
 
 $$a_{local} = 0.$$
@@ -2582,6 +2714,7 @@ $$g \neq 0.$$
 There is no contradiction. The two quantities describe different relations. Applied acceleration measures differential local constraint. Gravitational acceleration describes the shared enclosing realization.
 
 ### 4.14 Support Creates the Locally Readable Difference
+
 Now support the same object on the ground. The support imposes a local differential constraint that neighboring freely falling peers do not share. The selected boundary is prevented from realizing the same enclosing gravitational relation. A local distinction therefore appears. The accelerometer reads it. Thus:
 
 $$\text{free~fall} = \text{shared~realization}\text{,}$$while
@@ -2591,6 +2724,7 @@ $$support = differential constraint relative to shared realization.$$
 The familiar sensation of weight therefore belongs to the applied local constraint, not to the common-mode gravitational realization itself.
 
 ### 4.15 The Equivalence Principle Appears After the Boundary Distinction
+
 Conventional physics begins with the empirical equivalence of locally uniform gravity and an accelerating reference frame. R²D begins earlier. It distinguishes the two underlying constraint structures:
 
 $$F_{a} = \text{differential~local~constraint}\text{,}$$and
@@ -2600,6 +2734,7 @@ $$F_{g} = \text{projection~of~shared~enclosing~constraint}\text{.}$$
 A sufficiently local observer cannot distinguish a common change shared by the entire local comparison system. Only relative differences remain readable. The conventional equivalence principle therefore follows naturally as a **readability statement**. It need not be introduced as the primitive reason gravity behaves differently from ordinary applied force.
 
 ### 4.16 Tidal Gravity Is the Locally Readable Gravitational Quantity
+
 The shared relation becomes locally distinguishable when it varies across peers. Let
 
 $$\mathbf{g}_{a} \neq \mathbf{g}_{b}.$$
@@ -2621,6 +2756,7 @@ whereas
 $$\text{variation~across~peers} \rightarrow \text{locally~distinguishable}\text{.}$$
 
 ### 4.17 Gravity Is Therefore a Field Projection
+
 The gravitational field now has a specific R²D position. It is not the background. It is not mass. It is not a primitive attractive substance. It is the physical representation of the shared enclosing relation among orientation-even coupled peers. Thus:
 
 $$\text{enclosing~gravitational~compatibility}\overset{\text{projection}}{\rightarrow}\mathbf{g}\left( \mathbf{x} \right).$$The function
@@ -2630,11 +2766,12 @@ $$\mathbf{g}\left( \mathbf{x} \right)$$
 is the local physical coordinate through which an observer describes how the shared relation varies across readable position. The field can be perfectly real while remaining downstream of the enclosing boundary architecture.
 
 ### 4.18 Why $g$ Is Independent of the Test Mass
+
 This architecture clarifies another familiar fact. The field coordinate
 
 $$\mathbf{g}$$
 
-belongs to the enclosing relation. It is therefore defined before the local test boundary\'s mass is multiplied into the local force read. Conventional mechanics writes
+belongs to the enclosing relation. It is therefore defined before the local test boundary's mass is multiplied into the local force read. Conventional mechanics writes
 
 $$\mathbf{F}_{g} = m_{a}\mathbf{g}.$$Then
 
@@ -2643,6 +2780,7 @@ $$\mathbf{a} = \frac{\mathbf{F}_{g}}{m_{a}} = \mathbf{g}$$
 for ideal free fall. The cancellation of $m_{a}$ is no mystery in the R²D ordering. The shared gravitational relation does not originate inside the local mass. Mass determines the local force coordinate used to read that relation. Thus, $\mathbf{g}$ belongs to the enclosing relation; $m_{a}\text{~}$belongs to the local boundary.
 
 ### 4.19 Gravity Does Not Yet Require the Inverse-Square Law
+
 Nothing in the argument so far requires
 
 $$g = G\frac{M}{r^{2}}.$$
@@ -2664,6 +2802,7 @@ $$g_{n} = G_{n}\frac{M}{r^{2}}$$
 will later replace the unindexed $G$ when adjacent gravitational backgrounds are compared.
 
 ### 4.20 Electromagnetism Uses the Orientation-Retaining Coupling
+
 Now consider the other coupling class developed in Chapter 2. For a charged local boundary,
 
 $$q_{a} = \sigma_{a} \mid q_{a} \mid , \sigma_{a} = \pm 1.$$
@@ -2675,6 +2814,7 @@ $$B_{n + 1}^{EM} \supset \left\{ B_{n,\alpha} \right\}.$$
 As before, the enclosing boundary defines their joint compatibility. But unlike gravity, the local coupling now carries orientation. The enclosing relation must therefore remain sensitive not merely to coupling magnitude but also to relative orientation.
 
 ### 4.21 The Electromagnetic Field Is an Oriented Shared Relation
+
 The electromagnetic analogue of
 
 $$\mathbf{g}$$
@@ -2690,6 +2830,7 @@ $$\text{nclosing}\text{~compatibility~among~orientation-retaining~peers}\overset
 The electric field is therefore not produced in R²D by imagining an isolated primitive charge first generating a substance around itself. The field is the projected read of the larger relation in which charged peers participate. The local charge specifies how one particular peer couples to that relation.
 
 ### 4.22 The Electric Force Has the Same Projection Architecture as Gravity
+
 Conventional electrostatics writes
 
 $$\mathbf{F}_{e,a} = q_{a}\mathbf{E}\mathbf{.}$$
@@ -2712,6 +2853,7 @@ q_{a} \times \mathbf{E} & \rightarrow \mathbf{F}_{e,a}.
 The physical fields are different. The local coupling reads are different. The recursive projection role is the same.
 
 ### 4.23 Electromagnetic Direction Comes From Retained Relative Orientation
+
 For two charged peers,
 
 $${q_{a} = \sigma_{a} \mid q_{a} \mid ,
@@ -2728,6 +2870,7 @@ $$\Sigma_{ab} = \pm 1.$$
 The enclosing electromagnetic relation distinguishes these two classes. Thus, electromagnetism retains something gravity has quotiented out: relative peer orientation. This is why an electromagnetic relation can reverse its local force orientation when the charge class reverses. The underlying count architecture already contains the sign distinction before a physical field is introduced.
 
 ### 4.24 Charge Does Not Generate the Orientation of the Enclosing Relation from Below
+
 A subtle causal distinction remains important. The local charge orientation
 
 $$\sigma_{a}$$
@@ -2745,6 +2888,7 @@ as the primitive causal sequence. The physical equations may legitimately descri
 R²D asks a different ontological question. The local charge distribution and the field are complementary physical reads of one larger compatibility relation. Thus, charged peers realize the enclosing EM relation locally; they do not primitively construct the count architecture that makes their common relation possible.
 
 ### 4.25 Source Language Is a Useful Projection
+
 Conventional physics often writes field equations in source language:
 
 $$\text{charge~distribution} \rightarrow \text{electric~field}.$$
@@ -2756,6 +2900,7 @@ $$\text{local~coupling~distribution} + \text{enclosing~compatibility} \rightarro
 When the enclosing boundary is omitted, the visible local coupling distribution becomes the apparent source. The field becomes the apparent mediator. That is precisely the object-interaction-organizing-structure projection sequence described in Chapter 1.
 
 ### 4.26 Neutrality Is Cancellation of Enclosing Orientation
+
 Suppose an enclosing physical boundary contains many charged peers. Its net charge read is
 
 $$Q = \sum_{\alpha}q_{\alpha}.$$If
@@ -2769,6 +2914,7 @@ $$\text{neutrality} = \text{cancellation~of~net~oriented~coupling~at~the~enclosi
 This gives recursive meaning to the familiar fact that a macroscopically neutral system can contain large numbers of charged constituents.
 
 ### 4.27 Cancellation Does Not Eliminate All Electromagnetic Structure
+
 A neutral system need not be electromagnetically featureless. Even if
 
 $$\sum_{\alpha}q_{\alpha} = 0,$$
@@ -2782,6 +2928,7 @@ $$\text{net~orientation~cancellation} \not\Rightarrow \text{loss~of~all~orientat
 Recursive replacement can eliminate one coarse distinction while preserving another.
 
 ### 4.28 Gravity Has No Analogous Binary Cancellation at This Projection Level
+
 The orientation-even gravitational coupling differs. For ordinary positive-mass systems,
 
 $$m_{\alpha} \geq 0.$$
@@ -2799,6 +2946,7 @@ does not vanish through binary orientation cancellation.
 This does not derive the entire phenomenology of gravitational attraction. It identifies the structural difference between the two coupling classes. Electromagnetic coupling is orientation sensitive. Ordinary mass coupling is orientation even.
 
 ### 4.29 Electromagnetic Response Is Therefore Not Universal Across Peers
+
 The same enclosing electric field
 
 $$\mathbf{E}$$
@@ -2820,6 +2968,7 @@ $$q_{a}.$$
 This distinction is fundamental.
 
 ### 4.30 Gravity Is Unusually Common Mode
+
 For ideal gravitational free fall,
 
 $$\mathbf{F}_{g,a} = m_{a}\mathbf{g}.$$
@@ -2841,6 +2990,7 @@ $$\frac{q_{a}}{m_{a}}.$$
 They therefore do not share one universal electromagnetic acceleration. This gives a structural R²D reason why gravitational free fall can become locally background-like while electromagnetic acceleration usually remains locally distinguishable.
 
 ### 4.31 The Difference Between Gravity and Electromagnetism Is Therefore Not "Field Versus Field"
+
 Both can be field projections. Their fundamental difference lies earlier. Gravity begins from an orientation-even local coupling:
 
 $$m.$$
@@ -2859,6 +3009,7 @@ $$\begin{aligned}
 The different physical phenomenology follows downstream from this different coupling structure.
 
 ### 4.32 Electric and Magnetic Fields Should Not Be Treated as Separate Primitive Ontologies
+
 So far the electromagnetic relation has been represented through
 
 $$\mathbf{E}.$$
@@ -2867,13 +3018,14 @@ But conventional electromagnetism contains both electric and magnetic field coor
 
 $$\mathbf{E}, \mathbf{B}.$$
 
-Relativity shows that the distinction between these components depends upon the observer\'s state of motion. Electric and magnetic fields are components of one electromagnetic field tensor. This strongly supports treating them not as two primitive substances but as different physical reads of one enclosing electromagnetic relation. Thus:
+Relativity shows that the distinction between these components depends upon the observer's state of motion. Electric and magnetic fields are components of one electromagnetic field tensor. This strongly supports treating them not as two primitive substances but as different physical reads of one enclosing electromagnetic relation. Thus:
 
 $$\text{one~EM~enclosing~relation} \rightarrow \left\{ \mathbf{E},\mathbf{B} \right\}\text{~under~a~chosen~physical~frame~decomposition}\text{.}$$
 
 R²D does not derive the Lorentz transformation between them here. It only refuses to make the decomposition more primitive than the relation being decomposed.
 
 ### 4.33 Motion of an Oriented Coupling Changes the Electromagnetic Read
+
 Chapter 3 established motion relative to background. Chapter 2 established retained orientation. A charged moving boundary therefore combines background-relative motion with orientation-retaining coupling.
 
 Conventional electromagnetism represents the local mechanical effect through the Lorentz force:
@@ -2883,6 +3035,7 @@ $$\boxed{\mathbf{F} = q\left( \mathbf{E} + \mathbf{v} \times \mathbf{B} \right).
 R²D does not derive this equation from its count variables. But its structure now has a natural place. The electromagnetic read of an oriented coupling depends upon the motion relation through which that coupling is observed. The magnetic component therefore need not be introduced as a second primitive field. It belongs to the motion-dependent physical representation of the same enclosing electromagnetic relation.
 
 ### 4.34 Field Is Relative to Reference Without Being Background
+
 This is where Chapters 3 and 4 join. The background supplies the reference frame. The field supplies the distinguishable enclosing relation. Changing physical frame can alter the decomposition of the electromagnetic field into
 
 $$\mathbf{E}$$and
@@ -2900,6 +3053,7 @@ $$\text{EM~field} \rightarrow \text{physical~relational~structure~being~decompos
 The two must remain distinct.
 
 ### 4.35 Static Field and Radiation Are Also Distinct
+
 A stable enclosing compatibility relation can produce a persistent field. No propagation need yet be invoked. Thus:
 
 $$\text{stable~enclosing~EM~relation} \rightarrow \text{static~or~stationary~field~read}\text{.}$$
@@ -2911,6 +3065,7 @@ $$\text{field} \neq \text{radiation}\text{.}$$
 A field describes the current shared relation. Radiation will describe recursively realized change of that relation.
 
 ### 4.36 The Same Distinction Applies to Gravity
+
 A gravitational field can likewise represent a persistent shared relation without being radiation. The gravitational organization of a planetary system can persist for long intervals. Its local
 
 $$\mathbf{g}$$
@@ -2922,6 +3077,7 @@ $$\text{persistent~field~relation} \neq \text{radiative~recurrence}\text{.}$$
 This separation will be useful when electromagnetic and gravitational radiation are later compared.
 
 ### 4.37 Fields Are Horizontal Reads of Enclosing Organization
+
 Part I distinguishes two directions of recursive organization. Across peers at one scale, stable enclosing compatibility generates stable correlations. Across boundaries, recursive carry changes the count meaning of a completed realization. Fields belong primarily to the first. They are **horizontal physical reads** of how one enclosing relation organizes many peer boundaries. Schematically:
 
 $$B_{n + 1} \Rightarrow \left\{ B_{n,\alpha} \right\} \overset{\text{physical~read}}{\rightarrow} \text{field~over~peer~domain}\text{.}$$
@@ -2933,6 +3089,7 @@ $$\mathcal{C}_{n}\overset{\text{recursive~carry}}{\Rightarrow}\chi_{n + 1}.$$
 This distinction is important. Field and radiation are related. They are not the same count operation.
 
 ### 4.38 Deterministic Field Laws Reflect Stable Compatibility
+
 Why do fields obey deterministic equations? R²D does not need to answer that by assigning primitive agency to the field itself. If the enclosing compatibility structure remains stable, the peer relations it permits remain stable. An observer therefore sees repeatable local correlations. Those correlations can be summarized by deterministic physical laws.
 
 Part I explicitly identifies stable peer correlation as a readable consequence of persistent enclosing compatibility. Thus:
@@ -2942,6 +3099,7 @@ $$\text{stable~enclosing~relation} \rightarrow \text{stable~field~law}\text{.}$$
 The law is real. Its regularity does not require the mathematical field to precede the boundary-defined relation it describes.
 
 ### 4.39 The Many-Body Problem Is a Boundary Problem Before It Is a Computational Problem
+
 The shared-boundary interpretation also changes the conceptual many-body problem. Conventional physics begins with many independently specified objects and asks how all pairwise interactions combine. R²D begins with
 
 $$B_{n + 1}$$
@@ -2950,9 +3108,10 @@ and asks which joint peer realizations belong to its state domain. Thus:
 
 $$\text{many~peers} \rightarrow \text{one~compatibility~classification}\text{.}$$
 
-The enormous combinatorial complexity belongs naturally to the enclosing multiplicity structure. Pairwise force laws can be extraordinarily useful approximations for reading particular physical consequences of that structure. But the primitive mathematical object is not necessarily the sum of pairwise causes. It is the joint count domain. This is exactly the kind of distinction Part I\'s microstate definition was designed to make.
+The enormous combinatorial complexity belongs naturally to the enclosing multiplicity structure. Pairwise force laws can be extraordinarily useful approximations for reading particular physical consequences of that structure. But the primitive mathematical object is not necessarily the sum of pairwise causes. It is the joint count domain. This is exactly the kind of distinction Part I's microstate definition was designed to make.
 
 ### 4.40 Superposition Is a Property of the Projected Field Description
+
 In linear physical regimes, conventional field theories often permit superposition. For example,
 
 $$\mathbf{E} = \sum_{\alpha}\mathbf{E}_{\alpha}.$$
@@ -2964,6 +3123,7 @@ $$\text{field~superposition} \neq \text{proof~of~bottom-up~primitive~causation}\
 The physical equation and the causal ontology are separate questions.
 
 ### 4.41 Field Variation Is the Locally Readable Part of Enclosing Structure
+
 A perfectly uniform common relation can become background-like over a sufficiently local comparison. A varying relation remains distinguishable. This provides a general field principle. For two neighboring peers,
 
 $$X_{a}$$
@@ -2991,6 +3151,7 @@ $$\text{local~field~observability} \propto \text{distinguishable~variation~acros
 Gravity makes this obvious through tidal differences. Electromagnetism retains additional local distinguishability through charge orientation even in otherwise uniform fields.
 
 ### 4.42 Field Geometry Has Not Yet Been Defined
+
 A field relation can now be understood without specifying why its magnitude changes with spatial distance. Nothing in the present chapter requires
 
 $$r^{-1}, r^{- 2}, r^{- 3},$$
@@ -3002,6 +3163,7 @@ $$r^{- 2}$$
 laws of gravity, electrostatics, and radiation appear. This ordering prevents the radial coordinate from being mistaken for the boundary that it merely parameterizes.
 
 ### 4.43 Principle — Shared-Boundary Field
+
 **Principle -- Shared-Boundary Field**
 
 Let
@@ -3021,6 +3183,7 @@ When this enclosing relation acquires a domain-specific physical representation 
 $$\text{field} = \text{physical~read~of~shared~enclosing~compatibility}\text{.}$$
 
 ### 4.44 Principle — Local Coupling and Enclosing Field
+
 **Principle -- Local Coupling and Enclosing Field**
 
 A local coupling belongs to one readable boundary. A field belongs to the enclosing relation among peers. The local physical force read therefore has the general projected structure
@@ -3038,6 +3201,7 @@ $$\mathbf{F}_{e} = q\mathbf{E}\mathbf{.}$$
 These are conventional physical laws, not R²D identities.
 
 ### 4.45 Principle — Applied and Gravitational Constraint
+
 **Principle -- Applied and Gravitational Constraint**
 
 The same local boundary
@@ -3063,6 +3227,7 @@ $$F_{a} \neq F_{g}$$
 because the constraint relation is different.
 
 ### 4.46 Principle — Applied and Gravitational Acceleration
+
 **Principle -- Applied and Gravitational Acceleration**
 
 Applied acceleration is a differential change of one local boundary relative to its immediate enclosing background. Gravitational acceleration is the projected read of the shared peer relation relative to a larger background. Thus:
@@ -3076,6 +3241,7 @@ $$g = \text{peer~ensemble/background~relative~to~larger~background}\text{.}$$
 A uniform gravitational realization can therefore be locally common mode while applied acceleration remains locally distinguishable.
 
 ### 4.47 Principle — Orientation-Even and Orientation-Retaining Fields
+
 **Principle -- Orientation-Even and Orientation-Retaining Fields**
 
 Gravity and electromagnetism occupy the same shared-boundary projection class but act on different local coupling structures. Gravity couples to the orientation-even read
@@ -3096,6 +3262,7 @@ $$\begin{aligned}
 Their physical laws differ because their local coupling structures differ.
 
 ### 4.48 Corollary — Pairwise Interaction Is a Projection
+
 When the enclosing boundary is omitted, only the correlated peers remain visible. The shared relation is then represented as direct interaction:
 
 $$B_{n,a} \leftrightarrow B_{n,b}.$$
@@ -3103,6 +3270,7 @@ $$B_{n,a} \leftrightarrow B_{n,b}.$$
 The pairwise force can be an exact or highly accurate physical description. The EP error occurs only if that projected pairwise interaction is promoted into the primitive causal source of the shared organization.
 
 ### 4.49 Corollary — Free Fall Is Common-Mode Gravitational Realization
+
 When a local object and its measuring apparatus participate in the same sufficiently uniform gravitational relation,
 
 $$\Delta g_{local} = 0.$$
@@ -3114,6 +3282,7 @@ $$\text{free~fall} = \text{local~common-mode~realization~of~the~enclosing~gravit
 Support creates the differential constraint measured by an accelerometer.
 
 ### 4.50 Corollary — Tidal Gravity Is the Local Distinction of the Gravitational Field
+
 For neighboring peers,
 
 $$\Delta\mathbf{g}_{ab} = \mathbf{g}_{b} - \mathbf{g}_{a}$$
@@ -3121,6 +3290,7 @@ $$\Delta\mathbf{g}_{ab} = \mathbf{g}_{b} - \mathbf{g}_{a}$$
 is the locally readable gravitational difference. Uniform $g$ can become locally background-like. Variation in $g$ cannot. This is the physical starting point from which gravitational curvature will later become a useful projected geometry.
 
 ### 4.51 Corollary — Electromagnetic Neutrality Is an Enclosing Read
+
 If
 
 $$Q = \sum_{\alpha}q_{\alpha} = 0,$$
@@ -3128,6 +3298,7 @@ $$Q = \sum_{\alpha}q_{\alpha} = 0,$$
 the enclosing boundary has no net orientation-weighted charge read even though subordinate charged boundaries remain. Thus, neutrality is recursive cancellation of the leading oriented coupling, not destruction of subordinate charge.
 
 ### 4.52 Corollary — Electric and Magnetic Components Belong to One EM Relation
+
 The decomposition into
 
 $$\mathbf{E}$$
@@ -3139,6 +3310,7 @@ $$\mathbf{B}$$
 depends on physical frame. Therefore, they should not be treated as two independent primitive R²D structures. They are physical coordinate components of one electromagnetic enclosing relation. Their exact transformation laws belong to conventional electromagnetism and relativity.
 
 ### 4.53 What Has Been Established
+
 Chapter 3 considered one local boundary. Chapter 4 has placed that same boundary among peers. That single change fundamentally alters the physical problem. At the enclosing boundary,
 
 $$B_{n + 1},$$
@@ -3226,7 +3398,9 @@ $$r^{- 2}.$$
 But a radius is not a boundary. An area is. The next chapter therefore begins with the enclosing boundary itself and asks why its physical projection repeatedly appears through area.
 
 ## Chapter 5 — The Areal Boundary: Inverse-Square Fields, Kepler, and the Horizon
+
 ### 5.1 A Radius Is Not a Boundary
+
 Chapter 4 established a shared-boundary interpretation of fields. Peer boundaries
 
 $$\left\{ B_{n,\alpha} \right\}$$
@@ -3258,6 +3432,7 @@ $$r$$
 is a coordinate assigned later to that enclosing relation. A radius therefore cannot be the boundary. It parameterizes the physical geometry through which the boundary is read.
 
 ### 5.2 The Formal Boundary Is Not an Area
+
 The distinction between R²D and its physical projection must remain explicit. A formal R²D boundary
 
 $$B_{n}$$
@@ -3281,6 +3456,7 @@ $$B_{n + 1}\overset{\text{spatial~physical~read}}{\rightarrow}\mathcal{A}_{n + 1
 The formal boundary remains a count domain. Area is its canonical spatial projection.
 
 ### 5.3 Why Area Comes Before Radius
+
 A radius does not enclose. An area does. This becomes especially clear when a shared relation is approximately isotropic. Choose a radial physical coordinate
 
 $$r$$
@@ -3302,6 +3478,7 @@ The square appears because a two-dimensional enclosing surface is being describe
 $$r^{2}\text{~is~secondary~to~}\mathcal{A}.$$
 
 ### 5.4 The Canonical Spatial Boundary Read Is Areal
+
 This chapter will therefore use the following principle: When an enclosing R2D boundary acquires a spatial field read, its canonical enclosing coordinate is area.
 
 This does not mean that every R²D boundary in biology, chemistry, markets, or other domains is literally a geometric surface. It is a statement about the spatial projection. Nor does it mean that every physical boundary must be spherical. Spherical symmetry supplies the special relation
@@ -3311,6 +3488,7 @@ $$\mathcal{A} = 4\pi r^{2}.$$
 The more primitive physical statement is simply that the enclosing coordinate is areal. Its particular relationship to local distance coordinates depends upon the physical geometry.
 
 ### 5.5 Gravity Reveals the Hidden Area
+
 Conventional Newtonian gravity writes
 
 $$g = G\frac{M}{r^{2}}.$$
@@ -3334,6 +3512,7 @@ $$g \propto \frac{1}{r^{2}}.$$
 Thus, the inverse-square law is not fundamentally an inverse-square statement. It is an **inverse-area relation written in radial coordinates**.
 
 ### 5.6 Electromagnetism Has the Same Areal Geometry
+
 For an isolated spherically symmetric electric source, conventional electrostatics gives
 
 $$E = \frac{1}{4\pi\epsilon_{0}}\frac{Q}{r^{2}}.$$
@@ -3360,6 +3539,7 @@ E & \propto \frac{Q}{\mathcal{A}}.
 Their coupling structures differ. Their physical calibration constants differ. Their underlying physical theories differ. Their enclosing spatial projection is the same.
 
 ### 5.7 The Common $r^{- 2}$ Is Geometry, Not Common Substance
+
 This distinction matters. The common appearance of
 
 $$r^{- 2}$$
@@ -3383,6 +3563,7 @@ $$\text{different~coupling~structure} + \text{same~areal~projection} \rightarrow
 The exponent does not identify the ontology. It identifies the geometry.
 
 ### 5.8 The Inverse-Square Law Is a Projection Law
+
 The general structure can now be written
 
 $$\text{field~read} = \text{calibration} \times \frac{\text{enclosing~coupling~read}}{\mathcal{A}}.$$
@@ -3402,6 +3583,7 @@ $$\mathcal{A} = 4\pi r^{2},$$
 both become inverse-square laws. Therefore, inverse-square behavior is the radial projection of inverse-area field readability. It is not itself a primitive force law.
 
 ### 5.9 Nothing Has to Be Physically Diluted
+
 The familiar language of inverse-square fields encourages an image of something emitted by a source and diluted through increasing volumes of space. That interpretation is unnecessary. Take two enclosing areas:
 
 $$\mathcal{A}_{1} = 4\pi r_{1}^{2},$$
@@ -3424,8 +3606,9 @@ $$\frac{K}{\mathcal{A}_{2}} < \frac{K}{\mathcal{A}_{1}}.$$
 
 The local field coordinate becomes smaller because the same enclosing relation is being read over a larger area. No primitive substance needs to become thinner. The boundary read has expanded.
 
-### 5.10 Gauss\'s Law Makes the Boundary Explicit
-This interpretation is not foreign to conventional physics. Gauss\'s law for gravity can be written
+### 5.10 Gauss's Law Makes the Boundary Explicit
+
+This interpretation is not foreign to conventional physics. Gauss's law for gravity can be written
 
 $$\oint_{\mathcal{A}}\mathbf{g} \cdot d\mathbf{A} = - 4\pi GM.$$
 
@@ -3449,9 +3632,10 @@ so
 
 $$E = \frac{Q}{\epsilon_{0}\mathcal{A}}.$$
 
-The R²D claim is not that Gauss\'s laws have been derived from recursive counting. They have not. The significance is that conventional field theory itself exposes the areal structure that the radial inverse-square notation obscures. The physical field is naturally integrated over an enclosing boundary.
+The R²D claim is not that Gauss's laws have been derived from recursive counting. They have not. The significance is that conventional field theory itself exposes the areal structure that the radial inverse-square notation obscures. The physical field is naturally integrated over an enclosing boundary.
 
 ### 5.11 Field Flux Is a Boundary Read
+
 The surface-integral formulation makes the hierarchy especially clear. A local field value such as
 
 $$g(r)$$
@@ -3471,6 +3655,7 @@ $$\text{local~field~value} \leftrightarrow \text{enclosing~areal~relation}\text{
 The field can be sampled locally. Its organizing relation is defined over a boundary. That is precisely the shared-boundary architecture of Chapter 4 translated into spatial physics.
 
 ### 5.12 $G_{n}$ and $\epsilon_{0}$ Belong to Calibration, Not Geometry
+
 The areal formulation separates physical calibration from spatial geometry. For gravity,
 
 $$g_{n} = 4\pi G_{n}\frac{M}{\mathcal{A}}.$$
@@ -3518,6 +3703,7 @@ $$\epsilon_{0}$$
 is boundary dependent or derive an electromagnetic scaling law analogous to the gravitational one. The general lesson is narrower: inverse-area geometry does not determine the dimensional calibration of the field read.
 
 ### 5.13 Gravitational Calibration Is Boundary Relative
+
 At gravitational boundary $B_{n}$, write the physical areal relation as
 
 $$g_{n} = 4\pi G_{n}\frac{M}{\mathcal{A}_{n}}.$$
@@ -3548,7 +3734,7 @@ $$\text{common~background} \rightarrow \text{common~gravitational~calibration}\t
 
 But boundary-relative universality is not the same claim as primitive universality.
 
-Part III establishes that recursively enclosing background recurrence is compressed toward lower physical frequency: an enclosing background is recursively slower than the subordinate background through which it is realized.  If physical gravitational calibration depends upon that background recurrence, then a change of recursive boundary can carry a change in calibration:
+Part III establishes that recursively enclosing background recurrence is compressed toward lower physical frequency: an enclosing background is recursively slower than the subordinate background through which it is realized. If physical gravitational calibration depends upon that background recurrence, then a change of recursive boundary can carry a change in calibration:
 
 $$f_{n}^{\Phi} \neq f_{n - 1}^{\Phi} \Rightarrow G_{n}\text{~need~not~equal~}G_{n - 1}.$$
 
@@ -3569,6 +3755,7 @@ $$\frac{G_{n}}{G_{n - 1}} = \left( \frac{f_{n - 1}^{\Phi}}{f_{n}^{\Phi}} \right)
 The important result at the present stage is therefore structural: $\mathbf{G}$ **may be constant within a gravitational background without being constant across recursively distinct gravitational backgrounds**.
 
 ### 5.14 The Electromagnetic Calibration Occupies the Parallel Position
+
 Electrostatics gives
 
 $$E = \frac{Q}{\epsilon_{0}\mathcal{A}}.$$
@@ -3599,6 +3786,7 @@ G & :\text{gravitational~areal~calibration}, \\
 The relation of electromagnetic calibration to electromagnetic background will be developed when radiation is introduced.
 
 ### 5.15 The Two-Body Problem Is Already an Area Problem
+
 The usual two-body diagram emphasizes one line:
 
 $$m_{a}\text{\:\,} - - - r - - - \text{\:\,}m_{b}.$$
@@ -3618,6 +3806,7 @@ $$\left\{ B_{n,a},B_{n,b} \right\} \subset B_{n + 1}^{ab}\overset{\text{spatial~
 The pairwise force law is therefore already a compressed representation of a larger areal relation.
 
 ### 5.16 The Area Need Not Literally Be Centered on a Primitive Source
+
 This qualification is important. The spherical surface used in the conventional field description is usually centered upon a source mass or charge. R²D does not infer from that coordinate construction that the central object primitively produces the boundary. The source-centered coordinate is part of the physical projection. The more primitive count relation remains the compatibility of peers within the enclosing boundary. Thus:
 
 $$\text{source-centered~coordinates} \neq \text{source-centered~primitive~causality}\text{.}$$
@@ -3625,6 +3814,7 @@ $$\text{source-centered~coordinates} \neq \text{source-centered~primitive~causal
 The coordinate can be extraordinarily useful without determining the direction of ontological explanation.
 
 ### 5.17 Spherical Symmetry Is a Special Case
+
 The relation
 
 $$\mathcal{A} = 4\pi r^{2}$$
@@ -3642,14 +3832,16 @@ $$\mathcal{A \propto}r^{2}.$$
 This distinction will become crucial in gravity, because increasingly strong gravitational organization eventually makes simple Euclidean radius an insufficient coordinate for the enclosing area.
 
 ### 5.18 Area Becomes Dynamic in a Bound Orbit
+
 The elementary inverse-square relation reveals area indirectly. Bound planetary motion reveals it directly. Consider two gravitationally coupled peer boundaries in a bound orbit. Their joint physical state changes recurrently. The relative position returns. An orbital closure is realized. Kepler described this gravitational relation before Newton introduced a pairwise gravitational force.
 
-That historical order is conceptually appropriate for R²D: the whole-system closure relation is observable before a subordinate causal mechanism is assigned to the projected objects. Part I explicitly notes this broader whole-system-before-mechanism pattern. 
+That historical order is conceptually appropriate for R²D: the whole-system closure relation is observable before a subordinate causal mechanism is assigned to the projected objects. Part I explicitly notes this broader whole-system-before-mechanism pattern.
 
 The first important geometric fact is that the orbit closes. The second is that its closure is areal.
 
-### 5.19 Kepler\'s First Law Defines a Closed Gravitational Geometry
-For an ideal bound orbit, Kepler\'s first law gives an ellipse. Let its semimajor and semiminor axes be
+### 5.19 Kepler's First Law Defines a Closed Gravitational Geometry
+
+For an ideal bound orbit, Kepler's first law gives an ellipse. Let its semimajor and semiminor axes be
 
 $$a$$
 
@@ -3668,6 +3860,7 @@ $$4\pi r^{2}.$$
 The two must not be identified. One is the enclosing surface coordinate used in a spherically symmetric field read. The other is the planar area traced by a bound orbital closure. Their common significance is more primitive: the gravitational relation continues to become readable through area.
 
 ### 5.20 The Area Around Two Masses Has Become a Closure Area
+
 At the elementary field level, area appears statically:
 
 $$g \propto \frac{1}{\mathcal{A}}.$$
@@ -3678,8 +3871,9 @@ $$\text{enclosing~field~area} \rightarrow \text{recurrently~traced~orbital~area}
 
 Again, this is not a claim that one literal spherical surface physically transforms into an ellipse. It is a recursive progression in **what aspect of the enclosing gravitational relation remains directly readable**.
 
-### 5.21 Kepler\'s Second Law Joins Area to Recurrence
-Kepler\'s second law states:
+### 5.21 Kepler's Second Law Joins Area to Recurrence
+
+Kepler's second law states:
 
 $$\frac{d\mathcal{A}_{K}}{dt} = \text{constant}\text{.}$$
 
@@ -3694,6 +3888,7 @@ $$\text{distinguishable~geometry} + \text{recurrence}\text{.}$$
 The gravitational system remains in a regime where both can still be read.
 
 ### 5.22 Swept Area Is a Read of the Changing Peer Relation
+
 The conventional orbital drawing uses a radius vector from one projected body to the other. As the orbital macrostate changes, that vector sweeps area. R²D gives this area a different ontological position. It is not a substance generated by the moving body. It is the geometric record of the changing joint positional relation of the peers within their shared gravitational boundary. Thus:
 
 $$\text{changing~peer~relation} \rightarrow \text{swept~areal~read}\text{.}$$
@@ -3701,6 +3896,7 @@ $$\text{changing~peer~relation} \rightarrow \text{swept~areal~read}\text{.}$$
 One completed orbit closes the relation and completes one total swept area.
 
 ### 5.23 One Orbital Closure Sweeps One Complete Area
+
 For one complete orbit,
 
 $$\mathcal{C}_{orb},$$
@@ -3728,6 +3924,7 @@ $$\frac{\mathcal{A}_{K}}{T} = \pi ab\text{ }f_{orb}.$$
 This is a physical relation, not an R²D identity. But it is precisely the kind of physical read expected when distinguishability and recurrence remain jointly accessible.
 
 ### 5.24 Kepler II Exposes What Newton Hides
+
 Newtonian notation gives
 
 $$g = G\frac{M}{r^{2}}.$$
@@ -3736,7 +3933,7 @@ Area is hidden inside
 
 $$r^{2}.$$
 
-Kepler\'s second law instead writes area directly:
+Kepler's second law instead writes area directly:
 
 $$\frac{d\mathcal{A}}{dt} = \text{constant}.$$
 
@@ -3750,9 +3947,10 @@ Kepler:
 
 $$\mathcal{A}\text{~remains~explicit}\text{.}$$
 
-Kepler\'s description therefore sits unusually close to the areal boundary read.
+Kepler's description therefore sits unusually close to the areal boundary read.
 
 ### 5.25 Angular Momentum Is the Mechanical Projection of the Areal Relation
+
 Conventional mechanics explains Kepler II through angular momentum. For an ideal central force,
 
 $$L = mr^{2}\dot{\theta}$$
@@ -3768,7 +3966,8 @@ $$\text{areal~recurrence} \rightarrow \text{angular-momentum~description}\text{,
 rather than assuming that primitive angular momentum creates the possibility of an enclosing areal closure.
 
 ### 5.26 Kepler III Adds the Recursive Clock
-Kepler\'s third law gives
+
+Kepler's third law gives
 
 $$T^{2} \propto a^{3},$$
 
@@ -3787,6 +3986,7 @@ $$\text{larger~gravitational~closure} \rightarrow \text{larger~areal~read} + \te
 This points directly toward the gravitational readability horizon.
 
 ### 5.27 Orbital Radius Is Not Recursive Boundary Index
+
 A caution remains necessary. The physical semimajor axis
 
 $$a$$
@@ -3802,11 +4002,13 @@ $$a_{orbit} \neq n.$$
 Kepler supplies a physical realization of a general R²D trend. It does not provide a literal one-to-one mapping from orbital size to boundary number.
 
 ### 5.28 Kepler Is the Gravitational Hinge
+
 Kepler occupies a unique position in the gravitational hierarchy. At the ordinary inverse-square field level, area is present but hidden inside radial coordinates. At the black-hole horizon, area remains readable while the corresponding enclosing directed recurrence has crossed the gravitational readability limit. Kepler lies between them.
 
 Both area and recurrence are directly measurable. Thus, Keplerian orbital closure is the regime in which the canonical gravitational boundary read and its recurrence remain jointly visible. That makes Kepler II more than an interesting orbital theorem. It is the hinge between ordinary gravitational field readability and horizon readability.
 
 ### 5.29 The Areal Boundary Grows While Its Clock Slows
+
 The physical trend can now be represented schematically:
 
 $$\mathcal{A \uparrow }f \downarrow ,$$
@@ -3818,6 +4020,7 @@ $$\mathcal{A}$$
 is large but recurrence remains readily measurable. At increasingly enclosing gravitational scale, the relevant recurrence becomes progressively less accessible relative to the spatial boundary read. At the horizon, the asymmetry becomes extreme. Area remains. Directed enclosing recurrence does not.
 
 ### 5.30 The Black-Hole Horizon Makes the Boundary Itself Dominant
+
 The event horizon provides the limiting gravitational example. Let its physical area be
 
 $$\mathcal{A}_{H}.$$
@@ -3841,6 +4044,7 @@ $$\ln W_{H} = \frac{\mathcal{A}_{H}}{4\mathcal{l}_{P}^{2}}.$$
 At the gravitational readability limit, logarithmic state count is physically readable through area. This is the culmination of the areal boundary progression.
 
 ### 5.31 Horizon Area Is Not Background
+
 The distinction from Chapter 3 must be maintained. The horizon area
 
 $$\mathcal{A}_{H}$$
@@ -3856,6 +4060,7 @@ $$S_{H} \neq \Phi_{H}.$$
 Likewise, the Bekenstein-Hawking entropy is not the Second-Law background increment. The area law reads boundary multiplicity. Background describes a different realized count relation. These should not be merged merely because both become important near a readability horizon.
 
 ### 5.32 The Horizon Does Not Introduce Area
+
 The horizon is often where area first becomes conceptually striking. R²D suggests the opposite historical reading. Area has been present all along. At the elementary field level:
 
 $$g \propto \mathcal{A}^{-1}.$$At the orbital level:
@@ -3867,6 +4072,7 @@ $$S_{H} \propto \mathcal{A}_{H}.$$
 The horizon does not introduce a new coordinate. It reveals the boundary coordinate with the greatest purity after other aspects of the enclosing dynamics have become unreadable.
 
 ### 5.33 The Areal Progression
+
 The gravitational sequence can therefore be summarized as
 
 $$\text{hidden~area} \rightarrow \text{recurrent~area} \rightarrow \text{horizon~area}\text{.}$$
@@ -3892,6 +4098,7 @@ $$S_{H} = \frac{\mathcal{A}_{H}}{4\mathcal{l}_{P}^{2}}.$$
 Boundary area remains directly readable as state-count geometry while the corresponding enclosing directed recurrence is not. The equations are not equivalent. Their common coordinate class is.
 
 ### 5.34 The Area Around Two Masses Has Expanded Into Horizon Readability
+
 The phrase "area around two masses" can now be given precise meaning. At the smallest gravitational projection considered here, the shared relation between two local mass boundaries is represented through an enclosing field surface. That areal relation is compressed into the radial law
 
 $$r^{- 2}.$$
@@ -3909,6 +4116,7 @@ It is: the enclosing gravitational relation becomes progressively more directly 
 That is the recursive statement.
 
 ### 5.35 Planck Area Is a Calibration of Areal Count
+
 The horizon relation introduces
 
 $$\mathcal{l}_{P}^{2}.$$
@@ -3928,6 +4136,7 @@ $$\text{physical~area}\overset{\mathcal{l}_{P}^{2}}{\rightarrow}\text{dimensionl
 Planck area is therefore a calibration of gravitational areal readability. It is not a constituent substance of space.
 
 ### 5.36 Area Is More Primitive Than Radius Within the Spatial Projection
+
 The hierarchy can now be stated clearly. The formal primitive is
 
 $$B_{n}.$$Its spatial field read is
@@ -3943,6 +4152,7 @@ $$B_{n}\mathcal{\rightarrow A \rightarrow}r$$
 is the R²D projection order. This does not mean that physical observers must calculate radius from area. It means that radius is logically a coordinate of the enclosing spatial boundary rather than the primitive object that generates it.
 
 ### 5.37 Curvature Begins When One Calibration Can No Longer Represent the Enclosing Area
+
 In a flat spherical spatial read,
 
 $$\mathcal{A} = 4\pi r^{2},$$
@@ -4012,6 +4222,7 @@ When that relation varies across the physical domain, nontrivial geometric proje
 **This is the point at which area becomes more primitive within the gravitational projection than the radial coordinate used to describe it.**
 
 ### 5.38 Spacetime Geometry Is Not the R²D Boundary
+
 General relativity uses a metric
 
 $$g_{\mu\nu}$$
@@ -4027,6 +4238,7 @@ $$\mathcal{A}_{n} \neq g_{\mu\nu}.$$
 The areal physical read helps explain why geometry becomes central in gravity. It does not collapse recursive count structure into metric geometry. The two remain different mathematical languages.
 
 ### 5.39 Einstein Geometry Is the Mature Gravitational Projection
+
 General relativity provides the mature physical description of gravitational relations when one globally flat spatial and temporal coordinate system is no longer sufficient. Its field equation is conventionally written
 
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^{4}}T_{\mu\nu}.$$
@@ -4078,19 +4290,20 @@ The R²D claim is more primitive: when the enclosing gravitational calibration c
 The R²D boundary is not the metric. The changing calibration is not the curvature tensor. The proposal is that the metric and curvature are the physical geometry required to preserve gravitational compatibility when locally fixed coordinates no longer provide a complete read of the enclosing relation.
 
 ### 5.40 The Horizon Is Where Geometry Nearly Becomes the Whole Read
+
 This clarifies why gravity appears increasingly geometric toward the horizon.
 
 At ordinary scales, an observer can read:
 
--   local positions;
+- local positions;
 
--   motion;
+- motion;
 
--   orbital recurrence;
+- orbital recurrence;
 
--   field strength;
+- field strength;
 
--   area.
+- area.
 
 As gravitational readability becomes increasingly one-sided, some of these dynamical reads become inaccessible relative to the enclosing scale.
 
@@ -4103,6 +4316,7 @@ $$\mathcal{A}_{H}.$$
 Thus, geometry does not become primitive. It becomes increasingly dominant because fewer complementary recursive coordinates remain jointly readable. That is the gravitational horizon described in Part III.
 
 ### 5.41 Electromagnetic Field Area Does Not Become a Gravitational Horizon
+
 The shared areal geometry should not be overextended. Electromagnetic inverse-square fields and gravitational inverse-square fields share the relation
 
 $$\mathcal{A \propto}r^{2}.$$
@@ -4116,6 +4330,7 @@ $$\text{enclosing~field~boundary} \rightarrow \text{area}\text{.}$$
 The subsequent physical realization of that area depends on the domain. Gravity develops Keplerian and horizon forms. Electromagnetism develops radiative and gauge-field forms.
 
 ### 5.42 Radiation Will Reuse the Same Area
+
 The areal argument is not limited to static fields. Suppose a physical source emits power
 
 $$P$$
@@ -4131,6 +4346,7 @@ $$I = \frac{P}{4\pi r^{2}}.$$
 Thus radiation inherits the same inverse-area geometry. But this equation describes only how an already-defined radiative occurrence is distributed over an enclosing spatial boundary. It does not explain what radiation **is**. That requires the recursive occurrence architecture of the next chapter.
 
 ### 5.43 Static Field and Radiation Share Area but Not Recurrence
+
 This distinction is important. A static field can satisfy
 
 $$E \propto \frac{1}{\mathcal{A}}$$
@@ -4152,6 +4368,7 @@ $$\text{radiation} = \text{recurrent~enclosing~occurrence}\text{.}$$
 Area alone does not distinguish the two. Recurrence does.
 
 ### 5.44 The Same Geometry Can Support Different Physical Ontologies
+
 The repeated appearance of
 
 $$r^{- 2}$$
@@ -4171,6 +4388,7 @@ $${\text{gravitational~field},
 The physical source quantity differs. The calibration differs. The dynamics differ. The projection geometry is the same. Thus, inverse-square laws identify an areal readability class, not a unique fundamental force class.
 
 ### 5.45 Principle — The Areal Spatial Boundary
+
 **Principle -- The Areal Spatial Boundary**
 
 An R²D boundary is a formal count domain. When an enclosing boundary acquires a spatial field read, its canonical enclosing coordinate is area:
@@ -4184,6 +4402,7 @@ $$\mathcal{A} = 4\pi r^{2}.$$
 The radial coordinate is therefore a parameterization of the enclosing area rather than the primitive boundary itself.
 
 ### 5.46 Principle — Inverse-Square Projection
+
 **Principle -- Inverse-Square Projection**
 
 If a physical field read is inversely distributed over an enclosing area,
@@ -4197,6 +4416,7 @@ $$X \propto \frac{1}{r^{2}}.$$
 Thus inverse-square behavior is the radial representation of inverse-area readability. The result is geometric. It does not identify the physical ontology of the quantity $X$.
 
 ### 5.47 Principle — Gravitational Areal Progression
+
 **Principle -- Gravitational Areal Progression**
 
 Gravitational boundary readability becomes increasingly explicit through area. At the ordinary field level,
@@ -4212,17 +4432,19 @@ These are different physical relations. Their common gravitational coordinate is
 $$\text{hidden~area} \rightarrow \text{recurrent~area} \rightarrow \text{horizon~area}\text{.}$$
 
 ### 5.48 Principle — Keplerian Areal Closure
+
 **Principle -- Keplerian Areal Closure**
 
 A bound orbital system preserves both the enclosing areal read and recurrence. For a complete elliptical orbit,
 
-$$\mathcal{A}_{K} = \pi ab,$$while Kepler\'s second law gives
+$$\mathcal{A}_{K} = \pi ab,$$while Kepler's second law gives
 
 $$\frac{d\mathcal{A}_{K}}{dt} = \text{constant}.$$
 
 Because physical time is a recurrence read, Keplerian closure is the gravitational regime in which enclosing area and recurrence remain jointly measurable. It therefore forms the physical bridge between inverse-area field readability and recurrence-unreadable horizon-area readability.
 
 ### 5.49 Principle — Horizon Areal Readability
+
 **Principle -- Horizon Areal Readability**
 
 At the gravitational readability horizon, enclosing directed recurrence is no longer jointly readable with the surviving geometric distinction. Boundary state count remains physically readable through horizon area:
@@ -4232,6 +4454,7 @@ $$S_{H} = \frac{\mathcal{A}_{H}}{4\mathcal{l}_{P}^{2}}.$$
 Area is not created at the horizon. The horizon exposes the areal boundary coordinate already present implicitly in ordinary gravitational field geometry.
 
 ### 5.50 Corollary — Gravity and Electrostatics Share Geometry, Not Coupling
+
 Gravity satisfies
 
 $$g = 4\pi G\frac{M}{\mathcal{A}},$$while electrostatics satisfies
@@ -4247,6 +4470,7 @@ $$q = \sigma \mid q \mid$$
 retains orientation. The common inverse-square exponent therefore follows from shared boundary geometry rather than identical physical ontology.
 
 ### 5.51 Corollary — Radiation Intensity Is Also an Areal Read
+
 For isotropic radiation with total power $P$,
 
 $$I = \frac{P}{\mathcal{A}} = \frac{P}{4\pi r^{2}}.$$
@@ -4254,6 +4478,7 @@ $$I = \frac{P}{\mathcal{A}} = \frac{P}{4\pi r^{2}}.$$
 The inverse-square attenuation of intensity therefore belongs to the same areal projection class. This does not yet define radiation. It defines the spatial geometry through which a radiative occurrence is read.
 
 ### 5.52 Corollary — Curvature Is Required When Flat Area-Radius Projection Fails
+
 The Euclidean relation
 
 $$\mathcal{A} = 4\pi r^{2}$$
@@ -4261,6 +4486,7 @@ $$\mathcal{A} = 4\pi r^{2}$$
 is a special physical geometry. When local distance coordinates can no longer organize enclosing gravitational area through this flat relation, a more general geometric description is required. Curvature is therefore the natural projected language for the non-Euclidean relation between local measurements and enclosing gravitational boundary geometry. R²D does not identify curvature with its formal boundary. It explains why curvature becomes the appropriate physical coordinate system.
 
 ### 5.53 What Has Been Established
+
 Chapter 4 established that a field is a physical read of a shared enclosing relation among peer boundaries.
 
 Chapter 5 has now identified the spatial coordinate through which such a boundary is naturally represented.
@@ -4295,7 +4521,7 @@ Electromagnetism couples to an orientation-retaining read,
 
 $$q = \sigma \mid q \mid .$$
 
-The geometry is shared. The coupling is not. The same areal structure becomes increasingly explicit within gravity. The elementary two-body field hides area inside $r^{2}$. A bound orbit makes area dynamic. Kepler\'s second law,
+The geometry is shared. The coupling is not. The same areal structure becomes increasingly explicit within gravity. The elementary two-body field hides area inside $r^{2}$. A bound orbit makes area dynamic. Kepler's second law,
 
 $$\frac{d\mathcal{A}_{K}}{dt} = \text{constant},$$
 
@@ -4303,7 +4529,7 @@ directly joins areal distinguishability to physical recurrence. Kepler is theref
 
 $$\mathcal{A}_{K} = \pi ab.$$
 
-Larger orbital closure also recurs more slowly according to Kepler\'s third law,
+Larger orbital closure also recurs more slowly according to Kepler's third law,
 
 $$T^{2} \propto a^{3}.$$
 
@@ -4336,7 +4562,9 @@ But area alone does not tell us what radiation is. A static field and radiation 
 The next chapter therefore adds the count operation missing from the present one. The boundary is already defined. Its field is already defined. Its area is already defined. Now the enclosing relation changes. And a local closure becomes readable as an occurrence within the next boundary.
 
 ## Chapter 6 — Recursive Radiation: From Local Closure to Enclosing Occurrence
+
 ### 6.1 A Field Is Not Yet Radiation
+
 Chapter 4 defined a field as the physical read of a shared enclosing relation among peer boundaries. For electromagnetism,
 
 $$B_{n + 1}^{EM} \supset \left\{ B_{n,\alpha} \right\},$$
@@ -4358,6 +4586,7 @@ $$\text{radiation} = \text{recurrent~occurrence~of~change~in~an~enclosing~relati
 This distinction is the starting point of the chapter.
 
 ### 6.2 Part I Already Defines the Required Cross-Boundary Operation
+
 Let
 
 $$\mathcal{C}_{n,a}$$
@@ -4381,6 +4610,7 @@ $$\mathcal{C}_{n,a}\overset{\text{recursive~carry}}{\Rightarrow}\chi_{n + 1}.$$
 These arrows are not causal inverses. The first describes causal realization. The second describes boundary-relative reclassification. Part I explicitly distinguishes these two readings: the peer closure is the subordinate expression of the enclosing occurrence, while recursive carry tells how the completed local realization is counted after the boundary changes. Radiation will use exactly this architecture.
 
 ### 6.3 Radiation Does Not Mean That a Local Closure Pushes Something Upward
+
 This distinction must remain explicit. It is tempting to write
 
 $$\mathcal{C}_{n} \rightarrow \chi_{n + 1}$$
@@ -4400,6 +4630,7 @@ describes how one completed realization is read from the adjacent boundary.
 Radiation therefore does not require a primitive substance to be emitted upward through the recursive hierarchy. It requires one recursively organized realization to possess different count meanings at adjacent boundaries.
 
 ### 6.4 Charge Supplies an Oriented Local Closure Class
+
 Chapter 2 established the count structure underlying electric charge. A binary local state architecture can admit opposed closure orientations
 
 $$\mathcal{C}_{n,a}^{+}, \mathcal{C}_{n,a}^{-}.$$
@@ -4417,6 +4648,7 @@ Charge therefore supplies something that the orientation-even mass projection do
 This orientation belongs to the local boundary. The complete electromagnetic relation among charged peers belongs to the enclosing boundary.
 
 ### 6.5 A Static Charge Defines a Persistent Enclosing Relation
+
 Consider a charged boundary whose orientation and physical position remain unchanged relative to the relevant enclosing relation. Its local coupling read is
 
 $$q_{a}.$$
@@ -4436,6 +4668,7 @@ $$r^{- 2}$$
 as the radial read of an enclosing areal relation. No radiative recurrence is required. The field exists because the shared relation exists.
 
 ### 6.6 Uniform Motion Does Not Yet Supply the Required Change
+
 Now allow the charged boundary to move with constant physical velocity relative to an inertial frame. Its electromagnetic field representation changes with frame. Electric and magnetic components can be mixed by a change of observer. But if the background-relative velocity state remains constant,
 
 $$\Delta\mathbf{v}_{\Phi,a} = 0,$$
@@ -4447,6 +4680,7 @@ $$\text{constant-velocity~charged~boundary} \neq \text{continually~changing~encl
 This is why acceleration becomes the important physical distinction for radiation. The charge need not merely move. Its enclosing motion relation must change.
 
 ### 6.7 Acceleration Changes the Relation of the Oriented Boundary to Its Enclosing Domain
+
 Chapter 3 developed applied acceleration as a change in the enclosing motion read of one selected local boundary:
 
 $$\mathbf{a}_{a} = \frac{d}{dt}\left( \mathbf{v}_{a} - \mathbf{u}_{n + 1}^{\Phi} \right).$$
@@ -4462,6 +4696,7 @@ Therefore, changing its positional/motion relation also changes the way that ret
 The same local boundary contains both positional distinction and retained EM orientation. Acceleration couples them.
 
 ### 6.8 An Accelerating Charge Is a Coupled Closure Problem
+
 A charged boundary should therefore not be represented primitively as
 
 $$\text{point~charge} + \text{acceleration}.$$
@@ -4481,6 +4716,7 @@ $$\chi_{n + 1}^{EM}.$$
 The enclosing occurrence now possesses an electromagnetic physical read. This is the R²D entry point to radiation.
 
 ### 6.9 The Parallel with an Accelerating Mass Is Exact at the Recursive Level
+
 Chapter 3 established the mechanical sequence
 
 $$\text{local~positional~closure}\overset{\text{recursive~read}}{\Rightarrow}\text{enclosing~motion~occurrence}\text{.}$$
@@ -4502,6 +4738,7 @@ $$\begin{matrix}
 The physical reads differ. The recursive operation is the same. This is why the accelerating-mass construction was necessary before radiation could be understood.
 
 ### 6.10 Acceleration Does Not "Create the Field"
+
 A charged boundary already participates in an electromagnetic enclosing relation before it accelerates. Acceleration therefore does not create electromagnetism. It changes an existing shared relation. Thus:
 
 $$\text{charge} \rightarrow \text{persistent~field~relation}$$
@@ -4513,6 +4750,7 @@ $$\text{changing~charged~motion} \rightarrow \text{changing~field~relation}\text
 Radiation belongs to the second. This distinction removes the need to imagine a static electric field and electromagnetic radiation as two unrelated substances produced by the same charge. They are different physical reads of different realization states of one enclosing electromagnetic relation.
 
 ### 6.11 The Receiving Boundary Supplies the Electromagnetic Occurrence Domain
+
 At the local boundary,
 
 $$B_{n,a},$$
@@ -4532,6 +4770,7 @@ It is: Did an electromagnetic occurrence of the enclosing class occur?
 This is exactly the replacement operation required for a radiative event.
 
 ### 6.12 Electromagnetic Background Is the Nondirectional Receiving Count
+
 Part I defines background as realized count whose relevant subordinate directional classification is no longer readable at the boundary where it is background. Apply this to the electromagnetic receiving boundary. Let
 
 $$b_{n + 1}^{EM}$$
@@ -4553,6 +4792,7 @@ $${\text{local~oriented~closure~at~}B_{n}
 This is the precise sense in which electromagnetic radiation can be understood as a local closure becoming an occurrence within an enclosing electromagnetic background.
 
 ### 6.13 Background Does Not Cause Radiation as a Mechanical Medium
+
 This formulation should not be mistaken for an ether theory. The formal background
 
 $$b_{n + 1}^{EM}$$
@@ -4569,6 +4809,7 @@ $$\Phi^{EM} \neq c.$$
 The background provides the receiving nondirectional count/reference structure. The electromagnetic occurrence is a distinguishable realization within that structure. The physical propagation law is supplied later by electromagnetism.
 
 ### 6.14 One Occurrence Is Not Yet Radiation
+
 A single enclosing occurrence
 
 $$\chi_{n + 1}^{EM}$$
@@ -4590,6 +4831,7 @@ The physical frequency does not exist before recurrence is read through a clock 
 $$\text{radiation} = \text{recurrent~enclosing~EM~occurrence}\text{.}$$
 
 ### 6.15 Frequency Is a Physical Read of Radiation Recurrence
+
 Let
 
 $$N_{\chi}$$
@@ -4617,6 +4859,7 @@ $$\text{recurrence~count} \rightarrow \text{physical~clock~comparison} \rightarr
 This distinction will become crucial when quantum phase is introduced.
 
 ### 6.16 Phase Is a Representation of Recurrent Radiative Occurrence
+
 Once an electromagnetic occurrence recurs, its cyclic physical read can be represented by phase. Write
 
 $$\phi$$
@@ -4632,6 +4875,7 @@ $$\text{EM~recurrence} \rightarrow \text{phase~representation}\text{.}$$
 The wave description comes after the recurrent occurrence has been defined.
 
 ### 6.17 Propagation Is a Physical Within-Boundary Read
+
 Recursive carry and spatial propagation must not be conflated. The transition
 
 $$\mathcal{C}_{n}\overset{\text{carry}}{\Rightarrow}\chi_{n + 1}$$
@@ -4655,6 +4899,7 @@ $$\text{propagation} = \text{physical~realization~of~the~EM~occurrence~across~th
 This distinction is essential.
 
 ### 6.18 Maxwell Propagation Is the Conventional Physical Law
+
 Once the source-free radiative occurrence has a physical electromagnetic representation, conventional Maxwell theory supplies its propagation law. In vacuum, electric and magnetic components satisfy wave equations such as
 
 $$\nabla^{2}\mathbf{E} - \frac{1}{c^{2}}\frac{\partial^{2}\mathbf{E}}{\partial t^{2}} = 0,$$
@@ -4670,6 +4915,7 @@ $$\mathbf{E},\mathbf{B},c.$$
 They belong to the physical electromagnetic projection. Their role in Part IV is to specify how the enclosing EM occurrence propagates once that physical read has been established.
 
 ### 6.19 The Speed $c$ Is a Physical Propagation Calibration
+
 The wave equations introduce
 
 $$c.$$
@@ -4711,6 +4957,7 @@ $$c_{\Phi} = \text{constant}\text{.}$$
 The invariant speed of light is then not an unexplained primitive velocity inserted into relativity. It is the invariant conversion between two boundary-dependent physical reads of the same recursively realized background.
 
 ### 6.20 Radiation Propagates Over the Areal Boundary
+
 Chapter 5 already established the spatial geometry. For approximately isotropic radiation, total radiative power
 
 $$P$$
@@ -4730,6 +4977,7 @@ $$I \propto r^{- 2}.$$
 This is the same areal projection structure encountered in gravity and electrostatics. But the physical quantity is now different. It is flux of a recurrent radiative read across the enclosing spatial boundary.
 
 ### 6.21 Radiative Field Amplitude Is Not Inverse Square
+
 An important distinction follows. For far-zone electromagnetic radiation, the radiative field amplitude behaves approximately as
 
 $$E_{rad} \propto \frac{1}{r},$$
@@ -4742,7 +4990,7 @@ The intensity is quadratic in field amplitude:
 
 $$I \propto E_{rad}^{2} \propto \frac{1}{r^{2}}.$$
 
-Therefore Chapter 5\'s areal argument applies directly to **radiative flux or intensity**, not to the radiative field amplitude itself. This distinction is physically important:
+Therefore Chapter 5's areal argument applies directly to **radiative flux or intensity**, not to the radiative field amplitude itself. This distinction is physically important:
 
 $$\text{static~Coulomb~field~amplitude} \propto r^{- 2},$$
 
@@ -4757,6 +5005,7 @@ $$\text{radiative~intensity} \propto r^{- 2}.$$
 The same area appears through different physical coordinates.
 
 ### 6.22 The Poynting Vector Is the Physical Flux Read
+
 Conventional electromagnetism writes the electromagnetic energy flux as the Poynting vector,
 
 $$\mathbf{S} = \frac{1}{\mu_{0}}\mathbf{E} \times \mathbf{B}\mathbf{.}$$
@@ -4782,6 +5031,7 @@ $$\mathbf{S}$$
 with recursive carry. The Poynting vector is the physical energetic flux coordinate of the radiative projection.
 
 ### 6.23 Physical Energy Transport Is Not Formal Count Transport
+
 Electromagnetic radiation physically carries energy and momentum in conventional physics. R²D need not deny this. But the physical statement "energy crosses a surface" must not be confused with the formal statement that a subordinate count is transported upward between recursive boundaries.
 
 Recursive carry is reclassification. It is not a material flow. Thus:
@@ -4791,6 +5041,7 @@ $$\text{physical~radiative~energy~transport} \neq \text{formal~recursive~carry}\
 The former belongs to the physical electromagnetic projection. The latter belongs to the boundary-relative count architecture that permits that physical projection to be defined.
 
 ### 6.24 The Sign of Charge Reverses the Field but Not Radiated Power
+
 The retained-orientation account of charge now makes a nontrivial physical prediction natural. Under
 
 $$q \rightarrow - q,$$
@@ -4806,6 +5057,7 @@ $$P \propto q^{2}.$$
 This does not by itself derive the full radiation law. It explains why an orientation-insensitive scalar naturally loses the charge sign even though the field retains it.
 
 ### 6.25 Reversing Acceleration Direction Also Need Not Reverse Scalar Power
+
 Acceleration is directional. For a given charge, reversing
 
 $$\mathbf{a} \rightarrow - \mathbf{a}$$
@@ -4821,6 +5073,7 @@ $$P \propto a^{2}.$$
 Again, this is a symmetry argument about the form of the physical projection. It is not a derivation of the quantitative radiation law.
 
 ### 6.26 The Larmor Law Is the First Quantitative Test
+
 Conventional nonrelativistic electrodynamics gives the Larmor formula
 
 $$P = \frac{q^{2}a^{2}}{6\pi\epsilon_{0}c^{3}}.$$
@@ -4837,13 +5090,13 @@ $$I \propto r^{- 2}.$$
 
 The R²D architecture now gives reasons to expect all four qualitative structures:
 
--   no changing enclosing motion relation under uniform inertial motion;
+- no changing enclosing motion relation under uniform inertial motion;
 
--   orientation-even scalar dependence on charge;
+- orientation-even scalar dependence on charge;
 
--   orientation-even scalar dependence on acceleration;
+- orientation-even scalar dependence on acceleration;
 
--   areal dilution of radiative flux.
+- areal dilution of radiative flux.
 
 What has **not** been derived is the precise coefficient
 
@@ -4852,19 +5105,20 @@ $$\frac{1}{6\pi\epsilon_{0}c^{3}}$$
 or the complete angular radiation pattern. Those remain quantitative physical burdens.
 
 ### 6.27 The Radiation Field Makes the Acceleration Dependence Explicit
+
 The conventional far-zone electric radiation field of a nonrelativistically accelerating charge has the schematic form
 
 $$\mathbf{E}_{rad} \propto \frac{q}{c^{2}r}\text{ }\widehat{\mathbf{n}} \times \left( \widehat{\mathbf{n}} \times \mathbf{a} \right),$$
 
 evaluated at the retarded source state. This equation displays exactly the physical distinctions developed above. The field amplitude is:
 
--   odd in charge orientation;
+- odd in charge orientation;
 
--   directional in acceleration;
+- directional in acceleration;
 
--   transverse to propagation;
+- transverse to propagation;
 
--   proportional to $1/r$.
+- proportional to $1/r$.
 
 Squaring the amplitude and integrating its flux over area produces an orientation-even scalar power proportional to
 
@@ -4873,6 +5127,7 @@ $$q^{2}a^{2}.$$
 The full equation remains conventional electrodynamics. Its structure is strongly compatible with the R²D ordering.
 
 ### 6.28 Radiation Therefore Records Change, Not Merely State
+
 A static field reads a persistent relation. Radiation reads a changing relation. This is visible directly in the conventional physics. The Coulomb-like part of the field depends on the charge state and position. The radiation part depends on changing motion. Thus:
 
 $$\text{field~state} \rightarrow \text{persistent~enclosing~compatibility}\text{,}$$
@@ -4884,6 +5139,7 @@ $$\text{radiation} \rightarrow \text{occurrence~of~change~in~that~compatibility}
 The distinction between state and occurrence is therefore not added by R²D after the fact. It mirrors a real physical distinction already present in electromagnetic theory.
 
 ### 6.29 Retardation Is a Physical Propagation Relation
+
 The radiation observed at a distant location depends on the source at a retarded physical time. This expresses finite propagation of the electromagnetic occurrence. R²D should not interpret retardation as evidence that one unchanged local closure literally travels through recursive boundaries. Rather:
 
 $$\text{source-region~closure}\overset{\text{recursive~read}}{\Rightarrow}\text{EM~occurrence}\text{,}$$
@@ -4897,6 +5153,7 @@ Retardation belongs to the second relation.
 It is a physical spacetime coordinate of the projected electromagnetic theory.
 
 ### 6.30 Radiation Can Preserve Orientation
+
 The local electromagnetic coupling retains orientation. It is therefore natural that the enclosing radiative occurrence can itself possess readable orientation structure. Electromagnetic radiation indeed admits polarization. A linearly polarized wave carries a distinguished transverse orientation. Circular polarization carries handedness. Thus:
 
 $$\text{oriented~local~coupling} \rightarrow \text{orientation-capable~radiative~read}\text{.}$$
@@ -4908,6 +5165,7 @@ $${sgn}q \neq \text{polarization~state}\text{.}$$
 The valid claim is only that an orientation-retaining source architecture permits orientation to remain physically readable in radiation.
 
 ### 6.31 Polarization Is an Enclosing Orientation Read
+
 This suggests a natural R²D placement for polarization. At the local boundary, the coupling carries
 
 $$\sigma_{a}.$$
@@ -4919,6 +5177,7 @@ $$\text{local~orientation}\overset{\text{recursive~read}}{\Rightarrow}\text{radi
 The exact map between local charge organization, source motion, and observed polarization belongs to Maxwell theory and quantum electrodynamics. R²D supplies the count category required for orientation to survive at all.
 
 ### 6.32 Neutrality Does Not Prohibit Radiation
+
 Chapter 2 defined electromagnetic neutrality at an enclosing boundary by
 
 $$\sum_{\alpha}q_{\alpha} = 0.$$
@@ -4932,17 +5191,18 @@ $$Q = 0 \not\Rightarrow \text{no~EM~radiation}\text{.}$$
 A neutral system can radiate when its internal electromagnetic organization changes. Conventional multipole radiation is precisely of this type.
 
 ### 6.33 Multipole Structure Is Recursive Residual Distinguishability
+
 This has a natural count interpretation. At one enclosing boundary, the leading charge distinction can cancel:
 
 $$Q = 0.$$
 
 But the boundary may still distinguish:
 
--   separation of opposed charge classes;
+- separation of opposed charge classes;
 
--   orientation of that separation;
+- orientation of that separation;
 
--   higher spatial organization.
+- higher spatial organization.
 
 Conventional electromagnetism describes these residual distinctions through dipole, quadrupole, and higher multipole moments. R²D need not derive the multipole expansion here. Its more primitive statement is:
 
@@ -4951,6 +5211,7 @@ $$\text{loss~of~one~enclosing~distinction} \not\Rightarrow \text{loss~of~every~s
 The next surviving classification becomes the physical coupling read. This is recursive replacement applied to electromagnetic organization.
 
 ### 6.34 Charge Conservation Constrains the Lowest Radiative Class
+
 A changing isolated system does not ordinarily radiate by simply changing its total electric charge. Conventional electromagnetic theory preserves total charge. In the present architecture, net charge is the enclosing read of retained orientation-weighted coupling. Changing it would require changing the corresponding enclosing orientation classification. Thus, the count picture makes it natural that physically admissible radiation should usually involve **reorganization of retained orientation**, rather than arbitrary creation or destruction of its net class. The precise conservation law,
 
 $$\partial_{\mu}J^{\mu} = 0,$$
@@ -4960,6 +5221,7 @@ belongs to the physical gauge theory developed later. But its eventual role is a
 Radiation changes relational organization. It need not destroy the orientation classification from which charge is read.
 
 ### 6.35 The Same Recursive Operation Exists in Gravity
+
 The radiation architecture is not uniquely electromagnetic. Gravity also begins with a shared enclosing field relation. If that relation changes in a way that remains distinguishable at a larger physical scale, a radiative gravitational occurrence can in principle be defined. Thus:
 
 $$\text{changing~shared~gravitational~relation} \rightarrow \text{gravitational~radiative~read}\text{.}$$
@@ -4969,6 +5231,7 @@ But the local coupling architecture differs. Mass is orientation even. Charge re
 Conventional physics indeed finds different leading radiative multipoles in electromagnetism and gravity. R²D does not derive those detailed selection rules here. It predicts that they should ultimately reflect the different count structures retained by the two coupling classes.
 
 ### 6.36 An Accelerating Mass and an Accelerating Charge Are Parallel but Not Identical
+
 This distinction prevents overstatement. For mechanics,
 
 $$\mathcal{C}_{n}^{x}$$
@@ -4984,6 +5247,7 @@ $$\text{local~closure} \rightarrow \text{enclosing~occurrence}\text{.}$$
 The domain-specific physical consequence depends on what local coupling structure is retained and what enclosing boundary reads it.
 
 ### 6.37 Radiation Can Itself Become Background
+
 A radiative occurrence is distinguishable at the boundary from which it is read as radiation. But recursive replacement continues. At a still more enclosing boundary, the detailed direction, phase, source identity, or local occurrence class may cease to remain readable. The realized radiation can then contribute to nondirectional background count. Schematically:
 
 $${\text{local~closure}
@@ -4999,6 +5263,7 @@ $$\text{closure} \rightarrow \text{occurrence} \rightarrow \text{background}\tex
 The arrows describe changes in count meaning, not bottom-up causal transport.
 
 ### 6.38 Radiation Background and Second-Law Background Must Still Be Distinguished
+
 The word background appears in several physical settings. R²D uses it formally for nondirectional realized count. An electromagnetic radiation field can contribute to such a background after its subordinate directional classification becomes unreadable. But this does not mean every EM radiation field is automatically identical to the Second-Law background increment
 
 $$\delta\Phi.$$
@@ -5018,6 +5283,7 @@ by definition.
 Radiation can be coherently reversible as a physical field while still being recursively classified into background at a larger boundary.
 
 ### 6.39 Blackbody Radiation Becomes a Natural Next Boundary
+
 Part III examined blackbody radiation as the empirical bridge between thermal and quantum readability. The present chapter gives that bridge a more explicit recursive position. A recurrent electromagnetic occurrence exists at one physical boundary. An enclosing thermal boundary no longer reads its complete local closure geometry. It reads recurrent radiative counts. Thus:
 
 $$\text{EM~occurrence} \rightarrow \text{thermal/quantum~count~read}\text{.}$$
@@ -5029,6 +5295,7 @@ $$E = hf$$
 will later provide the empirical energetic calibration of that recurrence. The particle projection will count those occurrences discretely. The wave projection will represent their recurrence through phase. Both come after radiation has been defined.
 
 ### 6.40 Wave and Particle Are Therefore Later Reads of Radiation
+
 This corrects the usual ontological order. The conventional question often begins: Is light a wave or a particle? R²D asks first: What recursively organized occurrence is being read? Once the electromagnetic occurrence has been identified, it can acquire different physical coordinates. Its recurrence can be read as
 
 $$f,\omega,\phi.$$
@@ -5045,6 +5312,7 @@ $$\begin{aligned}
 Wave and particle need not compete as primitive ontologies. They answer different counting questions about the same radiative relation.
 
 ### 6.41 Field, Wave, and Particle Are Three Different Reads
+
 The architecture can now be stated more completely.
 
 **Field** reads the enclosing relational structure: How are oriented peers jointly organize?
@@ -5064,6 +5332,7 @@ $$\begin{matrix}
 The three physical descriptions need not correspond to three primitive substances. They can be complementary projections of one recursively organized electromagnetic occurrence.
 
 ### 6.42 This Resolves the Order of Quantum Projection
+
 The quantum chapters should therefore not begin with a photon. The photon is already too late. The correct order is:
 
 $${\text{binary~oriented~local~structure}
@@ -5082,6 +5351,7 @@ $${\text{binary~oriented~local~structure}
 Only then should conventional quantum dynamics be introduced. This ordering is one of the principal structural results of Part IV.
 
 ### 6.43 Principle — Field and Radiation
+
 **Principle -- Field and Radiation**
 
 A field is the physical read of a persistent shared enclosing relation among peer boundaries. Radiation requires a changing enclosing relation to be distinguishable as an occurrence and for that occurrence to recur. Thus:
@@ -5093,6 +5363,7 @@ $$\text{radiation} = \text{recurrent~enclosing~occurrence}\text{.}$$
 The two can share spatial geometry without sharing the same recurrence structure.
 
 ### 6.44 Principle — Recursive Electromagnetic Radiation
+
 **Principle -- Recursive Electromagnetic Radiation**
 
 Let
@@ -5114,6 +5385,7 @@ $$\left( \mathcal{C}_{n,a}^{x},\sigma_{a} \right)\overset{\text{carry}}{\Rightar
 Repeated enclosing occurrences acquire a physical recurrence read as electromagnetic radiation.
 
 ### 6.45 Principle — Radiation Within Background
+
 **Principle -- Radiation Within Background**
 
 At the receiving electromagnetic boundary, the detailed subordinate directional classification need not remain readable. Its nondirectional realized count defines electromagnetic background,
@@ -5129,6 +5401,7 @@ $$\text{local~oriented~closure} \rightarrow \text{EM~occurrence~within~enclosing
 The arrow denotes recursive read, not bottom-up causal production.
 
 ### 6.46 Principle — Radiative Recurrence
+
 **Principle -- Radiative Recurrence**
 
 One electromagnetic occurrence is not yet a radiative frequency. Repeated occurrences counted relative to a physical clock establish recurrence:
@@ -5142,6 +5415,7 @@ $$\text{occurrence} \rightarrow \text{recurrence} \rightarrow \text{frequency/ph
 No identification of formal R²D occurrence coordinate with physical time is implied.
 
 ### 6.47 Principle — Areal Radiation Readability
+
 **Principle -- Areal Radiation Readability**
 
 Once a radiative occurrence has been physically defined, its flux through an approximately isotropic enclosing spatial boundary is read over area:
@@ -5154,6 +5428,7 @@ $${\mathcal{A} = 4\pi r^{2},
 The inverse-square dependence of radiative intensity is therefore an areal projection. The far-field radiation amplitude itself scales as $1/r$, not $1/r^{2}$.
 
 ### 6.48 Corollary — Scalar Radiative Power Is Charge-Orientation Even
+
 Because reversal of the arbitrary charge-orientation convention
 
 $$q \rightarrow - q$$
@@ -5169,6 +5444,7 @@ $$P \propto q^{2}.$$
 This symmetry argument explains the sign structure, not the full quantitative law.
 
 ### 6.49 Corollary — Radiation Requires Change of the Enclosing Motion Relation
+
 Uniform inertial motion preserves the background-relative velocity classification:
 
 $$\Delta v_{\Phi} = 0.$$
@@ -5184,6 +5460,7 @@ $$a \neq 0 \rightarrow \text{an~EM~radiative~occurrence~becomes~physically~admis
 The quantitative radiation produced by a specified physical trajectory remains governed by conventional electrodynamics.
 
 ### 6.50 Corollary — Neutrality Does Not Eliminate Radiative Organization
+
 If
 
 $$Q = \sum_{\alpha}q_{\alpha} = 0,$$
@@ -5195,6 +5472,7 @@ $$Q = 0 \not\Rightarrow P_{rad} = 0.$$
 Changing dipolar or higher multipolar structure can still produce electromagnetic radiation.
 
 ### 6.51 Corollary — Radiation Can Become Background
+
 A radiative occurrence at one boundary can lose its source, direction, phase, or subordinate occurrence identity at a more enclosing boundary. When that directional classification ceases to be readable, its realized count can contribute to background. Thus:
 
 $$\text{closure} \rightarrow \text{occurrence} \rightarrow \text{background}$$
@@ -5202,6 +5480,7 @@ $$\text{closure} \rightarrow \text{occurrence} \rightarrow \text{background}$$
 is a possible recursive sequence of count meaning. No count destruction or bottom-up transport is implied.
 
 ### 6.52 What Has Been Established
+
 Chapter 4 distinguished a field from the local objects through which it is read. A field is the physical projection of a shared enclosing relation.
 
 Chapter 5 supplied its spatial geometry. An enclosing field relation is naturally read through area.
@@ -5270,13 +5549,13 @@ $$P = \frac{q^{2}a^{2}}{6\pi\epsilon_{0}c^{3}},$$
 
 therefore becomes an important quantitative target. The present architecture explains why:
 
--   uniform inertial motion provides no acceleration-generated radiative occurrence;
+- uniform inertial motion provides no acceleration-generated radiative occurrence;
 
--   radiative power is even under charge reversal;
+- radiative power is even under charge reversal;
 
--   scalar power is even under reversal of acceleration direction;
+- scalar power is even under reversal of acceleration direction;
 
--   and radiative intensity is inverse in enclosing area.
+- and radiative intensity is inverse in enclosing area.
 
 It does not yet derive the precise coefficient or the complete radiation pattern. Those remain physical constraints on the mapping.
 
@@ -5287,7 +5566,9 @@ $$\text{local~closure} \rightarrow \text{enclosing~occurrence} \rightarrow \text
 The arrows describe changing count meaning across boundaries. They do not describe a substance being pushed upward. This sequence brings Part IV directly to the quantum projection. The electromagnetic occurrence has now been defined. Its recurrence has now been defined. Its phase can now be defined. Its completed occurrences can now be counted. Only now is it meaningful to ask why recurrent electromagnetic counts appear physically as photons and why phase becomes the central coordinate of quantum dynamics.
 
 ## Chapter 7 — Quantum Projection: Occurrence, Phase, and Particle
+
 ### 7.1 Quantum Theory Begins After Radiation Has Been Defined
+
 The previous chapter changed the order in which quantum physics should be introduced. Light does not need to begin as a photon. Nor does it need to begin as a wave. Chapter 6 first identified the more primitive physical relation being read. A local orientation-retaining closure can participate in an enclosing electromagnetic occurrence:
 
 $$\chi_{n + 1}^{EM} \Rightarrow \mathcal{C}_{n,a}^{EM}$$
@@ -5311,6 +5592,7 @@ Quantum theory therefore does not begin with a choice between wave and particle.
 That is the quantum projection.
 
 ### 7.2 The Quantum Horizon Is a Readability Limit
+
 Part III identified two opposite readability horizons. At the quantum-facing horizon, the local distinguishability associated with the subordinate closure becomes inaccessible while recurrence remains readable. Schematically,
 
 $$\lambda_{subordinate} \rightarrow \text{unreadable}\text{,}$$
@@ -5326,6 +5608,7 @@ $$\text{closure~geometry~unreadable} \rightarrow \text{completed~recurrence~coun
 This is a readability limit before it is a particle ontology.
 
 ### 7.3 A Quantum Is First a Count Increment
+
 Suppose a recurrent electromagnetic occurrence belongs to one physically distinguishable recurrence class. Within a detector or thermal boundary, one completed occurrence can contribute one readable increment:
 
 $$N \rightarrow N + 1.$$
@@ -5334,7 +5617,8 @@ That increment is discrete because occurrence counting is discrete. Nothing yet 
 
 The word **quantum** is therefore naturally placed here. A quantum is first a discrete physical increment in a readable occurrence class. Particle ontology comes afterward.
 
-### 7.4 Planck\'s Relation Calibrates Recurrence Into Energy
+### 7.4 Planck's Relation Calibrates Recurrence Into Energy
+
 For electromagnetic radiation, the empirical physical relation is
 
 $$E = hf.$$
@@ -5343,7 +5627,7 @@ Equivalently,
 
 $$E = \hslash\omega, \omega = 2\pi f.$$
 
-R²D does not derive this relation from its dimensionless count variables. Planck\'s constant
+R²D does not derive this relation from its dimensionless count variables. Planck's constant
 
 $$h$$
 
@@ -5370,6 +5654,7 @@ $$E^{\Phi} = hf^{\Phi}$$
 is the natural energy calibration associated with a physically realized radiation background.
 
 ### 7.5 A Photon Is the Object Projection of a Radiative Count
+
 Once one radiative occurrence has the energetic read
 
 $$hf,$$
@@ -5393,6 +5678,7 @@ $$\text{photon} = \text{particle~projection~of~a~radiative~occurrence~count}\tex
 This does not make the photon unreal. Photon counts are among the most directly measurable quantities in quantum physics. It relocates their ontological position.
 
 ### 7.6 The Photon Does Not Contain the Wave
+
 The familiar question, How can one photon also be a wave? arises only if the particle is made primitive. In the present ordering there is no contradiction. The particle and wave answer different questions about the same underlying physical recurrence.
 
 The particle read asks: How many completed occurrences?
@@ -5409,6 +5695,7 @@ f,\phi & \rightarrow \text{wave/phase}.
 The photon does not have to carry a little wave inside itself. Both are projections of the recurrent electromagnetic occurrence.
 
 ### 7.7 Phase Is the Natural Coordinate of Recurrence
+
 A recurrent physical relation can be represented cyclically. Let
 
 $$\phi$$
@@ -5428,6 +5715,7 @@ $$\text{recurrence} \rightarrow \text{phase} \rightarrow e^{i\phi}.$$
 The complex phase is a representation of recurrence. It is not recurrence itself.
 
 ### 7.8 Complex Numbers Encode Closure Efficiently
+
 Why are complex numbers so natural in quantum theory? A cyclic relation must return to itself. The complex unit circle provides the minimal familiar continuous representation:
 
 $$e^{i(\phi + 2\pi)} = e^{i\phi}.$$
@@ -5439,6 +5727,7 @@ $$\mid e^{i\phi} \mid = 1.$$
 This makes complex phase an extraordinarily efficient physical representation of recurrent closure. R²D does not claim that it uniquely derives the complex numbers. It identifies why complex phase is a natural projection once recurrence is the surviving quantum coordinate.
 
 ### 7.9 A Wavefunction Adds Weight to Phase
+
 A physical quantum state is not represented only by phase. Write
 
 $$\psi = Ae^{i\phi}.$$
@@ -5462,6 +5751,7 @@ $$A$$
 with a primitive multiplicity or occupancy variable term by term. The wavefunction belongs to the physical quantum projection. Its success constrains any proposed R²D mapping.
 
 ### 7.10 Quantum Amplitude as Phase-Carrying Occupancy
+
 At the quantum readability horizon, recurrence retains a phase coordinate while realized state support retains an occupancy coordinate. Let
 
 $$G_{i} = \ln c_{i}$$
@@ -5485,6 +5775,7 @@ $$p_{i} = \mid \psi_{i} \mid^{2}.$$
 Thus, the Born weight is the normalized occupancy read of a phase-carrying recurrence amplitude. The extension from a fixed detector basis to the general projective Born rule requires the additional result that changes among complete detector classifications are represented by linear count-preserving transformations. Such transformations are unitary, yielding
 
 ### 7.11 Repeatable Occurrence Produces Bosonic Occupancy Structure
+
 Radiative occurrences possess a particularly important counting property. More than one occurrence of the same readable class can be counted:
 
 $$m = 0,1,2,3,\ldots$$
@@ -5520,6 +5811,7 @@ $$\text{repeatable~count~structure} \rightarrow \text{repeatable~occupancy~law} 
 The statistics do not need to begin with primitive bosons.
 
 ### 7.12 Planck Occupancy Follows Before Photon Ontology
+
 For blackbody radiation,
 
 $${\overline{m}}_{f} = \frac{1}{e^{hf/\left( k_{B}T \right)} - 1}.$$
@@ -5533,6 +5825,7 @@ This reverses the ordinary explanatory order in which photons are assumed first 
 R²D does not obtain that entire prefactor merely from repeatable counting. The occupancy factor and the complete cavity spectrum should remain distinguished.
 
 ### 7.13 Sparse Occupancy Produces the Boltzmann Limit
+
 When
 
 $$e^{hf/\left( k_{B}T \right)} \gg 1,$$
@@ -5544,6 +5837,7 @@ $${\overline{m}}_{f} \approx e^{- hf/\left( k_{B}T \right)}.$$
 Thus, the familiar Boltzmann exponential appears as the sparse-count limit of repeatable occupancy. This is another example of a recurring R²D theme: exponential physical laws reveal logarithmic counting structure. The exponential is not primitively a molecular probability. It is the physical read of a multiplicative count relation after logarithmic coordinates have been introduced.
 
 ### 7.14 Binary Occupancy Gives a Different Quantum Statistic
+
 Now consider a state class that permits only two occupancy alternatives:
 
 $$n = 0$$
@@ -5571,6 +5865,7 @@ $$\text{binary~admissible~occupancy} \rightarrow \text{Fermi-like~count~law} \ri
 The statistics precede particle ontology.
 
 ### 7.15 Muscle Shows Why the Logistic Form Is Not Uniquely Quantum
+
 The same mathematical form appears in the binary muscle system. A two-state molecular switch can possess an occupancy ratio governed by a dimensionless asymmetry. That does not make myosin a fermion. It shows that the logistic form belongs first to binary counting. Thus:
 
 $$\text{binary~count~architecture} \rightarrow \text{logistic~occupancy}\text{.}$$
@@ -5578,6 +5873,7 @@ $$\text{binary~count~architecture} \rightarrow \text{logistic~occupancy}\text{.}
 The specifically quantum interpretation requires additional physical structure. R²D therefore does not derive the spin-statistics theorem merely by recovering a Fermi-Dirac-shaped occupancy law. That would overstate the counting result.
 
 ### 7.16 Bose and Fermi Statistics Are Two Count Architectures
+
 The distinction can therefore be stated at a more primitive level.
 
 **Repeatable occupancy**
@@ -5601,19 +5897,20 @@ The denominator sign is a consequence of the allowed counting architecture. Part
 $$\text{statistics~classify~admissible~occurrence~counting~before~they~classify~primitive~particles}\text{.}$$
 
 ### 7.17 The Electron Should Therefore Not Be Introduced as Primitive Either
+
 The electron is associated with many stable physical reads:
 
--   electric charge;
+- electric charge;
 
--   mass;
+- mass;
 
--   spin;
+- spin;
 
--   spectral transitions;
+- spectral transitions;
 
--   scattering;
+- scattering;
 
--   binary orbital occupancy.
+- binary orbital occupancy.
 
 Those correlations are extraordinarily persistent. Conventional physics packages them into one particle identity. R²D can accept the electron as a highly stable boundary-relative physical object without treating that identity as primitive to all count boundaries. Thus:
 
@@ -5626,6 +5923,7 @@ $$m_{e}, - e, \frac{1}{2}\hslash,$$
 or why it satisfies the full fermionic spin-statistics structure. Those remain quantitative physical facts to be explained.
 
 ### 7.18 Atomic Spectra Read Recurrence Without Revealing a Trajectory
+
 Atomic transitions provide a particularly clean example. Conventional spectroscopy gives
 
 $$\mid \Delta E_{ij} \mid = hf_{ij}.$$
@@ -5641,6 +5939,7 @@ $$f_{ij} \neq r_{i \rightarrow j}.$$
 Nor does it require an electron literally orbiting the nucleus at that frequency. The spectral line reads a recurrent physical relation between distinguishable atomic states. Trajectory ontology is not required.
 
 ### 7.19 Stationary States Are Closure Classes
+
 A stationary quantum state satisfies
 
 $$\psi_{n}\left( \mathbf{x},t \right) = \phi_{n}\left( \mathbf{x} \right)e^{- iE_{n}t/\hslash}.$$
@@ -5650,6 +5949,7 @@ The spatial probability structure remains unchanged while the overall phase adva
 $$\text{structural~closure} + \text{phase~recurrence}\text{.}$$
 
 ### 7.20 Absolute Energy Frequency Should Not Be Overinterpreted
+
 One can formally write
 
 $$E/\hslash$$
@@ -5669,6 +5969,7 @@ The physical meaning of an absolute phase reference is subtler and will become c
 $$\Delta E \leftrightarrow \text{observable~relative~phase~recurrence}\text{.}$$
 
 ### 7.21 Momentum Introduces Spatial Phase Recurrence
+
 For a simple plane wave,
 
 $$\psi \propto e^{i\left( \mathbf{k} \cdot \mathbf{x} - \omega t \right)}.$$
@@ -5692,6 +5993,7 @@ $$\mathbf{p}$$
 is its mechanical quantum read.
 
 ### 7.22 Phase Generates the Familiar Quantum Operators
+
 For the plane-wave representation,
 
 $$\psi = Ae^{i\left( \mathbf{k} \cdot \mathbf{x} - \omega t \right)},$$
@@ -5715,6 +6017,7 @@ $$\widehat{\mathbf{p}} = - i\hslash\nabla.$$
 These operators arise naturally once physical energy and momentum have been mapped onto temporal and spatial phase recurrence. Their existence does not require energy and momentum to be primitive R2D quantities. They are the differential operators of the projected phase representation.
 
 ### 7.23 The Schrödinger Equation Is a Physical Projection Built from Imported Physical Relations
+
 For a nonrelativistic physical system, conventional mechanics supplies
 
 $$E = \frac{p^{2}}{2m} + V.$$
@@ -5738,25 +6041,27 @@ $$m, V, E = \hslash\omega, p = \hslash k,$$
 from primitive counting. Those are physical mappings and empirical relations supplied by the projected theory. What R²D contributes is the prior reason recurrence should admit a phase representation from which such operator relations become natural.
 
 ### 7.24 The Schrödinger Equation Does Not Become an R²D Equation
+
 Therefore:
 
 $$\text{Schr}\overset{¨}{\text{o}}\text{dinger~equation} \neq \text{R2D~law}\text{,}$$
 
 The two formalisms operate at different levels. The R²D law concerns dimensionless recursive count relations. The Schrödinger equation governs a physical quantum coordinate system after:
 
--   space has been defined;
+- space has been defined;
 
--   physical time has been calibrated;
+- physical time has been calibrated;
 
--   mass has been assigned;
+- mass has been assigned;
 
--   energy and momentum have been calibrated;
+- energy and momentum have been calibrated;
 
--   phase has been physically mapped.
+- phase has been physically mapped.
 
 The Schrödinger equation is a highly successful physical dynamics of the quantum projection. It should remain exactly that.
 
 ### 7.25 Orbitals Are Stable Projected Closure Geometries
+
 Atomic orbitals provide another useful example. An orbital is not a miniature planetary path. It is a stable spatial state structure satisfying the quantum boundary conditions of the physical system. From the R²D perspective, this makes orbitals natural candidates for projected closure classes. The orbital geometry is the physical representation of the stable state relation. Electron detection events realize that structure locally.
 
 Thus:
@@ -5768,6 +6073,7 @@ rather than requiring localized electron trajectories to generate the orbital fr
 This is the same causal distinction encountered in muscle. The local occurrence realizes the structure. It does not need to create the state architecture it occupies.
 
 ### 7.26 Superposition Is a Property of the Projected Linear Representation
+
 Quantum states can be combined linearly:
 
 $$\psi = c_{1}\psi_{1} + c_{2}\psi_{2}.$$
@@ -5777,6 +6083,7 @@ R²D should not simply identify this expression with addition of multiplicities.
 R²D asks what invariant count architecture permits those alternatives to represent one physical boundary state. It does not replace the superposition principle with a combinatorial sum.
 
 ### 7.27 Interference Reads Relative Phase
+
 For two contributions,
 
 $$\psi_{1} = A_{1}e^{i\phi_{1}}, \psi_{2} = A_{2}e^{i\phi_{2}},$$
@@ -5788,11 +6095,13 @@ $$\Delta\phi = \phi_{1} - \phi_{2}.$$
 Thus interference depends on relative phase. This is exactly what one expects if phase is a recurrence coordinate. The physically meaningful relation is between recurrent reads. An absolute phase origin need not be observable. This observation will become the bridge to gauge invariance in the next chapter.
 
 ### 7.28 Wave-Particle Duality Is Therefore Dual Readability
+
 The traditional paradox can now be stated more simply. The same recursively organized quantum occurrence admits at least two complementary physical reads. When recurrence is emphasized: wave. When completed count is emphasized: particle. Thus, wave-particle duality is dual readability of recurrent occurrences and completed occurrence count.
 
 Neither read needs to be discarded. Neither must be elevated to primitive ontology. The apparent contradiction results from asking one projection to possess the ontology of the other.
 
 ### 7.29 Localization Belongs to a Boundary
+
 A particle detection event is localized. That fact does not imply that the underlying recurrence possessed a continuously defined microscopic trajectory connecting all detector events. Localization is itself boundary dependent.
 
 A detector defines distinguishable spatial states. When the radiative or quantum occurrence produces one detector transition, that transition is localized relative to the detector boundary. Thus:
@@ -5802,6 +6111,7 @@ $$\text{localized~count} \neq \text{proof~of~primitive~localized~trajectory}\tex
 The detector reads a count in its own state domain. That is enough to produce particle-like localization.
 
 ### 7.30 Creation and Annihilation Are Changes in Readable Count
+
 Quantum field theory permits particle number to change. This is often represented as particle creation and annihilation. Within the present architecture, this becomes less ontologically mysterious. If particle number is a completed occurrence count, then
 
 $$N \rightarrow N + 1$$
@@ -5815,6 +6125,7 @@ is the disappearance of one count from that particle class. The physical field t
 $$\text{particle~creation/annihilation} = \text{change~in~particle-count~projection}\text{.}$$
 
 ### 7.31 Particle Number Is Boundary Specific
+
 This also means particle number need not be invariant across all physical descriptions. A count meaningful at one detector or field boundary may not remain the same primitive count at another. This is already familiar in quantum field theory, where particle concepts can depend upon mode decomposition and observer context. R²D places this naturally:
 
 $$\text{particle} = \text{boundary-specific~occurrence-count~read}\text{.}$$
@@ -5822,6 +6133,7 @@ $$\text{particle} = \text{boundary-specific~occurrence-count~read}\text{.}$$
 The underlying recursively organized relation can remain consequential even when the particle classification changes.
 
 ### 7.32 Measurement Is a New Enclosing Distinction
+
 Part III treated measurement as creation of a new readable distinction at an enclosing detector boundary. Let the incoming quantum occurrence interact with detector boundary
 
 $$B_{D}.$$
@@ -5841,6 +6153,7 @@ $$\text{measurement} = \text{realization~of~a~new~detector~macrostate~distinctio
 The detector count is real. It need not expose every subordinate relation through which it was realized.
 
 ### 7.33 Measurement Does Not Recover Lost Geometry
+
 This is important at the quantum horizon. If subordinate closure geometry is unreadable from the detector boundary by construction, measurement cannot simply recover it by becoming more precise while keeping the same count boundary. To make the subordinate distinction directly readable, the count boundary would have to change. Therefore:
 
 $$\text{quantum~measurement} \neq \text{revelation~of~a~fully~preserved~hidden~classical~trajectory}\text{.}$$
@@ -5848,11 +6161,13 @@ $$\text{quantum~measurement} \neq \text{revelation~of~a~fully~preserved~hidden~c
 The measurement creates a new readable distinction at the observing boundary. It does not undo recursive replacement.
 
 ### 7.34 Collapse Is a Projection Update, Not Necessarily Destruction of a Primitive Wave
+
 In conventional quantum mechanics, measurement updates the wavefunction. The state changes from a superposed representation to one conditioned on the measurement outcome. R²D need not interpret this as literal destruction of a physical wave substance. The detector boundary has acquired a new macrostate distinction. The appropriate projected state description must therefore change. Thus, wavefunction collapse can be interpreted at minimum as: change in physical state representation after new boundary-level realization.
 
 This does not by itself solve every version of the quantum measurement problem. It relocates the ontological burden.
 
 ### 7.35 Entanglement Begins With a Joint Boundary, Not Two Independent Objects
+
 Consider two quantum subsystems whose physical state is represented by one joint state
 
 $$\psi_{AB}.$$
@@ -5866,11 +6181,13 @@ can precede separate projected object descriptions.
 Entanglement is then unsurprising in form. What would be surprising is insisting that the joint state must be generated by two primitively independent objects.
 
 ### 7.36 Entanglement Does Not Require Primitive Faster-Than-Light Causation
+
 When the joint boundary organizes compatible peer realizations, stable correlations can appear among locally separated reads. The peers need not send one another a new primitive causal signal at measurement. The enclosing state relation was already joint. Thus, R²D naturally distinguishes joint organization from local communication.
 
 This does not derive Bell correlations or reproduce their quantitative bounds by itself. Any complete R²D quantum theory must still recover the observed statistics. The count architecture merely provides a natural ontological category in which nonfactorizable statehood is not paradoxical.
 
 ### 7.37 Configuration Space Is a Natural Joint-State Coordinate
+
 For $N$ particles, the wavefunction is ordinarily defined over configuration space rather than ordinary three-dimensional space:
 
 $$\psi\left( \mathbf{x}_{1},\ldots,\mathbf{x}_{N} \right).$$
@@ -5880,6 +6197,7 @@ This can seem ontologically strange if each particle is assumed to be independen
 R²D does not identify configuration space with multiplicity space. It explains why a joint-state projection naturally requires coordinates that are not reducible to one ordinary position variable.
 
 ### 7.38 Uncertainty Follows From the Phase Representation, Not From Primitive Randomness Alone
+
 Position and wavevector are Fourier-conjugate coordinates. A state narrowly localized in position requires a broad distribution in spatial frequency, while a narrow wavevector distribution requires broad position support. With
 
 $$p = \hslash k,$$
@@ -5891,6 +6209,7 @@ $$\Delta x\text{ }\Delta p \geq \frac{\hslash}{2}.$$
 R²D does not need to interpret this as evidence that primitive particles are randomly kicked around by hidden fluctuations. The uncertainty relation belongs to the physical phase/wave representation and its conjugate coordinate structure. It is another constraint on what can be jointly readable. The exact quantum inequality remains a theorem of the projected physical formalism.
 
 ### 7.39 Quantum Probability Is a Read of Count Structure
+
 Probability enters quantum mechanics centrally. R²D treats possible count as logically prior to normalized probability. A probability is obtained only after a count is normalized relative to a chosen total. Thus:
 
 $$\text{possible~count} \rightarrow \text{normalized~probability~read}\text{.}$$
@@ -5898,15 +6217,16 @@ $$\text{possible~count} \rightarrow \text{normalized~probability~read}\text{.}$$
 Quantum mechanics requires a specific amplitude-based implementation of that normalization. R²D does not replace it. It places probability downstream of a more primitive count architecture. This is consistent with the Part I principle that probability is how possibility is read, not what creates possibility.
 
 ### 7.40 Quantum Mechanics Is Therefore a Count-and-Phase Theory
+
 The various parts can now be assembled. Quantum theory reads:
 
--   completed occurrences;
+- completed occurrences;
 
--   occupancy of occurrence classes;
+- occupancy of occurrence classes;
 
--   relative phase of recurrence;
+- relative phase of recurrence;
 
--   joint compatibility of state alternatives.
+- joint compatibility of state alternatives.
 
 Thus, the central readable structures are:
 
@@ -5917,6 +6237,7 @@ Particles, wavefunctions, operators, and probability distributions are the physi
 Quantum mechanics is therefore not merely a particle mechanics at small scale. From an R²D perspective it is a physical theory built primarily from **count and recurrence after subordinate closure geometry has crossed a readability horizon**.
 
 ### 7.41 The Quantum Projection Can Now Be Written in One Sequence
+
 The full sequence developed across Chapters 2--7 is:
 
 $${\text{binary~oriented~count~structure}
@@ -5937,6 +6258,7 @@ $${\text{binary~oriented~count~structure}
 This is the new foundation of the quantum branch of Part IV. The particle comes last. The recurrence comes first.
 
 ### 7.42 Principle — Quantum Occurrence
+
 **Principle -- Quantum Occurrence**
 
 At the quantum readability horizon, subordinate closure geometry is no longer directly resolved while completed recurrence remains countable. A quantum is therefore first a discrete physical increment in a readable occurrence class:
@@ -5946,6 +6268,7 @@ $$N \rightarrow N + 1.$$
 Particle ontology is a later physical projection of that count.
 
 ### 7.43 Principle — Wave and Particle Are Complementary Reads
+
 **Principle -- Wave and Particle Are Complementary Reads**
 
 A recurrent physical occurrence admits at least two complementary quantum reads. Its recurrence is represented by frequency and phase:
@@ -5959,6 +6282,7 @@ $$N \rightarrow \text{particle}$$
 Thus wave-particle duality reflects complementary readability of recurrence and occurrence count rather than two mutually exclusive primitive substances.
 
 ### 7.44 Principle — Phase Projection
+
 **Principle -- Phase Projection**
 
 Cyclic physical recurrence may be represented through a phase coordinate
@@ -5980,6 +6304,7 @@ $$p = \hslash k$$
 calibrate temporal and spatial phase recurrence into physical energetic and mechanical coordinates.
 
 ### 7.45 Principle — Statistics Before Particles
+
 **Principle -- Statistics Before Particles**
 
 The admissible occupancy structure determines the statistical form before particle ontology is introduced. Repeatable occupancy
@@ -6001,6 +6326,7 @@ $$\overline{n} = \frac{1}{e^{- A} + 1}.$$
 The later boson and fermion interpretations assign these count structures to physical particle classes. The spin-statistics theorem is not derived by this counting result alone.
 
 ### 7.46 Principle — Photon Projection
+
 **Principle -- Photon Projection**
 
 A photon is the particle read of a completed recurrent electromagnetic occurrence calibrated energetically by
@@ -6014,6 +6340,7 @@ $$\text{EM~recurrence} \rightarrow \text{completed~count} \rightarrow \text{phot
 The photon is physically real as a quantum count. It need not be the primitive cause of the radiative recurrence it counts.
 
 ### 7.47 Principle — Quantum Measurement
+
 **Principle -- Quantum Measurement**
 
 A quantum measurement occurs when an incoming quantum relation produces a new readable distinction at a detector boundary. Thus:
@@ -6023,6 +6350,7 @@ $$\text{measurement} = \text{new~detector~macrostate~realization}\text{.}$$
 The detector does not necessarily recover the subordinate closure geometry lost at the quantum readability horizon. It creates a new enclosing physical read.
 
 ### 7.48 Corollary — Spectral Frequency Is Not Transition Rate
+
 The physical relation
 
 $$\mid \Delta E \mid = hf$$
@@ -6034,6 +6362,7 @@ $$f_{spectral} \neq r_{transition}.$$
 Nor must it be interpreted as classical orbital circulation.
 
 ### 7.49 Corollary — Particle Creation Is Count Change
+
 When the readable particle number changes,
 
 $$N \rightarrow N \pm 1,$$
@@ -6041,6 +6370,7 @@ $$N \rightarrow N \pm 1,$$
 the projected object count changes. Thus, particle creation and annihilation can be interpreted as changes in readable occurrence count within the appropriate quantum field representation. No primitive permanently conserved corpuscle is required.
 
 ### 7.50 Corollary — Entanglement Is Joint Statehood Before It Is Nonlocal Interaction
+
 When multiple peer boundaries are classified by one joint quantum state, their correlations belong first to the enclosing state architecture. Thus:
 
 $$\text{joint~boundary} \rightarrow \text{correlated~peer~reads}\text{.}$$
@@ -6048,6 +6378,7 @@ $$\text{joint~boundary} \rightarrow \text{correlated~peer~reads}\text{.}$$
 The existence of correlation does not by itself require direct primitive communication between independently complete local objects. The quantitative quantum correlations remain an empirical constraint on the mapping.
 
 ### 7.51 Corollary — The Schrödinger Equation Is a Projected Physical Law
+
 The Schrödinger equation
 
 $$i\hslash\frac{\partial\psi}{\partial t} = \left\lbrack - \frac{\hslash^{2}}{2m}\nabla^{2} + V \right\rbrack\psi$$
@@ -6063,13 +6394,14 @@ $$E = \frac{p^{2}}{2m} + V.$$
 It is not a term-by-term rewrite of the R²D law. It is the physical dynamics of the quantum phase projection.
 
 ### 7.52 What Has Been Established
+
 The quantum branch of Part IV can now be introduced without beginning with a particle. Chapter 6 first defined a recurrent electromagnetic occurrence. That occurrence already possesses a shared field relation. Its recurrence can be counted. Its recurrence can also be represented cyclically.
 
 Quantum projection begins when subordinate closure geometry has become unreadable while these count and recurrence relations remain accessible. The first quantum object is therefore not a particle. It is a count increment:
 
 $$N \rightarrow N + 1.$$
 
-Planck\'s empirical relation
+Planck's empirical relation
 
 $$E = hf$$
 
@@ -6122,7 +6454,9 @@ Finally, this entire structure leads directly to a new problem. The same quantum
 The next chapter therefore asks: **What does invariant recursive counting look like when the physical phase reference used to represent it is itself free?**
 
 ## Chapter 8 — Gauge Invariance: The Invisible Counting Structure
+
 ### 8.1 Gauge Theory Arrives Only After the Physical Read Exists
+
 The previous chapters established a sequence. A boundary defines a count domain. Its multiplicity structure defines the admissible states. Some local closure orientations survive recursive replacement and acquire the physical read of charge,
 
 $$q = \sigma \mid q \mid .$$
@@ -6138,6 +6472,7 @@ It is: **What must remain invariant when the physical coordinates used to descri
 Part I already supplies the answer. The invariant is the counting structure.
 
 ### 8.2 Multiplicity Is the Hidden Mathematical Structure
+
 At boundary $B_{n}$, macrostate $i$ has multiplicity
 
 $$W_{n,i},$$
@@ -6148,7 +6483,7 @@ $$S_{n,i} = \ln W_{n,i}.$$
 
 These quantities do not describe an independently existing physical state after the fact. They define the possible-count structure through which that state exists as a distinction at the boundary.
 
-Part I therefore calls recursive multiplicity the **hidden structure** of R²D. Multiplicity defines the landscapes, compatible possibilities, distinctions, and recursive relations within which occurrence, occupancy, asymmetry, and closure have meaning. This is why neither multiplicity nor entropy needs to appear as an additional physical term in the R²D law. 
+Part I therefore calls recursive multiplicity the **hidden structure** of R²D. Multiplicity defines the landscapes, compatible possibilities, distinctions, and recursive relations within which occurrence, occupancy, asymmetry, and closure have meaning. This is why neither multiplicity nor entropy needs to appear as an additional physical term in the R²D law.
 
 Thus, multiplicity is not another object inside the physical law.
 
@@ -6157,6 +6492,7 @@ Rather, multiplicity is the mathematics within which the physical relation is re
 This is the foundation of gauge invariance.
 
 ### 8.3 The R²D Law Presupposes Counting Structure
+
 The absence of
 
 $$W$$
@@ -6167,17 +6503,17 @@ $$S$$
 
 from the R²D realization law is therefore significant. The law does not need to reconstruct the multiplicity landscape every time a transition occurs. The landscape has already defined:
 
--   the macrostates;
+- the macrostates;
 
--   the compatible microstates;
+- the compatible microstates;
 
--   the possible transitions;
+- the possible transitions;
 
--   the distinguishable intervals;
+- the distinguishable intervals;
 
--   the closure classes;
+- the closure classes;
 
--   the enclosing compatibility relations.
+- the enclosing compatibility relations.
 
 Occurrence then realizes that pre-existing count structure. Thus:
 
@@ -6190,6 +6526,7 @@ $$\text{r}\text{ealization~law} \rightarrow \text{count~structure}\text{.}$$
 This suggests a deeper principle. If two physical descriptions realize the same boundary-defined counting structure, then the difference between those descriptions cannot itself define a different primitive state. That is precisely the logical form of gauge invariance.
 
 ### 8.4 Counting Invariance Comes Before Gauge Invariance
+
 Suppose a physical state is represented by coordinates
 
 $$X.$$
@@ -6221,19 +6558,20 @@ $$\text{counting~invariance} \rightarrow \text{closure~invariance} \rightarrow \
 Gauge invariance is not an additional primitive symmetry placed on top of the counting architecture. It is what invariant counting looks like after physical coordinates have been introduced.
 
 ### 8.5 Gauge Transformation Is Not a Physical Occurrence
+
 This distinction is essential. A gauge transformation does not necessarily correspond to:
 
--   a macrostate transition;
+- a macrostate transition;
 
--   an occurrence;
+- an occurrence;
 
--   an occupancy change;
+- an occupancy change;
 
--   a new closure;
+- a new closure;
 
--   recursive carry;
+- recursive carry;
 
--   a background change.
+- a background change.
 
 The physical state can remain the same. Thus:
 
@@ -6242,6 +6580,7 @@ $$\text{gauge~transformation} \neq \text{R2D~occ}\text{urence}\text{.}$$
 The transformation changes the physical mathematical representation. It does not change the boundary-defined count class being represented. This is the central reason gauge coordinates cannot themselves be primitive ontology.
 
 ### 8.6 Quantum Phase Provides the Simplest Example
+
 Chapter 7 represented a recurrent quantum occurrence using
 
 $$\psi = Ae^{i\phi}.$$
@@ -6277,6 +6616,7 @@ $$\text{physical~relational~structure~remains~unchanged}\text{.}$$
 This is global gauge freedom.
 
 ### 8.7 There Is No Primitive Absolute Phase Zero
+
 Why is this possible? Because recurrence requires a cyclic relation. It does not require one point on the projected cycle to possess a primitive label
 
 $$\phi = 0.$$
@@ -6296,7 +6636,8 @@ $$\text{recurrence} \neq \text{absolute~phase~coordinate}\text{.}$$
 This is the same distinction encountered earlier with motion. A local velocity does not define its own absolute zero. A phase coordinate does not define its own primitive phase zero. But the two cases should not be conflated. The physical background that establishes a frame is not the same thing as the gauge freedom that permits a reference coordinate to be shifted.
 
 ### 8.8 Background Is Not Gauge
-Chapter 3 defined background as realized count whose subordinate directional classification is no longer readable at the boundary where it is background.  A physical change in background can change the physical realization. Changing thermal background can change occupancy. Changing a background frame relative to an observer can produce anisotropy. Changing a background scale can change physical recurrence relations.
+
+Chapter 3 defined background as realized count whose subordinate directional classification is no longer readable at the boundary where it is background. A physical change in background can change the physical realization. Changing thermal background can change occupancy. Changing a background frame relative to an observer can produce anisotropy. Changing a background scale can change physical recurrence relations.
 
 A gauge transformation is different. It changes the representation while leaving the physical state unchanged. Therefore:
 
@@ -6315,6 +6656,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ### 8.9 The Reference Explains the Freedom; Counting Explains the Invariance
+
 Gauge symmetry therefore contains two logically distinct ingredients. First: an invariant count structure. Second: a physical representation containing an unreadable absolute reference coordinate. The unreadable reference explains why the coordinate can be changed. The invariant count structure explains why the physical state remains the same. Thus:
 
 $$\underset{\text{why~the~state~remains~equivalent}}{\underbrace{\text{counting~invariance}}} + \underset{\text{why~the~coordinates~may~change}}{\underbrace{\text{reference~freedom}}} \rightarrow \text{gauge~symmetry}\text{.}$$
@@ -6322,6 +6664,7 @@ $$\underset{\text{why~the~state~remains~equivalent}}{\underbrace{\text{counting~
 This is more precise than saying that gauge symmetry *is* an unreadable reference.The reference gives gauge **freedom**. Counting gives gauge **invariance**.
 
 ### 8.10 Global Freedom Creates No Local Comparison Problem
+
 If
 
 $$\alpha$$
@@ -6333,6 +6676,7 @@ $$\alpha = \alpha\left( x^{\mu} \right).$$
 Then neighboring physical descriptions can use different phase references. Ordinary differentiation can no longer distinguish physical change from change of reference. This is where gauge connection becomes necessary.
 
 ### 8.11 Local Gauge Freedom Creates a Comparison Problem
+
 Let
 
 $$\psi^{'}(x) = e^{iq\alpha(x)/\hslash}\psi(x).$$
@@ -6348,6 +6692,7 @@ $$\frac{iq}{\hslash}\left( \partial_{\mu}\alpha \right)\psi$$
 does not represent a new physical change in the underlying quantum state. It appears because the coordinate reference itself varies with position. Ordinary differentiation has therefore mixed two things: physical change and reference change. A physically admissible description must separate them.
 
 ### 8.12 A Connection Restores Relational Comparison
+
 Introduce the electromagnetic potential
 
 $$A_{\mu}.$$
@@ -6369,6 +6714,7 @@ The covariant derivative now compares the physical state while compensating for 
 The connection makes locally different coordinate choices mutually readable. That is its fundamental mathematical role.
 
 ### 8.13 The Gauge Connection Does Not Create the Invariance
+
 The usual explanatory order can easily become inverted. One might say:
 
 $$A_{\mu} \rightarrow \text{gauge~invariance}.$$
@@ -6380,7 +6726,8 @@ $$\text{counting~invariance} \rightarrow \text{local~reference~freedom} \rightar
 The connection preserves readable comparison. It does not create the invisible mathematics.
 
 ### 8.14 The Gauge Field Is Not the Mathematical Glue
-Part I describes recursive multiplicity as the hidden mathematical structure holding together the relations appearing in the R²D law.  Gauge theory provides an illuminating physical projection of that idea. The conventional gauge field acts as the connection required to maintain consistency among locally varying representations. But the gauge field is not what determines which states exist in the first place. That work has already been done by the counting structure. Thus:
+
+Part I describes recursive multiplicity as the hidden mathematical structure holding together the relations appearing in the R²D law. Gauge theory provides an illuminating physical projection of that idea. The conventional gauge field acts as the connection required to maintain consistency among locally varying representations. But the gauge field is not what determines which states exist in the first place. That work has already been done by the counting structure. Thus:
 
 $$A_{\mu} = \text{projected~connection}\text{,}$$
 
@@ -6391,6 +6738,7 @@ $$\left\{ W_{n,i} \right\} = \text{underlying~count~architecture}\text{.}$$
 The field coordinates can vary. The mathematical state architecture cannot vary without changing the state itself.
 
 ### 8.15 The Electromagnetic Field Strength Removes the Reference Freedom
+
 From the potential define
 
 $$F_{\mu\nu} = \partial_{\mu}A_{\nu} - \partial_{\nu}A_{\mu}.$$
@@ -6418,6 +6766,7 @@ $${\text{invariant~underlying~state}
 This is precisely the kind of physical structure expected when the coordinate representation contains more information than the physical distinction itself.
 
 ### 8.16 Electric and Magnetic Fields Are Components of the Gauge-Invariant Relation
+
 In a chosen spacetime decomposition,
 
 $$F_{\mu\nu}$$
@@ -6426,13 +6775,14 @@ contains the familiar electric and magnetic fields,
 
 $$\mathbf{E}, \mathbf{B}.$$
 
-Thus Chapter 4\'s claim can now be sharpened. Electric and magnetic fields are not two independent primitive substances. They are frame-dependent physical components of one gauge-invariant electromagnetic field relation. Schematically:
+Thus Chapter 4's claim can now be sharpened. Electric and magnetic fields are not two independent primitive substances. They are frame-dependent physical components of one gauge-invariant electromagnetic field relation. Schematically:
 
 $$F_{\mu\nu}\overset{\text{frame~decomposition}}{\rightarrow}\left\{ \mathbf{E},\mathbf{B} \right\}.$$
 
 The physical frame matters to the decomposition. Gauge reference matters to the potential. The field tensor remains invariant under gauge transformation. These are distinct layers of physical representation.
 
 ### 8.17 Charge Now Has a Deeper Role in Gauge Transformation
+
 Chapter 2 introduced
 
 $$q = \sigma \mid q \mid$$
@@ -6456,6 +6806,7 @@ $${sgn}q \rightarrow \text{orientation~of~coupling~to~the~gauge~connection}\text
 The gauge theory does not derive that orientation from nothing. It represents an orientation already carried by the charge coupling.
 
 ### 8.18 Charge Magnitude Is the Strength of the Representation Coupling
+
 Likewise,
 
 $$\mid q \mid$$
@@ -6471,6 +6822,7 @@ $$\mid q \mid = e,$$
 charge quantization, or the Standard Model charge spectrum. Those remain quantitative physical problems.
 
 ### 8.19 Gauge Symmetry Does Not Create Charge
+
 The causal order should again remain clear. It would be an error to argue:
 
 $$U(1) \rightarrow q.$$
@@ -6482,7 +6834,8 @@ $$\text{retained~orientation~coupling} \rightarrow q \rightarrow \text{gauge~rep
 Gauge symmetry constrains the physical theory of charge. It does not need to be the primitive source of charge.
 
 ### 8.20 Gauge Invariance and Charge Conservation Become Closely Related
-Conventional field theory connects continuous phase symmetry to a conserved current. For a matter field with global $U(1)$ symmetry, Noether\'s theorem gives a conserved current
+
+Conventional field theory connects continuous phase symmetry to a conserved current. For a matter field with global $U(1)$ symmetry, Noether's theorem gives a conserved current
 
 $$j^{\mu}$$
 
@@ -6494,13 +6847,14 @@ The corresponding conserved charge is
 
 $$Q = \int_{}j^{0}\text{ }d^{3}x.$$
 
-R²D does not derive Noether\'s theorem from recursive counting. But the physical result fits the retained-orientation interpretation naturally. If charge reads a persistent orientation-sensitive coupling class, then admissible physical transformations should preserve the relevant net classification unless a physical process changes the enclosing charge domain. Thus:
+R²D does not derive Noether's theorem from recursive counting. But the physical result fits the retained-orientation interpretation naturally. If charge reads a persistent orientation-sensitive coupling class, then admissible physical transformations should preserve the relevant net classification unless a physical process changes the enclosing charge domain. Thus:
 
 $$\text{gauge~invariance} \leftrightarrow \text{preservation~of~physical~charge~classification}$$
 
 is exactly the relationship one should expect. The quantitative conservation law remains a theorem of the physical gauge theory.
 
 ### 8.21 Charge Conservation Is Not Mere Particle Conservation
+
 This distinction matters because particle number can change. A charged particle and antiparticle can be created or annihilated while total charge remains conserved. Therefore:
 
 $$\text{charge~conservation} \neq \text{particle-number~conservation}\text{.}$$
@@ -6508,6 +6862,7 @@ $$\text{charge~conservation} \neq \text{particle-number~conservation}\text{.}$$
 This strongly supports treating charge as a deeper relational classification than the identity of a particular projected particle. The particle is a readable occurrence-count object. Charge is a retained orientation-sensitive coupling associated with the state. The two can be reorganized without the net oriented coupling disappearing.
 
 ### 8.22 Neutrality Is Gauge-Compatible Orientation Cancellation
+
 For an enclosing boundary with charges
 
 $$q_{\alpha},$$
@@ -6523,6 +6878,7 @@ $$\text{local~gauge-coupled~structure} \not\Rightarrow \text{nonzero~enclosing~c
 Again, subordinate orientation can remain physically consequential after the leading enclosing orientation cancels.
 
 ### 8.23 The Electromagnetic Potential Can Be Physical Without Being Gauge Invariant
+
 The gauge potential
 
 $$A_{\mu}$$
@@ -6538,24 +6894,27 @@ $$\text{gauge-dependent~coordinate} \not\Rightarrow \text{physically~irrelevant~
 The connection can contain essential relational information without being primitive ontology.
 
 ### 8.24 Closed-Loop Gauge Relations Are Especially Natural in R²D
+
 The Aharonov-Bohm structure is particularly interesting because the physically consequential relation is associated with closure. Local values of the connection depend upon gauge. But a closed-loop relational quantity can remain invariant. This resembles the R²D distinction: local representation can vary while $\text{closed count relation remains invariant. }$The two formalisms should not be identified term by term.
 
 A Wilson loop is not automatically an R²D closure. But the conceptual architecture is closely aligned. Local coordinate freedom does not eliminate invariant relational structure around closure.
 
 ### 8.25 Gauge Invariance Is Therefore Not Mere Relabeling
+
 A gauge transformation is more structured than changing the name of an axis. Once the reference is allowed to vary locally, maintaining physical equivalence requires:
 
--   a transformation rule for the matter field;
+- a transformation rule for the matter field;
 
--   a transformation rule for the connection;
+- a transformation rule for the connection;
 
--   a covariant derivative;
+- a covariant derivative;
 
--   gauge-invariant relational quantities.
+- gauge-invariant relational quantities.
 
 The redundancy is constrained. Not every arbitrary mathematical alteration describes the same physics. Gauge invariance is therefore a precise physical symmetry of representation. R²D interprets its existence as evidence that the visible coordinates are not themselves the invariant state structure.
 
 ### 8.26 Gauge Theory Is the Mathematics of Comparing Equivalent Local Reads
+
 This gives the gauge connection a simple conceptual definition. Different local observers---or different local coordinate conventions---may use different phase references. Physics must nevertheless compare their reads. The connection supplies the rule for performing that comparison without allowing arbitrary reference choice to contaminate physical differences. Thus:
 
 $$\text{gauge~connection} = \text{the~projected~rule~for~comparing~locally~different~representations~of~one~invariant~physical~rel}\text{ation.}$$
@@ -6563,6 +6922,7 @@ $$\text{gauge~connection} = \text{the~projected~rule~for~comparing~locally~diffe
 This makes gauge theory a theory of **relational readability**. The underlying counting structure determines what must remain physically equivalent.
 
 ### 8.27 Gauge Fields Are a Special Case of the Field Projection Developed Earlier
+
 Chapter 4 defined a field broadly as the physical read of a shared enclosing relation. Gauge theory now refines the electromagnetic case. The enclosing EM relation must be represented consistently when the quantum phase reference varies locally. That requirement produces the gauge connection
 
 $$A_{\mu}.$$
@@ -6582,6 +6942,7 @@ $$\text{local~phase-reference~freedom} \rightarrow \text{gauge~connection}\text{
 The two meet in electromagnetism. The field is relational. The connection makes that relation locally comparable.
 
 ### 8.28 Radiation Must Be Gauge Invariant
+
 Chapter 6 defined electromagnetic radiation as recurrent occurrence within an enclosing EM background. Its physical field representation uses
 
 $$A_{\mu}, F_{\mu\nu}, \mathbf{E}, \mathbf{B}.$$
@@ -6599,6 +6960,7 @@ $$\mathbf{S} = \frac{1}{\mu_{0}}\mathbf{E} \times \mathbf{B}.$$
 Thus, gauage choice changes representation while radiative occurrence remains physical. This is exactly the counting-invariance principle in a measurable physical system.
 
 ### 8.29 A Photon Is Gauge-Invariant Count, Not a Gauge Coordinate
+
 The photon projection counts electromagnetic occurrences. Gauge choice must not change how many physical radiative occurrences a detector records. Thus, particle count belongs to the invariant physical read. The gauge potential belongs to the representation used to describe the relational structure of those occurrences. This sharpens the distinction among the three quantum reads:
 
 $$\begin{matrix}
@@ -6610,6 +6972,7 @@ $$\begin{matrix}
 Gauge freedom operates in the representation. The detector count remains invariant.
 
 ### 8.30 Gauge Invariance Explains Why Wavefunction Coordinates Cannot Be Primitive
+
 If
 
 $$\psi$$
@@ -6627,6 +6990,7 @@ This is strikingly similar to the quotient-state architecture of Part I. Boundar
 $$\text{many~representations} \rightarrow \text{one~physically~distinguishable~class}\text{.}$$
 
 ### 8.31 Gauge Equivalence Is a Physical Example of Quotienting
+
 This is perhaps the strongest connection to Part I. Part I defines macrostates by classifying multiple compatible microstate realizations into equivalence classes. The specific lower-level labels cease to possess independent boundary-level significance.
 
 Gauge theory performs an analogous operation at the level of physical representation. Different mathematical configurations related by gauge transformation are classified as one physical state. Thus:
@@ -6638,6 +7002,7 @@ This does not mean gauge equivalence *is* the Part I macrostate map. It means th
 That is exactly what R²D predicts should happen.
 
 ### 8.32 The Counting Structure Is Therefore More Primitive Than Gauge Choice
+
 The hierarchy is now:
 
 $${\text{boundary-defined~count~structure}
@@ -6649,6 +7014,7 @@ $${\text{boundary-defined~count~structure}
 Gauge transformations move within the bottom level. They do not alter the top. This is why the gauge field cannot be the mathematical glue of the deepest ontology. Gauge theory begins after the physical state architecture already exists. Recursive counting begins before it.
 
 ### 8.33 Gauge Invariance Reveals Why Physical Law Can Be More Constrained Than Physical Coordinates
+
 One of the striking features of gauge theory is that insisting on local gauge invariance strongly constrains the form of admissible physical equations. This can make symmetry appear almost generative. R²D gives a different explanation.
 
 If multiple coordinate descriptions correspond to the same underlying count structure, then a valid physical law must give the same observable result for all of them. A law that depended upon arbitrary gauge reference would distinguish states that the underlying physical classification treats as equivalent. Such a law would be inadmissible. Thus:
@@ -6658,6 +7024,7 @@ $$\text{same~count~structure} \Rightarrow \text{same~physical~prediction}\text{.
 Gauge symmetry is powerful because it expresses a deeper equivalence constraint.
 
 ### 8.34 The Symmetry Constrains the Projection; It Does Not Push the System
+
 This distinction parallels the treatment of multiplicity throughout R²D. Multiplicity organizes possible realization without mechanically pushing a component. Gauge symmetry constrains admissible physical representation without mechanically pushing the state. Thus:
 
 $$\text{gauge~symmetry} \neq \text{physical~force}\text{.}$$
@@ -6669,6 +7036,7 @@ $$F^{\mu} = qF^{\mu\nu}u_{\nu}.$$
 But the invariance itself is not a force.
 
 ### 8.35 Gauge Invariance Is Why Entropy and Multiplicity Can Remain Invisible
+
 We can now return to the central Part I observation. The R²D law contains no explicit multiplicity term
 
 $$W$$
@@ -6684,6 +7052,7 @@ Gauge theory gives a familiar physical example of this kind of hidden structure.
 This is the deeper connection between gauge invariance and the hidden structure of Part I.
 
 ### 8.36 Gauge Invariance Is the Visible Shadow of Invisible Counting
+
 The relationship can now be summarized:
 
 $$\left\{ W_{n,i} \right\}$$
@@ -6699,6 +7068,7 @@ $$X^{'}$$
 can represent the same state when they preserve the same underlying classification. Gauge theory formalizes one important class of such transformations. Thus, gauge invariance is the visible mathematical shadow of invariant invisible counting structure. The field transforms. The phase reference transforms. The potential transforms. The physical count relation does not.
 
 ### 8.37 Gauge Invariance Is Not Unique to Electromagnetism
+
 Electromagnetic $U(1)$ is the cleanest example because its physical interpretation is familiar. But the general R²D principle is broader. Whenever a physical coordinate contains representational freedom that does not change the underlying boundary-defined state, one obtains an invariance class. Thus, the primitive statement is not:
 
 $$U(1)\text{~is~fundamental}\text{.}$$
@@ -6706,6 +7076,7 @@ $$U(1)\text{~is~fundamental}\text{.}$$
 It is: physical projections must be invariant under changes of representation that leave the boundary-defined count structure unchanged. Which transformation groups realize that condition depends upon the physical state architecture being represented.
 
 ### 8.38 Non-Abelian Gauge Structure Is a Future Counting Problem
+
 The Standard Model contains gauge structures more complicated than $U(1)$, including
 
 $$SU(2)$$
@@ -6721,6 +7092,7 @@ R²D has not derived these groups. But the current framework turns their origin 
 Until that derivation exists, $SU(2)$ and $SU(3)$ remain empirical structures the counting theory must eventually explain.
 
 ### 8.39 Charge Orientation May Be the Simplest Internal Gauge Distinction
+
 The result of Chapter 2 now takes on greater importance. The minimal retained orientation class
 
 $$\sigma = \pm 1$$
@@ -6736,6 +7108,7 @@ then determines the orientation with which the state responds to the electromagn
 The particle comes later. The retained orientation comes first.
 
 ### 8.40 Two-Dimensional Closure Remains a Physical Mapping Hypothesis
+
 The gauge representation also keeps alive the possibility developed in Chapter 2. A cyclic phase naturally has two orientations. The physical representation
 
 $$e^{i\phi}$$
@@ -6751,6 +7124,7 @@ $$\text{2D~geometry} \rightarrow \text{creation~of~charge}\text{.}$$
 Part I is pre-metric. The dimensional interpretation remains a Part IV physical mapping problem.
 
 ### 8.41 Gauge Theory and Gravity Now Separate Naturally
+
 Gravity and electromagnetism were parallel at the shared-field level. Gauge theory now reveals why their later mathematical developments differ. Electromagnetic coupling retains orientation:
 
 $$q = \sigma \mid q \mid .$$
@@ -6760,6 +7134,7 @@ Its physical recurrence is represented by phase. Local freedom in that phase ref
 Gravity instead becomes increasingly geometric through the areal boundary and tidal variation developed in Chapter 5. Thus, the divergence between gauge geometry and gravitational spacetime geometry occurs **after** their common shared-boundary origin. This is a much cleaner division than treating the two fields as unrelated primitives from the beginning.
 
 ### 8.42 Gauge Geometry Is Not Gravitational Geometry
+
 The common word *geometry* should not blur the distinction. Gauge theory uses a connection on an internal representation space. General relativity uses a metric and connection associated with spacetime geometry. R²D identifies neither with its primitive count boundary.
 
 Thus:
@@ -6777,6 +7152,7 @@ $$W, P, C, \Phi.$$
 They are different physical projection geometries arising when different count relations become unreadable.
 
 ### 8.43 Gauge Invariance Gives a General Definition of Projection Equivalence
+
 The chapter now permits a more general definition. Two physical descriptions
 
 $$X$$
@@ -6792,11 +7168,13 @@ $$X \sim_{B_{n}}X^{'}$$
 iff their difference changes no boundary-readable count distinction. Gauge-equivalent electromagnetic descriptions are one physical example. This definition may later prove useful beyond physics.
 
 ### 8.44 The Same Principle Appears Outside Fundamental Physics
+
 A market can be described in dollars or euros. A biological structure can be represented in different coordinate systems. A population can be indexed using different labels. Changing such representation need not change the underlying boundary-defined state. These examples are not gauge theories in the technical physical sense. But they demonstrate the broader principle: **representation may vary while count structure remains invariant**.
 
 Gauge theory is the unusually rigorous physical realization of a generic distinction between ontology and coordinates. This prepares the transition to the next chapter.
 
 ### 8.45 Principle — Counting Invariance
+
 **Principle -- Counting Invariance**
 
 At boundary $B_{n}$, the native multiplicities
@@ -6814,6 +7192,7 @@ $$S_{n,i}^{'} = S_{n,i}.$$
 Counting invariance is logically prior to any physical symmetry of representation.
 
 ### 8.46 Principle — Gauge Invariance Is Projected Counting Invariance
+
 **Principle -- Gauge Invariance Is Projected Counting Invariance**
 
 Gauge-related physical coordinate descriptions represent the same boundary-defined state and closure. Therefore:
@@ -6823,6 +7202,7 @@ $$\text{counting~invariance} \Rightarrow \text{closure~invariance} \Rightarrow \
 Gauge transformations alter the projected physical coordinates. They do not alter the invisible count structure those coordinates represent.
 
 ### 8.47 Principle — Reference Freedom
+
 **Principle -- Reference Freedom**
 
 Gauge symmetry contains both an invariant structure and a free reference. The invariant counting architecture determines why the physical state remains unchanged. The unobservable absolute reference determines why multiple coordinate descriptions are permitted. Thus:
@@ -6832,6 +7212,7 @@ $$\text{counting~invariance} + \text{unreadable~absolute~reference} \rightarrow 
 The reference explains the freedom. Counting explains the invariance.
 
 ### 8.48 Principle — Gauge Connection
+
 **Principle -- Gauge Connection**
 
 When gauge reference varies locally,
@@ -6845,6 +7226,7 @@ $$D_{\mu} = \partial_{\mu} + \frac{iq}{\hslash}A_{\mu}.$$
 The connection transforms so that the covariant derivative preserves the physical equivalence class. The connection preserves comparison. It does not create the invariant count structure.
 
 ### 8.49 Principle — Charge as Oriented Gauge Coupling
+
 **Principle -- Charge as Oriented Gauge Coupling**
 
 The electromagnetic coupling has the form
@@ -6856,6 +7238,7 @@ The sign $\sigma$ is the physical read of retained orientation. Within the gauge
 The magnitude $\mid q \mid$ determines coupling strength. Neither the elementary value nor charge quantization is derived by this principle.
 
 ### 8.50 Principle — Gauge Field as Projected Relational Geometry
+
 **Principle -- Gauge Field as Projected Relational Geometry**
 
 The electromagnetic potential
@@ -6877,6 +7260,7 @@ $$F_{\mu\nu} = \text{gauge-invariant~electromagnetic~relation}\text{,}$$
 Neither is the primitive R²D counting structure. Both are physical coordinates of its electromagnetic projection.
 
 ### 8.51 Corollary — Background Change Is Not Gauge Change
+
 Background is realized nondirectional count and can possess physical frame or scale reads. Changing it may change physical realization. Gauge transformation changes only the representation of the same physical state. Therefore:
 
 $$\text{background~transformation} \neq \text{gauge~transformation}\text{.}$$
@@ -6884,6 +7268,7 @@ $$\text{background~transformation} \neq \text{gauge~transformation}\text{.}$$
 This distinction prevents gauge freedom from being confused with the physical background developed in Chapters 3 and 6.
 
 ### 8.52 Corollary — Gauge Potentials Can Be Physically Consequential Without Being Primitive
+
 A reference-dependent gauge potential can affect gauge-invariant relational observables, as illustrated by closed-loop phase effects. Therefore:
 
 $$\text{not~gauge~invariant} \not\Rightarrow \text{physically~meaningless}\text{.}$$
@@ -6891,6 +7276,7 @@ $$\text{not~gauge~invariant} \not\Rightarrow \text{physically~meaningless}\text{
 It means only that the potential itself contains representational freedom. The physically meaningful content lies in relations invariant under that freedom.
 
 ### 8.53 Corollary — Gauge Symmetry Constrains Physical Law
+
 If two representations correspond to the same underlying count state, a physically admissible law must make identical observable predictions for both.Therefore:
 
 $$X \sim X^{'}\mathcal{\Rightarrow O}(X)\mathcal{= O}\left( X^{'} \right)$$
@@ -6900,6 +7286,7 @@ for every physical observable $\mathcal{O}$.
 Gauge symmetry is consequently a powerful constraint on projected physical law. It is not itself a mechanical cause.
 
 ### 8.54 Corollary — Gauge Invariance Does Not Derive the Standard Model
+
 The present counting argument establishes why physical coordinate redundancy and invariant relational structure are natural. It does not derive
 
 $$SU(3) \times SU(2) \times U(1),$$
@@ -6907,9 +7294,10 @@ $$SU(3) \times SU(2) \times U(1),$$
 the Standard Model charge assignments, the observed coupling constants, or spontaneous symmetry breaking. Those structures remain quantitative tests for a future extension of the R2D mapping.
 
 ### 8.55 What Has Been Established
+
 Gauge invariance appears late in Part IV because it requires something to already exist that can remain invariant. That invariant is not the gauge field. It is not the phase coordinate. It is not background. It is the boundary-defined counting structure.
 
-Part I establishes recursive multiplicity as the hidden mathematical structure within which all later realization relations are defined. Multiplicity determines what states are distinguishable and how many compatible realizations belong to them. Entropy is its logarithmic coordinate. Neither has to appear as another physical object inside the law because both are already part of the mathematics defining the state domain.  This produces the fundamental relation:
+Part I establishes recursive multiplicity as the hidden mathematical structure within which all later realization relations are defined. Multiplicity determines what states are distinguishable and how many compatible realizations belong to them. Entropy is its logarithmic coordinate. Neither has to appear as another physical object inside the law because both are already part of the mathematics defining the state domain. This produces the fundamental relation:
 
 $$\text{counting~invariance} \Rightarrow \text{closure~invariance}\text{.}$$
 
@@ -6962,7 +7350,9 @@ And the deeper lesson extends beyond gauge theory. Particles, fields, phase, geo
 Part IV can therefore now leave fundamental physics briefly and ask whether projection is a peculiarity of physics---or a general consequence of boundary-relative realization.
 
 ## Chapter 9 — Beyond Physics: Objects, Fields, and Effective Causes
+
 ### 9.1 Projection Is Not a Peculiarity of Physics
+
 The preceding chapters have used the language of physics because physics makes projection unusually formal. Mass is measured. Charge is measured. Fields are represented mathematically. Radiation propagates. Quantum occurrences are counted. Gauge-equivalent descriptions can be identified exactly. But none of the logic that produced projection began with physics. It began with a boundary.
 
 At boundary $B_{n}$, compatible realizations are classified into readable macrostates. Their multiplicities define a possible-count structure. An enclosing boundary classifies compatible joint realizations of its subordinate peers into a new state domain. Therefore, the central relation
@@ -6979,20 +7369,22 @@ does not depend upon whether the subordinate boundaries are interpreted physical
 
 4.  causal agency is then reassigned to the readable objects or interactions.
 
-Part I already makes this claim explicitly. Its primitive-object projection includes particles, molecules, cells, organisms, and agents, while primitive-interaction and primitive-organizing-structure projections arise when their enclosing relation is omitted.  Physics is not the exception. It is simply the domain in which the projected mathematics has become most exact.
+Part I already makes this claim explicitly. Its primitive-object projection includes particles, molecules, cells, organisms, and agents, while primitive-interaction and primitive-organizing-structure projections arise when their enclosing relation is omitted. Physics is not the exception. It is simply the domain in which the projected mathematics has become most exact.
 
 ### 9.2 Boundary-Relative Objects Exist in Every Scientific Domain
+
 A physical particle is a readable object. So is a molecule. So is a protein conformation. So is a cell. So is an organism. So, under an appropriate boundary definition, is an economic agent or institution.
 
 R²D does not deny any of them. At the relevant boundary, an object is a legitimate macrostate distinction. The restriction is only:
 
 $$\text{object~at~}B_{n} \not\Rightarrow \text{primitive~object~at~every~boundary}\text{.}$$
 
-An object\'s identity depends upon the count domain in which its distinguishing properties are defined. When the boundary changes, the same subordinate realization may contribute to a new multiplicity structure without retaining the same readable state identity. Thus, objecthood is real; objecthood is boundary indexed.
+An object's identity depends upon the count domain in which its distinguishing properties are defined. When the boundary changes, the same subordinate realization may contribute to a new multiplicity structure without retaining the same readable state identity. Thus, objecthood is real; objecthood is boundary indexed.
 
 This is as important for biology as it was for particles.
 
 ### 9.3 A Component Is Not a Primitive Building Block
+
 Scientific explanation often begins by decomposing a larger system into components. A muscle contains myosin. A cell contains proteins. An organism contains cells. A market contains traders. The decomposition is useful. The error begins when the components are treated as primitively complete objects whose independent actions must somehow generate the larger multiplicity structure from below.
 
 R2D reverses the order. At $B_{n}$, the larger state is defined by its own classification of compatible subordinate realizations. Its multiplicity
@@ -7002,11 +7394,12 @@ $$W_{n,i}$$
 exists as possible-count structure before any one particular subordinate occupancy realizes it. Therefore, components realize multiplicity structure; they do not create multiplicity structure. A component is one locally readable realization of a relation defined at a boundary larger than itself.
 
 ### 9.4 Mechanism and Structure Are Different Questions
+
 This distinction does not eliminate mechanism. Suppose a macrostate transition at $B_{n}$ is realized through a particular sequence of subordinate events. Those events answer: **How did this transition occur?**
 
 They may be indispensable. Blocking them may prevent the transition. Changing them may change its kinetics. They are legitimate mechanisms. But a mechanism does not automatically answer: **Why was this realization directionally favored?**
 
-Part I separates these questions explicitly. The subordinate structure supplies the local realization. The enclosing structure supplies the direction under which that realization occurs.  Thus:
+Part I separates these questions explicitly. The subordinate structure supplies the local realization. The enclosing structure supplies the direction under which that realization occurs. Thus:
 
 $$\text{mechanism} = \text{how}\text{,}$$
 
@@ -7017,6 +7410,7 @@ $$\text{enclosing~asymmetry} = \text{why~this~direction~rather~than~its~alternat
 Confusing these two questions is one of the most common forms of projection.
 
 ### 9.5 Effective Cause Is Not the Same as Primitive Cause
+
 A local mechanism can nevertheless be causal in a perfectly legitimate sense. If removing component $a$ prevents a transition, then component $a$ is an effective cause relative to the local description. R²D does not forbid such language. It distinguishes **effective causality** from **primitive causal organization**. Let
 
 $$X_{a}$$
@@ -7046,34 +7440,36 @@ $$\text{effective~cause} \neq \text{primitive~source~of~organization}\text{.}$$
 The two descriptions answer different questions.
 
 ### 9.6 Stable Correlation Produces Effective Law
+
 Suppose the enclosing relation remains stable. Then subordinate peers repeatedly realize compatible states. Their local correlations become reproducible. An observer can therefore infer a relation such as
 
 $$Y = f(X)$$
 
 without ever representing the enclosing boundary that organizes both.
 
-That equation can be highly predictive. This is exactly why projected theories can work. Part I emphasizes that stable enclosing compatibility produces stable subordinate correlations and that a theory written entirely in terms of those correlations can remain highly predictive after the enclosing causal relation has been omitted.  Thus:
+That equation can be highly predictive. This is exactly why projected theories can work. Part I emphasizes that stable enclosing compatibility produces stable subordinate correlations and that a theory written entirely in terms of those correlations can remain highly predictive after the enclosing causal relation has been omitted. Thus:
 
 $$\text{stable~enclosing~organization} \rightarrow \text{stable~effective~law}\text{.}$$
 
-The law\'s predictive success establishes the correlation. It does not by itself establish the most primitive direction of causal explanation.
+The law's predictive success establishes the correlation. It does not by itself establish the most primitive direction of causal explanation.
 
 ### 9.7 Biology Makes the Distinction Unusually Visible
+
 Biology is particularly useful because multiple adjacent boundaries can often be measured at once. In muscle, one can read:
 
--   molecular structural states;
+- molecular structural states;
 
--   nucleotide chemistry;
+- nucleotide chemistry;
 
--   ensemble occupancy;
+- ensemble occupancy;
 
--   mechanical force;
+- mechanical force;
 
--   length change;
+- length change;
 
--   biochemical regeneration;
+- biochemical regeneration;
 
--   organism-level function.
+- organism-level function.
 
 The complete recursive relation is therefore less hidden than it is in fundamental physics. A myosin molecule changes conformation. That conformational transition is a mechanism of contraction. But the protein does not contain, as a primitive intrinsic property, the complete directional relation under which muscle contracts. Its directional occupancy depends upon enclosing chemical and mechanical conditions. Thus:
 
@@ -7086,13 +7482,14 @@ $$\text{enclosing~biochemical/mechanical~relation} = \text{directional~organizat
 The component is causal. It is not causally complete.
 
 ### 9.8 Muscle Exposes the Projection Error Directly
+
 Consider the familiar mechanical description:
 
 $$\text{myosin~pulls~actin}.$$
 
 At one observational boundary this is entirely reasonable. A myosin conformational transition correlates with a mechanical displacement. The local event can be experimentally manipulated. Its absence changes contraction. It is a real mechanism.
 
-But the phrase can silently add another claim: the myosin molecule is the primitive source of the directional work. That does not follow. The molecule\'s structural asymmetry is itself realized under an enclosing nucleotide relation. The nucleotide relation is maintained by still larger metabolic relations.
+But the phrase can silently add another claim: the myosin molecule is the primitive source of the directional work. That does not follow. The molecule's structural asymmetry is itself realized under an enclosing nucleotide relation. The nucleotide relation is maintained by still larger metabolic relations.
 
 Part I uses precisely this biological hierarchy to illustrate external asymmetry and recursive causal agency. Thus, the more complete causal architecture is:
 
@@ -7101,6 +7498,7 @@ $$\text{enclosing~possibility~and~constraint} \Rightarrow \text{myosin~occupancy
 The phrase "myosin pulls actin" is an effective projection. The error would be treating it as the end of causal explanation.
 
 ### 9.9 The Question "Why?" Moves Outward
+
 The biological hierarchy exposes a general pattern. Ask why a myosin switch is directionally biased. The answer lies in its nucleotide environment. Ask why that nucleotide relation is sustained. The answer moves to proton gradients and metabolic organization. Ask why those gradients are maintained. The answer moves to larger cellular and organismal relations. Ask why those relations persist. The relevant boundary expands again into environmental and ultimately radiative relations. Thus:
 
 $$\text{how?} \rightarrow \text{subordinate~mechanism}\text{,}$$
@@ -7114,6 +7512,7 @@ moves toward an enclosing boundary.
 This does not imply an infinite regress of physical substances. It reflects the recursive origin of asymmetry.
 
 ### 9.10 No Local Mechanism Defines Its Own Directional Zero
+
 Chapter 3 established the same principle for motion. A local directional state cannot define its own zero. Biological mechanisms have the same problem. A protein with two conformations can define
 
 $$A$$
@@ -7129,7 +7528,8 @@ $$\text{local~alternatives} \neq \text{directional~asymmetry}\text{.}$$
 A mechanism supplies the alternatives through which asymmetry is realized. It does not need to contain its own directional source.
 
 ### 9.11 Chemical Mechanisms Have the Same Architecture
-Chemistry usually describes reactions through molecular mechanisms. Reactants collide. Bonds rearrange. Transition states are crossed. Products appear. These mechanisms are indispensable. But the reaction mechanism and the reaction\'s thermodynamic direction are different questions.
+
+Chemistry usually describes reactions through molecular mechanisms. Reactants collide. Bonds rearrange. Transition states are crossed. Products appear. These mechanisms are indispensable. But the reaction mechanism and the reaction's thermodynamic direction are different questions.
 
 A local molecular path explains how one realization occurs. The thermodynamic environment determines which macroscopic direction is favored under the specified constraints. Schematically:
 
@@ -7142,6 +7542,7 @@ $$\text{thermodynamic~asymmetry} = \text{directional~physical~read}\text{.}$$
 R²D does not replace chemical kinetics. It explains why a kinetic pathway need not be the primitive origin of its own thermodynamic direction.
 
 ### 9.12 Catalysis Makes the Difference Especially Clear
+
 A catalyst can dramatically alter reaction rate while leaving the equilibrium relation unchanged. That familiar chemical fact cleanly separates mechanism from direction. The catalyst changes:
 
 $$\text{how~rapidly~local~realizations~occur}\text{.}$$
@@ -7153,6 +7554,7 @@ $$\text{which~equilibrium~relation~is~thermodynamically~favored}\text{.}$$
 In R²D language, local realization structure and enclosing directional organization are separable. This is precisely the distinction required by the recursive architecture. The catalyst is a powerful effective cause of kinetics. It is not automatically the source of the enclosing asymmetry.
 
 ### 9.13 Structural Biology Is Full of Boundary-Relative Objects
+
 A protein is one object at one boundary. At a smaller boundary it is a multiplicity of residues, atoms, and electronic relations. At a larger boundary it may become one state variable in a molecular complex. At a still larger boundary it may contribute to one cellular phenotype. Thus, protein is neither illusory nor primitive. It is a stable boundary-relative object.
 
 The same applies to:
@@ -7162,6 +7564,7 @@ $$\text{organelle}, \text{cell}, \text{tissue}, \text{organ}, \text{organism}.$$
 Each is real where its distinctions are readable. Each can become recursively replaced when the count domain changes.
 
 ### 9.14 Stability Does Not Make an Object Primitive
+
 A rock persists. A protein can remain folded. A cell can maintain its identity. An organism can survive for decades. Persistent identity can therefore make an object appear ontologically fundamental. But persistence only means that the boundary classification remains stable over the relevant observation interval. Thus:
 
 $$\text{long-lived} \not\Rightarrow \text{primitive}\text{.}$$
@@ -7169,6 +7572,7 @@ $$\text{long-lived} \not\Rightarrow \text{primitive}\text{.}$$
 A stable macrostate can be extraordinarily persistent while still being recursively realized. Object permanence is a statement about closure and retention at a boundary. It is not evidence that the object has boundary-independent existence.
 
 ### 9.15 Organisms Are Especially Strong Boundary Objects
+
 An organism provides a useful example because it maintains a highly coherent boundary over time. Material passes through it. Molecules are replaced. Cells divide. Proteins turn over. Yet the organism can remain a readable macroscopic identity.
 
 This is difficult to reconcile with an ontology in which identity simply resides in the persistence of particular subordinate components. It is straightforward if identity belongs to the boundary-defined organization. Thus:
@@ -7178,6 +7582,7 @@ $$\text{component~replacement} \not\Rightarrow \text{loss~of~enclosing~identity}
 The organismal boundary retains the classification even while many subordinate realizations change. This is recursive replacement made physically obvious.
 
 ### 9.16 Organization Can Be More Stable Than Its Components
+
 This produces a general principle. Let
 
 $$B_{n + 1}$$
@@ -7195,6 +7600,7 @@ need not be paradoxical.
 The larger state is not reconstructed from a permanent list of component identities. It is repeatedly realized by compatible subordinate states. This is one reason biological organization can survive molecular turnover.
 
 ### 9.17 Top-Down Causation Requires No Extra Force
+
 The phrase *top-down causation* can sound metaphysical if one assumes that only local forces can be causal. R²D gives it a precise meaning. The enclosing boundary defines the compatibility relation within which subordinate realizations occur:
 
 $$B_{n + 1} \Rightarrow \left\{ B_{n,\alpha} \right\}$$
@@ -7204,6 +7610,7 @@ No mysterious force has to descend from an abstract whole. The larger boundary c
 The local components still physically realize every event. What they do not supply alone is the full admissibility and directional structure.
 
 ### 9.18 Bottom-Up Realization Remains Necessary
+
 The opposite error should also be avoided. If enclosing organization is causally prior, subordinate realization does not become irrelevant. An organism cannot contract without molecular events. A market cannot change price without trades or orders. An institution cannot act without people carrying out actions. Thus:
 
 $$\text{enclosing~organization} \not\Rightarrow \text{realization~without~components}\text{.}$$
@@ -7215,6 +7622,7 @@ $$\text{enclosing~structure~defines~compatible~realization}; \text{subordinate~e
 Top-down organization and bottom-up realization are not competing causal doctrines. They refer to different positions in one recursive relation.
 
 ### 9.19 "Emergence" Can Be Made More Precise
+
 The word *emergence* is often used when a larger-scale property cannot easily be read from its components. R²D provides a more exact statement. A new macrostate domain appears when an enclosing boundary defines a new classification
 
 $$\pi_{n + 1}.$$
@@ -7224,28 +7632,30 @@ Its states are not simply the subordinate states renamed. They are equivalence c
 Emergence is therefore not merely ignorance of microscopic detail. It reflects recursive replacement of state identity.
 
 ### 9.20 Recursive Replacement Is Stronger Than Coarse Graining
+
 Ordinary coarse graining assumes that a fully specified fine-grained state remains underneath the larger description. The observer simply declines to resolve it. R²D makes a stronger claim.
 
-A state defined at the subordinate boundary does not automatically remain the same kind of state at the enclosing boundary. Its identity changes with the count domain. Part I explicitly distinguishes recursive replacement from ordinary coarse graining for this reason.  Thus:
+A state defined at the subordinate boundary does not automatically remain the same kind of state at the enclosing boundary. Its identity changes with the count domain. Part I explicitly distinguishes recursive replacement from ordinary coarse graining for this reason. Thus:
 
 $$\text{emergence} \neq \text{~information~loss}..$$
 
 A new boundary introduces a new state classification. That is an ontological change in count meaning, not just a practical loss of detail.
 
 ### 9.21 Effective Fields Appear Outside Physics Too
+
 Physics uses the word *field* in a technically precise way. Other sciences use analogous organizing coordinates:
 
--   concentration fields;
+- concentration fields;
 
--   chemical potentials;
+- chemical potentials;
 
--   morphogen gradients;
+- morphogen gradients;
 
--   population-level fitness landscapes;
+- population-level fitness landscapes;
 
--   price surfaces;
+- price surfaces;
 
--   institutional constraints.
+- institutional constraints.
 
 These should not all be identified with physical gauge or gravitational fields. Their domain equations differ. But structurally they can occupy the same projection position: distributed readable representation of an enclosing relation.
 
@@ -7256,15 +7666,16 @@ It is: when an enclosing relation is omitted, science often represents its distr
 Physics calls several such coordinates fields. Other disciplines use different names.
 
 ### 9.22 A Biological Landscape Is Not Necessarily a Primitive Cause
+
 Biology frequently represents state organization through landscapes:
 
--   folding landscapes;
+- folding landscapes;
 
--   fitness landscapes;
+- fitness landscapes;
 
--   developmental landscapes;
+- developmental landscapes;
 
--   energetic landscapes.
+- energetic landscapes.
 
 Such representations can be extraordinarily useful. R²D does not reject them. But the same projection caution applies.
 
@@ -7279,6 +7690,7 @@ $$\text{primitive~physical~agent}\text{.}$$
 The system realizes the landscape through actual subordinate occurrences.
 
 ### 9.23 The Fitness Landscape Provides a Clear Example
+
 Consider a population of organisms. A fitness landscape assigns different reproductive outcomes to different phenotypic or genotypic states under a specified environment. The local organism realizes reproduction through molecular and physiological mechanisms. But the relative reproductive success of different organismal states depends upon an enclosing population-environment relation. Thus:
 
 $$\text{organismal~mechanism} = \text{local~realization}\text{.}$$
@@ -7290,6 +7702,7 @@ $$\text{selection~relation} = \text{enclosing~differential~compatibility}\text{.
 The fitness landscape can represent that relation. It need not be a primitive force acting on genes. This does not replace evolutionary theory. It clarifies the boundary at which its causal variables are defined.
 
 ### 9.24 Selection Is a Boundary-Level Classification
+
 A phenotype can be viable in one environment and nonviable in another. Nothing intrinsic to the local phenotype alone determines the complete selection relation. The difference appears because the enclosing compatibility has changed. Schematically:
 
 $$B_{\text{organism}} + B_{\text{environment}} \rightarrow B_{\text{selection~relation}}.$$
@@ -7301,7 +7714,8 @@ $$\text{local~state} + \text{unequal~enclosing~compatibility} \rightarrow \text{
 Biological selection therefore makes the same recursive logic visible on a much larger scale.
 
 ### 9.25 Agency Is Also Boundary Relative
-Human and animal behavior introduces another apparent causal primitive: the agent. At the organismal boundary, agency is real. An organism distinguishes alternatives, acts, and changes its environment. But the organism\'s actions are themselves realized through subordinate neural, biochemical, and mechanical states.
+
+Human and animal behavior introduces another apparent causal primitive: the agent. At the organismal boundary, agency is real. An organism distinguishes alternatives, acts, and changes its environment. But the organism's actions are themselves realized through subordinate neural, biochemical, and mechanical states.
 
 At larger boundaries, multiple agents participate in collective relations whose state structure no individual fully contains. Thus:
 
@@ -7310,6 +7724,7 @@ $$\text{agency~at~}B_{n} \not\Rightarrow \text{primitive~agency~at~}B_{n + 1}.$$
 This does not eliminate agency. It indexes it. An organism can be an effective cause at one boundary and a subordinate realization at another.
 
 ### 9.26 Markets Make the Same Recursive Error Easy to See
+
 Consider a market containing many agents:
 
 $$\left\{ B_{n,\alpha}^{agent} \right\}.$$
@@ -7327,6 +7742,7 @@ Once the market boundary is omitted, one may speak as though one trader "caused"
 Sometimes that effective description is useful. It does not mean one trader contained the entire state relation from which the market price was defined.
 
 ### 9.27 Price Is a Boundary-Level Coordinate
+
 A price does not exist in isolation inside a buyer or seller. It is meaningful only relative to an exchange relation. That makes it a particularly transparent boundary-level coordinate. A transaction at price
 
 $$p$$
@@ -7342,6 +7758,7 @@ $$p = \text{read~of~an~enclosing~exchange~relation}\text{.}$$
 R²D does not derive market dynamics or asset pricing from multiplicity alone. The example only demonstrates that relational variables routinely become reified as if they were properties residing inside local agents.
 
 ### 9.28 "Market Forces" Are Explicit Projection Language
+
 Economics even uses the word *force*. Supply pressure. Demand pressure. Market momentum. These phrases can be useful shorthand for persistent correlations among many agents. But they should not be confused with fundamental physical forces. Their conceptual role is revealing nonetheless.
 
 When distributed organizing relations are difficult to represent directly, science introduces effective coordinates that summarize their local consequences. Thus, effective field/force language can arise wherever an enclosing relation is represented through readable local consequences.
@@ -7349,6 +7766,7 @@ When distributed organizing relations are difficult to represent directly, scien
 The mathematics and ontology remain domain specific. The projection architecture is general.
 
 ### 9.29 Institutions Are Enclosing Compatibility Structures
+
 An institution provides an even clearer nonphysical example. A university, corporation, court, laboratory, or regulatory body defines which actions are admissible for its members. No one individual needs to carry the full institutional state. The institution persists while individuals enter and leave.
 
 Thus:
@@ -7358,6 +7776,7 @@ $$\text{institutional~identity} \neq \sum_{}\text{~of~persistent~individual~iden
 The institutional boundary defines a compatibility relation among subordinate actions. Individuals realize it locally. Rules, offices, contracts, and procedures are physical and informational structures through which that compatibility is maintained.
 
 ### 9.30 Institutional Causation Is Not Metaphorical
+
 Suppose an employee performs an action because a regulation requires it. One can trace the immediate physical realization through neurons, muscles, speech, keystrokes, and documents. None of those subordinate mechanisms contains the complete institutional reason why that action occurred. The institutional relation supplies the admissibility constraint. Thus:
 
 $$\text{institution} \Rightarrow \text{compatible~individual~action}$$
@@ -7367,6 +7786,7 @@ is a meaningful causal statement at the institutional boundary.
 No supernatural agency has been added. The causal relation is boundary-defined constraint. This is exactly the sense in which R²D uses enclosing causation.
 
 ### 9.31 Constraints Are Real Without Being Material Substances
+
 Across these examples, constraint repeatedly appears as causal without being a separate substance. A mechanical constraint can be a physical apparatus. A chemical constraint can be an environmental condition. A biological constraint can be tissue architecture. An institutional constraint can be a rule. Their physical implementations differ. What they share is relational form:
 
 $$constraint reduces or biases admissible realization.$$
@@ -7374,6 +7794,7 @@ $$constraint reduces or biases admissible realization.$$
 Thus, causal efficacy does not require every cause to be a locally conserved substance. A boundary relation can be causally effective by determining which realizations remain compatible.
 
 ### 9.32 Information Is Also a Projection Unless a Count Domain Is Specified
+
 The word *information* is often treated as foundational across many disciplines. R²D requires more precision. Information about what? Distinguished by which boundary? Counted over which state domain? Without these specifications, information can become another projected abstraction promoted to primitive ontology.
 
 R²D begins instead with actual distinguishability:
@@ -7387,13 +7808,15 @@ $$\text{information} = \text{possible~read~of~distinguishability},$$
 not the primitive source from which distinguishability itself must arise.
 
 ### 9.33 Probability Has the Same Status
-Part I makes the analogous point for probability. Multiplicity is possible count. Probability arises only after possible or realized counts are normalized against a selected total.  Therefore:
+
+Part I makes the analogous point for probability. Multiplicity is possible count. Probability arises only after possible or realized counts are normalized against a selected total. Therefore:
 
 $$\text{probability} \neq \text{primitive~possibility}\text{.}$$
 
 This matters beyond physics because probabilistic models are common in biology, economics, and social science. A probability distribution can be an excellent representation of readable outcomes. It does not automatically define the causal structure that generated the state domain over which it is normalized.
 
 ### 9.34 Statistical Models Are Especially Vulnerable to Causal Reification
+
 Suppose a statistical model finds
 
 $$P(Y \mid X).$$
@@ -7413,6 +7836,7 @@ $$\text{prediction} \neq \text{primitive~causal~identification}\text{.}$$
 R²D therefore aligns the problem of projection with a familiar distinction in causal inference, while placing it in a deeper boundary-defined ontology.
 
 ### 9.35 Reductionism Is Correct About Realization but Incomplete About Organization
+
 The recursive architecture allows a precise assessment of reductionism. Reductionism is correct that larger-scale events are locally realized through subordinate events. An organism cannot function without cells. A cell cannot function without molecular events. A molecule cannot change without subordinate physical realization. Thus:
 
 $$\text{subordinate~realization~is~necessary}\text{.}$$
@@ -7426,6 +7850,7 @@ That step does not follow. The enclosing boundary defines a new compatibility re
 $$\text{reduction~explains~realization}; \text{recursion~explains~organization}\text{.}$$
 
 ### 9.36 Holism Is Also Incomplete Without Local Realization
+
 The opposite doctrine is equally incomplete. Simply declaring that "the whole causes the parts" explains little unless the relation between whole and subordinate realization is defined. R²D supplies that relation through compatibility. The enclosing boundary does not act as an amorphous holistic substance. It defines the count domain in which compatible peer realizations constitute its states. Thus:
 
 $$\text{whole} \neq \text{mystical~additional~object}\text{.}$$
@@ -7433,6 +7858,7 @@ $$\text{whole} \neq \text{mystical~additional~object}\text{.}$$
 It is a higher-boundary classification. Local components remain necessary realizers.
 
 ### 9.37 R2D Therefore Replaces the Reductionism-Holism Opposition
+
 The two conventional positions emphasize opposite halves of one recursive relation. Reductionism sees:
 
 $$\text{subordinate~events} \rightarrow \text{larger~observable}\text{.}$$
@@ -7458,6 +7884,7 @@ $$\mathcal{C}_{n}\overset{\text{reclassification}}{\Rightarrow}\chi_{n + 1}.$$
 The apparent opposition disappears once these arrows are no longer treated as the same kind of relation.
 
 ### 9.38 Determinism Is a Horizontal Read of Stable Organization
+
 Part I describes deterministic correlation as the horizontal read of stable enclosing organization. If
 
 $$B_{n + 1}$$
@@ -7469,6 +7896,7 @@ $$\text{determinism} = \text{stable~peer~correlation~under~persistent~enclosing~
 This does not require every subordinate path to be individually predetermined in an absolute sense. The deterministic law describes the persistent relation readable at the selected boundary.
 
 ### 9.39 Coherence Is the Recursive Read of the Same Organization
+
 The same stable organization can also persist across boundary changes. Then a relation remains recognizable despite recursive replacement of subordinate identity. Part I calls this coherence. Thus:
 
 $$\begin{aligned}
@@ -7479,6 +7907,7 @@ $$\begin{aligned}
 These need not be separate fundamental principles. They are two readability directions of stable organization.
 
 ### 9.40 Effective Causes Are Therefore Boundary Dependent
+
 A variable can be causally powerful at one boundary and merely realizational at another. For example:
 
 $$\text{myosin~state}$$
@@ -7490,6 +7919,7 @@ $$\text{individual~trade}$$
 may be an effective cause of an immediate market move while being one subordinate realization of a much larger market state. Therefore, causal status is boundary indexed. There is no contradiction in saying that a quantity is a cause at one scale and not the primitive causal organizer at another.
 
 ### 9.41 This Prevents R2D From Erasing Conventional Science
+
 The distinction is essential. R²D does not require statements such as: molecules do not cause reactions; neurons do not cause behavior; traders do not affect markets; genes do not affect phenotypes. Those would simply reverse the same error. Local mechanisms are real and experimentally manipulable.
 
 R²D instead adds:
@@ -7499,23 +7929,24 @@ $$\text{local~causal~efficacy} \not\Rightarrow \text{complete~primitive~causal~s
 The conventional science remains valid at its boundary. The recursive account specifies the larger architecture in which its variables act.
 
 ### 9.42 Projection Is Therefore Productive
+
 Projection is not an unfortunate defect of human cognition. It is how finite science works. A boundary-specific observer cannot represent every adjacent recursive relation simultaneously. The observer therefore constructs variables from what remains readable. These variables can be:
 
--   objects;
+- objects;
 
--   mechanisms;
+- mechanisms;
 
--   forces;
+- forces;
 
--   fields;
+- fields;
 
--   landscapes;
+- landscapes;
 
--   agents;
+- agents;
 
--   institutions;
+- institutions;
 
--   probabilities.
+- probabilities.
 
 They compress recursive organization into manageable scientific coordinates. Thus:
 
@@ -7524,6 +7955,7 @@ $$\text{projection} = \text{a~necessary~compression~of~boundary-relative~readabi
 Science would be impossible without it. The problem is only forgetting that compression occurred.
 
 ### 9.43 Good Projection Preserves Relations
+
 A successful projection preserves the observable relations relevant to its boundary. Newtonian mechanics does this. Chemical kinetics does this. Population genetics does this. Economic models can do this within appropriate domains.
 
 A projection need not reproduce the full recursive ontology to be useful. Its quality is determined by how well it preserves the relations it is intended to describe. Thus:
@@ -7533,6 +7965,7 @@ $$\text{good~projection} = \text{accurate~preservation~of~readable~relation}\tex
 Ontological minimality and predictive usefulness are separate criteria.
 
 ### 9.44 Projection Fails When the Boundary Changes
+
 A model can work extremely well until the relevant count boundary changes. A local mechanical approximation can fail in a relativistic or quantum regime. A biochemical mechanism can fail to predict organismal behavior when larger regulatory constraints change. A market model calibrated under one institutional structure can fail after the rules change. This is expected. The projected variables were defined relative to a particular compatibility structure.
 
 When that structure changes,
@@ -7542,6 +7975,7 @@ $$\pi_{n} \rightarrow \pi_{n}^{'}$$
 the previous projection need not remain valid. Thus, abrupt model failure can sometimes indicate not merely parameter error but **boundary change**.
 
 ### 9.45 Structural Change Is Change of the Count Domain
+
 This gives structural change a precise meaning. Ordinary dynamics changes realized states within a fixed classification. Structural change modifies the classification itself. Thus:
 
 $$\text{dynamics}: i \rightarrow k\text{~within~fixed~}\pi_{n},$$
@@ -7553,6 +7987,7 @@ $$\text{structural~change}: \pi_{n} \rightarrow \pi_{n}^{'}.$$
 When the classification changes, the multiplicity structure changes. The old objects, mechanisms, or effective causes may no longer retain the same meanings. This is why genuinely structural transitions can be difficult to describe using equations calibrated entirely within the earlier regime.
 
 ### 9.46 Object Creation Can Be Structural Rather Than Material
+
 If a new boundary classification appears, a new kind of object can become readable. That does not necessarily mean new primitive substance has been created. It means a new state identity has become defined. Thus:
 
 $$\text{new~boundary} \rightarrow \text{new~object~class}\text{.}$$
@@ -7560,6 +7995,7 @@ $$\text{new~boundary} \rightarrow \text{new~object~class}\text{.}$$
 Biology is full of such transitions. A membrane can establish a new cellular boundary. A multicellular organization can establish a new organismal boundary. An institution can create a new role. The new object is real at the new boundary because a new distinction now exists there.
 
 ### 9.47 Object Destruction Can Likewise Be Recursive
+
 The reverse can also occur. If a boundary can no longer sustain its classification, its former macrostates cease to be readable as the same objects. The subordinate physical structures may remain. The larger object disappears. Thus:
 
 $$\text{loss~of~boundary} \rightarrow \text{loss~of~enclosing~object~identity}\text{.}$$
@@ -7567,6 +8003,7 @@ $$\text{loss~of~boundary} \rightarrow \text{loss~of~enclosing~object~identity}\t
 A dead organism can retain many molecules. A dissolved institution can leave the same people. A disassembled machine can retain all of its parts. What was lost is not necessarily the subordinate material. It is the enclosing count structure.
 
 ### 9.48 Life Is Therefore Not Reducible to a Particular Material Inventory
+
 This point is especially important for biology. Living organization continually exchanges matter and energy with its environment. Yet identity can persist. Therefore, the distinction between living and nonliving organization cannot reside simply in possession of a fixed list of primitive material components.
 
 R²D instead places the issue at the boundary: Can the enclosing recursive count structure continue to close and be realized?
@@ -7574,18 +8011,21 @@ R²D instead places the issue at the boundary: Can the enclosing recursive count
 This does not provide a complete theory of life. It identifies why inventory-based reduction is insufficient to define living organization.
 
 ### 9.49 The Same Architecture Applies to Scientific Observation
-An observer is also a boundary-defined system. Measurement creates a readable distinction at the observer or instrument boundary. The observer therefore never occupies a God\'s-eye position outside recursive counting. Every scientific description is produced from some boundary. Thus:
+
+An observer is also a boundary-defined system. Measurement creates a readable distinction at the observer or instrument boundary. The observer therefore never occupies a God's-eye position outside recursive counting. Every scientific description is produced from some boundary. Thus:
 
 $$\text{observation} = \text{boundary-relative~classification~of~realization}\text{.}$$
 
 This was already essential in the quantum chapter. Beyond physics, it becomes a general epistemic restriction. The observer always reads a projection.
 
 ### 9.50 There Is No View From No Boundary
+
 This produces one of the strongest consequences of the R²D architecture. A state has meaning only relative to a count boundary. Therefore, a complete description "from nowhere" is not merely difficult. It is undefined.
 
 There is no boundary-independent list of all objects carrying their identities unchanged through every scale. Thus, there is no view from no boundary. Science can move between boundaries. It can compare their projections. It can reconstruct recursive relations. But every readable statement remains indexed to some count domain.
 
 ### 9.51 Principle — Boundary-Relative Objecthood
+
 **Principle -- Boundary-Relative Objecthood**
 
 An object is a readable state distinction defined at a boundary. Its reality at that boundary does not imply persistent primitive identity across boundary changes. Thus:
@@ -7595,6 +8035,7 @@ $$\text{object~at~}B_{n} \not\Rightarrow \text{primitive~object~at~}B_{n + 1}.$$
 Particles, molecules, proteins, cells, organisms, and agents can all be real boundary-specific objects.
 
 ### 9.52 Principle — Mechanism and Direction
+
 **Principle -- Mechanism and Direction**
 
 Subordinate events provide the local mechanism by which an enclosing relation is realized. They do not necessarily supply the asymmetry that favors one realization over another. Thus:
@@ -7608,6 +8049,7 @@ $$\text{enclosing~relation} \rightarrow \text{why~this~direction}\text{.}$$
 Local mechanism and recursive causal organization are complementary rather than competing explanations.
 
 ### 9.53 Principle — Effective Causality
+
 **Principle -- Effective Causality**
 
 A readable local variable may be a genuine effective cause within the boundary where manipulating it changes a readable outcome. This does not imply that the variable is the primitive source of the enclosing organization under which that causal relation is realized. Therefore:
@@ -7617,6 +8059,7 @@ $$\text{effective~cause} \not\Rightarrow \text{primitive~cause}\text{.}$$
 Causal status is boundary indexed.
 
 ### 9.54 Principle — Recursive Organization
+
 **Principle -- Recursive Organization**
 
 At an enclosing boundary,
@@ -7630,6 +8073,7 @@ $$B_{n + 1} \Rightarrow \left\{ B_{n,\alpha} \right\}.$$
 This is top-down causal organization through compatibility. The subordinate boundaries remain the local realizers of the enclosing state. No additional nonlocal force is implied.
 
 ### 9.55 Principle — Emergence by Reclassification
+
 **Principle -- Emergence by Reclassification**
 
 A higher-order state is not merely a less detailed copy of a subordinate state. A new boundary introduces a new classification of compatible joint realizations. Therefore:
@@ -7639,6 +8083,7 @@ $$\text{emergence} = \text{new~state~identity~through~new~boundary~classificatio
 Recursive emergence is stronger than ordinary coarse graining because the count domain itself changes.
 
 ### 9.56 Principle — Effective Organizing Structures
+
 **Principle -- Effective Organizing Structures**
 
 When an enclosing relation is unreadable or omitted, science can represent its persistent subordinate consequences using an effective organizing structure. Depending on the domain, this may appear as:
@@ -7648,6 +8093,7 @@ $$\text{field}, \text{potential}, \text{landscape}, \text{price}, \text{fitness}
 or another domain-specific coordinate. These representations can be real and predictive. They become EP projection errors only when promoted from boundary-specific representations to primitive causal ontology.
 
 ### 9.57 Corollary — Reduction Explains Realization, Not Complete Organization
+
 Subordinate mechanisms are necessary for local realization. Therefore, reductionist analysis is indispensable. But the larger state domain is defined by an enclosing compatibility relation. Thus:
 
 $$\text{reduction} \rightarrow \text{realization~mechanism}\text{,}$$
@@ -7659,11 +8105,13 @@ $$\text{recursive~analysis} \rightarrow \text{organizational~context}\text{.}$$
 Neither alone supplies the complete description.
 
 ### 9.58 Corollary — Stable Organization Can Outlive Its Components
+
 If a boundary classification remains stable while its subordinate realizations change, enclosing identity can persist through component replacement.
 
 Organisms, institutions, and many other persistent structures exhibit this relation directly. Their persistence does not require persistence of every subordinate component.
 
 ### 9.59 Corollary — Predictive Models Need Not Identify Primitive Causes
+
 A model can accurately reproduce stable correlations generated by an enclosing relation while omitting that relation. Therefore:
 
 $$\text{high~predictive~accuracy} \not\Rightarrow \text{primitive~causal~completeness}\text{.}$$
@@ -7671,6 +8119,7 @@ $$\text{high~predictive~accuracy} \not\Rightarrow \text{primitive~causal~complet
 This applies to physical, biological, statistical, and social models alike.
 
 ### 9.60 Corollary — Structural Change Can Invalidate a Previously Accurate Projection
+
 If the boundary classification changes,
 
 $$\pi_{n} \rightarrow \pi_{n}^{'},$$
@@ -7678,6 +8127,7 @@ $$\pi_{n} \rightarrow \pi_{n}^{'},$$
 the state domain and its multiplicity structure change. A model constructed under the earlier boundary can therefore fail even when its former parameters were accurately measured. Thus, model failure after structural change can indicate a change of count domain rather than merely a change of local parameter values..
 
 ### 9.61 What Has Been Established
+
 Projection is not a special pathology of fundamental physics.
 
 It follows from boundary-relative statehood. At any boundary,
@@ -7735,32 +8185,35 @@ In biology, chemistry, and laboratory physics, the observer can often expand the
 Coordinates, expansion, horizon, background, and history must all be inferred from relations readable from within the same cosmological domain. The final chapter asks what happens when recursive science reaches that limit.
 
 ## Chapter 10 — Cosmological Projection: The Projected World
+
 ### 10.1 Cosmology Is the Limit of the Projection Problem
+
 Every previous chapter allowed the count boundary to be expanded.
 
 A particle could be placed inside a field relation. A field could be placed inside an enclosing area. A local closure could be read as an enclosing occurrence. A quantum occurrence could be read from a detector boundary. A biological mechanism could be placed inside a larger organismal relation. In each case, the observer could in principle ask: What larger boundary organizes the relation I am currently reading?
 
 Cosmology eventually removes that option. The observer is inside the largest physical domain being reconstructed. There is no experimentally accessible position outside the observable universe from which its enclosing relation can simply be inspected. The projection problem therefore becomes maximal. The observer must infer:
 
--   spatial scale;
+- spatial scale;
 
--   clock relation;
+- clock relation;
 
--   background;
+- background;
 
--   expansion;
+- expansion;
 
--   curvature;
+- curvature;
 
--   horizon;
+- horizon;
 
--   cosmological history;
+- cosmological history;
 
 using only relations readable from within the domain itself.
 
 Cosmology is therefore not merely physics applied to a larger object. It is the problem of reconstructing the largest readable boundary while necessarily remaining inside it.
 
 ### 10.2 The Universe Is Not Automatically a Primitive Boundary
+
 R2D must immediately distinguish several meanings commonly compressed into the word *universe*.
 
 There is the observable domain, there is the largest currently reconstructed physical boundary, and there may be a still larger recursive relation that is not presently readable. These need not be identical. R²D therefore does not begin with the assumption
@@ -7774,6 +8227,7 @@ $$\text{largest~readable~boundary} \not\Rightarrow \text{largest~possible~bounda
 This distinction becomes essential when cosmology speaks about origins, total entropy, global time, or the fate of the universe.
 
 ### 10.3 Cosmological Coordinates Are Still Physical Reads
+
 Part I defines its count structure before space or time. Therefore, even at cosmological scale:
 
 $$\text{spatial~coordinate} \neq \text{primitive~R2D~boundary},$$
@@ -7789,19 +8243,20 @@ $$R^{2}\text{D~count~relation}\overset{\text{physical~read}}{\rightarrow}\text{c
 The coordinate does not become more primitive merely because the physical domain is larger.
 
 ### 10.4 The Cosmological Background Is the Natural Starting Point
+
 Chapter 3 established the reference principle: a local directional state cannot define its own nondirectional zero. A physical frame therefore requires an enclosing reference.
 
 At laboratory scale, a gas can supply such a reference. At cosmological scale, the physical reference must be correspondingly large. The required read should be:
 
--   pervasive;
+- pervasive;
 
--   approximately isotropic in its own frame;
+- approximately isotropic in its own frame;
 
--   directionally anisotropic to an observer moving relative to it;
+- directionally anisotropic to an observer moving relative to it;
 
--   associated with a characteristic physical scale or recurrence;
+- associated with a characteristic physical scale or recurrence;
 
--   measurable from inside the domain.
+- measurable from inside the domain.
 
 The observed cosmic microwave background is the obvious empirical candidate. Thus:
 
@@ -7814,6 +8269,7 @@ $$b_{n}, \Phi_{n} = \ln b_{n}.$$
 It is not formally identical to the CMB.
 
 ### 10.5 The CMB Supplies Both Frame and Scale Reads
+
 The physical CMB has two especially relevant properties. Its angular distribution defines an approximately isotropic cosmological frame. Its spectrum defines a characteristic physical scale. Thus, the architecture introduced in Chapter 3 reappears:
 
 $$\begin{aligned}
@@ -7824,6 +8280,7 @@ $$\begin{aligned}
 A moving observer detects a dipolar anisotropy relative to the approximately isotropic background. The frame is therefore physically readable. It is not an abstract Newtonian coordinate introduced without measurement.
 
 ### 10.6 A Cosmological Frame Is Not Absolute Space
+
 The existence of a measurable CMB rest frame does not imply that all local laws secretly depend upon one absolute Newtonian frame. The distinction introduced earlier remains:
 
 $$\text{physically~distinguished~background~state} \neq \text{mathematically~privileged~form~of~local~law}\text{.}$$
@@ -7839,6 +8296,7 @@ $$\text{local~relativistic~invariance}.$$
 They answer different questions.
 
 ### 10.7 Cosmological Expansion Is First a Change of Scale Relation
+
 Conventional cosmology introduces a scale factor
 
 $$a(t).$$
@@ -7856,13 +8314,15 @@ with recursive boundary index or with formal background. It is a physical cosmol
 Thus, expansion need not first be imagined as objects flying outward through pre-existing empty space. It can be represented as change in the large-scale spatial relation itself. That is already the conventional geometric content of relativistic cosmology. R²D places it downstream of boundary-relative counting.
 
 ### 10.8 Expansion Is Not Recursive Carry
+
 A second distinction is crucial. Cosmological expansion occurs within the physical cosmological projection. Recursive carry means that a completed realization changes count meaning when the count boundary changes. They are not the same process. Thus:
 
 $$a(t)\text{~changing} \neq \mathcal{C}_{n}\overset{\text{carry}}{\Rightarrow}\chi_{n + 1}.$$
 
 One is physical cosmological dynamics. The other is recursive reclassification. Failure to separate these would confuse physical size with recursive scale.
 
-### 10.9 Hubble\'s Law Is a Large-Scale Motion Projection
+### 10.9 Hubble's Law Is a Large-Scale Motion Projection
+
 At sufficiently low redshift, conventional cosmology gives
 
 $$v_{rec} \approx H_{0}d.$$
@@ -7884,6 +8344,7 @@ $$d \neq \text{boundary~index}\text{.}$$
 The R²D question is instead what enclosing scale relation makes a coherent Hubble coordinate possible.
 
 ### 10.10 Cosmological Redshift Reads Change Across the Background Relation
+
 For standard cosmological expansion,
 
 $$1 + z = \frac{a\left( t_{0} \right)}{a\left( t_{e} \right)}.$$
@@ -7893,6 +8354,7 @@ The observed radiation arrives with a recurrence coordinate different from that 
 The photon does not need to be imagined as an invariant miniature object carrying an internally fixed wavelength through an unchanging container. The emitted and received radiation are compared through different states of the cosmological physical relation.
 
 ### 10.11 Redshift Is a Comparison Between Boundaries in Physical History, Not a Primitive Arrow of Time
+
 The observer detects a present recurrence. From that read, a physical model reconstructs the relation under which the radiation was emitted. Thus:
 
 $$\text{resent~radiative~read} \rightarrow \text{inferred~earlier~cosmological~relation}\text{.}$$
@@ -7900,6 +8362,7 @@ $$\text{resent~radiative~read} \rightarrow \text{inferred~earlier~cosmological~r
 This is a reconstruction. It should not automatically be confused with the primitive causal structure of R²D. A backward extrapolation through physical time coordinates is not the same thing as reading the recursive hierarchy backward. Cosmic history and recursive boundary structure are different axes.
 
 ### 10.12 The Big Bang Is First a Backward Extrapolation of the Projection
+
 Conventional cosmology evolves the observed large-scale state backward under its physical equations. The scale factor decreases. Matter and radiation densities increase. The inferred universe becomes hotter and denser. This reconstruction is extraordinarily well supported over large intervals. R²D does not reject it.
 
 But it asks what additional claim is made when the extrapolated physical coordinate is promoted to the primitive beginning of everything. The distinction is: early hot dense physical state versus absolute beginning of recursive distinguishability.
@@ -7907,6 +8370,7 @@ But it asks what additional claim is made when the extrapolated physical coordin
 The first is a cosmological physical inference. The second does not follow automatically.
 
 ### 10.13 A Coordinate Boundary Need Not Be an Ontological Beginning
+
 A physical model can encounter a limit where its coordinates cease to extend smoothly. That does not by itself prove that distinguishability itself began there. The lesson from the rest of Part IV is already familiar. A readability limit can become an apparent ontological boundary when the omitted relation is unavailable. Thus:
 
 $$\text{limit~of~projected~coordinate} \not\Rightarrow \text{necessary~beginning~of~primitive~coun}\text{t.}$$
@@ -7914,6 +8378,7 @@ $$\text{limit~of~projected~coordinate} \not\Rightarrow \text{necessary~beginning
 This does not prove that there was anything physically "before the Big Bang." The word *before* already assumes the physical time coordinate whose applicability is in question. The correct statement is narrower: R²D does not permit the origin of the cosmological time coordinate to be identified automatically with the origin of recursive counting.
 
 ### 10.14 The Big Bang Can Be Physically Real Without Being Primitive
+
 This is the same distinction applied throughout Part IV. A particle can be real without being primitive. A field can be real without being primitive. A horizon can be real without being primitive. Likewise, an early cosmological state can be real without being the primitive beginning of the count architecture.
 
 Thus:
@@ -7923,17 +8388,18 @@ $$projected cosmological origin \neq illusory cosmological origin.$$
 The hot early universe may be a correct physical reconstruction. The open question is whether its earliest coordinate limit is an ontological absolute.
 
 ### 10.15 Cosmological History Is Reconstructed From What Survives
+
 We do not directly observe the early universe from outside it. We observe present records:
 
--   radiation;
+- radiation;
 
--   elemental abundances;
+- elemental abundances;
 
--   large-scale structure;
+- large-scale structure;
 
--   gravitational relations;
+- gravitational relations;
 
--   redshift distributions.
+- redshift distributions.
 
 These surviving physical relations are then used to reconstruct earlier states. Thus, cosmological history has the general projection form:
 
@@ -7942,13 +8408,15 @@ $$\text{present~readable~consequence} \rightarrow \text{inferred~earlier~organiz
 This does not make the inference unreliable. It makes the epistemic architecture explicit. Cosmology is necessarily a reconstruction from retained physical distinctions.
 
 ### 10.16 The CMB Is Both a Present Background and a Historical Record
-This gives the CMB a dual role. At the observer\'s current boundary, it functions as a pervasive physical background. Its anisotropies and spectrum also carry information about an earlier cosmological state. Thus:
+
+This gives the CMB a dual role. At the observer's current boundary, it functions as a pervasive physical background. Its anisotropies and spectrum also carry information about an earlier cosmological state. Thus:
 
 $$\text{CMB~now} = \text{present~background~read} + \text{historical~record}\text{.}$$
 
 These two roles should not be conflated. The CMB can function as a present reference even though its detailed spectrum is interpreted through a model of earlier radiation-matter relations.
 
 ### 10.17 Background Does Not Mean Featureless
+
 R²D background is nondirectional relative to the classification that has become unreadable. It need not be absolutely uniform. The CMB illustrates this well. Its leading large-scale state is approximately isotropic. Yet it contains measurable anisotropies. Therefore:
 
 $$\text{background} \neq \text{perfect~featurelessness}\text{.}$$
@@ -7956,6 +8424,7 @@ $$\text{background} \neq \text{perfect~featurelessness}\text{.}$$
 A relation can function as background for one distinction while preserving other higher-order distinctions. This is the same recursive logic encountered with electrically neutral but multipolar systems.
 
 ### 10.18 Cosmological Structure Emerges as Distinction Within Background
+
 Galaxies, clusters, voids, and larger structures are distinguishable against the cosmological background. Thus:
 
 $$\text{background} \rightarrow \text{reference~domain}$$
@@ -7969,6 +8438,7 @@ The background does not oppose structure. It makes structure readable.
 A perfectly local observer cannot define a large-scale overdensity without an enclosing reference against which density is compared. Again, zero belongs to the larger relation.
 
 ### 10.19 Large-Scale Structure Is a New Boundary Classification
+
 When matter becomes organized into a gravitationally stable structure, a new physical boundary becomes readable. A galaxy is not simply a bag of stars. A cluster is not merely a list of galaxies. The enclosing gravitational relation defines additional macrostates and closure relations. Thus:
 
 $$\text{cosmological~structure~formation} = \text{physical~appearance~of~new~enclosing~state~classifications}\text{.}$$
@@ -7976,6 +8446,7 @@ $$\text{cosmological~structure~formation} = \text{physical~appearance~of~new~enc
 This does not replace conventional gravitational structure-formation theory. It states what kind of R²D event that physical process represents.
 
 ### 10.20 Expansion and Local Closure Can Coexist
+
 A bound system can remain locally closed while the larger cosmological relation expands. A galaxy need not expand at the Hubble rate internally. A solar system need not scale with the cosmic scale factor. This is exactly what recursive boundaries allow. Different physical closure relations can exist at adjacent scales:
 
 $$\mathcal{C}_{n}\text{~retained}$$
@@ -7987,6 +8458,7 @@ $$B_{n + 1}\text{~changes}\text{.}$$
 There is no requirement that every subordinate scale mirror the larger-scale physical evolution. Recursive nesting naturally permits local stability within changing enclosing context.
 
 ### 10.21 The Cosmological Horizon Is a Readability Boundary
+
 Chapter 5 considered the gravitational horizon. Cosmology introduces additional horizon concepts because there are limits to which events can be physically related to an observer under the projected spacetime geometry. R²D treats the general idea carefully.
 
 A horizon is not necessarily a literal edge of existence. It is first a boundary of physical readability. Thus:
@@ -7996,6 +8468,7 @@ $$\text{horizon} = \text{limit~of~a~specified~physical~relation~being~jointly~re
 Different physical horizons can therefore answer different questions. One should not compress all of them into one metaphysical wall.
 
 ### 10.22 The Observable Universe Is Defined by Readability
+
 The observable universe is exactly such a domain. It consists of regions from which physical signals can participate in our present observational relation under the cosmological spacetime history. Thus, its boundary is operational.
 
 It says: What can presently enter this observation count domain?$Type equation here.$
@@ -8005,6 +8478,7 @@ It does not establish: What exists in total?
 This is almost a direct cosmological expression of the Part I distinction between statehood and readability.
 
 ### 10.23 A Horizon Can Hide Relation Without Destroying It
+
 Throughout R²D:
 
 $$\text{unreadable} \neq \text{destroyed}.$$
@@ -8016,11 +8490,13 @@ $$\text{c}\text{osmological~unobservability} \not\Rightarrow \text{ontological~a
 Conversely, R²D does not license arbitrary claims about what exists beyond the horizon. Unreadability constrains knowledge in both directions.
 
 ### 10.24 The Largest Readable Boundary Creates the Strongest Projection
+
 At smaller boundaries, an omitted enclosing relation may later become experimentally accessible. At the largest cosmological boundary, that possibility is not presently available. The observer therefore has no larger directly readable physical boundary with which to compare the cosmological projection. This makes causal reification especially tempting.
 
 The largest readable geometry can be mistaken for primitive geometry. The cosmological clock can be mistaken for primitive time. The earliest reconstructed state can be mistaken for primitive origin. The observable horizon can be mistaken for the edge of existence. R2D treats all four as projection risks.
 
 ### 10.25 The Cosmological Scale Factor Is Not the Recursive Clock
+
 The physical scale factor
 
 $$a(t)$$
@@ -8036,6 +8512,7 @@ $$t \neq \tau_{n}.$$
 A physical relationship between cosmological expansion and recursive scale may ultimately be derivable. It has not been established merely by noting that both vary across a hierarchy. This separation is essential to keep Part IV from turning analogy into identity.
 
 ### 10.26 Progress Occurs Where Closure Has Not Yet Completed
+
 Part III introduced a deeper interpretation of progress. A completed closure is recurrent. Relative to that closure, there is no permanently privileged starting point. The appearance of continuing forward progress therefore belongs to a boundary whose relevant enclosing closure has not completed within the readable interval. Thus:
 
 $$\text{apparent~progress} = \text{read~from~within~an~unclosed~enclosing~relation}\text{.}$$
@@ -8043,6 +8520,7 @@ $$\text{apparent~progress} = \text{read~from~within~an~unclosed~enclosing~relati
 At small scales, many closures may complete repeatedly. At larger scales, closure intervals become longer. The largest presently unclosed boundary therefore supplies the dominant direction of ongoing physical history.
 
 ### 10.27 The Largest Unclosed Boundary Acts as the Master Clock
+
 This suggests a cosmological interpretation. Suppose subordinate physical boundaries recur:
 
 $$\mathcal{C}_{1},\mathcal{C}_{2},\ldots$$
@@ -8052,6 +8530,7 @@ while a larger enclosing relation remains incomplete. The subordinate recurrence
 Thus, the direction of history is read from the boundary that has not yet closed.
 
 ### 10.28 The Master Clock Is Not Cosmic Coordinate Time
+
 Again, the distinction must remain strict. The recursive master clock is a structural statement about closure. Cosmic time
 
 $$t$$
@@ -8063,6 +8542,7 @@ $$\text{master~clock} \neq t.$$
 A physical cosmological clock may provide a read of the larger recursive relation. But this requires a mapping. It cannot be assumed.
 
 ### 10.29 Global Irreversibility Cannot Be Declared from Inside an Unclosed Universe
+
 This leads to a significant consequence. At a local boundary, one can define closure and measure occurrence-count nonreciprocity. The Second Law then assigns the corresponding background increment at the enclosing boundary. But to speak of the **irreversibility of the universe as a whole** requires a completed universal closure against which forward and reverse recurrence can be compared. If the largest cosmological boundary has not closed, that comparison is unavailable. Therefore:
 
 $$\text{local~irreversibility} \not\Rightarrow \text{demonstrated~irreversible~closure~of~the~entire~universe}\text{.}$$
@@ -8070,6 +8550,7 @@ $$\text{local~irreversibility} \not\Rightarrow \text{demonstrated~irreversible~c
 The observed thermodynamic arrow can be universal across currently readable local systems without establishing a completed global cycle.
 
 ### 10.30 The Cosmological Arrow Is Therefore Boundary Relative
+
 The apparent direction of cosmological history can be extremely robust. Stars form. Radiation redshifts. Structure evolves. Background temperature changes. Local entropy production occurs. R²D does not deny any of these observations. It distinguishes them from the stronger statement: the total recursive universe possesses one primitive absolute arrow.
 
 The observable arrow belongs to our position within an enclosing relation that has not completed. Thus:
@@ -8079,6 +8560,7 @@ $$\text{a}\text{rrow} = \text{readability~of~unclosed~recurrence}\text{.}$$
 This is a structural interpretation, not a denial of thermodynamics.
 
 ### 10.31 The Initial Low-Entropy Problem May Be a Projection Problem
+
 Conventional cosmology asks why the early universe had such unusually low gravitational entropy relative to later structure. R²D suggests that part of the difficulty may arise from treating entropy as a single globally primitive quantity independent of boundary. Entropy is
 
 $$S = \ln W$$
@@ -8089,10 +8571,11 @@ $$S_{n} \neq S_{n + 1}\text{~in~general}\text{,}$$
 
 and one cannot automatically compare all entropies across recursive boundaries as though they were one conserved or transported substance.
 
-This does not solve the cosmological low-entropy problem quantitatively. It changes what a solution must define first: Which boundary\'s multiplicity is being counted?
+This does not solve the cosmological low-entropy problem quantitatively. It changes what a solution must define first: Which boundary's multiplicity is being counted?
 
 ### 10.32 Background Accumulation Is Not Entropy Flow Through Space
-Part I\'s Second Law relates local occurrence-count loss to enclosing background increment. It does not describe entropy particles traveling outward through spacetime. Therefore, cosmological entropy language must be interpreted cautiously.
+
+Part I's Second Law relates local occurrence-count loss to enclosing background increment. It does not describe entropy particles traveling outward through spacetime. Therefore, cosmological entropy language must be interpreted cautiously.
 
 An increase in background count at a larger boundary is a change in recursive classification. It is not necessarily physical transport of a substance called entropy from one location to another. Thus:
 
@@ -8101,6 +8584,7 @@ $$\text{entropy~bookkeeping} \neq \text{primitive~entropy~fluid}\text{.}$$
 This becomes especially important when assigning entropy to horizons, radiation, matter, and gravity simultaneously.
 
 ### 10.33 Horizon Entropy and Cosmological Background Are Different Count Relations
+
 Chapter 5 distinguished horizon state count
 
 $$S_{H} = \frac{\mathcal{A}_{H}}{4\mathcal{l}_{P}^{2}}$$from R²D background
@@ -8114,6 +8598,7 @@ $$S_{horizon} \neq \Phi_{background}.$$
 Both can be important without being the same primitive quantity.
 
 ### 10.34 Background-Calibrated Gravity
+
 Part III established a recursive ordering of background recurrence before any gravitational calibration was introduced. Let
 
 $$f_{n}^{\Phi}$$
@@ -8204,9 +8689,10 @@ This relation compares **recursively distinct background boundaries**. It does n
 
 $$G(t) \propto T(t)^{- 2}.$$
 
-Part III explicitly distinguishes recursive background ordering from arbitrary physical clock or temperature evolution within one boundary.  Thus, the result is conditional but quantitative: if gravitational count calibration is invariant while physical background recurrence changes, dimensional $\mathbf{G}$ must scale as $\left( f^{\Phi} \right)^{- 2}$.
+Part III explicitly distinguishes recursive background ordering from arbitrary physical clock or temperature evolution within one boundary. Thus, the result is conditional but quantitative: if gravitational count calibration is invariant while physical background recurrence changes, dimensional $\mathbf{G}$ must scale as $\left( f^{\Phi} \right)^{- 2}$.
 
 ### 10.35 Apparent Dark Matter as a Recurrence-Calibration Error
+
 The background-calibrated gravitational relation changes the dark-matter problem from a qualitative projection argument into a quantitative one. Suppose a gravitational system is realized at background boundary $B_{n}$, so that its actual weak-field relation is
 
 $$g_{obs} = G_{n}\frac{M_{b}}{r^{2}},$$
@@ -8255,17 +8741,17 @@ Thus, apparent missing mass can be the source projection of a background-calibra
 
 This result is exact within the simple gravitational relation used above. It does not by itself establish that every observation conventionally assigned to dark matter is reproduced. A successful R²D mapping must also account quantitatively for:
 
--   galaxy rotation relations;
+- galaxy rotation relations;
 
--   gravitational lensing;
+- gravitational lensing;
 
--   galaxy clusters;
+- galaxy clusters;
 
--   structure formation;
+- structure formation;
 
--   cosmological gravitational observations;
+- cosmological gravitational observations;
 
--   and the detailed relation between baryonic structure and the inferred discrepancy.
+- and the detailed relation between baryonic structure and the inferred discrepancy.
 
 Those tests are now more specific, however. R²D no longer asks vaguely whether gravity might be modified. It asks whether the empirically inferred gravitational discrepancy obeys the recurrence-calibration relation
 
@@ -8274,6 +8760,7 @@ $$\frac{M_{dyn}}{M_{b}} = \left( \rho^{\Phi} \right)^{- 2}.$$
 If it does, the quantity conventionally called dark mass becomes a measurement of recursive background compression rather than evidence requiring an independently existing unseen material source.
 
 ### 10.36 The Same Recurrence Ratio Projects as Geometry
+
 The same calibration mismatch has a second physical representation. Write the actual gravitational relation at $B_{n}$ in areal form:
 
 $$g = 4\pi G_{n}\frac{M}{\mathcal{A}}.$$
@@ -8435,6 +8922,7 @@ R²D asks: **What does the observed cosmological behavior reveal about the backg
 Unlike the apparent-dark-matter relation, this conclusion is not yet an algebraic derivation of the observed phenomenon. It is the quantitative cosmological prediction problem created by the newly derived $G_{n}$ scaling.
 
 ### 10.38 The CMB and $G$ May Therefore Be Downstream of the Same Larger Relation
+
 The CMB is the natural candidate for a readable large-scale background reference. The gravitational calibration $G$ may also reflect the same large-scale enclosing relation. Therefore, both may be downstream physical reads of one cosmological background architecture. Schematically:
 
 $$\text{large-scale~enclosing~relation} \rightarrow \left\{ \begin{matrix}
@@ -8443,11 +8931,13 @@ $$\text{large-scale~enclosing~relation} \rightarrow \left\{ \begin{matrix}
 \end{matrix} \right.$$
 
 ### 10.39 Cosmology Is Where Background and Horizon Meet
+
 At smaller physical scales, background and horizon can often be treated separately. Cosmology brings them into the same observational problem. The observer exists within a pervasive background. The observer also confronts limits on what relations can be read across the cosmological domain. Thus, the large-scale physical world is framed by both background and horizon.
 
 Background tells the observer what counts as the enclosing reference. Horizon tells the observer where specified physical comparison ceases to remain available. Neither is an empty edge. Both are properties of readability.
 
 ### 10.40 The Observable Universe Is a Projection from the Inside
+
 The conventional cosmological picture is often drawn as though the universe were viewed from outside. A scale factor evolves. A horizon expands or contracts. Structure grows. But no cosmological observer actually occupies that external vantage. Every observation is made from within one branch of the realization. Therefore, the familiar global picture is itself a mathematical reconstruction.
 
 This is not a criticism. It is what cosmological science must do. The crucial distinction is:
@@ -8457,6 +8947,7 @@ $$\text{global~cosmological~model} = \text{reconstruction~of~mutually~constraine
 The model is not literally a photograph from outside the universe.
 
 ### 10.41 Cosmological Geometry Is the Largest Organizing Projection
+
 General relativity represents the cosmological relation through spacetime geometry. For an approximately homogeneous and isotropic cosmology, the FLRW metric is conventionally written
 
 $$ds^{2} = - c^{2}dt^{2} + a^{2}(t)\left\lbrack \frac{dr^{2}}{1 - kr^{2}} + r^{2}d\Omega^{2} \right\rbrack.$$
@@ -8468,7 +8959,8 @@ $$a(t), k, g_{\mu\nu}$$
 with its formal count variables. They belong to the mature geometric projection. The metric is the organizing coordinate system through which the largest readable gravitational relation is represented.
 
 ### 10.42 The Metric Is Not the Container of Primitive Counting
-This returns Part IV to one of Part I\'s foundational claims. R2D count relations are defined before spacetime geometry. Therefore, spacetime cannot be the primitive mathematical container in which recursive distinguishability first exists. Thus:
+
+This returns Part IV to one of Part I's foundational claims. R2D count relations are defined before spacetime geometry. Therefore, spacetime cannot be the primitive mathematical container in which recursive distinguishability first exists. Thus:
 
 $$\text{recursive~count} \rightarrow \text{physical~spacetime~read}\text{,}$$not
 
@@ -8479,6 +8971,7 @@ Cosmology is where confusing these two orders becomes most tempting, because the
 Its completeness as a physical coordinate system does not establish its primitiveness.
 
 ### 10.43 The Cosmological Model Is an Organizing Structure of the Third Projection Class
+
 Chapter 1 identified three EP projection stages:
 
 1.  primitive object;
@@ -8492,6 +8985,7 @@ Cosmological geometry is the most comprehensive example of the third. Once matte
 The EP error would not be using it. The error would be concluding that because every readable physical relation can be placed inside the cosmological metric, the metric must therefore precede the count architecture through which those relations became distinguishable.
 
 ### 10.44 There Is No Need for a View Outside Spacetime to Define the Recursive Boundary
+
 One might object: If the R²D boundary is more primitive than spacetime, where is it?
 
 The question assumes that every primitive relation must occupy a spatial location. But a boundary in R²D is a count domain. It answers: Which distinction belongs to this classification?
@@ -8501,6 +8995,7 @@ It is not necessarily a membrane located somewhere outside the universe. Thus, s
 It rejects the need for a container as primitive.
 
 ### 10.45 The Largest Boundary Need Not Have a Spatial Exterior
+
 This becomes particularly important cosmologically. An enclosing boundary does not require an external spatial shell. A count boundary can enclose in the logical sense of classification without possessing a location "outside" the states it classifies. Therefore a cosmological enclosing relation need not imply another ordinary space surrounding our universe. Thus:
 
 $$\text{recursive~enclosure} \neq \text{spatial~containment}\text{.}$$
@@ -8508,6 +9003,7 @@ $$\text{recursive~enclosure} \neq \text{spatial~containment}\text{.}$$
 This removes a common but unnecessary visualization problem.
 
 ### 10.46 A Larger Recursive Boundary Need Not Be a Larger Place
+
 Likewise:
 
 $$B_{n + 1}$$
@@ -8519,6 +9015,7 @@ $$B_{n}$$
 in every application. Recursive scale and physical size are not identical. A larger recursive boundary contains a larger count relation. Its physical projection may be spatially larger in some systems. But that is a mapping, not the definition. Therefor,e the possibility of a cosmological enclosing boundary does not automatically imply another universe located farther away.
 
 ### 10.47 Cosmological Closure Remains an Open Question
+
 Has the largest readable cosmological relation completed a closure? Nothing in current observation establishes that it has. We observe continuing change. Therefore the most conservative R²D classification is
 
 $$\text{largest~observable~cosmological~relation} = \text{presently~unclosed}\text{.}$$
@@ -8526,6 +9023,7 @@ $$\text{largest~observable~cosmological~relation} = \text{presently~unclosed}\te
 This matters because many primitive statements about global recurrence, global entropy, or ultimate direction would require a closure that has not yet been observed. R²D should not invent one merely to complete the theory aesthetically.
 
 ### 10.48 An Unclosed Boundary Cannot Reveal Its Full Recurrence
+
 If closure has not completed, its recurrence count is undefined as a completed cycle. One can measure local rates and extrapolate. One cannot directly count the period of a cycle that has not yet returned. Thus:
 
 $$\text{largest~unclosed~boundary} \rightarrow \text{unreadable~full~recurrence}\text{.}$$
@@ -8533,11 +9031,13 @@ $$\text{largest~unclosed~boundary} \rightarrow \text{unreadable~full~recurrence}
 This may be the ultimate physical reason cosmological history appears one-directional from inside the current epoch. The enclosing return is not part of the readable record.
 
 ### 10.49 The Cosmological Future Is Therefore Not Already a Readable Recurrence
+
 R2D does not require cyclic cosmology. Nor does it require eternal expansion. Nor recollapse. Those are physical cosmological possibilities constrained by observation and the projected gravitational dynamics. The recursive architecture says only: until closure occurs, full closure recurrence cannot be read.
 
 The future physical evolution remains an empirical question.
 
 ### 10.50 The Primitive Bottom and the Cosmological Top Are Asymmetric
+
 Part I also distinguishes the lower and upper limits of recursive counting. The smallest distinguishable boundary, if one exists physically, would be a lower count limit. The largest presently realized boundary is different. It may simply not yet have closed or been enclosed within a still larger readable relation. Thus:
 
 $$\text{bottom~limit} \neq \text{top~limit}.$$
@@ -8545,6 +9045,7 @@ $$\text{bottom~limit} \neq \text{top~limit}.$$
 The smallest boundary concerns the minimum distinguishable count structure. The largest current boundary concerns incomplete realization and readability. This asymmetry prevents the hierarchy from being pictured as a static stack with identical caps at both ends.
 
 ### 10.51 The Projected World Is Nested Rather Than Layered Like Objects in Boxes
+
 The architecture developed across Part IV is not a stack of substances. It is recursive classification. A local boundary becomes one realization within a larger relation. That larger relation can itself become a local object relative to another boundary. Thus:
 
 $$B_{1} \subset B_{2} \subset B_{3} \subset \cdots$$
@@ -8552,6 +9053,7 @@ $$B_{1} \subset B_{2} \subset B_{3} \subset \cdots$$
 should be read logically, not necessarily spatially. Each boundary defines a new count domain. Each physical projection makes some aspects of the recursive relation readable and leaves others implicit. The world is therefore nested by **count meaning**, not merely by physical size.
 
 ### 10.52 The Entire Physical Ontology Can Now Be Reordered
+
 The historical physical order often appears as:
 
 $$\text{space} + \text{matter} + \text{forces} \rightarrow \text{complex~world}\text{.}$$
@@ -8583,11 +9085,13 @@ $${\boxed{\text{count~boundary}}
 The visible physics comes late. The counting architecture comes first.
 
 ### 10.53 Matter Is a Projection of Stable Boundary Coupling
+
 In this architecture, matter is not one primitive substance inserted at the beginning. Stable physical objects are persistent boundary reads. Their mass-like coupling is orientation even. Their charge-like coupling can retain orientation. Their quantum object identity arises from stable occurrence-count and occupancy structures. Thus, what physics calls *matter* can be understood as a particularly stable family of projected boundary states.
 
 This does not eliminate matter. It explains why its familiar properties appear together only after several recursive relations have already been defined.
 
 ### 10.54 Fields Are Projections of Shared Relation
+
 Likewise, fields are no longer primitive substances filling an otherwise empty background. They are physical representations of shared enclosing compatibility among coupled peers. Thus:
 
 $$\text{local~object} \leftrightarrow \text{enclosing~field}$$
@@ -8595,6 +9099,7 @@ $$\text{local~object} \leftrightarrow \text{enclosing~field}$$
 are complementary projections. Neither is ontologically complete without the relation that defines both.
 
 ### 10.55 Radiation Is Projection of Recurrent Change
+
 Radiation adds recurrence. A stable field relation changes. The change becomes a distinguishable enclosing occurrence. The occurrence recurs. Its spatial propagation is represented through the physical field equations. Its recurrence becomes wave and phase. Its completed occurrences become particles. Thus:
 
 $$\text{radiation} = \text{recurrent~physical~read~of~changing~enclosing~relation}\text{.}$$
@@ -8602,11 +9107,13 @@ $$\text{radiation} = \text{recurrent~physical~read~of~changing~enclosing~relatio
 This relation joins classical field theory to quantum occurrence without beginning from a primitive photon.
 
 ### 10.56 Quantum Objects Are Count Projections
+
 A photon is a completed radiative occurrence count. A fermionic object is associated with a different admissible occupancy architecture. A detector makes those counts locally readable. The wavefunction represents phase, amplitude, and joint state relations. Thus, quantum objects belong naturally at the readability horizon where subordinate closure geometry has disappeared but recurrence and count remain accessible.
 
 The quantum world is not less real. It is differently readable.
 
 ### 10.57 Gauge Structure Is Projection of Counting Invariance
+
 When physical representation becomes free while the underlying state remains the same, gauge invariance appears. The connection preserves relational comparison among locally varying representations. Thus:
 
 $$\text{counting~invariance} \rightarrow \text{gauge~invariance}\text{.}$$
@@ -8618,6 +9125,7 @@ The mathematics governing visible physics repeatedly preserves a hidden classifi
 The world follows invisible mathematics because the mathematics defines what counts as the world.
 
 ### 10.58 Gravity Is the Opposite Horizon of the Same Architecture
+
 Quantum physics reads recurrence after local geometry becomes inaccessible. Gravity moves in the opposite direction. The larger enclosing boundary remains geometrically distinguishable while its complete directed recurrence becomes increasingly unreadable. Thus, the two seemingly unrelated pillars of modern physics sit on opposite sides of the same thermodynamic readability regime:
 
 $$\text{quantum} \leftarrow \text{thermodynamic~joint~readability} \rightarrow \text{gravity}\text{.}$$
@@ -8625,29 +9133,31 @@ $$\text{quantum} \leftarrow \text{thermodynamic~joint~readability} \rightarrow \
 Part IV has now shown what physical ontologies are constructed when each side becomes incomplete.
 
 ### 10.59 Thermodynamics Remains the Middle Where the Machine Is Visible
+
 This explains why thermodynamics, and especially muscle, played such an important role in the development of R²D. In muscle, multiple sides of the recursive relation remain simultaneously measurable. One can read:
 
--   state multiplicity;
+- state multiplicity;
 
--   occupancy;
+- occupancy;
 
--   chemical possibility;
+- chemical possibility;
 
--   mechanical constraint;
+- mechanical constraint;
 
--   structural transition;
+- structural transition;
 
--   closure;
+- closure;
 
--   output;
+- output;
 
--   background production.
+- background production.
 
 The turbine is visible.
 
 At the quantum horizon, one side disappears. At the gravitational horizon, the other disappears. The projected ontologies arise from what remains. Thus, thermodynamics is not an approximation sitting above fundamental physics. Within the R²D architecture, it is the region in which the recursive machine is most completely readable.
 
 ### 10.60 The Physical World Is What Remains Readable
+
 We can now give the title *The Projected World* a precise meaning. The physical world is not a hallucination cast by inaccessible mathematics. It is the set of real distinctions that remain readable from particular boundaries after recursive replacement has changed the meaning of subordinate structure. Thus:
 
 $$\text{physical~projection} = \text{boundary-specific~reality~of~what~remains~readable}\text{.}$$
@@ -8657,6 +9167,7 @@ The projection is real. Its objects are real. Its equations are real. Its measur
 What is not justified is assuming that the readable coordinate must therefore be primitive to the recursive architecture that makes it readable.
 
 ### 10.61 There Is No Final Primitive Physical Object
+
 Once object identity is boundary indexed, the search for one final physical object becomes questionable. A particle is primitive relative to one description. Its state becomes subordinate relative to another. A molecule becomes one component of a cell. A cell becomes one component of an organism. A star becomes one peer in a galaxy. A galaxy becomes one peer in a cosmological state.
 
 Thus, no object needs to carry unchanged primitive identity through the entire hierarchy. What persists is the ability to define new count domains. Therefore, **the primitive is not an object**.
@@ -8664,21 +9175,25 @@ Thus, no object needs to carry unchanged primitive identity through the entire h
 The primitive is recursive distinguishability.
 
 ### 10.62 Nor Is There a Final Primitive Field
+
 The same applies to fields. An electromagnetic field is a physical read of an enclosing relation. A gravitational metric is a larger-scale organizing read. Neither must be the final substrate underneath everything else. A field is what shared organization looks like when represented at a particular physical boundary. Thus, **the primitive is not a field**.
 
 Fields are among the most successful projected coordinates of recursive relation.
 
 ### 10.63 Nor Is Spacetime the Primitive Container
+
 If boundaries and multiplicities are defined before physical geometry, spacetime cannot be the primitive box in which counting happens. Spacetime is a physical read of relations among distinguishability and recurrence. Its extraordinary predictive power reflects how successfully it organizes those reads. Thus, **the primitive is not spacetime**.
 
 Spacetime is the mature geometry of a projected world.
 
 ### 10.64 Nor Is Information Primitive
+
 Information requires distinguishable alternatives and a count domain. Probability requires possible counts to normalize. Entropy requires multiplicity. Therefore, none can precede the boundary-defined distinction from which it is calculated. Thus, the **primitive is not information**.
 
 Information is a readable relation among distinctions. The primitive requirement is that there be distinctions to read.
 
 ### 10.65 The Primitive Is Recursive Counting
+
 The entire argument therefore returns to Part I. Before:
 
 $$\text{matter}, \text{energy}, \text{force}, \text{field}, \text{space}, \text{time}, \text{particle}, \text{probability},$$
@@ -8692,6 +9207,7 @@ Everything in Part IV has been an attempt to follow what happens after those pri
 The result is the physical world.
 
 ### 10.66 Principle — Cosmological Projection
+
 **Principle -- Cosmological Projection**
 
 Cosmology reconstructs the largest currently readable physical boundary from observations made within that boundary Its scale, time, background, geometry, horizon, and history are therefore physical coordinates of an internal reconstruction. Thus:
@@ -8701,6 +9217,7 @@ $$\text{cosmological~model} = \text{projection~of~the~largest~readable~recursive
 Its predictive success does not require its coordinates to be primitive R2D variables.
 
 ### 10.67 Principle — Cosmological Background
+
 **Principle -- Cosmological Background**
 
 A large-scale physical reference requires a pervasive, approximately nondirectional background capable of supplying frame and scale reads. The observed CMB is the natural physical candidate. Thus:
@@ -8717,6 +9234,7 @@ $$\Phi = \ln b$$
 is not defined as the CMB. Their relation is a physical mapping hypothesis.
 
 ### 10.68 Principle — Projected Cosmological Origin
+
 **Principle -- Projected Cosmological Origin**
 
 Backward evolution of the cosmological physical equations reconstructs an earlier hot, dense state. This physical history can be real without establishing that the earliest coordinate limit is the primitive origin of recursive counting. Therefore:
@@ -8726,6 +9244,7 @@ $$\text{origin~of~cosmological~coordinate} \not\Rightarrow \text{origin~of~recur
 No claim about a physical state "before" the coordinate origin follows without an additional physical mapping.
 
 ### 10.69 Principle — Cosmological Horizon
+
 **Principle -- Cosmological Horizon**
 
 A cosmological horizon is a limit on specified physical relations being jointly readable to an observer within the cosmological domain. Therefore:
@@ -8735,6 +9254,7 @@ $$\text{horizon} \neq \text{necessary~edge~of~existence}\text{.}$$
 What lies beyond a readability horizon cannot be inferred merely from its unreadability.
 
 ### 10.70 Principle — The Recursive Master Clock
+
 **Principle -- The Recursive Master Clock**
 
 Completed subordinate closures can recur while a larger enclosing relation remains unclosed. The largest presently unclosed boundary supplies the dominant read of continued progress because it still distinguishes an incomplete return. Thus:
@@ -8744,6 +9264,7 @@ $$\text{master~clock} = \text{largest~presently~unclosed~recursive~relation}\tex
 This is a structural closure principle. It is not identical to cosmological coordinate time.
 
 ### 10.71 Principle — Local Rather Than Assumed Global Irreversibility
+
 **Principle -- Local Rather Than Assumed Global Irreversibility**
 
 Irreversibility can be defined at boundaries where closure and opposed occurrence counts are readable. A claim of irreversible evolution of the entire universe would require the relevant global closure relation to be defined. If the largest cosmological boundary remains unclosed, such global closure is not directly readable. Therefore:
@@ -8751,6 +9272,7 @@ Irreversibility can be defined at boundaries where closure and opposed occurrenc
 $$\text{local~Second-Law~asymmetry} \not\Rightarrow \text{demonstrated~irreversible~closure~of~the~total~universe}\text{.}$$
 
 ### 10.72 Corollary — Expansion Is Not Recursive Scale
+
 The cosmological scale factor
 
 $$a(t)$$
@@ -8764,6 +9286,7 @@ $$a(t) \neq n.$$
 and cosmological expansion should not be identified automatically with upward recursive carry.
 
 ### 10.73 Corollary — The CMB Frame Does Not Violate Local Covariance by Existing
+
 A physically measurable cosmological rest frame can coexist with locally covariant physical laws. Therefore:
 
 $$\text{CMB~frame} \not\Rightarrow \text{Newtonian~absolute~space}.$$
@@ -8771,9 +9294,11 @@ $$\text{CMB~frame} \not\Rightarrow \text{Newtonian~absolute~space}.$$
 A background can define a physical state without defining the only mathematically admissible coordinate system.
 
 ### 10.74 Corollary — Dark Components Remain Quantitative Questions
-R²D\'s enclosing-boundary architecture allows the possibility that some apparent missing source terms could reflect incomplete projected descriptions. It does not establish that dark matter or dark energy are projection artifacts. Any such claim must reproduce the full corresponding observational evidence quantitatively.
+
+R²D's enclosing-boundary architecture allows the possibility that some apparent missing source terms could reflect incomplete projected descriptions. It does not establish that dark matter or dark energy are projection artifacts. Any such claim must reproduce the full corresponding observational evidence quantitatively.
 
 ### 10.75 What Is Constant Is the Dimensionless Gravitational Count Calibration
+
 The preceding development changes what should be meant by a universal gravitational constant. At boundary $B_{n}$,
 
 $$G_{n} = \gamma_{G,n}\frac{c^{5}}{h\left( f_{n}^{\Phi} \right)^{2}}.$$
@@ -8841,6 +9366,7 @@ A dimensional constant can therefore be locally universal without being recursiv
 And its apparent failure at a larger boundary would not represent the breakdown of physical law. It would be evidence that the law is being read from a different recursive calibration.
 
 ### 10.76 Corollary — Cosmological Geometry Is Real Without Being Primitive
+
 The FLRW metric, relativistic horizons, expansion history, and curvature can be correct physical descriptions of the cosmological domain. Their status as projections does not make them unreal. Thus:
 
 $$\text{projected~cosmological~geometry} \neq \text{illusory~geometry}\text{.}$$
@@ -8848,6 +9374,7 @@ $$\text{projected~cosmological~geometry} \neq \text{illusory~geometry}\text{.}$$
 The ontological claim is only that spacetime geometry need not precede the count architecture whose physical relations it organizes.
 
 ### 10.77 The Projected World
+
 The full R²D sequence can now be stated. A boundary defines a count domain. A count domain defines distinguishable states. Their multiplicities define possible structure. Enclosing compatibility defines possibility. Constraint determines retention. Asymmetry biases realization. Closure completes a recurrent relation. Recursive carry changes the meaning of that completed realization when the boundary changes. From these count relations, physical projection begins.
 
 An orientation-even coupling is read as mass. An orientation-retaining coupling is read as charge. Background becomes reference. Local positional closure becomes an enclosing motion read. Shared compatibility becomes field. Spatial enclosure becomes area. Changing field relation becomes radiation. Recurrence becomes phase. Completed occurrence becomes particle. Invariant counting becomes gauge invariance. Large-scale gravitational organization becomes geometry. The largest readable relation becomes cosmology. Thus:
@@ -8868,6 +9395,7 @@ $$\begin{aligned}
 None of these arrows says that one physical substance literally turns into another. They describe the order in which increasingly elaborate physical coordinates become necessary as different parts of one recursive count architecture become readable.
 
 ### 10.78 The Central Inversion
+
 Modern science usually begins with physical objects and asks how mathematics describes them. R²D begins with the mathematical possibility of distinguishability and asks how physical objects become readable from it.
 
 The inversion is therefore:
@@ -8881,6 +9409,7 @@ This does not mean that human mathematics creates reality. It means that primiti
 The mathematics is not our notation. The mathematics is the structure being realized.
 
 ### 10.79 Why Physics Looks So Different at Its Two Horizons
+
 This also explains the extraordinary conceptual split between quantum mechanics and gravity.
 
 At one horizon, recurrence remains after geometry is lost. Physics therefore becomes phase, amplitude, probability, particle count.
@@ -8890,25 +9419,29 @@ At the opposite horizon, geometry remains after enclosing directed recurrence be
 Thus, quantum theory and gravity are not two failed attempts to describe the same primitive objects. They are physical projections formed at opposite readability limits.
 
 ### 10.80 Why Thermodynamics Was the Doorway
+
 Between those horizons lies thermodynamics. There, recurrence and distinguishability remain jointly readable. Possibility and constraint can be measured. Occupancy can be measured. Closure can be measured. Background accumulation can be measured. The entire recursive relation becomes visible enough to reconstruct the architecture beneath the projections. This is why R²D emerged from statistical thermodynamics rather than from direct manipulation of quantum or gravitational equations.
 
 At the horizons, too much of the machine is hidden. In thermodynamics, the gears remain visible.
 
 ### 10.81 Why Muscle Was the Experimental Key
+
 Muscle made this even more explicit. A binary molecular landscape could be resolved. Chemical possibility could be controlled. Mechanical constraint could be controlled. Occupancy could be measured. Force and displacement could be measured. Closure could be identified. The subordinate mechanism and the enclosing asymmetry could therefore be separated experimentally. The result was a causal architecture that could then be stripped of its biological units and written as recursive counting.
 
 Thus, muscle was not an analogy used to explain R²D after the fact. It was the physical system in which the hidden recursive machine was unusually exposed.
 
 ### 10.82 Part IV Has Not Derived All of Physics
+
 Part IV has not derived:
 
 $$G, e, \hslash, c,$$
 
-from primitive R²D counting. It has not derived the complete Standard Model. It has not derived Einstein\'s field equation. It has not derived the Born rule. It has not derived charge quantization. It has not derived the spin-statistics theorem. It has not derived the observed cosmological parameters. Those are major quantitative burdens.
+from primitive R²D counting. It has not derived the complete Standard Model. It has not derived Einstein's field equation. It has not derived the Born rule. It has not derived charge quantization. It has not derived the spin-statistics theorem. It has not derived the observed cosmological parameters. Those are major quantitative burdens.
 
 The accomplishment of Part IV is different. It has supplied a coherent **causal and projection architecture** within which these apparently unrelated physical structures occupy defined positions. That architecture now makes specific derivations possible to ask for.
 
 ### 10.83 The Tests Are Now Sharper
+
 A successful R²D physical program must eventually show why:
 
 $$m$$
@@ -8938,19 +9471,21 @@ and why the projected quantum and gravitational equations take the quantitative 
 These are no longer disconnected foundational puzzles. They are mapping problems between one count architecture and its different physical readability regimes.
 
 ### 10.84 Projection Is the Prediction
+
 The most general prediction of Part IV is therefore structural. Wherever only part of a recursively realized relation remains readable, science should construct an effective ontology from what survives. That ontology should be:
 
--   real at its boundary;
+- real at its boundary;
 
--   mathematically predictive;
+- mathematically predictive;
 
--   incomplete as a primitive causal account;
+- incomplete as a primitive causal account;
 
--   transformed when the readability boundary changes.
+- transformed when the readability boundary changes.
 
 This pattern should recur across physics, chemistry, biology, cosmology, and beyond. Projection is not a flaw appended to the theory. It is the unavoidable observational consequence of recursive replacement.
 
 ### 10.85 The Final Principle — The Projected World
+
 **Principle -- The Projected World**
 
 Recursive multiplicity defines the boundary-indexed mathematical structure within which distinguishable realizations are possible. No finite boundary reads the complete recursive hierarchy. What remains readable at a given boundary acquires domain-specific physical or scientific coordinates.
@@ -8958,7 +9493,9 @@ Recursive multiplicity defines the boundary-indexed mathematical structure withi
 These projected objects, interactions, fields, geometries, and probabilities are real within the domains that define them. They become ontological errors only when their boundary-specific reality is promoted to primitive identity or primitive causal agency across the recursive hierarchy. Thus, the observable world is not the primitive count architecture itself. It is the world constructed from what remains readable of that architecture.
 
 ## Chapter 11 — Deprojection: Gravity Back Into Thermodynamics
+
 ### 11.1 Projection Must Have a Converse
+
 Part IV began with a simple problem.
 
 R2D defines physical relations before the objects conventionally used to describe them. When a finite observer loses joint access to part of a recursively realized relation, the surviving read must be represented in another physical language.
@@ -8989,11 +9526,12 @@ Deprojection is not a dynamical process that destroys a field, removes spacetime
 
 The gravitational branch provides a particularly clear test because Part III has already identified a system in which gravitational distinguishability and thermodynamic recurrence remain jointly visible. That system is the atmosphere.
 
-Part III deliberately introduced the atmosphere before Newtonian or Einsteinian gravitational ontology because temperature, occupancy, spatial organization, background, and subordinate molecular recurrence can all be read within one physical system. It therefore occupies the thermodynamic side of the gravitational branch rather than the one-sided gravitational horizon. 
+Part III deliberately introduced the atmosphere before Newtonian or Einsteinian gravitational ontology because temperature, occupancy, spatial organization, background, and subordinate molecular recurrence can all be read within one physical system. It therefore occupies the thermodynamic side of the gravitational branch rather than the one-sided gravitational horizon.
 
 The atmosphere can now be revisited from the opposite direction. Part III showed that gravity is still thermodynamically readable there. Part IV can now ask why.
 
 ### 11.2 Gravitational Calibration Is Not Recursively Absolute
+
 Chapter 10 developed a boundary-dependent gravitational calibration.
 
 Let
@@ -9042,6 +9580,7 @@ What changes is the dimensional coordinate through which that relation is physic
 A common gravitational background can make $G_{n}$ appear universal throughout one physical domain. A different recursively related background need not possess the same dimensional calibration.
 
 ### 11.3 Smaller Recursive Scale Is Not Merely Smaller Distance
+
 The meaning of this result must remain boundary disciplined. The statement
 
 $$G_{n - 1} < G_{n}$$
@@ -9065,17 +9604,18 @@ within one unchanged gravitational domain. This distinction will matter experime
 A laboratory apparatus, an atmosphere, a planetary system, a galaxy, and a cosmological domain cannot be assigned recursive indices merely by ranking their geometric sizes. The relevant question is which enclosing background relation defines the gravitational calibration being read.
 
 ### 11.4 The Atmosphere Is the Canonical Deprojection Boundary
+
 Consider the restricted atmosphere already introduced in Part III:
 
--   a dilute ideal gas,
+- a dilute ideal gas,
 
--   uniform temperature $T$,
+- uniform temperature $T$,
 
--   approximately constant gravitational acceleration $g_{n}$ over the interval considered,
+- approximately constant gravitational acceleration $g_{n}$ over the interval considered,
 
--   equilibrium,
+- equilibrium,
 
--   and two local volume elements separated vertically by $\Delta z$.
+- and two local volume elements separated vertically by $\Delta z$.
 
 Hydrostatic equilibrium gives
 
@@ -9111,11 +9651,12 @@ $$\frac{n(z + \Delta z)}{n(z)} = \exp\left( - \frac{mg_{n}\Delta z}{k_{B}T} \rig
 
 This is conventional atmospheric thermodynamics. No R²D modification has been introduced.
 
-Part III already emphasizes that the atmospheric problem can be stated first as an occupancy problem: the gravitational physical mapping supplies the asymmetry, and ordinary sparse-occupancy statistics produce the barometric profile. 
+Part III already emphasizes that the atmospheric problem can be stated first as an occupancy problem: the gravitational physical mapping supplies the asymmetry, and ordinary sparse-occupancy statistics produce the barometric profile.
 
 The importance of the atmosphere is therefore not that it replaces known gravitational physics. It exposes the same gravitational organization in a coordinate where its thermodynamic meaning remains directly readable.
 
 ### 11.5 The Gravitational Distinction Acquires a Thermal Count Read
+
 The conventional gravitational energetic distinction over height interval $\Delta z$ is
 
 $$\Delta E_{g} = mg_{n}\Delta z.$$
@@ -9134,7 +9675,7 @@ Part I defines retention as enclosing constraint expressed through locally reada
 
 $$R = C\lambda.$$
 
-Part II subsequently shows that under a thermodynamic energetic read, retention acquires the dimensionless form of retained energetic distinction divided by the thermal calibration. It explicitly keeps this as a dimensionalization of the primitive retention term rather than identifying bare $C$ with a universal mechanical force. 
+Part II subsequently shows that under a thermodynamic energetic read, retention acquires the dimensionless form of retained energetic distinction divided by the thermal calibration. It explicitly keeps this as a dimensionalization of the primitive retention term rather than identifying bare $C$ with a universal mechanical force.
 
 For the atmosphere,
 
@@ -9165,6 +9706,7 @@ This is exactly the barometric law. The point is not that R²D has discovered a 
 $$\text{constraint} \rightarrow \text{retention} \rightarrow \text{occupancy~bias}\text{.}$$
 
 ### 11.6 Gravity Has Not Become Heat
+
 The distinction must be explicit. The relation
 
 $$R_{atm} = \frac{mg\Delta z}{k_{B}T}$$
@@ -9185,7 +9727,7 @@ The gravitational background and thermal background are not the same formal obje
 
 The thermal background supplies the count calibration against which the gravitationally retained distinction becomes thermodynamically measurable. The gravitational relation supplies the persistent spatial distinction being retained. Thus, the atmosphere contains two simultaneously readable physical structures: thermal recurrence reference and gravitationally retained spatial distinction.
 
-Part III already stresses this point: the atmosphere does not derive gravity from heat. Temperature changes how the height distinction is read relative to the thermal background, but the persistent spatial organization is not thereby produced by thermal motion. 
+Part III already stresses this point: the atmosphere does not derive gravity from heat. Temperature changes how the height distinction is read relative to the thermal background, but the persistent spatial organization is not thereby produced by thermal motion.
 
 Deprojection therefore does not mean
 
@@ -9196,6 +9738,7 @@ It means
 $$\text{gravity~and~thermodynamic~recurrence~become~jointly~readable~in~one~count~relation}\text{.}$$
 
 ### 11.7 The Scale Height Measures the Joint Read
+
 The barometric relation can be written
 
 $$n(z) = n_{0}e^{- z/H_{n}},$$
@@ -9219,9 +9762,10 @@ $${\Delta z = H_{n},
 
 The gravitational and thermal reads are then directly comparable in one dimensionless coordinate.
 
-Part III already recognized the scale height as the physical interval over which the conventional gravitational energetic distinction becomes equal to one thermal energy-count scale.  The present development now gives that observation a larger role. The scale height is a physical measure of where the gravitational projection becomes jointly readable with thermodynamics.
+Part III already recognized the scale height as the physical interval over which the conventional gravitational energetic distinction becomes equal to one thermal energy-count scale. The present development now gives that observation a larger role. The scale height is a physical measure of where the gravitational projection becomes jointly readable with thermodynamics.
 
 ### 11.8 Insert the Boundary-Dependent $G_{n}$
+
 In a weak-field spherical regime,
 
 $$g_{n} = \frac{G_{n}M}{r^{2}}.$$
@@ -9261,6 +9805,7 @@ $$f_{G,n}^{\Phi} = \text{gravitational~background~recurrence~calibration}\text{.
 The atmosphere is informative precisely because both can become jointly consequential within one boundary.
 
 ### 11.9 Gravitational Retention Weakens Toward Faster Recursive Backgrounds
+
 At fixed local thermal conditions, source relation, and physical interval,
 
 $$R_{atm,n} \propto G_{n}.$$
@@ -9304,6 +9849,7 @@ $$f_{G}^{\Phi} \uparrow \Rightarrow G \downarrow \Rightarrow H \uparrow \Rightar
 The atmosphere becomes less strongly concentrated by the gravitational distinction relative to the thermal recurrence that populates it. This provides a precise meaning for the statement that the gravitational projection recedes toward the thermodynamic window.
 
 ### 11.10 The Deprojection Parameter
+
 The relevant comparison is already dimensionless:
 
 $$\epsilon_{g} \equiv \frac{mg_{n}\Delta z}{k_{B}T}.$$
@@ -9335,6 +9881,7 @@ $$\epsilon_{g}$$
 is not a new R²D primitive. It is a useful physical indicator of how strongly the gravitational retention is readable against the local thermal background.
 
 ### 11.11 The Atmosphere Shows Why Gravity Can Deproject
+
 At the gravitational horizon, the organizing thermodynamic relation is no longer jointly readable. The observer retains the gravitational consequences:
 
 $${\text{mass},
@@ -9345,17 +9892,17 @@ $${\text{mass},
 
 Those quantities become the natural physical language. The atmosphere lies closer to the thermodynamic window. There, the observer can simultaneously read:
 
--   molecular recurrence;
+- molecular recurrence;
 
--   temperature;
+- temperature;
 
--   background;
+- background;
 
--   occupancy;
+- occupancy;
 
--   height;
+- height;
 
--   gravitationally retained distinguishability.
+- gravitationally retained distinguishability.
 
 The gravitational effect therefore need not first be interpreted through an autonomous microscopic force acting on each molecule.
 
@@ -9370,13 +9917,14 @@ $$\frac{n_{2}}{n_{1}} = e^{- R_{atm}}.$$
 This is gravitational deprojection in its cleanest form. The gravitational relation remains physically real. What disappears is the need to promote the projected gravitational coordinate to the primitive cause of the occupancy organization. Thus, gravity deprojects when its retained distinction can again be read together with the recurrence/background relation organizing its occupancy.
 
 ### 11.12 The Same Pattern Appears in Muscle
+
 The atmosphere is not an isolated mathematical curiosity. Part II already provides another jointly readable system: muscle. There the primitive architecture is
 
 $$A = P - R.$$
 
 Possibility receives an energetic read. Mechanical load receives a retention read. Local biochemical closure continues. The enclosing mechanical boundary reads the same recursive realization through shortening.
 
-Part II explicitly shows that changing mechanical constraint can alter local closure recurrence without reconstructing the native multiplicity landscape, and that shortening is an enclosing recurrence-weighted distinguishability read. 
+Part II explicitly shows that changing mechanical constraint can alter local closure recurrence without reconstructing the native multiplicity landscape, and that shortening is an enclosing recurrence-weighted distinguishability read.
 
 Thus, muscle and atmosphere expose complementary parts of the same architecture. Muscle makes productive recurrence visible. The atmosphere makes gravitational retention visible. Both remain inside the thermodynamic window because enough of the recursive relation is still jointly accessible.
 
@@ -9385,6 +9933,7 @@ This suggests a broader rule: thermodynamics isnot defined by a particular physi
 Gravity does not sit outside thermodynamics because gravity is large and thermodynamics is small. Gravity becomes a separate ontology when the recurrence relation required to read the retained distinction thermodynamically has crossed the enclosing readability horizon.
 
 ### 11.13 Deprojection Does Not Mean $G \rightarrow 0$
+
 A tempting but incorrect interpretation would be
 
 $$G \rightarrow 0 \Rightarrow \text{thermodynamics}.$$
@@ -9410,6 +9959,7 @@ $$R_{atm} \propto G_{n}.$$
 It is not itself the definition of deprojection.
 
 ### 11.14 Force and Geometry Become Optional Coordinates
+
 The conventional molecular description of an atmosphere says that each molecule experiences gravitational force
 
 $$F_{g} = mg.$$
@@ -9426,11 +9976,12 @@ appears as the energetic slope conjugate to the vertical distinction. Indeed,
 
 $$- \frac{\partial\ln n}{\partial z} = \frac{mg}{k_{B}T}.$$
 
-Thus the gravitational projection becomes directly readable as a thermodynamic slope. Part II develops the general thermodynamic-conjugate principle: intensive variables are energetic slopes with respect to readable extensive distinctions under specified boundary conditions.  In this jointly readable regime, gravity can therefore be represented as constraint per spatial distinction rather than beginning from primitive gravitational force.
+Thus the gravitational projection becomes directly readable as a thermodynamic slope. Part II develops the general thermodynamic-conjugate principle: intensive variables are energetic slopes with respect to readable extensive distinctions under specified boundary conditions. In this jointly readable regime, gravity can therefore be represented as constraint per spatial distinction rather than beginning from primitive gravitational force.
 
 Farther toward the gravitational horizon, where the thermodynamic comparison is lost, the field and geometric descriptions become indispensable again. Projection and deprojection therefore describe the same physical relation from opposite sides of a readability boundary.
 
 ### 11.15 Curvature Is Not Refuted by Deprojection
+
 Nothing in this argument says that spacetime curvature is false. A projected geometric relation can be the most accurate and efficient physical representation available at a gravitational boundary. The claim is about causal priority.
 
 If gravitational organization can be read directly as a thermodynamic occupancy relation when the relevant background remains accessible, then curvature is not required to be the primitive cause of that organization at every recursive boundary. Thus, curvature can be physically exact as a gravitational projection without implying curvature is primitive recursive ontology.
@@ -9440,21 +9991,22 @@ The atmosphere is useful precisely because it allows us to observe gravitational
 That is the deprojection test.
 
 ### 11.16 Bianconi Provides an Independent Mathematical Signpost
-The present argument does not derive Einstein\'s field equation from R²D. That stronger problem remains open. There is, however, independent mathematical evidence that an entropic/statistical structure can induce a gravitational geometry.
+
+The present argument does not derive Einstein's field equation from R²D. That stronger problem remains open. There is, however, independent mathematical evidence that an entropic/statistical structure can induce a gravitational geometry.
 
 Bianconi constructs a matter-induced topological metric
 
 $$\widetilde{G} = \widetilde{g} + \alpha\widetilde{M} - \beta\widetilde{R},$$
 
-where $\widetilde{M}$ is the matter-field contribution and $\widetilde{R}$ the curvature contribution. 
+where $\widetilde{M}$ is the matter-field contribution and $\widetilde{R}$ the curvature contribution.
 
 She then defines a statistical-mechanics action from the quantum relative entropy between the spacetime metric and the matter-induced metric. In dimensionless relative form, the action contains
 
 $$- {{Tr}\ln}\left( \widetilde{G}{\widetilde{g}}^{-1} \right).$$
 
-In the low-coupling limit, this entropic construction reduces to an Einstein--Hilbert action with matter, while the full construction produces modified Einstein equations. 
+In the low-coupling limit, this entropic construction reduces to an Einstein--Hilbert action with matter, while the full construction produces modified Einstein equations.
 
-R²D does not presently identify Bianconi\'s induced metric with an R²D count operator. Nor does it identify her matter and curvature terms respectively with $P$ and $R$. The legitimate conclusion is narrower: a mathematically explicit statistical/entropic structure can generate an Einstein-like gravitational geometry.
+R²D does not presently identify Bianconi's induced metric with an R²D count operator. Nor does it identify her matter and curvature terms respectively with $P$ and $R$. The legitimate conclusion is narrower: a mathematically explicit statistical/entropic structure can generate an Einstein-like gravitational geometry.
 
 That result is consistent with the direction proposed here:
 
@@ -9463,6 +10015,7 @@ $$\text{statistical/count~structure} \rightarrow \text{gravitational~geometric~p
 A rigorous operator-level bridge between R²D and such constructions is a problem for later work. It is not required for the present deprojection argument.
 
 ### 11.17 Gravity and Thermodynamics Are Not Separate Primitive Laws
+
 The atmosphere now allows the relation between Parts II, III, and IV to be stated more sharply. Part II establishes thermodynamic mappings of the R²D count architecture. Part III shows that gravity emerges toward the enclosing side of the same recursive readability hierarchy. Part IV shows why a separate gravitational ontology becomes natural after the organizing recurrence relation is no longer jointly readable. The atmosphere completes the loop. At that boundary,
 
 $$g$$
@@ -9490,6 +10043,7 @@ $$\text{gravity} = \text{one-sided~enclosing~projection}\text{.}$$
 The difference is not the primitive mathematics. The difference is what remains readable.
 
 ### 11.18 Principle — Gravitational Deprojection
+
 **Principle --- Gravitational Deprojection**
 
 A gravitational relation becomes projected as a separate field or geometric ontology when retained large-scale distinguishability remains readable after the relevant enclosing recurrence relation can no longer be jointly resolved.
@@ -9517,6 +10071,7 @@ Thus, gravitational retention weakens relative to the thermal count scale toward
 Gravity has not been converted into heat and the gravitational relation has not disappeared. Its organization has become jointly readable in the thermodynamic count architecture.
 
 ### 11.19 Corollary — The Gravitational Constant Is a Readability Calibration
+
 If
 
 $$\gamma_{G}$$
@@ -9542,6 +10097,7 @@ $$G_{n} \rightarrow R_{atm} \rightarrow \text{occupancy}\text{.}$$
 The dimensional constant therefore acquires operational meaning through the count relation it calibrates.
 
 ### 11.20 Corollary — Deprojection Is Experimentally Constrained
+
 The deprojection proposal is not protected from experiment by its abstract formulation. It makes concrete demands. The proposed gravitational scaling must be compatible with measured gravitational behavior within domains where $G$ is experimentally constant. Any transition to a different $G_{n}$ must correspond to a physically defensible change in recursive gravitational background rather than an arbitrary geometric scale. And wherever gravitational and thermal relations are jointly readable, the dimensionless retention
 
 $$\frac{mg\Delta z}{k_{B}T}$$
@@ -9557,6 +10113,7 @@ must ultimately be tested against gravitational systems spanning multiple candid
 The atmosphere does not prove that scaling law. It provides a particularly clean system in which the consequences of such a scaling can be stated.
 
 ### 11.21 What Has Been Established
+
 Part IV began with hidden counting and visible physics. It showed that boundary-relative objects and fields can be physically real without being primitive. Mass and charge were placed as distinct coupling reads of boundary organization. Background supplied scale and frame before motion was defined. Fields emerged as physical reads of shared enclosing compatibility. Area preceded radius in the gravitational spatial projection. Radiation emerged as recurrent change in an enclosing relation. Quantum theory followed when recurrence remained after subordinate geometry became unreadable. Gauge invariance was interpreted as the physical projection of invariant counting structure. The argument was then extended beyond physics and finally to the largest cosmological projection.
 
 The gravitational development added one further possibility. If gravitational background recurrence changes across recursive boundaries, dimensional gravitational calibration need not remain invariant:
@@ -9588,6 +10145,7 @@ $${\text{thermodynamic~joint~readability}
 The primitive structure has not changed. Only the physical read has.
 
 ### Final Principle — The Projected World Is Reversible in Readability
+
 The central claim of Part IV can now be completed. A projected physical ontology arises when a recursively realized relation remains physically consequential after part of the count relation organizing it has become unreadable. A projected object, field, or geometry may therefore be experimentally exact within its boundary without being primitive across all boundaries. The converse also follows.
 
 When the missing recursive relation again becomes jointly readable, the projected ontology can be deprojected into the more complete count relation from which it arose. For gravity, the atmosphere supplies the canonical example:
@@ -9708,7 +10266,7 @@ This is the missing return path.
 
 Gravity is not merely philosophically compatible with the count architecture. At the thermodynamic boundary, its observable organization is directly expressible within it.
 
-**A Boundary-Dependent **$\mathbf{G}$** Strengthens the Connection**
+**A Boundary-Dependent** $\mathbf{G}$\*\* Strengthens the Connection\*\*
 
 The gravitational projection also suggests that the dimensional gravitational constant need not itself be the invariant object. If the gravitational background recurrence at boundary $B_{n}$ is
 

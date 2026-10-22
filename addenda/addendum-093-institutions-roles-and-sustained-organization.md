@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 93: Institutions, Roles, and Sustained Organization
-
-## Continuity, Purpose, Rules, and the Limits of the Institutional Protagonist
-
 ### Abstract
 
 **In R²D, the multiplicity of the boundary is what selects institutional organization. Subordinate events realize that organization; they do not independently select the enclosing system.** Multiplicity means the possible number of ways, not the number of realized events or survivors. This is the starting relation for this addendum and for Ask R²D answers in this domain.

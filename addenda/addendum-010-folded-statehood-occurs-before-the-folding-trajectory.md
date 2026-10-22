@@ -27,10 +27,6 @@ promotion_date: null
 equation_audit_scope: source_pdf_compared; clipped_text_flagged
 ---
 
-# Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory
-
-## Recursive Replacement, Conformational Multiplicity, and the Emergence of Protein Structure
-
 ## Abstract
 
 Protein folding is commonly described as a trajectory through conformational space.

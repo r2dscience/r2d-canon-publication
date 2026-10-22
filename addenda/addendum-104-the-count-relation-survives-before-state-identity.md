@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 104 — The Count Relation Survives Before State Identity
-
-**Normalization, Logarithmic Magnitude, and Recursive Replacement**
-
 ## Abstract
 
 Science routinely represents the same count structure through two mathematical operations. Normalization expresses each count relative to a defined total, producing relative frequencies or probabilities. Taking the logarithm expresses multiplicative count relationships as additive magnitudes and differences. Statistical mechanics, chemical thermodynamics, and information theory use both operations extensively.

@@ -19,10 +19,6 @@ review_status: author_supplied_for_ask_r2d
 promotion_date: 2026-10-06
 ---
 
-# Addendum 87: Possibility Relations and the Limits of Agency Stories
-
-## Organizing Relations, Local Realization, and Useful Scientific Representations
-
 ### Abstract
 
 A successful description can tell us what happens without establishing that its visible actors define the organization through which it happens. R²D separates local realization from enclosing organization. A boundary defines readable states and compatible realizations; enclosing possibility supplies relative support among local alternatives. A mechanism describing individual events need not define that support.

@@ -27,9 +27,6 @@ promotion_date: null
 equation_audit_scope: displayed_equations_and_schematics_visually_checked_against_pdf; clipped_source_text_flagged
 ---
 
-# Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function
-
-## Recursive Replacement Across Biological Timescales
 
 ## Abstract
 

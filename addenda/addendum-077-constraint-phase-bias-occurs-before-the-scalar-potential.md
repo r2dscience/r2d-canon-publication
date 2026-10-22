@@ -28,10 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential
-
-*Enclosing Constraint, Local Recurrence Bias, and the Origin of the V ψ Term*
-
 ## Abstract
 
 <!-- source_pdf_page: 2536 -->

@@ -19,10 +19,6 @@ review_status: authoritative
 promotion_date: '2026-10-21'
 ---
 
-# Addendum 103 — The Causal Implications of the Microstate Definition
-
-**Enclosing Classification, Recursive Replacement, and the Mathematical Origin of Directional Possibility**
-
 ## Abstract
 
 Statistical mechanics defines a macrostate through the multiplicity of compatible microstates. This familiar mathematical relationship has an immediate implication: a macrostate classification determines which microstate transitions are equivalent, which are distinguishable, and which can constitute a macrostate transition. A microstate transition within one macrostate equivalence class cannot change that macrostate. A transition between macrostates necessarily belongs to a different class of compatible microstate transitions.

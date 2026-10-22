@@ -28,8 +28,6 @@ promotion_date: null
 equation_source_conflict_rule: publication_pdf_controls
 ---
 
-# Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor
-
 ## Abstract
 
 Addendum 54 defined the primitive cosmological state space.

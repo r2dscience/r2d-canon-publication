@@ -30,8 +30,6 @@ equation_source_conflict_rule: publication_pdf_controls
 source_defect_repair_status: archival_pdf_KaTeX_placeholder; contextual_text_pending_author_review
 ---
 
-# Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction
-
 ## Abstract
 
 Recursively Realized Distinguishability does not begin cosmology with the scale factor, Hubble expansion,

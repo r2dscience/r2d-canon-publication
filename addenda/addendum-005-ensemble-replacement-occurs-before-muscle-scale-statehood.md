@@ -26,11 +26,6 @@ qa_status: standalone_render_pass_full_book_pending
 promotion_date: null
 equation_audit_scope: all_display_math_reconstructed_and_checked_against_pdf; source_clipped_prose_flagged
 ---
-
-# Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood
-
-## Recursive Loss of Switch Identity, Multiplicity, and Closure in the Myosin Ensemble
-
 ## Abstract
 
 Addendum 4 showed that the two states of the myosin switch,
