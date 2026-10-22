@@ -21,10 +21,6 @@ semantic_amendments:
 review_status: "authoritative"
 ---
 
-# Recursively Realized Distinguishability (R²D)
-
-## Part I — A Theory of Dimensionless Recursive Counting
-
 > **Authoritative Markdown Canon.** This file is the authoritative scientific source for R²D Part I beginning with Canon revision 2026-09-25. Mathematical notation was normalized from the equation-preserving Word/OMML source into LaTeX. The September 14, 2026 publication is the archival baseline; explicitly listed semantic amendments define the current Canon revision.
 
 ## Contents
@@ -40,7 +36,6 @@ review_status: "authoritative"
 - Appendix B — Worked Example: Recursive Counting in a Coin Ensemble
 - Appendix C — Symbol Summary
 - References
-
 
 ## 1.0 Abstract
 
@@ -64,7 +59,6 @@ pdf_page_end: 26
 semantic_amendment: "2026-09-25-structural-universality-and-domain-mapping-status"
 review_status: "authoritative"
 ---
-# 1.0 Abstract
 
 Recursively Realized Distinguishability (R²D) is a theory of dimensionless recursive counting motivated by observations in active muscle, where structural change tracks the distribution of protein-switch states rather than the trajectory of any individually identifiable switch. R²D asks whether this reflects a more general principle: that physical states are defined by the boundaries within which distinctions are counted.
 
@@ -77,7 +71,6 @@ Statistical mechanics supplies the complementary empirical evidence. For more th
 Across boundaries, completed local realizations are recursively reclassified rather than causally assembled upward. R²D further distinguishes exact structural closure from reciprocal realization and proposes that nonreciprocal occurrence around a local cycle is read at the enclosing boundary as nondirectional background.
 
 R²D thus develops a formal enclosing-to-local ontology based on multiplicity, compatibility, realization, closure, and recursive replacement before energy, temperature, probability, force, field, matter, space, or time are introduced. Statistical mechanics has no preferred physical scale and empirically realizes this same architecture across physical systems. R²D therefore treats the primitive macrostate–microstate count architecture as structurally universal wherever scientific states admit distinguishable macrostates and compatible subordinate realizations. What remains domain-specific is the physical mapping by which a particular theory reads that universal architecture. Gravity, quantum theory, biology, cosmology, and other domains must therefore test their proposed R²D mappings; they do not require a separate re-proof of the primitive statistical grammar.
-
 
 ## 2.0 Introduction
 
@@ -101,7 +94,6 @@ pdf_page_end: 37
 semantic_amendment: "2026-09-25-causal-architecture-and-structural-universality-synchronization"
 review_status: "authoritative"
 ---
-# 2.0 Introduction
 
 The question is simple.
 
@@ -217,7 +209,7 @@ R²D is therefore not a theory in which larger things are constructed by adding 
 
 R²D is not the first framework to challenge the idea that one fixed set of microscopic variables provides the natural description of nature at every scale. Several major developments in twentieth-century physics established that changing scale can change the variables, state descriptions, and mathematical relations through which a system is most naturally represented.
 
-Kadanoff\'s block-spin construction provides a particularly close precedent (23). Microscopic spins are grouped into cells and replaced by collective variables defined at the larger scale. Wilson\'s renormalization group (24) made this scale transformation systematic, showing how effective descriptions change under repeated rescaling and how microscopic details can become irrelevant to large-scale behavior. The larger-scale theory is therefore not obtained simply by retaining every microscopic variable and following it more carefully; a new description emerges under the scale transformation. Effective field theory makes a related point from another direction. Degrees of freedom relevant to one energy domain need not remain explicit in another, and sufficiently heavy degrees of freedom can decouple from low-energy behavior except through their residual effects on effective parameters (25).
+Kadanoff's block-spin construction provides a particularly close precedent (23). Microscopic spins are grouped into cells and replaced by collective variables defined at the larger scale. Wilson's renormalization group (24) made this scale transformation systematic, showing how effective descriptions change under repeated rescaling and how microscopic details can become irrelevant to large-scale behavior. The larger-scale theory is therefore not obtained simply by retaining every microscopic variable and following it more carefully; a new description emerges under the scale transformation. Effective field theory makes a related point from another direction. Degrees of freedom relevant to one energy domain need not remain explicit in another, and sufficiently heavy degrees of freedom can decouple from low-energy behavior except through their residual effects on effective parameters (25).
 
 Physicists have also drawn broader conclusions from these developments. Anderson argued that knowledge of microscopic laws does not by itself make the behavior of increasingly complex levels a trivial construction from below; new organizing principles become relevant as scale and organization change (26). Laughlin and Pines similarly emphasized the importance of emergent organizing principles in many-body physics and questioned the assumption that a fundamental microscopic equation is, by itself, the scientifically complete explanation of higher-level organization (27). The conceptual consequences of renormalization for reduction, scale dependence, and the relations among physical descriptions have likewise been examined explicitly by Cao and Schweber (28).
 
@@ -255,7 +247,7 @@ Local closure does not imply enclosing reversal. An enclosing occurrence defines
 
 Irreversibility introduces another distinction. Even when native multiplicity closes exactly, opposed branches need not realize occurrence count with equal directional efficiency. R²D calls the resulting logarithmic nonreciprocity **occurrence-count loss**. No count is destroyed. The local state can return while realization around the cycle remains nonreciprocal.
 
-R²D\'s Second Law proposes that this nonreciprocity has a complementary enclosing reading as nondirectional background.
+R²D's Second Law proposes that this nonreciprocity has a complementary enclosing reading as nondirectional background.
 
 Thus, four relations that are often compressed into one causal narrative are separated: **the enclosing relation defines what is favored;** **the subordinate structure determines how it is realized;** **recursive carry determines how a completed realization is reclassified across boundaries;** **irreversibility determines whether opposed realizations are reciprocal.**
 
@@ -313,9 +305,7 @@ And, beneath them all:
 
 **Have we mistaken the mechanism that realizes a relation for the cause that organizes it?**
 
-**\
-**
-
+**\**
 
 ## 3.0 The Primitive Counting Structure of R²D
 
@@ -339,6 +329,7 @@ pdf_page_end: 89
 semantic_amendment: "2026-09-25-universal-statistical-architecture"
 review_status: "authoritative"
 ---
+
 # 3.0 The Primitive Counting Structure of R²D
 
 Recursively Realized Distinguishability (R²D) establishes a dimensionless language of recursive counting. It does not assume energy, force, field, spacetime, temperature, probability, or matter as primitive. These quantities appear later as domain-specific readings of count relations.
@@ -1908,7 +1899,7 @@ These equations are not a causal cycle. They are two readings of one recursive r
 
 This is the recursive architecture required by the R²D law.
 
-### 3.9 The R2D Law
+### 3.9 The R²D Law
 
 Recursive carry establishes that one recursively organized occurrence can have different readable forms at adjacent boundaries.
 
@@ -1980,9 +1971,9 @@ count completed recurrences of the enclosing transition class within the same re
 
 $$C_{n + 1}\lambda_{n + 1}N_{\mathcal{D}_{R}}\left( \chi_{n + 1} \right).$$
 
-#### 3.9.3 The R2D Law
+#### 3.9.3 The R²D Law
 
-R2D postulates equality of these two boundary-specific recurrence-weighted readings:
+R²D postulates equality of these two boundary-specific recurrence-weighted readings:
 
 $$\boxed{\Delta A_{n,a,\mathcal{C}}\, N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right) = C_{n + 1}\lambda_{n + 1}N_{\mathcal{D}_{R}}\left( \chi_{n + 1} \right).}$$
 
@@ -2002,7 +1993,7 @@ this becomes
 
 $$\boxed{\Delta P_{n,a,\mathcal{C}} - \Delta R_{n,a,\mathcal{C}} = C_{n + 1}\lambda_{n + 1}\rho_{n + 1 \mid n,a}.}$$
 
-This is the **R2D law**.
+This is the **R**²**D law**.
 
 Its causal interpretation must be stated carefully. The law does not mean
 
@@ -2090,7 +2081,7 @@ $$\delta_{\mathcal{C}}\Phi_{n + 1} = L_{\tau,n,a,\mathcal{C}}.$$
 
 Thus the two postulates remain distinct:
 
-**R2D law:** local recurrence-weighted asymmetry ↔
+**R**²**D law:** local recurrence-weighted asymmetry ↔
 
 enclosing recurrence-weighted constrained distinguishability.
 
@@ -2345,7 +2336,6 @@ The second law states the complementary condition. Unequal directional occurrenc
 
 Nothing is destroyed. The primitive irreversible quantity is **occurrence-count loss**, defined by the difference in directional efficiency with which the two opposed legs of a closure realize the enclosing occurrence.
 
-
 ## 4.0 Principles
 
 ---
@@ -2368,7 +2358,6 @@ pdf_page_end: 100
 semantic_amendment: "none"
 review_status: "authoritative"
 ---
-# 4.0 Principles
 
 ### 4.1 Principle -- The Hidden Structure
 
@@ -2720,7 +2709,6 @@ The first is the enclosing causal relation. The second is its stable correlation
 
 **Determinism is the horizontal reading of enclosing organization. Coherence is its recursive reading across scale.**
 
-
 ## 5.0 Readability Limits and Epiphenomenological (EP) Projection
 
 ---
@@ -2743,7 +2731,6 @@ pdf_page_end: 108
 semantic_amendment: "none"
 review_status: "authoritative"
 ---
-# 5.0 Readability Limits and Epiphenomenological (EP) Projection
 
 Two distinct phenomena occur repeatedly throughout recursive scientific description:
 
@@ -3004,7 +2991,6 @@ $$\text{readability~limit} \neq \text{model~approximation} \neq \text{EP~project
 
 A readability limit determines what cannot be directly resolved from a boundary. A model approximation describes the readable consequence without necessarily making an ontological claim. An EP projection error occurs when that readable consequence is assigned the primitive causal role of the omitted recursive structure.
 
-
 ## 6.0 Two Horizons
 
 ---
@@ -3027,7 +3013,6 @@ pdf_page_end: 111
 semantic_amendment: "none"
 review_status: "authoritative"
 ---
-# 6.0 Two Horizons
 
 ### 6.1 Principle --- Turbine Readability
 
@@ -3135,7 +3120,6 @@ Therefore, occurrence nonreciprocity and background do not add a third horizon c
 
 R²D therefore identifies two, not three, opposite readability horizons. It proposes that the distinguishability-dominant, recurrence-dominant, and jointly readable regimes are primitive count structures later mapped onto different physical descriptions. Part I does not derive those physical theories. It establishes the boundary-indexed count relations that any such mappings must preserve.
 
-
 ## 7.0 Discussion
 
 ---
@@ -3158,7 +3142,6 @@ pdf_page_end: 121
 semantic_amendment: "2026-09-25-causal-architecture-and-structural-universality-synchronization"
 review_status: "authoritative"
 ---
-# 7.0 Discussion
 
 R²D begins with counting, but its most consequential result concerns causality.
 
@@ -3364,11 +3347,7 @@ The equations of Part I define its universal statistical grammar.
 
 The remainder of the program must determine how the successful local theories of science map onto that grammar, which proposed mappings survive empirical test, and whether any domain supplies a genuine counterexample to the boundary-defined macrostate–microstate architecture itself.
 
-*\
-*
-
-
-## Appendix A — Formalism of Dimensionless Recursive Counting
+*\*
 
 ---
 r2d_id: "canon-p1-app-a"
@@ -3390,7 +3369,6 @@ pdf_page_end: 172
 semantic_amendment: "none"
 review_status: "authoritative"
 ---
-# Appendix A — Formalism of Dimensionless Recursive Counting
 
 ### A.0 Notation and Logical Conventions
 
@@ -3476,15 +3454,15 @@ $$\left\{ B_{n - 1,a} \right\}_{a \in I_{n - 1}}.$$
 
 Boundary $B_{n}$determines:
 
--   which joint realizations of its peer subordinate boundaries are compatible;
+- which joint realizations of its peer subordinate boundaries are compatible;
 
--   which compatible joint realizations belong to the same readable macrostate;
+- which compatible joint realizations belong to the same readable macrostate;
 
--   which differences between macrostates are distinguishable;
+- which differences between macrostates are distinguishable;
 
--   which macrostate transitions are readable;
+- which macrostate transitions are readable;
 
--   which peer-source distinctions are unresolved from.
+- which peer-source distinctions are unresolved from.
 
 A boundary need not be a material surface. It is the relation that defines what is distinguishable, what is equivalent, and what is being counted.
 
@@ -5512,9 +5490,6 @@ $$\mathcal{C}_{n,g}\overset{\kappa_{n}}{\mapsto}\chi_{n + 1}^{(r)}.$$
 
 The latter is reclassification, not reverse causation. Thus, enclosing relation determines why, and recursive carry determines how the completed realization is read across boundaries. The turbine is therefore locally active while remaining causally passive with respect to the origin of the enclosing occurrence and its direction.
 
-
-## Appendix B — Worked Example: Recursive Counting in a Coin Ensemble
-
 ---
 r2d_id: "canon-p1-app-b"
 section_title: "Part I — Appendix B: Worked Coin Example"
@@ -5535,7 +5510,6 @@ pdf_page_end: 194
 semantic_amendment: "2026-09-25-causal-architecture-logical-status"
 review_status: "authoritative"
 ---
-# Appendix B — Worked Example: Recursive Counting in a Coin Ensemble
 
 ### B.0 Purpose
 
@@ -5609,7 +5583,7 @@ $$\left\{ B_{n - 1,a} \right\}_{a = 1}^{10} \longrightarrow \mathcal{M}_{n} = \l
 
 The eleven-state landscape belongs to $B_{n}$.
 
-**B.2 Formal Microstates and the **$B_{n}$**Multiplicity Landscape**
+**B.2 Formal Microstates and the** $B_{n}$**Multiplicity Landscape**
 
 Boundary $B_{n}$classifies each formal microstate by
 
@@ -5715,7 +5689,7 @@ Resolving the subordinate transition changes the count boundary.
 
 It does not reveal the same transition at finer resolution while preserving the same state classification.
 
-**B.5 Native Direction Within the **$B_{n}$**Landscape**
+**B.5 Native Direction Within the** $B_{n}$**Landscape**
 
 Consider the adjacent $B_{n}$ transition
 
@@ -5741,7 +5715,7 @@ The native $B_{n}$ landscape therefore contains greater multiplicity at $i = 5$ 
 
 Nothing about this result refers yet to an enclosing boundary.
 
-**B.6 The Second Replacement: Ten **$B_{n}$** Landscapes Define **$B_{n + 1}$
+**B.6 The Second Replacement: Ten** $B_{n}$\*\* Landscapes Define \*\*$B_{n + 1}$
 
 Now introduce ten equivalent peer $B_{n}$ boundaries:
 
@@ -5755,7 +5729,7 @@ with
 
 $$W_{n,a,i_{a}} = \binom{10}{i_{a}}.$$
 
-At this point the individual $H/T$ states at $B_{n - 1}$ have already been replaced as the readable state classification of each $B_{n}$ peer. The objects entering the next recursive composition are therefore **ten **$B_{n}$** landscapes**, not one hundred individually readable coins.
+At this point the individual $H/T$ states at $B_{n - 1}$ have already been replaced as the readable state classification of each $B_{n}$ peer. The objects entering the next recursive composition are therefore **ten** $B_{n}$\*\* landscapes\*\*, not one hundred individually readable coins.
 
 Let the enclosing boundary classify a joint peer macrostate tuple
 
@@ -5825,7 +5799,7 @@ $$\Theta_{n + 1} = \prod_{a = 1}^{10}\Theta_{n,a} = \left( 2^{10} \right)^{10} =
 
 Again, $2^{100}$ is the result of recursively multiplying ten $B_{n}$ landscape multiplicities.
 
-**B.8 A Representative  **$\mathbf{B}_{\mathbf{n}}$ **Landscape Inside **$\mathbf{B}_{\mathbf{n + 1}}$
+**B.8 A Representative** $\mathbf{B}_{\mathbf{n}}$ **Landscape Inside** $\mathbf{B}_{\mathbf{n + 1}}$
 
 Select one representative peer $g$ and let its local macrostate be $i$.
 
@@ -5861,7 +5835,7 @@ Again, the factor
 
 $$\binom{90}{J - i}$$
 
-is the closed-form count of the compatible compositions of **nine **$B_{n}$** landscapes**.
+is the closed-form count of the compatible compositions of **nine** $B_{n}$\*\* landscapes\*\*.
 
 It should not be interpreted as $B_{n + 1}$ directly resolving ninety individual coins.
 
@@ -6292,7 +6266,7 @@ The inequality of the finite-count product is mathematical. Its identification w
 
 ### B.19 Second-Law Readout
 
-R²D\'s Second Law proposes
+R²D's Second Law proposes
 
 $$\delta_{\mathcal{C}}\Phi_{n + 1} = L_{\tau,n,g,\mathcal{C}}.$$
 
@@ -6420,9 +6394,6 @@ The coin ensemble therefore demonstrates the formal distinction at the center of
 
 This is the exact mathematical architecture. The additional empirical burden belongs to realization postulates and domain-specific physical mappings, not to a separately imported top-down causal assumption.
 
-
-## Appendix C — Symbol Summary
-
 ---
 r2d_id: "canon-p1-app-c"
 section_title: "Part I — Appendix C: Symbol Summary"
@@ -6443,51 +6414,30 @@ pdf_page_end: 209
 semantic_amendment: "none"
 review_status: "authoritative"
 ---
-# Appendix C — Symbol Summary
 
 ### C.1 Indexing and Logical Conventions
 
-  -------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                 **Meaning**
-  -------------------------- ----------------------------------------------------------------------------------------------
-  $$n$$                      Generic recursive boundary level.
-
-  $$B_{n}$$                  Count boundary at recursive level $n$.
-
-  $$B_{n - 1,a}$$            Peer boundary immediately subordinate to $B_{n}$.
-
-  $$B_{n + 1}$$              Boundary immediately enclosing $B_{n}$.
-
-  $$a,b$$                    Generic peer indices at one recursive level. Either may be used to distinguish peers.
-
-  $$I_{n}$$                  Index set of peer boundaries at recursive level $n$.
-
-  $$i,j,k$$                  Readable macrostate labels within one boundary-defined count domain.
-
-  $$N > n$$                  Generic larger boundary used for accumulated scaling relations.
-
-  $$\alpha$$                 Index reserved for the smallest realized recursive boundary.
-
-  $$\omega$$                 Index reserved for the largest presently realized recursive boundary.
-
-  $$^{(r)}$$                 Optional label for one realized occurrence. The label $r$ is not a recursive boundary index.
-
-  $$H,L$$                    Opposed oriented legs of a minimal two-leg closure.
-
-  $$\Delta$$                 Oriented difference between states or accumulated oriented difference along a path.
-
-  $$\delta_{\mathcal{C}}$$   Increment associated with one specified realized closure.
-
-  $$n + 1 \mid n$$           Quantity defined or read at $B_{n + 1}$ conditional on a relation at $B_{n}$.
-
-  $$^{tot}$$                 Total quantity within one boundary-defined count domain.
-
-  $$^{comp}$$                Quantity associated with compatible enclosing multiplicity.
-
-  $$^{out}$$                 Productive or distinguishable-output component.
-
-  $$^{\Phi}$$                Background-associated or dissipative component.
-  -------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:-----------------|:----------------------------------------------------|
+| $$n$$ | Generic recursive boundary level. |
+| $$B_{n}$$ | Count boundary at recursive level $n$. |
+| $$B_{n - 1,a}$$ | Peer boundary immediately subordinate to $B_{n}$. |
+| $$B_{n + 1}$$ | Boundary immediately enclosing $B_{n}$. |
+| $$a,b$$ | Generic peer indices at one recursive level. Either may be used to distinguish peers. |
+| $$I_{n}$$ | Index set of peer boundaries at recursive level $n$. |
+| $$i,j,k$$ | Readable macrostate labels within one boundary-defined count domain. |
+| $$N > n$$ | Generic larger boundary used for accumulated scaling relations. |
+| $$\alpha$$ | Index reserved for the smallest realized recursive boundary. |
+| $$\omega$$ | Index reserved for the largest presently realized recursive boundary. |
+| $$^{(r)}$$ | Optional label for one realized occurrence. The label $r$ is not a recursive boundary index. |
+| $$H,L$$ | Opposed oriented legs of a minimal two-leg closure. |
+| $$\Delta$$ | Oriented difference between states or accumulated oriented difference along a path. |
+| $$\delta_{\mathcal{C}}$$ | Increment associated with one specified realized closure. |
+| $$n + 1 \mid n$$ | Quantity defined or read at $B_{n + 1}$ conditional on a relation at $B_{n}$. |
+| $$^{tot}$$ | Total quantity within one boundary-defined count domain. |
+| $$^{comp}$$ | Quantity associated with compatible enclosing multiplicity. |
+| $$^{out}$$ | Productive or distinguishable-output component. |
+| $$^{\Phi}$$ | Background-associated or dissipative component. |
 
 **Peer-index convention**
 
@@ -6509,39 +6459,23 @@ No averaging over peers is implied.
 
 ### C.2 Boundary, State, and Readability Symbols
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                                             **Meaning**
-  ------------------------------------------------------ ----------------------------------------------------------------------------------------
-  $$B_{n}$$                                              Count boundary defining the count domain at recursive level $n$.
-
-  $$\mathfrak{X}_{n - 1,a}$$                             Possible realization domain of subordinate peer $B_{n - 1,a}$.
-
-  $$\prod_{a \in I_{n - 1}}\mathfrak{X}_{n - 1,a}$$   Unrestricted joint peer-realization space subordinate to $B_{n}$.
-
-  $$\mathfrak{M}_{n}$$                                   Formal microstate domain at $B_{n}$: the compatible subset of joint peer realizations.
-
-  $$\mu_{n}$$                                            One formal microstate at $B_{n}$.
-
-  $$\mathcal{M}_{n}$$                                    Set of readable macrostates at $B_{n}$.
-
-  $$i \in \mathcal{M}_{n}$$                              One readable macrostate at $B_{n}$.
-
-  $$\pi_{n}$$                                            Macrostate classification map defined by $B_{n}$.
-
-  $$\mu_{n} \sim_{n}\mu_{n}'$$                           Macrostate equivalence of two formal microstates at $B_{n}$.
-
-  $$\pi_{n}^{-1}(i)$$                                   Fiber of compatible formal microstates classified as macrostate $i$.
-
-  $$\chi_{n,i \rightarrow k}$$                           Readable macrostate transition $i \rightarrow k$ at $B_{n}$.
-
-  $$\mu_{n} \rightarrow \mu_{n}'$$                       Microstate transition relative to $B_{n}$.
-
-  $$\mathcal{R}_{n}$$                                    Finite readable macrostate path returning to its initial macrostate.
-
-  $$\mathcal{C}_{n}$$                                    Closure: a local return compatible with an enclosing occurrence.
-
-  $$\mathcal{C}_{n,a}$$                                  Closure at specified peer $a$.
-  -----------------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:--------------------------|:-------------------------------------------|
+| $$B_{n}$$ | Count boundary defining the count domain at recursive level $n$. |
+| $$\mathfrak{X}_{n - 1,a}$$ | Possible realization domain of subordinate peer $B_{n - 1,a}$. |
+| $$\prod_{a \in I_{n - 1}}\mathfrak{X}_{n - 1,a}$$ Unr | estricted joint peer-realization space subordinate to $B_{n}$. |
+| $$\mathfrak{M}_{n}$$ | Formal microstate domain at $B_{n}$: the compatible subset of joint peer realizations. |
+| $$\mu_{n}$$ | One formal microstate at $B_{n}$. |
+| $$\mathcal{M}_{n}$$ | Set of readable macrostates at $B_{n}$. |
+| $$i \in \mathcal{M}_{n}$$ | One readable macrostate at $B_{n}$. |
+| $$\pi_{n}$$ | Macrostate classification map defined by $B_{n}$. |
+| $$\mu_{n} \sim_{n}\mu_{n}'$$ | Macrostate equivalence of two formal microstates at $B_{n}$. |
+| $$\pi_{n}^{-1}(i)$$ F | iber of compatible formal microstates classified as macrostate $i$. |
+| $$\chi_{n,i \rightarrow k}$$ | Readable macrostate transition $i \rightarrow k$ at $B_{n}$. |
+| $$\mu_{n} \rightarrow \mu_{n}'$$ | Microstate transition relative to $B_{n}$. |
+| $$\mathcal{R}_{n}$$ | Finite readable macrostate path returning to its initial macrostate. |
+| $$\mathcal{C}_{n}$$ | Closure: a local return compatible with an enclosing occurrence. |
+| $$\mathcal{C}_{n,a}$$ | Closure at specified peer $a$. |
 
 The formal microstate domain is
 
@@ -6567,23 +6501,15 @@ A microstate transition is therefore formally definable relative to $B_{n}$ with
 
 ### C.3 Native Multiplicity and Entropy
 
-  ---------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                         **Meaning**
-  ---------------------------------- ----------------------------------------------------------------------------------------------------
-  $$W_{n,i}$$                        Native multiplicity of macrostate $i$: number of compatible formal microstates classified as$i$.
-
-  $$S_{n,i}$$                        Dimensionless logarithmic possible-count coordinate of macrostate $i$.
-
-  $$\Delta S_{n,i \rightarrow k}$$   Native logarithmic multiplicity difference across readable transition $i \rightarrow k.$
-
-  $$\Theta_{n}$$                     Total possible multiplicity of boundary $B_{n}$.
-
-  $$S_{n}^{tot}$$                    Logarithm of total boundary multiplicity.
-
-  $$\mathcal{W}_{n}$$                Native multiplicity landscape at $B_{n}$.
-
-  $$\mathcal{S}_{n}$$                Native entropic landscape at $B_{n}$.
-  ---------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:------------------|:---------------------------------------------------|
+| $$W_{n,i}$$ | Native multiplicity of macrostate $i$: number of compatible formal microstates classified as$i$. |
+| $$S_{n,i}$$ | Dimensionless logarithmic possible-count coordinate of macrostate $i$. |
+| $$\Delta S_{n,i \rightarrow k}$$ | Native logarithmic multiplicity difference across readable transition $i \rightarrow k.$ |
+| $$\Theta_{n}$$ | Total possible multiplicity of boundary $B_{n}$. |
+| $$S_{n}^{tot}$$ | Logarithm of total boundary multiplicity. |
+| $$\mathcal{W}_{n}$$ | Native multiplicity landscape at $B_{n}$. |
+| $$\mathcal{S}_{n}$$ | Native entropic landscape at $B_{n}$. |
 
 Multiplicity is
 
@@ -6627,21 +6553,14 @@ $$\text{compatible~joint~possibilities~multiply;}\quad\quad\text{mutually~exclus
 
 ### C.4 Enclosing Compatibility and Possibility
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                           **Meaning**
-  ------------------------------------ -----------------------------------------------------------------------------------------------------------------------
-  $$\mathcal{E}_{n + 1 \mid n,a,i}$$   Enclosing compatibility fiber: enclosing formal microstates compatible with peer $a$ being locally classified as $i$.
-
-  $$\Theta_{n + 1 \mid n,a,i}$$        Multiplicity of the enclosing compatibility fiber.
-
-  $$K_{n + 1 \mid n,a,i}$$             Mean compatible enclosing extension multiplicity per local possibility.
-
-  $$P_{n,a,i}$$                        Logarithmic compatible enclosing extension associated with local macrostate $i$.
-
-  $$\Delta P_{n,a,i \rightarrow k}$$   Directional possibility difference between local alternatives $i$ and $k$.
-
-  $$S_{n + 1 \mid n,a,i}^{comp}$$      Compatible enclosing entropy conditioned on the local classification $i$.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:-----------------|:----------------------------------------------------|
+| $$\mathcal{E}_{n + 1 \mid n,a,i}$$ | Enclosing compatibility fiber: enclosing formal microstates compatible with peer $a$ being locally classified as $i$. |
+| $$\Theta_{n + 1 \mid n,a,i}$$ | Multiplicity of the enclosing compatibility fiber. |
+| $$K_{n + 1 \mid n,a,i}$$ | Mean compatible enclosing extension multiplicity per local possibility. |
+| $$P_{n,a,i}$$ | Logarithmic compatible enclosing extension associated with local macrostate $i$. |
+| $$\Delta P_{n,a,i \rightarrow k}$$ | Directional possibility difference between local alternatives $i$ and $k$. |
+| $$S_{n + 1 \mid n,a,i}^{comp}$$ | Compatible enclosing entropy conditioned on the local classification $i$. |
 
 When the peer is already clear, the index $a$ may be suppressed.
 
@@ -6687,25 +6606,16 @@ $$\text{enclosing~multiplicity~supplies~possibility;}\quad\quad\text{unequal~enc
 
 ### C.5 Occurrence, Occupancy, and Structural Realization
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                           **Meaning**
-  ------------------------------------ ----------------------------------------------------------------------------------------------------------------------
-  $$\mu_{n}^{(r)}$$                    One realized formal microstate at $B_{n}$.
-
-  $$\nu_{n,i}$$                        Number of realized microstate occurrences classified as macrostate $i$ within a specified finite realization domain.
-
-  $$\tau_{n,i}$$                       Logarithmic occurrence coordinate associated with macrostate $i$.
-
-  $$\Delta\tau_{n,i \rightarrow k}$$   Occurrence-coordinate difference between macrostates $i$ and $k$.
-
-  $$c_{n,i}$$                          Realized occupancy of macrostate $i$.
-
-  $$G_{n,i}$$                          Logarithmic occupancy coordinate.
-
-  $$\Delta G_{n,i \rightarrow k}$$     Logarithmic occupancy difference across transition $i \rightarrow k$.
-
-  $$i_{n}^{*}$$                        Structural macrostate: macrostate of maximum occupancy.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:-----------------|:----------------------------------------------------|
+| $$\mu_{n}^{(r)}$$ | One realized formal microstate at $B_{n}$. |
+| $$\nu_{n,i}$$ | Number of realized microstate occurrences classified as macrostate $i$ within a specified finite realization domain. |
+| $$\tau_{n,i}$$ | Logarithmic occurrence coordinate associated with macrostate $i$. |
+| $$\Delta\tau_{n,i \rightarrow k}$$ | Occurrence-coordinate difference between macrostates $i$ and $k$. |
+| $$c_{n,i}$$ | Realized occupancy of macrostate $i$. |
+| $$G_{n,i}$$ | Logarithmic occupancy coordinate. |
+| $$\Delta G_{n,i \rightarrow k}$$ | Logarithmic occupancy difference across transition $i \rightarrow k$. |
+| $$i_{n}^{*}$$ | Structural macrostate: macrostate of maximum occupancy. |
 
 One realized microstate is
 
@@ -6753,22 +6663,14 @@ These are distinct count types.
 
 ### C.6 Distinguishability, Constraint, Retention, and Asymmetry
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                         **Meaning**
-  ---------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  $$\lambda_{n,i \rightarrow k}$$    Oriented readable distinguishability interval between macrostates $i$ and $k$.
-
-
-  $$C_{n + 1}$$                      Total enclosing constraint on the enclosing occurrence; decomposed into productive and background-associated components. Only the productive component enters local retention.
-
-  $$\Delta R_{n,i \rightarrow k}$$   Retention across the readable transition, defined by the productive component of enclosing constraint.
-
-  $$\Delta A_{n,i \rightarrow k}$$   Net local asymmetry across the transition.
-
-  $$C_{n + 1}^{out}$$                Productive/output component of enclosing constraint; defines local retention and remains readable as productive enclosing output.
-
-  $$C_{n + 1}^{\Phi}$$               Background-associated or dissipative component of enclosing constraint; contributes to the total enclosing read but not to local retention.
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:---------------|:-------------------------------------------------------|
+| $$\lambda_{n,i \rightarrow k}$$ | Oriented readable distinguishability interval between macrostates $i$ and $k$. |
+| $$C_{n + 1}$$ | Total enclosing constraint on the enclosing occurrence; decomposed into productive and background-associated components. Only the productive component enters local retention. |
+| $$\Delta R_{n,i \rightarrow k}$$ | Retention across the readable transition, defined by the productive component of enclosing constraint. |
+| $$\Delta A_{n,i \rightarrow k}$$ | Net local asymmetry across the transition. |
+| $$C_{n + 1}^{out}$$ | Productive/output component of enclosing constraint; defines local retention and remains readable as productive enclosing output. |
+| $$C_{n + 1}^{\Phi}$$ | Background-associated or dissipative component of enclosing constraint; contributes to the total enclosing read but not to local retention. |
 
 Distinguishability is oriented:
 
@@ -6804,41 +6706,24 @@ $$C_{n + 1} = C_{n + 1}^{out} + C_{n + 1}^{\Phi}.$$
 
 ### C.7 Return, Closure, Recurrence, and Occurrence Nonreciprocity
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                                                **Meaning**
-  --------------------------------------------------------- --------------------------------------------------------------------------------------------------
-  $$\mathcal{R}_{n}$$                                       Finite readable macrostate return at $B_{n}$.
-
-  $$\mathcal{C}_{n,a}$$                                     Closure at peer $a$: a local return compatible with an enclosing occurrence.
-
-  $$\Delta S_{n,a,\mathcal{C}}$$                            Net native logarithmic multiplicity difference around the closure.
-
-  $$\Delta P_{n,a,\mathcal{C}}$$                            Accumulated directional possibility around the closure.
-
-  $$\Delta R_{n,a,\mathcal{C}}$$                            Accumulated retention around the closure.
-
-  $$\Delta A_{n,a,\mathcal{C}}$$                            Net enclosing-defined asymmetry remaining around the closure.
-
-  $$N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right)$$   Number of completed local closure recurrences in recurrence-comparison domain $\mathcal{D}_{R}$.
-
-  $$N_{\mathcal{D}_{R}}\left( \chi_{n + 1} \right)$$        Number of completed enclosing transition recurrences in the same comparison domain.
-
-  $$\rho_{n + 1 \mid n,a}$$                                 Enclosing recurrence count divided by representative local closure recurrence count.
-
-  $$\nu_{n,a,H}$$                                           Number of completed realizations of oriented closure leg $H$.
-
-  $$\nu_{n,a,L}$$                                           Number of completed realizations of opposed closure leg $L$.
-
-  $$\eta_{n,a,\mathcal{C}}$$                                Directional occurrence-count efficiency of the completed closure.
-
-  $$\Delta\tau_{n,a,\mathcal{C}}$$                          Logarithmic opposed-leg occurrence difference, $\ln\eta_{n,a,\mathcal{C}}$.
-
-  $$L_{\tau,n,a,\mathcal{C}}$$                              Logarithmic nonreciprocity of the opposed leg-realization counts.
-
-  $$\epsilon_{H},\epsilon_{L}$$                             Finite-count realization factors for the opposed closure legs.
-
-  $$N_{i},N_{k}$$                                           Finite positive counts entering the finite-count directional-efficiency construction.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:--------------------------|:-------------------------------------------|
+| $$\mathcal{R}_{n}$$ | Finite readable macrostate return at $B_{n}$. |
+| $$\mathcal{C}_{n,a}$$ | Closure at peer $a$: a local return compatible with an enclosing occurrence. |
+| $$\Delta S_{n,a,\mathcal{C}}$$ | Net native logarithmic multiplicity difference around the closure. |
+| $$\Delta P_{n,a,\mathcal{C}}$$ | Accumulated directional possibility around the closure. |
+| $$\Delta R_{n,a,\mathcal{C}}$$ | Accumulated retention around the closure. |
+| $$\Delta A_{n,a,\mathcal{C}}$$ | Net enclosing-defined asymmetry remaining around the closure. |
+| $$N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right)$$ | Number of completed local closure recurrences in recurrence-comparison domain $\mathcal{D}_{R}$. |
+| $$N_{\mathcal{D}_{R}}\left( \chi_{n + 1} \right)$$ | Number of completed enclosing transition recurrences in the same comparison domain. |
+| $$\rho_{n + 1 \mid n,a}$$ | Enclosing recurrence count divided by representative local closure recurrence count. |
+| $$\nu_{n,a,H}$$ | Number of completed realizations of oriented closure leg $H$. |
+| $$\nu_{n,a,L}$$ | Number of completed realizations of opposed closure leg $L$. |
+| $$\eta_{n,a,\mathcal{C}}$$ | Directional occurrence-count efficiency of the completed closure. |
+| $$\Delta\tau_{n,a,\mathcal{C}}$$ | Logarithmic opposed-leg occurrence difference, $\ln\eta_{n,a,\mathcal{C}}$. |
+| $$L_{\tau,n,a,\mathcal{C}}$$ | Logarithmic nonreciprocity of the opposed leg-realization counts. |
+| $$\epsilon_{H},\epsilon_{L}$$ | Finite-count realization factors for the opposed closure legs. |
+| $$N_{i},N_{k}$$ | Finite positive counts entering the finite-count directional-efficiency construction. |
 
 Closure possibility is
 
@@ -6912,19 +6797,13 @@ $$\eta_{n,a,\mathcal{C}} = \epsilon_{H}\epsilon_{L}.$$
 
 ### C.8 Enclosing Occurrence, Recursive Carry, and Causal Direction
 
-  ------------------------------------------------------------------------------------------------------
-  **Symbol**                      **Meaning**
-  ------------------------------- ----------------------------------------------------------------------
-  $$\chi_{n + 1}$$                Readable enclosing macrostate transition at $B_{n + 1}$.
-
-  $$\chi_{n + 1}^{(r)}$$          One realized occurrence associated with the enclosing transition.
-
-  $$\mathfrak{D}_{n + 1,\chi}$$   Set of joint peer closures compatible with one enclosing occurrence.
-
-  $$\mathcal{C}_{n,a}$$           Closure at selected peer a compatible with the enclosing occurrence.
-
-  $$\kappa_{n}$$                  Recursive reclassification under change from $B_{n}$ to $B_{n + 1}$.
-  ------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:----------------------|:-----------------------------------------------|
+| $$\chi_{n + 1}$$ | Readable enclosing macrostate transition at $B_{n + 1}$. |
+| $$\chi_{n + 1}^{(r)}$$ | One realized occurrence associated with the enclosing transition. |
+| $$\mathfrak{D}_{n + 1,\chi}$$ | Set of joint peer closures compatible with one enclosing occurrence. |
+| $$\mathcal{C}_{n,a}$$ | Closure at selected peer a compatible with the enclosing occurrence. |
+| $$\kappa_{n}$$ | Recursive reclassification under change from $B_{n}$ to $B_{n + 1}$. |
 
 The enclosing compatible-closure set is
 
@@ -6953,21 +6832,14 @@ Recursive carry is reclassification, not reverse causation.
 
 ### C.9 Background and the Second Law
 
-  --------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                             **Meaning**
-  -------------------------------------- -----------------------------------------------------------------------------------
-  $$b_{n}$$                              Realized nondirectional background count at $B_{n}$.
-
-  $$\Phi_{n}$$                           Logarithmic background coordinate.
-
-  b~n+1~^-^                              Enclosing background count before one specified realization relation.
-
-  b~n+1~^+^                              Enclosing background count after one specified realization relation.
-
-  $$\delta_{\mathcal{C}}\Phi_{n + 1}$$   Enclosing background increment associated with closure $\mathcal{C}$.
-
-  $$\Delta\Phi_{n + 1 \mid n,a:b}$$      Enclosing comparison between background counts associated with peers $a$ and $b$.
-  --------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:----------------------|:-----------------------------------------------|
+| $$b_{n}$$ | Realized nondirectional background count at $B_{n}$. |
+| $$\Phi_{n}$$ | Logarithmic background coordinate. |
+| b~n+1~^-^ | Enclosing background count before one specified realization relation. |
+| b~n+1~^+^ | Enclosing background count after one specified realization relation. |
+| $$\delta_{\mathcal{C}}\Phi_{n + 1}$$ | Enclosing background increment associated with closure $\mathcal{C}$. |
+| $$\Delta\Phi_{n + 1 \mid n,a:b}$$ | Enclosing comparison between background counts associated with peers $a$ and $b$. |
 
 Background is
 
@@ -6993,19 +6865,13 @@ This relation equates boundary-specific logarithmic count readings. It does not 
 
 ### C.10 Recurrence Ratio and the R2D Law
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------
-  **Symbol**                                                **Meaning**
-  --------------------------------------------------------- -----------------------------------------------------------------------------------------
-  $$N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right)$$   Completed representative local closure recurrences in one recurrence-comparison domain.
-
-  $$N_{\mathcal{D}_{R}}\left( \chi_{n + 1} \right)$$        Completed enclosing transition recurrences in the same domain.
-
-  $$\rho_{n + 1 \mid n,a}$$                                 Adjacent recurrence ratio, enclosing recurrence divided by local closure recurrence.
-
-  $$\Delta A_{n,a,\mathcal{C}}$$                            Net closure asymmetry per local closure recurrence.
-
-  $$C_{n + 1}\lambda_{n + 1}$$                              Constrained distinguishability per enclosing recurrence.
-  ---------------------------------------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:---------------------------|:------------------------------------------|
+| $$N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right)$$ | Completed representative local closure recurrences in one recurrence-comparison domain. |
+| $$N_{\mathcal{D}_{R}}\left( \chi_{n + 1} \right)$$ | Completed enclosing transition recurrences in the same domain. |
+| $$\rho_{n + 1 \mid n,a}$$ | Adjacent recurrence ratio, enclosing recurrence divided by local closure recurrence. |
+| $$\Delta A_{n,a,\mathcal{C}}$$ | Net closure asymmetry per local closure recurrence. |
+| $$C_{n + 1}\lambda_{n + 1}$$ | Constrained distinguishability per enclosing recurrence. |
 
 The adjacent recurrence ratio is
 
@@ -7031,15 +6897,11 @@ No sum or average over peers is implied.
 
 ### C.11 Accumulated Count Geometry and Readability Horizons
 
-  -----------------------------------------------------------------------------------------------------------------
-  **Symbol**                          **Meaning**
-  ----------------------------------- -----------------------------------------------------------------------------
-  $$\Lambda_{N \mid n}$$              Accumulated logarithmic distinguishability scaling from $B_{n}$ to $B_{N}$.
-
-  $$\Gamma_{N \mid n}$$               Accumulated logarithmic recurrence scaling from $B_{n}$ to $B_{N}$.
-
-  $$H_{N \mid n}$$                    Accumulated count-geometry imbalance.
-  -----------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:----------------------|:-----------------------------------------------|
+| $$\Lambda_{N \mid n}$$ | Accumulated logarithmic distinguishability scaling from $B_{n}$ to $B_{N}$. |
+| $$\Gamma_{N \mid n}$$ | Accumulated logarithmic recurrence scaling from $B_{n}$ to $B_{N}$. |
+| $$H_{N \mid n}$$ | Accumulated count-geometry imbalance. |
 
 Define
 
@@ -7057,33 +6919,23 @@ Equivalently,
 
 $$H_{N \mid n} = \ln\left\lbrack \frac{\left| \lambda_{N} \right|/\left| \lambda_{n} \right|}{\prod_{j = n}^{N - 1}\rho_{j + 1 \mid j}} \right\rbrack.$$
 
-  ----------------------------------------------------------------------------------------------------------------------------------
-  **Regime**                    **Condition**                **Meaning**
-  ----------------------------- ---------------------------- -----------------------------------------------------------------------
-  Distinguishability-dominant   $$H \rightarrow + \infty$$   Distinguishability grows relative to recurrence.
-
-  Recurrence-dominant           $$H \rightarrow - \infty$$   Recurrence grows relative to distinguishability.
-
-  Jointly readable closure      $$|H| < \infty$$             Both relations may remain jointly readable when both remain resolved.
-  ----------------------------------------------------------------------------------------------------------------------------------
+| **Regime** | **Condition** | **Meaning** |
+|:----------------|:----------------|:------------------------------------|
+| Distinguishability-dominant | $$H \rightarrow + \infty$$ | Distinguishability grows relative to recurrence. |
+| Recurrence-dominant | $$H \rightarrow - \infty$$ | Recurrence grows relative to distinguishability. |
+| Jointly readable closure | $$|H| < \infty$$ | Both relations may remain jointly readable when both remain resolved. |
 
 A mathematical limit alone is not a readability horizon. A horizon additionally requires loss of resolution of one count relation while the other remains readable.
 
 ### C.12 Recursive Limits
 
-  ----------------------------------------------------------------------------------------------------------------------
-  **Symbol**                          **Meaning**
-  ----------------------------------- ----------------------------------------------------------------------------------
-  $$B_{\alpha}$$                      Smallest realized count boundary.
-
-  $$B_{\omega}$$                      Largest presently realized count boundary.
-
-  $$\mathcal{O}_{\omega}$$            Presently open macrostate path at $B_{\omega}.$
-
-  $$\mathcal{C}_{\omega}$$            Completed terminal closure; presently not realized under the terminal postulate.
-
-  $$\Delta A_{\omega,\mathcal{O}}$$   Unresolved directional asymmetry of the terminal open path.
-  ----------------------------------------------------------------------------------------------------------------------
+| **Symbol** | **Meaning** |
+|:---------------------|:------------------------------------------------|
+| $$B_{\alpha}$$ | Smallest realized count boundary. |
+| $$B_{\omega}$$ | Largest presently realized count boundary. |
+| $$\mathcal{O}_{\omega}$$ | Presently open macrostate path at $B_{\omega}.$ |
+| $$\mathcal{C}_{\omega}$$ | Completed terminal closure; presently not realized under the terminal postulate. |
+| $$\Delta A_{\omega,\mathcal{O}}$$ | Unresolved directional asymmetry of the terminal open path. |
 
 The lower realized limit is
 
@@ -7119,31 +6971,19 @@ because that construction would require a presently realized enclosing boundary 
 
 This table makes explicit **where each quantity is defined**.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Count relation**         **State-defined quantity**   **Transition-defined quantity**                         **Closure / across-boundary quantity**
-  -------------------------- ---------------------------- ------------------------------------------------------- --------------------------------------------------------------------------------------
-  Native multiplicity        $$W_{n,i}, S_{n,i}$$        $$\Delta S_{n,i \rightarrow k}$$                        $$\Delta S_{n,a,\mathcal{C}} = 0$$
-
-  Enclosing possibility      $$P_{n,a,i}$$                $$\Delta P_{n,a,i \rightarrow k}$$                      $$\Delta P_{n,a,\mathcal{C}}$$
-
-  State occurrence           $$\nu_{n,i}, \tau_{n,i}$$   $$\Delta\tau_{n,i \rightarrow k}$$                      ---
-
-  Closure recurrence         ---                          ---                                                     $$N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right), \rho_{n + 1 \mid n,a}$$
-
-  Occupancy                  $$c_{n,i}, G_{n,i}$$        $$\Delta G_{n,i \rightarrow k}$$                        ---
-
-  Distinguishability         ---                          $$\lambda_{n,i \rightarrow k}$$                         $\lambda_{n + 1}$ when read enclosingly
-
-  Retention                  ---                          $$\Delta R_{n,i \rightarrow k}$$                        $$\Delta R_{n,a,\mathcal{C}}$$
-
-  Asymmetry                  ---                          $$\Delta A_{n,i \rightarrow k}$$                        $$\Delta A_{n,a,\mathcal{C}}$$
-
-  Complete leg realization   ---                          ---                                                     $$\nu_{n,a,H}, \nu_{n,a,L}$$
-
-  Leg nonreciprocity         ---                          ---                                                     $$\eta_{n,a,\mathcal{C}}, \Delta\tau_{n,a,\mathcal{C}}, L_{\tau,n,a,\mathcal{C}}$$
-
-  Background                 $$b_{n}, \Phi_{n}$$         $\Delta\Phi_{n + 1 \mid n,a:b}$ when read enclosingly   $$\delta_{\mathcal{C}}\Phi_{n + 1}$$
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Count relation** | **State-defined quantity** | **Transition-defined quantity** | **Closure / across-boundary quantity** |
+|:-------------|:-------------|:---------------|:--------------------------|
+| Native multiplicity | $$W_{n,i}, S_{n,i}$$ \$ | $\Delta S_{n,i \rightarrow k}$\$ \$ | $\Delta S_{n,a,\mathcal{C}} = 0$\$ |
+| Enclosing possibility | $$P_{n,a,i}$$ | $$\Delta P_{n,a,i \rightarrow k}$$ | $$\Delta P_{n,a,\mathcal{C}}$$ |
+| State occurrence | $$\nu_{n,i}, \tau_{n,i}$$ \$ | $\Delta\tau_{n,i \rightarrow k}$\$ - | -- |
+| Closure recurrence | --- | --- | $$N_{\mathcal{D}_{R}}\left( \mathcal{C}_{n,a} \right), \rho_{n + 1 \mid n,a}$$ |
+| Occupancy | $$c_{n,i}, G_{n,i}$$ \$ | $\Delta G_{n,i \rightarrow k}$\$ - | -- |
+| Distinguishability | --- | $$\lambda_{n,i \rightarrow k}$$ | $\lambda_{n + 1}$ when read enclosingly |
+| Retention | --- | $$\Delta R_{n,i \rightarrow k}$$ | $$\Delta R_{n,a,\mathcal{C}}$$ |
+| Asymmetry | --- | $$\Delta A_{n,i \rightarrow k}$$ | $$\Delta A_{n,a,\mathcal{C}}$$ |
+| Complete leg realization | --- | --- | $$\nu_{n,a,H}, \nu_{n,a,L}$$ |
+| Leg nonreciprocity | --- | --- | $$\eta_{n,a,\mathcal{C}}, \Delta\tau_{n,a,\mathcal{C}}, L_{\tau,n,a,\mathcal{C}}$$ |
+| Background | $$b_{n}, \Phi_{n}$$ \$ | \Delta\Phi\_{n + 1 \mid n,a:b}\$ when read enclosingly \$ | $\delta_{\mathcal{C}}\Phi_{n + 1}$\$ |
 
 The most important distinctions are:
 
@@ -7181,9 +7021,6 @@ for recursive reclassification.
 
 The first specifies which subordinate realization belongs to the enclosing occurrence. The second specifies how that completed realization is counted when the boundary changes.
 
-
-## References
-
 ---
 r2d_id: "canon-p1-references"
 section_title: "Part I — References"
@@ -7204,25 +7041,24 @@ pdf_page_end: 211
 semantic_amendment: "none"
 review_status: "authoritative"
 ---
-# Part I — References
 
-1. Boltzmann, L. 1877. Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften. *Wien* 76.
+1.  Boltzmann, L. 1877. Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften. *Wien* 76.
 
-2. Zwanzig, R. 2001. Nonequilibrium Statistical Mechanics. Oxford University Press.
+2.  Zwanzig, R. 2001. Nonequilibrium Statistical Mechanics. Oxford University Press.
 
-3. Jaynes, E.T. 1957. Information Theory and Statistical Mechanics. *Phys. Rev.* 106.
+3.  Jaynes, E.T. 1957. Information Theory and Statistical Mechanics. *Phys. Rev.* 106.
 
-4. Gibbs, J. 1902. Elementary Principles in Statistical Mechanics Developed with Especial Reference to the Rational Foundation of Thermodynamics.
+4.  Gibbs, J. 1902. Elementary Principles in Statistical Mechanics Developed with Especial Reference to the Rational Foundation of Thermodynamics.
 
-5. Brown, H.R., W.C. Myrvold, and J. Uffink. 2009. Boltzmann's H-Theorem, Its Discontents, and the Birth of Statistical Mechanics. *Studies in History and Philosophy of Science Part B Studies in History and Philosophy of Modern Physics* 40:174--191, doi: 10.1016/j.shpsb.2009.03.003.
+5.  Brown, H.R., W.C. Myrvold, and J. Uffink. 2009. Boltzmann's H-Theorem, Its Discontents, and the Birth of Statistical Mechanics. *Studies in History and Philosophy of Science Part B Studies in History and Philosophy of Modern Physics* 40:174--191, doi: 10.1016/j.shpsb.2009.03.003.
 
-6. Cooke, R. 1997. Actomyosin interaction in striated muscle. *Physiol. Rev.* 77:671--97.
+6.  Cooke, R. 1997. Actomyosin interaction in striated muscle. *Physiol. Rev.* 77:671--97.
 
-7. Hill, A.V. 1938. The heat of shortening and the dynamic constants of muscle. *Proceedings of the Royal Society of London. Series B* 126:136--195.
+7.  Hill, A.V. 1938. The heat of shortening and the dynamic constants of muscle. *Proceedings of the Royal Society of London. Series B* 126:136--195.
 
-8. Hill, A. 1964. The efficiency of mechanical power development during muscular shortening and its relation to load. *Proc. R. Soc. Lond. B Biol. Sci.* 159:319--324.
+8.  Hill, A. 1964. The efficiency of mechanical power development during muscular shortening and its relation to load. *Proc. R. Soc. Lond. B Biol. Sci.* 159:319--324.
 
-9. Baker, J.E., L.E.W. LaConte, I. Brust-Mascher, and D.D. Thomas. 1999. Mechanochemical coupling in spin-labeled, active, isometric muscle. *Biophys. J.* 77:2657--64, doi: 10.1016/S0006-3495(99)77100-6.
+9.  Baker, J.E., L.E.W. LaConte, I. Brust-Mascher, and D.D. Thomas. 1999. Mechanochemical coupling in spin-labeled, active, isometric muscle. *Biophys. J.* 77:2657--64, doi: 10.1016/S0006-3495(99)77100-6.
 
 10. Baker, J.E., I. Brust-Mascher, S. Ramachandran, L.E. LaConte, and D.D. Thomas. 1998. A large and distinct rotation of the myosin light chain domain occurs upon muscle contraction. *Proc. Natl. Acad. Sci. U. S. A.* 95:2944--9.
 
