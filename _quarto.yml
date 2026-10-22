@@ -6,6 +6,9 @@ number-sections: false
 book:
   title: "R²D Canon and Addenda"
   output-file: r2d-canon-and-addenda
+  author:
+    - "Josh E. Baker, Ph.D. Professor Pharmacology and Associate Vice President for Research"
+    - "Julie A. Ellsworth, Ph.D. Dean Life Sciences and Allied Health"
   chapters:
     - index.qmd
     - canon/part-i.md
@@ -88,6 +91,15 @@ book:
         - addenda/addendum-095-evolution-as-enclosing-possibility.md
         - addenda/addendum-096-local-laws-and-global-fit.md
         - addenda/addendum-097-mathematical-structure-before-local-laws.md
+        - addenda/addendum-099-born-rule-consistency-without-primitive-quantum-causation.md
+        - addenda/addendum-098-enclosing-compatibility-occurs-before-microscopic-causality.md
+        - addenda/addendum-100-the-empty-vessel-recursive-replacement-observation-and-irreversibility.md
+        - addenda/addendum-101-the-enclosing-relation-before-quantum-representation.md
+        - addenda/addendum-102-particles-are-imagined.md
+        - addenda/addendum-103-the-causal-implications-of-the-microstate-definition.md
+        - addenda/addendum-104-the-count-relation-survives-before-state-identity.md
+        - addenda/addendum-105-the-observational-inversion.md
+        - addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.md
 format:
   html:
     theme: cosmo

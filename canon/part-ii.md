@@ -19,31 +19,8 @@ publication_baseline_snapshot: '2026-09-14'
 source_format: authoritative_markdown
 indexable: false
 ---
-# Recursively Realized Distinguishability (R²D)
-
-## Part II — Joint Readability of Recurrence and Distinguishability
-
 > **Authoritative Markdown Canon.** This file is the authoritative scientific source for this Part beginning with Canon revision 2026-09-25. Mathematical notation was normalized from the equation-preserving Word/OMML source into LaTeX. The September 14, 2026 integrated publication remains the archival publication baseline; explicitly listed semantic amendments define the current Markdown Canon revision.
 
-**Recursively Realized Distinguishability (R²D)**
-
-**Part II -- Joint Readability of Recurrence and Distinguishability**
-
-Julie A. Ellsworth and Josh E. Baker
-
-Professor Biology, Truckee Meadows Community College, Reno, NV
-
-Dean of Life Science, Allied Health, and Public Safety
-
-Email: <jellsworth@tmcc.edu>
-
-Professor Pharmacology, University of Nevada, Reno School of Medicine
-
-Associate Vice President for Research University of Nevada, Reno
-
-Email: <jebaker@unr.edu>
-
-Linktree: [https:/linktr.ee/jebaker](https://linktr.ee/jebaker)
 
 ## Preface
 Part I was deliberately difficult to write.

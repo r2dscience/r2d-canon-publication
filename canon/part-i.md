@@ -46,7 +46,7 @@ review_status: "authoritative"
 
 ---
 r2d_id: "canon-p1-1.0"
-title: "Part I — 1.0 Abstract"
+section_title: "Part I — 1.0 Abstract"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -83,7 +83,7 @@ R²D thus develops a formal enclosing-to-local ontology based on multiplicity, c
 
 ---
 r2d_id: "canon-p1-2.0"
-title: "Part I — 2.0 Introduction"
+section_title: "Part I — 2.0 Introduction"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -321,7 +321,7 @@ And, beneath them all:
 
 ---
 r2d_id: "canon-p1-3.0"
-title: "Part I — 3.0 The Primitive Counting Structure of R²D"
+section_title: "Part I — 3.0 The Primitive Counting Structure of R²D"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -2350,7 +2350,7 @@ Nothing is destroyed. The primitive irreversible quantity is **occurrence-count 
 
 ---
 r2d_id: "canon-p1-4.0"
-title: "Part I — 4.0 Principles"
+section_title: "Part I — 4.0 Principles"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -2725,7 +2725,7 @@ The first is the enclosing causal relation. The second is its stable correlation
 
 ---
 r2d_id: "canon-p1-5.0"
-title: "Part I — 5.0 Readability Limits and EP Projection"
+section_title: "Part I — 5.0 Readability Limits and EP Projection"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -3009,7 +3009,7 @@ A readability limit determines what cannot be directly resolved from a boundary.
 
 ---
 r2d_id: "canon-p1-6.0"
-title: "Part I — 6.0 Two Horizons"
+section_title: "Part I — 6.0 Two Horizons"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -3140,7 +3140,7 @@ R²D therefore identifies two, not three, opposite readability horizons. It prop
 
 ---
 r2d_id: "canon-p1-7.0"
-title: "Part I — 7.0 Discussion"
+section_title: "Part I — 7.0 Discussion"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -3372,7 +3372,7 @@ The remainder of the program must determine how the successful local theories of
 
 ---
 r2d_id: "canon-p1-app-a"
-title: "Part I — Appendix A: Formalism of Dimensionless Recursive Counting"
+section_title: "Part I — Appendix A: Formalism of Dimensionless Recursive Counting"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -5517,7 +5517,7 @@ The latter is reclassification, not reverse causation. Thus, enclosing relation 
 
 ---
 r2d_id: "canon-p1-app-b"
-title: "Part I — Appendix B: Worked Coin Example"
+section_title: "Part I — Appendix B: Worked Coin Example"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -6425,7 +6425,7 @@ This is the exact mathematical architecture. The additional empirical burden bel
 
 ---
 r2d_id: "canon-p1-app-c"
-title: "Part I — Appendix C: Symbol Summary"
+section_title: "Part I — Appendix C: Symbol Summary"
 source_type: "canon"
 authority: "canonical"
 indexable: true
@@ -7186,7 +7186,7 @@ The first specifies which subordinate realization belongs to the enclosing occur
 
 ---
 r2d_id: "canon-p1-references"
-title: "Part I — References"
+section_title: "Part I — References"
 source_type: "canon"
 authority: "canonical"
 indexable: false
