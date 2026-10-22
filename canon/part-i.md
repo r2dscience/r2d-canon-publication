@@ -332,6 +332,8 @@ Recursively Realized Distinguishability (R²D) establishes a dimensionless langu
 
 R²D begins with a foundation of mathematics: **Counting requires distinguishability.**
 
+## 3.0 The Primitive Counting Structure of R²D
+
 ### 3.1 The Founding Principle -- Boltzmann's Dimensionless Count
 
 Boltzmann's entropy as originally proposed (1) counts distinctions
@@ -3366,6 +3368,8 @@ semantic_amendment: "none"
 review_status: "authoritative"
 ---
 
+## Appendix A: Formalism of Dimensionless Recursive Counting
+
 ### A.0 Notation and Logical Conventions
 
 A recursive count boundary is denoted
@@ -5507,6 +5511,8 @@ semantic_amendment: "2026-09-25-causal-architecture-logical-status"
 review_status: "authoritative"
 ---
 
+## Appendix B: Worked Coin Example
+
 ### B.0 Purpose
 
 The coin ensemble provides a finite exact construction of boundary-indexed recursive counting.
@@ -5579,7 +5585,7 @@ $$\left\{ B_{n - 1,a} \right\}_{a = 1}^{10} \longrightarrow \mathcal{M}_{n} = \l
 
 The eleven-state landscape belongs to $B_{n}$.
 
-**B.2 Formal Microstates and the** $B_{n}$**Multiplicity Landscape**
+### **B.2 Formal Microstates and the** $B_{n}$**Multiplicity Landscape**
 
 Boundary $B_{n}$classifies each formal microstate by
 
@@ -5685,7 +5691,7 @@ Resolving the subordinate transition changes the count boundary.
 
 It does not reveal the same transition at finer resolution while preserving the same state classification.
 
-**B.5 Native Direction Within the** $B_{n}$**Landscape**
+### **B.5 Native Direction Within the** $B_{n}$**Landscape**
 
 Consider the adjacent $B_{n}$ transition
 
@@ -5711,7 +5717,7 @@ The native $B_{n}$ landscape therefore contains greater multiplicity at $i = 5$ 
 
 Nothing about this result refers yet to an enclosing boundary.
 
-**B.6 The Second Replacement: Ten** $B_{n}$\*\* Landscapes Define \*\*$B_{n + 1}$
+### **B.6 The Second Replacement: Ten** $B_{n}$ Landscapes Define $B_{n + 1}$
 
 Now introduce ten equivalent peer $B_{n}$ boundaries:
 
@@ -5795,7 +5801,7 @@ $$\Theta_{n + 1} = \prod_{a = 1}^{10}\Theta_{n,a} = \left( 2^{10} \right)^{10} =
 
 Again, $2^{100}$ is the result of recursively multiplying ten $B_{n}$ landscape multiplicities.
 
-**B.8 A Representative** $\mathbf{B}_{\mathbf{n}}$ **Landscape Inside** $\mathbf{B}_{\mathbf{n + 1}}$
+### **B.8 A Representative** $\mathbf{B}_{\mathbf{n}}$ **Landscape Inside** $\mathbf{B}_{\mathbf{n + 1}}$
 
 Select one representative peer $g$ and let its local macrostate be $i$.
 
@@ -6013,7 +6019,7 @@ $$\frac{c_{n,6}}{c_{n,5}} \approx \frac{275}{216}e^{- C_{n + 1}^{out}}.$$
 
 The combinatorics determine the enclosing-compatible bias. The productive constraint determines local retention, while the occupancy response remains an R2D realization prediction.
 
-### B.14 Local Closure Under Changing Enclosing Compatibility
+### B.13 Local Closure Under Changing Enclosing Compatibility
 
 Now consider the local return
 
@@ -6065,7 +6071,7 @@ $$\Delta A_{n,g,\mathcal{C}} = \Delta P_{n,g,\mathcal{C}} - \Delta R_{n,g,\mathc
 
 Neither $\Delta A_{n,g,\mathcal{C}}$ nor $\Delta R_{n,g,\mathcal{C}}$ follows from the coin combinatorics alone.
 
-### B.15 An Open Enclosing Path Organizes All Equivalent Peers
+### B.14 An Open Enclosing Path Organizes All Equivalent Peers
 
 Let the enclosing boundary follow an open state path
 
@@ -6107,7 +6113,7 @@ $$\Delta P_{n,a,i \rightarrow i + 1}^{(J)} = \Delta P_{n,b,i \rightarrow i + 1}^
 
 One enclosing compatibility relation therefore simultaneously defines the same directional possibility relation for every equivalent peer. The peer transitions do not have to communicate that organization laterally. They share the same enclosing compatibility relation. Whether realized occupancy follows that changing possibility relation is an R²D realization postulate.
 
-### B.16 Enclosing Occurrence and Recursive Carry
+### B.15 Enclosing Occurrence and Recursive Carry
 
 The static multiplicity construction also clarifies the distinction between causal definition and recursive readout. Consider a realized enclosing occurrence
 
@@ -6138,7 +6144,7 @@ The static coin combinatorics demonstrate that adjacent boundaries possess diffe
 
 The realized causal and carry relations remain R²D propositions.
 
-### B.17 Occurrence Realization and Closure Recurrence
+### B.16 Occurrence Realization and Closure Recurrence
 
 Occurrence realization introduces distinctions not contained in static multiplicity. Let the two opposed ordered legs of a closure be
 
@@ -6208,7 +6214,7 @@ L_{\tau,n,a,\mathcal{C}} & :\quad\text{opposed-leg occurrence nonreciprocity}, \
 
 No physical time is assumed in any of these definitions.
 
-### B.18 Finite-Count Directional Efficiency
+### B.17 Finite-Count Directional Efficiency
 
 The static coin construction does not determine the directional efficiency of realized occurrence. R²D introduces a separate finite-count postulate.
 
@@ -6260,7 +6266,7 @@ $$L_{\tau,n,g,\mathcal{C}} = \ln\left( \frac{36}{25} \right).$$
 
 The inequality of the finite-count product is mathematical. Its identification with directional leg-realization efficiency is an R²D postulate.
 
-### B.19 Second-Law Readout
+### B.18 Second-Law Readout
 
 R²D's Second Law proposes
 
@@ -6288,7 +6294,7 @@ b~n+1~^+^/b~n+1~^-^ = 36/25.
 
 No count is transported or destroyed. The relation is between two boundary-specific logarithmic count readings linked by the R²D Second-Law postulate. The coin construction does not identify a physical object corresponding to $b_{n + 1}$. It specifies the count relation that any later physical mapping must satisfy.
 
-### B.20 What the Coin Construction Establishes
+### B.19 What the Coin Construction Establishes
 
 The coin construction separates exact mathematics from R²D realization and causal claims.
 
@@ -6411,10 +6417,12 @@ semantic_amendment: "none"
 review_status: "authoritative"
 ---
 
+## Appendix C: Symbol Summary
+
 ### C.1 Indexing and Logical Conventions
 
 | **Symbol** | **Meaning** |
-|:------------------|:----------------------------------------------------|
+|:-------------------|:---------------------------------------------------|
 | $$n$$ | Generic recursive boundary level. |
 | $$B_{n}$$ | Count boundary at recursive level $n$. |
 | $$B_{n - 1,a}$$ | Peer boundary immediately subordinate to $B_{n}$. |
@@ -6498,7 +6506,7 @@ A microstate transition is therefore formally definable relative to $B_{n}$ with
 ### C.3 Native Multiplicity and Entropy
 
 | **Symbol** | **Meaning** |
-|:-------------------|:---------------------------------------------------|
+|:--------------------|:--------------------------------------------------|
 | $$W_{n,i}$$ | Native multiplicity of macrostate $i$: number of compatible formal microstates classified as$i$. |
 | $$S_{n,i}$$ | Dimensionless logarithmic possible-count coordinate of macrostate $i$. |
 | $$\Delta S_{n,i \rightarrow k}$$ | Native logarithmic multiplicity difference across readable transition $i \rightarrow k.$ |
@@ -6550,7 +6558,7 @@ $$\text{compatible~joint~possibilities~multiply;}\quad\quad\text{mutually~exclus
 ### C.4 Enclosing Compatibility and Possibility
 
 | **Symbol** | **Meaning** |
-|:------------------|:----------------------------------------------------|
+|:-------------------|:---------------------------------------------------|
 | $$\mathcal{E}_{n + 1 \mid n,a,i}$$ | Enclosing compatibility fiber: enclosing formal microstates compatible with peer $a$ being locally classified as $i$. |
 | $$\Theta_{n + 1 \mid n,a,i}$$ | Multiplicity of the enclosing compatibility fiber. |
 | $$K_{n + 1 \mid n,a,i}$$ | Mean compatible enclosing extension multiplicity per local possibility. |
@@ -6603,7 +6611,7 @@ $$\text{enclosing~multiplicity~supplies~possibility;}\quad\quad\text{unequal~enc
 ### C.5 Occurrence, Occupancy, and Structural Realization
 
 | **Symbol** | **Meaning** |
-|:------------------|:----------------------------------------------------|
+|:-------------------|:---------------------------------------------------|
 | $$\mu_{n}^{(r)}$$ | One realized formal microstate at $B_{n}$. |
 | $$\nu_{n,i}$$ | Number of realized microstate occurrences classified as macrostate $i$ within a specified finite realization domain. |
 | $$\tau_{n,i}$$ | Logarithmic occurrence coordinate associated with macrostate $i$. |
@@ -6660,7 +6668,7 @@ These are distinct count types.
 ### C.6 Distinguishability, Constraint, Retention, and Asymmetry
 
 | **Symbol** | **Meaning** |
-|:-----------------|:-----------------------------------------------------|
+|:------------------|:----------------------------------------------------|
 | $$\lambda_{n,i \rightarrow k}$$ | Oriented readable distinguishability interval between macrostates $i$ and $k$. |
 | $$C_{n + 1}$$ | Total enclosing constraint on the enclosing occurrence; decomposed into productive and background-associated components. Only the productive component enters local retention. |
 | $$\Delta R_{n,i \rightarrow k}$$ | Retention across the readable transition, defined by the productive component of enclosing constraint. |
@@ -6794,7 +6802,7 @@ $$\eta_{n,a,\mathcal{C}} = \epsilon_{H}\epsilon_{L}.$$
 ### C.8 Enclosing Occurrence, Recursive Carry, and Causal Direction
 
 | **Symbol** | **Meaning** |
-|:-----------------------|:-----------------------------------------------|
+|:-----------------------|:----------------------------------------------|
 | $$\chi_{n + 1}$$ | Readable enclosing macrostate transition at $B_{n + 1}$. |
 | $$\chi_{n + 1}^{(r)}$$ | One realized occurrence associated with the enclosing transition. |
 | $$\mathfrak{D}_{n + 1,\chi}$$ | Set of joint peer closures compatible with one enclosing occurrence. |
@@ -6829,7 +6837,7 @@ Recursive carry is reclassification, not reverse causation.
 ### C.9 Background and the Second Law
 
 | **Symbol** | **Meaning** |
-|:-----------------------|:-----------------------------------------------|
+|:-----------------------|:----------------------------------------------|
 | $$b_{n}$$ | Realized nondirectional background count at $B_{n}$. |
 | $$\Phi_{n}$$ | Logarithmic background coordinate. |
 | b~n+1~^-^ | Enclosing background count before one specified realization relation. |
@@ -6894,7 +6902,7 @@ No sum or average over peers is implied.
 ### C.11 Accumulated Count Geometry and Readability Horizons
 
 | **Symbol** | **Meaning** |
-|:-----------------------|:-----------------------------------------------|
+|:-----------------------|:----------------------------------------------|
 | $$\Lambda_{N \mid n}$$ | Accumulated logarithmic distinguishability scaling from $B_{n}$ to $B_{N}$. |
 | $$\Gamma_{N \mid n}$$ | Accumulated logarithmic recurrence scaling from $B_{n}$ to $B_{N}$. |
 | $$H_{N \mid n}$$ | Accumulated count-geometry imbalance. |
@@ -6926,7 +6934,7 @@ A mathematical limit alone is not a readability horizon. A horizon additionally 
 ### C.12 Recursive Limits
 
 | **Symbol** | **Meaning** |
-|:----------------------|:------------------------------------------------|
+|:-----------------------|:-----------------------------------------------|
 | $$B_{\alpha}$$ | Smallest realized count boundary. |
 | $$B_{\omega}$$ | Largest presently realized count boundary. |
 | $$\mathcal{O}_{\omega}$$ | Presently open macrostate path at $B_{\omega}.$ |
@@ -6968,7 +6976,7 @@ because that construction would require a presently realized enclosing boundary 
 This table makes explicit **where each quantity is defined**.
 
 | **Count relation** | **State-defined quantity** | **Transition-defined quantity** | **Closure / across-boundary quantity** |
-|:---------------|:---------------|:---------------|:------------------------|
+|:----------------|:----------------|:----------------|:----------------------|
 | Native multiplicity | $$W_{n,i}, S_{n,i}$$ \$ | $\Delta S_{n,i \rightarrow k}$\$ \$ | $\Delta S_{n,a,\mathcal{C}} = 0$\$ |
 | Enclosing possibility | $$P_{n,a,i}$$ | $$\Delta P_{n,a,i \rightarrow k}$$ | $$\Delta P_{n,a,\mathcal{C}}$$ |
 | State occurrence | $$\nu_{n,i}, \tau_{n,i}$$ \$ | $\Delta\tau_{n,i \rightarrow k}$\$ - | -- |

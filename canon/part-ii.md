@@ -6456,7 +6456,7 @@ the species-resolved mixing boundary is no longer realized. The discontinuity oc
 
 The Gibbs paradox therefore becomes a particularly simple example of recursive landscape collapse: when a distinction becomes unreadable the enclosing multiplicity is no longer realized.
 
-## 14.9 The Mixing Entropy Does Not Move Elsewhere
+### 14.9 The Mixing Entropy Does Not Move Elsewhere
 
 Nothing must absorb the lost entropy of mixing. Nothing is exported from the mixing landscape. Nothing is dissipated merely because the species distinction has disappeared. The count was conditional on a classification:
 
@@ -6472,7 +6472,7 @@ $$\text{unrealized~entropy} \neq \text{destroyed~entropy}\text{.}$$
 
 The entropy of mixing is absent because the corresponding multiplicity is absent from the realized enclosing classification. This provides a direct thermodynamic example of the distinction between recursive replacement and physical destruction.
 
-## 14.10 Muscle Provides a Mechanical Ultraviolet Analogue
+### 14.10 Muscle Provides a Mechanical Ultraviolet Analogue
 
 Muscle gives the same scale problem a mechanical form. For the myosin turbine, let
 
