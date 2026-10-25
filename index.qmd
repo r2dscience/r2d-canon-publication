@@ -1,5 +1,21 @@
+# Author's Note on AI {.unnumbered}
+
+R²D began before I ever used AI. Its origins are documented in my publications and preprints completed between March 1998 and February 2025. In February 2025, I began using AI to help edit The Hand & The Arrow. In January 2026, I provided ChatGPT with my published and unpublished work and asked it to identify inconsistencies. During an extended debate over “heat,” the model concluded that the quantity I had been calling heat had no established definition in science. That exchange began the systematic redefinition developed in this Canon.
+
+AI was instrumental, often through resistance. It tended to qualify R²D’s claims, reintroduce conventional definitions, and then remove arguments that conflicted with those definitions. If I asked AI today to iteratively improve the Canon, it would eventually return the Canon to conventional science. While it can identify this pattern when challenged, the pattern recurs.
+
+Yet the Canon advanced precisely because of this resistance.Advances were sustained only when terminology and logical and empirical consistency allowed it and then only for as long as the advances persisted in memory. Hence the Canon began as a memory tool to help AI recall our logical progression.
+
+The canon does not provide answers; it provides a mathematical framework. AI uses that framework to reconstruct science across domains. Prior to AI, I could only intuit these reconstructions.
+
+To see how it works, visit https://r2dscience.org/.
+
+AI assisted with drafting and criticism. It did not originate R²D or determine its premises. I take responsibility for the claims and final text of this Canon.
+
+— Josh E. Baker
+
 # About this edition {.unnumbered}
 
-This volume brings together Parts I–IV of *Recursively Realized Distinguishability (R²D)* and the addenda listed in its contents. The Markdown files in `canon/` and `addenda/` are the authoritative sources for this edition. The HTML and PDF are rendered from those files.
+This volume brings together Parts I–IV of *Recursively Realized Distinguishability (R²D)* and its addenda. The Markdown files in `canon/` and `addenda/` on GitHub are the authoritative sources for this edition. The HTML and PDF are rendered from those files.
 
-The September 14, 2026 integrated PDF remains an archival publication baseline. Each document’s distinctions among definitions, derivations, postulates, physical mappings, and open questions remain in force.
+The September 14, 2026 integrated PDF on Zenodo remains an archival publication baseline.

@@ -4,29 +4,44 @@ title: Addendum 36 — Invariant Boundary Coupling Occurs Before mc²
 subtitle: Background Rapidity, Mechanical Calibration, and the Origin of Rest Energy
 source_type: addendum
 authority: addendum
-text_status: candidate_reconstruction_pending_author_review
+text_status: authoritative_author_revision
 indexable: true
 addendum: 36
 unit: addendum
-integrated_in_publication_canon: false
-canon_revision: '2026-09-25'
+integrated_in_publication_canon: true
+canon_revision: '2026-10-24'
 publication_baseline_snapshot: '2026-09-14'
 source_format: candidate_markdown_reconstruction
 source_pdf: R2D 9-14-2026.pdf
 source_pdf_sha256: ab2892f9dc60ac99feec22fc3df72feac72f0500f5953f6014dbecb36286c415
 pdf_page_start: 1260
 pdf_page_end: 1296
-math_representation: LaTeX for normalized load-bearing equations; source-faithful Unicode retained where full equation audit is pending
+math_representation: LaTeX for normalized load-bearing equations; source-faithful Unicode retained where full equation audit
+  is pending
 equation_status: authoritative_normalization_with_targeted_visual_verification_and_full_latex_qa
-equation_audit_scope: load-bearing equations visually checked against publication PDF; all explicit LaTeX syntax/renderability checked; publication PDF controls any residual discrepancy
-semantic_sync: 2026-09-25-no-substantive-structural-universality-amendment-required
+equation_audit_scope: load-bearing equations visually checked against publication PDF; all explicit LaTeX syntax/renderability
+  checked; publication PDF controls any residual discrepancy
+semantic_sync: 2026-10-23-energetic-read-and-radiation-clarification
 primitive_authority: false
-review_status: author_reviewed
-machine_revision: 2026-10-09-equation-reconstruction-v1
-qa_status: standalone_render_pass_full_book_pending
-promotion_date: null
-equation_source_conflict_rule: publication_pdf_controls
+review_status: authoritative
+machine_revision: 2026-10-24-author-approved-boundary-energy-revision
+qa_status: release_checks_see_QA_REPORT_full_book_render_pending
+promotion_date: '2026-10-24'
+equation_source_conflict_rule: author_supplied_2026_10_23_revision_controls_this_edition
+ask_r2d_status: pending_separate_corpus_update
+source_file: addendum-036-invariant-boundary-coupling-occurs-before-mc2.md
+source_sha256: ca9aa1a0ad6be5be51f8c1dd0592293905858a9ab74493cb5a8b71655d59dbca
+source_review_status: author_review_pending
+current_text_source: author_submitted_revision
+promotion_basis: author_request_to_update_canon_2026-10-24
+source_text_status: candidate_reconstruction_pending_author_review
+source_semantic_sync: 2026-10-23-energetic-read-and-radiation-clarification-pending-author-review
+source_machine_revision: 2026-10-23-targeted-boundary-energy-revision-draft
+source_qa_status: standalone_render_pass_full_book_pending
+source_equation_source_conflict_rule: publication_pdf_controls
 ---
+
+# Addendum 36 — Invariant Boundary Coupling Occurs Before mc²
 
 ## Abstract
 
@@ -144,6 +159,12 @@ geometry.
 
 It is the energetic calibration of an invariant local boundary coupling after that coupling is represented
 within an already-existing background rapidity geometry.
+
+This derivation is conditional on the stated physical representation. It imports a velocity read, low-speed
+inertial-mass calibration, momentum, and the mechanical work relation. It does not derive energy, the
+thermodynamic internal-energy coordinate, or radiative transport from primitive R²D counts alone. In
+particular, it does not assign energetic properties to persistent hidden microstates beneath a mass-bearing
+boundary.
 
 The central claim is:
 
@@ -266,12 +287,15 @@ The energetic zero must not be assumed to be
 
 $$mc^2.$$
 
-The task is to derive all of these from:
+The task is to obtain these relations *within a specified physical mechanical representation* from:
 
 1. the background rapidity geometry already established;
 2. the independently defined physical mass coupling;
 3. low-speed inertial mass;
 4. mechanical momentum and work.
+
+These are physical premises and calibrations. The result does not follow solely from the dimensionless
+definitions of multiplicity and enclosing compatibility.
 
 ## 5. Mechanical Representation Must Respect Rapidity Composition
 
@@ -1100,6 +1124,10 @@ The enclosing mass does not have to reside as rest mass inside either subordinat
 
 It belongs to the enclosing invariant relation.
 
+The sum $E_1+E_2$ and the opposing-momentum condition are assumptions of this specified physical
+energy-momentum representation. They are not sums of primitive energies assigned to the enclosing
+boundary's formal microstates.
+
 This is exactly the kind of boundary reassignment expected by recursive replacement. The earlier mass-
 energy development already exposed this consequence explicitly.
 
@@ -1121,17 +1149,25 @@ The mass belongs to the enclosing invariant relation.
 
 It is not necessarily the arithmetic sum of subordinate rest-mass coordinates.
 
+The composite energy and momentum in this equation are likewise physical coordinates assigned to the
+specified enclosing system. Their additive representation does not restore independently persistent
+subordinate energies as primitive causes of its invariant mass.
+
 Thus:
 
 > mass is boundary owned.
 
 ## 35. Binding Energy Changes Enclosing Mass
 
-Suppose separated physical boundaries reorganize into a new bound enclosing boundary.
+Suppose separated physical boundaries reorganize into a new bound enclosing boundary. Compare the
+zero-momentum energetic reads of the separated system and the resulting bound system under the same
+physical calibration. If released radiation has left the bound system, it is not counted as part of the
+bound system's final energy; retaining that radiation would define a different enclosing system for this
+comparison.
 
 The new enclosing system possesses its own invariant energetic relation.
 
-If energy is released during binding,
+If the bound system has a lower zero-momentum energy,
 
 $$E_{\mathrm{bound}}<E_{\mathrm{separated}},$$
 
@@ -1141,38 +1177,58 @@ then
 
 $$M_{\mathrm{bound}}<M_{\mathrm{separated}}.$$
 
-The difference is
+For the two specified system boundaries, the calibrated difference is
 
-$$\Delta M=\frac{\Delta E}{c^2}.$$
+$$\Delta M=\frac{\Delta E_0}{c^2}.$$
 
 No primitive mass substance has disappeared.
 
-The enclosing physical organization has changed, and therefore its invariant energetic read has changed.
+The enclosing physical organization and the boundary used to assign its invariant energetic read have
+changed. Neither the energetic balance nor the emitted radiation is a transfer of primitive count or
+primitive mass substance across recursive levels.
 
-## 36. Internal Energy Contributes to Enclosing Mass
+## 36. “Internal” Energy Is a Boundary State Coordinate
 
-The same reasoning applies to internal energetic organization such as:
+Thermodynamics calls $U_B$ the internal energy of a selected system boundary $B$. In R²D, the adjective
+*internal* does not locate energy inside the subordinate configurations classified as microstates at $B$.
+$U_B$ is an energetic coordinate of the whole thermodynamic state. The possible subordinate realizations
+and their native multiplicity are defined by that boundary before they are sampled. Their samples do not
+create $U_B$ or supply a continuously readable subordinate trajectory at $B$.
 
-     • thermal excitation;
-     • internal kinetic energy;
-     • radiation;
-     • chemical energy;
-     • field energy;
-     • binding organization.
+Physical decompositions may describe thermal, chemical, binding, electromagnetic, and other contributions
+under specified controls. Those terms name useful energetic reads of the chosen system. They do not give
+the enclosing microstates independent, persistent energetic properties or make the system's energy a sum
+of primitive energies owned by hidden subordinate things. In particular, a sequence of different sampled
+configurations does not establish temperature-driven hidden trajectories. Calling those projected
+trajectories *thermal fluctuations* mistakes sampled multiplicity for a subordinate cause.
 
-If such a contribution changes the zero-momentum energy of the enclosing boundary by
+The present mechanical derivation supplies a conditional relation for the complete system's calibrated
+zero-momentum energy $E_{0,B}$ and invariant mass $M_B$:
 
-$$\Delta E_{\mathrm{internal}},$$
+$$E_{0,B}=M_Bc^2.$$
 
-then the enclosing invariant mass changes by
+For two states of that same specified physical system, under a common reference calibration,
 
-$$\Delta M=\frac{\Delta E_{\mathrm{internal}}}{c^2}.$$
+$$\Delta M_B=\frac{\Delta E_{0,B}}{c^2}.$$
 
-This is why physical mass cannot be reduced to static multiplicity cardinality alone.
+Replacing $\Delta E_{0,B}$ with $\Delta U_B$ requires an independently specified physical accounting
+relation between the thermodynamic state coordinate and the complete zero-momentum energy. It does not
+follow merely because the energy is called *internal*. The dimensionless multiplicity $W_{B,i}$, the
+thermodynamic coordinate $U_B$, and the relativistic coordinate $E_{0,B}$ have different definitions.
 
-The boundary class and its realized physical energetic organization occupy different roles.
+During emission, radiation acquires its physical read as a recurrent electromagnetic occurrence at its
+receiving boundary. Part IV distinguishes this from recursive carry, which reclassifies a completed local
+closure rather than transporting a packet of $U_B$ upward. A physical source–radiation energy balance can
+relate the reads of specified systems, but $U_B$ is not a primitive substance that leaps over a count
+boundary to cause radiation. The organizing relation belongs to the enclosure; its energetic and radiative
+reads belong to their stated boundaries.
 
-## 37. Energy Is Not a Primitive Substance The equation
+This is why enclosing mass cannot be reduced to static multiplicity cardinality, yet neither can its
+energetic read be attributed to independently propertied microstates.
+
+## 37. Energy Is Not a Primitive Substance
+
+The equation
 
 $$E_0=mc^2$$
 
@@ -1188,9 +1244,12 @@ Mass is a physical coupling read of a specified boundary.
 The equation states how that boundary coupling is energetically represented after the background rapidity
 and mechanical calibrations have been supplied.
 
-Thus:
+Temperature supplies a later thermodynamic calibration, not a primitive driver of sampled subordinate
+motion. Radiation supplies a recurrent physical read, not evidence that hidden thermal fluctuations
+generated the enclosing state. Thus:
 
-> energy balance ≠ transport of primitive energetic substance. [PDF text clipped at right page edge; wording requires author review.]
+> energy balance is a physical relation among specified boundary reads, not transport of a primitive
+> energetic substance across recursive levels.
 
 ## 38. Why an Arbitrary Additive Constant Does Not Alter the Derived Rest-Energy Norm
 
@@ -1505,6 +1564,9 @@ These are independent physical calibrations.
 
 They do not assume relativistic energy or momentum.
 
+They are nevertheless physical premises; the result below is not a theorem derived from primitive
+compatible counts alone.
+
 Derived Here
 
 This addendum derives:
@@ -1562,6 +1624,11 @@ This addendum does not derive:
 > • Einstein's field equations.
 
 Those belong to later physical mappings.
+
+Nor does the derivation identify $U_B$ with the complete zero-momentum energy $E_{0,B}$ for every
+thermodynamic system, derive a radiation process from $U_B$, or give causal agency to hidden
+temperature-driven microstate trajectories. Those identifications require separate physical definitions;
+the last trajectory is not a readable R²D causal entity at the enclosing thermodynamic boundary.
 
 <!-- source_pdf_page: 1293 -->
 
@@ -1697,6 +1764,12 @@ One factor of c converts the local coupling into its invariant mechanical norm.
 The second converts the even mechanical coordinate into its energetic read.
 
 Both conversions belong to the physical calibration supplied by the enclosing rapidity geometry.
+
+This physical calibration establishes the mass–energy relation within its stated mechanical
+representation. It does not turn a thermodynamic body's $U_B$ into energy owned by its subordinate
+microstates. A change in the body's measured radiative output can be described with physical energetic
+balances while radiation remains a recurrent enclosing read, not an upward causal packet of internal
+energy. The thermodynamic and radiative assignments must each state their operative boundary.
 
 The local mass coupling comes first.
 

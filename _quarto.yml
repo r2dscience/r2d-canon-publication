@@ -7,8 +7,8 @@ book:
   title: "R²D Canon and Addenda"
   output-file: r2d-canon-and-addenda
   author:
-    - "Josh E. Baker, Ph.D. Professor Pharmacology and Associate Vice President for Research"
-    - "Julie A. Ellsworth, Ph.D. Dean Life Sciences and Allied Health"
+    - "Josh E. Baker, Ph.D."
+    - "Julie A. Ellsworth, Ph.D."
   chapters:
     - index.qmd
     - canon/part-i.md
@@ -100,6 +100,13 @@ book:
         - addenda/addendum-104-the-count-relation-survives-before-state-identity.md
         - addenda/addendum-105-the-observational-inversion.md
         - addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.md
+        - addenda/addendum-107-possibilities-pull-probabilities-do-not-push.md
+        - addenda/addendum-108-a-branch-is-not-an-occupied-world.md
+        - addenda/addendum-109-charge-classification-occurs-before-causal-strings.md
+        - addenda/addendum-110-the-inferred-gravitational-source-is-not-an-occupied-object.md
+        - addenda/addendum-111-the-objectification-of-the-unreadable.md
+        - addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.md
+        - addenda/addendum-113-r2d-and-the-black-hole-information-paradox.md
 format:
   html:
     theme: cosmo
