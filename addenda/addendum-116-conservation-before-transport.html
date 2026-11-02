@@ -1,0 +1,2533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 116 — Conservation Before Transport – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" rel="next">
+<link href="../addenda/addendum-115-what-sustains-flow.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-116-conservation-before-transport.html"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Author’s Note on AI</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part I — A Theory of Dimensionless Recursive Counting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-098-enclosing-compatibility-occurs-before-microscopic-causality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 98: Enclosing Compatibility Occurs Before Microscopic Causality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-099-born-rule-consistency-without-primitive-quantum-causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 99 — Born-Rule Consistency Without Primitive Quantum Causation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-100-the-empty-vessel-recursive-replacement-observation-and-irreversibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 100 — The Empty Vessel: Recursive Replacement, Observation, and Irreversibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-101-the-enclosing-relation-before-quantum-representation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 101 — The Enclosing Relation Before Quantum Representation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-102-particles-are-imagined.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 102 — Particles Are Imagined</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-103-the-causal-implications-of-the-microstate-definition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 103 — The Causal Implications of the Microstate Definition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-104-the-count-relation-survives-before-state-identity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 104 — The Count Relation Survives Before State Identity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-105-the-observational-inversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 105 — The Observational Inversion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-107-possibilities-pull-probabilities-do-not-push.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 107 — Possibilities Pull; Probabilities Do Not Push</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-108-a-branch-is-not-an-occupied-world.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 108 — A Branch Is Not an Occupied World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-109-charge-classification-occurs-before-causal-strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 109 — Charge Classification Occurs Before Causal Strings</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-110-the-inferred-gravitational-source-is-not-an-occupied-object.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 110 — The Inferred Gravitational Source Is Not an Occupied Object</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-111-the-objectification-of-the-unreadable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 111 — The Objectification of the Unreadable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 112 — Sampled Multiplicity Before Thermal Fluctuations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-113-r2d-and-the-black-hole-information-paradox.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 113 — R²D and the Black Hole Information Paradox</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-115-what-sustains-flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 115 — What Sustains Flow?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-116-conservation-before-transport.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 117 — Pressure and Viscosity Are Enclosing Constraints</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#r²d-addendum-116-conservation-before-transport" id="toc-r²d-addendum-116-conservation-before-transport" class="nav-link active" data-scroll-target="#r²d-addendum-116-conservation-before-transport">R²D Addendum 116 — Conservation Before Transport</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#what-does-a-fluid-conserve" id="toc-what-does-a-fluid-conserve" class="nav-link" data-scroll-target="#what-does-a-fluid-conserve">116.1. What Does a Fluid Conserve?</a>
+  <ul class="collapse">
+  <li><a href="#principle-conservation-precedes-transport" id="toc-principle-conservation-precedes-transport" class="nav-link" data-scroll-target="#principle-conservation-precedes-transport">Principle — Conservation Precedes Transport</a></li>
+  </ul></li>
+  <li><a href="#the-enclosing-water-inventory" id="toc-the-enclosing-water-inventory" class="nav-link" data-scroll-target="#the-enclosing-water-inventory">116.2. The Enclosing Water Inventory</a></li>
+  <li><a href="#directional-momentum-requires-a-separate-count" id="toc-directional-momentum-requires-a-separate-count" class="nav-link" data-scroll-target="#directional-momentum-requires-a-separate-count">116.3. Directional Momentum Requires a Separate Count</a></li>
+  <li><a href="#a-complete-enclosing-transport-occurrence" id="toc-a-complete-enclosing-transport-occurrence" class="nav-link" data-scroll-target="#a-complete-enclosing-transport-occurrence">116.4. A Complete Enclosing Transport Occurrence</a>
+  <ul class="collapse">
+  <li><a href="#proposition-116.1-paired-conservation-under-an-enclosing-interface-occurrence" id="toc-proposition-116.1-paired-conservation-under-an-enclosing-interface-occurrence" class="nav-link" data-scroll-target="#proposition-116.1-paired-conservation-under-an-enclosing-interface-occurrence">Proposition 116.1 — Paired Conservation Under an Enclosing Interface Occurrence</a></li>
+  </ul></li>
+  <li><a href="#the-smallest-useful-water-example-material-transfer-and-shear-redistribution" id="toc-the-smallest-useful-water-example-material-transfer-and-shear-redistribution" class="nav-link" data-scroll-target="#the-smallest-useful-water-example-material-transfer-and-shear-redistribution">116.5. The Smallest Useful Water Example: Material Transfer and Shear Redistribution</a>
+  <ul class="collapse">
+  <li><a href="#mass-bearing-directional-occurrence" id="toc-mass-bearing-directional-occurrence" class="nav-link" data-scroll-target="#mass-bearing-directional-occurrence">116.5.1. Mass-bearing directional occurrence</a></li>
+  <li><a href="#mechanical-momentum-redistribution-occurrence" id="toc-mechanical-momentum-redistribution-occurrence" class="nav-link" data-scroll-target="#mechanical-momentum-redistribution-occurrence">116.5.2. Mechanical momentum-redistribution occurrence</a></li>
+  <li><a href="#proposition-116.2-momentum-throughput-does-not-require-material-throughput" id="toc-proposition-116.2-momentum-throughput-does-not-require-material-throughput" class="nav-link" data-scroll-target="#proposition-116.2-momentum-throughput-does-not-require-material-throughput">Proposition 116.2 — Momentum Throughput Does Not Require Material Throughput</a></li>
+  <li><a href="#what-the-example-establishes" id="toc-what-the-example-establishes" class="nav-link" data-scroll-target="#what-the-example-establishes">What the example establishes</a></li>
+  </ul></li>
+  <li><a href="#the-native-multiplicity-does-not-supply-the-transport-rate" id="toc-the-native-multiplicity-does-not-supply-the-transport-rate" class="nav-link" data-scroll-target="#the-native-multiplicity-does-not-supply-the-transport-rate">116.6. The Native Multiplicity Does Not Supply the Transport Rate</a>
+  <ul class="collapse">
+  <li><a href="#the-exact-orientation-imbalance-identity" id="toc-the-exact-orientation-imbalance-identity" class="nav-link" data-scroll-target="#the-exact-orientation-imbalance-identity">The exact orientation-imbalance identity</a></li>
+  </ul></li>
+  <li><a href="#general-conservation-across-many-regions" id="toc-general-conservation-across-many-regions" class="nav-link" data-scroll-target="#general-conservation-across-many-regions">116.7. General Conservation Across Many Regions</a>
+  <ul class="collapse">
+  <li><a href="#theorem-116.1-enclosing-joint-conservation" id="toc-theorem-116.1-enclosing-joint-conservation" class="nav-link" data-scroll-target="#theorem-116.1-enclosing-joint-conservation">Theorem 116.1 — Enclosing Joint Conservation</a></li>
+  </ul></li>
+  <li><a href="#steady-transport-is-not-zero-transport" id="toc-steady-transport-is-not-zero-transport" class="nav-link" data-scroll-target="#steady-transport-is-not-zero-transport">116.8. Steady Transport Is Not Zero Transport</a>
+  <ul class="collapse">
+  <li><a href="#proposition-116.3-steady-regional-classification-permits-nonzero-throughput" id="toc-proposition-116.3-steady-regional-classification-permits-nonzero-throughput" class="nav-link" data-scroll-target="#proposition-116.3-steady-regional-classification-permits-nonzero-throughput">Proposition 116.3 — Steady Regional Classification Permits Nonzero Throughput</a></li>
+  <li><a href="#a-simultaneous-material-and-momentum-example" id="toc-a-simultaneous-material-and-momentum-example" class="nav-link" data-scroll-target="#a-simultaneous-material-and-momentum-example">A simultaneous material and momentum example</a></li>
+  </ul></li>
+  <li><a href="#momentum-throughput-without-material-throughput" id="toc-momentum-throughput-without-material-throughput" class="nav-link" data-scroll-target="#momentum-throughput-without-material-throughput">116.9. Momentum Throughput Without Material Throughput</a>
+  <ul class="collapse">
+  <li><a href="#principle-momentum-transport-is-not-material-transport" id="toc-principle-momentum-transport-is-not-material-transport" class="nav-link" data-scroll-target="#principle-momentum-transport-is-not-material-transport">Principle — Momentum Transport Is Not Material Transport</a></li>
+  </ul></li>
+  <li><a href="#complete-joint-compatibility-precedes-realized-throughput" id="toc-complete-joint-compatibility-precedes-realized-throughput" class="nav-link" data-scroll-target="#complete-joint-compatibility-precedes-realized-throughput">116.10. Complete Joint Compatibility Precedes Realized Throughput</a>
+  <ul class="collapse">
+  <li><a href="#what-remains-distinct" id="toc-what-remains-distinct" class="nav-link" data-scroll-target="#what-remains-distinct">What remains distinct</a></li>
+  </ul></li>
+  <li><a href="#the-recurrence-weighted-transport-relation" id="toc-the-recurrence-weighted-transport-relation" class="nav-link" data-scroll-target="#the-recurrence-weighted-transport-relation">116.11. The Recurrence-Weighted Transport Relation</a></li>
+  <li><a href="#mass-and-momentum-acquire-physical-meaning-through-calibration" id="toc-mass-and-momentum-acquire-physical-meaning-through-calibration" class="nav-link" data-scroll-target="#mass-and-momentum-acquire-physical-meaning-through-calibration">116.12. Mass and Momentum Acquire Physical Meaning Through Calibration</a>
+  <ul class="collapse">
+  <li><a href="#the-two-region-examples-revisited" id="toc-the-two-region-examples-revisited" class="nav-link" data-scroll-target="#the-two-region-examples-revisited">The two-region examples revisited</a></li>
+  <li><a href="#the-decomposition-does-not-force-every-material-event-to-be-purely-advective" id="toc-the-decomposition-does-not-force-every-material-event-to-be-purely-advective" class="nav-link" data-scroll-target="#the-decomposition-does-not-force-every-material-event-to-be-purely-advective">The decomposition does not force every material event to be purely advective</a></li>
+  </ul></li>
+  <li><a href="#the-bulkrelative-decomposition-respects-the-mechanical-reference" id="toc-the-bulkrelative-decomposition-respects-the-mechanical-reference" class="nav-link" data-scroll-target="#the-bulkrelative-decomposition-respects-the-mechanical-reference">116.13. The Bulk/Relative Decomposition Respects the Mechanical Reference</a></li>
+  <li><a href="#the-continuity-equation-is-a-physical-projection-of-enclosing-inventory-conservation" id="toc-the-continuity-equation-is-a-physical-projection-of-enclosing-inventory-conservation" class="nav-link" data-scroll-target="#the-continuity-equation-is-a-physical-projection-of-enclosing-inventory-conservation">116.14. The Continuity Equation Is a Physical Projection of Enclosing Inventory Conservation</a>
+  <ul class="collapse">
+  <li><a href="#continuum-projection-is-not-primitive-recursive-refinement" id="toc-continuum-projection-is-not-primitive-recursive-refinement" class="nav-link" data-scroll-target="#continuum-projection-is-not-primitive-recursive-refinement">Continuum projection is not primitive recursive refinement</a></li>
+  </ul></li>
+  <li><a href="#the-advective-momentum-tensor-is-a-joint-physical-read" id="toc-the-advective-momentum-tensor-is-a-joint-physical-read" class="nav-link" data-scroll-target="#the-advective-momentum-tensor-is-a-joint-physical-read">116.15. The Advective Momentum Tensor Is a Joint Physical Read</a>
+  <ul class="collapse">
+  <li><a href="#proposition-116.4-conditional-advective-projection" id="toc-proposition-116.4-conditional-advective-projection" class="nav-link" data-scroll-target="#proposition-116.4-conditional-advective-projection">Proposition 116.4 — Conditional Advective Projection</a></li>
+  </ul></li>
+  <li><a href="#conservation-does-not-determine-physical-stress" id="toc-conservation-does-not-determine-physical-stress" class="nav-link" data-scroll-target="#conservation-does-not-determine-physical-stress">116.16. Conservation Does Not Determine Physical Stress</a></li>
+  <li><a href="#relation-to-molecular-mechanisms" id="toc-relation-to-molecular-mechanisms" class="nav-link" data-scroll-target="#relation-to-molecular-mechanisms">116.17. Relation to Molecular Mechanisms</a></li>
+  <li><a href="#what-has-been-established" id="toc-what-has-been-established" class="nav-link" data-scroll-target="#what-has-been-established">116.18. What Has Been Established</a>
+  <ul class="collapse">
+  <li><a href="#exact-finite-count-results" id="toc-exact-finite-count-results" class="nav-link" data-scroll-target="#exact-finite-count-results">Exact finite-count results</a></li>
+  <li><a href="#canonical-r²d-realization-relationships" id="toc-canonical-r²d-realization-relationships" class="nav-link" data-scroll-target="#canonical-r²d-realization-relationships">Canonical R²D realization relationships</a></li>
+  <li><a href="#physical-projections" id="toc-physical-projections" class="nav-link" data-scroll-target="#physical-projections">Physical projections</a></li>
+  <li><a href="#what-has-not-been-established" id="toc-what-has-not-been-established" class="nav-link" data-scroll-target="#what-has-not-been-established">What has not been established</a></li>
+  </ul></li>
+  <li><a href="#principle-boundary-owned-conservation-organizes-fluid-transport" id="toc-principle-boundary-owned-conservation-organizes-fluid-transport" class="nav-link" data-scroll-target="#principle-boundary-owned-conservation-organizes-fluid-transport">116.19. Principle — Boundary-Owned Conservation Organizes Fluid Transport</a></li>
+  <li><a href="#conclusion-transport-does-not-create-what-it-conserves" id="toc-conclusion-transport-does-not-create-what-it-conserves" class="nav-link" data-scroll-target="#conclusion-transport-does-not-create-what-it-conserves">Conclusion — Transport Does Not Create What It Conserves</a></li>
+  <li><a href="#related-canon-and-addenda" id="toc-related-canon-and-addenda" class="nav-link" data-scroll-target="#related-canon-and-addenda">Related Canon and Addenda</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-116-conservation-before-transport.html"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></h1>
+<p class="subtitle lead">Boundary-Owned Water Inventory, Directional Momentum Throughput, and the Advective Projection</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="r²d-addendum-116-conservation-before-transport" class="level1">
+<h1>R²D Addendum 116 — Conservation Before Transport</h1>
+<p><em>Boundary-Owned Water Inventory, Directional Momentum Throughput, and the Advective Projection</em></p>
+<p><strong>Status:</strong> Author-approved for canon publication — November 1, 2026<br>
+<strong>Canonical basis:</strong> R²D Parts I–IV, September 25, 2026 authoritative revision</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Fluid mechanics describes the conservation and transport of mass and momentum. These relationships are commonly represented using material motion, momentum fluxes, pressure, and viscous stresses. Recursively Realized Distinguishability (R²D) identifies a prior mathematical distinction: an enclosing boundary defines which inventories and directional quantities are conserved, and which complete joint occurrences are compatible with their redistribution.</p>
+<p>Addendum 115 established that a flowing fluid is a persistent enclosing directional macrostate that can coexist with recurrent subordinate closures and distinguishable enclosing output. The present addendum constructs the corresponding finite-count conservation architecture.</p>
+<p>A water boundary may distinguish realized material inventory, signed directional momentum, and completed output across shared interfaces. When the enclosing compatibility relation requires equal-and-opposite internal output readings, total inventory and total directional count are conserved exactly. Individual regions may nevertheless change their inventories or directional counts. Alternatively, sustained throughput can occur while the inventories and momentum classifications of the intervening regions remain unchanged.</p>
+<p>Two classes of compatible occurrence become distinguishable. A mass-bearing occurrence changes regional inventory and may carry a directional momentum read. A mechanical redistribution occurrence can change regional momentum without net material transfer. Their joint classification provides an exact algebraic separation between bulk advective momentum and momentum throughput relative to that bulk read.</p>
+<p>These results require neither persistent molecular trajectories nor primitive spatial differential equations. They follow from specified boundary-owned compatibility and counting relations.</p>
+<p>Under separate physical mass, momentum, reference-frame, and clock calibrations, the finite inventory relation admits the continuity equation. Where the enclosing water boundary also admits a common mass-barycentric velocity read, its joint mass–momentum relation acquires the familiar advective tensor <span class="math inline">\(\rho\mathbf u\otimes\mathbf u\)</span>.</p>
+<p>The R²D laws do not uniquely determine the water boundary’s compatibility relation or its physical constitutive parameters. They relate the realized recurrence of compatible enclosing occurrences to completed subordinate closure asymmetry. Conservation is therefore established before transport in the logical order of boundary definition, not as a claim that conserved physical quantities exist independently of their enclosing boundary.</p>
+</section>
+<section id="what-does-a-fluid-conserve" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-a-fluid-conserve">116.1. What Does a Fluid Conserve?</h2>
+<p>Addendum 115 distinguished three relationships:</p>
+<ol type="1">
+<li>Occupancy of a directional fluid macrostate.</li>
+<li>Recurrence of complete compatible subordinate closures.</li>
+<li>Recurrence of distinguishable enclosing directional output.</li>
+</ol>
+<p>The remaining question is what those output occurrences preserve.</p>
+<p>A fluid can continue flowing without accumulating material in a selected region. It can also transmit momentum without accumulating momentum there.</p>
+<p>A more striking possibility is that it can transmit momentum while transferring no net material through the same interface.</p>
+<p>These facts require the fluid boundary to distinguish at least two independently readable quantities: material inventory and directional momentum.</p>
+<p>The primitive R²D architecture does not identify either with a persistent collection of molecular objects. Their physical meanings are assigned within a selected material and mechanical realization.</p>
+<p>We therefore begin with the enclosing water boundary, not a proposed mechanism by which individual molecules move.</p>
+<section id="principle-conservation-precedes-transport" class="level3">
+<h3 class="anchored" data-anchor-id="principle-conservation-precedes-transport">Principle — Conservation Precedes Transport</h3>
+<p><strong>For a specified conserved physical quantity, the enclosing boundary defines the admissible joint redistribution relation before any particular completed occurrence can be classified as transporting that quantity.</strong></p>
+<p>Conservation is not generated by summing independent subordinate trajectories. It is a property of the enclosing compatibility relation that those trajectories may subsequently realize.</p>
+<p>This principle does not assert that every R²D boundary conserves water inventory or momentum. The conserved distinctions must be specified for the physical system being considered.</p>
+</section>
+</section>
+<section id="the-enclosing-water-inventory" class="level2">
+<h2 class="anchored" data-anchor-id="the-enclosing-water-inventory">116.2. The Enclosing Water Inventory</h2>
+<p>Let <span class="math inline">\(B_J\)</span> contain a finite collection of water-readable peer regions,</p>
+<p><span class="math display">\[
+B_1,B_2,\ldots,B_m.
+\]</span></p>
+<p>For each region <span class="math inline">\(B_a\)</span>, define the realized inventory count</p>
+<p><span class="math display">\[
+q_a\in\mathbb N_0.
+\]</span></p>
+<p>The quantity <span class="math inline">\(q_a\)</span> counts the occupied water-inventory units distinguished at that boundary.</p>
+<p>It is not the native multiplicity <span class="math inline">\(W_a\)</span>, and it is not the occupancy-frequency count <span class="math inline">\(c_a\)</span> of one macrostate.</p>
+<p>These count types answer different questions:</p>
+<ul>
+<li><span class="math inline">\(W_a\)</span>: How many subordinate realizations are compatible with a specified macrostate?</li>
+<li><span class="math inline">\(c_a\)</span>: How often is that macrostate occupied in the specified realization domain?</li>
+<li><span class="math inline">\(q_a\)</span>: How much material inventory is readable in the selected water-inventory classification?</li>
+</ul>
+<p>The total enclosing inventory is</p>
+<p><span class="math display">\[
+\boxed{
+Q_J=\sum_{a=1}^{m}q_a.
+}
+\tag{116.1}
+\]</span></p>
+<p>For a closed water-inventory boundary, specify that its admissible completed occurrences satisfy</p>
+<p><span class="math display">\[
+\boxed{
+\Delta Q_J=0.
+}
+\tag{116.2}
+\]</span></p>
+<p>This is the selected enclosing conservation condition.</p>
+<p>It is not a consequence of native multiplicity alone.</p>
+<p>The enclosing boundary determines which redistributions of its inventory are admissible. An occurrence changes the regional inventory classifications only according to that relation.</p>
+</section>
+<section id="directional-momentum-requires-a-separate-count" class="level2">
+<h2 class="anchored" data-anchor-id="directional-momentum-requires-a-separate-count">116.3. Directional Momentum Requires a Separate Count</h2>
+<p>Now introduce a signed directional classification relative to an enclosing mechanical reference.</p>
+<p>For one selected direction, let</p>
+<p><span class="math display">\[
+a_+,\quad a_-
+\]</span></p>
+<p>be the positive and negative orientation counts of a water region.</p>
+<p>Define</p>
+<p><span class="math display">\[
+\boxed{
+q_a=a_++a_-,
+\qquad
+k_a=a_+-a_-.
+}
+\tag{116.3}
+\]</span></p>
+<p>Thus <span class="math inline">\(q_a\)</span> is orientation-even and <span class="math inline">\(k_a\)</span> is orientation-odd.</p>
+<p>Reversing the orientation reference changes the sign of <span class="math inline">\(k_a\)</span> without changing <span class="math inline">\(q_a\)</span>.</p>
+<p>The two classifications obey the exact admissibility conditions</p>
+<p><span class="math display">\[
+\boxed{
+|k_a|\leq q_a,
+\qquad
+q_a\equiv k_a\pmod 2.
+}
+\tag{116.4}
+\]</span></p>
+<p>These conditions follow because</p>
+<p><span class="math display">\[
+a_\pm=\frac{q_a\pm k_a}{2}
+\]</span></p>
+<p>must be nonnegative integers.</p>
+<p>The total signed directional count is</p>
+<p><span class="math display">\[
+\boxed{
+K_J=\sum_a k_a.
+}
+\tag{116.5}
+\]</span></p>
+<p>A selected closed directional-momentum compatibility relation may require</p>
+<p><span class="math display">\[
+\boxed{
+\Delta K_J=0.
+}
+\tag{116.6}
+\]</span></p>
+<p>For three-dimensional mechanics, the enclosing boundary may distinguish a jointly admissible vector of directional counts,</p>
+<p><span class="math display">\[
+\mathbf k_a=(k_{a,x},k_{a,y},k_{a,z}).
+\]</span></p>
+<p>The corresponding conserved vector read is</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf K_J=\sum_a\mathbf k_a.
+}
+\tag{116.7}
+\]</span></p>
+<p>The three-dimensional joint orientation domain must itself be specified; three independent binary classifications are not automatically a complete physical orientation model.</p>
+<p>The one-direction finite construction below requires no such additional assumption.</p>
+</section>
+<section id="a-complete-enclosing-transport-occurrence" class="level2">
+<h2 class="anchored" data-anchor-id="a-complete-enclosing-transport-occurrence">116.4. A Complete Enclosing Transport Occurrence</h2>
+<p>Let the enclosing boundary distinguish oriented interfaces <span class="math inline">\(e\)</span> between its peer regions.</p>
+<p>Each interface admits two different completed output records:</p>
+<p><span class="math display">\[
+z_e^M:
+\text{material-inventory output},
+\]</span></p>
+<p><span class="math display">\[
+z_e^P:
+\text{directional-momentum output}.
+\]</span></p>
+<p>Their increments are signed according to the enclosing interface orientation.</p>
+<p>A complete enclosing occurrence may therefore possess a paired output</p>
+<p><span class="math display">\[
+\boxed{
+\chi_e:
+(\Delta z_e^M,\Delta z_e^P)
+=
+(h_M,h_P).
+}
+\tag{116.8}
+\]</span></p>
+<p>Both outputs belong to the same enclosing occurrence.</p>
+<p>They are not two independently acting subordinate mechanisms.</p>
+<p>For an oriented interface from region <span class="math inline">\(A\)</span> to region <span class="math inline">\(B\)</span>, specify the joint compatibility relation</p>
+<p><span class="math display">\[
+\boxed{
+\begin{aligned}
+\Delta q_A&amp;=-h_M,\\
+\Delta q_B&amp;=+h_M,\\
+\Delta k_A&amp;=-h_P,\\
+\Delta k_B&amp;=+h_P.
+\end{aligned}
+}
+\tag{116.9}
+\]</span></p>
+<p>Immediately,</p>
+<p><span class="math display">\[
+\boxed{
+\Delta(q_A+q_B)=0,
+}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{
+\Delta(k_A+k_B)=0.
+}
+\tag{116.10}
+\]</span></p>
+<p>The equal-and-opposite readings are part of the joint enclosing occurrence.</p>
+<p>They do not require identifying a particular molecular constituent that persists from one region to the other.</p>
+<section id="proposition-116.1-paired-conservation-under-an-enclosing-interface-occurrence" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-116.1-paired-conservation-under-an-enclosing-interface-occurrence">Proposition 116.1 — Paired Conservation Under an Enclosing Interface Occurrence</h3>
+<p>Let <span class="math inline">\(B_J\)</span> define a complete occurrence with regional inventory and directional-count changes satisfying equation (116.9).</p>
+<p>Then the occurrence conserves both total inventory and total directional count.</p>
+<p><strong>Proof.</strong></p>
+<p>The inventory changes sum to</p>
+<p><span class="math display">\[
+-h_M+h_M=0.
+\]</span></p>
+<p>The directional-count changes sum to</p>
+<p><span class="math display">\[
+-h_P+h_P=0.
+\]</span></p>
+<p>Hence the two total counts are invariant under the complete occurrence. <span class="math inline">\(\square\)</span></p>
+<p>This is an exact count theorem conditional on the specified compatibility relation.</p>
+<p>No physical clock, spatial distance, molecular trajectory, pressure, or viscosity has entered the proof.</p>
+</section>
+</section>
+<section id="the-smallest-useful-water-example-material-transfer-and-shear-redistribution" class="level2">
+<h2 class="anchored" data-anchor-id="the-smallest-useful-water-example-material-transfer-and-shear-redistribution">116.5. The Smallest Useful Water Example: Material Transfer and Shear Redistribution</h2>
+<p>Consider two water regions whose readable orientation counts are</p>
+<p><span class="math display">\[
+X=(a_+,a_-;b_+,b_-).
+\]</span></p>
+<p>Begin with</p>
+<p><span class="math display">\[
+\boxed{
+X_4=(4,0;2,2).
+}
+\]</span></p>
+<p>The regional inventories and directional counts are</p>
+<p><span class="math display">\[
+q_A=4,\qquad q_B=4,
+\]</span></p>
+<p><span class="math display">\[
+k_A=4,\qquad k_B=0.
+\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[
+Q_J=8,\qquad K_J=4.
+\]</span></p>
+<p>We now construct two different complete enclosing occurrences.</p>
+<section id="mass-bearing-directional-occurrence" class="level3">
+<h3 class="anchored" data-anchor-id="mass-bearing-directional-occurrence">116.5.1. Mass-bearing directional occurrence</h3>
+<p>Let</p>
+<p><span class="math display">\[
+\boxed{
+\chi_M:
+(4,0;2,2)\longrightarrow(3,0;3,2).
+}
+\tag{116.11}
+\]</span></p>
+<p>The completed regional changes are</p>
+<p><span class="math display">\[
+\Delta q_A=-1,\qquad\Delta q_B=+1,
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\Delta k_A=-1,\qquad\Delta k_B=+1.
+\]</span></p>
+<p>Therefore</p>
+<p><span class="math display">\[
+\boxed{
+(h_M,h_P)=(1,1).
+}
+\tag{116.12}
+\]</span></p>
+<p>The enclosing state has registered one unit of material inventory and one unit of directional momentum output across the interface.</p>
+<p>Total inventory and total directional count remain unchanged.</p>
+<p>This is a mass-bearing occurrence.</p>
+<p>The count construction does not establish that the one unit was a persistent identified molecule moving from A to B. The admissible before-and-after classifications are defined by the enclosing relation.</p>
+</section>
+<section id="mechanical-momentum-redistribution-occurrence" class="level3">
+<h3 class="anchored" data-anchor-id="mechanical-momentum-redistribution-occurrence">116.5.2. Mechanical momentum-redistribution occurrence</h3>
+<p>Now consider</p>
+<p><span class="math display">\[
+\boxed{
+\chi_S:
+(4,0;2,2)\longrightarrow(3,1;3,1).
+}
+\tag{116.13}
+\]</span></p>
+<p>The regional inventory changes are</p>
+<p><span class="math display">\[
+\Delta q_A=0,\qquad\Delta q_B=0.
+\]</span></p>
+<p>But the directional-count changes are</p>
+<p><span class="math display">\[
+\Delta k_A=-2,\qquad\Delta k_B=+2.
+\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[
+\boxed{
+(h_M,h_P)=(0,2).
+}
+\tag{116.14}
+\]</span></p>
+<p>The water inventory remains unchanged on both sides, yet directional momentum is redistributed.</p>
+<p>This is a shear-like mechanical throughput occurrence.</p>
+<p>No material-inventory transfer is required by its count classification.</p>
+</section>
+<section id="proposition-116.2-momentum-throughput-does-not-require-material-throughput" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-116.2-momentum-throughput-does-not-require-material-throughput">Proposition 116.2 — Momentum Throughput Does Not Require Material Throughput</h3>
+<p>A conservation-compatible enclosing occurrence can satisfy</p>
+<p><span class="math display">\[
+h_M=0
+\]</span></p>
+<p>while</p>
+<p><span class="math display">\[
+h_P\neq0.
+\]</span></p>
+<p><strong>Proof.</strong></p>
+<p>Equation (116.13) supplies an explicit admissible finite realization. The regional inventories return their original values, whereas the regional directional counts change by equal and opposite amounts. Both enclosing totals remain conserved. <span class="math inline">\(\square\)</span></p>
+<p>This is a structural distinction, not yet a physical viscosity law.</p>
+</section>
+<section id="what-the-example-establishes" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-example-establishes">What the example establishes</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Count read</th>
+<th style="text-align: right;">Mass-bearing occurrence</th>
+<th style="text-align: right;">Shear-like occurrence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inventory transferred <span class="math inline">\(h_M\)</span></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Directional momentum transferred <span class="math inline">\(h_P\)</span></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td>Total inventory conserved</td>
+<td style="text-align: right;">Yes</td>
+<td style="text-align: right;">Yes</td>
+</tr>
+<tr class="even">
+<td>Total directional count conserved</td>
+<td style="text-align: right;">Yes</td>
+<td style="text-align: right;">Yes</td>
+</tr>
+<tr class="odd">
+<td>Regional inventory unchanged</td>
+<td style="text-align: right;">No</td>
+<td style="text-align: right;">Yes</td>
+</tr>
+<tr class="even">
+<td>Regional momentum unchanged</td>
+<td style="text-align: right;">No</td>
+<td style="text-align: right;">No</td>
+</tr>
+</tbody>
+</table>
+<p>The two events cannot be collapsed into one primitive notion of material motion.</p>
+<p>The enclosing boundary distinguishes what is transported and what is retained.</p>
+</section>
+</section>
+<section id="the-native-multiplicity-does-not-supply-the-transport-rate" class="level2">
+<h2 class="anchored" data-anchor-id="the-native-multiplicity-does-not-supply-the-transport-rate">116.6. The Native Multiplicity Does Not Supply the Transport Rate</h2>
+<p>The previous examples also permit an exact combinatorial audit.</p>
+<p>Fix two regions with four distinguishable orientation positions each and a total of six positive and two negative orientations.</p>
+<p>The three admissible regional positive-orientation classifications are</p>
+<p><span class="math display">\[
+X_2=(2,2;4,0),
+\]</span></p>
+<p><span class="math display">\[
+X_3=(3,1;3,1),
+\]</span></p>
+<p><span class="math display">\[
+X_4=(4,0;2,2).
+\]</span></p>
+<p>For <span class="math inline">\(x=a_+\)</span>, their native multiplicities are</p>
+<p><span class="math display">\[
+W_x=\binom4x\binom4{6-x}.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+W_2=6,\qquad W_3=16,\qquad W_4=6.
+}
+\tag{116.15}
+\]</span></p>
+<p>These are possible counts.</p>
+<p>Now define three possible interfacial orientation-pair classes:</p>
+<p><span class="math display">\[
+F_+=a_+b_-,
+\]</span></p>
+<p><span class="math display">\[
+F_-=a_-b_+,
+\]</span></p>
+<p><span class="math display">\[
+F_0=a_+b_++a_-b_-.
+\]</span></p>
+<p>They satisfy</p>
+<p><span class="math display">\[
+\boxed{
+F_++F_-+F_0=q_Aq_B.
+}
+\tag{116.16}
+\]</span></p>
+<p>Their possible pair counts are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Macrostate</th>
+<th style="text-align: right;"><span class="math inline">\(W\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(F_+\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(F_-\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(F_0\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(X_2\)</span></td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X_3\)</span></td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(X_4\)</span></td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">8</td>
+</tr>
+</tbody>
+</table>
+<p>For these fixed-region classifications, the native possible pairing relation is exact.</p>
+<p>For example,</p>
+<p><span class="math display">\[
+W_4F_{4\rightarrow3}
+=
+6(8)=48,
+\]</span></p>
+<p>while</p>
+<p><span class="math display">\[
+W_3F_{3\rightarrow4}
+=
+16(3)=48.
+\]</span></p>
+<p>The combinatorial equality is not an equality of physical forward and reverse transition rates.</p>
+<p>It counts possible pairings under the defined classification.</p>
+<p>The number of times a complete enclosing occurrence actually recurs must be counted separately.</p>
+<p>Moreover, the earlier mass-bearing example changes regional inventory capacities from <span class="math inline">\((4,4)\)</span> to <span class="math inline">\((3,5)\)</span>. It therefore cannot be analyzed by blindly applying the same fixed-<span class="math inline">\((4,4)\)</span> native multiplicity landscape.</p>
+<p>Changing the regional inventory classification changes the relevant local possibility domain.</p>
+<section id="the-exact-orientation-imbalance-identity" class="level3">
+<h3 class="anchored" data-anchor-id="the-exact-orientation-imbalance-identity">The exact orientation-imbalance identity</h3>
+<p>From the definitions,</p>
+<p><span class="math display">\[
+F_+-F_-
+=
+a_+b_--a_-b_+.
+\]</span></p>
+<p>Substituting</p>
+<p><span class="math display">\[
+a_\pm=\frac{q_A\pm k_A}{2},
+\qquad
+b_\pm=\frac{q_B\pm k_B}{2},
+\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[
+\boxed{
+F_+-F_-=
+\frac{q_Bk_A-q_Ak_B}{2}.
+}
+\tag{116.17}
+\]</span></p>
+<p>Therefore, for positive inventories,</p>
+<p><span class="math display">\[
+\boxed{
+\frac{F_+-F_-}{q_Aq_B}
+=
+\frac12
+\left(
+\frac{k_A}{q_A}
+-
+\frac{k_B}{q_B}
+\right).
+}
+\tag{116.18}
+\]</span></p>
+<p>This is an exact linear relationship between possible interfacial orientation imbalance and regional directional-count contrast.</p>
+<p>It does not establish a physical momentum-throughput rate or a viscosity coefficient.</p>
+<p>Those require realized enclosing occurrences and independent mechanical calibration.</p>
+<p>The distinction is precisely the one developed in Addendum 107: possible counts define structural support; a probability or transition rule does not become a primitive cause merely because it represents that support.</p>
+</section>
+</section>
+<section id="general-conservation-across-many-regions" class="level2">
+<h2 class="anchored" data-anchor-id="general-conservation-across-many-regions">116.7. General Conservation Across Many Regions</h2>
+<p>The two-region result extends to an arbitrary finite enclosing network.</p>
+<p>Let the boundary distinguish <span class="math inline">\(m\)</span> regions and <span class="math inline">\(E\)</span> oriented interfaces.</p>
+<p>Define the incidence matrix</p>
+<p><span class="math display">\[
+D\in\{-1,0,1\}^{m\times E},
+\]</span></p>
+<p>with a positive entry at the source region of each oriented interface and a negative entry at its receiving region.</p>
+<p>Let</p>
+<p><span class="math display">\[
+\mathbf q=(q_1,\ldots,q_m)^{\mathsf T}
+\]</span></p>
+<p>be the inventory-count vector, and let</p>
+<p><span class="math display">\[
+\mathbf z_M
+\]</span></p>
+<p>be the vector of completed material-output records.</p>
+<p>Specify the admissible enclosing inventory change as</p>
+<p><span class="math display">\[
+\boxed{
+\Delta\mathbf q=-D\,\Delta\mathbf z_M.
+}
+\tag{116.19}
+\]</span></p>
+<p>Because every internal interface has one source and one receiver,</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf1^{\mathsf T}D=0.
+}
+\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[
+\mathbf1^{\mathsf T}\Delta\mathbf q
+=
+-\mathbf1^{\mathsf T}D\,\Delta\mathbf z_M=0.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+\Delta Q_J=0.
+}
+\tag{116.20}
+\]</span></p>
+<p>For the directional-momentum count vector and its completed interface-output records,</p>
+<p><span class="math display">\[
+\boxed{
+\Delta\mathbf k=-D\,\Delta\mathbf z_P.
+}
+\tag{116.21}
+\]</span></p>
+<p>The same identity gives</p>
+<p><span class="math display">\[
+\boxed{
+\Delta K_J=0.
+}
+\tag{116.22}
+\]</span></p>
+<section id="theorem-116.1-enclosing-joint-conservation" class="level3">
+<h3 class="anchored" data-anchor-id="theorem-116.1-enclosing-joint-conservation">Theorem 116.1 — Enclosing Joint Conservation</h3>
+<p>For a finite closed boundary whose material and directional-momentum output records obey equations (116.19) and (116.21), total inventory and total directional count are invariant under every complete admissible occurrence.</p>
+<p><strong>Proof.</strong></p>
+<p>Both sums are annihilated by the same enclosing incidence relation,</p>
+<p><span class="math display">\[
+\mathbf1^{\mathsf T}D=0.
+\]</span></p>
+<p>Applying this identity to each complete output record establishes the two conservation results. <span class="math inline">\(\square\)</span></p>
+<p>The theorem does not require that material and momentum be carried by the same identifiable subordinate object.</p>
+<p>It also does not require the enclosing boundary to be embedded in primitive Euclidean space.</p>
+<p>The incidence relation is a finite mathematical classification of which peer boundaries share a complete joint output.</p>
+<p>Physical surface geometry comes later.</p>
+<p>If the selected region is open, external source and receiver records must be included explicitly. An enclosing boundary expanded to include them may again possess a closed conservation relation.</p>
+</section>
+</section>
+<section id="steady-transport-is-not-zero-transport" class="level2">
+<h2 class="anchored" data-anchor-id="steady-transport-is-not-zero-transport">116.8. Steady Transport Is Not Zero Transport</h2>
+<p>We now establish the relationship most directly associated with sustained fluid flow.</p>
+<p>Consider four enclosed water regions arranged in the oriented order</p>
+<p><span class="math display">\[
+U\longrightarrow A\longrightarrow B\longrightarrow L.
+\]</span></p>
+<p>Here <span class="math inline">\(U\)</span> supplies the intermediate water regions, and <span class="math inline">\(L\)</span> receives their output.</p>
+<p>The three directed interface records are</p>
+<p><span class="math display">\[
+j_{UA},\qquad j_{AB},\qquad j_{BL}.
+\]</span></p>
+<p>Their incidence matrix is</p>
+<p><span class="math display">\[
+D=
+\begin{pmatrix}
+1&amp;0&amp;0\\
+-1&amp;1&amp;0\\
+0&amp;-1&amp;1\\
+0&amp;0&amp;-1
+\end{pmatrix}.
+\]</span></p>
+<p>For either conserved count coordinate,</p>
+<p><span class="math display">\[
+\Delta\mathbf x=-D\mathbf j.
+\]</span></p>
+<p>Explicitly,</p>
+<p><span class="math display">\[
+\boxed{
+\begin{aligned}
+\Delta x_U&amp;=-j_{UA},\\
+\Delta x_A&amp;=j_{UA}-j_{AB},\\
+\Delta x_B&amp;=j_{AB}-j_{BL},\\
+\Delta x_L&amp;=j_{BL}.
+\end{aligned}
+}
+\tag{116.23}
+\]</span></p>
+<p>Suppose the intermediate water regions preserve their readable inventory or momentum classifications:</p>
+<p><span class="math display">\[
+\Delta x_A=\Delta x_B=0.
+\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[
+j_{UA}=j_{AB},
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+j_{AB}=j_{BL}.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+j_{UA}=j_{AB}=j_{BL}=h.
+}
+\tag{116.24}
+\]</span></p>
+<p>The common throughput <span class="math inline">\(h\)</span> need not vanish.</p>
+<section id="proposition-116.3-steady-regional-classification-permits-nonzero-throughput" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-116.3-steady-regional-classification-permits-nonzero-throughput">Proposition 116.3 — Steady Regional Classification Permits Nonzero Throughput</h3>
+<p>In a conservation-compatible three-interface enclosing chain, zero accumulation at both intermediate regions implies equality of the three completed throughputs, not their vanishing.</p>
+<p><strong>Proof.</strong></p>
+<p>Setting the two intermediate differences in equation (116.23) to zero gives the two equalities above. Their combination gives equation (116.24). No condition requires <span class="math inline">\(h=0\)</span>. <span class="math inline">\(\square\)</span></p>
+<p>This is the exact finite-count distinction between steady accumulation and steady throughput.</p>
+</section>
+<section id="a-simultaneous-material-and-momentum-example" class="level3">
+<h3 class="anchored" data-anchor-id="a-simultaneous-material-and-momentum-example">A simultaneous material and momentum example</h3>
+<p>Choose initial inventory counts</p>
+<p><span class="math display">\[
+\mathbf q=(10,4,4,10)
+\]</span></p>
+<p>and directional counts</p>
+<p><span class="math display">\[
+\mathbf k=(4,4,4,0).
+\]</span></p>
+<p>Let the complete enclosing occurrence advance both material and directional output along all three interfaces by</p>
+<p><span class="math display">\[
+\Delta\mathbf z_M=(2,2,2),
+\]</span></p>
+<p><span class="math display">\[
+\Delta\mathbf z_P=(2,2,2).
+\]</span></p>
+<p>The resulting states are</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf q'=(8,4,4,12),
+}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf k'=(2,4,4,2).
+}
+\tag{116.25}
+\]</span></p>
+<p>The total inventory remains</p>
+<p><span class="math display">\[
+Q_J=28,
+\]</span></p>
+<p>and the total directional count remains</p>
+<p><span class="math display">\[
+K_J=12.
+\]</span></p>
+<p>All regional <span class="math inline">\((q,k)\)</span> pairs satisfy the binary orientation admissibility conditions.</p>
+<p>The intermediate regions <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are unchanged in both readable classifications.</p>
+<p>Nevertheless, both material and momentum have nonzero completed output through those regions.</p>
+<p>This is a finite joint realization of steady throughput.</p>
+<p>It does not establish a physical water velocity until the inventory, momentum, reference-frame, and clock calibrations have been specified.</p>
+</section>
+</section>
+<section id="momentum-throughput-without-material-throughput" class="level2">
+<h2 class="anchored" data-anchor-id="momentum-throughput-without-material-throughput">116.9. Momentum Throughput Without Material Throughput</h2>
+<p>We can now apply the same four-region result to a purely mechanical redistribution occurrence.</p>
+<p>Let</p>
+<p><span class="math display">\[
+\Delta\mathbf z_M=(0,0,0),
+\]</span></p>
+<p>while</p>
+<p><span class="math display">\[
+\Delta\mathbf z_P=(2,2,2).
+\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[
+\boxed{
+\Delta\mathbf q=0
+}
+\]</span></p>
+<p>for every region.</p>
+<p>But directional momentum output continues through the intermediate regions.</p>
+<p>For example, begin with</p>
+<p><span class="math display">\[
+\mathbf k=(4,4,0,0).
+\]</span></p>
+<p>The complete momentum-output occurrence gives</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf k'=(2,4,0,2).
+}
+\tag{116.26}
+\]</span></p>
+<p>The intermediate momentum classifications remain</p>
+<p><span class="math display">\[
+k_A=4,\qquad k_B=0.
+\]</span></p>
+<p>Both regions retain their original inventory and momentum counts.</p>
+<p>The source and receiving regions change their momentum classifications by equal and opposite amounts.</p>
+<section id="principle-momentum-transport-is-not-material-transport" class="level3">
+<h3 class="anchored" data-anchor-id="principle-momentum-transport-is-not-material-transport">Principle — Momentum Transport Is Not Material Transport</h3>
+<p><strong>An enclosing boundary may admit completed directional-momentum throughput while preserving the material-inventory classification of every intermediate water region and transferring no net material through the corresponding interfaces.</strong></p>
+<p>This is the finite-count architecture required for a physical mechanical stress read.</p>
+<p>Stress is not yet being defined as a primitive force or viscosity coefficient.</p>
+<p>It is the later physical representation of compatible directional-momentum throughput relative to a selected material boundary.</p>
+<p>The same conservation law applies to the material and mechanical cases. Their distinction lies in the jointly compatible output classification.</p>
+</section>
+</section>
+<section id="complete-joint-compatibility-precedes-realized-throughput" class="level2">
+<h2 class="anchored" data-anchor-id="complete-joint-compatibility-precedes-realized-throughput">116.10. Complete Joint Compatibility Precedes Realized Throughput</h2>
+<p>The incidence equations alone do not specify which water occurrences can be realized.</p>
+<p>A complete enclosing relation must also preserve the admissibility of every regional state and identify the compatible subordinate closures and enclosing output records.</p>
+<p>For an enclosing occurrence class <span class="math inline">\(\chi\)</span>, define</p>
+<p><span class="math display">\[
+\boxed{
+\mathfrak D_{J,\chi}
+=
+\left\{
+(\mathcal C_a)_{a\in I},
+\mathbf h_M,\mathbf h_P,\gamma_\Phi:
+\text{the complete joint record is compatible with }\chi
+\right\}.
+}
+\tag{116.27}
+\]</span></p>
+<p>The admissibility condition includes:</p>
+<ol type="1">
+<li>Membership of each before-and-after regional state in its native count domain.</li>
+<li>Conservation of the selected enclosing inventory and directional totals.</li>
+<li>Compatibility among all interface outputs belonging to the same completed occurrence.</li>
+<li>Compatibility of the completed subordinate closures with that enclosing occurrence.</li>
+<li>The relevant retained-output and nondirectional-background classifications.</li>
+</ol>
+<p>The listed conditions characterize the constructed water compatibility class. They are not new universal R²D axioms.</p>
+<p>The canonical causal relation is</p>
+<p><span class="math display">\[
+\boxed{
+\chi^{(r)}
+\Longrightarrow
+(\mathcal C_a)_{a\in I}\in
+\mathfrak D_{J,\chi}.
+}
+\tag{116.28}
+\]</span></p>
+<p>Completed subordinate realization is reclassified at the enclosing boundary through recursive carry,</p>
+<p><span class="math display">\[
+\mathcal C_a
+\overset{\kappa}{\longmapsto}
+\chi^{(r)}.
+\]</span></p>
+<p>The second relation is not a bottom-up cause.</p>
+<p>A subordinate event does not create the enclosing conservation relation that assigns it the meaning of material or momentum transport.</p>
+<section id="what-remains-distinct" class="level3">
+<h3 class="anchored" data-anchor-id="what-remains-distinct">What remains distinct</h3>
+<p>The following are different count objects:</p>
+<p><span class="math display">\[
+W,\quad \Theta,\quad F,\quad
+N_{\mathcal C},\quad N_\chi.
+\]</span></p>
+<p>Here <span class="math inline">\(F\)</span> denotes a possible interfacial pairing count in the finite orientation example, not a force.</p>
+<p>Native and enclosing multiplicities count possibilities.</p>
+<p>Completed closure recurrence counts subordinate realization.</p>
+<p>Enclosing occurrence recurrence counts completed directional output.</p>
+<p>The existence of a possible interface pairing does not establish how often the corresponding enclosing occurrence is realized.</p>
+</section>
+</section>
+<section id="the-recurrence-weighted-transport-relation" class="level2">
+<h2 class="anchored" data-anchor-id="the-recurrence-weighted-transport-relation">116.11. The Recurrence-Weighted Transport Relation</h2>
+<p>Part I’s R²D law connects a completed representative local closure with an enclosing occurrence.</p>
+<p>For each selected enclosing class <span class="math inline">\(\chi\)</span>, define the completed local closure asymmetry</p>
+<p><span class="math display">\[
+\Delta A_{\mathcal C_\chi}
+=
+\Delta P_{\mathcal C_\chi}
+-
+\Delta R_{\mathcal C_\chi}.
+\]</span></p>
+<p>In a common recurrence-comparison domain, the canonical law gives</p>
+<p><span class="math display">\[
+\boxed{
+\Delta A_{\mathcal C_\chi}N_{\mathcal C_\chi}
+=
+C_{J,\chi}\lambda_{J,\chi}N_\chi.
+}
+\tag{116.29}
+\]</span></p>
+<p>For nonzero <span class="math inline">\(C_{J,\chi}\lambda_{J,\chi}\)</span>,</p>
+<p><span class="math display">\[
+\boxed{
+N_\chi=
+\frac{\Delta A_{\mathcal C_\chi}}
+{C_{J,\chi}\lambda_{J,\chi}}
+N_{\mathcal C_\chi}.
+}
+\tag{116.30}
+\]</span></p>
+<p>The complete enclosing constraint is</p>
+<p><span class="math display">\[
+C_{J,\chi}
+=
+C_{J,\chi}^{out}+C_{J,\chi}^{\Phi}.
+\]</span></p>
+<p>Only the productive component enters local retention. The total constraint enters the recurrence-weighted enclosing realization.</p>
+<p>Suppose the enclosing class <span class="math inline">\(\chi\)</span> carries a signed material-output record <span class="math inline">\(h_{M,\chi}\)</span> and a signed directional-momentum-output record <span class="math inline">\(h_{P,\chi}\)</span>.</p>
+<p>Over the comparison domain,</p>
+<p><span class="math display">\[
+\Delta z_M
+=
+\sum_\chi h_{M,\chi}N_\chi,
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\Delta z_P
+=
+\sum_\chi h_{P,\chi}N_\chi.
+\]</span></p>
+<p>Substitution of the recurrence law gives</p>
+<p><span class="math display">\[
+\boxed{
+\Delta z_M
+=
+\sum_\chi
+h_{M,\chi}
+\frac{\Delta A_{\mathcal C_\chi}}
+{C_{J,\chi}\lambda_{J,\chi}}
+N_{\mathcal C_\chi}.
+}
+\tag{116.31}
+\]</span></p>
+<p>Likewise,</p>
+<p><span class="math display">\[
+\boxed{
+\Delta z_P
+=
+\sum_\chi
+h_{P,\chi}
+\frac{\Delta A_{\mathcal C_\chi}}
+{C_{J,\chi}\lambda_{J,\chi}}
+N_{\mathcal C_\chi}.
+}
+\tag{116.32}
+\]</span></p>
+<p>These are the recurrence-weighted count expressions for the complete material and directional-momentum output records.</p>
+<p>The signed output <span class="math inline">\(h_{P,\chi}\)</span> must not be confused with the nonnegative recurrence count <span class="math inline">\(N_\chi\)</span>.</p>
+<p>Forward and reverse enclosing output classes can have distinct compatible closure and constraint relations. The R²D law applies to each appropriately defined class; the signed net output is calculated after the individual realized counts are determined.</p>
+<p>Nor should the opposed-leg occurrence counts <span class="math inline">\(\nu_H,\nu_L\)</span> be identified with positive and negative enclosing-output recurrence counts.</p>
+<p>The Second Law separately relates their nonreciprocity to the enclosing background.</p>
+<p>Equations (116.31) and (116.32) do not independently determine the physical water boundary’s compatibility relation, its constraint, or its recurrence rates.</p>
+<p>They state what the canonical recurrence law requires once those quantities have been defined.</p>
+</section>
+<section id="mass-and-momentum-acquire-physical-meaning-through-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="mass-and-momentum-acquire-physical-meaning-through-calibration">116.12. Mass and Momentum Acquire Physical Meaning Through Calibration</h2>
+<p>The preceding conservation and recurrence equations are dimensionless.</p>
+<p>They do not contain kilograms, meters, seconds, or newtons.</p>
+<p>For a low-speed physical water realization, assign</p>
+<p><span class="math display">\[
+\boxed{
+M_a=m_*q_a
+}
+\tag{116.33}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{
+P_a=p_*k_a,
+}
+\tag{116.34}
+\]</span></p>
+<p>where <span class="math inline">\(m_*\)</span> and <span class="math inline">\(p_*\)</span> are independently specified mass and signed-momentum calibrations.</p>
+<p>These are boundary-specific physical mappings, not primitive R²D identities.</p>
+<p>The resulting bulk momentum-to-mass velocity coordinate is</p>
+<p><span class="math display">\[
+\boxed{
+u_a=\frac{P_a}{M_a}
+=
+\frac{p_*}{m_*}\frac{k_a}{q_a}.
+}
+\tag{116.35}
+\]</span></p>
+<p>This velocity is read relative to the enclosing mechanical reference.</p>
+<p>Its definition does not require assigning an uninterrupted trajectory to each subordinate inventory unit.</p>
+<p>Let one complete interfacial occurrence have the count output</p>
+<p><span class="math display">\[
+(h_M,h_P).
+\]</span></p>
+<p>Its physical material output is</p>
+<p><span class="math display">\[
+\Delta M_e=m_*h_M,
+\]</span></p>
+<p>and its directional-momentum output is</p>
+<p><span class="math display">\[
+\Delta P_e=p_*h_P.
+\]</span></p>
+<p>The complete momentum output can always be written as</p>
+<p><span class="math display">\[
+\Delta P_e
+=
+u_a\Delta M_e
++
+\left(
+\Delta P_e-u_a\Delta M_e
+\right).
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+p_*h_P
+=
+u_am_*h_M
++
+p_*
+\left(
+h_P-\frac{k_a}{q_a}h_M
+\right).
+}
+\tag{116.36}
+\]</span></p>
+<p>The first term is the bulk advective momentum read associated with the selected regional velocity.</p>
+<p>The second is momentum throughput relative to that bulk read.</p>
+<p>Define</p>
+<p><span class="math display">\[
+\boxed{
+h_{\mathrm{rel}}
+=
+h_P-\frac{k_a}{q_a}h_M.
+}
+\tag{116.37}
+\]</span></p>
+<p>This is an algebraic contrast of the complete output records. It need not be an integer or represent another primitive occurrence.</p>
+<section id="the-two-region-examples-revisited" class="level3">
+<h3 class="anchored" data-anchor-id="the-two-region-examples-revisited">The two-region examples revisited</h3>
+<p>For the initial state</p>
+<p><span class="math display">\[
+X_4=(4,0;2,2),
+\]</span></p>
+<p>region A has</p>
+<p><span class="math display">\[
+\frac{k_A}{q_A}=1.
+\]</span></p>
+<p>The mass-bearing occurrence has</p>
+<p><span class="math display">\[
+(h_M,h_P)=(1,1).
+\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[
+h_{\mathrm{rel}}=1-1=0.
+\]</span></p>
+<p>Its transferred momentum agrees exactly with the bulk advective momentum read.</p>
+<p>The shear-like occurrence has</p>
+<p><span class="math display">\[
+(h_M,h_P)=(0,2).
+\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[
+\boxed{
+h_{\mathrm{rel}}=2.
+}
+\]</span></p>
+<p>Its entire momentum throughput is relative to the bulk material-throughput read.</p>
+<p>We have separated the two physical interpretations without introducing two primitive mechanisms.</p>
+</section>
+<section id="the-decomposition-does-not-force-every-material-event-to-be-purely-advective" class="level3">
+<h3 class="anchored" data-anchor-id="the-decomposition-does-not-force-every-material-event-to-be-purely-advective">The decomposition does not force every material event to be purely advective</h3>
+<p>Now consider</p>
+<p><span class="math display">\[
+X_3=(3,1;3,1).
+\]</span></p>
+<p>For region A,</p>
+<p><span class="math display">\[
+q_A=4,\qquad k_A=2.
+\]</span></p>
+<p>Its bulk velocity is</p>
+<p><span class="math display">\[
+u_A=\frac{p_*}{2m_*}.
+\]</span></p>
+<p>A compatible material-output occurrence may have</p>
+<p><span class="math display">\[
+(h_M,h_P)=(1,1).
+\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[
+h_{\mathrm{rel}}
+=
+1-\frac12
+=
+\frac12.
+\]</span></p>
+<p>Thus a mass-bearing occurrence may possess both a bulk advective read and a residual relative-momentum read.</p>
+<p>Conservation alone does not force every individual output event to carry exactly the bulk momentum-to-mass ratio.</p>
+<p>The physical boundary determines which complete events are compatible.</p>
+</section>
+</section>
+<section id="the-bulkrelative-decomposition-respects-the-mechanical-reference" class="level2">
+<h2 class="anchored" data-anchor-id="the-bulkrelative-decomposition-respects-the-mechanical-reference">116.13. The Bulk/Relative Decomposition Respects the Mechanical Reference</h2>
+<p>The preceding decomposition has an additional physical consistency property.</p>
+<p>Under a change of low-speed inertial reference by velocity <span class="math inline">\(V\)</span>, the calibrated transfer reads transform as</p>
+<p><span class="math display">\[
+\Delta M_e'=\Delta M_e,
+\]</span></p>
+<p><span class="math display">\[
+\Delta P_e'=\Delta P_e-V\Delta M_e,
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+u_a'=u_a-V.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\begin{aligned}
+\Delta P_e'-u_a'\Delta M_e'
+&amp;=
+\Delta P_e-V\Delta M_e\\
+&amp;\quad-(u_a-V)\Delta M_e\\
+&amp;=
+\Delta P_e-u_a\Delta M_e.
+\end{aligned}
+\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[
+\boxed{
+\Delta P_{\mathrm{rel},e}'
+=
+\Delta P_{\mathrm{rel},e}.
+}
+\tag{116.38}
+\]</span></p>
+<p>The relative momentum-output read is invariant under this common Galilean mechanical-reference shift.</p>
+<p>This is a downstream physical covariance result.</p>
+<p>It does not state that primitive R²D state labels remain unchanged when the operative boundary or mechanical classification changes.</p>
+<p>It shows that the proposed bulk/relative decomposition is consistent with the physical reference transformation appropriate to the low-speed water realization.</p>
+<p>In three-dimensional mechanics, the corresponding expression is</p>
+<p><span class="math display">\[
+\boxed{
+\Delta\mathbf P_e
+=
+\mathbf u_a\Delta M_e
++
+\Delta\mathbf P_{\mathrm{rel},e}.
+}
+\tag{116.39}
+\]</span></p>
+<p>A full physical vector calibration must preserve the joint admissibility of the relevant directional count coordinates.</p>
+</section>
+<section id="the-continuity-equation-is-a-physical-projection-of-enclosing-inventory-conservation" class="level2">
+<h2 class="anchored" data-anchor-id="the-continuity-equation-is-a-physical-projection-of-enclosing-inventory-conservation">116.14. The Continuity Equation Is a Physical Projection of Enclosing Inventory Conservation</h2>
+<p>We now introduce a physical spatial and clock representation.</p>
+<p>Let a selected physical fluid region <span class="math inline">\(\Omega\)</span> possess mass density</p>
+<p><span class="math display">\[
+\rho(\mathbf x,t).
+\]</span></p>
+<p>Let its boundary carry a physically calibrated mass-flux density</p>
+<p><span class="math display">\[
+\mathbf j_m(\mathbf x,t).
+\]</span></p>
+<p>The finite count conservation relation implies the corresponding physical integral mass balance,</p>
+<p><span class="math display">\[
+\boxed{
+\frac{d}{dt}
+\int_\Omega\rho\,dV
+=
+-
+\int_{\partial\Omega}
+\mathbf j_m\cdot\mathbf n\,dA.
+}
+\tag{116.40}
+\]</span></p>
+<p>The conversion from finite count to the integral expression requires physical inventory, surface, and clock calibrations.</p>
+<p>It does not require molecular trajectories.</p>
+<p>Where the physical representation is sufficiently smooth, the divergence theorem gives</p>
+<p><span class="math display">\[
+\boxed{
+\frac{\partial\rho}{\partial t}
++
+\nabla\cdot\mathbf j_m
+=
+0.
+}
+\tag{116.41}
+\]</span></p>
+<p>This is the continuity equation in general physical mass-flux form.</p>
+<p>For a single-fluid mass-barycentric velocity read, specify</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf j_m=\rho\mathbf u.
+}
+\tag{116.42}
+\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[
+\boxed{
+\frac{\partial\rho}{\partial t}
++
+\nabla\cdot(\rho\mathbf u)
+=
+0.
+}
+\tag{116.43}
+\]</span></p>
+<p>For constant physical density,</p>
+<p><span class="math display">\[
+\boxed{
+\nabla\cdot\mathbf u=0.
+}
+\tag{116.44}
+\]</span></p>
+<p>The important logical distinction is that equation (116.41) follows from the physical projection of inventory conservation, while equation (116.42) is an additional identification of the material-flux and bulk-velocity readings.</p>
+<p>That identification is appropriate for the selected single-fluid mass-barycentric representation. It is not imposed by the primitive R²D law alone.</p>
+<section id="continuum-projection-is-not-primitive-recursive-refinement" class="level3">
+<h3 class="anchored" data-anchor-id="continuum-projection-is-not-primitive-recursive-refinement">Continuum projection is not primitive recursive refinement</h3>
+<p>The integral and differential expressions require a spatial field domain in which the corresponding physical density and flux reads remain meaningful.</p>
+<p>They do not establish that arbitrarily fine spatial subdivision retains the same recursive state classification.</p>
+<p>Addendum 1 addresses the limits of continuing a continuum description beyond the occupancy support of its operative field distinction.</p>
+<p>The present addendum does not change that result.</p>
+</section>
+</section>
+<section id="the-advective-momentum-tensor-is-a-joint-physical-read" class="level2">
+<h2 class="anchored" data-anchor-id="the-advective-momentum-tensor-is-a-joint-physical-read">116.15. The Advective Momentum Tensor Is a Joint Physical Read</h2>
+<p>Apply the physical mass–momentum decomposition to a small oriented surface element.</p>
+<p>Let its unit normal be <span class="math inline">\(\mathbf n\)</span>, and let the enclosing fluid boundary admit the single-fluid mass-flux read</p>
+<p><span class="math display">\[
+\mathbf j_m=\rho\mathbf u.
+\]</span></p>
+<p>The mass crossing the surface per unit physical time and area is</p>
+<p><span class="math display">\[
+j_m(\mathbf n)=\rho\mathbf u\cdot\mathbf n.
+\]</span></p>
+<p>If the bulk advective momentum read per unit transferred mass is <span class="math inline">\(\mathbf u\)</span>, then its vector flux is</p>
+<p><span class="math display">\[
+\mathbf j_{P,\mathrm{adv}}(\mathbf n)
+=
+\mathbf u\,j_m(\mathbf n).
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf j_{P,\mathrm{adv}}(\mathbf n)
+=
+\rho\mathbf u(\mathbf u\cdot\mathbf n).
+}
+\tag{116.45}
+\]</span></p>
+<p>This is represented by the tensor</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf F_{\mathrm{adv}}
+=
+\rho\mathbf u\otimes\mathbf u,
+}
+\tag{116.46}
+\]</span></p>
+<p>because</p>
+<p><span class="math display">\[
+\mathbf F_{\mathrm{adv}}\mathbf n
+=
+\rho\mathbf u(\mathbf u\cdot\mathbf n).
+\]</span></p>
+<p>The familiar rank-one advective tensor is therefore a physical representation of the joint material and bulk-momentum throughput relation.</p>
+<p>The same enclosing velocity appears twice because the material-flux and momentum-per-unit-mass readings share the selected bulk water state.</p>
+<p>No persistent molecular trajectory is required to define the tensor.</p>
+<p>However, the mass-barycentric identification and its spatial projection are physical conditions. The R²D recurrence law does not independently require them for every possible water boundary.</p>
+<p>The total momentum flux may also contain a residual mechanical contribution,</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf F_{\mathrm{total}}
+=
+\rho\mathbf u\otimes\mathbf u
++
+\mathbf F_{\mathrm{rel}}.
+}
+\tag{116.47}
+\]</span></p>
+<p>The physical normal and tangential stress readings of <span class="math inline">\(\mathbf F_{\mathrm{rel}}\)</span> are developed in the subsequent constraint addendum.</p>
+<section id="proposition-116.4-conditional-advective-projection" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-116.4-conditional-advective-projection">Proposition 116.4 — Conditional Advective Projection</h3>
+<p>Suppose a conservation-compatible enclosing water boundary admits:</p>
+<ol type="1">
+<li>A calibrated mass-density read <span class="math inline">\(\rho\)</span>.</li>
+<li>A mass-barycentric velocity read <span class="math inline">\(\mathbf u\)</span>.</li>
+<li>A mass flux <span class="math inline">\(\mathbf j_m=\rho\mathbf u\)</span>.</li>
+<li>A bulk momentum transfer per unit mass equal to that same <span class="math inline">\(\mathbf u\)</span>.</li>
+</ol>
+<p>Then the corresponding advective momentum-flux tensor is</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf F_{\mathrm{adv}}=
+\rho\mathbf u\otimes\mathbf u.
+}
+\]</span></p>
+<p><strong>Proof.</strong></p>
+<p>Across any oriented surface, the mass flux is <span class="math inline">\(\rho\mathbf u\cdot\mathbf n\)</span>. Multiplying by the bulk momentum per unit mass gives the vector flux in equation (116.45). The stated tensor represents that surface read for every <span class="math inline">\(\mathbf n\)</span>. <span class="math inline">\(\square\)</span></p>
+<p>This is a conditional physical derivation. It does not promote the velocity field or spatial geometry into primitive R²D count objects.</p>
+</section>
+</section>
+<section id="conservation-does-not-determine-physical-stress" class="level2">
+<h2 class="anchored" data-anchor-id="conservation-does-not-determine-physical-stress">116.16. Conservation Does Not Determine Physical Stress</h2>
+<p>The finite count equations establish what must cancel within a conserved enclosing occurrence.</p>
+<p>They do not determine the physical resistance associated with that occurrence.</p>
+<p>For example, the shear-like realization</p>
+<p><span class="math display">\[
+h_M=0,\qquad h_P\neq0
+\]</span></p>
+<p>demonstrates a structurally admissible mechanical momentum-throughput class.</p>
+<p>It does not determine the relationship between that throughput and a physical velocity difference.</p>
+<p>Likewise, the momentum-output relation does not by itself determine an absolute pressure or a pressure gradient.</p>
+<p>Those properties require the boundary’s physical constraint calibration.</p>
+<p>The next addendum will apply the canonical decomposition</p>
+<p><span class="math display">\[
+\boxed{
+C_J=C_J^{out}+C_J^\Phi
+}
+\]</span></p>
+<p>to water mechanics.</p>
+<p>The retained/output component can acquire a normal pressure read. The background-associated component can acquire a dissipative viscous-resistance read.</p>
+<p>The key point established here is that the <strong>material and directional-momentum conservation relationships exist as jointly compatible count classifications before either physical constitutive read is assigned</strong>.</p>
+<p>This explains why a persistent water state can support both material throughput and mechanical momentum throughput without identifying them as the same process.</p>
+</section>
+<section id="relation-to-molecular-mechanisms" class="level2">
+<h2 class="anchored" data-anchor-id="relation-to-molecular-mechanisms">116.17. Relation to Molecular Mechanisms</h2>
+<p>A molecular description may assign trajectories to constituents, calculate momentum changes during collisions, or describe momentum exchange between neighboring physical regions.</p>
+<p>Such representations can be useful and quantitatively successful at the boundaries where those mechanisms are readable.</p>
+<p>But their validity does not change the logical order of the enclosing count construction.</p>
+<p>The regional water inventories and permissible joint output records are already defined relative to the enclosing boundary.</p>
+<p>An individual molecular event may realize one of the compatible possibilities.</p>
+<p>It cannot establish the enclosing conservation relation that gives the event its meaning as part of a conserved water system.</p>
+<p>This is the same structural inversion that motivated R²D in muscle.</p>
+<p>A molecular motor can realize a mechanically constrained muscle state. It does not primitively define the ensemble-level possibility landscape organizing that state.</p>
+<p>Similarly, a molecular trajectory can realize a fluid transport relation. It does not define the enclosing inventory, momentum classification, and compatibility constraints that make the trajectory a realization of fluid transport.</p>
+<p>Addendum 112 also supplies a necessary warning: repeated resolved records do not, by themselves, establish the uninterrupted trajectory of one persistent subordinate microstate beneath the original enclosing fluid boundary.</p>
+<p>The physical movement recorded by an experiment remains real at its operative observation boundary.</p>
+<p>What R²D excludes is the inversion that promotes a reconstructed subordinate history into the primitive source of the enclosing classification that defines it.</p>
+</section>
+<section id="what-has-been-established" class="level2">
+<h2 class="anchored" data-anchor-id="what-has-been-established">116.18. What Has Been Established</h2>
+<section id="exact-finite-count-results" class="level3">
+<h3 class="anchored" data-anchor-id="exact-finite-count-results">Exact finite-count results</h3>
+<p>Under the specified enclosing inventory and directional-output classifications:</p>
+<ol type="1">
+<li>Equal-and-opposite internal interface outputs conserve the corresponding enclosing totals.</li>
+<li>A complete mass-bearing occurrence can transfer both inventory and directional momentum.</li>
+<li>A complete mechanical redistribution occurrence can transfer momentum while transferring no net material.</li>
+<li>Steady intermediate inventories and directional counts permit nonzero throughgoing output.</li>
+<li>Native orientation-pair imbalance is an exact function of the regional directional-count contrast.</li>
+<li>Material output, momentum output, native multiplicity, completed local closure recurrence, and enclosing occurrence recurrence are distinct count types.</li>
+</ol>
+</section>
+<section id="canonical-r²d-realization-relationships" class="level3">
+<h3 class="anchored" data-anchor-id="canonical-r²d-realization-relationships">Canonical R²D realization relationships</h3>
+<p>The enclosing occurrence defines which complete peer closures are compatible with it.</p>
+<p>Recursive carry reclassifies completed subordinate realizations without making them the primitive cause of the enclosing occurrence.</p>
+<p>The recurrence-weighted R²D law relates complete local closure asymmetry and recurrence to enclosing constrained distinguishability and recurrence.</p>
+<p>The Second Law separately relates opposed-leg occurrence nonreciprocity to enclosing nondirectional background.</p>
+</section>
+<section id="physical-projections" class="level3">
+<h3 class="anchored" data-anchor-id="physical-projections">Physical projections</h3>
+<p>Under appropriate physical mass, momentum, reference, and clock calibrations:</p>
+<ol type="1">
+<li>Conserved inventory admits the continuity equation.</li>
+<li>Directional-count redistribution admits a physical momentum-throughput read.</li>
+<li>A joint mass–momentum occurrence admits an exact bulk/relative momentum decomposition.</li>
+<li>A single-fluid mass-barycentric mapping produces the advective momentum tensor.</li>
+</ol>
+</section>
+<section id="what-has-not-been-established" class="level3">
+<h3 class="anchored" data-anchor-id="what-has-not-been-established">What has not been established</h3>
+<p>This addendum does not determine the physically unique water compatibility relation.</p>
+<p>It does not determine the realized rates of all allowed enclosing occurrences from native multiplicity alone.</p>
+<p>It does not derive water’s pressure, viscosity, or mechanical constitutive parameters.</p>
+<p>It does not establish that every three-dimensional directional count classification is physically realizable, or that an arbitrarily fine continuum projection remains admissible.</p>
+<p>It does not, by itself, constitute an independent derivation of the complete Navier–Stokes equation.</p>
+<p>These limits distinguish the exact boundary-owned conservation result from its subsequent physical mapping.</p>
+</section>
+</section>
+<section id="principle-boundary-owned-conservation-organizes-fluid-transport" class="level2">
+<h2 class="anchored" data-anchor-id="principle-boundary-owned-conservation-organizes-fluid-transport">116.19. Principle — Boundary-Owned Conservation Organizes Fluid Transport</h2>
+<p><strong>A conserved fluid quantity is an enclosing-defined count invariant whose complete admissible occurrences redistribute that quantity among compatible subordinate regions without changing its enclosing total.</strong></p>
+<p>Material inventory and directional momentum are different readable invariants and may possess different output records within the same complete enclosing occurrence.</p>
+<p>Their conservation relations are established by the enclosing compatibility classification.</p>
+<p>Subordinate realizations express those relations locally; they do not generate the enclosing conservation structure.</p>
+<p>It follows that:</p>
+<p><span class="math display">\[
+\boxed{
+\text{conservation}
+\neq
+\text{zero local change},
+}
+\]</span></p>
+<p><span class="math display">\[
+\boxed{
+\text{zero accumulation}
+\neq
+\text{zero throughput},
+}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{
+\text{momentum throughput}
+\neq
+\text{material throughput}.
+}
+\]</span></p>
+<p>These distinctions are exact at the finite count level.</p>
+<p>Their physical projections support the separate roles of continuity, advection, and mechanical stress in fluid mechanics.</p>
+</section>
+<section id="conclusion-transport-does-not-create-what-it-conserves" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-transport-does-not-create-what-it-conserves">Conclusion — Transport Does Not Create What It Conserves</h2>
+<p>A sustained flowing fluid does not require its enclosing state to change with every completed material or momentum-output occurrence.</p>
+<p>An intermediate water region can preserve its inventory and directional momentum while throughgoing material and momentum output continue.</p>
+<p>A water interface can also admit momentum throughput without net material transfer.</p>
+<p>These are different joint realizations of enclosing-defined conservation.</p>
+<p>The corresponding finite count mathematics requires neither persistent molecular trajectories nor primitive differential spatial operators.</p>
+<p>R²D places the organizing relation first.</p>
+<p>The enclosing boundary defines what counts as water inventory, directional momentum, admissible redistribution, and completed output.</p>
+<p>The R²D realization laws then relate completed subordinate recurrence to the enclosing occurrence.</p>
+<p>Physical mass, momentum, velocity, space, and time provide subsequent calibrated readings of that same recursively organized structure.</p>
+<p>The continuity equation and the advective momentum tensor emerge as conditional continuum representations of these count relationships.</p>
+<p><strong>Transport does not create the conserved quantity whose movement it represents. The enclosing conservation relation defines what the transport occurrence preserves.</strong></p>
+<p>This establishes the mathematical basis for the next step: showing how the enclosing mechanical constraint partitions its normal retained-output and dissipative momentum-throughput readings into the physical quantities called pressure and viscosity.</p>
+<hr>
+</section>
+<section id="related-canon-and-addenda" class="level2">
+<h2 class="anchored" data-anchor-id="related-canon-and-addenda">Related Canon and Addenda</h2>
+<ul>
+<li>R²D Part I — <em>A Theory of Dimensionless Recursive Counting</em>, especially §§3.5–3.10.</li>
+<li>R²D Part II — <em>Joint Readability of Recurrence and Distinguishability</em>, especially the thermodynamic and muscle mechanical calibrations.</li>
+<li>R²D Part IV — <em>Projection: The Physics Constructed from What Remains</em>.</li>
+<li>Addendum 1 — <em>Recursive Replacement Precedes the Formal Navier–Stokes Singularity</em>.</li>
+<li>Addendum 105 — <em>The Observational Inversion</em>.</li>
+<li>Addendum 107 — <em>Possibilities Pull; Probabilities Do Not Push</em>.</li>
+<li>Addendum 112 — <em>Sampled Multiplicity Before Thermal Fluctuations</em>.</li>
+<li>Addendum 115 — <em>What Sustains Flow? Persistent Directional Occupancy, Complete Local Closure, and Enclosing Recurrence</em>.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-115-what-sustains-flow.html" class="pagination-link" aria-label="Addendum 115 — What Sustains Flow?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 115 — What Sustains Flow?</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" class="pagination-link" aria-label="Addendum 117 — Pressure and Viscosity Are Enclosing Constraints">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 117 — Pressure and Viscosity Are Enclosing Constraints</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

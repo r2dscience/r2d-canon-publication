@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" rel="next">
+<link href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Author’s Note on AI</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part I — A Theory of Dimensionless Recursive Counting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-098-enclosing-compatibility-occurs-before-microscopic-causality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 98: Enclosing Compatibility Occurs Before Microscopic Causality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-099-born-rule-consistency-without-primitive-quantum-causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 99 — Born-Rule Consistency Without Primitive Quantum Causation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-100-the-empty-vessel-recursive-replacement-observation-and-irreversibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 100 — The Empty Vessel: Recursive Replacement, Observation, and Irreversibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-101-the-enclosing-relation-before-quantum-representation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 101 — The Enclosing Relation Before Quantum Representation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-102-particles-are-imagined.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 102 — Particles Are Imagined</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-103-the-causal-implications-of-the-microstate-definition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 103 — The Causal Implications of the Microstate Definition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-104-the-count-relation-survives-before-state-identity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 104 — The Count Relation Survives Before State Identity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-105-the-observational-inversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 105 — The Observational Inversion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-107-possibilities-pull-probabilities-do-not-push.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 107 — Possibilities Pull; Probabilities Do Not Push</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-108-a-branch-is-not-an-occupied-world.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 108 — A Branch Is Not an Occupied World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-109-charge-classification-occurs-before-causal-strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 109 — Charge Classification Occurs Before Causal Strings</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-110-the-inferred-gravitational-source-is-not-an-occupied-object.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 110 — The Inferred Gravitational Source Is Not an Occupied Object</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-111-the-objectification-of-the-unreadable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 111 — The Objectification of the Unreadable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 112 — Sampled Multiplicity Before Thermal Fluctuations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-113-r2d-and-the-black-hole-information-paradox.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 113 — R²D and the Black Hole Information Paradox</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-115-what-sustains-flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 115 — What Sustains Flow?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-116-conservation-before-transport.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 117 — Pressure and Viscosity Are Enclosing Constraints</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#r²d-addendum-119-the-navierstokes-singularity-is-a-limit-of-joint-mechanical-readability" id="toc-r²d-addendum-119-the-navierstokes-singularity-is-a-limit-of-joint-mechanical-readability" class="nav-link active" data-scroll-target="#r²d-addendum-119-the-navierstokes-singularity-is-a-limit-of-joint-mechanical-readability">R²D Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-question-left-open-by-addendum-1" id="toc-the-question-left-open-by-addendum-1" class="nav-link" data-scroll-target="#the-question-left-open-by-addendum-1">119.1. The Question Left Open by Addendum 1</a></li>
+  <li><a href="#the-singular-core-in-the-forced-navierstokes-construction" id="toc-the-singular-core-in-the-forced-navierstokes-construction" class="nav-link" data-scroll-target="#the-singular-core-in-the-forced-navierstokes-construction">119.2. The Singular Core in the Forced Navier–Stokes Construction</a></li>
+  <li><a href="#finite-material-support-is-not-native-multiplicity" id="toc-finite-material-support-is-not-native-multiplicity" class="nav-link" data-scroll-target="#finite-material-support-is-not-native-multiplicity">119.3. Finite Material Support Is Not Native Multiplicity</a>
+  <ul class="collapse">
+  <li><a href="#the-projected-material-support-count" id="toc-the-projected-material-support-count" class="nav-link" data-scroll-target="#the-projected-material-support-count">The projected material-support count</a></li>
+  <li><a href="#principle-material-support-is-not-the-count-architecture" id="toc-principle-material-support-is-not-the-count-architecture" class="nav-link" data-scroll-target="#principle-material-support-is-not-the-count-architecture">Principle — Material Support Is Not the Count Architecture</a></li>
+  </ul></li>
+  <li><a href="#the-fluid-field-is-a-joint-mechanical-projection" id="toc-the-fluid-field-is-a-joint-mechanical-projection" class="nav-link" data-scroll-target="#the-fluid-field-is-a-joint-mechanical-projection">119.4. The Fluid Field Is a Joint Mechanical Projection</a>
+  <ul class="collapse">
+  <li><a href="#the-common-fluid-projection" id="toc-the-common-fluid-projection" class="nav-link" data-scroll-target="#the-common-fluid-projection">The common fluid projection</a></li>
+  </ul></li>
+  <li><a href="#joint-mechanical-readability-requires-finite-support" id="toc-joint-mechanical-readability-requires-finite-support" class="nav-link" data-scroll-target="#joint-mechanical-readability-requires-finite-support">119.5. Joint Mechanical Readability Requires Finite Support</a>
+  <ul class="collapse">
+  <li><a href="#proposition-119.1-finite-material-support-obstructs-indefinite-joint-continuum-readability" id="toc-proposition-119.1-finite-material-support-obstructs-indefinite-joint-continuum-readability" class="nav-link" data-scroll-target="#proposition-119.1-finite-material-support-obstructs-indefinite-joint-continuum-readability">Proposition 119.1 — Finite Material Support Obstructs Indefinite Joint Continuum Readability</a></li>
+  <li><a href="#corollary-119.1-the-common-mechanical-projection-requires-reclassification" id="toc-corollary-119.1-the-common-mechanical-projection-requires-reclassification" class="nav-link" data-scroll-target="#corollary-119.1-the-common-mechanical-projection-requires-reclassification">Corollary 119.1 — The Common Mechanical Projection Requires Reclassification</a></li>
+  </ul></li>
+  <li><a href="#the-singular-velocity-is-a-quotient-of-vanishing-extensive-reads" id="toc-the-singular-velocity-is-a-quotient-of-vanishing-extensive-reads" class="nav-link" data-scroll-target="#the-singular-velocity-is-a-quotient-of-vanishing-extensive-reads">119.6. The Singular Velocity Is a Quotient of Vanishing Extensive Reads</a>
+  <ul class="collapse">
+  <li><a href="#proposition-119.2-divergent-intensive-velocity-need-not-imply-divergent-extensive-realization" id="toc-proposition-119.2-divergent-intensive-velocity-need-not-imply-divergent-extensive-realization" class="nav-link" data-scroll-target="#proposition-119.2-divergent-intensive-velocity-need-not-imply-divergent-extensive-realization">Proposition 119.2 — Divergent Intensive Velocity Need Not Imply Divergent Extensive Realization</a></li>
+  </ul></li>
+  <li><a href="#the-finite-directional-count-model-exposes-the-projection-limit" id="toc-the-finite-directional-count-model-exposes-the-projection-limit" class="nav-link" data-scroll-target="#the-finite-directional-count-model-exposes-the-projection-limit">119.7. The Finite Directional-Count Model Exposes the Projection Limit</a>
+  <ul class="collapse">
+  <li><a href="#what-this-establishes" id="toc-what-this-establishes" class="nav-link" data-scroll-target="#what-this-establishes">What this establishes</a></li>
+  </ul></li>
+  <li><a href="#momentum-throughput-may-behave-differently-from-stored-momentum" id="toc-momentum-throughput-may-behave-differently-from-stored-momentum" class="nav-link" data-scroll-target="#momentum-throughput-may-behave-differently-from-stored-momentum">119.8. Momentum Throughput May Behave Differently from Stored Momentum</a>
+  <ul class="collapse">
+  <li><a href="#the-r²d-interpretation" id="toc-the-r²d-interpretation" class="nav-link" data-scroll-target="#the-r²d-interpretation">The R²D interpretation</a></li>
+  </ul></li>
+  <li><a href="#the-pressure-and-viscosity-reads-become-increasingly-demanding" id="toc-the-pressure-and-viscosity-reads-become-increasingly-demanding" class="nav-link" data-scroll-target="#the-pressure-and-viscosity-reads-become-increasingly-demanding">119.9. The Pressure and Viscosity Reads Become Increasingly Demanding</a>
+  <ul class="collapse">
+  <li><a href="#dissipative-constraint-projection" id="toc-dissipative-constraint-projection" class="nav-link" data-scroll-target="#dissipative-constraint-projection">Dissipative constraint projection</a></li>
+  <li><a href="#retained-pressure-projection" id="toc-retained-pressure-projection" class="nav-link" data-scroll-target="#retained-pressure-projection">Retained pressure projection</a></li>
+  <li><a href="#the-relative-mechanical-scaling" id="toc-the-relative-mechanical-scaling" class="nav-link" data-scroll-target="#the-relative-mechanical-scaling">The relative mechanical scaling</a></li>
+  <li><a href="#what-these-results-mean" id="toc-what-these-results-mean" class="nav-link" data-scroll-target="#what-these-results-mean">What these results mean</a></li>
+  </ul></li>
+  <li><a href="#the-primitive-constraints-need-not-diverge" id="toc-the-primitive-constraints-need-not-diverge" class="nav-link" data-scroll-target="#the-primitive-constraints-need-not-diverge">119.10. The Primitive Constraints Need Not Diverge</a></li>
+  <li><a href="#joint-mechanical-readability-is-a-boundary-condition-on-physical-interpretation" id="toc-joint-mechanical-readability-is-a-boundary-condition-on-physical-interpretation" class="nav-link" data-scroll-target="#joint-mechanical-readability-is-a-boundary-condition-on-physical-interpretation">119.11. Joint Mechanical Readability Is a Boundary Condition on Physical Interpretation</a>
+  <ul class="collapse">
+  <li><a href="#proposition-119.3-loss-of-joint-mechanical-readability" id="toc-proposition-119.3-loss-of-joint-mechanical-readability" class="nav-link" data-scroll-target="#proposition-119.3-loss-of-joint-mechanical-readability">Proposition 119.3 — Loss of Joint Mechanical Readability</a></li>
+  </ul></li>
+  <li><a href="#recursive-replacement-does-not-destroy-conservation" id="toc-recursive-replacement-does-not-destroy-conservation" class="nav-link" data-scroll-target="#recursive-replacement-does-not-destroy-conservation">119.12. Recursive Replacement Does Not Destroy Conservation</a></li>
+  <li><a href="#the-limits-do-not-commute" id="toc-the-limits-do-not-commute" class="nav-link" data-scroll-target="#the-limits-do-not-commute">119.13. The Limits Do Not Commute</a></li>
+  <li><a href="#what-can-physically-replace-the-singular-field" id="toc-what-can-physically-replace-the-singular-field" class="nav-link" data-scroll-target="#what-can-physically-replace-the-singular-field">119.14. What Can Physically Replace the Singular Field?</a>
+  <ul class="collapse">
+  <li><a href="#the-singularity-is-not-a-new-primitive-state" id="toc-the-singularity-is-not-a-new-primitive-state" class="nav-link" data-scroll-target="#the-singularity-is-not-a-new-primitive-state">The singularity is not a new primitive state</a></li>
+  </ul></li>
+  <li><a href="#the-role-of-external-forcing" id="toc-the-role-of-external-forcing" class="nav-link" data-scroll-target="#the-role-of-external-forcing">119.15. The Role of External Forcing</a></li>
+  <li><a href="#what-has-been-established" id="toc-what-has-been-established" class="nav-link" data-scroll-target="#what-has-been-established">119.16. What Has Been Established</a>
+  <ul class="collapse">
+  <li><a href="#exact-mathematical-consequences" id="toc-exact-mathematical-consequences" class="nav-link" data-scroll-target="#exact-mathematical-consequences">Exact mathematical consequences</a></li>
+  <li><a href="#canonical-r²d-relationships" id="toc-canonical-r²d-relationships" class="nav-link" data-scroll-target="#canonical-r²d-relationships">Canonical R²D relationships</a></li>
+  <li><a href="#conditional-physical-conclusions" id="toc-conditional-physical-conclusions" class="nav-link" data-scroll-target="#conditional-physical-conclusions">Conditional physical conclusions</a></li>
+  </ul></li>
+  <li><a href="#principle-joint-mechanical-readability-precedes-continuum-singularity" id="toc-principle-joint-mechanical-readability-precedes-continuum-singularity" class="nav-link" data-scroll-target="#principle-joint-mechanical-readability-precedes-continuum-singularity">119.17. Principle — Joint Mechanical Readability Precedes Continuum Singularity</a></li>
+  <li><a href="#conclusion-the-singularity-is-in-the-read-not-the-conservation-law" id="toc-conclusion-the-singularity-is-in-the-read-not-the-conservation-law" class="nav-link" data-scroll-target="#conclusion-the-singularity-is-in-the-read-not-the-conservation-law">Conclusion — The Singularity Is in the Read, Not the Conservation Law</a></li>
+  <li><a href="#related-canon-and-addenda" id="toc-related-canon-and-addenda" class="nav-link" data-scroll-target="#related-canon-and-addenda">Related Canon and Addenda</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></h1>
+<p class="subtitle lead">Finite Material Support, Vanishing Extensive Quantities, and Boundary Replacement Before Projected Blowup</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="r²d-addendum-119-the-navierstokes-singularity-is-a-limit-of-joint-mechanical-readability" class="level1">
+<h1>R²D Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</h1>
+<p><em>Finite Material Support, Vanishing Extensive Quantities, and Boundary Replacement Before Projected Blowup</em></p>
+<p><strong>Status:</strong> Author-approved for canon publication — November 1, 2026<br>
+<strong>Canonical basis:</strong> R²D Parts I–IV, September 25, 2026 authoritative revision</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 1, <em>Recursive Replacement Precedes the Formal Navier–Stokes Singularity</em>, established that a physically realized continuum fluid field cannot retain arbitrarily fine spatial resolution when the material realization density supporting that field is finite. Applied to the September 2026 forced Navier–Stokes blowup construction, its finite-occupancy argument places the loss of dense-continuum admissibility before the formal singular time.</p>
+<p>Addenda 115–118 now permit a more explicit interpretation.</p>
+<p>A flowing fluid is an enclosing directional macrostate compatible with recurrent output. Its material inventory and directional momentum are conserved through jointly defined enclosing occurrences. Pressure and viscosity acquire physical meaning as retained normal-constraint and background-associated deformation-resistance readings. Their continuum expressions require a common mass, momentum, mechanical-reference, geometric, and clock calibration.</p>
+<p>The singular vortex approaches a limit in which its characteristic velocity diverges while the mass, characteristic momentum magnitude, and kinetic energy supported by the shrinking core vanish. Its projected velocity therefore becomes a divergent quotient of diminishing extensive physical reads. At the same time, the continuum representation demands increasingly resolved momentum fluxes, pressure gradients, and viscous stresses.</p>
+<p>The new R²D result is that these are not independent physical singularities. They are simultaneous demands imposed on one enclosing fluid representation whose finite material support is disappearing.</p>
+<p>This addendum distinguishes the projected material-support count from native multiplicity, realized macrostate occupancy, and recurrence count. It establishes a conditional joint-readability obstruction: if the physical realization has finite material-support density and its continuum field requires sufficiently large local count support, then the common fluid-mechanical projection must lose admissibility at a finite positive distance from the formal singular time.</p>
+<p>The underlying R²D conservation, constraint, and recurrence laws need not become singular. Their physical representation must instead be reclassified at an admissible count boundary.</p>
+<p>The result does not invalidate the mathematical forced Navier–Stokes construction or prove global regularity. It specifies more precisely why formal continuation of a continuum field does not establish continued physical realization of the same fluid state.</p>
+<p><strong>The Navier–Stokes singularity is therefore interpreted as a limit of joint mechanical readability: the projected field diverges after the finite support required to sustain its common material and constraint interpretation can no longer be assumed.</strong></p>
+</section>
+<section id="the-question-left-open-by-addendum-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-question-left-open-by-addendum-1">119.1. The Question Left Open by Addendum 1</h2>
+<p>Addendum 1 established a finite-count obstruction to indefinitely refining a physical continuum representation.</p>
+<p>Its central result was that a shrinking fluid core eventually contains insufficient material realization support for the dense-continuum approximation used to describe it.</p>
+<p>However, Addendum 1 did not yet identify a complete R²D transport architecture.</p>
+<p>It could show that the continuum field loses admissibility, but not precisely which boundary-defined physical relationships that field represents.</p>
+<p>Four subsequent addenda now supply the missing structure.</p>
+<p><strong>Addendum 115</strong> established the distinction between persistent directional fluid occupancy, completed subordinate closure, and recurring enclosing output.</p>
+<p><strong>Addendum 116</strong> constructed joint conservation relationships for material inventory and directional momentum. It demonstrated that momentum throughput need not produce momentum accumulation and need not coincide with material transport.</p>
+<p><strong>Addendum 117</strong> established a physical mechanical mapping in which retained normal constraint is read as pressure and background-associated deformation constraint is read as viscous resistance.</p>
+<p><strong>Addendum 118</strong> assembled these relationships into a common count-level conservation-and-constraint architecture and showed the conditions under which its physical projection recovers Navier–Stokes.</p>
+<p>The present question can therefore be stated more precisely:</p>
+<p><strong>What happens to this jointly organized fluid representation when the physical region required to resolve its velocity, momentum throughput, pressure, and viscous resistance contracts toward zero support?</strong></p>
+<p>The answer must be derived from the count architecture before assigning an ontological interpretation to the divergent continuum fields.</p>
+</section>
+<section id="the-singular-core-in-the-forced-navierstokes-construction" class="level2">
+<h2 class="anchored" data-anchor-id="the-singular-core-in-the-forced-navierstokes-construction">119.2. The Singular Core in the Forced Navier–Stokes Construction</h2>
+<p>Consider the September 2026 forced Navier–Stokes blowup construction analyzed in Addendum 1.</p>
+<p>Let</p>
+<p><span class="math display">\[
+\tau=1-t
+\]</span></p>
+<p>denote the remaining time to the formal singularity.</p>
+<p>The characteristic radial and axial scales are</p>
+<p><span class="math display">\[
+\boxed{
+\ell_r\asymp\tau^{1/2},
+\qquad
+\ell_z\asymp\tau^{1/2-h},
+\qquad
+0&lt;h&lt;\frac1{100}.
+}
+\tag{119.1}
+\]</span></p>
+<p>The core becomes increasingly anisotropic because</p>
+<p><span class="math display">\[
+\frac{\ell_r}{\ell_z}
+\asymp\tau^h\longrightarrow0.
+\]</span></p>
+<p>Its characteristic volume is</p>
+<p><span class="math display">\[
+V_{\mathrm{core}}
+\asymp\ell_r^2\ell_z.
+\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[
+\boxed{
+V_{\mathrm{core}}
+\asymp\tau^{3/2-h}
+\longrightarrow0.
+}
+\tag{119.2}
+\]</span></p>
+<p>The characteristic velocity scale behaves as</p>
+<p><span class="math display">\[
+\boxed{
+U_{\mathrm{core}}
+\asymp\tau^{-1/2-h}
+\longrightarrow\infty.
+}
+\tag{119.3}
+\]</span></p>
+<p>These are properties of the stated mathematical scaling, not independently derived R²D count identities.</p>
+<p>The central task is to determine what their physical interpretation requires.</p>
+</section>
+<section id="finite-material-support-is-not-native-multiplicity" class="level2">
+<h2 class="anchored" data-anchor-id="finite-material-support-is-not-native-multiplicity">119.3. Finite Material Support Is Not Native Multiplicity</h2>
+<p>A clarification of count types is required before proceeding.</p>
+<p>Part I distinguishes three quantities:</p>
+<p><span class="math display">\[
+W_{n,i}:
+\text{native possible multiplicity},
+\]</span></p>
+<p><span class="math display">\[
+\nu_{n,i}:
+\text{realized occurrence count},
+\]</span></p>
+<p><span class="math display">\[
+c_{n,i}:
+\text{realized macrostate occupancy}.
+\]</span></p>
+<p>Addendum 116 introduced another quantity for its fluid-mechanical construction:</p>
+<p><span class="math display">\[
+q_a:
+\text{realized material-inventory count}.
+\]</span></p>
+<p>These are not interchangeable.</p>
+<p>The native multiplicity <span class="math inline">\(W\)</span> counts possible realizations within a specified state classification.</p>
+<p>Macrostate occupancy <span class="math inline">\(c\)</span> describes the realized occupancy of that state.</p>
+<p>Occurrence count <span class="math inline">\(\nu\)</span> counts realized instances within a specified realization domain.</p>
+<p>Material inventory <span class="math inline">\(q\)</span> counts occupied material units under a particular water-inventory read.</p>
+<p>The shrinking spatial core primarily constrains the last of these through a physical density calibration.</p>
+<section id="the-projected-material-support-count" class="level3">
+<h3 class="anchored" data-anchor-id="the-projected-material-support-count">The projected material-support count</h3>
+<p>Let <span class="math inline">\(n_0\)</span> denote the finite number density of independently calibrated material-inventory units available to support the selected physical fluid description.</p>
+<p>For a projected region of volume <span class="math inline">\(V\)</span>, the corresponding continuum estimate of supporting inventory is</p>
+<p><span class="math display">\[
+\boxed{
+\bar q_{\mathrm{support}}=n_0V.
+}
+\tag{119.4}
+\]</span></p>
+<p>The bar is important.</p>
+<p>The quantity <span class="math inline">\(\bar q_{\mathrm{support}}\)</span> is the continuous physical estimate of the available inventory count.</p>
+<p>An actual realized inventory count remains integer-valued:</p>
+<p><span class="math display">\[
+q_{\mathrm{support}}\in\mathbb N_0.
+\]</span></p>
+<p>The continuum estimate can take values such as</p>
+<p><span class="math display">\[
+0.1,\quad0.01,\quad0.001.
+\]</span></p>
+<p>An individual realized material count cannot occupy those fractional values.</p>
+<p>This is where the finite-count limitation becomes physically consequential.</p>
+<p>Substituting equation (119.2),</p>
+<p><span class="math display">\[
+\boxed{
+\bar q_{\mathrm{core}}
+\asymp n_0\tau^{3/2-h}
+\longrightarrow0.
+}
+\tag{119.5}
+\]</span></p>
+<p>The projected number of material realizations supporting the core decreases toward zero.</p>
+<p>This statement does not establish that the native multiplicity <span class="math inline">\(W\)</span>, the canonical macrostate occupancy <span class="math inline">\(c\)</span>, or every completed closure recurrence count also tends to zero.</p>
+<p>Such identifications would require their own boundary-specific count mappings.</p>
+</section>
+<section id="principle-material-support-is-not-the-count-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="principle-material-support-is-not-the-count-architecture">Principle — Material Support Is Not the Count Architecture</h3>
+<p><strong>The loss of material inventory capable of supporting a projected fluid region does not imply destruction of native possibility, enclosing compatibility, or completed recurrence.</strong></p>
+<p>It limits the physical representation through which those relationships are being read.</p>
+<p>This distinction refines the interpretation introduced in Addendum 1 without changing its central finite-support result.</p>
+</section>
+</section>
+<section id="the-fluid-field-is-a-joint-mechanical-projection" class="level2">
+<h2 class="anchored" data-anchor-id="the-fluid-field-is-a-joint-mechanical-projection">119.4. The Fluid Field Is a Joint Mechanical Projection</h2>
+<p>Addenda 115–118 identify the finite count architecture underlying the selected fluid-mechanical representation.</p>
+<p>Let the enclosing fluid boundary be <span class="math inline">\(B_J\)</span>.</p>
+<p>Its readable state includes material inventory, signed directional momentum, complete interface-output records, retained constraint, background-associated constraint, and an enclosing mechanical reference.</p>
+<p>Schematically,</p>
+<p><span class="math display">\[
+J=
+\left(
+M,\mathbf q,\mathbf k,
+\mathbf z_M,\mathbf z_P,
+C_J^{out},C_J^\Phi,
+b,\gamma_{\mathrm{ref}}
+\right).
+\]</span></p>
+<p>The enclosing boundary determines which complete joint occurrences are compatible with this state.</p>
+<p>For a closed internal fluid relation, Addendum 116 gives</p>
+<p><span class="math display">\[
+\boxed{
+\Delta\mathbf q=-D\,\Delta\mathbf z_M,
+}
+\tag{119.6}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{
+\Delta\mathbf k=-D\,\Delta\mathbf z_P.
+}
+\tag{119.7}
+\]</span></p>
+<p>The interface-incidence relation satisfies</p>
+<p><span class="math display">\[
+\mathbf1^{\mathsf T}D=0,
+\]</span></p>
+<p>so the corresponding enclosing totals are conserved.</p>
+<p>The complete joint occurrence also defines its compatible subordinate closures,</p>
+<p><span class="math display">\[
+\chi^{(r)}
+\Longrightarrow
+(\mathcal C_a)_a\in\mathfrak D_{J,\chi}.
+\]</span></p>
+<p>For a representative completed closure,</p>
+<p><span class="math display">\[
+\boxed{
+\Delta A_{\mathcal C}N_{\mathcal C}
+=
+C_J\lambda_JN_\chi.
+}
+\tag{119.8}
+\]</span></p>
+<p>The complete constraint is</p>
+<p><span class="math display">\[
+\boxed{
+C_J=C_J^{out}+C_J^\Phi.
+}
+\tag{119.9}
+\]</span></p>
+<p>The Second Law separately gives</p>
+<p><span class="math display">\[
+\boxed{
+\delta_{\mathcal C}\Phi_J
+=
+\ln\frac{\nu_H}{\nu_L}.
+}
+\tag{119.10}
+\]</span></p>
+<p>These relationships do not contain primitive fluid velocity, physical pressure, viscosity, or a spatial Laplacian.</p>
+<p>Those quantities enter through subsequent physical projection.</p>
+<section id="the-common-fluid-projection" class="level3">
+<h3 class="anchored" data-anchor-id="the-common-fluid-projection">The common fluid projection</h3>
+<p>Let</p>
+<p><span class="math display">\[
+\Pi_J^{\mathrm{fluid}}
+\]</span></p>
+<p>denote the physical mapping that assigns the boundary-defined count relationships a common continuum representation,</p>
+<p><span class="math display">\[
+\boxed{
+\Pi_J^{\mathrm{fluid}}:
+J
+\longmapsto
+(\rho,\mathbf u,p,\boldsymbol\tau^\Phi,\mathbf f).
+}
+\tag{119.11}
+\]</span></p>
+<p>The map is defined only for physically admissible states of the selected fluid boundary.</p>
+<p>It requires compatible material and momentum calibrations, spatial geometry, a clock reference, and mechanical constraint reads.</p>
+<p>For an ordinary Newtonian water realization,</p>
+<p><span class="math display">\[
+\mathbf T=-p\mathbf I+\boldsymbol\tau^\Phi
+\]</span></p>
+<p>is the physical mechanical stress read.</p>
+<p>The projected conservation and momentum equations then acquire the Navier–Stokes form under the conditions established in Addendum 118.</p>
+<p>The critical point is that <strong>all these fields belong to one jointly calibrated fluid representation</strong>.</p>
+<p>They are not separately primitive mathematical objects whose physical meanings can be continued independently of the enclosing state.</p>
+</section>
+</section>
+<section id="joint-mechanical-readability-requires-finite-support" class="level2">
+<h2 class="anchored" data-anchor-id="joint-mechanical-readability-requires-finite-support">119.5. Joint Mechanical Readability Requires Finite Support</h2>
+<p>The continuum projection must resolve the core sufficiently well to represent its material and mechanical distinctions.</p>
+<p>Suppose the selected physical fluid read requires a minimum effective material-support count</p>
+<p><span class="math display">\[
+q_*\gg1
+\]</span></p>
+<p>within the region needed to resolve the core.</p>
+<p>This is a domain-specific physical admissibility threshold, not a universal constant introduced into Part I.</p>
+<p>The projected support condition is</p>
+<p><span class="math display">\[
+\boxed{
+\bar q_{\mathrm{core}}\geq q_*.
+}
+\tag{119.12}
+\]</span></p>
+<p>Let the core occupy a reference volume <span class="math inline">\(V_0\)</span> at <span class="math inline">\(\tau_0&gt;0\)</span>.</p>
+<p>Write its contracting-volume representation as</p>
+<p><span class="math display">\[
+V_{\mathrm{core}}(\tau)
+\asymp
+V_0
+\left(\frac{\tau}{\tau_0}\right)^\alpha,
+\qquad
+\alpha=\frac32-h&gt;0.
+\]</span></p>
+<p>Let</p>
+<p><span class="math display">\[
+q_0=n_0V_0
+\]</span></p>
+<p>be the initial projected material-support count.</p>
+<p>Then</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}(\tau)
+\asymp
+q_0
+\left(\frac{\tau}{\tau_0}\right)^\alpha.
+\]</span></p>
+<p>The continuum-support threshold is reached when</p>
+<p><span class="math display">\[
+q_*=
+q_0
+\left(\frac{\tau_*}{\tau_0}\right)^\alpha.
+\]</span></p>
+<p>Solving,</p>
+<p><span class="math display">\[
+\boxed{
+\tau_*=
+\tau_0
+\left(
+\frac{q_*}{q_0}
+\right)^{1/\alpha}.
+}
+\tag{119.13}
+\]</span></p>
+<p>For</p>
+<p><span class="math display">\[
+0&lt;q_*&lt;q_0&lt;\infty,
+\]</span></p>
+<p>we have</p>
+<p><span class="math display">\[
+\boxed{
+\tau_*&gt;0.
+}
+\]</span></p>
+<p>Thus the required dense material-support condition fails before the formal singular limit <span class="math inline">\(\tau=0\)</span>.</p>
+<section id="proposition-119.1-finite-material-support-obstructs-indefinite-joint-continuum-readability" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-119.1-finite-material-support-obstructs-indefinite-joint-continuum-readability">Proposition 119.1 — Finite Material Support Obstructs Indefinite Joint Continuum Readability</h3>
+<p>Consider a physical fluid realization whose required resolving volume satisfies</p>
+<p><span class="math display">\[
+V_{\mathrm{core}}(\tau)
+\asymp\tau^\alpha,
+\qquad
+\alpha&gt;0.
+\]</span></p>
+<p>Suppose the available material-inventory realization density is bounded above by a finite constant and the selected continuum fluid representation requires at least <span class="math inline">\(q_*\gg1\)</span> effective supporting realizations within each relevant resolving region.</p>
+<p>Then the same dense-continuum physical representation cannot remain admissible for all <span class="math inline">\(\tau&gt;0\)</span> approaching zero.</p>
+<p><strong>Proof.</strong></p>
+<p>For finite material-support density <span class="math inline">\(n_{\max}\)</span>, the projected supporting inventory is bounded by</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}(\tau)
+\lesssim n_{\max}V_{\mathrm{core}}(\tau).
+\]</span></p>
+<p>Because <span class="math inline">\(\alpha&gt;0\)</span>,</p>
+<p><span class="math display">\[
+V_{\mathrm{core}}(\tau)\longrightarrow0.
+\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}(\tau)\longrightarrow0.
+\]</span></p>
+<p>For every fixed positive threshold <span class="math inline">\(q_*\)</span>, there exists a finite positive <span class="math inline">\(\tau_*\)</span> below which</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}(\tau)&lt;q_*.
+\]</span></p>
+<p>Therefore the stipulated dense-material-support condition fails before the formal singular time. <span class="math inline">\(\square\)</span></p>
+</section>
+<section id="corollary-119.1-the-common-mechanical-projection-requires-reclassification" class="level3">
+<h3 class="anchored" data-anchor-id="corollary-119.1-the-common-mechanical-projection-requires-reclassification">Corollary 119.1 — The Common Mechanical Projection Requires Reclassification</h3>
+<p>If the selected Navier–Stokes physical projection requires the same dense material support to maintain its common density, velocity, pressure, and viscous-stress read, then failure of the material-support condition invalidates continued use of that same physical projection without an additional admissibility argument.</p>
+<p>The corollary does not require every individual physical coordinate to fail at the same threshold.</p>
+<p>One necessary condition for their <strong>joint</strong> validity has failed.</p>
+<p>Nor does it prove that the enclosing compatibility fiber becomes empty.</p>
+<p>It establishes that a continued physical description must be justified through an admissible count-domain representation rather than assumed to retain the prior one.</p>
+</section>
+</section>
+<section id="the-singular-velocity-is-a-quotient-of-vanishing-extensive-reads" class="level2">
+<h2 class="anchored" data-anchor-id="the-singular-velocity-is-a-quotient-of-vanishing-extensive-reads">119.6. The Singular Velocity Is a Quotient of Vanishing Extensive Reads</h2>
+<p>Addendum 116 provides a more explicit interpretation of the divergent velocity.</p>
+<p>In a selected low-speed physical calibration,</p>
+<p><span class="math display">\[
+\boxed{
+\mathbf u=\frac{\mathbf P^{phys}}{M}.
+}
+\tag{119.14}
+\]</span></p>
+<p>Here <span class="math inline">\(M\)</span> is the calibrated material mass and <span class="math inline">\(\mathbf P^{phys}\)</span> is the calibrated momentum of the same physical water state.</p>
+<p>For a characteristic core estimate, define the momentum scale</p>
+<p><span class="math display">\[
+P_{\mathrm{core}}^{scale}
+\sim
+M_{\mathrm{core}}U_{\mathrm{core}}.
+\]</span></p>
+<p>This is a characteristic magnitude, not necessarily the signed net momentum of a swirling vortex, which can cancel across the core.</p>
+<p>At fixed projected physical density,</p>
+<p><span class="math display">\[
+M_{\mathrm{core}}
+\asymp
+\rho V_{\mathrm{core}}
+\asymp\tau^{3/2-h}.
+\]</span></p>
+<p>Using equation (119.3),</p>
+<p><span class="math display">\[
+P_{\mathrm{core}}^{scale}
+\asymp
+\tau^{3/2-h}\tau^{-1/2-h}.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+P_{\mathrm{core}}^{scale}
+\asymp\tau^{1-2h}
+\longrightarrow0.
+}
+\tag{119.15}
+\]</span></p>
+<p>The characteristic kinetic-energy scale is</p>
+<p><span class="math display">\[
+E_{\mathrm{core}}
+\sim
+M_{\mathrm{core}}U_{\mathrm{core}}^2.
+\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[
+\boxed{
+E_{\mathrm{core}}
+\asymp
+\tau^{1/2-3h}
+\longrightarrow0.
+}
+\tag{119.16}
+\]</span></p>
+<p>Yet</p>
+<p><span class="math display">\[
+\frac{P_{\mathrm{core}}^{scale}}{M_{\mathrm{core}}}
+\asymp
+\frac{\tau^{1-2h}}{\tau^{3/2-h}}
+=
+\tau^{-1/2-h}.
+\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[
+\boxed{
+U_{\mathrm{core}}\longrightarrow\infty
+}
+\]</span></p>
+<p>while the characteristic mass, momentum, and kinetic-energy scales all vanish.</p>
+<section id="proposition-119.2-divergent-intensive-velocity-need-not-imply-divergent-extensive-realization" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-119.2-divergent-intensive-velocity-need-not-imply-divergent-extensive-realization">Proposition 119.2 — Divergent Intensive Velocity Need Not Imply Divergent Extensive Realization</h3>
+<p>Under the characteristic core scalings (119.1)–(119.3), the projected velocity diverges while the physical mass, characteristic momentum magnitude, and kinetic-energy scale of the resolved core tend to zero.</p>
+<p><strong>Proof.</strong></p>
+<p>The corresponding exponents are</p>
+<p><span class="math display">\[
+\frac32-h,\qquad
+1-2h,\qquad
+\frac12-3h.
+\]</span></p>
+<p>All are positive for <span class="math inline">\(0&lt;h&lt;1/100\)</span>.</p>
+<p>The extensive scales therefore vanish as <span class="math inline">\(\tau\to0\)</span>, while the velocity exponent <span class="math inline">\(-1/2-h\)</span> is negative. <span class="math inline">\(\square\)</span></p>
+<p>This result strengthens the central observation of Addendum 1.</p>
+<p>The mathematical divergence is a divergence of the physical quotient used to represent velocity.</p>
+<p>It does not demonstrate infinite accumulation of material or a primitive R²D count.</p>
+</section>
+</section>
+<section id="the-finite-directional-count-model-exposes-the-projection-limit" class="level2">
+<h2 class="anchored" data-anchor-id="the-finite-directional-count-model-exposes-the-projection-limit">119.7. The Finite Directional-Count Model Exposes the Projection Limit</h2>
+<p>Addendum 116 constructed a minimal binary directional classification,</p>
+<p><span class="math display">\[
+q=a_++a_-,
+\]</span></p>
+<p><span class="math display">\[
+k=a_+-a_-.
+\]</span></p>
+<p>Because <span class="math inline">\(a_+\)</span> and <span class="math inline">\(a_-\)</span> are nonnegative integers,</p>
+<p><span class="math display">\[
+\boxed{
+|k|\leq q.
+}
+\tag{119.17}
+\]</span></p>
+<p>Under one fixed low-speed physical calibration,</p>
+<p><span class="math display">\[
+M=m_*q,
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+P=p_*k.
+\]</span></p>
+<p>For <span class="math inline">\(q&gt;0\)</span>,</p>
+<p><span class="math display">\[
+u=\frac{p_*}{m_*}\frac{k}{q}.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+|u|\leq\frac{p_*}{m_*}.
+}
+\tag{119.18}
+\]</span></p>
+<p>Within that finite physical realization, the projected velocity remains bounded.</p>
+<p>If</p>
+<p><span class="math display">\[
+q=0,
+\]</span></p>
+<p>the momentum-to-mass velocity quotient is undefined.</p>
+<p>There is no admissible state in this fixed binary inventory-and-orientation classification having a fractional material inventory approaching zero and an independently unbounded momentum-to-mass ratio.</p>
+<section id="what-this-establishes" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-establishes">What this establishes</h3>
+<p>The finite binary model is not a universal relativistic or R²D speed-limit theorem.</p>
+<p>More general physical momentum classifications may assign larger directional momentum reads, and their calibrations need not preserve the same fixed <span class="math inline">\(p_*/m_*\)</span>.</p>
+<p>The result is nevertheless revealing.</p>
+<p><strong>The divergent continuum velocity cannot be represented indefinitely by this unchanged finite directional-count model with a fixed mechanical calibration.</strong></p>
+<p>A physical continuation must change the admissible classification, its calibration, or the operative boundary.</p>
+<p>The singularity therefore does not show that the primitive count relation itself becomes infinite.</p>
+<p>It shows that the projected continuum velocity cannot simply be assumed to retain its original count meaning all the way to the singular limit.</p>
+</section>
+</section>
+<section id="momentum-throughput-may-behave-differently-from-stored-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="momentum-throughput-may-behave-differently-from-stored-momentum">119.8. Momentum Throughput May Behave Differently from Stored Momentum</h2>
+<p>Addendum 116 established that momentum accumulation and momentum throughput are different count relationships.</p>
+<p>A region can preserve its directional momentum while transmitting nonzero momentum through its interfaces.</p>
+<p>Conversely, the instantaneous momentum-flux rate through a shrinking physical face can become large even while the total momentum stored in its shrinking volume tends to zero.</p>
+<p>The singular core provides a possible illustration of this distinction.</p>
+<p>Consider an axial physical face with characteristic area</p>
+<p><span class="math display">\[
+\mathcal A_z\asymp\ell_r^2\asymp\tau.
+\]</span></p>
+<p>Suppose the relevant axial velocity on that face remains comparable, in magnitude, to the characteristic core velocity,</p>
+<p><span class="math display">\[
+U_z\asymp\tau^{-1/2-h}.
+\]</span></p>
+<p>Under this additional profile assumption, its characteristic material mass-flux magnitude behaves as</p>
+<p><span class="math display">\[
+\dot M_z^{scale}
+\sim
+\rho\mathcal A_zU_z.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{
+\dot M_z^{scale}
+\asymp\tau^{1/2-h}
+\longrightarrow0.
+}
+\tag{119.19}
+\]</span></p>
+<p>But the corresponding advective momentum-flux magnitude behaves as</p>
+<p><span class="math display">\[
+\mathcal J_{P,z}^{scale}
+\sim
+\rho\mathcal A_zU_z^2.
+\]</span></p>
+<p>Hence</p>
+<p><span class="math display">\[
+\boxed{
+\mathcal J_{P,z}^{scale}
+\asymp\tau^{-2h}.
+}
+\tag{119.20}
+\]</span></p>
+<p>For <span class="math inline">\(h&gt;0\)</span>, this characteristic rate diverges.</p>
+<p>This is a conditional scaling illustration. It does not prove that the actual signed or integrated axial momentum flux of the OpenAI solution obeys equation (119.20); that requires its full velocity profile and the corresponding surface integration.</p>
+<p>Nevertheless, the mathematical distinction is important.</p>
+<p>The characteristic stored momentum can tend to zero while a characteristic instantaneous momentum-throughput rate becomes large.</p>
+<p>For <span class="math inline">\(2h&lt;1\)</span>, even the illustrative divergent rate is integrable over a shrinking time interval:</p>
+<p><span class="math display">\[
+\int_0^\epsilon\tau^{-2h}\,d\tau
+=
+\frac{\epsilon^{1-2h}}{1-2h}
+\longrightarrow0.
+\]</span></p>
+<p>A divergent instantaneous rate therefore need not imply an infinite accumulated transfer.</p>
+<section id="the-r²d-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="the-r²d-interpretation">The R²D interpretation</h3>
+<p>The finite count architecture separates</p>
+<p><span class="math display">\[
+\Delta\mathbf k:
+\text{regional momentum accumulation},
+\]</span></p>
+<p>from</p>
+<p><span class="math display">\[
+\Delta\mathbf z_P:
+\text{completed momentum throughput}.
+\]</span></p>
+<p>Their physical readings are related, but not identical.</p>
+<p>The singular continuum field can assign sharply different scaling behavior to these quantities.</p>
+<p>That does not require the enclosing conserved total to diverge.</p>
+<p>It requires that the physical momentum-throughput read remain meaningful within the same shrinking boundary.</p>
+<p>That is precisely the joint-readability condition being tested.</p>
+</section>
+</section>
+<section id="the-pressure-and-viscosity-reads-become-increasingly-demanding" class="level2">
+<h2 class="anchored" data-anchor-id="the-pressure-and-viscosity-reads-become-increasingly-demanding">119.9. The Pressure and Viscosity Reads Become Increasingly Demanding</h2>
+<p>Addendum 117 identified two mechanical constraint readings.</p>
+<p>Retained normal constraint acquires the physical pressure read.</p>
+<p>Background-associated deformation constraint acquires the physical viscous-resistance read.</p>
+<p>Their continuum expressions require spatial differences and deformation-rate measurements that remain physically meaningful at the resolved scale.</p>
+<p>For the singular core,</p>
+<p><span class="math display">\[
+\ell_r\asymp\tau^{1/2},
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+U\asymp\tau^{-1/2-h}.
+\]</span></p>
+<p>If the leading velocity profile changes by a characteristic amount <span class="math inline">\(U\)</span> over the radial scale <span class="math inline">\(\ell_r\)</span>, the corresponding deformation-rate scale is</p>
+<p><span class="math display">\[
+g\sim\frac{U}{\ell_r}.
+\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[
+\boxed{
+g\asymp\tau^{-1-h}.
+}
+\tag{119.21}
+\]</span></p>
+<section id="dissipative-constraint-projection" class="level3">
+<h3 class="anchored" data-anchor-id="dissipative-constraint-projection">Dissipative constraint projection</h3>
+<p>For a constant-viscosity Newtonian physical mapping,</p>
+<p><span class="math display">\[
+\tau_{\mathrm{visc}}\sim\mu g.
+\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[
+\boxed{
+\tau_{\mathrm{visc}}^{scale}
+\asymp\mu\tau^{-1-h}.
+}
+\tag{119.22}
+\]</span></p>
+<p>A further radial spatial derivative gives the characteristic viscous force-density scale</p>
+<p><span class="math display">\[
+\boxed{
+|\nabla\cdot\boldsymbol\tau^\Phi|_{\mathrm{scale}}
+\sim
+\mu\frac{U}{\ell_r^2}
+\asymp
+\mu\tau^{-3/2-h}.
+}
+\tag{119.23}
+\]</span></p>
+<p>These are conditional physical scaling relations, not primitive R²D identities.</p>
+</section>
+<section id="retained-pressure-projection" class="level3">
+<h3 class="anchored" data-anchor-id="retained-pressure-projection">Retained pressure projection</h3>
+<p>If the characteristic pressure difference is of dynamic-pressure order,</p>
+<p><span class="math display">\[
+\Delta p^{scale}\sim\rho U^2,
+\]</span></p>
+<p>then</p>
+<p><span class="math display">\[
+\Delta p^{scale}
+\asymp
+\rho\tau^{-1-2h}.
+\]</span></p>
+<p>Over the radial scale,</p>
+<p><span class="math display">\[
+\boxed{
+|\nabla p|_{\mathrm{scale}}
+\sim
+\frac{\rho U^2}{\ell_r}
+\asymp
+\rho\tau^{-3/2-2h}.
+}
+\tag{119.24}
+\]</span></p>
+<p>Again, the estimate requires the stated physical pressure-scaling assumption. It is not an independently verified pointwise pressure bound for every component of the prescribed blowup solution.</p>
+</section>
+<section id="the-relative-mechanical-scaling" class="level3">
+<h3 class="anchored" data-anchor-id="the-relative-mechanical-scaling">The relative mechanical scaling</h3>
+<p>The ratio of characteristic advective acceleration to characteristic viscous acceleration is</p>
+<p><span class="math display">\[
+\frac{U^2/\ell_r}
+{\nu_{\mathrm{kin}}U/\ell_r^2}
+=
+\frac{U\ell_r}{\nu_{\mathrm{kin}}}.
+\]</span></p>
+<p>For fixed physical kinematic viscosity,</p>
+<p><span class="math display">\[
+\boxed{
+\frac{U\ell_r}{\nu_{\mathrm{kin}}}
+\asymp\tau^{-h}
+\longrightarrow\infty.
+}
+\tag{119.25}
+\]</span></p>
+<p>This reproduces the characteristic growing Reynolds-number ratio identified in Addendum 1.</p>
+<p>The ratio is a physical projection involving velocity, length, and viscosity.</p>
+<p>It must not be identified directly with a primitive R²D closure recurrence ratio without a separate derivation.</p>
+</section>
+<section id="what-these-results-mean" class="level3">
+<h3 class="anchored" data-anchor-id="what-these-results-mean">What these results mean</h3>
+<p>The collapsing continuum representation demands increasingly large physical deformation-rate and mechanical-gradient readings.</p>
+<p>But it does so within an increasingly small material support.</p>
+<p>The R²D question is not merely whether the formal derivatives diverge.</p>
+<p>It is whether the same enclosing water boundary can continue to assign jointly compatible physical meaning to those derivatives.</p>
+<p>That requirement involves retained pressure constraint, dissipative deformation constraint, directional momentum output, and the physical material state supporting them.</p>
+</section>
+</section>
+<section id="the-primitive-constraints-need-not-diverge" class="level2">
+<h2 class="anchored" data-anchor-id="the-primitive-constraints-need-not-diverge">119.10. The Primitive Constraints Need Not Diverge</h2>
+<p>The preceding physical field scalings do not establish</p>
+<p><span class="math display">\[
+C_J^{out}\longrightarrow\infty,
+\]</span></p>
+<p>or</p>
+<p><span class="math display">\[
+C_J^\Phi\longrightarrow\infty.
+\]</span></p>
+<p>The physical pressure and viscous-stress calibrations depend on the energetic and geometric reads of the enclosing boundary.</p>
+<p>For example, Addendum 117 identified the candidate physical shear calibration</p>
+<p><span class="math display">\[
+\tau_{\mathrm{visc}}
+=
+\frac{\mathcal E_s}{\mathcal A_sa_s}
+C_{J,s}^\Phi
+\]</span></p>
+<p>within the specified positive-shear mechanical mode.</p>
+<p>A divergence of the physical stress may arise through the physical calibration, the admissible deformation response, or the selected spatial projection.</p>
+<p>It does not uniquely imply divergence of the dimensionless background-associated constraint.</p>
+<p>Similarly, the pressure-gradient field is a spatial difference of calibrated retained normal-constraint readings.</p>
+<p>It does not establish that the primitive retained constraint itself becomes infinite.</p>
+<p>The recurrence law remains</p>
+<p><span class="math display">\[
+\boxed{
+\Delta A_{\mathcal C}N_{\mathcal C}
+=
+C_J\lambda_JN_\chi.
+}
+\]</span></p>
+<p>This is a count relationship.</p>
+<p>It contains no primitive spatial Laplacian and no primitive velocity gradient.</p>
+<p>Consequently, divergence of a projected field derivative does not, by itself, imply divergence of</p>
+<p><span class="math display">\[
+\Delta A_{\mathcal C},
+\quad
+C_J,
+\quad
+\lambda_J,
+\quad
+N_{\mathcal C},
+\quad
+N_\chi.
+\]</span></p>
+<p>Nor does it imply that their identities remain unchanged through recursive boundary replacement.</p>
+<p>The proper conclusion is narrower and more consequential:</p>
+<p><strong>The same physical field calibration cannot be extrapolated beyond its admissible count domain merely because the projected differential equation continues to assign it values.</strong></p>
+</section>
+<section id="joint-mechanical-readability-is-a-boundary-condition-on-physical-interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="joint-mechanical-readability-is-a-boundary-condition-on-physical-interpretation">119.11. Joint Mechanical Readability Is a Boundary Condition on Physical Interpretation</h2>
+<p>Define the admissible domain of the physical fluid projection as</p>
+<p><span class="math display">\[
+\mathfrak A_J^{\mathrm{fluid}}.
+\]</span></p>
+<p>It contains the enclosing count states for which the selected physical mass, momentum, pressure, viscosity, geometry, and clock readings can be consistently assigned.</p>
+<p>The projection is</p>
+<p><span class="math display">\[
+\boxed{
+\Pi_J^{\mathrm{fluid}}:
+\mathfrak A_J^{\mathrm{fluid}}
+\longrightarrow
+\mathcal F_J^{\mathrm{fluid}},
+}
+\tag{119.26}
+\]</span></p>
+<p>where <span class="math inline">\(\mathcal F_J^{\mathrm{fluid}}\)</span> denotes the corresponding family of physically readable continuum fields.</p>
+<p>A state belongs to <span class="math inline">\(\mathfrak A_J^{\mathrm{fluid}}\)</span> only if its complete compatibility and physical calibration support the claimed read.</p>
+<p>The dense material-support condition is one necessary admissibility condition for the selected continuum realization.</p>
+<p>The existence of an appropriate compatible enclosing occurrence is another.</p>
+<p>The continued validity of the proposed pressure, viscous, and mechanical-reference calibrations is another.</p>
+<p>These conditions need not fail simultaneously.</p>
+<p>The physical fluid projection loses its original admissibility as soon as a necessary condition fails.</p>
+<section id="proposition-119.3-loss-of-joint-mechanical-readability" class="level3">
+<h3 class="anchored" data-anchor-id="proposition-119.3-loss-of-joint-mechanical-readability">Proposition 119.3 — Loss of Joint Mechanical Readability</h3>
+<p>Let <span class="math inline">\(\Pi_J^{\mathrm{fluid}}\)</span> be a physical continuum projection requiring sufficiently large local material support to assign jointly valid mass, velocity, pressure, and viscous-stress readings.</p>
+<p>If the resolving volume of a proposed singular field shrinks to zero at finite material realization density, then the original joint continuum projection cannot remain admissible all the way to that zero-volume limit.</p>
+<p><strong>Proof.</strong></p>
+<p>By Proposition 119.1, the required dense material-support condition fails at a finite positive distance from the formal limit.</p>
+<p>Because that condition is necessary for membership in the domain of the specified joint continuum projection, the projection cannot remain physically admissible beyond the point at which the condition fails.</p>
+<p>The failure does not establish which alternative count domain becomes operative. It establishes that continued use of the same projection requires an additional, independently admissible representation. <span class="math inline">\(\square\)</span></p>
+<p>This proposition strengthens Addendum 1 by identifying the continuum description as a <strong>joint mechanical read</strong>, rather than only a density or occupancy approximation.</p>
+</section>
+</section>
+<section id="recursive-replacement-does-not-destroy-conservation" class="level2">
+<h2 class="anchored" data-anchor-id="recursive-replacement-does-not-destroy-conservation">119.12. Recursive Replacement Does Not Destroy Conservation</h2>
+<p>A change of count boundary changes which states and occurrences are readable.</p>
+<p>It does not automatically violate the conservation relationships established at the enclosing physical boundary.</p>
+<p>For example, Addendum 116 gives</p>
+<p><span class="math display">\[
+\Delta\mathbf q=-D\,\Delta\mathbf z_M
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\Delta\mathbf k=-D\,\Delta\mathbf z_P.
+\]</span></p>
+<p>These are exact for the stipulated compatible finite count domain.</p>
+<p>If the physical continuum representation becomes inadmissible, the identities do not themselves become infinite.</p>
+<p>Rather, one must determine which inventory distinctions, directional-momentum distinctions, and complete occurrence classes remain readable at the replacement boundary.</p>
+<p>The successor representation may use different regional classifications and different physical mechanical coordinates.</p>
+<p>Its continued conservation properties must be evaluated within the corresponding enclosing compatibility relation.</p>
+<p>Likewise, the R²D recurrence law remains available for any newly specified compatible complete local closure:</p>
+<p><span class="math display">\[
+\Delta A_{\mathcal C'}N_{\mathcal C'}
+=
+C_{J'}\lambda_{J'}N_{\chi'}.
+\]</span></p>
+<p>But no identity requires</p>
+<p><span class="math display">\[
+C_{J'}=C_J,
+\]</span></p>
+<p>or</p>
+<p><span class="math display">\[
+\lambda_{J'}=\lambda_J,
+\]</span></p>
+<p>or</p>
+<p><span class="math display">\[
+\frac{N_{\chi'}}{N_{\mathcal C'}}
+=
+\frac{N_\chi}{N_{\mathcal C}}.
+\]</span></p>
+<p>The count domain has changed.</p>
+<p>Recursive replacement is therefore not a microscopic mechanism that destroys the fluid’s conserved material.</p>
+<p>It is the change in state classification required when the former boundary’s physical distinctions cease to be adequately readable.</p>
+</section>
+<section id="the-limits-do-not-commute" class="level2">
+<h2 class="anchored" data-anchor-id="the-limits-do-not-commute">119.13. The Limits Do Not Commute</h2>
+<p>The distinction can be expressed through two different limiting procedures.</p>
+<p>Let <span class="math inline">\(v_*&gt;0\)</span> be the finite physical volume associated with one supporting material-inventory realization under the selected calibration.</p>
+<p>The projected supporting inventory is</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}(\tau)
+=
+\frac{V_{\mathrm{core}}(\tau)}{v_*}.
+\]</span></p>
+<p>With</p>
+<p><span class="math display">\[
+V_{\mathrm{core}}(\tau)\asymp\tau^\alpha,
+\qquad\alpha&gt;0,
+\]</span></p>
+<p>we obtain</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}(\tau)
+\asymp
+\frac{\tau^\alpha}{v_*}.
+\]</span></p>
+<p>For fixed positive <span class="math inline">\(\tau\)</span>, the idealized continuum limit</p>
+<p><span class="math display">\[
+v_*\longrightarrow0
+\]</span></p>
+<p>gives</p>
+<p><span class="math display">\[
+\bar q_{\mathrm{core}}\longrightarrow\infty.
+\]</span></p>
+<p>At every nonzero resolving volume, the mathematical idealization supplies arbitrarily large count support.</p>
+<p>If this limit is imposed first, the continuum can subsequently be continued toward <span class="math inline">\(\tau=0\)</span> while formally retaining an unlimited supporting count.</p>
+<p>By contrast, for every fixed finite <span class="math inline">\(v_*&gt;0\)</span>,</p>
+<p><span class="math display">\[
+\lim_{\tau\to0^+}\bar q_{\mathrm{core}}(\tau)=0.
+\]</span></p>
+<p>Thus the two orders of limits yield different idealized extended-real count results:</p>
+<p><span class="math display">\[
+\boxed{
+\lim_{\tau\to0^+}
+\left[
+\lim_{v_*\to0^+}
+\bar q_{\mathrm{core}}(\tau)
+\right]
+=\infty,
+}
+\]</span></p>
+<p>whereas</p>
+<p><span class="math display">\[
+\boxed{
+\lim_{v_*\to0^+}
+\left[
+\lim_{\tau\to0^+}
+\bar q_{\mathrm{core}}(\tau)
+\right]
+=0.
+}
+\tag{119.27}
+\]</span></p>
+<p>These are schematic iterated limits of the projected supporting count, not actual limits through fractional realized inventory states.</p>
+<p>They expose the distinction between two assumptions:</p>
+<p><strong>Continuum first:</strong> arbitrarily fine physical distinction retains arbitrarily large supporting count.</p>
+<p><strong>Finite realization first:</strong> shrinking physical support eventually requires the count boundary to be reconsidered.</p>
+<p>This is the same noncommuting-limit structure identified in Addendum 1.</p>
+<p>The present development specifies that the continued continuum distinction includes the entire mechanical mass–momentum–constraint representation, not only the density field.</p>
+</section>
+<section id="what-can-physically-replace-the-singular-field" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-physically-replace-the-singular-field">119.14. What Can Physically Replace the Singular Field?</h2>
+<p>The present architecture identifies the need for reclassification without selecting a unique successor physical state.</p>
+<p>The replacement boundary may distinguish structural relations that the former continuum fluid field had replaced or averaged.</p>
+<p>However, the count law alone does not determine whether a particular water system undergoes phase change, mechanical reorganization, loss of local equilibrium, altered constraint response, or some other physical transition.</p>
+<p>Those alternatives depend on the enclosing compatibility relation.</p>
+<p>A fluid’s retained pressure constraint may become incompatible with its original material state.</p>
+<p>Its dissipative constraint may cease to possess the same Newtonian deformation read.</p>
+<p>A prescribed external force may fail to correspond to a realizable source under the new physical boundary.</p>
+<p>Or the required velocity-gradient field may cease to be a meaningful common read because too few effective material realizations support the spatial distinction.</p>
+<p>The first demonstrated obstruction in Addendum 1 is loss of dense material support.</p>
+<p>The four new fluid-mechanics addenda show how to classify the additional mechanical requirements.</p>
+<p>They do not establish that every one of those requirements fails at the same scale, or that the material support obstruction is always the first physical failure.</p>
+<section id="the-singularity-is-not-a-new-primitive-state" class="level3">
+<h3 class="anchored" data-anchor-id="the-singularity-is-not-a-new-primitive-state">The singularity is not a new primitive state</h3>
+<p>It would be incorrect to identify</p>
+<p><span class="math display">\[
+|\mathbf u|\longrightarrow\infty
+\]</span></p>
+<p>with a primitive R²D state called infinite velocity.</p>
+<p>It would also be incorrect to infer</p>
+<p><span class="math display">\[
+C_J^\Phi\longrightarrow\infty
+\]</span></p>
+<p>or destruction of the conserved water inventory without independently establishing those count relationships.</p>
+<p>The singularity is a mathematical property of the projected fluid representation.</p>
+<p>A physically continued system must be classified through whichever enclosing state and compatibility relations remain admissible.</p>
+<p>R²D does not require a singular primitive state to explain the breakdown of a physical projection.</p>
+</section>
+</section>
+<section id="the-role-of-external-forcing" class="level2">
+<h2 class="anchored" data-anchor-id="the-role-of-external-forcing">119.15. The Role of External Forcing</h2>
+<p>The forced Navier–Stokes construction specifies a velocity and pressure field together with a smooth external forcing function that satisfies the differential equation.</p>
+<p>In kinematic units, the forcing can be expressed as the residual</p>
+<p><span class="math display">\[
+\mathbf f_{\mathrm{res}}
+=
+\frac{\partial\mathbf u}{\partial t}
++
+(\mathbf u\cdot\nabla)\mathbf u
+-
+\nu_{\mathrm{kin}}\nabla^2\mathbf u
++
+\nabla p.
+\]</span></p>
+<p>This is a valid mathematical way to define a forcing field when the required regularity and other hypotheses are satisfied.</p>
+<p>It does not, by itself, identify a physical apparatus or enclosing source that supplies the prescribed force.</p>
+<p>Addendum 118 provides the relevant R²D distinction.</p>
+<p>For a physical realization, forcing must belong to a complete enclosing compatibility relation that jointly admits the fluid’s material inventory, directional momentum, retained pressure constraint, dissipative viscosity, and appropriate energetic and background reads.</p>
+<p>The force cannot be promoted from a differential residual into an independently established physical source merely because the differential identity holds.</p>
+<p>This is separate from whether the mathematical forced solution exists.</p>
+<p>It is also separate from the finite material-support obstruction.</p>
+<p>The physical source may become inadmissible under one mechanical condition while the continuum material support remains sufficient, or the material representation may become inadmissible even when the mathematical residual remains smooth.</p>
+<p>The two questions should not be collapsed.</p>
+</section>
+<section id="what-has-been-established" class="level2">
+<h2 class="anchored" data-anchor-id="what-has-been-established">119.16. What Has Been Established</h2>
+<p>The results of this addendum fall into three categories.</p>
+<section id="exact-mathematical-consequences" class="level3">
+<h3 class="anchored" data-anchor-id="exact-mathematical-consequences">Exact mathematical consequences</h3>
+<p>Under the given scaling and physical inventory-density assumptions:</p>
+<ol type="1">
+<li>The characteristic singular core volume tends to zero.</li>
+<li>The projected available material-support count tends to zero at finite support density.</li>
+<li>Every fixed large-support threshold is crossed at a positive distance from the formal singular time.</li>
+<li>The characteristic core mass, momentum magnitude, and kinetic-energy scale tend to zero while the characteristic velocity diverges.</li>
+<li>The corresponding continuum momentum-to-mass quotient becomes unbounded despite vanishing extensive support.</li>
+<li>Finite count conservation identities do not require the corresponding primitive quantities to diverge.</li>
+</ol>
+<p>The first five statements concern the specified singular scaling and its physical material calibration.</p>
+<p>The sixth follows from the independent finite count architecture of Addenda 115–118.</p>
+</section>
+<section id="canonical-r²d-relationships" class="level3">
+<h3 class="anchored" data-anchor-id="canonical-r²d-relationships">Canonical R²D relationships</h3>
+<p>The enclosing boundary defines the compatible fluid state and its complete joint occurrences.</p>
+<p>Subordinate closures realize the enclosing occurrence rather than generating it.</p>
+<p>Native multiplicity, macrostate occupancy, material inventory, and recurrence remain distinct count types.</p>
+<p>The recurrence-weighted R²D law relates complete local closure asymmetry to enclosing constrained occurrence recurrence.</p>
+<p>The Second Law separately relates opposed-leg occurrence nonreciprocity to enclosing nondirectional background.</p>
+<p>These relations do not require singular spatial derivatives.</p>
+</section>
+<section id="conditional-physical-conclusions" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-physical-conclusions">Conditional physical conclusions</h3>
+<p>Under finite material-support density and a continuum projection requiring large local support, the original physical fluid-field read must lose admissibility before its formal zero-volume limit.</p>
+<p>The pressure, viscosity, and momentum-throughput classifications introduced in Addenda 115–118 identify the mechanical relationships that must be reconsidered when that physical projection is no longer supported.</p>
+<p>The successor count boundary, its mechanical compatibility, and its constitutive readings are not uniquely determined by the argument.</p>
+<p>This addendum does not prove that the mathematical forced Navier–Stokes construction is invalid.</p>
+<p>It does not prove global regularity.</p>
+<p>It does not identify the singularity with a quantum horizon, a particular phase transition, or a universal numerical occupancy threshold.</p>
+<p>It also does not claim that the full Navier–Stokes constitutive response has been independently derived from R²D’s primitive count axioms.</p>
+<p>The result is a more explicit conditional interpretation of the physical readability limit.</p>
+</section>
+</section>
+<section id="principle-joint-mechanical-readability-precedes-continuum-singularity" class="level2">
+<h2 class="anchored" data-anchor-id="principle-joint-mechanical-readability-precedes-continuum-singularity">119.17. Principle — Joint Mechanical Readability Precedes Continuum Singularity</h2>
+<p><strong>A continuum fluid field is a physical projection of an enclosing compatibility relation that jointly defines material inventory, directional momentum throughput, retained normal constraint, dissipative deformation constraint, and compatible completed recurrence.</strong></p>
+<p><strong>When the physical region required to resolve a proposed singular field contracts beyond the finite support of that joint representation, the same continuum variables cannot be assumed to retain their former boundary-defined meaning.</strong></p>
+<p>The underlying conservation and recurrence relations need not become singular.</p>
+<p>The continuing physical system must instead be represented through an admissible count boundary and the compatibility relations that boundary defines.</p>
+<p>Formally,</p>
+<p><span class="math display">\[
+\boxed{
+\begin{gathered}
+\text{Shrinking projected fluid support}\\
+\Downarrow\\
+\text{Loss of dense material-count readability}\\
+\Downarrow\\
+\text{Failure of a necessary condition for}\\
+\text{the common continuum mechanical projection}\\
+\Downarrow\\
+\text{Required count-boundary reclassification}\\
+\text{for continued physical description}.
+\end{gathered}
+}
+\tag{119.28}
+\]</span></p>
+<p>The formal Navier–Stokes field may continue toward its mathematical singular limit.</p>
+<p>The same physical count-domain interpretation cannot automatically accompany that continuation.</p>
+</section>
+<section id="conclusion-the-singularity-is-in-the-read-not-the-conservation-law" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-the-singularity-is-in-the-read-not-the-conservation-law">Conclusion — The Singularity Is in the Read, Not the Conservation Law</h2>
+<p>Addendum 1 established that finite material realization density obstructs indefinite continuation of a shrinking fluid-core continuum description.</p>
+<p>Addenda 115–118 identify what that description jointly represents.</p>
+<p>The fluid’s enclosing state defines its directional organization.</p>
+<p>Its compatibility relation defines conserved material and momentum output.</p>
+<p>Its retained constraint acquires the physical read of pressure.</p>
+<p>Its background-associated constraint acquires the physical read of viscous resistance.</p>
+<p>Its completed subordinate closures realize the enclosing relation under the canonical recurrence law.</p>
+<p>The formal Navier–Stokes singularity drives the physical field representation toward a limit in which the characteristic velocity diverges while its material and energetic support vanishes.</p>
+<p>The new result is that this divergence is not simply an isolated failure of the density approximation.</p>
+<p>It is the limit of the common mechanical representation through which material inventory, momentum, pressure, viscosity, and external forcing are jointly read.</p>
+<p>The finite count architecture need not diverge.</p>
+<p>Conservation need not fail.</p>
+<p>The enclosing compatibility relation need not be destroyed.</p>
+<p>What cannot be assumed to survive is the same physical continuum interpretation of the shrinking region.</p>
+<p><strong>The Navier–Stokes singularity is a limit of joint mechanical readability.</strong></p>
+<p>The mathematical field approaches an unbounded velocity as its resolved physical material support disappears. Before that formal limit, a finite physical realization must cease to be represented by the original dense-continuum count domain.</p>
+<p>The continuing physical system requires a boundary-defined description appropriate to the distinctions that remain readable.</p>
+<p><strong>R²D therefore places recursive replacement before the physical interpretation of the singularity—not because the mathematics must stop, but because the count meaning of its projected variables cannot be presumed to continue unchanged.</strong></p>
+<hr>
+</section>
+<section id="related-canon-and-addenda" class="level2">
+<h2 class="anchored" data-anchor-id="related-canon-and-addenda">Related Canon and Addenda</h2>
+<ul>
+<li><strong>R²D Part I —</strong> <em>A Theory of Dimensionless Recursive Counting</em>, particularly §§3.2, 3.5–3.10.</li>
+<li><strong>R²D Part II —</strong> <em>Joint Readability of Recurrence and Distinguishability</em>, particularly the thermodynamic and muscle mechanical calibrations.</li>
+<li><strong>R²D Part IV —</strong> <em>Projection: The Physics Constructed from What Remains</em>.</li>
+<li><strong>Addendum 1 —</strong> <em>Recursive Replacement Precedes the Formal Navier–Stokes Singularity</em>.</li>
+<li><strong>Addendum 105 —</strong> <em>The Observational Inversion</em>.</li>
+<li><strong>Addendum 107 —</strong> <em>Possibilities Pull; Probabilities Do Not Push</em>.</li>
+<li><strong>Addendum 112 —</strong> <em>Sampled Multiplicity Before Thermal Fluctuations</em>.</li>
+<li><strong>Addendum 115 —</strong> <em>What Sustains Flow?</em></li>
+<li><strong>Addendum 116 —</strong> <em>Conservation Before Transport</em>.</li>
+<li><strong>Addendum 117 —</strong> <em>Pressure and Viscosity Are Enclosing Constraints</em>.</li>
+<li><strong>Addendum 118 —</strong> <em>Navier–Stokes as a Boundary-Owned Physical Projection</em>.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" class="pagination-link" aria-label="Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="pagination-link" aria-label="Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

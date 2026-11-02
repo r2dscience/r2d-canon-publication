@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Author’s Note on AI</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part I — A Theory of Dimensionless Recursive Counting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-098-enclosing-compatibility-occurs-before-microscopic-causality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 98: Enclosing Compatibility Occurs Before Microscopic Causality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-099-born-rule-consistency-without-primitive-quantum-causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 99 — Born-Rule Consistency Without Primitive Quantum Causation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-100-the-empty-vessel-recursive-replacement-observation-and-irreversibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 100 — The Empty Vessel: Recursive Replacement, Observation, and Irreversibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-101-the-enclosing-relation-before-quantum-representation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 101 — The Enclosing Relation Before Quantum Representation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-102-particles-are-imagined.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 102 — Particles Are Imagined</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-103-the-causal-implications-of-the-microstate-definition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 103 — The Causal Implications of the Microstate Definition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-104-the-count-relation-survives-before-state-identity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 104 — The Count Relation Survives Before State Identity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-105-the-observational-inversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 105 — The Observational Inversion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-107-possibilities-pull-probabilities-do-not-push.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 107 — Possibilities Pull; Probabilities Do Not Push</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-108-a-branch-is-not-an-occupied-world.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 108 — A Branch Is Not an Occupied World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-109-charge-classification-occurs-before-causal-strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 109 — Charge Classification Occurs Before Causal Strings</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-110-the-inferred-gravitational-source-is-not-an-occupied-object.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 110 — The Inferred Gravitational Source Is Not an Occupied Object</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-111-the-objectification-of-the-unreadable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 111 — The Objectification of the Unreadable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 112 — Sampled Multiplicity Before Thermal Fluctuations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-113-r2d-and-the-black-hole-information-paradox.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 113 — R²D and the Black Hole Information Paradox</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-115-what-sustains-flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 115 — What Sustains Flow?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-116-conservation-before-transport.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 117 — Pressure and Viscosity Are Enclosing Constraints</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#r²d-addendum-121-nested-wells-compatibility-and-harmonic-structure" id="toc-r²d-addendum-121-nested-wells-compatibility-and-harmonic-structure" class="nav-link active" data-scroll-target="#r²d-addendum-121-nested-wells-compatibility-and-harmonic-structure">R²D Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#boundary-specifications-and-the-elementary-domain" id="toc-boundary-specifications-and-the-elementary-domain" class="nav-link" data-scroll-target="#boundary-specifications-and-the-elementary-domain">121.1. Boundary specifications and the elementary domain</a></li>
+  <li><a href="#native-identification-and-readable-classification-at-a-join" id="toc-native-identification-and-readable-classification-at-a-join" class="nav-link" data-scroll-target="#native-identification-and-readable-classification-at-a-join">121.2. Native identification and readable classification at a join</a></li>
+  <li><a href="#native-and-comparison-recurrences" id="toc-native-and-comparison-recurrences" class="nav-link" data-scroll-target="#native-and-comparison-recurrences">121.3. Native and comparison recurrences</a></li>
+  <li><a href="#exact-comparison-counts-and-supported-classes" id="toc-exact-comparison-counts-and-supported-classes" class="nav-link" data-scroll-target="#exact-comparison-counts-and-supported-classes">121.4. Exact comparison counts and supported classes</a></li>
+  <li><a href="#closed-native-formulas-and-the-occupancy-well" id="toc-closed-native-formulas-and-the-occupancy-well" class="nav-link" data-scroll-target="#closed-native-formulas-and-the-occupancy-well">121.5. Closed native formulas and the occupancy well</a></li>
+  <li><a href="#an-eight-slot-well" id="toc-an-eight-slot-well" class="nav-link" data-scroll-target="#an-eight-slot-well">121.6. An eight-slot well</a></li>
+  <li><a href="#logarithmic-levels-and-harmonic-structure" id="toc-logarithmic-levels-and-harmonic-structure" class="nav-link" data-scroll-target="#logarithmic-levels-and-harmonic-structure">121.7. Logarithmic levels and harmonic structure</a>
+  <ul class="collapse">
+  <li><a href="#pattern-resolved-finer-levels" id="toc-pattern-resolved-finer-levels" class="nav-link" data-scroll-target="#pattern-resolved-finer-levels">Pattern-resolved finer levels</a></li>
+  <li><a href="#finer-occupancy-levels" id="toc-finer-occupancy-levels" class="nav-link" data-scroll-target="#finer-occupancy-levels">Finer occupancy levels</a></li>
+  <li><a href="#native-occupancy-levels" id="toc-native-occupancy-levels" class="nav-link" data-scroll-target="#native-occupancy-levels">Native occupancy levels</a></li>
+  </ul></li>
+  <li><a href="#richer-enclosing-interfaces" id="toc-richer-enclosing-interfaces" class="nav-link" data-scroll-target="#richer-enclosing-interfaces">121.8. Richer enclosing interfaces</a>
+  <ul class="collapse">
+  <li><a href="#exclusion-over-a-longer-range" id="toc-exclusion-over-a-longer-range" class="nav-link" data-scroll-target="#exclusion-over-a-longer-range">Exclusion over a longer range</a></li>
+  <li><a href="#several-coupled-rows" id="toc-several-coupled-rows" class="nav-link" data-scroll-target="#several-coupled-rows">Several coupled rows</a></li>
+  <li><a href="#enclosing-parity-relations" id="toc-enclosing-parity-relations" class="nav-link" data-scroll-target="#enclosing-parity-relations">Enclosing parity relations</a></li>
+  </ul></li>
+  <li><a href="#what-the-families-establish" id="toc-what-the-families-establish" class="nav-link" data-scroll-target="#what-the-families-establish">121.9. What the families establish</a></li>
+  <li><a href="#appendix-a-ep-construction-and-verification" id="toc-appendix-a-ep-construction-and-verification" class="nav-link" data-scroll-target="#appendix-a-ep-construction-and-verification">Appendix A EP construction and verification</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></h1>
+<p class="subtitle lead">Boundary-Owned Replacement, Native Multiplicity, and Exact Harmonic Spacing</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="r²d-addendum-121-nested-wells-compatibility-and-harmonic-structure" class="level1">
+<h1>R²D Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</h1>
+<p><em>Boundary-Owned Replacement, Native Multiplicity, and Exact Harmonic Spacing</em></p>
+<p><strong>Status:</strong> Author-approved for canon publication — November 1, 2026<br>
+<strong>Canonical basis:</strong> R²D Part I, September 25, 2026 authoritative revision</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>This addendum applies the algebra of boundary-owned replacement to finite nested-well compatibility families. The principal family has an ordered binary status at each elementary slot and excludes neighboring active statuses. Each enclosing boundary admits compatible pairs of child readable classes as its native realizations. An explicit native-identification map ρ identifies those pairs, while a separate map π reads their endpoint statuses and active count.</p>
+<p>The admitted classes, native multiplicities, and a finer elementary comparison count are derived. Their supports agree, while their positive counts differ. An eight-slot example has fifteen supported endpoint–occupancy classes, forty native realizations, and 341 finer comparison realizations when the elementary active multiplicity is two. Its native logarithmic levels have no common exact positive harmonic spacing. Exact harmonic spacing occurs in a specified pattern-resolved finer read.</p>
+<p>Extensions to longer-range exclusion, coupled rows, and enclosing parity relations establish how the permitted enclosing tests determine the required replacement classes. Cardinalities belong to the specified count domains. Computational work belongs to an EP realization of their description.</p>
+</section>
+<section id="boundary-specifications-and-the-elementary-domain" class="level2">
+<h2 class="anchored" data-anchor-id="boundary-specifications-and-the-elementary-domain">121.1. Boundary specifications and the elementary domain</h2>
+<p>The foundational replacement algebra distinguishes native identification, readable classification, and equivalence of enclosing responses [1]. Part I defines a native realization as one compatible joint realization of the immediately subordinate peers [2]. This addendum supplies explicit peer domains and compatibility rules before deriving their counts.</p>
+<p>Choose an integer b ≥ 1. At each elementary reference boundary,</p>
+<p><span class="math display">\[
+\mathfrak M_1=\{o\}\sqcup\{a_1,\ldots,a_b\},
+\qquad
+\sigma(o)=0,\quad \sigma(a_j)=1.
+\]</span></p>
+<p>The inactive class has multiplicity one; the active class has multiplicity b. Elementary native identification is the identity on these native labels, and the readable map is</p>
+<p><span class="math display">\[
+\pi_1(x)=\bigl(\sigma(x),\sigma(x),\sigma(x)\bigr).
+\]</span></p>
+<p>Its middle component is the elementary active count. Thus the supported labels are (0,0,0) and (1,1,1).</p>
+<p>Specify N = 2^h ordered slots and a balanced nesting into equal left and right blocks. Ordering and nesting are supplied compatibility structure. Each boundary carries its own tag and position; these tags are suppressed only where unambiguous.</p>
+<p>The adjacent-exclusion rule is</p>
+<p><span class="math display">\[
+\sigma_i\sigma_{i+1}=0
+\qquad(1\le i&lt;N).
+\]</span></p>
+<p>For each block, the permitted enclosing contexts consist of external left and right statuses l and z and a requested active count K. If a block has endpoints a and r and active count k, its response is</p>
+<p><span class="math display">\[
+g(a,k,r;l,z,K)
+=
+\mathbf1[la=0]\mathbf1[rz=0]\mathbf1[k=K].
+\]</span></p>
+<p>All binary external statuses and candidate counts are permitted. No additional test of an internal arrangement or elementary active index is included in this family.</p>
+<p>The active count is an enclosing classification retained in the interface. It is distinct from the number of native realizations at the block boundary.</p>
+</section>
+<section id="native-identification-and-readable-classification-at-a-join" class="level2">
+<h2 class="anchored" data-anchor-id="native-identification-and-readable-classification-at-a-join">121.2. Native identification and readable classification at a join</h2>
+<p>Let S_n be the supported readable labels of a size-n child boundary. The size-2n enclosing boundary specifies the peer domains S_n and S_n and the admitted relation</p>
+<p><span class="math display">\[
+\Gamma_{2n}
+=
+\left\{
+(s,t)\in\mathcal S_n\times\mathcal S_n:
+s_{\mathrm R}t_{\mathrm L}=0
+\right\}.
+\]</span></p>
+<p>Its native domain is</p>
+<p><span class="math display">\[
+\mathfrak M_{2n}
+=
+\{(B_{2n},s,t):(s,t)\in\Gamma_{2n}\}.
+\]</span></p>
+<p>Each admitted ordered child-label pair is one native realization. This is the specified recursive count rule.</p>
+<p>A complete one-level comparison presentation is a pair of child native realizations whose exported labels satisfy Γ. Its identification is</p>
+<p><span class="math display">\[
+\rho_{2n}(\mu_L,\mu_R)
+=
+\bigl(B_{2n},\pi_n(\mu_L),\pi_n(\mu_R)\bigr).
+\]</span></p>
+<p>The new readable classification is</p>
+<p><span class="math display">\[
+\boxed{
+\pi_{2n}\bigl(B_{2n},(a,i,v),(u,j,r)\bigr)
+=
+(a,i+j,r).
+}
+\]</span></p>
+<p>Different admitted pairs may share this readable triple. They remain different native realizations and contribute separately to its multiplicity.</p>
+<p>The peer export at the next enclosing boundary is π_n.&nbsp;Thus replacement explicitly identifies all child native realizations in the same exported class when they serve as that parent’s peer alternative. Their child-native multiplicities are not automatically weights of the new parent-native pair.</p>
+<p><strong>Theorem 1 — Coverage and the coarsest readable interface.</strong> The map ρ at every join covers the declared parent native domain. The supported triples (a,k,r) are the coarsest sufficient classification for the stated enclosing contexts.</p>
+<p><strong>Proof.</strong> Every supported child label has at least one child native representative. For every admitted pair of labels, choosing one representative of each gives an admitted comparison mapped by ρ to that parent pair. Hence ρ is surjective.</p>
+<p>All permitted responses depend only on the triple, proving sufficiency. Different k-values are separated by setting both external statuses to zero and requesting one of the counts. At equal k, different left endpoints are separated by an active external left status and an inactive external right status. The analogous right probe separates different right endpoints. Therefore every pair of different supported triples is distinguished by a permitted context. ∎</p>
+<p>For example, the two size-eight native pairs</p>
+<p><span class="math display">\[
+\bigl((0,1,0),(0,1,0)\bigr),
+\qquad
+\bigl((0,1,1),(0,1,0)\bigr)
+\]</span></p>
+<p>are both admitted and both read as (0,2,0). Their native identities differ. Equality of their parent responses does not make their contribution to the parent native count one.</p>
+</section>
+<section id="native-and-comparison-recurrences" class="level2">
+<h2 class="anchored" data-anchor-id="native-and-comparison-recurrences">121.3. Native and comparison recurrences</h2>
+<p>Define</p>
+<p><span class="math display">\[
+W_n(a,k,r)=|\pi_n^{-1}(a,k,r)|,
+\qquad
+\epsilon_n(a,k,r)=\mathbf1[W_n(a,k,r)&gt;0].
+\]</span></p>
+<p><strong>Theorem 2 — Native recurrence.</strong> The parent native multiplicity is</p>
+<p><span class="math display">\[
+\boxed{
+W_{2n}(a,k,r)
+=
+\sum_{i+j=k}
+\ \sum_{\substack{u,v\in\{0,1\}\\uv=0}}
+\epsilon_n(a,i,v)\epsilon_n(u,j,r).
+}
+\]</span></p>
+<p><strong>Proof.</strong> Each term selects one supported left label and one supported right label. The middle endpoint condition is exactly the parent compatibility rule. Every admitted ordered pair contributes once to the class selected by π, and its child labels determine one term of the sum. ∎</p>
+<p>A separate comparison may resolve the elementary labels throughout an ordered block. Let F_n be the admitted elementary sequences from the domain in Section 1. Let M_n(a,k,r) count sequences in F_n with the requested endpoints and active count. The product structure of this comparison permits independent active-index choices once a status pattern is admitted.</p>
+<p>Unique decomposition into left and right elementary sequences gives</p>
+<p><span class="math display">\[
+M_{2n}(a,k,r)
+=
+\sum_{i+j=k}\ \sum_{uv=0}
+M_n(a,i,v)M_n(u,j,r).
+\]</span></p>
+<p>The multiplication counts the finer comparison domain. It does not define the parent native pair count.</p>
+<p>There is also a one-level comparison obtained by counting pairs of child native realizations. Its corresponding recurrence uses W_n times W_n.&nbsp;At deeper levels this can differ from both the native recurrence, which uses support indicators, and the elementary recurrence, which uses M_n.</p>
+<p>The elementary comparison supplies another complete presentation of the parent native domain. For d in F_n, write Q_n(d) for its endpoint–occupancy triple. Then</p>
+<p><span class="math display">\[
+\rho_{2n}^{\mathrm{fine}}(d_Ld_R)
+=
+\bigl(B_{2n},Q_n(d_L),Q_n(d_R)\bigr).
+\]</span></p>
+<p>Induction establishes coverage: elementary representatives exist for every supported child class, and any representatives of an admitted pair concatenate compatibly. The identity</p>
+<p><span class="math display">\[
+\pi_{2n}\circ\rho_{2n}^{\mathrm{fine}}=Q_{2n}
+\]</span></p>
+<p>makes the two stages explicit. Counting distinct native images gives W; counting the admitted elementary presentations gives M. The domains agree on whether a class is supported.</p>
+</section>
+<section id="exact-comparison-counts-and-supported-classes" class="level2">
+<h2 class="anchored" data-anchor-id="exact-comparison-counts-and-supported-classes">121.4. Exact comparison counts and supported classes</h2>
+<p>Use the convention that a binomial coefficient is zero unless its upper and lower entries are nonnegative and the lower does not exceed the upper.</p>
+<p><strong>Theorem 3 — Elementary comparison and support.</strong> For each non-elementary dyadic block n ≥ 2,</p>
+<p><span class="math display">\[
+\boxed{
+M_n(a,k,r)
+=
+b^k\binom{n-k-1}{k-a-r}.
+}
+\]</span></p>
+<p>Its support is</p>
+<p><span class="math display">\[
+\boxed{
+\epsilon_n(a,k,r)=1
+\iff
+a+r\le k\le
+\left\lfloor\frac{n+a+r-1}{2}\right\rfloor.
+}
+\]</span></p>
+<p><strong>Proof.</strong> Let the k active positions be increasing and nonadjacent. Subtract 0,1,…,k−1 from them. This is a bijection to ordinary k-element subsets of a line of length n−k+1.</p>
+<p>The original left endpoint is active precisely when the compressed subset contains its first position; the corresponding statement holds at the right endpoint. Fixing those two membership choices leaves k−a−r positions to select from n−k−1 interior positions, giving the binomial coefficient. Every admitted status pattern has b^k elementary active-index choices. Parameter choices outside the admitted range contribute zero under the stated convention.</p>
+<p>Positivity requires k−a−r ≥ 0 and k−a−r ≤ n−k−1. These inequalities give the displayed support bounds. Conversely, those bounds make the binomial coefficient positive. Native and finer supports coincide by the coverage result in Section 3. ∎</p>
+<p>The size-one case retains the separately specified elementary counts.</p>
+<p>For an even block n = 2m, the supported classes are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Endpoints</th>
+<th>Active-count range</th>
+<th>Number of classes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>00</td>
+<td>0 through m−1</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td>01</td>
+<td>1 through m</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>1 through m</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>2 through m</td>
+<td>m−1</td>
+</tr>
+</tbody>
+</table>
+<p>An empty range contributes zero. Hence</p>
+<p><span class="math display">\[
+|\mathcal S_n|=2n-1
+\qquad(n\ge2\text{ even}).
+\]</span></p>
+<p>Summing the finer endpoint counts, or compressing the active positions without fixing endpoint membership, gives</p>
+<p><span class="math display">\[
+\boxed{
+\overline M_n(k)=b^k\binom{n-k+1}{k}.
+}
+\]</span></p>
+<p>The elementary parameter b affects the finer count. Because b is positive, it does not affect which child labels are supported. It therefore disappears from the native recurrence at size two and every subsequent boundary.</p>
+</section>
+<section id="closed-native-formulas-and-the-occupancy-well" class="level2">
+<h2 class="anchored" data-anchor-id="closed-native-formulas-and-the-occupancy-well">121.5. Closed native formulas and the occupancy well</h2>
+<p>Introduce a formal variable t to index the active-count classification. Define the endpoint-support matrix by</p>
+<p><span class="math display">\[
+E_n^{ar}(t)=\sum_k\epsilon_n(a,k,r)t^k.
+\]</span></p>
+<p>For an even child size n = 2m, set</p>
+<p><span class="math display">\[
+U_m(t)=1+t+\cdots+t^{m-1},
+\qquad U_0(t)=0.
+\]</span></p>
+<p>The support bounds give</p>
+<p><span class="math display">\[
+E_n(t)=
+\begin{pmatrix}
+U_m&amp;tU_m\\
+tU_m&amp;t^2U_{m-1}
+\end{pmatrix},
+\qquad
+J=
+\begin{pmatrix}
+1&amp;1\\
+1&amp;0
+\end{pmatrix}.
+\]</span></p>
+<p><strong>Theorem 4 — Native count polynomials.</strong> The endpoint-resolved native count matrix at the parent is</p>
+<p><span class="math display">\[
+\boxed{\mathcal W_{2n}(t)=E_n(t)J E_n(t).}
+\]</span></p>
+<p>Set</p>
+<p><span class="math display">\[
+A=U_m(t),\qquad B=U_{m-1}(t).
+\]</span></p>
+<p>The entries are</p>
+<p><span class="math display">\[
+\begin{aligned}
+\mathcal W_{2n}^{00}&amp;=(1+2t)A^2,\\
+\mathcal W_{2n}^{01}=\mathcal W_{2n}^{10}
+&amp;=t(1+t)A^2+t^2AB,\\
+\mathcal W_{2n}^{11}&amp;=t^2A^2+2t^3AB.
+\end{aligned}
+\]</span></p>
+<p><strong>Proof.</strong> Matrix multiplication sums over the two contacting endpoint statuses. J removes precisely the forbidden contact 11. Each supported child label has coefficient one, and multiplying the powers of t adds its active count to the other child’s count. Coefficient extraction is therefore exactly Theorem 2. Substituting the support polynomials and multiplying gives the displayed entries. ∎</p>
+<p>The occupancy read groups the native domain by k while summing over endpoints:</p>
+<p><span class="math display">\[
+\overline W_N(k)=\sum_{a,r}W_N(a,k,r),
+\qquad
+P_N(t)=\sum_k\overline W_N(k)t^k.
+\]</span></p>
+<p>This count profile and its logarithmic read define the occupancy well considered here. Endpoint distinctions remain available in the full interface for later composition.</p>
+<p>For a balanced dyadic boundary N = 4m, summing Theorem 4’s entries yields</p>
+<p><span class="math display">\[
+\boxed{
+P_N(t)
+=
+(1+t)(1+3t)U_m(t)^2
++
+2t^2(1+t)U_m(t)U_{m-1}(t).
+}
+\]</span></p>
+<p>The separate size-two base is P₂(t) = 1+2t. Together these formulas cover every non-elementary boundary in the balanced hierarchy.</p>
+<p>At t = 1,</p>
+<p><span class="math display">\[
+\boxed{
+|\mathfrak M_N|=\frac{3N^2}{4}-N
+\qquad(N=2^h\ge4).
+}
+\]</span></p>
+<p>The same total follows directly. A child of even size n has 2n−1 supported labels, of which n−1 have right endpoint one and n−1 have left endpoint one. The parent therefore admits</p>
+<p><span class="math display">\[
+(2n-1)^2-(n-1)^2=3n^2-2n
+\]</span></p>
+<p>pairs. Substitution of N = 2n gives the stated total.</p>
+</section>
+<section id="an-eight-slot-well" class="level2">
+<h2 class="anchored" data-anchor-id="an-eight-slot-well">121.6. An eight-slot well</h2>
+<p>For N = 8 and b = 2, there are fifteen supported endpoint–occupancy classes and forty native realizations. The elementary comparison has 341 realizations.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Active count k</th>
+<th>Native occupancy multiplicity</th>
+<th>Elementary comparison multiplicity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>6</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>14</td>
+<td>84</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>14</td>
+<td>160</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>5</td>
+<td>80</td>
+</tr>
+<tr class="even">
+<td>Total</td>
+<td>40</td>
+<td>341</td>
+</tr>
+</tbody>
+</table>
+<p>The polynomials are</p>
+<p><span class="math display">\[
+P_8(t)=1+6t+14t^2+14t^3+5t^4,
+\]</span></p>
+<p><span class="math display">\[
+\sum_k\overline M_8(k)t^k
+=
+1+16t+84t^2+160t^3+80t^4.
+\]</span></p>
+<p>The one-level comparison of pairs of size-four native realizations has total count 55: each child has eight native realizations, three of which have the relevant endpoint active, giving 8²−3² = 55. Thus 40, 55, and 341 count three explicitly different domains.</p>
+<p>The endpoint-resolved native class (0,2,0) has multiplicity five. The two pairs displayed in Section 2 are two of those five. Conversely, an elementary comparison can contain several distinct presentations of one parent-native pair; ρ identifies that pair once.</p>
+<p>Compatibility also requires more than the child occupancy. A left child of class (0,1,1) and a right child of class (1,1,0) are separately admitted, but their contacting statuses are both active and their join is excluded. Replacing the left class by (1,1,0) makes the join compatible. Both left classes have active count one. Retaining that count alone would erase a distinction required by the join.</p>
+</section>
+<section id="logarithmic-levels-and-harmonic-structure" class="level2">
+<h2 class="anchored" data-anchor-id="logarithmic-levels-and-harmonic-structure">121.7. Logarithmic levels and harmonic structure</h2>
+<p>For a positive count W, write S = ln W. Here “harmonic spacing” means an exact constant increment between logarithmic levels in a declared ordered family of count classes.</p>
+<p><strong>Theorem 5 — Criterion for regular logarithmic spacing.</strong> Let W₀,…,W_m be positive multiplicities. Their logarithms satisfy S_j = S₀+jΔ with Δ &gt; 0 if and only if</p>
+<p><span class="math display">\[
+W_j=W_0r^j
+\qquad\text{with}\qquad r=e^\Delta&gt;1.
+\]</span></p>
+<p><strong>Proof.</strong> Exponentiation gives the geometric sequence from the logarithmic ladder. Taking logarithms gives the converse. ∎</p>
+<p>An integer base b &gt; 1 is a sufficient choice when the specified multiplicities are W₀b^j. Integer-valued multiplicities alone do not establish this geometric structure.</p>
+<section id="pattern-resolved-finer-levels" class="level3">
+<h3 class="anchored" data-anchor-id="pattern-resolved-finer-levels">Pattern-resolved finer levels</h3>
+<p>Condition on an admitted elementary status pattern with k active slots. Its finer active-index multiplicity is b^k. Across the family of admitted pattern fibers,</p>
+<p><span class="math display">\[
+S_{\mathrm{fine}\mid\mathrm{pattern}}=k\ln b.
+\]</span></p>
+<p>Every admitted occupancy k is represented by at least one pattern. Thus b &gt; 1 gives an exact ladder of distinct finer logarithmic levels spaced by ln b. Different patterns with the same k have the same level. For b = 1 this contribution is flat.</p>
+<p>The active indices counted here belong to the declared elementary comparison. They are identified together by the parent-native map when their exported child labels agree.</p>
+</section>
+<section id="finer-occupancy-levels" class="level3">
+<h3 class="anchored" data-anchor-id="finer-occupancy-levels">Finer occupancy levels</h3>
+<p>Including every admitted status pattern at a fixed k gives</p>
+<p><span class="math display">\[
+S_{\mathrm{fine}}(n,k)
+=
+k\ln b+\ln\binom{n-k+1}{k}.
+\]</span></p>
+<p>For consecutive admitted occupancies,</p>
+<p><span class="math display">\[
+S_{\mathrm{fine}}(n,k+1)-S_{\mathrm{fine}}(n,k)
+=
+\ln b+
+\ln\!\left(
+\frac{(n-2k+1)(n-2k)}
+{(k+1)(n-k+1)}
+\right).
+\]</span></p>
+<p>This follows by taking the ratio of the two consecutive comparison counts. The additional combinatorial term depends on occupancy. Regular spacing of pattern-resolved levels therefore does not establish regular spacing of the occupancy levels.</p>
+</section>
+<section id="native-occupancy-levels" class="level3">
+<h3 class="anchored" data-anchor-id="native-occupancy-levels">Native occupancy levels</h3>
+<p>The replaced boundary has the native spectrum</p>
+<p><span class="math display">\[
+S_{\mathrm{native}}(N,k)=\ln\overline W_N(k).
+\]</span></p>
+<p>For eight slots,</p>
+<p><span class="math display">\[
+\boxed{
+S_{\mathrm{native}}(8,k)
+=
+(0,\ln6,\ln14,\ln14,\ln5).
+}
+\]</span></p>
+<p>The adjacent differences in occupancy order are ln 6, ln(7/3), zero, and ln(5/14).</p>
+<p>These levels do not even lie on a common exact positive-spacing logarithmic lattice. Since zero is a level, such a lattice would make ln 6 and ln 14 positive integer multiples of a common Δ. Their ratio would be rational, giving positive integers p and q with</p>
+<p><span class="math display">\[
+6^q=14^p.
+\]</span></p>
+<p>The left side contains a factor of three and the right side does not. This is impossible.</p>
+<p>The occupancy classes k = 2 and k = 3 have equal native multiplicity fourteen, yet the prescribed count contexts distinguish them. Equality of logarithmic level is therefore insufficient to identify readable classes.</p>
+</section>
+</section>
+<section id="richer-enclosing-interfaces" class="level2">
+<h2 class="anchored" data-anchor-id="richer-enclosing-interfaces">121.8. Richer enclosing interfaces</h2>
+<p>The same boundary-owned construction applies when the enclosing tests require additional distinctions. For each family below, let S_A and S_B be the supported child labels, Γ_J the specified admitted ordered label pairs, and m_J their merge classification. The parent maps are</p>
+<p><span class="math display">\[
+\rho_J(d_A,d_B)
+=
+\bigl(B_J,Q_A(d_A),Q_B(d_B)\bigr),
+\qquad
+\pi_J(B_J,s,t)=m_J(s,t).
+\]</span></p>
+<p>The presentations must cover the supported child labels. The compatibility rules below ensure that every admitted pair has compatible representatives. Each pair counts once as a parent native realization:</p>
+<p><span class="math display">\[
+W_J(q)=
+\left|
+\{(s,t)\in\Gamma_J:m_J(s,t)=q\}
+\right|.
+\]</span></p>
+<p>This is the same specified native rule used in the principal family. The interface label and its native multiplicity remain separate.</p>
+<section id="exclusion-over-a-longer-range" class="level3">
+<h3 class="anchored" data-anchor-id="exclusion-over-a-longer-range">Exclusion over a longer range</h3>
+<p>Require at least d inactive positions between consecutive active positions, with d ≥ 1. A block of known length n has label</p>
+<p><span class="math display">\[
+q_d=(\ell,k,r),
+\]</span></p>
+<p>where ℓ and r are its leading and trailing inactive lengths, capped at d.&nbsp;An empty block has k = 0 and ℓ = r = min(d,n).</p>
+<p>Exterior contexts specify capped inactive clearances e_L and e_R to their nearest active positions and a requested count K. For k &gt; 0,</p>
+<p><span class="math display">\[
+g_d=
+\mathbf1[k=K]\mathbf1[e_L+\ell\ge d]\mathbf1[r+e_R\ge d].
+\]</span></p>
+<p>For an empty block, the exterior active positions can interact across the block, so the response is</p>
+<p><span class="math display">\[
+g_d=
+\mathbf1[K=0]\mathbf1[e_L+n+e_R\ge d].
+\]</span></p>
+<p>A clearance equal to d also represents the absence of a relevant nearby exterior active position.</p>
+<p><strong>Theorem 6 — Longer-range replacement classes.</strong> These supported triples are the coarsest sufficient classes for the declared contexts. Two nonempty children join exactly when their facing clearances sum to at least d; if either child is empty, the internal join is admitted.</p>
+<p><strong>Proof.</strong> Equal triples give equal responses. Different counts are separated by K with harmless exterior clearances. For equal positive counts and ℓ &lt; ℓ′, choose e_L = d−1−ℓ and e_R = d.&nbsp;The first class fails and the second passes. The corresponding right probe separates different trailing clearances. The fixed-length empty class is unique.</p>
+<p>For two nonempty children, the closest cross-join active positions have exactly the intervening trailing and leading inactive gaps. Their sum determines compatibility. An empty child contributes no active position to an internal cross-join exclusion. ∎</p>
+<p>For left label (ℓ,k,r) of length n and right label (a,j,b) of length m, the merged count is k+j, with</p>
+<p><span class="math display">\[
+\ell_+=
+\begin{cases}
+\ell,&amp;k&gt;0,\\
+\min(d,n+a),&amp;k=0,
+\end{cases}
+\qquad
+r_+=
+\begin{cases}
+b,&amp;j&gt;0,\\
+\min(d,m+r),&amp;j=0.
+\end{cases}
+\]</span></p>
+<p>These are exact leading and trailing clearances of the joined block. They preserve the distinctions required by later exterior contexts, including short empty blocks.</p>
+<p>The maximum active count is</p>
+<p><span class="math display">\[
+k_{\max}=\left\lfloor\frac{n+d}{d+1}\right\rfloor.
+\]</span></p>
+<p>Indeed, k active positions require at least k+d(k−1) positions, and the bound is attained by minimum gaps. Consequently,</p>
+<p><span class="math display">\[
+|\mathcal S_{n,d}|
+\le
+(\min(d,n)+1)^2(k_{\max}+1).
+\]</span></p>
+<p>For d = 2, the patterns 00100 and 01000 have equal endpoint statuses and active count but different left clearances. An active exterior left status distinguishes them. The shorter adjacent-exclusion interface is insufficient for this enclosing family.</p>
+</section>
+<section id="several-coupled-rows" class="level3">
+<h3 class="anchored" data-anchor-id="several-coupled-rows">Several coupled rows</h3>
+<p>Specify w labeled rows and n ordered columns, excluding adjacent active statuses vertically and horizontally. There are no diagonal constraints.</p>
+<p>The admitted elementary column masks are</p>
+<p><span class="math display">\[
+\mathcal C_w=
+\{\alpha\in\{0,1\}^w:\alpha_i\alpha_{i+1}=0\}.
+\]</span></p>
+<p>These masks are the elementary peer types of this extension. Neighboring columns are compatible when their bitwise intersection is zero. The enclosing contexts attach admitted exterior column masks and request the total active count.</p>
+<p><strong>Theorem 7 — Coupled-row replacement classes.</strong> The coarsest sufficient supported label is</p>
+<p><span class="math display">\[
+q_w=(L,k,R),
+\]</span></p>
+<p>where L and R are complete endpoint column masks. Child labels (A,i,V) and (U,j,B) join exactly when V ∧ U = 0, with parent label (A,i+j,B).</p>
+<p><strong>Proof.</strong> Every declared exterior test depends only on the two masks and the count. Different counts are separated by their requested value. If two endpoint masks differ at row i, an exterior column active only in row i distinguishes them; that probe is always an admitted column. The opposite exterior mask can be zero. The join condition is precisely horizontal exclusion at the contacting columns. ∎</p>
+<p>Let c_w be the number of admitted column masks. Splitting by a first status zero or a beginning 10 gives</p>
+<p><span class="math display">\[
+c_0=1,\quad c_1=2,\quad c_w=c_{w-1}+c_{w-2}.
+\]</span></p>
+<p>The class bound is</p>
+<p><span class="math display">\[
+|\mathcal S_{n,w}|
+\le
+c_w^2\bigl(n\lceil w/2\rceil+1\bigr).
+\]</span></p>
+<p>Every four-column sequence (L,0,0,R) is admitted. These sequences supply a distinct class for each ordered endpoint pair, so</p>
+<p><span class="math display">\[
+|\mathcal S_{4,w}|\ge c_w^2\ge 2^w.
+\]</span></p>
+<p>The last inequality follows because every subset of odd-numbered rows is an admitted mask, giving at least two choices independently at each odd-numbered row. Independent enclosing row probes require all these distinctions.</p>
+</section>
+<section id="enclosing-parity-relations" class="level3">
+<h3 class="anchored" data-anchor-id="enclosing-parity-relations">Enclosing parity relations</h3>
+<p>Retain adjacent exclusion and assign each position a prespecified vector v_i in the binary vector space of dimension ℓ. Define</p>
+<p><span class="math display">\[
+p(\sigma)=\bigoplus_{i:\sigma_i=1}v_i.
+\]</span></p>
+<p>The contexts request endpoint compatibility, active count K, and parity vector P.</p>
+<p><strong>Theorem 8 — Parity replacement classes.</strong> The coarsest sufficient supported label is</p>
+<p><span class="math display">\[
+q_{\mathrm{parity}}=(a,k,z,p).
+\]</span></p>
+<p>Two children with labels (a,i,v,p) and (u,j,z,q) join when vu = 0 and read as (a,i+j,z,p⊕q).</p>
+<p><strong>Proof.</strong> The specified responses depend only on these components. Neutral endpoint probes separate different counts and parity vectors by requesting their values. At equal count and parity, a one-sided active probe separates different endpoint statuses. The merge combines the endpoint exclusion, addition of active counts, and the defining binary sum. ∎</p>
+<p>If the position vectors in a block span a subspace of rank r_I, then</p>
+<p><span class="math display">\[
+|\mathcal S_I|
+\le
+4\bigl(\lceil n/2\rceil+1\bigr)2^{r_I}.
+\]</span></p>
+<p>The rank bounds the possible parity values, and adjacency can further restrict which are realized.</p>
+<p>Independent parity distinctions can occur even at fixed endpoints and active count. For ℓ components, consider</p>
+<p><span class="math display">\[
+0\,[100\text{ or }010]^\ell\,0.
+\]</span></p>
+<p>In gadget j, assign vector zero to the first position, basis vector e_j to the second, and zero to the third. Each pattern has inactive endpoints and ℓ active positions. Choosing 100 contributes zero and choosing 010 contributes e_j. Thus all 2^ℓ parity values occur and are separated by the enclosing parity requests. Inactive padding supplies a dyadic block length when required.</p>
+<p>A parity component can also be redundant: assigning the same one-bit vector to every position makes it the parity of k. Assigning every vector zero recovers the original endpoint–occupancy classification and its native spectrum. A binary parity read alone therefore supplies no universal logarithmic spacing.</p>
+</section>
+</section>
+<section id="what-the-families-establish" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-families-establish">121.9. What the families establish</h2>
+<p>Each family specifies the enclosing tests, derives sufficient readable classes, and declares how those classes serve as peer realization types at the next boundary. Native identification determines the admitted joint pair; readable classification determines its class and multiplicity.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Family</th>
+<th>Required readable interface</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Adjacent exclusion</td>
+<td>Endpoint statuses and active count</td>
+</tr>
+<tr class="even">
+<td>Longer-range exclusion</td>
+<td>Capped endpoint clearances and active count</td>
+</tr>
+<tr class="odd">
+<td>Coupled rows</td>
+<td>Endpoint masks and active count</td>
+</tr>
+<tr class="even">
+<td>Enclosing parity</td>
+<td>Endpoint statuses, active count, and parity vector</td>
+</tr>
+</tbody>
+</table>
+<p>Changing the enclosing relation changes the required distinctions. It can leave a short numerical interface or require many independently distinguishable classes. These are statements about the specified classifications and native domains.</p>
+<p>The principal nested-well family supplies exact native multiplicities and a discrete logarithmic spectrum. Regular harmonic spacing follows when the relevant count sequence has the geometric structure of Theorem 5. The eight-slot native spectrum does not have that structure, while the pattern-resolved elementary comparison does. Each harmonic claim therefore belongs to its declared count and classification.</p>
+</section>
+<section id="appendix-a-ep-construction-and-verification" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a-ep-construction-and-verification">Appendix A EP construction and verification</h2>
+<p>Explicitly enumerating classes, storing their labels, multiplying polynomial representations, or traversing a hierarchy are EP realizations of the algebra. Their computational work is distinct from the native cardinalities being described.</p>
+<p>For the principal balanced family, a size-N interface with N ≥ 2 contains 2N−1 labels and its parent-pair native domain has quadratic cardinality in N. A direct implementation can inspect admitted label pairs to construct the native count table. Summing pair inspections over an explicitly represented balanced N-slot hierarchy gives O(N²) inspections; integer and label operations require their corresponding bit costs. A succinct encoding of the height describes a different input-size problem.</p>
+<p>The coupled-row and parity examples establish large class cardinalities as width or rank grows. Enumerating all classes explicitly inherits those sizes. The algebra does not require that particular EP representation.</p>
+<p>The principal family was checked by direct status-pattern enumeration, recursive native and finer counts, and the closed formulas. Earlier checks covered elementary status patterns through sixteen slots for b = 1, 2, and 3, and the recurrences and polynomial identities through 128 slots.</p>
+<p>The explicit ρ–π formulation was additionally checked as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Check</th>
+<th>Scope</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Image of the elementary presentation under ρ equals the declared native pair domain</td>
+<td>Sizes 2, 4, 8, and 16</td>
+<td>Passed</td>
+</tr>
+<tr class="even">
+<td>Endpoint-resolved elementary comparison formula</td>
+<td>408 comparisons for b = 1, 2, and 3</td>
+<td>Passed</td>
+</tr>
+<tr class="odd">
+<td>Literal elementary-label realizations mapped to native pairs</td>
+<td>1,639 admitted realizations across sizes 2, 4, and 8</td>
+<td>Passed</td>
+</tr>
+<tr class="even">
+<td>Distinct native pairs in readable class (0,2,0)</td>
+<td>Five native pairs at size eight</td>
+<td>Confirmed</td>
+</tr>
+<tr class="odd">
+<td>Native, one-level comparison, and elementary comparison totals</td>
+<td>40, 55, and 341 at size eight with b = 2</td>
+<td>Confirmed</td>
+</tr>
+</tbody>
+</table>
+<p>The richer-interface constructions were checked for exclusion ranges one through four and lengths through ten; strips of up to five rows and four columns; and parity assignments through ten slots, with independent-parity constructions through six components. These checks compared admitted patterns, response classes, and recursive joins.</p>
+<p>The finite enumerations are EP checks of the implementations. The counting formulas, coarseness claims, and composition rules follow from the proofs above.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</a>. Foundational R²D addendum: native identification, readable classification, native weights, exact gluing, and replacement composition.</p>
+<p>[2] <a href="../canon/part-i.html">R²D Part I — A Theory of Dimensionless Recursive Counting</a>, §3.2.1 and Appendix A, Axioms 1–6: boundary-defined joint realizations, native multiplicity, enclosing compatibility, and recursive replacement.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="pagination-link" aria-label="Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
