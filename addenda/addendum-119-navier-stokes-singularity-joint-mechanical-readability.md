@@ -165,21 +165,21 @@ $$
 
 These are not interchangeable.
 
-The native multiplicity \(W\) counts possible realizations within a specified state classification.
+The native multiplicity $W$ counts possible realizations within a specified state classification.
 
-Macrostate occupancy \(c\) describes the realized occupancy of that state.
+Macrostate occupancy $c$ describes the realized occupancy of that state.
 
-Occurrence count \(\nu\) counts realized instances within a specified realization domain.
+Occurrence count $\nu$ counts realized instances within a specified realization domain.
 
-Material inventory \(q\) counts occupied material units under a particular water-inventory read.
+Material inventory $q$ counts occupied material units under a particular water-inventory read.
 
 The shrinking spatial core primarily constrains the last of these through a physical density calibration.
 
 ### The projected material-support count
 
-Let \(n_0\) denote the finite number density of independently calibrated material-inventory units available to support the selected physical fluid description.
+Let $n_0$ denote the finite number density of independently calibrated material-inventory units available to support the selected physical fluid description.
 
-For a projected region of volume \(V\), the corresponding continuum estimate of supporting inventory is
+For a projected region of volume $V$, the corresponding continuum estimate of supporting inventory is
 
 $$
 \boxed{
@@ -190,7 +190,7 @@ $$
 
 The bar is important.
 
-The quantity \(\bar q_{\mathrm{support}}\) is the continuous physical estimate of the available inventory count.
+The quantity $\bar q_{\mathrm{support}}$ is the continuous physical estimate of the available inventory count.
 
 An actual realized inventory count remains integer-valued:
 
@@ -221,7 +221,7 @@ $$
 
 The projected number of material realizations supporting the core decreases toward zero.
 
-This statement does not establish that the native multiplicity \(W\), the canonical macrostate occupancy \(c\), or every completed closure recurrence count also tends to zero.
+This statement does not establish that the native multiplicity $W$, the canonical macrostate occupancy $c$, or every completed closure recurrence count also tends to zero.
 
 Such identifications would require their own boundary-specific count mappings.
 
@@ -237,7 +237,7 @@ This distinction refines the interpretation introduced in Addendum 1 without cha
 
 Addenda 115–118 identify the finite count architecture underlying the selected fluid-mechanical representation.
 
-Let the enclosing fluid boundary be \(B_J\).
+Let the enclosing fluid boundary be $B_J$.
 
 Its readable state includes material inventory, signed directional momentum, complete interface-output records, retained constraint, background-associated constraint, and an enclosing mechanical reference.
 
@@ -385,7 +385,7 @@ $$
 \tag{119.12}
 $$
 
-Let the core occupy a reference volume \(V_0\) at \(\tau_0>0\).
+Let the core occupy a reference volume $V_0$ at $\tau_0>0$.
 
 Write its contracting-volume representation as
 
@@ -450,7 +450,7 @@ $$
 }
 $$
 
-Thus the required dense material-support condition fails before the formal singular limit \(\tau=0\).
+Thus the required dense material-support condition fails before the formal singular limit $\tau=0$.
 
 ### Proposition 119.1 — Finite Material Support Obstructs Indefinite Joint Continuum Readability
 
@@ -463,20 +463,20 @@ V_{\mathrm{core}}(\tau)
 \alpha>0.
 $$
 
-Suppose the available material-inventory realization density is bounded above by a finite constant and the selected continuum fluid representation requires at least \(q_*\gg1\) effective supporting realizations within each relevant resolving region.
+Suppose the available material-inventory realization density is bounded above by a finite constant and the selected continuum fluid representation requires at least $q_*\gg1$ effective supporting realizations within each relevant resolving region.
 
-Then the same dense-continuum physical representation cannot remain admissible for all \(\tau>0\) approaching zero.
+Then the same dense-continuum physical representation cannot remain admissible for all $\tau>0$ approaching zero.
 
 **Proof.**
 
-For finite material-support density \(n_{\max}\), the projected supporting inventory is bounded by
+For finite material-support density $n_{\max}$, the projected supporting inventory is bounded by
 
 $$
 \bar q_{\mathrm{core}}(\tau)
 \lesssim n_{\max}V_{\mathrm{core}}(\tau).
 $$
 
-Because \(\alpha>0\),
+Because $\alpha>0$,
 
 $$
 V_{\mathrm{core}}(\tau)\longrightarrow0.
@@ -488,13 +488,13 @@ $$
 \bar q_{\mathrm{core}}(\tau)\longrightarrow0.
 $$
 
-For every fixed positive threshold \(q_*\), there exists a finite positive \(\tau_*\) below which
+For every fixed positive threshold $q_*$, there exists a finite positive $\tau_*$ below which
 
 $$
 \bar q_{\mathrm{core}}(\tau)<q_*.
 $$
 
-Therefore the stipulated dense-material-support condition fails before the formal singular time. \(\square\)
+Therefore the stipulated dense-material-support condition fails before the formal singular time. $\square$
 
 ### Corollary 119.1 — The Common Mechanical Projection Requires Reclassification
 
@@ -521,7 +521,7 @@ $$
 \tag{119.14}
 $$
 
-Here \(M\) is the calibrated material mass and \(\mathbf P^{phys}\) is the calibrated momentum of the same physical water state.
+Here $M$ is the calibrated material mass and $\mathbf P^{phys}$ is the calibrated momentum of the same physical water state.
 
 For a characteristic core estimate, define the momentum scale
 
@@ -615,9 +615,9 @@ $$
 \frac12-3h.
 $$
 
-All are positive for \(0<h<1/100\).
+All are positive for $0<h<1/100$.
 
-The extensive scales therefore vanish as \(\tau\to0\), while the velocity exponent \(-1/2-h\) is negative. \(\square\)
+The extensive scales therefore vanish as $\tau\to0$, while the velocity exponent $-1/2-h$ is negative. $\square$
 
 This result strengthens the central observation of Addendum 1.
 
@@ -637,7 +637,7 @@ $$
 k=a_+-a_-.
 $$
 
-Because \(a_+\) and \(a_-\) are nonnegative integers,
+Because $a_+$ and $a_-$ are nonnegative integers,
 
 $$
 \boxed{
@@ -658,7 +658,7 @@ $$
 P=p_*k.
 $$
 
-For \(q>0\),
+For $q>0$,
 
 $$
 u=\frac{p_*}{m_*}\frac{k}{q}.
@@ -689,7 +689,7 @@ There is no admissible state in this fixed binary inventory-and-orientation clas
 
 The finite binary model is not a universal relativistic or R²D speed-limit theorem.
 
-More general physical momentum classifications may assign larger directional momentum reads, and their calibrations need not preserve the same fixed \(p_*/m_*\).
+More general physical momentum classifications may assign larger directional momentum reads, and their calibrations need not preserve the same fixed $p_*/m_*$.
 
 The result is nevertheless revealing.
 
@@ -760,7 +760,7 @@ $$
 \tag{119.20}
 $$
 
-For \(h>0\), this characteristic rate diverges.
+For $h>0$, this characteristic rate diverges.
 
 This is a conditional scaling illustration. It does not prove that the actual signed or integrated axial momentum flux of the OpenAI solution obeys equation (119.20); that requires its full velocity profile and the corresponding surface integration.
 
@@ -768,7 +768,7 @@ Nevertheless, the mathematical distinction is important.
 
 The characteristic stored momentum can tend to zero while a characteristic instantaneous momentum-throughput rate becomes large.
 
-For \(2h<1\), even the illustrative divergent rate is integrable over a shrinking time interval:
+For $2h<1$, even the illustrative divergent rate is integrable over a shrinking time interval:
 
 $$
 \int_0^\epsilon\tau^{-2h}\,d\tau
@@ -827,7 +827,7 @@ $$
 U\asymp\tau^{-1/2-h}.
 $$
 
-If the leading velocity profile changes by a characteristic amount \(U\) over the radial scale \(\ell_r\), the corresponding deformation-rate scale is
+If the leading velocity profile changes by a characteristic amount $U$ over the radial scale $\ell_r$, the corresponding deformation-rate scale is
 
 $$
 g\sim\frac{U}{\ell_r}.
@@ -1037,9 +1037,9 @@ $$
 \tag{119.26}
 $$
 
-where \(\mathcal F_J^{\mathrm{fluid}}\) denotes the corresponding family of physically readable continuum fields.
+where $\mathcal F_J^{\mathrm{fluid}}$ denotes the corresponding family of physically readable continuum fields.
 
-A state belongs to \(\mathfrak A_J^{\mathrm{fluid}}\) only if its complete compatibility and physical calibration support the claimed read.
+A state belongs to $\mathfrak A_J^{\mathrm{fluid}}$ only if its complete compatibility and physical calibration support the claimed read.
 
 The dense material-support condition is one necessary admissibility condition for the selected continuum realization.
 
@@ -1053,7 +1053,7 @@ The physical fluid projection loses its original admissibility as soon as a nece
 
 ### Proposition 119.3 — Loss of Joint Mechanical Readability
 
-Let \(\Pi_J^{\mathrm{fluid}}\) be a physical continuum projection requiring sufficiently large local material support to assign jointly valid mass, velocity, pressure, and viscous-stress readings.
+Let $\Pi_J^{\mathrm{fluid}}$ be a physical continuum projection requiring sufficiently large local material support to assign jointly valid mass, velocity, pressure, and viscous-stress readings.
 
 If the resolving volume of a proposed singular field shrinks to zero at finite material realization density, then the original joint continuum projection cannot remain admissible all the way to that zero-volume limit.
 
@@ -1063,7 +1063,7 @@ By Proposition 119.1, the required dense material-support condition fails at a f
 
 Because that condition is necessary for membership in the domain of the specified joint continuum projection, the projection cannot remain physically admissible beyond the point at which the condition fails.
 
-The failure does not establish which alternative count domain becomes operative. It establishes that continued use of the same projection requires an additional, independently admissible representation. \(\square\)
+The failure does not establish which alternative count domain becomes operative. It establishes that continued use of the same projection requires an additional, independently admissible representation. $\square$
 
 This proposition strengthens Addendum 1 by identifying the continuum description as a **joint mechanical read**, rather than only a density or occupancy approximation.
 
@@ -1133,7 +1133,7 @@ It is the change in state classification required when the former boundary's phy
 
 The distinction can be expressed through two different limiting procedures.
 
-Let \(v_*>0\) be the finite physical volume associated with one supporting material-inventory realization under the selected calibration.
+Let $v_*>0$ be the finite physical volume associated with one supporting material-inventory realization under the selected calibration.
 
 The projected supporting inventory is
 
@@ -1158,7 +1158,7 @@ $$
 \frac{\tau^\alpha}{v_*}.
 $$
 
-For fixed positive \(\tau\), the idealized continuum limit
+For fixed positive $\tau$, the idealized continuum limit
 
 $$
 v_*\longrightarrow0
@@ -1172,9 +1172,9 @@ $$
 
 At every nonzero resolving volume, the mathematical idealization supplies arbitrarily large count support.
 
-If this limit is imposed first, the continuum can subsequently be continued toward \(\tau=0\) while formally retaining an unlimited supporting count.
+If this limit is imposed first, the continuum can subsequently be continued toward $\tau=0$ while formally retaining an unlimited supporting count.
 
-By contrast, for every fixed finite \(v_*>0\),
+By contrast, for every fixed finite $v_*>0$,
 
 $$
 \lim_{\tau\to0^+}\bar q_{\mathrm{core}}(\tau)=0.

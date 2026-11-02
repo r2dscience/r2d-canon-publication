@@ -36,7 +36,7 @@ Two classes of compatible occurrence become distinguishable. A mass-bearing occu
 
 These results require neither persistent molecular trajectories nor primitive spatial differential equations. They follow from specified boundary-owned compatibility and counting relations.
 
-Under separate physical mass, momentum, reference-frame, and clock calibrations, the finite inventory relation admits the continuity equation. Where the enclosing water boundary also admits a common mass-barycentric velocity read, its joint mass–momentum relation acquires the familiar advective tensor \(\rho\mathbf u\otimes\mathbf u\).
+Under separate physical mass, momentum, reference-frame, and clock calibrations, the finite inventory relation admits the continuity equation. Where the enclosing water boundary also admits a common mass-barycentric velocity read, its joint mass–momentum relation acquires the familiar advective tensor $\rho\mathbf u\otimes\mathbf u$.
 
 The R²D laws do not uniquely determine the water boundary's compatibility relation or its physical constitutive parameters. They relate the realized recurrence of compatible enclosing occurrences to completed subordinate closure asymmetry. Conservation is therefore established before transport in the logical order of boundary definition, not as a claim that conserved physical quantities exist independently of their enclosing boundary.
 
@@ -70,27 +70,27 @@ This principle does not assert that every R²D boundary conserves water inventor
 
 ## 116.2. The Enclosing Water Inventory
 
-Let \(B_J\) contain a finite collection of water-readable peer regions,
+Let $B_J$ contain a finite collection of water-readable peer regions,
 
 $$
 B_1,B_2,\ldots,B_m.
 $$
 
-For each region \(B_a\), define the realized inventory count
+For each region $B_a$, define the realized inventory count
 
 $$
 q_a\in\mathbb N_0.
 $$
 
-The quantity \(q_a\) counts the occupied water-inventory units distinguished at that boundary.
+The quantity $q_a$ counts the occupied water-inventory units distinguished at that boundary.
 
-It is not the native multiplicity \(W_a\), and it is not the occupancy-frequency count \(c_a\) of one macrostate.
+It is not the native multiplicity $W_a$, and it is not the occupancy-frequency count $c_a$ of one macrostate.
 
 These count types answer different questions:
 
-- \(W_a\): How many subordinate realizations are compatible with a specified macrostate?
-- \(c_a\): How often is that macrostate occupied in the specified realization domain?
-- \(q_a\): How much material inventory is readable in the selected water-inventory classification?
+- $W_a$: How many subordinate realizations are compatible with a specified macrostate?
+- $c_a$: How often is that macrostate occupied in the specified realization domain?
+- $q_a$: How much material inventory is readable in the selected water-inventory classification?
 
 The total enclosing inventory is
 
@@ -139,9 +139,9 @@ k_a=a_+-a_-.
 \tag{116.3}
 $$
 
-Thus \(q_a\) is orientation-even and \(k_a\) is orientation-odd.
+Thus $q_a$ is orientation-even and $k_a$ is orientation-odd.
 
-Reversing the orientation reference changes the sign of \(k_a\) without changing \(q_a\).
+Reversing the orientation reference changes the sign of $k_a$ without changing $q_a$.
 
 The two classifications obey the exact admissibility conditions
 
@@ -201,7 +201,7 @@ The one-direction finite construction below requires no such additional assumpti
 
 ## 116.4. A Complete Enclosing Transport Occurrence
 
-Let the enclosing boundary distinguish oriented interfaces \(e\) between its peer regions.
+Let the enclosing boundary distinguish oriented interfaces $e$ between its peer regions.
 
 Each interface admits two different completed output records:
 
@@ -233,7 +233,7 @@ Both outputs belong to the same enclosing occurrence.
 
 They are not two independently acting subordinate mechanisms.
 
-For an oriented interface from region \(A\) to region \(B\), specify the joint compatibility relation
+For an oriented interface from region $A$ to region $B$, specify the joint compatibility relation
 
 $$
 \boxed{
@@ -270,7 +270,7 @@ They do not require identifying a particular molecular constituent that persists
 
 ### Proposition 116.1 — Paired Conservation Under an Enclosing Interface Occurrence
 
-Let \(B_J\) define a complete occurrence with regional inventory and directional-count changes satisfying equation (116.9).
+Let $B_J$ define a complete occurrence with regional inventory and directional-count changes satisfying equation (116.9).
 
 Then the occurrence conserves both total inventory and total directional count.
 
@@ -288,7 +288,7 @@ $$
 -h_P+h_P=0.
 $$
 
-Hence the two total counts are invariant under the complete occurrence. \(\square\)
+Hence the two total counts are invariant under the complete occurrence. $\square$
 
 This is an exact count theorem conditional on the specified compatibility relation.
 
@@ -424,7 +424,7 @@ $$
 
 **Proof.**
 
-Equation (116.13) supplies an explicit admissible finite realization. The regional inventories return their original values, whereas the regional directional counts change by equal and opposite amounts. Both enclosing totals remain conserved. \(\square\)
+Equation (116.13) supplies an explicit admissible finite realization. The regional inventories return their original values, whereas the regional directional counts change by equal and opposite amounts. Both enclosing totals remain conserved. $\square$
 
 This is a structural distinction, not yet a physical viscosity law.
 
@@ -432,8 +432,8 @@ This is a structural distinction, not yet a physical viscosity law.
 
 | Count read | Mass-bearing occurrence | Shear-like occurrence |
 |---|---:|---:|
-| Inventory transferred \(h_M\) | 1 | 0 |
-| Directional momentum transferred \(h_P\) | 1 | 2 |
+| Inventory transferred $h_M$ | 1 | 0 |
+| Directional momentum transferred $h_P$ | 1 | 2 |
 | Total inventory conserved | Yes | Yes |
 | Total directional count conserved | Yes | Yes |
 | Regional inventory unchanged | No | Yes |
@@ -463,7 +463,7 @@ $$
 X_4=(4,0;2,2).
 $$
 
-For \(x=a_+\), their native multiplicities are
+For $x=a_+$, their native multiplicities are
 
 $$
 W_x=\binom4x\binom4{6-x}.
@@ -505,11 +505,11 @@ $$
 
 Their possible pair counts are:
 
-| Macrostate | \(W\) | \(F_+\) | \(F_-\) | \(F_0\) |
+| Macrostate | $W$ | $F_+$ | $F_-$ | $F_0$ |
 |---|---:|---:|---:|---:|
-| \(X_2\) | 6 | 0 | 8 | 8 |
-| \(X_3\) | 16 | 3 | 3 | 10 |
-| \(X_4\) | 6 | 8 | 0 | 8 |
+| $X_2$ | 6 | 0 | 8 | 8 |
+| $X_3$ | 16 | 3 | 3 | 10 |
+| $X_4$ | 6 | 8 | 0 | 8 |
 
 For these fixed-region classifications, the native possible pairing relation is exact.
 
@@ -535,7 +535,7 @@ It counts possible pairings under the defined classification.
 
 The number of times a complete enclosing occurrence actually recurs must be counted separately.
 
-Moreover, the earlier mass-bearing example changes regional inventory capacities from \((4,4)\) to \((3,5)\). It therefore cannot be analyzed by blindly applying the same fixed-\((4,4)\) native multiplicity landscape.
+Moreover, the earlier mass-bearing example changes regional inventory capacities from $(4,4)$ to $(3,5)$. It therefore cannot be analyzed by blindly applying the same fixed-$(4,4)$ native multiplicity landscape.
 
 Changing the regional inventory classification changes the relevant local possibility domain.
 
@@ -595,7 +595,7 @@ The distinction is precisely the one developed in Addendum 107: possible counts 
 
 The two-region result extends to an arbitrary finite enclosing network.
 
-Let the boundary distinguish \(m\) regions and \(E\) oriented interfaces.
+Let the boundary distinguish $m$ regions and $E$ oriented interfaces.
 
 Define the incidence matrix
 
@@ -683,7 +683,7 @@ $$
 \mathbf1^{\mathsf T}D=0.
 $$
 
-Applying this identity to each complete output record establishes the two conservation results. \(\square\)
+Applying this identity to each complete output record establishes the two conservation results. $\square$
 
 The theorem does not require that material and momentum be carried by the same identifiable subordinate object.
 
@@ -705,7 +705,7 @@ $$
 U\longrightarrow A\longrightarrow B\longrightarrow L.
 $$
 
-Here \(U\) supplies the intermediate water regions, and \(L\) receives their output.
+Here $U$ supplies the intermediate water regions, and $L$ receives their output.
 
 The three directed interface records are
 
@@ -772,7 +772,7 @@ j_{UA}=j_{AB}=j_{BL}=h.
 \tag{116.24}
 $$
 
-The common throughput \(h\) need not vanish.
+The common throughput $h$ need not vanish.
 
 ### Proposition 116.3 — Steady Regional Classification Permits Nonzero Throughput
 
@@ -780,7 +780,7 @@ In a conservation-compatible three-interface enclosing chain, zero accumulation 
 
 **Proof.**
 
-Setting the two intermediate differences in equation (116.23) to zero gives the two equalities above. Their combination gives equation (116.24). No condition requires \(h=0\). \(\square\)
+Setting the two intermediate differences in equation (116.23) to zero gives the two equalities above. Their combination gives equation (116.24). No condition requires $h=0$. $\square$
 
 This is the exact finite-count distinction between steady accumulation and steady throughput.
 
@@ -837,9 +837,9 @@ $$
 K_J=12.
 $$
 
-All regional \((q,k)\) pairs satisfy the binary orientation admissibility conditions.
+All regional $(q,k)$ pairs satisfy the binary orientation admissibility conditions.
 
-The intermediate regions \(A\) and \(B\) are unchanged in both readable classifications.
+The intermediate regions $A$ and $B$ are unchanged in both readable classifications.
 
 Nevertheless, both material and momentum have nonzero completed output through those regions.
 
@@ -918,7 +918,7 @@ The incidence equations alone do not specify which water occurrences can be real
 
 A complete enclosing relation must also preserve the admissibility of every regional state and identify the compatible subordinate closures and enclosing output records.
 
-For an enclosing occurrence class \(\chi\), define
+For an enclosing occurrence class $\chi$, define
 
 $$
 \boxed{
@@ -976,7 +976,7 @@ W,\quad \Theta,\quad F,\quad
 N_{\mathcal C},\quad N_\chi.
 $$
 
-Here \(F\) denotes a possible interfacial pairing count in the finite orientation example, not a force.
+Here $F$ denotes a possible interfacial pairing count in the finite orientation example, not a force.
 
 Native and enclosing multiplicities count possibilities.
 
@@ -990,7 +990,7 @@ The existence of a possible interface pairing does not establish how often the c
 
 Part I's R²D law connects a completed representative local closure with an enclosing occurrence.
 
-For each selected enclosing class \(\chi\), define the completed local closure asymmetry
+For each selected enclosing class $\chi$, define the completed local closure asymmetry
 
 $$
 \Delta A_{\mathcal C_\chi}
@@ -1011,7 +1011,7 @@ C_{J,\chi}\lambda_{J,\chi}N_\chi.
 \tag{116.29}
 $$
 
-For nonzero \(C_{J,\chi}\lambda_{J,\chi}\),
+For nonzero $C_{J,\chi}\lambda_{J,\chi}$,
 
 $$
 \boxed{
@@ -1033,7 +1033,7 @@ $$
 
 Only the productive component enters local retention. The total constraint enters the recurrence-weighted enclosing realization.
 
-Suppose the enclosing class \(\chi\) carries a signed material-output record \(h_{M,\chi}\) and a signed directional-momentum-output record \(h_{P,\chi}\).
+Suppose the enclosing class $\chi$ carries a signed material-output record $h_{M,\chi}$ and a signed directional-momentum-output record $h_{P,\chi}$.
 
 Over the comparison domain,
 
@@ -1083,11 +1083,11 @@ $$
 
 These are the recurrence-weighted count expressions for the complete material and directional-momentum output records.
 
-The signed output \(h_{P,\chi}\) must not be confused with the nonnegative recurrence count \(N_\chi\).
+The signed output $h_{P,\chi}$ must not be confused with the nonnegative recurrence count $N_\chi$.
 
 Forward and reverse enclosing output classes can have distinct compatible closure and constraint relations. The R²D law applies to each appropriately defined class; the signed net output is calculated after the individual realized counts are determined.
 
-Nor should the opposed-leg occurrence counts \(\nu_H,\nu_L\) be identified with positive and negative enclosing-output recurrence counts.
+Nor should the opposed-leg occurrence counts $\nu_H,\nu_L$ be identified with positive and negative enclosing-output recurrence counts.
 
 The Second Law separately relates their nonreciprocity to the enclosing background.
 
@@ -1119,7 +1119,7 @@ P_a=p_*k_a,
 \tag{116.34}
 $$
 
-where \(m_*\) and \(p_*\) are independently specified mass and signed-momentum calibrations.
+where $m_*$ and $p_*$ are independently specified mass and signed-momentum calibrations.
 
 These are boundary-specific physical mappings, not primitive R²D identities.
 
@@ -1293,7 +1293,7 @@ The physical boundary determines which complete events are compatible.
 
 The preceding decomposition has an additional physical consistency property.
 
-Under a change of low-speed inertial reference by velocity \(V\), the calibrated transfer reads transform as
+Under a change of low-speed inertial reference by velocity $V$, the calibrated transfer reads transform as
 
 $$
 \Delta M_e'=\Delta M_e,
@@ -1360,7 +1360,7 @@ A full physical vector calibration must preserve the joint admissibility of the 
 
 We now introduce a physical spatial and clock representation.
 
-Let a selected physical fluid region \(\Omega\) possess mass density
+Let a selected physical fluid region $\Omega$ possess mass density
 
 $$
 \rho(\mathbf x,t).
@@ -1454,7 +1454,7 @@ The present addendum does not change that result.
 
 Apply the physical mass–momentum decomposition to a small oriented surface element.
 
-Let its unit normal be \(\mathbf n\), and let the enclosing fluid boundary admit the single-fluid mass-flux read
+Let its unit normal be $\mathbf n$, and let the enclosing fluid boundary admit the single-fluid mass-flux read
 
 $$
 \mathbf j_m=\rho\mathbf u.
@@ -1466,7 +1466,7 @@ $$
 j_m(\mathbf n)=\rho\mathbf u\cdot\mathbf n.
 $$
 
-If the bulk advective momentum read per unit transferred mass is \(\mathbf u\), then its vector flux is
+If the bulk advective momentum read per unit transferred mass is $\mathbf u$, then its vector flux is
 
 $$
 \mathbf j_{P,\mathrm{adv}}(\mathbf n)
@@ -1525,16 +1525,16 @@ $$
 \tag{116.47}
 $$
 
-The physical normal and tangential stress readings of \(\mathbf F_{\mathrm{rel}}\) are developed in the subsequent constraint addendum.
+The physical normal and tangential stress readings of $\mathbf F_{\mathrm{rel}}$ are developed in the subsequent constraint addendum.
 
 ### Proposition 116.4 — Conditional Advective Projection
 
 Suppose a conservation-compatible enclosing water boundary admits:
 
-1. A calibrated mass-density read \(\rho\).
-2. A mass-barycentric velocity read \(\mathbf u\).
-3. A mass flux \(\mathbf j_m=\rho\mathbf u\).
-4. A bulk momentum transfer per unit mass equal to that same \(\mathbf u\).
+1. A calibrated mass-density read $\rho$.
+2. A mass-barycentric velocity read $\mathbf u$.
+3. A mass flux $\mathbf j_m=\rho\mathbf u$.
+4. A bulk momentum transfer per unit mass equal to that same $\mathbf u$.
 
 Then the corresponding advective momentum-flux tensor is
 
@@ -1547,7 +1547,7 @@ $$
 
 **Proof.**
 
-Across any oriented surface, the mass flux is \(\rho\mathbf u\cdot\mathbf n\). Multiplying by the bulk momentum per unit mass gives the vector flux in equation (116.45). The stated tensor represents that surface read for every \(\mathbf n\). \(\square\)
+Across any oriented surface, the mass flux is $\rho\mathbf u\cdot\mathbf n$. Multiplying by the bulk momentum per unit mass gives the vector flux in equation (116.45). The stated tensor represents that surface read for every $\mathbf n$. $\square$
 
 This is a conditional physical derivation. It does not promote the velocity field or spatial geometry into primitive R²D count objects.
 

@@ -118,7 +118,7 @@ This addendum specifies that order and identifies which steps are exact count re
 
 ## 118.2. One Enclosing Fluid Boundary
 
-Let \(B_J\) contain a fluid system, its relevant supplying and receiving boundaries, and the mechanical reference relative to which its directional states are read.
+Let $B_J$ contain a fluid system, its relevant supplying and receiving boundaries, and the mechanical reference relative to which its directional states are read.
 
 Let its enclosing state contain the readable record
 
@@ -137,21 +137,21 @@ $$
 
 Here:
 
-- \(M\) is the readable fluid macrostate.
-- \(\mathbf q\) is the vector of realized material-inventory counts.
-- \(\mathbf k\) is the vector of signed directional-momentum counts.
-- \(\mathbf z_M\) records completed material output.
-- \(\mathbf z_P\) records completed directional-momentum output.
-- \(\gamma^{out}\) classifies retained distinguishable output.
-- \(\gamma^\Phi\) classifies background-associated realization.
-- \(b\) is the realized enclosing nondirectional-background count.
-- \(\gamma_{\mathrm{ref}}\) specifies the mechanical reference and relevant external preparation.
+- $M$ is the readable fluid macrostate.
+- $\mathbf q$ is the vector of realized material-inventory counts.
+- $\mathbf k$ is the vector of signed directional-momentum counts.
+- $\mathbf z_M$ records completed material output.
+- $\mathbf z_P$ records completed directional-momentum output.
+- $\gamma^{out}$ classifies retained distinguishable output.
+- $\gamma^\Phi$ classifies background-associated realization.
+- $b$ is the realized enclosing nondirectional-background count.
+- $\gamma_{\mathrm{ref}}$ specifies the mechanical reference and relevant external preparation.
 
 These are distinguishable aspects of one enclosing state.
 
 The definition does not assert that every variable is an independent degree of freedom. The enclosing compatibility relation determines which joint combinations are admissible.
 
-In particular, \(\mathbf q\) is not the native multiplicity \(W\) or the realization-frequency occupancy \(c\) of a macrostate. It is the selected realized material-inventory read.
+In particular, $\mathbf q$ is not the native multiplicity $W$ or the realization-frequency occupancy $c$ of a macrostate. It is the selected realized material-inventory read.
 
 ### Complete enclosing occurrences
 
@@ -163,7 +163,7 @@ $$
 
 be an admissible completed enclosing occurrence.
 
-For each interface \(e\), the occurrence may possess a signed material-output record
+For each interface $e$, the occurrence may possess a signed material-output record
 
 $$
 h^M_{e,\chi}
@@ -231,7 +231,7 @@ This preserves the original R²D ontology.
 
 ## 118.3. Conservation Is an Exact Property of Joint Compatibility
 
-Let the enclosing boundary distinguish \(m\) regional inventory reads and \(E\) oriented interfaces.
+Let the enclosing boundary distinguish $m$ regional inventory reads and $E$ oriented interfaces.
 
 Define the interface-incidence matrix
 
@@ -250,7 +250,7 @@ $$
 \tag{118.6}
 $$
 
-Let \(N_\chi\) count completed enclosing occurrences of class \(\chi\) over a specified common comparison domain.
+Let $N_\chi$ count completed enclosing occurrences of class $\chi$ over a specified common comparison domain.
 
 The accumulated material-output record is
 
@@ -273,7 +273,7 @@ $$
 \tag{118.7}
 $$
 
-where \(\mathbf s^M\) records admitted external inventory changes if the selected enclosing boundary is open.
+where $\mathbf s^M$ records admitted external inventory changes if the selected enclosing boundary is open.
 
 For a closed inventory boundary,
 
@@ -339,7 +339,7 @@ Each completed internal output appears with opposite signs in the two regional r
 
 Summation over the enclosing regions cancels every internal output.
 
-Thus total inventory and directional momentum remain unchanged under every complete conservation-compatible occurrence. \(\square\)
+Thus total inventory and directional momentum remain unchanged under every complete conservation-compatible occurrence. $\square$
 
 The theorem contains no molecular trajectory, physical clock, viscosity coefficient, or spatial differential operator.
 
@@ -434,7 +434,7 @@ $$
 i\xrightarrow{H}k\xrightarrow{L}i
 $$
 
-be a representative completed subordinate closure compatible with occurrence class \(\chi\).
+be a representative completed subordinate closure compatible with occurrence class $\chi$.
 
 Its native multiplicity returns exactly:
 
@@ -561,7 +561,7 @@ $$
 
 The opposed-leg counts are not the positive and negative enclosing fluid-output occurrence counts.
 
-Nor are they interchangeable with \(N_{\mathcal C}\) or \(N_\chi\).
+Nor are they interchangeable with $N_{\mathcal C}$ or $N_\chi$.
 
 In particular,
 
@@ -592,7 +592,7 @@ $$
 \mathbf P_a=p_*\mathbf k_a,
 $$
 
-where \(m_*\) and \(p_*\) are independently calibrated physical units for the selected inventory and directional-count realization.
+where $m_*$ and $p_*$ are independently calibrated physical units for the selected inventory and directional-count realization.
 
 The bulk velocity relative to the enclosing mechanical reference is
 
@@ -619,7 +619,7 @@ $$
 \Delta\mathbf P_e=p_*\mathbf h_P.
 $$
 
-For a selected interface bulk-velocity read \(\mathbf u_e\), the exact physical decomposition is
+For a selected interface bulk-velocity read $\mathbf u_e$, the exact physical decomposition is
 
 $$
 \boxed{
@@ -666,7 +666,7 @@ A zero-net-material occurrence may have nonzero relative momentum throughput.
 
 ### Reference consistency
 
-Under a common low-speed inertial-reference change by velocity \(\mathbf V\),
+Under a common low-speed inertial-reference change by velocity $\mathbf V$,
 
 $$
 \Delta\mathbf P_e'
@@ -697,7 +697,7 @@ This is a downstream mechanical covariance property, not an identity asserting t
 
 ## 118.7. Continuity Is the Physical Projection of Inventory Conservation
 
-Let a physically calibrated water region \(\Omega\) possess density
+Let a physically calibrated water region $\Omega$ possess density
 
 $$
 \rho(\mathbf x,t)
@@ -769,7 +769,7 @@ The logical distinction is precise.
 
 The integral conservation relation is the physical representation of the finite enclosing inventory invariant.
 
-The identification of mass flux with \(\rho\mathbf u\) is a physical single-fluid calibration.
+The identification of mass flux with $\rho\mathbf u$ is a physical single-fluid calibration.
 
 The R²D recurrence law does not independently require every conservation-compatible boundary to possess that mass-barycentric flux read.
 
@@ -777,7 +777,7 @@ The continuum approximation also does not turn primitive recursive replacement i
 
 ## 118.8. Advection Is the Joint Mass–Momentum Projection
 
-Consider a physical surface with outward normal \(\mathbf n\).
+Consider a physical surface with outward normal $\mathbf n$.
 
 For the single-fluid mass-barycentric read,
 
@@ -787,7 +787,7 @@ j_m(\mathbf n)
 \rho\mathbf u\cdot\mathbf n.
 $$
 
-The bulk momentum transferred per unit mass is \(\mathbf u\).
+The bulk momentum transferred per unit mass is $\mathbf u$.
 
 Thus the corresponding advective momentum-flux vector is
 
@@ -943,7 +943,7 @@ It is a mechanical constraint read that may be present in a balanced enclosing s
 
 ### The pressure gradient
 
-For a region of physical volume \(V_A=\mathcal A L\),
+For a region of physical volume $V_A=\mathcal A L$,
 
 $$
 \frac1{V_A}
@@ -973,7 +973,7 @@ $$
 p=p_{\mathrm{ref}}+\Pi_J^{out},
 $$
 
-where \(\Pi_J^{out}\) denotes the calibrated retained normal-constraint read.
+where $\Pi_J^{out}$ denotes the calibrated retained normal-constraint read.
 
 The pressure gradient is independent of an arbitrary additive reference:
 
@@ -1001,13 +1001,13 @@ Addendum 116 demonstrated the finite count admissibility of this distinction.
 
 The physical question is how the enclosing water boundary constrains relative directional momentum throughput.
 
-In the muscle realization, Part II assigns frictional mechanical resistance to the background-associated component \(C^\Phi\).
+In the muscle realization, Part II assigns frictional mechanical resistance to the background-associated component $C^\Phi$.
 
 The analogous fluid-mechanical realization associates the relevant shear resistance with a mode-specific background-associated constraint.
 
 ### Planar shear calibration
 
-Let one enclosing shear occurrence possess distinguishability \(\lambda_s\) and completed recurrence rate \(r_s\).
+Let one enclosing shear occurrence possess distinguishability $\lambda_s$ and completed recurrence rate $r_s$.
 
 Suppose its physical relative-velocity read is
 
@@ -1018,7 +1018,7 @@ U=a_s\lambda_sr_s,
 \tag{118.37}
 $$
 
-with displacement calibration \(a_s\).
+with displacement calibration $a_s$.
 
 Suppose the same complete occurrence admits the dissipative mechanical-power read
 
@@ -1033,7 +1033,7 @@ $$
 
 This is a proposed boundary-specific mechanical calibration analogous to Part II's muscle frictional read.
 
-For positive planar shear, the resisting traction magnitude \(\tau_s\) over area \(\mathcal A_s\) satisfies
+For positive planar shear, the resisting traction magnitude $\tau_s$ over area $\mathcal A_s$ satisfies
 
 $$
 \mathcal P_\Phi
@@ -1055,7 +1055,7 @@ $$
 
 The dimensions are those of stress.
 
-The signed physical traction additionally requires the enclosing shear-orientation read, since \(C^\Phi\) is nonnegative.
+The signed physical traction additionally requires the enclosing shear-orientation read, since $C^\Phi$ is nonnegative.
 
 ### Effective viscosity
 
@@ -1071,7 +1071,7 @@ $$
 \mu_{\mathrm{eff}}=\frac{\tau_s}{g}
 $$
 
-for \(g>0\).
+for $g>0$.
 
 Therefore,
 
@@ -1172,7 +1172,7 @@ $$
 \mathbf D-\frac13(\nabla\cdot\mathbf u)\mathbf I.
 $$
 
-The shear viscosity \(\mu_J\) and bulk viscosity \(\zeta_J\) are distinct physical constraint-response coefficients.
+The shear viscosity $\mu_J$ and bulk viscosity $\zeta_J$ are distinct physical constraint-response coefficients.
 
 For incompressible flow,
 
@@ -1189,7 +1189,7 @@ $$
 \tag{118.44}
 $$
 
-When \(\mu_J\) is spatially constant,
+When $\mu_J$ is spatially constant,
 
 $$
 \boxed{
@@ -1245,7 +1245,7 @@ These are compatible physical readings of the enclosing fluid organization.
 
 They are not three primitive independently originating causal mechanisms.
 
-For a physical control region \(\Omega\), the finite enclosing momentum-conservation relation acquires the integral representation
+For a physical control region $\Omega$, the finite enclosing momentum-conservation relation acquires the integral representation
 
 $$
 \boxed{
@@ -1260,7 +1260,7 @@ $$
 \tag{118.47}
 $$
 
-Here \(\rho\mathbf f\) denotes an independently admitted physical body-force density.
+Here $\rho\mathbf f$ denotes an independently admitted physical body-force density.
 
 It is the physical reading of any source record not included within the closed momentum boundary. It is not automatically identical to a primitive R²D constraint.
 
@@ -1300,7 +1300,7 @@ $$
 \tag{118.49}
 $$
 
-For constant-density incompressible Newtonian flow with constant \(\mu_J\),
+For constant-density incompressible Newtonian flow with constant $\mu_J$,
 
 $$
 \boxed{
@@ -1341,7 +1341,7 @@ The isotropic linear dissipative-constraint mapping yields the Newtonian viscous
 
 The divergence theorem converts the calibrated integral momentum balance into equation (118.48), and continuity gives equation (118.49).
 
-Under the stated incompressible constant-viscosity conditions, the viscous-stress divergence reduces to the Laplacian contribution, yielding equation (118.50). \(\square\)
+Under the stated incompressible constant-viscosity conditions, the viscous-stress divergence reduces to the Laplacian contribution, yielding equation (118.50). $\square$
 
 This proposition is a conditional reconstruction theorem.
 
@@ -1438,17 +1438,17 @@ They must not be presented as one undifferentiated derivation.
 | Relationship | Status | What is established |
 |---|---|---|
 | Boundary-defined state and compatible realization fibers | Primitive R²D architecture | The enclosing boundary owns the count classification |
-| \(W\), \(\Theta\), \(P\), and local retention | Native count definitions | Possible multiplicity and constrained possibility are distinct |
+| $W$, $\Theta$, $P$, and local retention | Native count definitions | Possible multiplicity and constrained possibility are distinct |
 | Joint inventory and momentum incidence equations | Exact conditional count construction | Conserved totals follow from the specified joint compatibility |
 | Zero accumulation with nonzero throughput | Exact count consequence | Steady regional classification does not require zero output |
 | Material and mechanical output distinction | Exact joint-output classification | Momentum throughput need not equal material throughput |
-| Complete subordinate closure with \(\Delta S_{\mathcal C}=0\) | Exact native closure identity | Local multiplicity return does not force enclosing possibility return |
+| Complete subordinate closure with $\Delta S_{\mathcal C}=0$ | Exact native closure identity | Local multiplicity return does not force enclosing possibility return |
 | Recurrence-weighted R²D law | Canonical realization postulate | Local asymmetry and enclosing constrained recurrence are related |
 | Second Law of Recursive Counting | Canonical realization postulate | Opposed-leg nonreciprocity corresponds to enclosing background |
 | Material mass and physical momentum | Boundary-specific calibration | The selected counts acquire measurable mechanical units |
 | Continuity equation | Conditional physical projection | Conserved inventory becomes a physical mass-balance equation |
-| Advective tensor | Conditional physical mapping | A common mass-barycentric velocity produces \(\rho\mathbf u\otimes\mathbf u\) |
-| Pressure-gradient term | Conditional mechanical mapping | Retained normal traction differences produce \(-\nabla p\) |
+| Advective tensor | Conditional physical mapping | A common mass-barycentric velocity produces $\rho\mathbf u\otimes\mathbf u$ |
+| Pressure-gradient term | Conditional mechanical mapping | Retained normal traction differences produce $-\nabla p$ |
 | Newtonian viscous stress | Conditional constitutive mapping | Isotropic linear deformation response produces the Newtonian form |
 | Complete Navier–Stokes equation | Conditional synthesis | All physical mappings combine into a consistent continuum momentum balance |
 
@@ -1488,7 +1488,7 @@ $$
 \tau_2(g)=\alpha g^3,
 $$
 
-with positive coefficients and signed physical shear rate \(g\).
+with positive coefficients and signed physical shear rate $g$.
 
 Both satisfy
 
@@ -1522,7 +1522,7 @@ The difference is determined by the enclosing fluid boundary and its mechanical 
 
 The two stress responses above both satisfy the same finite material and momentum conservation identities while producing different physical shear stresses for the same nonzero shear rate.
 
-Because the canonical R²D law relates realized recurrence to the constraint of the selected compatible occurrence, rather than independently specifying that constraint for every material, it does not eliminate either response from the general architecture. \(\square\)
+Because the canonical R²D law relates realized recurrence to the constraint of the selected compatible occurrence, rather than independently specifying that constraint for every material, it does not eliminate either response from the general architecture. $\square$
 
 The consequence is important.
 
@@ -1556,7 +1556,7 @@ N_\chi
 N_{\mathcal C}.
 $$
 
-If each completed enclosing occurrence has an independently calibrated material-volume output \(v_*\), and the same comparison counts admit a clock interval \(\Delta t\), the corresponding physical volume-throughput read is
+If each completed enclosing occurrence has an independently calibrated material-volume output $v_*$, and the same comparison counts admit a clock interval $\Delta t$, the corresponding physical volume-throughput read is
 
 $$
 \boxed{
