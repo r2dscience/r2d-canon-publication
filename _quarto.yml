@@ -113,6 +113,7 @@ book:
         - addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.md
         - addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.md
         - addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.md
+        - addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.md
 format:
   html:
     theme: cosmo
