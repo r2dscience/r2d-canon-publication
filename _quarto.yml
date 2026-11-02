@@ -107,6 +107,12 @@ book:
         - addenda/addendum-111-the-objectification-of-the-unreadable.md
         - addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.md
         - addenda/addendum-113-r2d-and-the-black-hole-information-paradox.md
+        - addenda/addendum-115-what-sustains-flow.md
+        - addenda/addendum-116-conservation-before-transport.md
+        - addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.md
+        - addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.md
+        - addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.md
+        - addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.md
 format:
   html:
     theme: cosmo
