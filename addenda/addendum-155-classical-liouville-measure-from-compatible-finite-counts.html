@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-11-19">
+
+<title>Addendum 155 — Classical Liouville Measure from Compatible Finite Counts – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-154-operational-junction-records-and-two-dimensional-closure.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bba8424626394152806366a5224754b7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-155-classical-liouville-measure-from-compatible-finite-counts.html"><span class="chapter-title">Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Author’s Note on AI</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part I — A Theory of Dimensionless Recursive Counting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-098-enclosing-compatibility-occurs-before-microscopic-causality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 98: Enclosing Compatibility Occurs Before Microscopic Causality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-099-born-rule-consistency-without-primitive-quantum-causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 99 — Born-Rule Consistency Without Primitive Quantum Causation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-100-the-empty-vessel-recursive-replacement-observation-and-irreversibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 100 — The Empty Vessel: Recursive Replacement, Observation, and Irreversibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-101-the-enclosing-relation-before-quantum-representation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 101 — The Enclosing Relation Before Quantum Representation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-102-particles-are-imagined.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 102 — Particles Are Imagined</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-103-the-causal-implications-of-the-microstate-definition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 103 — The Causal Implications of the Microstate Definition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-104-the-count-relation-survives-before-state-identity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 104 — The Count Relation Survives Before State Identity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-105-the-observational-inversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 105 — The Observational Inversion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-107-possibilities-pull-probabilities-do-not-push.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 107 — Possibilities Pull; Probabilities Do Not Push</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-108-a-branch-is-not-an-occupied-world.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 108 — A Branch Is Not an Occupied World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-109-charge-classification-occurs-before-causal-strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 109 — Charge Classification Occurs Before Causal Strings</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-110-the-inferred-gravitational-source-is-not-an-occupied-object.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 110 — The Inferred Gravitational Source Is Not an Occupied Object</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-111-the-objectification-of-the-unreadable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 111 — The Objectification of the Unreadable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 112 — Sampled Multiplicity Before Thermal Fluctuations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-113-r2d-and-the-black-hole-information-paradox.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 113 — R²D and the Black Hole Information Paradox</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-115-what-sustains-flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 115 — What Sustains Flow?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-116-conservation-before-transport.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 117 — Pressure and Viscosity Are Enclosing Constraints</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-122-enclosing-compatibility-before-categorical-composition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 122 — Enclosing Compatibility Before Categorical Composition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-123-enclosing-possibility-before-model-based-decision.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 123 — Enclosing Possibility Before Model-Based Decision</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-124-enclosing-recurrence-before-competing-closure-counts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 124 — Enclosing Recurrence Before Competing Closure Counts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-125-native-occurrence-before-completed-closure-statistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 125 — Native Occurrence Before Completed-Closure Statistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-126-consciousness-free-will-and-the-projection-of-causal-agency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 126 — Consciousness, Free Will, and the Projection of Causal Agency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-127-the-readability-horizon-of-conscious-agency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 127 — The Readability Horizon of Conscious Agency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-128-the-hidden-torus-and-the-enclosing-well.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 128 — The Hidden Torus and the Enclosing Well</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-129-spinorial-sign-reversal-as-boundary-relative-closure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-130-closure-recorded-occurrence-and-the-quantum-readability-horizon.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 130 — Closure, Recorded Occurrence, and the Quantum Readability Horizon</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-131-symmetric-background-before-turbine-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 131 — Symmetric Background Before Turbine Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-132-the-invariant-that-survives-two-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 132 — The Invariant That Survives Two Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-133-thermodynamic-doppler-reciprocity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 133 — Thermodynamic Doppler Reciprocity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-134-symmetric-recurrence-across-the-two-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 134 — Symmetric Recurrence Across the Two Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-135-the-admissible-structures-of-symmetric-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 135 — The Admissible Structures of Symmetric Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-136-native-identification-constrains-symmetric-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 136 — Native Identification Constrains Symmetric Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-137-enclosing-compatibility-determines-cross-stage-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 137 — Enclosing Compatibility Determines Cross-Stage Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-138-enclosing-native-recurrence-before-subordinate-decomposition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 138 — Enclosing-Native Recurrence Before Subordinate Decomposition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-139-observational-coherence-across-recursive-backgrounds.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 139 — Observational Coherence Across Recursive Backgrounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-140-compatibility-fingerprints-and-relational-persistence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 140 — Compatibility Fingerprints and Relational Persistence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-141-background-scales-before-motion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 141 — Background Scales Before Motion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-142-relative-motion-before-velocity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 142 — Relative Motion Before Velocity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-143-mass-light-and-kinetic-energy-as-background-defined-physical-reads.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 143 — Mass, Light, and Kinetic Energy as Background-Defined Physical Reads</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-144-from-relative-distinguishability-to-energetic-readability.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 144 — From Relative Distinguishability to Energetic Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-145-propagation-as-enclosing-constraint-and-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 145 — Propagation as Enclosing Constraint and Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-146-enclosing-possibility-before-electromagnetic-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 146 — Enclosing Possibility Before Electromagnetic Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-147-electromagnetic-radiation-as-a-background-defined-physical-read.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 147 — Electromagnetic Radiation as a Background-Defined Physical Read</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-148-bound-closure-across-gravitational-and-quantum-reads.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 148 — Bound Closure Across Gravitational and Quantum Reads</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-149-electric-and-magnetic-reads-of-reciprocal-constraint-possibility-propagation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 149 — Electric and Magnetic Reads of Reciprocal Constraint–Possibility Propagation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-150-one-enclosing-compatibility-across-three-readability-regimes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 150 — One Enclosing Compatibility Across Three Readability Regimes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-151-retained-constraint-as-enclosing-compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 151 — Retained Constraint as Enclosing Compatibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-152-states-and-processes-as-complementary-reads-of-enclosing-compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 152 — States and Processes as Complementary Reads of Enclosing Compatibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-153-symplectic-pairing-from-enclosing-closure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 153 — Symplectic Pairing from Enclosing Closure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-154-operational-junction-records-and-two-dimensional-closure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 154 — Operational Junction Records and Two-Dimensional Closure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-155-classical-liouville-measure-from-compatible-finite-counts.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#r²d-addendum-155-classical-liouville-measure-from-compatible-finite-counts" id="toc-r²d-addendum-155-classical-liouville-measure-from-compatible-finite-counts" class="nav-link active" data-scroll-target="#r²d-addendum-155-classical-liouville-measure-from-compatible-finite-counts">R²D Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#reconstruction-question-and-canonical-count-distinctions" id="toc-reconstruction-question-and-canonical-count-distinctions" class="nav-link" data-scroll-target="#reconstruction-question-and-canonical-count-distinctions">155.1. Reconstruction question and canonical count distinctions</a></li>
+  <li><a href="#the-integral-intersection-lattice-before-physical-phase-space" id="toc-the-integral-intersection-lattice-before-physical-phase-space" class="nav-link" data-scroll-target="#the-integral-intersection-lattice-before-physical-phase-space">155.2. The integral intersection lattice before physical phase space</a></li>
+  <li><a href="#theorem-155.1-exact-consistency-of-finite-modular-count-measures" id="toc-theorem-155.1-exact-consistency-of-finite-modular-count-measures" class="nav-link" data-scroll-target="#theorem-155.1-exact-consistency-of-finite-modular-count-measures">155.3. Theorem 155.1 — Exact consistency of finite modular count measures</a>
+  <ul class="collapse">
+  <li><a href="#an-obstruction-that-must-not-be-skipped" id="toc-an-obstruction-that-must-not-be-skipped" class="nav-link" data-scroll-target="#an-obstruction-that-must-not-be-skipped">An obstruction that must not be skipped</a></li>
+  </ul></li>
+  <li><a href="#specify-the-real-affine-completion-and-its-finite-cell-reads" id="toc-specify-the-real-affine-completion-and-its-finite-cell-reads" class="nav-link" data-scroll-target="#specify-the-real-affine-completion-and-its-finite-cell-reads">155.4. Specify the real affine completion and its finite cell reads</a></li>
+  <li><a href="#theorem-155.3-unique-borel-extension-of-compatible-counts" id="toc-theorem-155.3-unique-borel-extension-of-compatible-counts" class="nav-link" data-scroll-target="#theorem-155.3-unique-borel-extension-of-compatible-counts">155.5. Theorem 155.3 — Unique Borel extension of compatible counts</a>
+  <ul class="collapse">
+  <li><a href="#exact-finite-example" id="toc-exact-finite-example" class="nav-link" data-scroll-target="#exact-finite-example">Exact finite example</a></li>
+  </ul></li>
+  <li><a href="#theorem-155.4-identification-with-the-classical-liouville-measure" id="toc-theorem-155.4-identification-with-the-classical-liouville-measure" class="nav-link" data-scroll-target="#theorem-155.4-identification-with-the-classical-liouville-measure">155.6. Theorem 155.4 — Identification with the classical Liouville measure</a>
+  <ul class="collapse">
+  <li><a href="#why-the-intersection-pairing-is-indispensable" id="toc-why-the-intersection-pairing-is-indispensable" class="nav-link" data-scroll-target="#why-the-intersection-pairing-is-indispensable">Why the intersection pairing is indispensable</a></li>
+  </ul></li>
+  <li><a href="#theorem-155.5-finite-symplectic-transformations-preserve-the-count-measure" id="toc-theorem-155.5-finite-symplectic-transformations-preserve-the-count-measure" class="nav-link" data-scroll-target="#theorem-155.5-finite-symplectic-transformations-preserve-the-count-measure">155.7. Theorem 155.5 — Finite symplectic transformations preserve the count measure</a>
+  <ul class="collapse">
+  <li><a href="#counterexample-liouville-volume-does-not-determine-symplectic-structure" id="toc-counterexample-liouville-volume-does-not-determine-symplectic-structure" class="nav-link" data-scroll-target="#counterexample-liouville-volume-does-not-determine-symplectic-structure">Counterexample — Liouville volume does not determine symplectic structure</a></li>
+  </ul></li>
+  <li><a href="#theorem-155.6-conditional-hamiltonian-invariance-liouvilles-theorem" id="toc-theorem-155.6-conditional-hamiltonian-invariance-liouvilles-theorem" class="nav-link" data-scroll-target="#theorem-155.6-conditional-hamiltonian-invariance-liouvilles-theorem">155.8. Theorem 155.6 — Conditional Hamiltonian invariance (Liouville’s theorem)</a></li>
+  <li><a href="#noncompact-flat-phase-space-and-physical-calibration" id="toc-noncompact-flat-phase-space-and-physical-calibration" class="nav-link" data-scroll-target="#noncompact-flat-phase-space-and-physical-calibration">155.9. Noncompact flat phase space and physical calibration</a></li>
+  <li><a href="#why-uniform-counting-is-a-genuine-condition-not-a-general-law" id="toc-why-uniform-counting-is-a-genuine-condition-not-a-general-law" class="nav-link" data-scroll-target="#why-uniform-counting-is-a-genuine-condition-not-a-general-law">155.10. Why uniform counting is a genuine condition, not a general law</a></li>
+  <li><a href="#relationship-to-the-canon-and-to-standard-classical-mechanics" id="toc-relationship-to-the-canon-and-to-standard-classical-mechanics" class="nav-link" data-scroll-target="#relationship-to-the-canon-and-to-standard-classical-mechanics">155.11. Relationship to the canon and to standard classical mechanics</a></li>
+  <li><a href="#results-limitations-and-the-next-selection-question" id="toc-results-limitations-and-the-next-selection-question" class="nav-link" data-scroll-target="#results-limitations-and-the-next-selection-question">155.12. Results, limitations, and the next selection question</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#related-canon-addenda-and-mathematical-background" id="toc-related-canon-addenda-and-mathematical-background" class="nav-link" data-scroll-target="#related-canon-addenda-and-mathematical-background">Related canon, addenda, and mathematical background</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-155-classical-liouville-measure-from-compatible-finite-counts.html"><span class="chapter-title">Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</span></h1>
+<p class="subtitle lead">Uniform Refinement, Borel Extension, Symplectic Volume, and Hamiltonian Invariance</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 19, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="r²d-addendum-155-classical-liouville-measure-from-compatible-finite-counts" class="level1">
+<h1>R²D Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</h1>
+<p><em>Uniform Refinement, Borel Extension, Symplectic Volume, and Hamiltonian Invariance</em></p>
+<p><strong>Status:</strong> Author-approved for canon publication — November 20, 2026<br>
+<strong>Canonical basis:</strong> R²D Parts I–IV (September 25, 2026); especially Addenda 105, 116, 120, 122, 125, 131, 139, and 150–154.<br>
+<strong>Result type:</strong> Exact finite and measure-theoretic reconstruction <strong>conditional on a specified real affine completion</strong>, plus classical symplectic/Hamiltonian consistency. Neither a real continuum nor a physical Hamiltonian is derived from finite cardinality alone.</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Addendum 152 defined finite event algebras and counting measures for native states and complete processes, showing that independently uniform counts on successive process lengths need not form a consistent probability family. Addenda 153–154 supplied a different ingredient: explicit complete oriented closures with a nondegenerate <strong>unimodular integral intersection pairing</strong> on the surviving recurrence-class lattice. The open classical-measure question is whether one can connect these structures to the Liouville measure of classical mechanics without taking phase-space volume or physical position–momentum coordinates as primitive.</p>
+<p>We construct that connection in a precise finite-to-continuum model. Let <span class="math inline">\(L\cong\mathbb Z^{2g}\)</span> be the first-homology lattice of a selected complete oriented closure, with integral intersection form <span class="math inline">\(I\)</span> and canonical block matrix <span class="math inline">\(\mathbb J_g\)</span>. At each resolution <span class="math inline">\(N\ge2\)</span>, the finite count owner <span class="math inline">\(L/NL\)</span> has <span class="math inline">\(N^{2g}\)</span> labels, its power-set event algebra, and normalized uniform possible-count measure. These finite measures are exactly consistent under modular reduction. <strong>Their algebraic inverse limit is profinite, not a real phase space</strong>, so this fact alone does not yield Liouville measure.</p>
+<p>We next specify, independently and explicitly, the real affine completion <span class="math inline">\(L_{\mathbb R}=L\otimes_{\mathbb Z}\mathbb R\)</span> and its compact quotient <span class="math inline">\(T=L_{\mathbb R}/L\)</span>. A nested family of dyadic fundamental-domain cells supplies a different finite comparison map: each coarse cell has precisely <span class="math inline">\(2^{2g}\)</span> finer compatible cells. Uniform cell-count measures form a consistent premeasure whose unique regular Borel extension is normalized Lebesgue (equivalently Haar) measure on <span class="math inline">\(T\)</span>. The integral intersection form extends to a constant symplectic form <span class="math inline">\(\omega=\sum_i dx_i\wedge dy_i\)</span>, and its unimodularity gives total symplectic volume one on the fundamental domain. Consequently the count-derived Borel measure agrees <strong>exactly</strong> with the positive Liouville measure associated with <span class="math inline">\(\omega^g/g!\)</span>.</p>
+<p>Integral symplectic recurrence transformations preserve every finite modular count measure and the continuum Liouville measure. An admitted smooth Hamiltonian flow preserves <span class="math inline">\(\omega\)</span> and hence the same measure, giving Liouville’s theorem. A four-dimensional volume-preserving but nonsymplectic transformation proves that measure preservation alone cannot reconstruct the intersection pairing. The theorem is an exact <strong>existence and conditional identification result</strong> for a flat classical phase-space representation. It does not establish an intrinsic real-number system from counting, uniform realization frequencies, a unique Hamiltonian, an arbitrary physical phase-space manifold, or quantum nonadditive measurement structure.</p>
+<hr>
+</section>
+<section id="reconstruction-question-and-canonical-count-distinctions" class="level2">
+<h2 class="anchored" data-anchor-id="reconstruction-question-and-canonical-count-distinctions">155.1. Reconstruction question and canonical count distinctions</h2>
+<p>The primitive R²D ordering assigns distinguishable native states and compatible subordinate realizations relative to an enclosing owner before their physical interpretation. Part I distinguishes native multiplicity <span class="math inline">\(W\)</span>, enclosing compatible extension <span class="math inline">\(\Theta\)</span>, possible count, realized state occurrence <span class="math inline">\(\nu\)</span>, structural occupancy, and completed whole-closure recurrence. Addenda 125, 131, and 152 explicitly prohibit substituting one of these counts for another merely because their numerical values can be normalized.</p>
+<p>In Addendum 152, a finite molecule–reservoir owner admitted <span class="math inline">\(35\)</span> native possible states, <span class="math inline">\(120\)</span> oriented one-step processes, and <span class="math inline">\(420\)</span> adjacency-composable two-step records. Uniformly normalizing each complete-process domain by its own cardinality did <strong>not</strong> produce compatible probabilities across process lengths: the number of extensions depended on the source record. A count measure exists on each finite event algebra, but consistency across owners must be established, not presumed.</p>
+<p>Addenda 153–154 answered a different mathematical question. An explicitly selected complete oriented two-dimensional closure—requiring attachment information beyond first-order incidence—can have a surviving first-homology lattice with integral nondegenerate alternating intersection pairing. Addendum 153 supplied the rank-four, genus-two witness; Addendum 154 supplied a rank-two, genus-one witness, conditional on operational corner-and-channel-side compatibility. The intersection relation is <strong>not</strong> a time-ordered trajectory, a microscopic collision number, or a physical momentum determinant.</p>
+<p>The present question is:</p>
+<blockquote class="blockquote">
+<p><strong>Can a compatible family of finite event counts on such an enclosingly determined intersection lattice admit a real classical completion whose uniquely induced Borel measure is exactly the Liouville measure? What additional completion, symmetry, and calibration data are necessary?</strong></p>
+</blockquote>
+<p>We establish an explicit affirmative consistency result while distinguishing the finite theorem from the chosen real-completion condition. We do not require uniqueness of the R²D primitive owner or exclusion of alternative physical representations.</p>
+</section>
+<section id="the-integral-intersection-lattice-before-physical-phase-space" class="level2">
+<h2 class="anchored" data-anchor-id="the-integral-intersection-lattice-before-physical-phase-space">155.2. The integral intersection lattice before physical phase space</h2>
+<p>Let <span class="math inline">\(X_J\)</span> be a selected connected closed oriented cellular surface determined from complete attachment compatibility as in Addendum 153 or, conditionally, Addendum 154. Write</p>
+<p><span class="math display">\[
+\boxed{L=H_1(X_J;\mathbb Z)\cong\mathbb Z^{2g},\qquad g\ge1.}
+\tag{155.1}
+\]</span></p>
+<p>The owner supplies an integral intersection pairing</p>
+<p><span class="math display">\[
+\boxed{I:L\times L\longrightarrow\mathbb Z}
+\tag{155.2}
+\]</span></p>
+<p>which is bilinear, alternating, and unimodular. In the particular complete closures under consideration, choose an integral symplectic basis <span class="math inline">\((a_1,b_1,\ldots,a_g,b_g)\)</span>, giving</p>
+<p><span class="math display">\[
+\boxed{I(u,v)=u^{\mathsf T}\mathbb J_gv,\qquad
+\mathbb J_g=\operatorname{diag}(J_2,\ldots,J_2),\qquad
+J_2=\begin{pmatrix}0&amp;1\\-1&amp;0\end{pmatrix}.}
+\tag{155.3}
+\]</span></p>
+<p>The form has <span class="math inline">\(\det\mathbb J_g=1\)</span>. Its sign changes if the complete orientation convention is reversed; its nondegeneracy does not.</p>
+<p><strong>Interpretive distinction.</strong> <span class="math inline">\(X_J\)</span> is the cellular complex used to classify the completed oriented relations. The real classical phase space constructed below is a different mathematical object, namely a real completion of <span class="math inline">\(H_1(X_J;\mathbb Z)\)</span> and, initially, a quotient of that completion. We do not identify a genus-<span class="math inline">\(g\)</span> cellular surface with a physical phase-space manifold of dimension <span class="math inline">\(2g\)</span>.</p>
+<p>For each <span class="math inline">\(N\ge2\)</span>, reduce only the recurrence labels and pairing:</p>
+<p><span class="math display">\[
+\boxed{V_N=L/NL\cong(\mathbb Z/N\mathbb Z)^{2g},\qquad
+I_N(\bar u,\bar v)=I(u,v)\bmod N.}
+\tag{155.4}
+\]</span></p>
+<p>Because <span class="math inline">\(\det\mathbb J_g=1\)</span> is invertible modulo every <span class="math inline">\(N\)</span>, <span class="math inline">\(I_N\)</span> is nondegenerate even for composite moduli. The finite domain has exactly <span class="math inline">\(N^{2g}\)</span> distinguishable labels. These label <strong>possible count classifications</strong>, not realized occurrences.</p>
+</section>
+<section id="theorem-155.1-exact-consistency-of-finite-modular-count-measures" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-155.1-exact-consistency-of-finite-modular-count-measures">155.3. Theorem 155.1 — Exact consistency of finite modular count measures</h2>
+<p>Equip each <span class="math inline">\(V_N\)</span> with the full finite event algebra and counting measure:</p>
+<p><span class="math display">\[
+\boxed{\Sigma_N=\mathcal P(V_N),\qquad
+m_N(E)=|E|,\qquad
+U_N(E)=\frac{|E|}{N^{2g}}.}
+\tag{155.5}
+\]</span></p>
+<p>The normalized measure <span class="math inline">\(U_N\)</span> is selected by treating the <span class="math inline">\(N^{2g}\)</span> distinct labels uniformly. This is a <strong>possible-label normalization</strong>, not a realized stochastic law. It is the unique normalized measure invariant under every translation of the finite abelian group <span class="math inline">\(V_N\)</span>; that transitive translation symmetry belongs to the selected finite label owner, not automatically to every R²D system.</p>
+<p>For <span class="math inline">\(N\mid M\)</span>, reduction defines</p>
+<p><span class="math display">\[
+\boxed{r_{M\to N}:V_M\longrightarrow V_N.}
+\tag{155.6}
+\]</span></p>
+<p><strong>Theorem 155.1 — Equal-fiber projective count consistency.</strong> For every <span class="math inline">\(N\mid M\)</span> and every event <span class="math inline">\(E\subseteq V_N\)</span>,</p>
+<p><span class="math display">\[
+\boxed{U_M\!\left(r_{M\to N}^{-1}(E)\right)=U_N(E).}
+\tag{155.7}
+\]</span></p>
+<p>Moreover, the finite alternating pairings commute with reduction:</p>
+<p><span class="math display">\[
+I_N(r_{M\to N}\bar u,r_{M\to N}\bar v)
+=r_{M\to N}\bigl(I_M(\bar u,\bar v)\bigr).
+\tag{155.8}
+\]</span></p>
+<p><strong>Proof.</strong> Write <span class="math inline">\(M=kN\)</span>. Each residue label in <span class="math inline">\(V_N\)</span> has exactly <span class="math inline">\(k^{2g}\)</span> lifts in <span class="math inline">\(V_M\)</span>. Thus the numerator of the finer normalized measure is <span class="math inline">\(k^{2g}|E|\)</span>, and its denominator is <span class="math inline">\((kN)^{2g}\)</span>; their ratio is <span class="math inline">\(|E|/N^{2g}\)</span>. Reduction of the integer bilinear form proves (155.8). <span class="math inline">\(\square\)</span></p>
+<p>The distinction from Addendum 152 is structural: the complete fibers of this finite reduction owner all have the <strong>same cardinality</strong>. The earlier process-prefix owners generally did not.</p>
+<section id="an-obstruction-that-must-not-be-skipped" class="level3">
+<h3 class="anchored" data-anchor-id="an-obstruction-that-must-not-be-skipped">An obstruction that must not be skipped</h3>
+<p>The inverse-limit count space</p>
+<p><span class="math display">\[
+\varprojlim_N V_N
+\tag{155.9}
+\]</span></p>
+<p>with the modular reduction maps is a <strong>profinite</strong> topological group (isomorphic to <span class="math inline">\(\widehat{\mathbb Z}^{\,2g}\)</span> when all moduli are included). It is not <span class="math inline">\(\mathbb R^{2g}\)</span> and not <span class="math inline">\(\mathbb R^{2g}/\mathbb Z^{2g}\)</span>. Its natural limiting measure is profinite Haar measure, not automatically classical Liouville measure on a real manifold.</p>
+<p>Thus <strong>(155.7) is necessary finite compatibility information for this route, but is not a derivation of the real continuum</strong>. The next construction makes the additional mathematical completion explicit.</p>
+</section>
+</section>
+<section id="specify-the-real-affine-completion-and-its-finite-cell-reads" class="level2">
+<h2 class="anchored" data-anchor-id="specify-the-real-affine-completion-and-its-finite-cell-reads">155.4. Specify the real affine completion and its finite cell reads</h2>
+<p>Select the real extension already used conditionally in Addendum 153:</p>
+<p><span class="math display">\[
+\boxed{L_{\mathbb R}=L\otimes_{\mathbb Z}\mathbb R
+\cong\mathbb R^{2g}.}
+\tag{155.10}
+\]</span></p>
+<p>This is a declared <strong>receiving mathematical representation</strong>. Finite counting alone does not require or uniquely determine the ordered field <span class="math inline">\(\mathbb R\)</span>, its topology, or any physical ruler. For a compact, normalized example form</p>
+<p><span class="math display">\[
+\boxed{T=L_{\mathbb R}/L\cong\mathbb R^{2g}/\mathbb Z^{2g}.}
+\tag{155.11}
+\]</span></p>
+<p>Use the integral symplectic basis of (155.3) to choose the half-open fundamental region <span class="math inline">\(F=[0,1)^{2g}\)</span> and dimensionless real coordinates <span class="math inline">\((x_1,y_1,\ldots,x_g,y_g)\)</span>. No physical position or momentum meaning is assigned to them at this step.</p>
+<p>For <span class="math inline">\(k\ge0\)</span>, put <span class="math inline">\(N_k=2^k\)</span>. Divide <span class="math inline">\(F\)</span> into <span class="math inline">\(N_k^{2g}\)</span> half-open dyadic cells</p>
+<p><span class="math display">\[
+\boxed{Q_{k,\mathbf j}=\prod_{r=1}^{2g}
+\left[\frac{j_r}{2^k},\frac{j_r+1}{2^k}\right),
+\quad \mathbf j\in\{0,\ldots,2^k-1\}^{2g}.}
+\tag{155.12}
+\]</span></p>
+<p>Each cell is assigned one distinct finite label. Let <span class="math inline">\(\mathcal Q_k\)</span> denote this finite cell set and <span class="math inline">\(\mathcal A_k\)</span> the algebra of unions of its cells. Set</p>
+<p><span class="math display">\[
+\boxed{U_k^{\mathrm{cell}}(A)=\frac{\#\{Q\in\mathcal Q_k:Q\subseteq A\}}{2^{2gk}},\qquad A\in\mathcal A_k.}
+\tag{155.13}
+\]</span></p>
+<p>These are again finite counting measures, now on <strong>cells in the specified real completion</strong>, not on an independently given physical probability density.</p>
+<p>When the resolution increases from <span class="math inline">\(k\)</span> to <span class="math inline">\(k+1\)</span>, every cell has exactly <span class="math inline">\(2^{2g}\)</span> child cells. The resulting parent map is</p>
+<p><span class="math display">\[
+\boxed{\pi_{k+1,k}(\mathbf j)_r=\left\lfloor\frac{j_r}{2}\right\rfloor.}
+\tag{155.14}
+\]</span></p>
+<p><strong>The modular map and the cell map are not the same map.</strong> Modular reduction uses <span class="math inline">\(\mathbf j\bmod 2^k\)</span> on residue labels. Dyadic cell containment uses <span class="math inline">\(\lfloor\mathbf j/2\rfloor\)</span>. Although their underlying finite label sets have the same cardinalities, their two refinement relationships must not be substituted for one another. In particular, the cell map uses the chosen real affine ordering; it is not an additional consequence of (155.7).</p>
+<p><strong>Lemma 155.2 — Uniform dyadic refinement compatibility.</strong> For <span class="math inline">\(A\in\mathcal A_k\)</span>,</p>
+<p><span class="math display">\[
+\boxed{U_{k+1}^{\mathrm{cell}}(A)=U_k^{\mathrm{cell}}(A).}
+\tag{155.15}
+\]</span></p>
+<p><strong>Proof.</strong> If <span class="math inline">\(A\)</span> contains <span class="math inline">\(r\)</span> coarse cells, it contains precisely <span class="math inline">\(2^{2g}r\)</span> finer cells. Divide by the total number <span class="math inline">\(2^{2g(k+1)}\)</span> of finer cells. The result is <span class="math inline">\(r/2^{2gk}\)</span>. <span class="math inline">\(\square\)</span></p>
+<p>Because every cell and every distinct refinement is counted exactly once, this is a model of admissible recursive replacement with constant compatible extension count. If a physical owner has unequal refinement multiplicities, uniform possible count need not survive the projection; this condition must be tested for that owner.</p>
+</section>
+<section id="theorem-155.3-unique-borel-extension-of-compatible-counts" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-155.3-unique-borel-extension-of-compatible-counts">155.5. Theorem 155.3 — Unique Borel extension of compatible counts</h2>
+<p>Let <span class="math inline">\(\mathcal A=\bigcup_{k\ge0}\mathcal A_k\)</span> (using the natural inclusion of coarser cell events among finer ones). Lemma 155.2 gives a well-defined normalized nonnegative assignment <span class="math inline">\(U^{\mathrm{cell}}\)</span> on this algebra. The <span class="math inline">\(\mathcal A_k\)</span> form a nested family, and their union generates the Borel sigma-algebra of the selected torus <span class="math inline">\(T\)</span>.</p>
+<p><strong>Theorem 155.3 — Finite-cell count to Borel measure.</strong> The compatible count assignment (155.13) has a <strong>unique Borel probability-measure extension</strong> <span class="math inline">\(\mu_{\mathrm{count}}\)</span> on <span class="math inline">\(T\)</span>. For every dyadic cell,</p>
+<p><span class="math display">\[
+\boxed{\mu_{\mathrm{count}}(Q_{k,\mathbf j})=2^{-2gk}.}
+\tag{155.16}
+\]</span></p>
+<p>For every half-open axis-parallel rectangle <span class="math inline">\(R=\prod_{r=1}^{2g}[a_r,b_r)\)</span> represented in the fundamental region,</p>
+<p><span class="math display">\[
+\boxed{\mu_{\mathrm{count}}(R)=\prod_{r=1}^{2g}(b_r-a_r).}
+\tag{155.17}
+\]</span></p>
+<p><strong>Proof.</strong> One construction avoids presupposing a phase-space density. At each subdivision step, give each of the <span class="math inline">\(2^{2g}\)</span> equally admitted child-label words the probability <span class="math inline">\(2^{-2g}\)</span>. These finite cylinder assignments are consistent and yield the usual product measure on infinite binary label sequences. Map the binary sequence in each coordinate to its point <span class="math inline">\(x_r=\sum_{k\ge1}\epsilon_{r,k}2^{-k}\pmod1\)</span>. The exceptional sequences with ambiguous binary endpoints form a null set, because an individual infinite specified tail has probability zero. The pushforward is a Borel probability measure on <span class="math inline">\(T\)</span> assigning exactly <span class="math inline">\(2^{-2gk}\)</span> to every dyadic cell.</p>
+<p>Dyadic cells generate the selected Borel sigma-algebra, so any two Borel probabilities with the prescribed cell values agree by the uniqueness theorem for measures on a generating algebra (or the <span class="math inline">\(\pi\)</span>–<span class="math inline">\(\lambda\)</span> theorem). This proves existence and uniqueness. Formula (155.17) follows first for rectangles whose endpoints are dyadic rationals, by exact finite cell counting, and then for arbitrary endpoints by nested dyadic approximation and continuity of the finite measure. <span class="math inline">\(\square\)</span></p>
+<p>This theorem is a <strong>count-derived measure extension on a specified real Borel space</strong>. It uses the ordinary mathematical probability-measure extension theorem as part of the representation; it does not identify equally possible labels with equally frequent realized occurrences.</p>
+<p>In particular, <span class="math inline">\(\mu_{\mathrm{count}}\)</span> is the normalized Lebesgue measure in the selected affine chart. It is also the normalized Haar measure of the compact additive group <span class="math inline">\(T\)</span>, since the rectangle formula gives translation invariance and normalized Haar probability is unique.</p>
+<section id="exact-finite-example" class="level3">
+<h3 class="anchored" data-anchor-id="exact-finite-example">Exact finite example</h3>
+<p>For <span class="math inline">\(g=1\)</span>, consider <span class="math inline">\(E=[0,1/2)\times[0,3/4)\)</span>. At resolution <span class="math inline">\(N=4\)</span>, six of sixteen cells lie in <span class="math inline">\(E\)</span>; at resolution <span class="math inline">\(N=8\)</span>, twenty-four of sixty-four do. Therefore</p>
+<p><span class="math display">\[
+\boxed{U_2^{\mathrm{cell}}(E)=\frac6{16}
+=U_3^{\mathrm{cell}}(E)=\frac{24}{64}=\frac38
+=\mu_{\mathrm{count}}(E).}
+\tag{155.18}
+\]</span></p>
+<p>For every continuous <span class="math inline">\(f:T\to\mathbb R\)</span>, the corresponding uniform grid averages converge:</p>
+<p><span class="math display">\[
+\boxed{\lim_{k\to\infty}\frac{1}{2^{2gk}}
+\sum_{\mathbf j} f\!\left(\frac{\mathbf j}{2^k}\right)
+=\int_T f\,d\mu_{\mathrm{count}}.}
+\tag{155.19}
+\]</span></p>
+<p>This follows because <span class="math inline">\(f\)</span> is uniformly continuous on compact <span class="math inline">\(T\)</span>: the difference between each cell average and a chosen point value is bounded by the modulus of continuity at the cell diameter.</p>
+</section>
+</section>
+<section id="theorem-155.4-identification-with-the-classical-liouville-measure" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-155.4-identification-with-the-classical-liouville-measure">155.6. Theorem 155.4 — Identification with the classical Liouville measure</h2>
+<p>Return to the integral intersection pairing <span class="math inline">\(I\)</span> supplied by the complete finite owner. Extend it real-bilinearly to <span class="math inline">\(L_{\mathbb R}\)</span>:</p>
+<p><span class="math display">\[
+\boxed{\omega_x(v,w)=I_{\mathbb R}(v,w),\qquad x\in L_{\mathbb R}.}
+\tag{155.20}
+\]</span></p>
+<p>Because this alternating form is constant and translation-invariant, it descends to <span class="math inline">\(T\)</span>. In the chosen paired real coordinates its representation is</p>
+<p><span class="math display">\[
+\boxed{\omega=\sum_{i=1}^{g}dx_i\wedge dy_i.}
+\tag{155.21}
+\]</span></p>
+<p>This is a symplectic form: it is closed (<span class="math inline">\(d\omega=0\)</span>), and its coefficient matrix is <span class="math inline">\(\mathbb J_g\)</span>, whose determinant is one. At this stage <span class="math inline">\(x_i,y_i\)</span> are <strong>dimensionless real recurrence-class coordinates</strong>, not measured positions and momenta.</p>
+<p>Its top exterior power is</p>
+<p><span class="math display">\[
+\boxed{\Omega_L=\frac{\omega^{\wedge g}}{g!}
+=dx_1\wedge dy_1\wedge\cdots\wedge dx_g\wedge dy_g.}
+\tag{155.22}
+\]</span></p>
+<p>The associated positive Liouville measure of a Borel event <span class="math inline">\(E\)</span> is <span class="math inline">\(\mu_L(E)=\int_E|\Omega_L|\)</span>, where the bars indicate the positive density obtained from the oriented top form.</p>
+<p><strong>Theorem 155.4 — Exact count/Liouville equality on the selected continuum.</strong> For the chosen real affine completion of the unimodular intersection lattice,</p>
+<p><span class="math display">\[
+\boxed{\mu_{\mathrm{count}}(E)=\mu_L(E)
+\qquad\text{for every Borel }E\subseteq T.}
+\tag{155.23}
+\]</span></p>
+<p><strong>Proof.</strong> On a dyadic cell <span class="math inline">\(Q_{k,\mathbf j}\)</span>, the constant top-form density in (155.22) gives</p>
+<p><span class="math display">\[
+\int_{Q_{k,\mathbf j}}|\Omega_L|
+=\bigl(2^{-k}\bigr)^{2g}=2^{-2gk}.
+\]</span></p>
+<p>By (155.16), this equals the finite count-derived cell measure. Both are Borel probability measures, since the total Liouville volume of the unit fundamental region is one. They agree on the generating dyadic algebra, so they agree on every Borel set. <span class="math inline">\(\square\)</span></p>
+<p>This is an <strong>equality of measures</strong>, not an analogy between uniform counting and classical volume.</p>
+<section id="why-the-intersection-pairing-is-indispensable" class="level3">
+<h3 class="anchored" data-anchor-id="why-the-intersection-pairing-is-indispensable">Why the intersection pairing is indispensable</h3>
+<p>Uniform cell counts on a real torus can produce its normalized Haar measure even if no symplectic form has been specified. <strong>Counting alone does not select <span class="math inline">\(\omega\)</span>.</strong> The role of Addenda 153–154 is to supply an independent, nondegenerate alternating pairing; only then can the count-derived Borel measure be <em>identified as Liouville measure for that specified symplectic structure</em>.</p>
+<p>Unimodularity fixes the normalization match. For a general integral alternating matrix <span class="math inline">\(K\)</span>, the symplectic volume of the standard unit lattice fundamental region is <span class="math inline">\(|\operatorname{Pf}(K)|\)</span>. In the present models <span class="math inline">\(|\operatorname{Pf}(\mathbb J_g)|=1\)</span>, so no further normalization is needed. For a non-unimodular pairing, normalized count/Haar measure would equal the <strong>normalized</strong> symplectic volume rather than the unnormalized Liouville volume.</p>
+<p>A simultaneous reversal of the enclosing orientation changes <span class="math inline">\(I\)</span> and <span class="math inline">\(\omega\)</span> by a sign, but leaves the associated positive volume density and nondegeneracy unchanged. Thus the positive count/Liouville measure does not require choosing an absolute physical handedness.</p>
+</section>
+</section>
+<section id="theorem-155.5-finite-symplectic-transformations-preserve-the-count-measure" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-155.5-finite-symplectic-transformations-preserve-the-count-measure">155.7. Theorem 155.5 — Finite symplectic transformations preserve the count measure</h2>
+<p>Let <span class="math inline">\(M:L\to L\)</span> be an integral recurrence-class automorphism satisfying the test already isolated in Addendum 153:</p>
+<p><span class="math display">\[
+\boxed{M^{\mathsf T}\mathbb J_gM=\mathbb J_g.}
+\tag{155.24}
+\]</span></p>
+<p>For every <span class="math inline">\(N\)</span>, reduction of <span class="math inline">\(M\)</span> gives a bijection <span class="math inline">\(\bar M_N:V_N\to V_N\)</span> preserving <span class="math inline">\(I_N\)</span>. It is therefore a permutation of the <span class="math inline">\(N^{2g}\)</span> distinguishable finite labels.</p>
+<p><strong>Theorem 155.5 — Symplectic count invariance.</strong> Every such <span class="math inline">\(M\)</span> satisfies</p>
+<p><span class="math display">\[
+\boxed{U_N(\bar M_N E)=U_N(E)
+\quad\text{for all }E\subseteq V_N,\ N\ge2,}
+\tag{155.25}
+\]</span></p>
+<p>and its real torus automorphism satisfies</p>
+<p><span class="math display">\[
+\boxed{M^*\omega=\omega,\qquad
+\mu_L(ME)=\mu_L(E)
+\quad\text{for Borel }E\subseteq T.}
+\tag{155.26}
+\]</span></p>
+<p><strong>Proof.</strong> The finite claim follows because a bijection preserves the cardinality of every event. The integral symplectic identity gives <span class="math inline">\(M^*\omega=\omega\)</span> on the real extension and hence on the torus. Taking the <span class="math inline">\(g\)</span>th wedge power preserves the positive Liouville measure, which equals <span class="math inline">\(\mu_{\mathrm{count}}\)</span> by Theorem 155.4. <span class="math inline">\(\square\)</span></p>
+<p>The modular reductions and <span class="math inline">\(M\)</span> commute. The chosen <strong>dyadic parent maps need not commute with <span class="math inline">\(M\)</span></strong>, because an integer symplectic map need not send every dyadic cube to another cube at the same resolution. This is not an obstruction to preservation of the <em>continuum measure</em>: that follows from the symplectic identity, not from a false claim of exact cell-partition equivariance.</p>
+<section id="counterexample-liouville-volume-does-not-determine-symplectic-structure" class="level3">
+<h3 class="anchored" data-anchor-id="counterexample-liouville-volume-does-not-determine-symplectic-structure">Counterexample — Liouville volume does not determine symplectic structure</h3>
+<p>For <span class="math inline">\(g=2\)</span>, use the <span class="math inline">\(4\times4\)</span> block-diagonal <span class="math inline">\(\mathbb J_2\)</span> of Addendum 153. Consider</p>
+<p><span class="math display">\[
+\boxed{V=\begin{pmatrix}
+1&amp;0&amp;1&amp;0\\
+0&amp;1&amp;0&amp;0\\
+0&amp;0&amp;1&amp;0\\
+0&amp;0&amp;0&amp;1
+\end{pmatrix},\qquad
+\det V=1,\qquad
+V^{\mathsf T}\mathbb J_2V\ne\mathbb J_2.}
+\tag{155.27}
+\]</span></p>
+<p>This integer automorphism permutes every finite modular count domain and preserves its uniform count measure. Its real extension preserves the top-dimensional volume density because <span class="math inline">\(\det V=1\)</span>. Nevertheless, it changes the pairing between recurrence generators in the first and second symplectic blocks, so it is <strong>not symplectic</strong>.</p>
+<p>Therefore a measure-preserving count representation is insufficient to select classical symplectic mechanics. The independent intersection structure of Addenda 153–154 is essential, especially for two or more degrees of freedom.</p>
+</section>
+</section>
+<section id="theorem-155.6-conditional-hamiltonian-invariance-liouvilles-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-155.6-conditional-hamiltonian-invariance-liouvilles-theorem">155.8. Theorem 155.6 — Conditional Hamiltonian invariance (Liouville’s theorem)</h2>
+<p>A symplectic continuum does not by itself specify evolution. To consider classical Hamiltonian mechanics, select a smooth globally defined function <span class="math inline">\(H:T\to\mathbb R\)</span>, or a smooth Hamiltonian on the noncompact real extension. Define the Hamiltonian vector field by the sign convention</p>
+<p><span class="math display">\[
+\boxed{\iota_{X_H}\omega=dH.}
+\tag{155.28}
+\]</span></p>
+<p>Since <span class="math inline">\(\omega\)</span> is closed, Cartan’s identity gives</p>
+<p><span class="math display">\[
+\mathcal L_{X_H}\omega
+=d(\iota_{X_H}\omega)+\iota_{X_H}(d\omega)
+=d^2H=0.
+\tag{155.29}
+\]</span></p>
+<p><strong>Theorem 155.6 — Liouville invariance of admitted Hamiltonian evolution.</strong> Wherever the flow <span class="math inline">\(\Phi_t\)</span> of <span class="math inline">\(X_H\)</span> is defined,</p>
+<p><span class="math display">\[
+\boxed{\Phi_t^*\omega=\omega,
+\qquad\Phi_t^*\left(\frac{\omega^{\wedge g}}{g!}\right)
+=\frac{\omega^{\wedge g}}{g!},
+\qquad\mu_L(\Phi_tE)=\mu_L(E).}
+\tag{155.30}
+\]</span></p>
+<p><strong>Proof.</strong> Differentiating the pullback along the flow yields</p>
+<p><span class="math display">\[
+\frac{d}{dt}\Phi_t^*\omega
+=\Phi_t^*(\mathcal L_{X_H}\omega)=0.
+\]</span></p>
+<p>Since <span class="math inline">\(\Phi_0\)</span> is the identity, <span class="math inline">\(\Phi_t^*\omega=\omega\)</span>. Taking wedge powers proves invariance of the Liouville top form and its positive measure. <span class="math inline">\(\square\)</span></p>
+<p>On compact <span class="math inline">\(T\)</span>, every smooth autonomous Hamiltonian vector field is complete. On noncompact <span class="math inline">\(L_{\mathbb R}\)</span> the claim is restricted to flow times for which solutions exist; smoothness alone does not ensure global completeness.</p>
+<p><strong>A globally valid torus example.</strong> In one canonical pair, choose</p>
+<p><span class="math display">\[
+H(x,y)=\frac{1-\cos(2\pi y)}{2\pi}.
+\]</span></p>
+<p>It is well defined on <span class="math inline">\(T=\mathbb R^2/\mathbb Z^2\)</span>. The associated flow is</p>
+<p><span class="math display">\[
+\Phi_t(x,y)=(x+t\sin(2\pi y),\ y)\pmod1.
+\tag{155.31}
+\]</span></p>
+<p>It is nontrivial, smooth, and preserves <span class="math inline">\(dx\wedge dy\)</span> and the count-derived Borel measure.</p>
+<p><strong>Relation to the integral shear of Addendum 153.</strong> The integer shear <span class="math inline">\((x,y)\mapsto(x+y,y)\)</span> is an integral symplectic torus automorphism and preserves finite modular count. The noncompact Hamiltonian <span class="math inline">\(H=\tfrac12y^2\)</span> generates the shear continuously on <span class="math inline">\(\mathbb R^2\)</span>, but <span class="math inline">\(H\)</span> is not a globally single-valued function on the compact torus. Its finite and noncompact representations must not be conflated with a global Hamiltonian isotopy of the torus.</p>
+<p>The Hamiltonian or physical clock is an <strong>additional selected representation</strong>. Liouville’s theorem proves preservation by such an admitted evolution; it does not derive which <span class="math inline">\(H\)</span> a physical experiment must realize.</p>
+</section>
+<section id="noncompact-flat-phase-space-and-physical-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="noncompact-flat-phase-space-and-physical-calibration">155.9. Noncompact flat phase space and physical calibration</h2>
+<p>The compact torus <span class="math inline">\(T\)</span> is a convenient finite-total-measure witness. Standard classical phase spaces are often noncompact. The same cell-count construction extends locally to <span class="math inline">\(L_{\mathbb R}\cong\mathbb R^{2g}\)</span>.</p>
+<p>Partition <span class="math inline">\(\mathbb R^{2g}\)</span> into half-open cubes of side <span class="math inline">\(2^{-k}\)</span>. For a bounded rectangle <span class="math inline">\(R\)</span>, count the cells contained in <span class="math inline">\(R\)</span> and assign each cell weight <span class="math inline">\(2^{-2gk}\)</span>. The counting limit gives</p>
+<p><span class="math display">\[
+\boxed{\lim_{k\to\infty}2^{-2gk}
+\#\{Q_{k,\mathbf j}\subseteq R\}
+=\prod_{r=1}^{2g}(b_r-a_r),
+\quad R=\prod_r[a_r,b_r).}
+\tag{155.32}
+\]</span></p>
+<p>Boundary discrepancies occupy a vanishing fraction of the bounded grid. By standard Borel-measure extension this produces the unique sigma-finite Lebesgue measure on the noncompact real completion, equal to the Liouville measure of the constant <span class="math inline">\(\omega\)</span> from (155.21). It is not a normalized global probability measure: the full noncompact phase space has infinite volume.</p>
+<p>A receiving physical background can calibrate the dimensionless real coordinates by chosen scales, for example</p>
+<p><span class="math display">\[
+\boxed{q_i=\ell_i x_i,
+\qquad p_i=\kappa_i y_i,\qquad
+\ell_i,\kappa_i&gt;0.}
+\tag{155.33}
+\]</span></p>
+<p>The usual physically calibrated canonical form and its positive Liouville density are</p>
+<p><span class="math display">\[
+\boxed{\omega_{\mathrm{phys}}=\sum_{i=1}^{g}dq_i\wedge dp_i,
+\qquad d\mu_{L,\rm phys}
+=\prod_{i=1}^{g}dq_i\,dp_i
+=\left(\prod_i\ell_i\kappa_i\right)
+\prod_{i=1}^{g}dx_i\,dy_i.}
+\tag{155.34}
+\]</span></p>
+<p>The product of scales is the physical volume calibration. If the individual products <span class="math inline">\(\ell_i\kappa_i\)</span> differ, <span class="math inline">\(\omega_{\mathrm{phys}}\)</span> is not simply a single common multiple of the dimensionless form; its <strong>top-density</strong> has the indicated product factor. The primitive finite count does not determine absolute meters, seconds, momenta, action units, or the numerical calibration of a particular experimental Hamiltonian.</p>
+<p>A microcanonical measure restricted to a physical energy surface is a further <strong>conditional</strong> construction involving a specified Hamiltonian and suitable disintegration or energy-shell measure. It is not identical to the full Liouville measure obtained here.</p>
+</section>
+<section id="why-uniform-counting-is-a-genuine-condition-not-a-general-law" class="level2">
+<h2 class="anchored" data-anchor-id="why-uniform-counting-is-a-genuine-condition-not-a-general-law">155.10. Why uniform counting is a genuine condition, not a general law</h2>
+<p>The cell result depended on a strong, testable mathematical property: <strong>every coarse cell had exactly the same number of compatible finer cells</strong>. Equal cardinality of individual finite state domains is not enough.</p>
+<p>Consider a coarse owner with two labels <span class="math inline">\(a,b\)</span> assigned equal normalized counts <span class="math inline">\(1/2\)</span> each. Let a finer owner admit one extension of <span class="math inline">\(a\)</span> and three extensions of <span class="math inline">\(b\)</span>. Uniform counting on its four fine labels gives pushforward weights</p>
+<p><span class="math display">\[
+\boxed{(U_{\mathrm{coarse}}(a),U_{\mathrm{coarse}}(b))=(1/2,1/2),
+\qquad (r_*U_{\mathrm{fine}})(a,b)=(1/4,3/4).}
+\tag{155.35}
+\]</span></p>
+<p>These disagree. Therefore independently uniform finite count measures do not generally define a consistent continuum measure, let alone Liouville measure. This is the same logical obstruction illustrated by the unequal process extensions in Addendum 152.</p>
+<p>Even when equal-fiber refinement holds, it does not select a <em>unique</em> real completion or a symplectic form by itself. Other refinements and measurable representations may exist. The exact Liouville identification requires the <strong>joint specification</strong> of (i) the enclosingly selected unimodular intersection pairing, (ii) a compatible uniform finite cell-refinement owner, and (iii) the affine real Borel completion on which the pairing extends as a constant two-form.</p>
+<p>Similarly, a uniform measure over possible distinguishable cells does not imply equal residence time, ergodicity, equidistribution of realized occurrences, a Markov kernel, or microscopic random choice. R²D’s <span class="math inline">\(W\)</span>, <span class="math inline">\(\Theta\)</span>, realized <span class="math inline">\(\nu\)</span>, structural occupancy, and whole-closure recurrence remain distinct count types.</p>
+</section>
+<section id="relationship-to-the-canon-and-to-standard-classical-mechanics" class="level2">
+<h2 class="anchored" data-anchor-id="relationship-to-the-canon-and-to-standard-classical-mechanics">155.11. Relationship to the canon and to standard classical mechanics</h2>
+<p>This reconstruction keeps the mathematical and causal order explicit:</p>
+<p><span class="math display">\[
+\boxed{\begin{gathered}
+\text{Complete boundary-owned oriented closure}
+\Longrightarrow (L,I),\\
+\text{finite admitted recurrence labels}
+\Longrightarrow (V_N,I_N,\Sigma_N,U_N),\\
+\text{selected uniform real-affine refinement}
+\Longrightarrow (T,\mathcal B(T),\mu_{\mathrm{count}}),\\
+\text{real extension of the complete intersection pairing}
+\Longrightarrow (T,\omega),\\
+\text{exact identification}
+\Longrightarrow \mu_{\mathrm{count}}=\mu_L,\\
+\text{admitted smooth Hamiltonian evolution}
+\Longrightarrow (\Phi_t)_*\mu_L=\mu_L.
+\end{gathered}}
+\tag{155.36}
+\]</span></p>
+<p>The first arrow is the conditional attachment reconstruction of Addenda 153–154. The second is finite algebra and cardinality. The third is <strong>not forced by the second</strong>: it explicitly introduces a real affine completion and a regular compatible cell scheme. The fourth identifies the real symplectic structure from the existing integral intersection counts rather than inferring it from volume preservation. The fifth is a measure-identification theorem. The last is the familiar classical Liouville theorem for the admitted Hamiltonian read.</p>
+<p>This is not a claim that standard classical mechanics is false or that its familiar mathematical theorems are newly proved in the abstract. The novel role within R²D is an explicitly ordered <strong>finite consistency witness and reconstruction map</strong> from one specified boundary-owned count relation to a standard continuum measure, with the extra representation conditions stated rather than obscured.</p>
+<p>The comparison with mathematical reconstruction programs can now be made on concrete objects: <span class="math inline">\(V_N\)</span>, <span class="math inline">\(\Sigma_N\)</span>, <span class="math inline">\(U_N\)</span>, the two distinct refinement maps, <span class="math inline">\(\mathcal B(T)\)</span>, <span class="math inline">\(\mu_{\mathrm{count}}\)</span>, <span class="math inline">\(I\)</span>, <span class="math inline">\(\omega\)</span>, and the selected flow <span class="math inline">\(\Phi_t\)</span>. This supplies an exact answer to the classical-measure question without assuming that the same argument reconstructs the general nonadditive event structures of quantum measurement.</p>
+</section>
+<section id="results-limitations-and-the-next-selection-question" class="level2">
+<h2 class="anchored" data-anchor-id="results-limitations-and-the-next-selection-question">155.12. Results, limitations, and the next selection question</h2>
+<p><strong>Established for the specified owners:</strong></p>
+<ol type="1">
+<li>A complete oriented closure with unimodular <span class="math inline">\(H_1\)</span> pairing has explicit nondegenerate finite symplectic modules <span class="math inline">\((V_N,I_N)\)</span> at every modulus and uniform finite event measures.</li>
+<li>Those normalized finite counts are exactly consistent under modular reduction; their inverse limit is profinite and must not be identified with real phase space.</li>
+<li>After an explicitly selected real affine completion, equal-fiber dyadic cell refinements give a unique regular Borel probability measure, determined solely by the compatible finite cell counts.</li>
+<li>The measure equals the Liouville measure of the real extension of the pre-existing intersection pairing because both have identical weights on every generating cell and unimodularity fixes the total normalization.</li>
+<li>Integral symplectic recurrence maps preserve the finite measures and the continuum Liouville measure; a count-/volume-preserving nonsymplectic map shows that the converse fails in four dimensions.</li>
+<li>Every admitted smooth Hamiltonian flow preserves the symplectic form and its Liouville measure on its interval of existence; a globally defined torus example and noncompact shear example separate the relevant global conditions.</li>
+<li>A noncompact flat read yields sigma-finite Liouville measure, and physical position–momentum units enter through separately calibrated background scales.</li>
+</ol>
+<p><strong>Not established:</strong> derivation of <span class="math inline">\(\mathbb R\)</span> or its topology from finite counting alone; uniqueness of the real affine completion; that all R²D boundary changes have equal-fiber refinements; realization frequencies or rates from possible counts; an arbitrary curved or cotangent-bundle phase space from the same finite owner; a unique physical Hamiltonian; a quantum non-Boolean/nonadditive measure; or a specific physical apparatus’s calibration and experimental selection of all completion conditions.</p>
+<p>The next mathematically discriminating question is:</p>
+<blockquote class="blockquote">
+<p><strong>Can a specified nested family of <em>physical</em> complete enclosing comparisons select its compatible real affine completion and uniform symplectic cell-refinement structure, rather than merely admit the flat representation used here?</strong></p>
+</blockquote>
+<p>That selection problem is distinct from—and not a prerequisite for—the exact existence and measure-identification theorem proved in this addendum.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>A single complete enclosing intersection structure can support finite count measures whose compatible real-cell refinements reproduce the classical Liouville measure <strong>exactly</strong>. The decisive result is the equality</p>
+<p><span class="math display">\[
+\boxed{\mu_{\mathrm{count}}(E)=\int_E\left|\frac{\omega^{\wedge g}}{g!}\right|,
+\qquad E\in\mathcal B(T),\qquad
+\omega=\sum_{i=1}^{g}dx_i\wedge dy_i.}
+\tag{155.37}
+\]</span></p>
+<p>The count side is defined on finite, uniform, refining event cells and extended by measure theory; the symplectic side is determined by the integral intersection relation of the complete oriented closure. Their equality is a theorem for the specified real completion, not an assumption that all uniform counting is inherently symplectic. Hamiltonian measure invariance follows for every smooth admitted Hamiltonian flow.</p>
+<p>The chain of reconstruction is <strong>complete enclosing closure <span class="math inline">\(\to\)</span> unimodular intersection lattice <span class="math inline">\(\to\)</span> compatible finite cell counts <span class="math inline">\(\to\)</span> Borel measure <span class="math inline">\(=\)</span> Liouville measure <span class="math inline">\(\to\)</span> conditional Hamiltonian invariance</strong>. This places one classical mathematical structure on an explicit R²D finite-count foundation while preserving the boundary ownership, read-resolution, and realization distinctions of the canon.</p>
+<hr>
+</section>
+<section id="related-canon-addenda-and-mathematical-background" class="level2">
+<h2 class="anchored" data-anchor-id="related-canon-addenda-and-mathematical-background">Related canon, addenda, and mathematical background</h2>
+<ul>
+<li><strong>R²D Part I:</strong> native boundary-relative multiplicity, compatible extension, possible count, realized occurrence, closure, and recursive replacement.</li>
+<li><strong>R²D Part II:</strong> thermal state and residence readings, background calibration, and physical energy accounting.</li>
+<li><strong>Addenda 116, 120, 122, and 125:</strong> directed incidence, native identity, complete enclosing composability, and the distinction between possible and realized closure counts.</li>
+<li><strong>Addenda 131 and 139:</strong> complete background-relative recurrence and survival of selected relational comparisons.</li>
+<li><strong>Addenda 150–151:</strong> one common finite enclosing owner, reciprocal exchange, and nested constraint compatibility without double counting.</li>
+<li><strong>Addendum 152:</strong> finite state/process sigma-algebras and the precise obstruction to independent uniform measures on differently extended process lengths.</li>
+<li><strong>Addendum 153:</strong> unimodular intersection pairings, finite modular symplectic modules, recursive preservation, non-symplectic volume-preserving counterexample, and conditional real/classical projection.</li>
+<li><strong>Addendum 154:</strong> the two-junction genus-one finite witness, non-identifiability of attachment from temporal records alone, and exact conditional reconstruction from complete corner-and-side records.</li>
+<li><strong>Standard measure theory:</strong> dyadic semi-algebras, Borel measure extension, and uniform binary-digit construction; see <em>A Dyadic Approach to Lebesgue Theory</em>, Washington University in St.&nbsp;Louis, https://cpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/7/2589/files/2020/05/SP2020-MA4121-LN.pdf.</li>
+<li><strong>Standard symplectic geometry:</strong> symplectic volume and Hamiltonian Liouville invariance; see the University of Regensburg symplectic geometry notes, https://ammann.app.uni-regensburg.de/lehre/2017w_symplectic/cieliebak_symplectic-geometry-a.pdf.</li>
+<li><strong>Standard Haar measure:</strong> normalized Lebesgue measure as Haar measure on the real torus; see https://people.dm.unipi.it/abate/matdid/dispense/files/SistDinDisc_cap4.pdf.</li>
+</ul>
+<p><strong>Review status:</strong> Author-approved for canon publication. The distinction between profinite modular reduction and real cell refinement, and the explicit real-completion and uniform-refinement assumptions, are essential to the claim. Removing them would turn a conditional exact reconstruction into an unsupported derivation of the real continuum from finite cardinality alone.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-154-operational-junction-records-and-two-dimensional-closure.html" class="pagination-link" aria-label="Addendum 154 — Operational Junction Records and Two-Dimensional Closure">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 154 — Operational Junction Records and Two-Dimensional Closure</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

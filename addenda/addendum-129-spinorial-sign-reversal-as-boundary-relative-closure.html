@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure – R²D Canon and Addenda</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../addenda/addendum-130-closure-recorded-occurrence-and-the-quantum-readability-horizon.html" rel="next">
+<link href="../addenda/addendum-128-the-hidden-torus-and-the-enclosing-well.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bba8424626394152806366a5224754b7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-129-spinorial-sign-reversal-as-boundary-relative-closure.html"><span class="chapter-title">Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">R²D Canon and Addenda</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Author’s Note on AI</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-i.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part I — A Theory of Dimensionless Recursive Counting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-ii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part II — Joint Readability of Recurrence and Distinguishability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iii.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part III — The Recursive Clock and the Horizons of Readability</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../canon/part-iv.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">R²D Part IV — Projection: The Physics Constructed from What Remains</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Addenda</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 1 — Recursive Replacement Precedes the Formal Navier–Stokes Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-002-boundary-mass-occurs-before-relativity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 2 — Boundary Mass Occurs Before Relativity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-003-complementary-readability-occurs-before-phase-and-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 3 — Complementary Readability Occurs Before Phase and Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-004-enclosing-organization-occurs-before-myosin-switch-realization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 4 — Enclosing Organization Occurs Before Myosin Switch Realization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-005-ensemble-replacement-occurs-before-muscle-scale-statehood.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 5 — Ensemble Replacement Occurs Before Muscle-Scale Statehood</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-006-closure-complete-subordinate-dynamics-occur-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 6 — Closure-Complete Subordinate Dynamics Occur Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-007-frequency-selected-readability-occurs-before-cross-scale-spectra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 7 — Frequency-Selected Readability Occurs Before Cross-Scale Spectra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-008-biological-function-makes-recursive-replacement-observable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 8 — Biological Function Makes Recursive Replacement Observable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-009-joint-readability-occurs-before-the-quantum-and-gravitational-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 9 — Joint Readability Occurs Before the Quantum and Gravitational Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-010-folded-statehood-occurs-before-the-folding-trajectory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 10 — Folded Statehood Occurs Before the Folding Trajectory</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-011-enclosing-relation-occurs-before-biological-function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 11 — Enclosing Relation Occurs Before Biological Function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-035-the-reference-boundary-occurs-before-lorentz-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 35 — The Reference Boundary Occurs Before Lorentz Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-036-invariant-boundary-coupling-occurs-before-mc2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 36 — Invariant Boundary Coupling Occurs Before mc²</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-037-differential-free-fall-rapidity-occurs-before-curvature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 37 — Differential Free-Fall Rapidity Occurs Before Curvature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-038-tidal-rapidity-occurs-before-the-riemann-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 38 — Tidal Rapidity Occurs Before the Riemann Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-039-source-compatibility-occurs-before-the-einstein-tensor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 39 — Source Compatibility Occurs Before the Einstein Tensor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-040-keplerian-closure-occurs-before-gravitational-force.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 40 — Keplerian Closure Occurs Before Gravitational Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-041-gravitational-area-occurs-before-areal-radius.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 41 — Gravitational Area Occurs Before Areal Radius</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-042-gravitational-retention-occurs-before-schwarzschild-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 42 — Gravitational Retention Occurs Before Schwarzschild Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-043-horizon-multiplicity-occurs-before-planck-area-calibration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 43 — Horizon Multiplicity Occurs Before Planck-Area Calibration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-044-entropic-well-depth-occurs-before-maximum-gravitational-mass.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 44 — Entropic-Well Depth Occurs Before Maximum Gravitational Mass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-045-multiplicity-gap-closure-occurs-before-the-nariai-limit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 45 — Multiplicity-Gap Closure Occurs Before the Nariai Limit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-046-boundary-clock-replacement-occurs-before-nariai-temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 46 — Boundary-Clock Replacement Occurs Before Nariai Temperature</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-047-horizon-count-clock-calibration-persists-across-boundary-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 47 — Horizon Count–Clock Calibration Persists Across Boundary Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-048-coupled-horizon-retention-occurs-before-kerr-newman-geometry.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 48 — Coupled Horizon Retention Occurs Before Kerr–Newman Geometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-049-horizon-branch-distinguishability-occurs-before-hawking-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 49 — Horizon-Branch Distinguishability Occurs Before Hawking Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-050-recursive-closure-carry-occurs-before-gravitational-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 50 — Recursive Closure Carry Occurs Before Gravitational Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-051-radiative-identity-replacement-occurs-before-the-gravitational-wave-background.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 51 — Radiative Identity Replacement Occurs Before the Gravitational-Wave Background</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-052-count-to-space-calibration-occurs-before-g.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 52 — Count-to-Space Calibration Occurs Before G</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-053-terminal-nonclosure-occurs-before-cosmological-direction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 53 — Terminal Nonclosure Occurs Before Cosmological Direction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-054-cosmological-state-classification-occurs-before-gravitational-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 54 — Cosmological State Classification Occurs Before Gravitational Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-055-peer-compatibility-occurs-before-gravitational-interaction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 55 — Peer Compatibility Occurs Before Gravitational Interaction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-056-cosmological-boundary-area-occurs-before-the-scale-factor.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 56 — Cosmological Boundary Area Occurs Before the Scale Factor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-057-directional-asymmetry-occurs-before-the-friedmann-branch.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 57 — Directional Asymmetry Occurs Before the Friedmann Branch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-058-physical-clock-calibration-occurs-before-the-hubble-rate.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 58 — Physical Clock Calibration Occurs Before the Hubble Rate</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-059-recursive-throughput-occurs-before-the-friedmann-magnitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 59 — Recursive Throughput Occurs Before the Friedmann Magnitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-060-friedmann-partition-occurs-after-recursive-throughput.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 60 — Friedmann Partition Occurs After Recursive Throughput</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-061-peer-energy-and-boundary-support-occur-before-cosmological-energy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 61 — Peer Energy and Boundary Support Occur Before Cosmological Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-062-boundary-geometry-occurs-before-the-friedmann-curvature-term.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 62 — Boundary Geometry Occurs Before the Friedmann Curvature Term</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-063-fixed-reference-area-occurs-before-dark-energy-attribution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 63 — Fixed Reference Area Occurs Before Dark-Energy Attribution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-064-source-support-work-occurs-before-cosmological-acceleration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 64 — Source-Support Work Occurs Before Cosmological Acceleration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-065-boundary-area-scaling-occurs-before-cosmological-epochs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 65 — Boundary-Area Scaling Occurs Before Cosmological Epochs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-066-recursive-realization-occurs-before-the-big-bang-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 66 — Recursive Realization Occurs Before the Big-Bang Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-067-sparse-realization-occurs-before-continuum-singularity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 67 — Sparse Realization Occurs Before Continuum Singularity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-068-closure-rate-separation-occurs-before-the-cosmological-ultraviolet-scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 68 — Closure-Rate Separation Occurs Before the Cosmological Ultraviolet Scale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-069-recursive-replacement-occurs-before-the-thermal-quantum-transition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 69 — Recursive Replacement Occurs Before the Thermal–Quantum Transition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-070-subordinate-replacement-occurs-before-blackbody-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 70 — Subordinate Replacement Occurs Before Blackbody Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-071-relative-recurrence-occurs-before-the-compton-shift.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 71 — Relative Recurrence Occurs Before the Compton Shift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-073-normalized-realization-occurs-before-the-born-rule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 73 — Normalized Realization Occurs Before the Born Rule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-074-boundary-preserving-recurrence-occurs-before-unitary-evolution.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 74 — Boundary-Preserving Recurrence Occurs Before Unitary Evolution</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-075-boundary-preserving-translation-occurs-before-quantum-momentum.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 75 — Boundary-Preserving Translation Occurs Before Quantum Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-076-residual-mass-recurrence-occurs-before-the-spatial-schrodinger-equation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 76 — Residual Mass Recurrence Occurs Before the Spatial Schrödinger Equation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-077-constraint-phase-bias-occurs-before-the-scalar-potential.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 77 — Constraint Phase Bias Occurs Before the Scalar Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-078-local-phase-comparison-occurs-before-electromagnetic-minimal-coupling.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 78 — Local Phase Comparison Occurs Before Electromagnetic Minimal Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-079-connection-curvature-occurs-before-electric-and-magnetic-fields.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 79 — Connection Curvature Occurs Before Electric and Magnetic Fields</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-080-conserved-oriented-coupling-occurs-before-the-maxwell-source-equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 80 — Conserved Oriented Coupling Occurs Before the Maxwell Source Equations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-082-joint-boundary-statehood-occurs-before-spatial-nonlocality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 82 — Joint Boundary Statehood Occurs Before Spatial Nonlocality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-084-paradox-as-boundary-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 84 - Paradox as Boundary Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-085-local-agency-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 85 - Local Agency and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-086-the-status-of-a-physical-mapping.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 86 - The Status of a Physical Mapping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-087-possibility-relations-and-the-limits-of-agency-stories.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 87 - Possibility Relations and the Limits of Agency Stories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-088-sustained-closure-experience-and-recursive-surveying.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 88 - Sustained Closure, Experience, and Recursive Surveying</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-089-logical-consistency-before-physical-comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 89 - Logical Consistency Before Physical Comparison</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-090-ecosystems-and-enclosing-sustenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 90 - Ecosystems and Enclosing Sustenance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-091-societies-and-enclosing-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 91 - Societies and Enclosing Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-092-markets-compatibility-and-enclosing-dependence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 92 - Markets, Compatibility, and Enclosing Dependence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-093-institutions-roles-and-sustained-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 93 - Institutions, Roles, and Sustained Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-094-life-and-sustained-viable-organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 94 - Life and Sustained Viable Organization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-095-evolution-as-enclosing-possibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 95 - Evolution as Enclosing Possibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-096-local-laws-and-global-fit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 96: Local Laws and Global Fit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-097-mathematical-structure-before-local-laws.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 97: Mathematical Structure Before Local Laws</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-098-enclosing-compatibility-occurs-before-microscopic-causality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 98: Enclosing Compatibility Occurs Before Microscopic Causality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-099-born-rule-consistency-without-primitive-quantum-causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 99 — Born-Rule Consistency Without Primitive Quantum Causation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-100-the-empty-vessel-recursive-replacement-observation-and-irreversibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 100 — The Empty Vessel: Recursive Replacement, Observation, and Irreversibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-101-the-enclosing-relation-before-quantum-representation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 101 — The Enclosing Relation Before Quantum Representation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-102-particles-are-imagined.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 102 — Particles Are Imagined</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-103-the-causal-implications-of-the-microstate-definition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 103 — The Causal Implications of the Microstate Definition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-104-the-count-relation-survives-before-state-identity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 104 — The Count Relation Survives Before State Identity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-105-the-observational-inversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 105 — The Observational Inversion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-107-possibilities-pull-probabilities-do-not-push.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 107 — Possibilities Pull; Probabilities Do Not Push</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-108-a-branch-is-not-an-occupied-world.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 108 — A Branch Is Not an Occupied World</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-109-charge-classification-occurs-before-causal-strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 109 — Charge Classification Occurs Before Causal Strings</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-110-the-inferred-gravitational-source-is-not-an-occupied-object.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 110 — The Inferred Gravitational Source Is Not an Occupied Object</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-111-the-objectification-of-the-unreadable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 111 — The Objectification of the Unreadable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-112-sampled-multiplicity-before-thermal-fluctuations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 112 — Sampled Multiplicity Before Thermal Fluctuations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-113-r2d-and-the-black-hole-information-paradox.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 113 — R²D and the Black Hole Information Paradox</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-115-what-sustains-flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 115 — What Sustains Flow?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-116-conservation-before-transport.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 116 — Conservation Before Transport</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-117-pressure-and-viscosity-are-enclosing-constraints.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 117 — Pressure and Viscosity Are Enclosing Constraints</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-118-navier-stokes-as-a-boundary-owned-physical-projection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 118 — Navier–Stokes as a Boundary-Owned Physical Projection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-119-navier-stokes-singularity-joint-mechanical-readability.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 119 — The Navier–Stokes Singularity Is a Limit of Joint Mechanical Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-120-boundary-owned-identity-and-the-algebra-of-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 120 — Boundary-Owned Identity and the Algebra of Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-121-nested-wells-compatibility-and-harmonic-structure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 121 — Nested Wells, Compatibility, and Harmonic Structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-122-enclosing-compatibility-before-categorical-composition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 122 — Enclosing Compatibility Before Categorical Composition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-123-enclosing-possibility-before-model-based-decision.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 123 — Enclosing Possibility Before Model-Based Decision</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-124-enclosing-recurrence-before-competing-closure-counts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 124 — Enclosing Recurrence Before Competing Closure Counts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-125-native-occurrence-before-completed-closure-statistics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 125 — Native Occurrence Before Completed-Closure Statistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-126-consciousness-free-will-and-the-projection-of-causal-agency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 126 — Consciousness, Free Will, and the Projection of Causal Agency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-127-the-readability-horizon-of-conscious-agency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 127 — The Readability Horizon of Conscious Agency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-128-the-hidden-torus-and-the-enclosing-well.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 128 — The Hidden Torus and the Enclosing Well</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-129-spinorial-sign-reversal-as-boundary-relative-closure.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-130-closure-recorded-occurrence-and-the-quantum-readability-horizon.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 130 — Closure, Recorded Occurrence, and the Quantum Readability Horizon</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-131-symmetric-background-before-turbine-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 131 — Symmetric Background Before Turbine Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-132-the-invariant-that-survives-two-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 132 — The Invariant That Survives Two Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-133-thermodynamic-doppler-reciprocity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 133 — Thermodynamic Doppler Reciprocity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-134-symmetric-recurrence-across-the-two-horizons.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 134 — Symmetric Recurrence Across the Two Horizons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-135-the-admissible-structures-of-symmetric-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 135 — The Admissible Structures of Symmetric Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-136-native-identification-constrains-symmetric-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 136 — Native Identification Constrains Symmetric Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-137-enclosing-compatibility-determines-cross-stage-recurrence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 137 — Enclosing Compatibility Determines Cross-Stage Recurrence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-138-enclosing-native-recurrence-before-subordinate-decomposition.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 138 — Enclosing-Native Recurrence Before Subordinate Decomposition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-139-observational-coherence-across-recursive-backgrounds.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 139 — Observational Coherence Across Recursive Backgrounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-140-compatibility-fingerprints-and-relational-persistence.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 140 — Compatibility Fingerprints and Relational Persistence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-141-background-scales-before-motion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 141 — Background Scales Before Motion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-142-relative-motion-before-velocity.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 142 — Relative Motion Before Velocity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-143-mass-light-and-kinetic-energy-as-background-defined-physical-reads.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 143 — Mass, Light, and Kinetic Energy as Background-Defined Physical Reads</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-144-from-relative-distinguishability-to-energetic-readability.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 144 — From Relative Distinguishability to Energetic Readability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-145-propagation-as-enclosing-constraint-and-recursive-replacement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 145 — Propagation as Enclosing Constraint and Recursive Replacement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-146-enclosing-possibility-before-electromagnetic-radiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 146 — Enclosing Possibility Before Electromagnetic Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-147-electromagnetic-radiation-as-a-background-defined-physical-read.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 147 — Electromagnetic Radiation as a Background-Defined Physical Read</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-148-bound-closure-across-gravitational-and-quantum-reads.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 148 — Bound Closure Across Gravitational and Quantum Reads</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-149-electric-and-magnetic-reads-of-reciprocal-constraint-possibility-propagation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 149 — Electric and Magnetic Reads of Reciprocal Constraint–Possibility Propagation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-150-one-enclosing-compatibility-across-three-readability-regimes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 150 — One Enclosing Compatibility Across Three Readability Regimes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-151-retained-constraint-as-enclosing-compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 151 — Retained Constraint as Enclosing Compatibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-152-states-and-processes-as-complementary-reads-of-enclosing-compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 152 — States and Processes as Complementary Reads of Enclosing Compatibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-153-symplectic-pairing-from-enclosing-closure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 153 — Symplectic Pairing from Enclosing Closure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-154-operational-junction-records-and-two-dimensional-closure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 154 — Operational Junction Records and Two-Dimensional Closure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../addenda/addendum-155-classical-liouville-measure-from-compatible-finite-counts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Addendum 155 — Classical Liouville Measure from Compatible Finite Counts</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#addendum-129-spinorial-sign-reversal-as-boundary-relative-closure" id="toc-addendum-129-spinorial-sign-reversal-as-boundary-relative-closure" class="nav-link active" data-scroll-target="#addendum-129-spinorial-sign-reversal-as-boundary-relative-closure">Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</a>
+  <ul class="collapse">
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-observed-relationship-precedes-its-mathematical-representation" id="toc-the-observed-relationship-precedes-its-mathematical-representation" class="nav-link" data-scroll-target="#the-observed-relationship-precedes-its-mathematical-representation">1. The observed relationship precedes its mathematical representation</a></li>
+  <li><a href="#the-unchanged-r²d-count-architecture" id="toc-the-unchanged-r²d-count-architecture" class="nav-link" data-scroll-target="#the-unchanged-r²d-count-architecture">2. The unchanged R²D count architecture</a></li>
+  <li><a href="#finite-binary-compatibility-and-orientation-classes" id="toc-finite-binary-compatibility-and-orientation-classes" class="nav-link" data-scroll-target="#finite-binary-compatibility-and-orientation-classes">3. Finite binary compatibility and orientation classes</a></li>
+  <li><a href="#symmetric-incidence-generates-the-angular-momentum-algebra" id="toc-symmetric-incidence-generates-the-angular-momentum-algebra" class="nav-link" data-scroll-target="#symmetric-incidence-generates-the-angular-momentum-algebra">4. Symmetric incidence generates the angular-momentum algebra</a></li>
+  <li><a href="#theorem-129.1-rotational-parity-is-fixed-by-the-count-representation" id="toc-theorem-129.1-rotational-parity-is-fixed-by-the-count-representation" class="nav-link" data-scroll-target="#theorem-129.1-rotational-parity-is-fixed-by-the-count-representation">5. Theorem 129.1 — Rotational parity is fixed by the count representation</a>
+  <ul class="collapse">
+  <li><a href="#proof" id="toc-proof" class="nav-link" data-scroll-target="#proof">Proof</a></li>
+  <li><a href="#corollary-129.1a-even-and-odd-count-representations" id="toc-corollary-129.1a-even-and-odd-count-representations" class="nav-link" data-scroll-target="#corollary-129.1a-even-and-odd-count-representations">Corollary 129.1a — Even and odd count representations</a></li>
+  <li><a href="#corollary-129.1b-the-sign-is-independent-of-occupied-orientation" id="toc-corollary-129.1b-the-sign-is-independent-of-occupied-orientation" class="nav-link" data-scroll-target="#corollary-129.1b-the-sign-is-independent-of-occupied-orientation">Corollary 129.1b — The sign is independent of occupied orientation</a></li>
+  <li><a href="#corollary-129.1c-the-sign-does-not-define-a-different-isolated-physical-state" id="toc-corollary-129.1c-the-sign-does-not-define-a-different-isolated-physical-state" class="nav-link" data-scroll-target="#corollary-129.1c-the-sign-does-not-define-a-different-isolated-physical-state">Corollary 129.1c — The sign does not define a different isolated physical state</a></li>
+  </ul></li>
+  <li><a href="#theorem-129.2-the-signed-complement-construction" id="toc-theorem-129.2-the-signed-complement-construction" class="nav-link" data-scroll-target="#theorem-129.2-the-signed-complement-construction">6. Theorem 129.2 — The signed complement construction</a>
+  <ul class="collapse">
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
+  </ul></li>
+  <li><a href="#rotational-closure-and-phase-representation-closure-are-different" id="toc-rotational-closure-and-phase-representation-closure-are-different" class="nav-link" data-scroll-target="#rotational-closure-and-phase-representation-closure-are-different">7. Rotational closure and phase-representation closure are different</a></li>
+  <li><a href="#the-sign-becomes-readable-through-a-joint-comparison" id="toc-the-sign-becomes-readable-through-a-joint-comparison" class="nav-link" data-scroll-target="#the-sign-becomes-readable-through-a-joint-comparison">8. The sign becomes readable through a joint comparison</a></li>
+  <li><a href="#experimental-correspondence" id="toc-experimental-correspondence" class="nav-link" data-scroll-target="#experimental-correspondence">9. Experimental correspondence</a></li>
+  <li><a href="#the-connection-to-muscle-and-fermidirac-counting" id="toc-the-connection-to-muscle-and-fermidirac-counting" class="nav-link" data-scroll-target="#the-connection-to-muscle-and-fermidirac-counting">10. The connection to muscle and Fermi–Dirac counting</a></li>
+  <li><a href="#repeatable-occupancy-does-not-establish-a-collection-of-bosonic-objects" id="toc-repeatable-occupancy-does-not-establish-a-collection-of-bosonic-objects" class="nav-link" data-scroll-target="#repeatable-occupancy-does-not-establish-a-collection-of-bosonic-objects">11. Repeatable occupancy does not establish a collection of bosonic objects</a></li>
+  <li><a href="#why-spinorial-sign-is-not-yet-fermionic-exchange" id="toc-why-spinorial-sign-is-not-yet-fermionic-exchange" class="nav-link" data-scroll-target="#why-spinorial-sign-is-not-yet-fermionic-exchange">12. Why spinorial sign is not yet fermionic exchange</a></li>
+  <li><a href="#the-readability-limit-on-the-reconstruction" id="toc-the-readability-limit-on-the-reconstruction" class="nav-link" data-scroll-target="#the-readability-limit-on-the-reconstruction">13. The readability limit on the reconstruction</a></li>
+  <li><a href="#formal-status-of-the-results" id="toc-formal-status-of-the-results" class="nav-link" data-scroll-target="#formal-status-of-the-results">14. Formal status of the results</a></li>
+  <li><a href="#conclusion-the-enclosing-representation-determines-the-sign" id="toc-conclusion-the-enclosing-representation-determines-the-sign" class="nav-link" data-scroll-target="#conclusion-the-enclosing-representation-determines-the-sign">15. Conclusion — The enclosing representation determines the sign</a></li>
+  <li><a href="#controlling-r²d-references" id="toc-controlling-r²d-references" class="nav-link" data-scroll-target="#controlling-r²d-references">Controlling R²D references</a></li>
+  <li><a href="#experimental-reference" id="toc-experimental-reference" class="nav-link" data-scroll-target="#experimental-reference">Experimental reference</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../addenda/addendum-001-recursive-replacement-before-navier-stokes-singularity.html">Addenda</a></li><li class="breadcrumb-item"><a href="../addenda/addendum-129-spinorial-sign-reversal-as-boundary-relative-closure.html"><span class="chapter-title">Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</span></h1>
+<p class="subtitle lead">Finite Compatible Counting, Rotational Parity, and the Mathematical Representation of the 360°/720° Observation</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="addendum-129-spinorial-sign-reversal-as-boundary-relative-closure" class="level1">
+<h1>Addendum 129 — Spinorial Sign Reversal as Boundary-Relative Closure</h1>
+<p><strong>Finite Compatible Counting, Rotational Parity, and the Mathematical Representation of the 360°/720° Observation</strong></p>
+<p><strong>Status:</strong> Author-approved for canon publication — November 20, 2026</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>A spin-½ system exhibits a characteristic rotational relationship: a 360° rotation changes the sign of its spinorial representation, while a 720° rotation restores that representation. Coherent interferometry makes the relative sign experimentally readable.</p>
+<p>Conventionally, this behavior is described using spinors and the double covering of the spatial rotation group <span class="math inline">\(SO(3)\)</span> by <span class="math inline">\(SU(2)\)</span>. The mathematical representation is exact. Its success, however, does not establish a persistent microscopic spinning object as the physical cause of the observation.</p>
+<p>Recursively Realized Distinguishability (R²D) begins with the enclosing experimental boundary. That boundary defines compatible realizations, distinguishable states, and the conditions under which rotational and detector relationships become readable. At the quantum readability horizon, the observed recurrence relation can remain readable without preserving a uniquely identifiable subordinate realization history.</p>
+<p>Addendum 106 established that normalized symmetric incidence among finite compatible binary assignments generates the angular-momentum algebra. The present addendum extends that result to spinorial rotational parity.</p>
+<p>For a finite representation containing <span class="math inline">\(L\)</span> equivalent formal binary distinctions, with centered orientation coordinate <span class="math inline">\(m=k-L/2\)</span>, the standard rotationally covariant representation satisfies</p>
+<p><span class="math display">\[
+\boxed{U(2\pi)=(-1)^L\mathbf1}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{U(4\pi)=\mathbf1.}
+\]</span></p>
+<p>The parity factor is independent of the occupied orientation class. It is a property of the complete count-generated representation.</p>
+<p>A second construction establishes the equivalent result using a signed complement operation on the finite binary manifold. The construction identifies the mathematical distinction between returning to the original orientation classification and returning to the original phase representative.</p>
+<p>The observable sign appears only in a coherent comparison with a reference. An isolated global sign does not constitute a separately readable physical state.</p>
+<p>The results reconstruct the rotational mathematics without introducing primitive spin-bearing particles or uniquely identifiable subordinate trajectories. They do not establish that finite cardinality alone uniquely selects a physical spin representation, nor that the quantum horizon permits recovery of the subordinate recurrence structure represented by the spinor.</p>
+<p><strong>The observed rotational relationship is physical. The spinor is its mathematical representation, not its independently established microscopic cause.</strong></p>
+<hr>
+</section>
+<section id="the-observed-relationship-precedes-its-mathematical-representation" class="level2">
+<h2 class="anchored" data-anchor-id="the-observed-relationship-precedes-its-mathematical-representation">1. The observed relationship precedes its mathematical representation</h2>
+<p>Consider an experimental boundary that defines a preparation, a controlled rotational operation, a coherent reference, and a detector.</p>
+<p>A spin-½ rotational measurement exhibits three relevant observations:</p>
+<ol type="1">
+<li>The ordinary spatial orientation returns after 360°.</li>
+<li>A coherent comparison distinguishes a sign reversal after that rotation.</li>
+<li>A further 360° rotation restores the original interference relationship.</li>
+</ol>
+<p>These observations are commonly expressed as</p>
+<p><span class="math display">\[
+|\psi\rangle
+\xrightarrow{2\pi}
+-|\psi\rangle
+\xrightarrow{2\pi}
+|\psi\rangle.
+\]</span></p>
+<p>The expression is a mathematical description of the measured relationship.</p>
+<p>It does not establish that a physically persistent spinor has undergone two complete rotations. Nor does it establish that the experiment follows one continuously identifiable microscopic object.</p>
+<p>In R²D, the enclosing measurement defines the observable distinctions before a subordinate representation is assigned.</p>
+<p>The correct order is</p>
+<p><span class="math display">\[
+\boxed{
+\begin{gathered}
+\text{Enclosing experimental relation}\\
+\Downarrow\\
+\text{Admitted compatible realizations}\\
+\Downarrow\\
+\text{Readable rotational and detector relations}\\
+\Downarrow\\
+\text{Mathematical representation}.
+\end{gathered}}
+\]</span></p>
+<p>The representation must reproduce the observation. Its predictive success does not invert the causal priority of the enclosing relation.</p>
+<p>This is the same distinction developed in Addenda 101, 102, and 105.</p>
+</section>
+<section id="the-unchanged-r²d-count-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-unchanged-r²d-count-architecture">2. The unchanged R²D count architecture</h2>
+<p>At an enclosing boundary <span class="math inline">\(B\)</span>, let</p>
+<p><span class="math display">\[
+\mathfrak M_B
+\]</span></p>
+<p>be the domain of compatible subordinate realizations.</p>
+<p>The boundary defines a classification</p>
+<p><span class="math display">\[
+\pi_B:\mathfrak M_B\rightarrow\mathcal M_B.
+\]</span></p>
+<p>For readable macrostate <span class="math inline">\(i\)</span>, the compatible multiplicity is</p>
+<p><span class="math display">\[
+W_{B,i}=|\pi_B^{-1}(i)|.
+\]</span></p>
+<p>The total compatible possibility is</p>
+<p><span class="math display">\[
+\Theta_B=\sum_i W_{B,i}.
+\]</span></p>
+<p>These quantities count possibilities, not realized detector events.</p>
+<p>R²D further distinguishes compatible possibility, productive constraint, retained organization, realized occupancy, and recurrence.</p>
+<p>None of these primitive definitions requires angular momentum, spinors, physical particles, or complex amplitudes.</p>
+<p>At the quantum readability horizon, the enclosing recurrence relation remains physically readable while the subordinate geometric realization is not independently recoverable.</p>
+<p>Addendum 72 shows how ordered cyclic closure admits complex phase as a mathematical representation. It does not identify complex phase with a primitive physical substance.</p>
+<p>The present addendum preserves that ordering.</p>
+</section>
+<section id="finite-binary-compatibility-and-orientation-classes" class="level2">
+<h2 class="anchored" data-anchor-id="finite-binary-compatibility-and-orientation-classes">3. Finite binary compatibility and orientation classes</h2>
+<p>Following Addendum 106, consider a finite compatible domain of <span class="math inline">\(L\)</span> equivalent formal binary distinctions.</p>
+<p>When all assignments are compatible,</p>
+<p><span class="math display">\[
+\mathfrak M_B=\{0,1\}^{L}.
+\]</span></p>
+<p>Let <span class="math inline">\(k\)</span> denote the number of positive assignments.</p>
+<p>The enclosing classification contains</p>
+<p><span class="math display">\[
+k=0,1,\ldots,L
+\]</span></p>
+<p>with multiplicities</p>
+<p><span class="math display">\[
+\boxed{W_k=\binom Lk.}
+\]</span></p>
+<p>The total multiplicity is</p>
+<p><span class="math display">\[
+\Theta_B=2^L.
+\]</span></p>
+<p>Introduce the centered orientation coordinate</p>
+<p><span class="math display">\[
+\boxed{m=k-\frac L2.}
+\]</span></p>
+<p>The representation contains</p>
+<p><span class="math display">\[
+m=-\frac L2,-\frac L2+1,\ldots,\frac L2.
+\]</span></p>
+<p>It therefore admits <span class="math inline">\(L+1\)</span> centered orientation classes.</p>
+<p>For <span class="math inline">\(L=1\)</span>,</p>
+<p><span class="math display">\[
+m=-\frac12,\frac12.
+\]</span></p>
+<p>For <span class="math inline">\(L=2\)</span>,</p>
+<p><span class="math display">\[
+m=-1,0,1.
+\]</span></p>
+<p>For <span class="math inline">\(L=3\)</span>,</p>
+<p><span class="math display">\[
+m=-\frac32,-\frac12,\frac12,\frac32.
+\]</span></p>
+<p>These are formal orientation classes of the finite compatibility construction.</p>
+<p>They are not a claim that <span class="math inline">\(L\)</span> microscopic particles or physical switches persist beneath the receiving quantum boundary.</p>
+<p>In Addendum 106, <span class="math inline">\(L\)</span> was selected to represent an observed angular manifold. It was not derived independently from the physical composition of the nucleus.</p>
+<p>That distinction remains controlling here.</p>
+</section>
+<section id="symmetric-incidence-generates-the-angular-momentum-algebra" class="level2">
+<h2 class="anchored" data-anchor-id="symmetric-incidence-generates-the-angular-momentum-algebra">4. Symmetric incidence generates the angular-momentum algebra</h2>
+<p>The binomial multiplicities obey the exact incidence identity</p>
+<p><span class="math display">\[
+\boxed{W_k(L-k)=W_{k+1}(k+1).}
+\]</span></p>
+<p>Define normalized symmetric class vectors</p>
+<p><span class="math display">\[
+|k\rangle=
+\frac{1}{\sqrt{W_k}}
+\sum_{|x|=k}|x\rangle.
+\]</span></p>
+<p>The vectors <span class="math inline">\(|x\rangle\)</span> are formal coordinates of compatible assignments, not independently occupied physical microstates.</p>
+<p>Normalized incidence between adjacent classes gives</p>
+<p><span class="math display">\[
+J_+|k\rangle
+=
+\sqrt{(L-k)(k+1)}|k+1\rangle
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+J_-|k\rangle
+=
+\sqrt{k(L-k+1)}|k-1\rangle.
+\]</span></p>
+<p>Define</p>
+<p><span class="math display">\[
+J_z|k\rangle
+=
+\left(k-\frac L2\right)|k\rangle.
+\]</span></p>
+<p>Then</p>
+<p><span class="math display">\[
+[J_z,J_\pm]=\pm J_\pm
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\boxed{[J_+,J_-]=2J_z.}
+\]</span></p>
+<p>With</p>
+<p><span class="math display">\[
+J_x=\frac{J_++J_-}{2},
+\qquad
+J_y=\frac{J_+-J_-}{2i},
+\]</span></p>
+<p>the resulting operators satisfy</p>
+<p><span class="math display">\[
+[J_i,J_j]=i\epsilon_{ijk}J_k.
+\]</span></p>
+<p>The finite count-generated representation therefore possesses the angular-momentum algebra with</p>
+<p><span class="math display">\[
+\boxed{j=\frac L2.}
+\]</span></p>
+<p>This is the exact mathematical result established in Addendum 106.</p>
+<p>Normalized linear incidence has now been introduced as a representation of the count relations. Physical spatial rotation has not yet been identified with that representation.</p>
+</section>
+<section id="theorem-129.1-rotational-parity-is-fixed-by-the-count-representation" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-129.1-rotational-parity-is-fixed-by-the-count-representation">5. Theorem 129.1 — Rotational parity is fixed by the count representation</h2>
+<p><strong>Theorem.</strong> Let the finite symmetric incidence representation with <span class="math inline">\(j=L/2\)</span> be assigned the standard continuous rotationally covariant representation</p>
+<p><span class="math display">\[
+U_z(\theta)=e^{-i\theta J_z}.
+\]</span></p>
+<p>Then a complete <span class="math inline">\(2\pi\)</span> rotation acts on every centered orientation class with the same factor:</p>
+<p><span class="math display">\[
+\boxed{U_z(2\pi)=(-1)^L\mathbf1.}
+\]</span></p>
+<p>A second complete rotation restores the representation:</p>
+<p><span class="math display">\[
+\boxed{U_z(4\pi)=\mathbf1.}
+\]</span></p>
+<section id="proof" class="level3">
+<h3 class="anchored" data-anchor-id="proof">Proof</h3>
+<p>For orientation class <span class="math inline">\(|k\rangle\)</span>,</p>
+<p><span class="math display">\[
+J_z|k\rangle
+=
+\left(k-\frac L2\right)|k\rangle.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+U_z(2\pi)|k\rangle
+=
+e^{-i2\pi(k-L/2)}|k\rangle.
+\]</span></p>
+<p>Separate the exponent:</p>
+<p><span class="math display">\[
+e^{-i2\pi(k-L/2)}
+=
+e^{-i2\pi k}e^{i\pi L}.
+\]</span></p>
+<p>Since <span class="math inline">\(k\)</span> and <span class="math inline">\(L\)</span> are integers,</p>
+<p><span class="math display">\[
+e^{-i2\pi k}=1
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+e^{i\pi L}=(-1)^L.
+\]</span></p>
+<p>Consequently,</p>
+<p><span class="math display">\[
+U_z(2\pi)|k\rangle
+=
+(-1)^L|k\rangle.
+\]</span></p>
+<p>The factor is independent of <span class="math inline">\(k\)</span>, so</p>
+<p><span class="math display">\[
+\boxed{U_z(2\pi)=(-1)^L\mathbf1.}
+\]</span></p>
+<p>Applying the transformation twice,</p>
+<p><span class="math display">\[
+U_z(4\pi)=(-1)^{2L}\mathbf1
+=\mathbf1.
+\]</span></p>
+<p>Under the full rotationally covariant representation, the result is independent of the selected rotation axis because generators associated with different axes are related by rotation conjugation.</p>
+<p>This completes the proof.</p>
+</section>
+<section id="corollary-129.1a-even-and-odd-count-representations" class="level3">
+<h3 class="anchored" data-anchor-id="corollary-129.1a-even-and-odd-count-representations">Corollary 129.1a — Even and odd count representations</h3>
+<p>For even <span class="math inline">\(L\)</span>,</p>
+<p><span class="math display">\[
+U(2\pi)=+\mathbf1.
+\]</span></p>
+<p>For odd <span class="math inline">\(L\)</span>,</p>
+<p><span class="math display">\[
+U(2\pi)=-\mathbf1.
+\]</span></p>
+<p>Therefore, half-integer and integer angular representations differ by the parity of the finite construction.</p>
+</section>
+<section id="corollary-129.1b-the-sign-is-independent-of-occupied-orientation" class="level3">
+<h3 class="anchored" data-anchor-id="corollary-129.1b-the-sign-is-independent-of-occupied-orientation">Corollary 129.1b — The sign is independent of occupied orientation</h3>
+<p>Every <span class="math inline">\(k\)</span> class acquires the same factor.</p>
+<p>Thus the complete rotational sign is not selected by the occupancy of one orientation class.</p>
+<p>It is fixed by the algebraic structure of the entire representation.</p>
+<p>This is the central new mathematical result.</p>
+</section>
+<section id="corollary-129.1c-the-sign-does-not-define-a-different-isolated-physical-state" class="level3">
+<h3 class="anchored" data-anchor-id="corollary-129.1c-the-sign-does-not-define-a-different-isolated-physical-state">Corollary 129.1c — The sign does not define a different isolated physical state</h3>
+<p>For an isolated quantum ray,</p>
+<p><span class="math display">\[
+[|\psi\rangle]=[-|\psi\rangle].
+\]</span></p>
+<p>A global sign change does not create a distinguishable isolated state.</p>
+<p>Its significance arises in a coherent comparison where the relative sign changes observable detector relations.</p>
+<hr>
+</section>
+</section>
+<section id="theorem-129.2-the-signed-complement-construction" class="level2">
+<h2 class="anchored" data-anchor-id="theorem-129.2-the-signed-complement-construction">6. Theorem 129.2 — The signed complement construction</h2>
+<p>The same parity factor can be exhibited through a finite complementary operation.</p>
+<p>Define the represented half-turn</p>
+<p><span class="math display">\[
+F_y=e^{-i\pi J_y}.
+\]</span></p>
+<p>Its action on the symmetric orientation classes is</p>
+<p><span class="math display">\[
+\boxed{
+F_y|k\rangle=(-1)^{L-k}|L-k\rangle.
+}
+\]</span></p>
+<p>This identity can be obtained by applying the normalized two-class half-turn operation to each formal binary coordinate and restricting to the symmetric representation.</p>
+<p>For <span class="math inline">\(L=1\)</span>,</p>
+<p><span class="math display">\[
+F_y|0\rangle=-|1\rangle,
+\qquad
+F_y|1\rangle=|0\rangle.
+\]</span></p>
+<p>For general <span class="math inline">\(L\)</span>, each positive coordinate becomes negative and each negative coordinate becomes positive. The operation complements the binary assignment while contributing one negative factor for every originally negative coordinate.</p>
+<p>Since class <span class="math inline">\(k\)</span> contains <span class="math inline">\(L-k\)</span> negative coordinates, the normalized symmetric class acquires the factor <span class="math inline">\((-1)^{L-k}\)</span>.</p>
+<p>Apply the transformation again:</p>
+<p><span class="math display">\[
+F_y^2|k\rangle
+=
+(-1)^{L-k}(-1)^k|k\rangle.
+\]</span></p>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\boxed{F_y^2=(-1)^L\mathbf1.}
+\]</span></p>
+<p>For odd <span class="math inline">\(L\)</span>, two half-turns restore the orientation classification while changing the sign of its representation. Four half-turns restore the original representative.</p>
+<p>For even <span class="math inline">\(L\)</span>, two half-turns restore it directly.</p>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>Ordinary binary complementation satisfies</p>
+<p><span class="math display">\[
+\operatorname{comp}^2=\mathbf1.
+\]</span></p>
+<p>The signed complement operation differs because it belongs to the oriented angular representation.</p>
+<p>It is important not to reverse the derivation here.</p>
+<p>The bare binary complement operation does not independently contain the negative sign. The sign appears in the normalized angular representation and its rotational composition.</p>
+<p>The theorem therefore provides a finite algebraic verification of the rotational parity result, not an independent derivation of quantum spin from cardinality alone.</p>
+<p>Neither operation must be interpreted as the literal evolution of microscopic binary constituents.</p>
+</section>
+</section>
+<section id="rotational-closure-and-phase-representation-closure-are-different" class="level2">
+<h2 class="anchored" data-anchor-id="rotational-closure-and-phase-representation-closure-are-different">7. Rotational closure and phase-representation closure are different</h2>
+<p>Ordinary spatial orientation obeys</p>
+<p><span class="math display">\[
+R(2\pi)=R(0).
+\]</span></p>
+<p>The final spatial orientation after one complete revolution is identical to the initial orientation.</p>
+<p>The half-integer angular representation instead obeys</p>
+<p><span class="math display">\[
+U(2\pi)=-\mathbf1.
+\]</span></p>
+<p>These are not contradictory statements.</p>
+<p>The rotation group <span class="math inline">\(SO(3)\)</span> and its double covering group <span class="math inline">\(SU(2)\)</span> encode different mathematical distinctions.</p>
+<p>The center of <span class="math inline">\(SU(2)\)</span> contains</p>
+<p><span class="math display">\[
+\{+\mathbf1,-\mathbf1\}.
+\]</span></p>
+<p>Both central elements correspond to the same identity orientation under the covering map to <span class="math inline">\(SO(3)\)</span>.</p>
+<p>The finite count-generated angular representation assigns the nontrivial central element the action</p>
+<p><span class="math display">\[
+\boxed{-\mathbf1\mapsto(-1)^L\mathbf1.}
+\]</span></p>
+<p>For odd <span class="math inline">\(L\)</span>, the representation distinguishes the two central elements.</p>
+<p>For even <span class="math inline">\(L\)</span>, it does not.</p>
+<p>This is the group-theoretic origin of the rotational sign distinction.</p>
+<p>Its R²D interpretation must be stated carefully.</p>
+<p>The mathematical double covering does not establish two physically occupied subordinate states. Nor does the topology identify a uniquely readable quantum recurrence beneath the horizon.</p>
+<p>It establishes that an observed spatial orientation can admit a richer mathematical rotational representation.</p>
+<p>Which aspects of that representation are physically readable depend on the enclosing experimental boundary.</p>
+</section>
+<section id="the-sign-becomes-readable-through-a-joint-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="the-sign-becomes-readable-through-a-joint-comparison">8. The sign becomes readable through a joint comparison</h2>
+<p>Consider a coherent interferometric experiment with two alternatives, <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>.</p>
+<p>The enclosing boundary defines their preparation and recombination conditions before either detector outcome is realized.</p>
+<p>One alternative undergoes a controlled rotation represented by <span class="math inline">\(U(\theta)\)</span>. The other provides a reference.</p>
+<p>Within the conventional coherent quantum projection, the comparison factor is</p>
+<p><span class="math display">\[
+\Gamma(\theta)
+=
+\langle\psi|U(\theta)|\psi\rangle.
+\]</span></p>
+<p>For a balanced two-output interferometer with calibrated visibility <span class="math inline">\(V\)</span>, reference phase <span class="math inline">\(\delta\)</span>, and no additional unaccounted relative phase, the detector probabilities are</p>
+<p><span class="math display">\[
+p_\pm(\theta,\delta)
+=
+\frac12\left[
+1\pm V\operatorname{Re}
+\left(e^{i\delta}\Gamma(\theta)\right)
+\right].
+\]</span></p>
+<p>For one complete rotation,</p>
+<p><span class="math display">\[
+\Gamma(2\pi)=(-1)^L.
+\]</span></p>
+<p>Thus</p>
+<p><span class="math display">\[
+\boxed{
+p_\pm(2\pi,\delta)
+=
+\frac12\left[
+1\pm(-1)^L V\cos\delta
+\right].
+}
+\]</span></p>
+<p>For odd <span class="math inline">\(L\)</span>, the detector preferences reverse relative to the reference measurement.</p>
+<p>After two complete rotations,</p>
+<p><span class="math display">\[
+\Gamma(4\pi)=1,
+\]</span></p>
+<p>and the original interference relationship returns.</p>
+<p>This reproduces the observed 360°/720° effect.</p>
+<p>The experimentally observable quantity is the detector occupancy relation, not the independent existence of a spinorial object.</p>
+<p>Let <span class="math inline">\(c_+\)</span> and <span class="math inline">\(c_-\)</span> denote realized detector occurrences under a specified preparation.</p>
+<p>Their normalized read is</p>
+<p><span class="math display">\[
+\widehat p_\pm
+=
+\frac{c_\pm}{c_++c_-}.
+\]</span></p>
+<p>The conventional interference expression provides a calibrated prediction for these observed proportions.</p>
+<p>R²D does not identify the mathematical complex amplitude with the underlying compatible multiplicity, nor the predicted probability with a completed detector occurrence.</p>
+<p>The detector receives an enclosing physical relation. Its recorded counts realize that relation through the applicable measurement boundary.</p>
+<p>The spinor represents the calibrated rotational component of this joint mathematical description.</p>
+<p>It does not cause the detector event.</p>
+</section>
+<section id="experimental-correspondence" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-correspondence">9. Experimental correspondence</h2>
+<p>The characteristic two-cycle interference relationship was tested by Rauch and colleagues in 1975 using neutron interferometry.</p>
+<p>A coherent neutron interferometer compared alternatives subjected to different magnetic-field conditions. The resulting interference oscillations were consistent with the predicted <span class="math inline">\(4\pi\)</span> spinor periodicity.</p>
+<p>The experiment establishes that a relative rotational phase relationship becomes observable through coherent comparison.</p>
+<p>It does not, by itself, establish a unique persistent microscopic trajectory or identify a spinor as a physically existing object.</p>
+<p>The relevant experimental boundary includes the preparation, coherent alternatives, magnetic controls, recombination, and detector.</p>
+<p>The magnetic control is an experimentally specified relation. Its representation as a spin rotation is part of the successful mathematical projection.</p>
+<p>The R²D task is to preserve the distinction between that projection and the causal priority of the enclosing experimental relation.</p>
+<p>The present reconstruction reproduces the established rotational prediction under the stated physical mapping. It does not claim a new experimental discovery or a uniquely derived microscopic mechanism.</p>
+</section>
+<section id="the-connection-to-muscle-and-fermidirac-counting" class="level2">
+<h2 class="anchored" data-anchor-id="the-connection-to-muscle-and-fermidirac-counting">10. The connection to muscle and Fermi–Dirac counting</h2>
+<p>The finite binary construction has an important cross-domain counterpart.</p>
+<p>R²D Part III establishes the normalized binary occupancy law</p>
+<p><span class="math display">\[
+\boxed{
+\bar m_F=\frac{1}{e^{-A}+1}
+}
+\]</span></p>
+<p>where <span class="math inline">\(A\)</span> is the relevant R²D occupancy asymmetry.</p>
+<p>The same mathematical form describes binary molecular-switch occupancy in muscle.</p>
+<p>An ensemble of <span class="math inline">\(N\)</span> compatible binary switches has the multiplicity structure</p>
+<p><span class="math display">\[
+W(k)=\binom Nk.
+\]</span></p>
+<p>This is the same binomial combinatorics used in the finite angular construction.</p>
+<p>The difference lies in the mathematical and physical relations subsequently represented.</p>
+<p>Muscle occupancy does not automatically possess a physical spinorial rotation read. Binary multiplicity is compatible with the angular representation, but does not uniquely require it.</p>
+<p>This establishes the distinction</p>
+<p><span class="math display">\[
+\boxed{
+\text{Binary occupancy statistics}
+\neq
+\text{spinorial rotational behavior}.
+}
+\]</span></p>
+<p>The muscle ensemble is therefore a useful control case.</p>
+<p>The existence of Fermi–Dirac-form statistics does not imply that the molecular switches are fermions, nor that the muscle-scale enclosing boundary possesses a physically readable spinorial sign.</p>
+<p>It establishes that the occupancy mathematics precedes the quantum particle interpretation.</p>
+</section>
+<section id="repeatable-occupancy-does-not-establish-a-collection-of-bosonic-objects" class="level2">
+<h2 class="anchored" data-anchor-id="repeatable-occupancy-does-not-establish-a-collection-of-bosonic-objects">11. Repeatable occupancy does not establish a collection of bosonic objects</h2>
+<p>The same distinction applies to Bose–Einstein statistics.</p>
+<p>Part III derives the Bose–Einstein form from a repeatable admitted occupancy domain,</p>
+<p><span class="math display">\[
+m=0,1,2,\ldots,
+\]</span></p>
+<p>rather than from a primitive ontology of bosonic objects.</p>
+<p>For the appropriate occupancy asymmetry,</p>
+<p><span class="math display">\[
+\boxed{
+\bar m_B=\frac{1}{e^{-A}-1}.
+}
+\]</span></p>
+<p>The <span class="math inline">\(m=2\)</span> classification signifies an admitted occupancy count of two in the specified statistical domain.</p>
+<p>It does not, under the R²D primitive definitions, independently establish two identifiable persistent bosons literally occupying one physical state.</p>
+<p>Likewise, the <span class="math inline">\(L\)</span> binary distinctions used to reconstruct angular momentum do not establish <span class="math inline">\(L\)</span> persistent physical constituents.</p>
+<p>This is a general principle of the framework:</p>
+<p><strong>The mathematics of distinguishable or repeatable counts does not establish the ontology of the objects conventionally used to represent those counts.</strong></p>
+<p>Fermi–Dirac occupancy, Bose–Einstein occupancy, and spinorial angular representation must therefore remain distinct constructions with distinct physical readability conditions.</p>
+</section>
+<section id="why-spinorial-sign-is-not-yet-fermionic-exchange" class="level2">
+<h2 class="anchored" data-anchor-id="why-spinorial-sign-is-not-yet-fermionic-exchange">12. Why spinorial sign is not yet fermionic exchange</h2>
+<p>Spinorial sign reversal under a complete spatial rotation is not identical to exchange antisymmetry.</p>
+<p>The rotational statement is</p>
+<p><span class="math display">\[
+U(2\pi)=(-1)^L\mathbf1.
+\]</span></p>
+<p>The conventional fermionic exchange statement is</p>
+<p><span class="math display">\[
+\Psi(\ldots,x_a,\ldots,x_b,\ldots)
+=
+-\Psi(\ldots,x_b,\ldots,x_a,\ldots).
+\]</span></p>
+<p>These statements concern different operations.</p>
+<p>The first belongs to a rotational representation.</p>
+<p>The second belongs to an exchange representation on a joint state space.</p>
+<p>Their relationship in relativistic quantum field theory is governed by additional physical and mathematical assumptions.</p>
+<p>Finite binary occupancy alone does not establish that relationship.</p>
+<p>A complete R²D reconstruction of the spin-statistics connection would require an independently specified enclosing exchange-compatibility relation and the conditions connecting that relation to physical rotation.</p>
+<p>This addendum does not claim such a derivation.</p>
+</section>
+<section id="the-readability-limit-on-the-reconstruction" class="level2">
+<h2 class="anchored" data-anchor-id="the-readability-limit-on-the-reconstruction">13. The readability limit on the reconstruction</h2>
+<p>An important distinction remains between representing a quantum relation and identifying its inaccessible subordinate realization.</p>
+<p>The finite construction contains formal coordinates</p>
+<p><span class="math display">\[
+|x\rangle,\qquad |k\rangle.
+\]</span></p>
+<p>These coordinates support exact algebraic calculations.</p>
+<p>They do not establish that the physical system contains continuously identifiable binary constituents following the transformations represented by <span class="math inline">\(J_+\)</span>, <span class="math inline">\(J_-\)</span>, or <span class="math inline">\(F_y\)</span>.</p>
+<p>Nor does the measured <span class="math inline">\(4\pi\)</span> periodicity identify a unique subordinate recurrence class.</p>
+<p>At the quantum readability horizon, the receiving boundary admits a readable recurrence relation without recovering the subordinate geometric history that realizes it.</p>
+<p>Multiple subordinate realization histories may remain compatible with the same enclosing observation.</p>
+<p>The observed interference constrains the admissible mathematical representations. It does not uniquely identify their unreadable physical realization.</p>
+<p>Consequently, the following inference is invalid:</p>
+<p><span class="math display">\[
+\text{Observed }4\pi\text{ periodicity}
+\Longrightarrow
+\text{one persistent microscopic spinor}.
+\]</span></p>
+<p>The valid statement is narrower:</p>
+<p><span class="math display">\[
+\boxed{
+\text{Observed rotational interference}
+\Longleftrightarrow
+\text{a calibrated spinorial representation of that read}.
+}
+\]</span></p>
+<p>The equivalence here concerns the specified mathematical fit to the observed relationship. It is not an equivalence between a representation and a uniquely established physical cause.</p>
+<p>This is the observational-inversion distinction of Addendum 105 applied to spin.</p>
+</section>
+<section id="formal-status-of-the-results" class="level2">
+<h2 class="anchored" data-anchor-id="formal-status-of-the-results">14. Formal status of the results</h2>
+<p>The following results are exact within the specified mathematical construction:</p>
+<p><strong>Result 129.1 — Finite compatibility</strong></p>
+<p>Unrestricted equivalent binary assignments have binomial multiplicities</p>
+<p><span class="math display">\[
+W_k=\binom Lk.
+\]</span></p>
+<p><strong>Result 129.2 — Normalized incidence</strong></p>
+<p>Symmetric incidence generates the angular-momentum algebra with</p>
+<p><span class="math display">\[
+j=L/2.
+\]</span></p>
+<p>This reproduces Addendum 106.</p>
+<p><strong>Result 129.3 — Rotational parity</strong></p>
+<p>Under the standard continuous rotational representation,</p>
+<p><span class="math display">\[
+U(2\pi)=(-1)^L\mathbf1.
+\]</span></p>
+<p>The sign is independent of occupied orientation class.</p>
+<p><strong>Result 129.4 — Signed-complement composition</strong></p>
+<p>The selected oriented half-turn operation satisfies</p>
+<p><span class="math display">\[
+F_y^2=(-1)^L\mathbf1.
+\]</span></p>
+<p><strong>Result 129.5 — Coherent relative-sign projection</strong></p>
+<p>An ideal, coherently calibrated reference comparison maps the sign reversal to an exchange of detector interference preferences.</p>
+<p>The following physical conditions remain necessary:</p>
+<ul>
+<li>Identification of the finite angular representation with the physical rotational response of the selected experimental boundary.</li>
+<li>Calibrated rotational controls and coherent reference comparison.</li>
+<li>A physical mapping from coherent phase relations to conditional detector occupancy.</li>
+<li>A specified domain in which additional phase shifts, dephasing, and detector imperfections are accounted for.</li>
+</ul>
+<p>The following claims are not established:</p>
+<ul>
+<li>That the primitive finite count axioms uniquely select half-integer spin.</li>
+<li>That the underlying quantum recurrence class can be independently recovered.</li>
+<li>That a spinor is a physical substance or a uniquely persistent microscopic object.</li>
+<li>That rotational parity alone derives fermionic exchange statistics.</li>
+<li>That successful quantum mathematics supplies independent bottom-up causal agency.</li>
+</ul>
+<p>These distinctions follow the methodological requirements of Addendum 86, <em>The Status of a Physical Mapping</em>.</p>
+</section>
+<section id="conclusion-the-enclosing-representation-determines-the-sign" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-the-enclosing-representation-determines-the-sign">15. Conclusion — The enclosing representation determines the sign</h2>
+<p>The 360°/720° rotational relationship admits an exact finite-count mathematical reconstruction.</p>
+<p>Starting from compatible binary assignments, normalized symmetric incidence generates the angular-momentum algebra. Under its standard rotationally covariant representation, the sign following one complete rotation is</p>
+<p><span class="math display">\[
+\boxed{U(2\pi)=(-1)^L\mathbf1.}
+\]</span></p>
+<p>The result is independent of the occupied orientation class and depends only on the parity of the representation.</p>
+<p>A signed-complement construction reproduces the same algebraic distinction.</p>
+<p>The observable physical consequence arises through a coherent joint measurement. The sign is not separately readable as an isolated global phase, but its relative value can determine the interference relation recorded by an enclosing detector.</p>
+<p>No primitive microscopic spinor, continuously persistent spinning particle, or uniquely identifiable subordinate trajectory is required to construct this mathematical relationship.</p>
+<p>Neither does the reconstruction establish such an object.</p>
+<p>The result is consistent with the original R²D distinction between enclosing causal organization and subordinate mathematical realization.</p>
+<p><strong>A spinor does not physically turn negative. A mathematical representation changes sign, and an enclosing measurement can distinguish the resulting relative relationship.</strong></p>
+<p>What is physically observed is the interference read. What is mathematically constructed is the rotational representation. What remains inaccessible is a unique subordinate recurrence history beneath the quantum readability horizon.</p>
+<p>The next addendum develops the broader consequence:</p>
+<p>A physical system may return to its original local state while an enclosing boundary retains a distinguishable record of the completed occurrence. The cardiac pressure–volume loop and the turbine provide directly readable examples. Quantum rotational interference demonstrates both the power and the limit of that analogy.</p>
+<hr>
+</section>
+<section id="controlling-r²d-references" class="level2">
+<h2 class="anchored" data-anchor-id="controlling-r²d-references">Controlling R²D references</h2>
+<ul>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/canon/part-i.html">R²D Part I — A Theory of Dimensionless Recursive Counting</a>.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/canon/part-iii.html">R²D Part III — The Recursive Clock and the Horizons of Readability</a>.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/addenda/addendum-072-closure-phase-occurs-before-complex-amplitude.html">Addendum 72 — Closure Phase Occurs Before Complex Amplitude</a>.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/addenda/addendum-081-repeated-subordinate-closure-occurs-before-quantum-interference.html">Addendum 81 — Repeated Subordinate Closure Occurs Before Quantum Interference</a>.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/addenda/addendum-083-detector-boundary-realization-occurs-before-quantum-measurement.html">Addendum 83 — Detector-Boundary Realization Occurs Before Quantum Measurement</a>.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/addenda/addendum-086-the-status-of-a-physical-mapping.html">Addendum 86 — The Status of a Physical Mapping</a>.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/addenda/addendum-101-the-enclosing-relation-before-quantum-representation.html">Addendum 101 — The Enclosing Relation Before Quantum Representation</a>.</li>
+<li>Addendum 102 — Particles Are Imagined.</li>
+<li>Addendum 105 — The Observational Inversion.</li>
+<li><a href="https://r2dscience.github.io/r2d-canon-publication/addenda/addendum-106-angular-momentum-and-nuclear-spectroscopy-as-boundary-relative-count-projections.html">Addendum 106 — Angular Momentum and Nuclear Spectroscopy as Boundary-Relative Count Projections</a>.</li>
+</ul>
+</section>
+<section id="experimental-reference" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-reference">Experimental reference</h2>
+<p>Rauch, H., Zeilinger, A., Badurek, G., Wilfing, A., Bauspiess, W., and Bonse, U. (1975). <em>Verification of coherent spinor rotation of fermions.</em> Physics Letters A, 54(6), 425–427.</p>
+<p>https://doi.org/10.1016/0375-9601(75)90798-7</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../addenda/addendum-128-the-hidden-torus-and-the-enclosing-well.html" class="pagination-link" aria-label="Addendum 128 — The Hidden Torus and the Enclosing Well">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Addendum 128 — The Hidden Torus and the Enclosing Well</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../addenda/addendum-130-closure-recorded-occurrence-and-the-quantum-readability-horizon.html" class="pagination-link" aria-label="Addendum 130 — Closure, Recorded Occurrence, and the Quantum Readability Horizon">
+        <span class="nav-page-text"><span class="chapter-title">Addendum 130 — Closure, Recorded Occurrence, and the Quantum Readability Horizon</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
