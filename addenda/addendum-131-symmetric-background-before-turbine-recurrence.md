@@ -190,9 +190,9 @@ $$\boxed{E(h)M(h')=E(h')M(h).} \tag{131.8}$$
 
 A single-state multiplicity landscape $W_i$ cannot recover the ordered complete-return count. Nor do arbitrary two-time marginal counts necessarily recover it, because records with the same pair incidences may differ in which legs are jointly admitted as one completed closure. A full enclosing record specifies the compatibility of the entire return, not merely individual adjacent transitions.
 
-In a specially constrained three-stage turbine where every nontrivial transition belongs to exactly one disjoint completed three-leg cycle, the count of off-diagonal legs $E_{\rm leg}$ satisfies
+In a specially constrained three-stage turbine where every nontrivial transition belongs to exactly one disjoint completed three-leg cycle, the count of off-diagonal legs $E_{\mathrm{leg}}$ satisfies
 
-$$N_{\mathrm{even}}=\frac{E_{\rm leg}}3.$$
+$$N_{\mathrm{even}}=\frac{E_{\mathrm{leg}}}3.$$
 
 Without the disjoint-complete-cycle condition, this identity is not authorized: partial paths, other cycle lengths, and overlapping decompositions must remain explicit. In particular, the count of an ATP-binding event is not automatically the count of one completed ATPase turbine closure.
 
@@ -208,7 +208,7 @@ $$S_K=\frac{K_++K_-}2,\qquad D_K=\frac{K_+-K_-}2.$$
 
 Then $K_\pm=S_K\pm D_K$. At $D_K=0$, the relation is orientation-symmetric; at $D_K\ne0$, it is orientation-biased. The same local turbine can be admitted under either condition.
 
-Neither equality $K_+=K_-$ nor inequality $K_+\ne K_-$ fixes the **realized** counts $N_\pm$ by itself. In particular, $K_+K_-={\rm constant}$ is *not* a primitive R²D invariant across changes of enclosing condition. The hyperbolic identities available from positive pairs of counts are algebraic, not proofs of physical fixed-product coupling.
+Neither equality $K_+=K_-$ nor inequality $K_+\ne K_-$ fixes the **realized** counts $N_\pm$ by itself. In particular, $K_+K_-={\mathrm{constant}}$ is *not* a primitive R²D invariant across changes of enclosing condition. The hyperbolic identities available from positive pairs of counts are algebraic, not proofs of physical fixed-product coupling.
 
 Part I further distinguishes local closure asymmetry $\Delta A_{\mathcal C}$ from whole-closure recurrence and from the directional occurrence-count efficiency $\eta$. Its recurrence-weighted law is applied only to the specified compatible enclosing transition and representative peer closure. It cannot be repurposed at $\Delta A_{\mathcal C}=0$ to determine the absolute symmetric cycling frequency by division.
 
@@ -250,7 +250,7 @@ The canon already gives enclosing ownership of compatible states and the many-to
 
 In Part II, temperature is a physical read of thermal enclosing compatibility, not a primitive result of aggregating independently energetic molecular objects. For a restricted reservoir mapping,
 
-$$\frac1{k_BT}=-\frac{\partial P^{\rm th}}{\partial\varepsilon}.$$
+$$\frac1{k_BT}=-\frac{\partial P^{\mathrm{th}}}{\partial\varepsilon}.$$
 
 This is a thermodynamic slope calibration, not a native clock law. Likewise,
 

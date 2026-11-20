@@ -76,18 +76,18 @@ $$
 These arrows specify possible ordered comparisons at the subordinate presentation, not physical trajectories. Let the enclosing owner $J$ admit precisely the complete paired class
 
 $$
-\mathcal C_J^{\rm pair}=\{h=\gamma_+\gamma_-\}
+\mathcal C_J^{\mathrm{pair}}=\{h=\gamma_+\gamma_-\}
 \tag{138.5}
 $$
 
-in a comparison whose completion is defined by the **whole reciprocal pair**. Its possible complete-record signature is $(k_+,k_-)=(1,1)$, hence $k_{\rm even}=2$ and $k_{\rm odd}=0$. This is a *possible structural symmetry*, not an equality of realized turbine counts.
+in a comparison whose completion is defined by the **whole reciprocal pair**. Its possible complete-record signature is $(k_+,k_-)=(1,1)$, hence $k_{\mathrm{even}}=2$ and $k_{\mathrm{odd}}=0$. This is a *possible structural symmetry*, not an equality of realized turbine counts.
 
 In the declared one-record domain, the possible complete-record counts are
 
 $$
-W_J^{\rm complete}(\gamma_+)=0,
-\quad W_J^{\rm complete}(\gamma_-)=0,
-\quad W_J^{\rm complete}(h)=1.
+W_J^{\mathrm{complete}}(\gamma_+)=0,
+\quad W_J^{\mathrm{complete}}(\gamma_-)=0,
+\quad W_J^{\mathrm{complete}}(h)=1.
 \tag{138.6}
 $$
 
@@ -96,7 +96,7 @@ The first two equalities mean **not independently complete at $J$**. They do not
 Let a partial-record extension count be
 
 $$
-\Theta_J(s)=|\{h'\in\mathcal C_J^{\rm pair}:s\text{ is a specified compatible part of }h'\}|.
+\Theta_J(s)=|\{h'\in\mathcal C_J^{\mathrm{pair}}:s\text{ is a specified compatible part of }h'\}|.
 \tag{138.7}
 $$
 

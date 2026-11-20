@@ -153,6 +153,12 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    mainfont: "Latin Modern Roman"
+    mainfontfallback:
+      - "latinmodern-math.otf:mode=base"
+    sansfont: "Latin Modern Sans"
+    sansfontfallback:
+      - "latinmodern-math.otf:mode=base"
     include-in-header:
       text: |
         \usepackage{mathtools}

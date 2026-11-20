@@ -175,7 +175,7 @@ $$
 Each cell is assigned one distinct finite label. Let $\mathcal Q_k$ denote this finite cell set and $\mathcal A_k$ the algebra of unions of its cells. Set
 
 $$
-\boxed{U_k^{\rm cell}(A)=\frac{\#\{Q\in\mathcal Q_k:Q\subseteq A\}}{2^{2gk}},\qquad A\in\mathcal A_k.}
+\boxed{U_k^{\mathrm{cell}}(A)=\frac{\#\{Q\in\mathcal Q_k:Q\subseteq A\}}{2^{2gk}},\qquad A\in\mathcal A_k.}
 \tag{155.13}
 $$
 
@@ -193,7 +193,7 @@ $$
 **Lemma 155.2 — Uniform dyadic refinement compatibility.** For $A\in\mathcal A_k$,
 
 $$
-\boxed{U_{k+1}^{\rm cell}(A)=U_k^{\rm cell}(A).}
+\boxed{U_{k+1}^{\mathrm{cell}}(A)=U_k^{\mathrm{cell}}(A).}
 \tag{155.15}
 $$
 
@@ -203,19 +203,19 @@ Because every cell and every distinct refinement is counted exactly once, this i
 
 ## 155.5. Theorem 155.3 — Unique Borel extension of compatible counts
 
-Let $\mathcal A=\bigcup_{k\ge0}\mathcal A_k$ (using the natural inclusion of coarser cell events among finer ones). Lemma 155.2 gives a well-defined normalized nonnegative assignment $U^{\rm cell}$ on this algebra. The $\mathcal A_k$ form a nested family, and their union generates the Borel sigma-algebra of the selected torus $T$.
+Let $\mathcal A=\bigcup_{k\ge0}\mathcal A_k$ (using the natural inclusion of coarser cell events among finer ones). Lemma 155.2 gives a well-defined normalized nonnegative assignment $U^{\mathrm{cell}}$ on this algebra. The $\mathcal A_k$ form a nested family, and their union generates the Borel sigma-algebra of the selected torus $T$.
 
-**Theorem 155.3 — Finite-cell count to Borel measure.** The compatible count assignment (155.13) has a **unique Borel probability-measure extension** $\mu_{\rm count}$ on $T$. For every dyadic cell,
+**Theorem 155.3 — Finite-cell count to Borel measure.** The compatible count assignment (155.13) has a **unique Borel probability-measure extension** $\mu_{\mathrm{count}}$ on $T$. For every dyadic cell,
 
 $$
-\boxed{\mu_{\rm count}(Q_{k,\mathbf j})=2^{-2gk}.}
+\boxed{\mu_{\mathrm{count}}(Q_{k,\mathbf j})=2^{-2gk}.}
 \tag{155.16}
 $$
 
 For every half-open axis-parallel rectangle $R=\prod_{r=1}^{2g}[a_r,b_r)$ represented in the fundamental region,
 
 $$
-\boxed{\mu_{\rm count}(R)=\prod_{r=1}^{2g}(b_r-a_r).}
+\boxed{\mu_{\mathrm{count}}(R)=\prod_{r=1}^{2g}(b_r-a_r).}
 \tag{155.17}
 $$
 
@@ -225,16 +225,16 @@ Dyadic cells generate the selected Borel sigma-algebra, so any two Borel probabi
 
 This theorem is a **count-derived measure extension on a specified real Borel space**. It uses the ordinary mathematical probability-measure extension theorem as part of the representation; it does not identify equally possible labels with equally frequent realized occurrences.
 
-In particular, $\mu_{\rm count}$ is the normalized Lebesgue measure in the selected affine chart. It is also the normalized Haar measure of the compact additive group $T$, since the rectangle formula gives translation invariance and normalized Haar probability is unique.
+In particular, $\mu_{\mathrm{count}}$ is the normalized Lebesgue measure in the selected affine chart. It is also the normalized Haar measure of the compact additive group $T$, since the rectangle formula gives translation invariance and normalized Haar probability is unique.
 
 ### Exact finite example
 
 For $g=1$, consider $E=[0,1/2)\times[0,3/4)$. At resolution $N=4$, six of sixteen cells lie in $E$; at resolution $N=8$, twenty-four of sixty-four do. Therefore
 
 $$
-\boxed{U_2^{\rm cell}(E)=\frac6{16}
-=U_3^{\rm cell}(E)=\frac{24}{64}=\frac38
-=\mu_{\rm count}(E).}
+\boxed{U_2^{\mathrm{cell}}(E)=\frac6{16}
+=U_3^{\mathrm{cell}}(E)=\frac{24}{64}=\frac38
+=\mu_{\mathrm{count}}(E).}
 \tag{155.18}
 $$
 
@@ -243,7 +243,7 @@ For every continuous $f:T\to\mathbb R$, the corresponding uniform grid averages 
 $$
 \boxed{\lim_{k\to\infty}\frac{1}{2^{2gk}}
 \sum_{\mathbf j} f\!\left(\frac{\mathbf j}{2^k}\right)
-=\int_T f\,d\mu_{\rm count}.}
+=\int_T f\,d\mu_{\mathrm{count}}.}
 \tag{155.19}
 $$
 
@@ -280,7 +280,7 @@ The associated positive Liouville measure of a Borel event $E$ is $\mu_L(E)=\int
 **Theorem 155.4 — Exact count/Liouville equality on the selected continuum.** For the chosen real affine completion of the unimodular intersection lattice,
 
 $$
-\boxed{\mu_{\rm count}(E)=\mu_L(E)
+\boxed{\mu_{\mathrm{count}}(E)=\mu_L(E)
 \qquad\text{for every Borel }E\subseteq T.}
 \tag{155.23}
 $$
@@ -332,7 +332,7 @@ $$
 \tag{155.26}
 $$
 
-**Proof.** The finite claim follows because a bijection preserves the cardinality of every event. The integral symplectic identity gives $M^*\omega=\omega$ on the real extension and hence on the torus. Taking the $g$th wedge power preserves the positive Liouville measure, which equals $\mu_{\rm count}$ by Theorem 155.4. $\square$
+**Proof.** The finite claim follows because a bijection preserves the cardinality of every event. The integral symplectic identity gives $M^*\omega=\omega$ on the real extension and hence on the torus. Taking the $g$th wedge power preserves the positive Liouville measure, which equals $\mu_{\mathrm{count}}$ by Theorem 155.4. $\square$
 
 The modular reductions and $M$ commute. The chosen **dyadic parent maps need not commute with $M$**, because an integer symplectic map need not send every dyadic cube to another cube at the same resolution. This is not an obstruction to preservation of the *continuum measure*: that follows from the symplectic identity, not from a false claim of exact cell-partition equivariance.
 
@@ -442,15 +442,15 @@ $$
 The usual physically calibrated canonical form and its positive Liouville density are
 
 $$
-\boxed{\omega_{\rm phys}=\sum_{i=1}^{g}dq_i\wedge dp_i,
-\qquad d\mu_{L,\rm phys}
+\boxed{\omega_{\mathrm{phys}}=\sum_{i=1}^{g}dq_i\wedge dp_i,
+\qquad d\mu_{L,\mathrm{phys}}
 =\prod_{i=1}^{g}dq_i\,dp_i
 =\left(\prod_i\ell_i\kappa_i\right)
 \prod_{i=1}^{g}dx_i\,dy_i.}
 \tag{155.34}
 $$
 
-The product of scales is the physical volume calibration. If the individual products $\ell_i\kappa_i$ differ, $\omega_{\rm phys}$ is not simply a single common multiple of the dimensionless form; its **top-density** has the indicated product factor. The primitive finite count does not determine absolute meters, seconds, momenta, action units, or the numerical calibration of a particular experimental Hamiltonian.
+The product of scales is the physical volume calibration. If the individual products $\ell_i\kappa_i$ differ, $\omega_{\mathrm{phys}}$ is not simply a single common multiple of the dimensionless form; its **top-density** has the indicated product factor. The primitive finite count does not determine absolute meters, seconds, momenta, action units, or the numerical calibration of a particular experimental Hamiltonian.
 
 A microcanonical measure restricted to a physical energy surface is a further **conditional** construction involving a specified Hamiltonian and suitable disintegration or energy-shell measure. It is not identical to the full Liouville measure obtained here.
 
@@ -461,8 +461,8 @@ The cell result depended on a strong, testable mathematical property: **every co
 Consider a coarse owner with two labels $a,b$ assigned equal normalized counts $1/2$ each. Let a finer owner admit one extension of $a$ and three extensions of $b$. Uniform counting on its four fine labels gives pushforward weights
 
 $$
-\boxed{(U_{\rm coarse}(a),U_{\rm coarse}(b))=(1/2,1/2),
-\qquad (r_*U_{\rm fine})(a,b)=(1/4,3/4).}
+\boxed{(U_{\mathrm{coarse}}(a),U_{\mathrm{coarse}}(b))=(1/2,1/2),
+\qquad (r_*U_{\mathrm{fine}})(a,b)=(1/4,3/4).}
 \tag{155.35}
 $$
 
@@ -483,11 +483,11 @@ $$
 \text{finite admitted recurrence labels}
 \Longrightarrow (V_N,I_N,\Sigma_N,U_N),\\
 \text{selected uniform real-affine refinement}
-\Longrightarrow (T,\mathcal B(T),\mu_{\rm count}),\\
+\Longrightarrow (T,\mathcal B(T),\mu_{\mathrm{count}}),\\
 \text{real extension of the complete intersection pairing}
 \Longrightarrow (T,\omega),\\
 \text{exact identification}
-\Longrightarrow \mu_{\rm count}=\mu_L,\\
+\Longrightarrow \mu_{\mathrm{count}}=\mu_L,\\
 \text{admitted smooth Hamiltonian evolution}
 \Longrightarrow (\Phi_t)_*\mu_L=\mu_L.
 \end{gathered}}
@@ -498,7 +498,7 @@ The first arrow is the conditional attachment reconstruction of Addenda 153–15
 
 This is not a claim that standard classical mechanics is false or that its familiar mathematical theorems are newly proved in the abstract. The novel role within R²D is an explicitly ordered **finite consistency witness and reconstruction map** from one specified boundary-owned count relation to a standard continuum measure, with the extra representation conditions stated rather than obscured.
 
-The comparison with mathematical reconstruction programs can now be made on concrete objects: $V_N$, $\Sigma_N$, $U_N$, the two distinct refinement maps, $\mathcal B(T)$, $\mu_{\rm count}$, $I$, $\omega$, and the selected flow $\Phi_t$. This supplies an exact answer to the classical-measure question without assuming that the same argument reconstructs the general nonadditive event structures of quantum measurement.
+The comparison with mathematical reconstruction programs can now be made on concrete objects: $V_N$, $\Sigma_N$, $U_N$, the two distinct refinement maps, $\mathcal B(T)$, $\mu_{\mathrm{count}}$, $I$, $\omega$, and the selected flow $\Phi_t$. This supplies an exact answer to the classical-measure question without assuming that the same argument reconstructs the general nonadditive event structures of quantum measurement.
 
 ## 155.12. Results, limitations, and the next selection question
 
@@ -525,7 +525,7 @@ That selection problem is distinct from—and not a prerequisite for—the exact
 A single complete enclosing intersection structure can support finite count measures whose compatible real-cell refinements reproduce the classical Liouville measure **exactly**. The decisive result is the equality
 
 $$
-\boxed{\mu_{\rm count}(E)=\int_E\left|\frac{\omega^{\wedge g}}{g!}\right|,
+\boxed{\mu_{\mathrm{count}}(E)=\int_E\left|\frac{\omega^{\wedge g}}{g!}\right|,
 \qquad E\in\mathcal B(T),\qquad
 \omega=\sum_{i=1}^{g}dx_i\wedge dy_i.}
 \tag{155.37}
